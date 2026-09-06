@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "checks": "48 legal independently screened prefixes; immutable file hashes; 48 distinct first-eight-ply board families and starts; no prefix/transposition overlap with training; separate dev and final families; 16 predeclared guard subset indices.",
+  "reports": {
+    "development": {
+      "positions": 8,
+      "group_counts": {
+        "flank": 2,
+        "e4": 3,
+        "d4": 3
+      },
+      "eco_counts": {
+        "A01": 1,
+        "A48": 1,
+        "B02": 1,
+        "B23": 1,
+        "C24": 1,
+        "D04": 1,
+        "D30": 1,
+        "E81": 1
+      },
+      "mean_developed_minors": 5.5,
+      "minimum_developed_minors": 4,
+      "castling": {
+        "one": 7,
+        "same": 1
+      },
+      "with_locked_central_pawns": 0,
+      "score_range_white_cp": [
+        -45,
+        53
+      ]
+    },
+    "holdout": {
+      "positions": 40,
+      "group_counts": {
+        "flank": 8,
+        "e4": 16,
+        "d4": 16
+      },
+      "eco_counts": {
+        "A00": 2,
+        "A01": 2,
+        "A02": 1,
+        "A13": 1,
+        "A14": 1,
+        "A41": 2,
+        "A45": 2,
+        "A46": 1,
+        "A48": 1,
+        "A50": 1,
+        "B00": 2,
+        "B06": 1,
+        "B12": 1,
+        "B40": 1,
+        "B50": 1,
+        "C03": 1,
+        "C12": 1,
+        "C15": 1,
+        "C20": 1,
+        "C23": 1,
+        "C26": 1,
+        "C46": 2,
+        "C60": 1,
+        "C65": 1,
+        "D02": 1,
+        "D03": 1,
+        "D25": 1,
+        "D30": 1,
+        "D31": 1,
+        "D35": 1,
+        "E00": 1,
+        "E60": 3
+      },
+      "mean_developed_minors": 6.05,
+      "minimum_developed_minors": 4,
+      "castling": {
+        "opposite": 3,
+        "same": 21,
+        "one": 16
+      },
+      "with_locked_central_pawns": 19,
+      "score_range_white_cp": [
+        -35,
+        70
+      ]
+    }
+  },
+  "guard_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    18,
+    19,
+    20
+  ]
+}

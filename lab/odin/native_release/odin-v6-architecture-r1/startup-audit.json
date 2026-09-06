@@ -1,0 +1,20 @@
+{
+  "pass": true,
+  "scope": "Startup metadata and completed-game operational/replay checks only. This is not a completed112-game result or promotion gate.",
+  "plan_sha256": "929bb3249d938ebf0435668f206be00e220e55a4e6e5b47056c90ad7c891debe",
+  "lanes": [
+    {
+      "lane": "a",
+      "games_checked": 0,
+      "source_log_sha256": "b7bf0f423d70017325bdd819d3e2a444100b8904136d2eb6234fb084f1011b96"
+    },
+    {
+      "lane": "b",
+      "games_checked": 1,
+      "source_log_sha256": "a9a62bcd39f949329b02bbe3de06b64600a5d6b4ddb4c123f1c802c470201e78"
+    }
+  ],
+  "games_checked": 1,
+  "plies_checked": 21,
+  "errors": []
+}

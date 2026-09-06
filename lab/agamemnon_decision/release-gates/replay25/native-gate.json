@@ -1,0 +1,924 @@
+{
+  "verdict": "PASS",
+  "runtime": {
+    "python": "3.12.3",
+    "executable": "/home/botuser/chess-tk/.venv/bin/python",
+    "platform": "Linux-6.8.0-90-generic-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "cpu_models": [
+      "AMD EPYC-Genoa Processor"
+    ],
+    "controller_affinity": [
+      0,
+      1
+    ],
+    "packages": {
+      "chess": "1.11.2",
+      "numpy": "2.5.2",
+      "numba": "0.67.0",
+      "llvmlite": "0.49.0"
+    }
+  },
+  "cpu": 0,
+  "service_runtime_limit_s": 900,
+  "cold_target_s": 80.0,
+  "odin_rules_required": true,
+  "limitations": [
+    "Signer CPU differs from competition CPU.",
+    "Read-only source uses modes, without a read-only root mount.",
+    "Private temp has no aggregate 256 MiB filesystem quota."
+  ],
+  "archive": {
+    "source_path": "/home/botuser/chess-sign-odin-20260905/agamemnon-confirm-replay25/candidate-linux-x86.zip",
+    "sha256": "a72338865851743b0f50ce2796c20eb3c3cc88f66c2e91c83e970e83fa36b58c",
+    "zip_bytes": 342640,
+    "uncompressed_bytes": 466388,
+    "entry_count": 15,
+    "private_snapshot_verified": true,
+    "entries": [
+      {
+        "name": "agent.py",
+        "compressed_bytes": 1464,
+        "uncompressed_bytes": 3969,
+        "sha256": "18d398d1135bec4c402962f20b66a96b395edd61ff1a2e0d38058bd9ad8f0708"
+      },
+      {
+        "name": "bitops_nb.py",
+        "compressed_bytes": 866,
+        "uncompressed_bytes": 2286,
+        "sha256": "34f606a1a6bd60d492a90072ff236f15d97c000e131a567c214b59f85baabb58"
+      },
+      {
+        "name": "board_nb.py",
+        "compressed_bytes": 3513,
+        "uncompressed_bytes": 13207,
+        "sha256": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d"
+      },
+      {
+        "name": "core_nb.py",
+        "compressed_bytes": 15701,
+        "uncompressed_bytes": 80211,
+        "sha256": "2f3ea85f30d47d227a220149f446ad0506f127bcebef22024f40486be91bd8b2"
+      },
+      {
+        "name": "endgame_exact.py",
+        "compressed_bytes": 1200,
+        "uncompressed_bytes": 2644,
+        "sha256": "631868dc108ca451133cdbbd4f4888ff4e9e6208b80d17595e5afa70b326543e"
+      },
+      {
+        "name": "eval_nb.py",
+        "compressed_bytes": 2792,
+        "uncompressed_bytes": 8267,
+        "sha256": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f"
+      },
+      {
+        "name": "history.py",
+        "compressed_bytes": 1791,
+        "uncompressed_bytes": 5082,
+        "sha256": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e"
+      },
+      {
+        "name": "movegen_nb.py",
+        "compressed_bytes": 2004,
+        "uncompressed_bytes": 8581,
+        "sha256": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c"
+      },
+      {
+        "name": "search_nb.py",
+        "compressed_bytes": 3986,
+        "uncompressed_bytes": 15989,
+        "sha256": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6"
+      },
+      {
+        "name": "storm_clock.py",
+        "compressed_bytes": 3298,
+        "uncompressed_bytes": 8845,
+        "sha256": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8"
+      },
+      {
+        "name": "tables_nb.py",
+        "compressed_bytes": 1361,
+        "uncompressed_bytes": 3561,
+        "sha256": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007"
+      },
+      {
+        "name": "three_piece_dtm.npz",
+        "compressed_bytes": 248756,
+        "uncompressed_bytes": 257222,
+        "sha256": "8a5d9742eed9c7e40b2001b5b37d30c22513d54659da69d4e93caa088e77014f"
+      },
+      {
+        "name": "time_nb.py",
+        "compressed_bytes": 461,
+        "uncompressed_bytes": 899,
+        "sha256": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8"
+      },
+      {
+        "name": "tt_nb.py",
+        "compressed_bytes": 849,
+        "uncompressed_bytes": 2346,
+        "sha256": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+      },
+      {
+        "name": "value.npz",
+        "compressed_bytes": 53088,
+        "uncompressed_bytes": 53279,
+        "sha256": "54105c600af0378e3c0fc221b387f5689efe3a2ccd2080da2d014cbf68585579"
+      }
+    ]
+  },
+  "source_provenance": {
+    "lab/odin/release/linux_match.py": "d2cfce7f2de709e25e3899c91aad1420e2313e1191811b76451d83152baf60ca",
+    "lab/odin/release/plan.py": "f64a5730257a394c5889e6d0a93e4936f3ab5eb760b79f40097739487c331d7a",
+    "lab/odin/release/validate_match.py": "53c7bcbc6810302188a0f7046ed4ae48d163c35d4a7e6ee91403485e9cee6531",
+    "lab/laptop_match.py": "bdaa949ee65c13cd586bfc17537818fdb3e389e3acf40b8a694e35217b58f7e8",
+    "lab/laptop_runner.py": "57f3c62d7a5070436ebbb056c65e7394d292b692309a263139298767a5e7c61e",
+    "lab/release_audit.py": "ecfd901d3868dc6e293172051aa83d64fe658486e40f1b16b31cf4d0e8b838c2",
+    "lab/paired_match_stats.py": "8ce432d0d23404af5d8b0c5785bc2fca8f976e8fc601b38c5828672b90e257ef",
+    "official/harness/referee.py": "9a99a885ae3926522138788ef9f7526d1873a474826177076005fec51129b509",
+    "official/harness/rules.py": "72737d2ec7e524e72873127c43fe9cd356e9dac2337ce84d14ca9abd35061710",
+    "official/harness/runner.py": "da81957fd55536691e635f44e7fe1fc3666712cdd2266a2214eb3943034c2501",
+    "official/harness/sandbox.py": "a972d6f9e64fc7ee2dda55fee37aba0989d84aec4d5c5e3dbddff20bb7457c55"
+  },
+  "gate_provenance": {
+    "lab/odin/release/native_gate.py": "af6748cec83f884ac87b44bc0ab83351a1720ae860842b1399022cc5393bd5b4",
+    "lab/perft.py": "5ae7cc45621f407411bcaa102a86308b5c047c27e409d4434fdbc4056beb3d62"
+  },
+  "structural": {
+    "verdict": "PASS",
+    "source": "/tmp/chesstk-odin-gate-2aim2kt5/structural/source",
+    "cold_agent_import_s": 35.31942798756063,
+    "search_root_signature": "(pos, packed_root, hard_ms, soft_ms, adjudicate, game_zkeys) -> 'int'",
+    "warmup_s": 35.05026935599744,
+    "original_numba_ready": true,
+    "nopython_root_signatures": [
+      "(Array(uint64, 1, 'C', False, aligned=True), Array(int8, 1, 'C', False, aligned=True), Array(uint64, 1, 'C', False, aligned=True), Array(int32, 1, 'C', False, aligned=True), int64, int64, Array(uint64, 1, 'C', False, aligned=True), int64, int64, int64, int64, int64, int64, int64, Array(uint64, 2, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(uint64, 1, 'C', False, aligned=True), Array(int32, 1, 'C', False, aligned=True), Array(int16, 1, 'C', False, aligned=True), Array(uint8, 1, 'C', False, aligned=True), Array(uint8, 1, 'C', False, aligned=True), Array(int32, 1, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(float32, 2, 'C', False, aligned=True), Array(uint64, 1, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(int64, 1, 'C', False, aligned=True), Array(int32, 1, 'C', False, aligned=True)) -> Tuple(int32, int64)"
+    ],
+    "perft": [
+      {
+        "name": "startpos",
+        "depth": 3,
+        "nodes": 8902,
+        "seconds": 0.00039833784103393555
+      },
+      {
+        "name": "kiwipete",
+        "depth": 3,
+        "nodes": 97862,
+        "seconds": 0.002591041848063469
+      },
+      {
+        "name": "cpw3",
+        "depth": 3,
+        "nodes": 2812,
+        "seconds": 0.0001872517168521881
+      },
+      {
+        "name": "cpw4",
+        "depth": 3,
+        "nodes": 9467,
+        "seconds": 0.00031282752752304077
+      },
+      {
+        "name": "cpw5",
+        "depth": 3,
+        "nodes": 62379,
+        "seconds": 0.001571163535118103
+      },
+      {
+        "name": "cpw6",
+        "depth": 3,
+        "nodes": 89890,
+        "seconds": 0.0019074343144893646
+      }
+    ],
+    "deadline_probes": [
+      {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "hard_ms": 30,
+        "elapsed_ms": 4.533028230071068,
+        "move": "d2d4",
+        "info": {
+          "depth": 3,
+          "score": 18,
+          "nodes": 1404,
+          "elapsed_ms": 4.4557079672813416,
+          "target_ms": 0.0,
+          "hard_ms": 30.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              263883,
+              25,
+              46,
+              0.04,
+              false
+            ],
+            [
+              2,
+              263948,
+              23,
+              196,
+              0.77,
+              false
+            ],
+            [
+              3,
+              263883,
+              18,
+              1162,
+              3.51,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "hard_ms": 100,
+        "elapsed_ms": 0.426270067691803,
+        "move": "d2d4",
+        "info": {
+          "depth": 3,
+          "score": 18,
+          "nodes": 171,
+          "elapsed_ms": 0.3687795251607895,
+          "target_ms": 0.0,
+          "hard_ms": 100.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              1350,
+              23,
+              42,
+              0.04,
+              false
+            ],
+            [
+              2,
+              263883,
+              18,
+              63,
+              0.17,
+              false
+            ],
+            [
+              3,
+              263883,
+              18,
+              66,
+              0.04,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "hard_ms": 300,
+        "elapsed_ms": 0.24804845452308655,
+        "move": "d2d4",
+        "info": {
+          "depth": 3,
+          "score": 18,
+          "nodes": 171,
+          "elapsed_ms": 0.1988094300031662,
+          "target_ms": 0.0,
+          "hard_ms": 300.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              1350,
+              23,
+              42,
+              0.03,
+              false
+            ],
+            [
+              2,
+              263883,
+              18,
+              63,
+              0.04,
+              false
+            ],
+            [
+              3,
+              263883,
+              18,
+              66,
+              0.04,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1",
+        "hard_ms": 30,
+        "elapsed_ms": 5.315924063324928,
+        "move": "d5e6",
+        "info": {
+          "depth": 3,
+          "score": -6,
+          "nodes": 1813,
+          "elapsed_ms": 5.271613597869873,
+          "target_ms": 0.0,
+          "hard_ms": 30.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              35340,
+              51,
+              151,
+              0.62,
+              false
+            ],
+            [
+              2,
+              35340,
+              51,
+              286,
+              1.07,
+              false
+            ],
+            [
+              3,
+              35619,
+              -6,
+              1376,
+              3.48,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1",
+        "hard_ms": 100,
+        "elapsed_ms": 0.24955719709396362,
+        "move": "d5e6",
+        "info": {
+          "depth": 3,
+          "score": -6,
+          "nodes": 222,
+          "elapsed_ms": 0.20114704966545105,
+          "target_ms": 0.0,
+          "hard_ms": 100.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              35619,
+              -6,
+              111,
+              0.06,
+              false
+            ],
+            [
+              2,
+              35619,
+              -6,
+              50,
+              0.03,
+              false
+            ],
+            [
+              3,
+              35619,
+              -6,
+              61,
+              0.03,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1",
+        "hard_ms": 300,
+        "elapsed_ms": 0.27691759169101715,
+        "move": "d5e6",
+        "info": {
+          "depth": 3,
+          "score": -6,
+          "nodes": 222,
+          "elapsed_ms": 0.23733265697956085,
+          "target_ms": 0.0,
+          "hard_ms": 300.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              35619,
+              -6,
+              111,
+              0.06,
+              false
+            ],
+            [
+              2,
+              35619,
+              -6,
+              50,
+              0.03,
+              false
+            ],
+            [
+              3,
+              35619,
+              -6,
+              61,
+              0.05,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "8/2p5/3p4/KP5r/1R3p1k/8/4P1P1/8 w - - 0 1",
+        "hard_ms": 30,
+        "elapsed_ms": 2.384604886174202,
+        "move": "b4c4",
+        "info": {
+          "depth": 3,
+          "score": 75,
+          "nodes": 1070,
+          "elapsed_ms": 2.3369137197732925,
+          "target_ms": 0.0,
+          "hard_ms": 30.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              34649,
+              95,
+              39,
+              0.13,
+              false
+            ],
+            [
+              2,
+              1689,
+              75,
+              310,
+              0.87,
+              false
+            ],
+            [
+              3,
+              1689,
+              75,
+              721,
+              1.25,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "8/2p5/3p4/KP5r/1R3p1k/8/4P1P1/8 w - - 0 1",
+        "hard_ms": 100,
+        "elapsed_ms": 0.31079910695552826,
+        "move": "b4f4",
+        "info": {
+          "depth": 3,
+          "score": 106,
+          "nodes": 268,
+          "elapsed_ms": 0.27318112552165985,
+          "target_ms": 0.0,
+          "hard_ms": 100.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              34649,
+              95,
+              36,
+              0.03,
+              false
+            ],
+            [
+              2,
+              1689,
+              75,
+              67,
+              0.05,
+              false
+            ],
+            [
+              3,
+              34649,
+              106,
+              165,
+              0.14,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "8/2p5/3p4/KP5r/1R3p1k/8/4P1P1/8 w - - 0 1",
+        "hard_ms": 300,
+        "elapsed_ms": 0.15821121633052826,
+        "move": "b4f4",
+        "info": {
+          "depth": 3,
+          "score": 106,
+          "nodes": 59,
+          "elapsed_ms": 0.11906959116458893,
+          "target_ms": 0.0,
+          "hard_ms": 300.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              34649,
+              106,
+              28,
+              0.02,
+              false
+            ],
+            [
+              2,
+              34649,
+              106,
+              16,
+              0.02,
+              false
+            ],
+            [
+              3,
+              34649,
+              106,
+              15,
+              0.01,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "4k3/8/8/3pP3/8/8/8/4K3 w - d6 0 1",
+        "hard_ms": 30,
+        "elapsed_ms": 0.55672787129879,
+        "move": "e1d2",
+        "info": {
+          "depth": 3,
+          "score": 37,
+          "nodes": 235,
+          "elapsed_ms": 0.5142092704772949,
+          "target_ms": 0.0,
+          "hard_ms": 30.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              101092,
+              215,
+              16,
+              0.06,
+              false
+            ],
+            [
+              2,
+              101092,
+              145,
+              21,
+              0.04,
+              false
+            ],
+            [
+              3,
+              708,
+              37,
+              198,
+              0.35,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "4k3/8/8/3pP3/8/8/8/4K3 w - d6 0 1",
+        "hard_ms": 100,
+        "elapsed_ms": 0.19570067524909973,
+        "move": "e1d2",
+        "info": {
+          "depth": 3,
+          "score": 37,
+          "nodes": 48,
+          "elapsed_ms": 0.15274062752723694,
+          "target_ms": 0.0,
+          "hard_ms": 100.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              2852,
+              95,
+              14,
+              0.04,
+              false
+            ],
+            [
+              2,
+              708,
+              37,
+              16,
+              0.03,
+              false
+            ],
+            [
+              3,
+              708,
+              37,
+              18,
+              0.02,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "4k3/8/8/3pP3/8/8/8/4K3 w - d6 0 1",
+        "hard_ms": 300,
+        "elapsed_ms": 0.13672932982444763,
+        "move": "e1d2",
+        "info": {
+          "depth": 3,
+          "score": 37,
+          "nodes": 48,
+          "elapsed_ms": 0.09712949395179749,
+          "target_ms": 0.0,
+          "hard_ms": 300.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              2852,
+              95,
+              14,
+              0.01,
+              false
+            ],
+            [
+              2,
+              708,
+              37,
+              16,
+              0.01,
+              false
+            ],
+            [
+              3,
+              708,
+              37,
+              18,
+              0.01,
+              false
+            ]
+          ]
+        }
+      }
+    ],
+    "current_rules_and_history_probes": [
+      {
+        "fen": "7k/7p/8/8/8/8/P7/K7 b - - 0 300",
+        "move": "h7h6",
+        "score": 0
+      },
+      {
+        "fen": "8/8/8/8/8/k7/2q5/K7 b - - 0 300",
+        "move": "c2c1",
+        "score": 31999
+      },
+      {
+        "history_length": 500,
+        "move": "a1b2",
+        "elapsed_ms": 0.3606993705034256
+      },
+      {
+        "history_length": 620,
+        "move": "a1b2",
+        "elapsed_ms": 0.19466690719127655
+      },
+      {
+        "history_length": 750,
+        "move": "a1b2",
+        "elapsed_ms": 0.1982506364583969
+      },
+      {
+        "history_length": 900,
+        "move": "a1b2",
+        "elapsed_ms": 0.24443864822387695
+      }
+    ]
+  },
+  "structural_service": {
+    "role": "candidate",
+    "cpu": 0,
+    "unit": "chesstk-odin-gate-c47bb5ce65844d4dacd5d93706278566-structural.service",
+    "init_s": 35.44,
+    "move_count": 0,
+    "move_total_ms": 0,
+    "move_max_ms": 0,
+    "move_median_ms": 0,
+    "moves": [],
+    "memory_peak_bytes": 423497728,
+    "memory_samples": [
+      {
+        "RuntimeMaxUSec": "15min",
+        "MainPID": "3572566",
+        "Result": "success",
+        "ControlGroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/chesstk-odin-gate-c47bb5ce65844d4dacd5d93706278566-structural.service",
+        "MemoryCurrent": "423268352",
+        "MemoryPeak": "423497728",
+        "CPUQuotaPerSecUSec": "1s",
+        "MemoryMax": "2147483648",
+        "MemorySwapMax": "0",
+        "TasksMax": "128",
+        "LimitFSIZE": "268435456",
+        "CPUAffinity": "0",
+        "NoNewPrivileges": "yes",
+        "RestrictAddressFamilies": "AF_UNIX",
+        "LoadState": "loaded",
+        "ActiveState": "active",
+        "SubState": "running",
+        "query_returncode": 0,
+        "phase": "after_init"
+      },
+      {
+        "RuntimeMaxUSec": "15min",
+        "MainPID": "3572566",
+        "Result": "success",
+        "ControlGroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/chesstk-odin-gate-c47bb5ce65844d4dacd5d93706278566-structural.service",
+        "MemoryCurrent": "423268352",
+        "MemoryPeak": "423497728",
+        "CPUQuotaPerSecUSec": "1s",
+        "MemoryMax": "2147483648",
+        "MemorySwapMax": "0",
+        "TasksMax": "128",
+        "LimitFSIZE": "268435456",
+        "CPUAffinity": "0",
+        "NoNewPrivileges": "yes",
+        "RestrictAddressFamilies": "AF_UNIX",
+        "LoadState": "loaded",
+        "ActiveState": "active",
+        "SubState": "running",
+        "query_returncode": 0,
+        "phase": "before_stop"
+      }
+    ],
+    "envelope_errors": [],
+    "cleanup_error": null,
+    "search_telemetry": [],
+    "stderr_tail": ""
+  },
+  "structural_extraction_errors": [],
+  "protocol": {
+    "cold_agent_import_s": 34.35173851251602,
+    "moves": [
+      {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "time_left_ms": 100,
+        "move": "g1h3",
+        "elapsed_ms": 1.1673234403133392
+      },
+      {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "time_left_ms": 450,
+        "move": "g1h3",
+        "elapsed_ms": 0.8369684219360352
+      },
+      {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "time_left_ms": 1000,
+        "move": "e2e4",
+        "elapsed_ms": 453.4821677953005
+      },
+      {
+        "fen": "4k3/8/8/3pP3/8/8/8/4K3 w - d6 0 1",
+        "time_left_ms": 1000,
+        "move": "e1f2",
+        "elapsed_ms": 600.26522167027
+      }
+    ]
+  },
+  "protocol_service": {
+    "role": "candidate",
+    "cpu": 0,
+    "unit": "chesstk-odin-gate-d851ad51e2f544d2bba5607f92df2a3b-protocol.service",
+    "init_s": 34.352,
+    "move_count": 4,
+    "move_total_ms": 1055.715,
+    "move_max_ms": 600.255,
+    "move_median_ms": 227.31400000000002,
+    "moves": [
+      {
+        "request": 1,
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "time_left_ms": 100,
+        "ok": true,
+        "move": "g1h3",
+        "elapsed_ms": 1.158
+      },
+      {
+        "request": 2,
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "time_left_ms": 450,
+        "ok": true,
+        "move": "g1h3",
+        "elapsed_ms": 0.832
+      },
+      {
+        "request": 3,
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "time_left_ms": 1000,
+        "ok": true,
+        "move": "e2e4",
+        "elapsed_ms": 453.47
+      },
+      {
+        "request": 4,
+        "fen": "4k3/8/8/3pP3/8/8/8/4K3 w - d6 0 1",
+        "time_left_ms": 1000,
+        "ok": true,
+        "move": "e1f2",
+        "elapsed_ms": 600.255
+      }
+    ],
+    "memory_peak_bytes": 458350592,
+    "memory_samples": [
+      {
+        "RuntimeMaxUSec": "15min",
+        "MainPID": "3572686",
+        "Result": "success",
+        "ControlGroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/chesstk-odin-gate-d851ad51e2f544d2bba5607f92df2a3b-protocol.service",
+        "MemoryCurrent": "412311552",
+        "MemoryPeak": "412344320",
+        "CPUQuotaPerSecUSec": "1s",
+        "MemoryMax": "2147483648",
+        "MemorySwapMax": "0",
+        "TasksMax": "128",
+        "LimitFSIZE": "268435456",
+        "CPUAffinity": "0",
+        "NoNewPrivileges": "yes",
+        "RestrictAddressFamilies": "AF_UNIX",
+        "LoadState": "loaded",
+        "ActiveState": "active",
+        "SubState": "running",
+        "query_returncode": 0,
+        "phase": "after_init"
+      },
+      {
+        "RuntimeMaxUSec": "15min",
+        "MainPID": "3572686",
+        "Result": "success",
+        "ControlGroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/chesstk-odin-gate-d851ad51e2f544d2bba5607f92df2a3b-protocol.service",
+        "MemoryCurrent": "456224768",
+        "MemoryPeak": "458350592",
+        "CPUQuotaPerSecUSec": "1s",
+        "MemoryMax": "2147483648",
+        "MemorySwapMax": "0",
+        "TasksMax": "128",
+        "LimitFSIZE": "268435456",
+        "CPUAffinity": "0",
+        "NoNewPrivileges": "yes",
+        "RestrictAddressFamilies": "AF_UNIX",
+        "LoadState": "loaded",
+        "ActiveState": "active",
+        "SubState": "running",
+        "query_returncode": 0,
+        "phase": "before_stop"
+      }
+    ],
+    "envelope_errors": [],
+    "cleanup_error": null,
+    "search_telemetry": [
+      {
+        "game_ply": 0,
+        "depth": 10,
+        "nodes": 544061,
+        "score": 30,
+        "elapsed_ms": 452,
+        "target_ms": 435
+      },
+      {
+        "game_ply": 0,
+        "depth": 36,
+        "nodes": 865280,
+        "score": 0,
+        "elapsed_ms": 598,
+        "target_ms": 278
+      }
+    ],
+    "stderr_tail": "S4 p0 d10 n544061 s30 t452 b435\nS4 p0 d36 n865280 s0 t598 b278\n"
+  },
+  "protocol_extraction_errors": []
+}

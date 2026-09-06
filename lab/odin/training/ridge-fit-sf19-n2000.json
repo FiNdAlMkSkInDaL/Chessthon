@@ -1,0 +1,71 @@
+{
+  "labels": 19974,
+  "train_labels": 15100,
+  "validation_labels": 4874,
+  "feature_names": [
+    "pawn_isolated",
+    "pawn_doubled",
+    "pawn_supported",
+    "passed_advance",
+    "passed_blocked",
+    "passer_friendly_king_distance",
+    "passer_enemy_king_distance",
+    "rook_open_file",
+    "rook_semi_open_file",
+    "king_shelter",
+    "king_file_open"
+  ],
+  "feature_units": "White-minus-black signed integer geometry counts; independent MG/EG coefficients blend by material phase, with no runtime lookup positions.",
+  "optimizer": {
+    "ridge": 200.0,
+    "huber_cp": 200.0,
+    "irls_iterations": 8
+  },
+  "coefficients_mg_cp_per_unit": {
+    "pawn_isolated": -8.989663,
+    "pawn_doubled": -31.274886,
+    "pawn_supported": -5.900074,
+    "passed_advance": 9.811587,
+    "passed_blocked": -16.261319,
+    "passer_friendly_king_distance": -1.679814,
+    "passer_enemy_king_distance": 2.213416,
+    "rook_open_file": -2.997791,
+    "rook_semi_open_file": 21.238773,
+    "king_shelter": -12.656444,
+    "king_file_open": -139.116641
+  },
+  "coefficients_eg_cp_per_unit": {
+    "pawn_isolated": -12.298116,
+    "pawn_doubled": 8.426661,
+    "pawn_supported": 23.427951,
+    "passed_advance": 9.685959,
+    "passed_blocked": -75.093659,
+    "passer_friendly_king_distance": -4.254314,
+    "passer_enemy_king_distance": 4.88548,
+    "rook_open_file": -153.779049,
+    "rook_semi_open_file": -113.6136,
+    "king_shelter": 15.376569,
+    "king_file_open": 28.764877
+  },
+  "baseline": {
+    "train": {
+      "mae_cp": 276.052,
+      "rmse_cp": 424.824
+    },
+    "validation": {
+      "mae_cp": 275.292,
+      "rmse_cp": 426.69
+    }
+  },
+  "corrected": {
+    "train": {
+      "mae_cp": 273.222,
+      "rmse_cp": 419.216
+    },
+    "validation": {
+      "mae_cp": 273.104,
+      "rmse_cp": 421.911
+    }
+  },
+  "acceptance": "Candidate weights require lower validation error and separate native symmetry/cost/game gates before merger."
+}

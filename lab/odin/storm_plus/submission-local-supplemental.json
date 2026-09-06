@@ -1,0 +1,34 @@
+{
+  "scope": "Supplemental SEE/EP/all-root/warmup checks",
+  "cases": [
+    {
+      "see": "g1g7",
+      "expected": 100
+    },
+    {
+      "see": "c5d6",
+      "expected": 100
+    },
+    {
+      "see": "e5d6",
+      "expected": 100
+    },
+    {
+      "ep": "4k3/8/8/3pP3/8/8/8/4K3 w - d6 0 1",
+      "legal": true
+    },
+    {
+      "ep": "4k3/8/8/r4pPK/8/8/8/8 w - f6 0 1",
+      "legal": false
+    },
+    {
+      "ep": "4k3/8/8/3p4/8/8/8/4K3 w - d6 0 1",
+      "legal": false
+    }
+  ],
+  "test_sha256": "a87ac8c714a2c5ea2fa8d2967674c77e5d7e7a8a510d29eab3d04c022fc6dea1",
+  "cold_s": 58.44189159999951,
+  "total_fifty_cases": 15,
+  "first_live_ms": 198.91409999945608,
+  "verdict": "PASS"
+}

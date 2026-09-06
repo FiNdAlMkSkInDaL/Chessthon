@@ -1,0 +1,2338 @@
+{
+  "source_hashes": {
+    "agent.py": "f8df2dbd7dde24c50d74fd13d8d7f31e9f380bab0302bc662f9e6828b9b88fde",
+    "bitops_nb.py": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+    "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+    "core_nb.py": "693ab5e4ec1e126381e11beffce35d023be6cc132b1e4223712c0c163450e69f",
+    "eval_nb.py": "607d3d8c9094a24ebfeff4088f6354b5acc320aa98e681be179f333c4e003ca7",
+    "history.py": "7f23e9aace3c41d9c22d1b289b7a2c5d70436f67a4e0df727ce61959ecb5be5c",
+    "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+    "search_nb.py": "70c67fd50f855d495a88fb32b02e5642f8ae3e1eb8dbeaf9ad831bd4237dd894",
+    "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+    "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+    "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+    "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+  },
+  "python": "3.12.3",
+  "machine": "x86_64",
+  "packages": {
+    "chess": "1.11.2",
+    "numba": "0.67.0",
+    "numpy": "2.5.2",
+    "llvmlite": "0.49.0"
+  },
+  "affinity": [
+    0
+  ],
+  "cold_s": 44.76451364904642,
+  "warmup_s": 44.463539365679026,
+  "positions": [
+    {
+      "id": "site-r16-ply32",
+      "fen": "1r3r2/p4pk1/3pp1p1/q1p1n2p/b3PN1P/2PP2P1/P2Q1PB1/2R1R1K1 w - - 4 24",
+      "history_length": 33,
+      "history_pair": false,
+      "halfmove": 4,
+      "move": "d3d4",
+      "elapsed_ms": 1000.5493257194757,
+      "info": {
+        "depth": 9,
+        "score": 41,
+        "nodes": 692224,
+        "elapsed_ms": 1000.4778988659382,
+        "initial_soft_ms": 1000,
+        "target_ms": 1000.0,
+        "hard_ms": 1000,
+        "retry_nodes": 0,
+        "aborted_work": 328490,
+        "stop_reason": "deadline",
+        "absolute_ply": 46,
+        "aborted": true,
+        "trace": [
+          {
+            "depth": 1,
+            "move": 1032,
+            "score": 67,
+            "nodes": 85,
+            "ms": 0.14,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.023529411764705882
+          },
+          {
+            "depth": 2,
+            "move": 779,
+            "score": 62,
+            "nodes": 732,
+            "ms": 0.95,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.3046448087431694
+          },
+          {
+            "depth": 3,
+            "move": 1747,
+            "score": 65,
+            "nodes": 2385,
+            "ms": 3.71,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.1811320754716981
+          },
+          {
+            "depth": 4,
+            "move": 1747,
+            "score": 61,
+            "nodes": 3572,
+            "ms": 8.05,
+            "initial_window": [
+              40,
+              90
+            ],
+            "final_window": [
+              40,
+              90
+            ],
+            "aspiration": "none",
+            "root_effort": 0.09462486002239642
+          },
+          {
+            "depth": 5,
+            "move": 1747,
+            "score": 47,
+            "nodes": 9670,
+            "ms": 14.39,
+            "initial_window": [
+              36,
+              86
+            ],
+            "final_window": [
+              36,
+              86
+            ],
+            "aspiration": "none",
+            "root_effort": 0.19358841778697
+          },
+          {
+            "depth": 6,
+            "move": 779,
+            "score": 44,
+            "nodes": 18456,
+            "ms": 20.66,
+            "initial_window": [
+              22,
+              72
+            ],
+            "final_window": [
+              22,
+              72
+            ],
+            "aspiration": "none",
+            "root_effort": 0.3343628088426528
+          },
+          {
+            "depth": 7,
+            "move": 779,
+            "score": 44,
+            "nodes": 31328,
+            "ms": 39.45,
+            "initial_window": [
+              19,
+              69
+            ],
+            "final_window": [
+              19,
+              69
+            ],
+            "aspiration": "none",
+            "root_effort": 0.12190372829417773
+          },
+          {
+            "depth": 8,
+            "move": 779,
+            "score": 38,
+            "nodes": 167135,
+            "ms": 250.53,
+            "initial_window": [
+              19,
+              69
+            ],
+            "final_window": [
+              19,
+              69
+            ],
+            "aspiration": "none",
+            "root_effort": 0.5303915996051096
+          },
+          {
+            "depth": 9,
+            "move": 1747,
+            "score": 41,
+            "nodes": 130371,
+            "ms": 192.12,
+            "initial_window": [
+              13,
+              63
+            ],
+            "final_window": [
+              13,
+              63
+            ],
+            "aspiration": "none",
+            "root_effort": 0.23099462303733193
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-r16-ply40",
+      "fen": "1r4k1/p4p2/1r1pp1p1/q1p1n2p/b3PN1P/2PP1PP1/P2QR1B1/2R3K1 w - - 5 28",
+      "history_length": 41,
+      "history_pair": false,
+      "halfmove": 5,
+      "move": "d2e3",
+      "elapsed_ms": 698.8247185945511,
+      "info": {
+        "depth": 11,
+        "score": -1,
+        "nodes": 557684,
+        "elapsed_ms": 698.786161839962,
+        "initial_soft_ms": 1000,
+        "target_ms": 1000.0,
+        "hard_ms": 1000,
+        "retry_nodes": 0,
+        "aborted_work": 0,
+        "stop_reason": "controller",
+        "absolute_ply": 54,
+        "aborted": false,
+        "trace": [
+          {
+            "depth": 1,
+            "move": 268,
+            "score": 58,
+            "nodes": 83,
+            "ms": 0.11,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.08433734939759036
+          },
+          {
+            "depth": 2,
+            "move": 1747,
+            "score": 31,
+            "nodes": 621,
+            "ms": 0.71,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.3140096618357488
+          },
+          {
+            "depth": 3,
+            "move": 1747,
+            "score": 9,
+            "nodes": 1524,
+            "ms": 1.5,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.20603674540682415
+          },
+          {
+            "depth": 4,
+            "move": 267,
+            "score": 16,
+            "nodes": 5007,
+            "ms": 7.34,
+            "initial_window": [
+              -16,
+              34
+            ],
+            "final_window": [
+              -16,
+              34
+            ],
+            "aspiration": "none",
+            "root_effort": 0.3317355702017176
+          },
+          {
+            "depth": 5,
+            "move": 267,
+            "score": 10,
+            "nodes": 6869,
+            "ms": 7.95,
+            "initial_window": [
+              -9,
+              41
+            ],
+            "final_window": [
+              -9,
+              41
+            ],
+            "aspiration": "none",
+            "root_effort": 0.5262774785267142
+          },
+          {
+            "depth": 6,
+            "move": 1747,
+            "score": 23,
+            "nodes": 12477,
+            "ms": 15.57,
+            "initial_window": [
+              -15,
+              35
+            ],
+            "final_window": [
+              -15,
+              35
+            ],
+            "aspiration": "none",
+            "root_effort": 0.4353610643584195
+          },
+          {
+            "depth": 7,
+            "move": 1747,
+            "score": 13,
+            "nodes": 15005,
+            "ms": 17.88,
+            "initial_window": [
+              -2,
+              48
+            ],
+            "final_window": [
+              -2,
+              48
+            ],
+            "aspiration": "none",
+            "root_effort": 0.4065311562812396
+          },
+          {
+            "depth": 8,
+            "move": 267,
+            "score": 10,
+            "nodes": 75340,
+            "ms": 97.07,
+            "initial_window": [
+              -12,
+              38
+            ],
+            "final_window": [
+              -12,
+              38
+            ],
+            "aspiration": "none",
+            "root_effort": 0.3186886116272896
+          },
+          {
+            "depth": 9,
+            "move": 267,
+            "score": 10,
+            "nodes": 40204,
+            "ms": 51.49,
+            "initial_window": [
+              -15,
+              35
+            ],
+            "final_window": [
+              -15,
+              35
+            ],
+            "aspiration": "none",
+            "root_effort": 0.3878718535469107
+          },
+          {
+            "depth": 10,
+            "move": 267,
+            "score": 10,
+            "nodes": 108363,
+            "ms": 137.12,
+            "initial_window": [
+              -15,
+              35
+            ],
+            "final_window": [
+              -15,
+              35
+            ],
+            "aspiration": "none",
+            "root_effort": 0.28095383110471284
+          },
+          {
+            "depth": 11,
+            "move": 1291,
+            "score": -1,
+            "nodes": 292191,
+            "ms": 361.31,
+            "initial_window": [
+              -15,
+              35
+            ],
+            "final_window": [
+              -15,
+              35
+            ],
+            "aspiration": "none",
+            "root_effort": 0.33151260648000797
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-r16-ply44",
+      "fen": "1r4k1/p4p2/br1pp1p1/q1p1n2p/4PN1P/2PPRPP1/P5B1/2R1Q1K1 w - - 9 30",
+      "history_length": 45,
+      "history_pair": false,
+      "halfmove": 9,
+      "move": "d3d4",
+      "elapsed_ms": 740.8890947699547,
+      "info": {
+        "depth": 11,
+        "score": -16,
+        "nodes": 530685,
+        "elapsed_ms": 740.8349849283695,
+        "initial_soft_ms": 1000,
+        "target_ms": 721.6000000000001,
+        "hard_ms": 1000,
+        "retry_nodes": 0,
+        "aborted_work": 0,
+        "stop_reason": "controller",
+        "absolute_ply": 58,
+        "aborted": false,
+        "trace": [
+          {
+            "depth": 1,
+            "move": 836,
+            "score": 55,
+            "nodes": 143,
+            "ms": 0.25,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.04895104895104895
+          },
+          {
+            "depth": 2,
+            "move": 1747,
+            "score": 24,
+            "nodes": 539,
+            "ms": 0.62,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.35064935064935066
+          },
+          {
+            "depth": 3,
+            "move": 1747,
+            "score": 24,
+            "nodes": 1423,
+            "ms": 1.24,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.19255094869992972
+          },
+          {
+            "depth": 4,
+            "move": 1747,
+            "score": 24,
+            "nodes": 3301,
+            "ms": 5.82,
+            "initial_window": [
+              -1,
+              49
+            ],
+            "final_window": [
+              -1,
+              49
+            ],
+            "aspiration": "none",
+            "root_effort": 0.09815207512874886
+          },
+          {
+            "depth": 5,
+            "move": 1747,
+            "score": 8,
+            "nodes": 10053,
+            "ms": 14.24,
+            "initial_window": [
+              -1,
+              49
+            ],
+            "final_window": [
+              -1,
+              49
+            ],
+            "aspiration": "none",
+            "root_effort": 0.24539938326867602
+          },
+          {
+            "depth": 6,
+            "move": 1747,
+            "score": 18,
+            "nodes": 8882,
+            "ms": 10.31,
+            "initial_window": [
+              -17,
+              33
+            ],
+            "final_window": [
+              -17,
+              33
+            ],
+            "aspiration": "none",
+            "root_effort": 0.35194775951362306
+          },
+          {
+            "depth": 7,
+            "move": 1747,
+            "score": 14,
+            "nodes": 17908,
+            "ms": 21.01,
+            "initial_window": [
+              -7,
+              43
+            ],
+            "final_window": [
+              -7,
+              43
+            ],
+            "aspiration": "none",
+            "root_effort": 0.17037078400714764
+          },
+          {
+            "depth": 8,
+            "move": 1747,
+            "score": -6,
+            "nodes": 46608,
+            "ms": 64.16,
+            "initial_window": [
+              -11,
+              39
+            ],
+            "final_window": [
+              -11,
+              39
+            ],
+            "aspiration": "none",
+            "root_effort": 0.27246395468589085
+          },
+          {
+            "depth": 9,
+            "move": 1747,
+            "score": -3,
+            "nodes": 57990,
+            "ms": 78.67,
+            "initial_window": [
+              -31,
+              19
+            ],
+            "final_window": [
+              -31,
+              19
+            ],
+            "aspiration": "none",
+            "root_effort": 0.19920675978617003
+          },
+          {
+            "depth": 10,
+            "move": 1747,
+            "score": -16,
+            "nodes": 177792,
+            "ms": 248.07,
+            "initial_window": [
+              -28,
+              22
+            ],
+            "final_window": [
+              -28,
+              22
+            ],
+            "aspiration": "none",
+            "root_effort": 0.17469852411807055
+          },
+          {
+            "depth": 11,
+            "move": 1747,
+            "score": -16,
+            "nodes": 206046,
+            "ms": 295.78,
+            "initial_window": [
+              -41,
+              9
+            ],
+            "final_window": [
+              -41,
+              9
+            ],
+            "aspiration": "none",
+            "root_effort": 0.16543393222872563
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-r16-ply48",
+      "fen": "6k1/p4p2/b2pp1p1/q1p1n2p/P3PN1P/1rPPRPP1/1r4B1/2RQ2K1 w - - 1 32",
+      "history_length": 49,
+      "history_pair": false,
+      "halfmove": 1,
+      "move": "e3e2",
+      "elapsed_ms": 810.1381622254848,
+      "info": {
+        "depth": 12,
+        "score": -44,
+        "nodes": 606948,
+        "elapsed_ms": 810.1147506386042,
+        "initial_soft_ms": 1000,
+        "target_ms": 880.0000000000001,
+        "hard_ms": 1000,
+        "retry_nodes": 0,
+        "aborted_work": 0,
+        "stop_reason": "controller",
+        "absolute_ply": 62,
+        "aborted": false,
+        "trace": [
+          {
+            "depth": 1,
+            "move": 1747,
+            "score": -21,
+            "nodes": 116,
+            "ms": 0.25,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.3017241379310345
+          },
+          {
+            "depth": 2,
+            "move": 1747,
+            "score": -21,
+            "nodes": 391,
+            "ms": 0.7,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.27877237851662406
+          },
+          {
+            "depth": 3,
+            "move": 1747,
+            "score": -21,
+            "nodes": 1476,
+            "ms": 1.95,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.540650406504065
+          },
+          {
+            "depth": 4,
+            "move": 1747,
+            "score": -16,
+            "nodes": 1353,
+            "ms": 2.45,
+            "initial_window": [
+              -46,
+              4
+            ],
+            "final_window": [
+              -46,
+              4
+            ],
+            "aspiration": "none",
+            "root_effort": 0.37176644493717664
+          },
+          {
+            "depth": 5,
+            "move": 788,
+            "score": -15,
+            "nodes": 6929,
+            "ms": 10.64,
+            "initial_window": [
+              -41,
+              9
+            ],
+            "final_window": [
+              -41,
+              9
+            ],
+            "aspiration": "none",
+            "root_effort": 0.5403377110694184
+          },
+          {
+            "depth": 6,
+            "move": 788,
+            "score": -9,
+            "nodes": 3850,
+            "ms": 5.67,
+            "initial_window": [
+              -40,
+              10
+            ],
+            "final_window": [
+              -40,
+              10
+            ],
+            "aspiration": "none",
+            "root_effort": 0.7935064935064935
+          },
+          {
+            "depth": 7,
+            "move": 788,
+            "score": -19,
+            "nodes": 16788,
+            "ms": 25.12,
+            "initial_window": [
+              -34,
+              16
+            ],
+            "final_window": [
+              -34,
+              16
+            ],
+            "aspiration": "none",
+            "root_effort": 0.525077436263998
+          },
+          {
+            "depth": 8,
+            "move": 1747,
+            "score": -31,
+            "nodes": 41263,
+            "ms": 54.15,
+            "initial_window": [
+              -44,
+              6
+            ],
+            "final_window": [
+              -44,
+              6
+            ],
+            "aspiration": "none",
+            "root_effort": 0.38819281196229066
+          },
+          {
+            "depth": 9,
+            "move": 788,
+            "score": -32,
+            "nodes": 97038,
+            "ms": 136.48,
+            "initial_window": [
+              -56,
+              -6
+            ],
+            "final_window": [
+              -56,
+              -6
+            ],
+            "aspiration": "none",
+            "root_effort": 0.6623796863084565
+          },
+          {
+            "depth": 10,
+            "move": 788,
+            "score": -44,
+            "nodes": 85830,
+            "ms": 109.45,
+            "initial_window": [
+              -57,
+              -7
+            ],
+            "final_window": [
+              -57,
+              -7
+            ],
+            "aspiration": "none",
+            "root_effort": 0.39688919958056623
+          },
+          {
+            "depth": 11,
+            "move": 788,
+            "score": -44,
+            "nodes": 130530,
+            "ms": 175.85,
+            "initial_window": [
+              -69,
+              -19
+            ],
+            "final_window": [
+              -69,
+              -19
+            ],
+            "aspiration": "none",
+            "root_effort": 0.3863326438366659
+          },
+          {
+            "depth": 12,
+            "move": 788,
+            "score": -44,
+            "nodes": 221384,
+            "ms": 286.71,
+            "initial_window": [
+              -69,
+              -19
+            ],
+            "final_window": [
+              -69,
+              -19
+            ],
+            "aspiration": "none",
+            "root_effort": 0.34677302786109204
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-r17-ply22",
+      "fen": "2qr1rk1/pp1bp1bp/6p1/2pPpn2/P1P1N3/3QB1PP/1P3PBK/R4R2 b - - 1 18",
+      "history_length": 23,
+      "history_pair": false,
+      "halfmove": 1,
+      "move": "f5e3",
+      "elapsed_ms": 534.6429962664843,
+      "info": {
+        "depth": 9,
+        "score": -31,
+        "nodes": 408156,
+        "elapsed_ms": 534.6231572329998,
+        "initial_soft_ms": 1000,
+        "target_ms": 1000.0,
+        "hard_ms": 1000,
+        "retry_nodes": 0,
+        "aborted_work": 0,
+        "stop_reason": "controller",
+        "absolute_ply": 35,
+        "aborted": false,
+        "trace": [
+          {
+            "depth": 1,
+            "move": 34085,
+            "score": -5,
+            "nodes": 109,
+            "ms": 0.16,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.10091743119266056
+          },
+          {
+            "depth": 2,
+            "move": 34085,
+            "score": -5,
+            "nodes": 609,
+            "ms": 1.04,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.13793103448275862
+          },
+          {
+            "depth": 3,
+            "move": 1765,
+            "score": -6,
+            "nodes": 3598,
+            "ms": 3.92,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.3707615341856587
+          },
+          {
+            "depth": 4,
+            "move": 1765,
+            "score": -5,
+            "nodes": 1878,
+            "ms": 2.18,
+            "initial_window": [
+              -31,
+              19
+            ],
+            "final_window": [
+              -31,
+              19
+            ],
+            "aspiration": "none",
+            "root_effort": 0.5207667731629393
+          },
+          {
+            "depth": 5,
+            "move": 1765,
+            "score": -10,
+            "nodes": 8459,
+            "ms": 9.71,
+            "initial_window": [
+              -30,
+              20
+            ],
+            "final_window": [
+              -30,
+              20
+            ],
+            "aspiration": "none",
+            "root_effort": 0.4608109705638964
+          },
+          {
+            "depth": 6,
+            "move": 1765,
+            "score": -17,
+            "nodes": 21925,
+            "ms": 31.47,
+            "initial_window": [
+              -35,
+              15
+            ],
+            "final_window": [
+              -35,
+              15
+            ],
+            "aspiration": "none",
+            "root_effort": 0.7160775370581528
+          },
+          {
+            "depth": 7,
+            "move": 1765,
+            "score": -22,
+            "nodes": 53639,
+            "ms": 67.58,
+            "initial_window": [
+              -42,
+              8
+            ],
+            "final_window": [
+              -42,
+              8
+            ],
+            "aspiration": "none",
+            "root_effort": 0.6349857379891497
+          },
+          {
+            "depth": 8,
+            "move": 1765,
+            "score": -17,
+            "nodes": 66607,
+            "ms": 94.62,
+            "initial_window": [
+              -47,
+              3
+            ],
+            "final_window": [
+              -47,
+              3
+            ],
+            "aspiration": "none",
+            "root_effort": 0.5349437746783371
+          },
+          {
+            "depth": 9,
+            "move": 34085,
+            "score": -31,
+            "nodes": 251332,
+            "ms": 323.44,
+            "initial_window": [
+              -42,
+              8
+            ],
+            "final_window": [
+              -42,
+              8
+            ],
+            "aspiration": "none",
+            "root_effort": 0.0989050339789601
+          }
+        ]
+      }
+    },
+    {
+      "id": "holdout-a-g12-o165-ply155",
+      "fen": "2k5/4K3/6P1/8/4p3/5r1p/R7/8 b - - 5 83",
+      "history_length": 156,
+      "history_pair": true,
+      "halfmove": 5,
+      "move": "f3g3",
+      "elapsed_ms": 578.6250941455364,
+      "info": {
+        "depth": 9,
+        "score": 0,
+        "nodes": 149767,
+        "elapsed_ms": 578.6007419228554,
+        "initial_soft_ms": 1000,
+        "target_ms": 656.0,
+        "hard_ms": 1000,
+        "retry_nodes": 2207,
+        "aborted_work": 0,
+        "stop_reason": "controller",
+        "absolute_ply": 165,
+        "aborted": false,
+        "trace": [
+          {
+            "depth": 1,
+            "move": 1308,
+            "score": 123,
+            "nodes": 40,
+            "ms": 0.19,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.1
+          },
+          {
+            "depth": 2,
+            "move": 1308,
+            "score": 72,
+            "nodes": 116,
+            "ms": 0.4,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.33620689655172414
+          },
+          {
+            "depth": 3,
+            "move": 1308,
+            "score": 53,
+            "nodes": 645,
+            "ms": 2.59,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.28217054263565894
+          },
+          {
+            "depth": 4,
+            "move": 3194,
+            "score": 0,
+            "nodes": 3626,
+            "ms": 14.88,
+            "initial_window": [
+              28,
+              78
+            ],
+            "final_window": [
+              -72,
+              78
+            ],
+            "aspiration": "low",
+            "root_effort": 0.18808604522890238
+          },
+          {
+            "depth": 5,
+            "move": 1429,
+            "score": 0,
+            "nodes": 4105,
+            "ms": 16.44,
+            "initial_window": [
+              -25,
+              25
+            ],
+            "final_window": [
+              -25,
+              25
+            ],
+            "aspiration": "none",
+            "root_effort": 0.22070645554202192
+          },
+          {
+            "depth": 6,
+            "move": 1429,
+            "score": 0,
+            "nodes": 4223,
+            "ms": 17.04,
+            "initial_window": [
+              -25,
+              25
+            ],
+            "final_window": [
+              -25,
+              25
+            ],
+            "aspiration": "none",
+            "root_effort": 0.40492540847738573
+          },
+          {
+            "depth": 7,
+            "move": 1429,
+            "score": 0,
+            "nodes": 10373,
+            "ms": 40.73,
+            "initial_window": [
+              -25,
+              25
+            ],
+            "final_window": [
+              -25,
+              25
+            ],
+            "aspiration": "none",
+            "root_effort": 0.5198110479128507
+          },
+          {
+            "depth": 8,
+            "move": 1429,
+            "score": 0,
+            "nodes": 27554,
+            "ms": 106.86,
+            "initial_window": [
+              -25,
+              25
+            ],
+            "final_window": [
+              -25,
+              25
+            ],
+            "aspiration": "none",
+            "root_effort": 0.5849604413152355
+          },
+          {
+            "depth": 9,
+            "move": 1429,
+            "score": 0,
+            "nodes": 99085,
+            "ms": 378.79,
+            "initial_window": [
+              -25,
+              25
+            ],
+            "final_window": [
+              -25,
+              25
+            ],
+            "aspiration": "none",
+            "root_effort": 0.6127668163697835
+          }
+        ]
+      }
+    },
+    {
+      "id": "holdout-a-g12-o165-ply133",
+      "fen": "1k6/5p2/6p1/R3P2p/5K1P/5P2/p7/r7 b - - 27 72",
+      "history_length": 134,
+      "history_pair": false,
+      "halfmove": 27,
+      "move": "b8c7",
+      "elapsed_ms": 590.3540439903736,
+      "info": {
+        "depth": 9,
+        "score": 252,
+        "nodes": 416455,
+        "elapsed_ms": 590.3299916535616,
+        "initial_soft_ms": 1000,
+        "target_ms": 1000.0,
+        "hard_ms": 1000,
+        "retry_nodes": 86994,
+        "aborted_work": 0,
+        "stop_reason": "controller",
+        "absolute_ply": 143,
+        "aborted": false,
+        "trace": [
+          {
+            "depth": 1,
+            "move": 3257,
+            "score": 264,
+            "nodes": 54,
+            "ms": 0.1,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.07407407407407407
+          },
+          {
+            "depth": 2,
+            "move": 3193,
+            "score": 262,
+            "nodes": 253,
+            "ms": 0.47,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.3557312252964427
+          },
+          {
+            "depth": 3,
+            "move": 3257,
+            "score": 177,
+            "nodes": 1212,
+            "ms": 1.53,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.11963696369636964
+          },
+          {
+            "depth": 4,
+            "move": 3257,
+            "score": 165,
+            "nodes": 1303,
+            "ms": 1.71,
+            "initial_window": [
+              152,
+              202
+            ],
+            "final_window": [
+              152,
+              202
+            ],
+            "aspiration": "none",
+            "root_effort": 0.46277820414428245
+          },
+          {
+            "depth": 5,
+            "move": 3257,
+            "score": 179,
+            "nodes": 3080,
+            "ms": 6.02,
+            "initial_window": [
+              140,
+              190
+            ],
+            "final_window": [
+              140,
+              190
+            ],
+            "aspiration": "none",
+            "root_effort": 0.6220779220779221
+          },
+          {
+            "depth": 6,
+            "move": 3257,
+            "score": 252,
+            "nodes": 9961,
+            "ms": 20.16,
+            "initial_window": [
+              154,
+              204
+            ],
+            "final_window": [
+              154,
+              304
+            ],
+            "aspiration": "high",
+            "root_effort": 0.7425961248870595
+          },
+          {
+            "depth": 7,
+            "move": 3257,
+            "score": 225,
+            "nodes": 63575,
+            "ms": 104.74,
+            "initial_window": [
+              227,
+              277
+            ],
+            "final_window": [
+              127,
+              277
+            ],
+            "aspiration": "low",
+            "root_effort": 0.5419583169484861
+          },
+          {
+            "depth": 8,
+            "move": 3257,
+            "score": 251,
+            "nodes": 87054,
+            "ms": 134.12,
+            "initial_window": [
+              200,
+              250
+            ],
+            "final_window": [
+              200,
+              350
+            ],
+            "aspiration": "high",
+            "root_effort": 0.5824890297975969
+          },
+          {
+            "depth": 9,
+            "move": 3257,
+            "score": 252,
+            "nodes": 249963,
+            "ms": 320.87,
+            "initial_window": [
+              226,
+              276
+            ],
+            "final_window": [
+              226,
+              276
+            ],
+            "aspiration": "none",
+            "root_effort": 0.49710957221668806
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-r22-ply129",
+      "fen": "8/8/8/7R/8/2k3P1/pr1pK2p/3R4 w - - 2 72",
+      "history_length": 130,
+      "history_pair": false,
+      "halfmove": 2,
+      "move": "h5h8",
+      "elapsed_ms": 848.8493002951145,
+      "info": {
+        "depth": 8,
+        "score": -85,
+        "nodes": 645381,
+        "elapsed_ms": 848.8263711333275,
+        "initial_soft_ms": 1000,
+        "target_ms": 995.5000000000002,
+        "hard_ms": 1000,
+        "retry_nodes": 69918,
+        "aborted_work": 0,
+        "stop_reason": "controller",
+        "absolute_ply": 142,
+        "aborted": false,
+        "trace": [
+          {
+            "depth": 1,
+            "move": 33767,
+            "score": 75,
+            "nodes": 73,
+            "ms": 0.12,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.0547945205479452
+          },
+          {
+            "depth": 2,
+            "move": 33767,
+            "score": 48,
+            "nodes": 244,
+            "ms": 0.26,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.3073770491803279
+          },
+          {
+            "depth": 3,
+            "move": 3559,
+            "score": -91,
+            "nodes": 3928,
+            "ms": 7.29,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.09928716904276985
+          },
+          {
+            "depth": 4,
+            "move": 3559,
+            "score": 75,
+            "nodes": 3642,
+            "ms": 4.81,
+            "initial_window": [
+              -116,
+              -66
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "high+full",
+            "root_effort": 0.4961559582646897
+          },
+          {
+            "depth": 5,
+            "move": 3559,
+            "score": 75,
+            "nodes": 15020,
+            "ms": 21.19,
+            "initial_window": [
+              50,
+              100
+            ],
+            "final_window": [
+              50,
+              100
+            ],
+            "aspiration": "none",
+            "root_effort": 0.23308921438082555
+          },
+          {
+            "depth": 6,
+            "move": 4071,
+            "score": -68,
+            "nodes": 95130,
+            "ms": 141.66,
+            "initial_window": [
+              50,
+              100
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "low+full",
+            "root_effort": 0.16954693577210134
+          },
+          {
+            "depth": 7,
+            "move": 4071,
+            "score": -64,
+            "nodes": 125750,
+            "ms": 172.43,
+            "initial_window": [
+              -93,
+              -43
+            ],
+            "final_window": [
+              -93,
+              -43
+            ],
+            "aspiration": "none",
+            "root_effort": 0.31553081510934394
+          },
+          {
+            "depth": 8,
+            "move": 4071,
+            "score": -85,
+            "nodes": 401594,
+            "ms": 500.38,
+            "initial_window": [
+              -89,
+              -39
+            ],
+            "final_window": [
+              -89,
+              -39
+            ],
+            "aspiration": "none",
+            "root_effort": 0.13879191422182602
+          }
+        ]
+      }
+    },
+    {
+      "id": "holdout-a-g12-o165-ply125",
+      "fen": "8/5p2/6p1/3kP2p/R4K1P/5P2/p7/r7 b - - 19 68",
+      "history_length": 126,
+      "history_pair": false,
+      "halfmove": 19,
+      "move": "d5c6",
+      "elapsed_ms": 428.68971079587936,
+      "info": {
+        "depth": 9,
+        "score": 248,
+        "nodes": 458778,
+        "elapsed_ms": 428.6683090031147,
+        "initial_soft_ms": 1000,
+        "target_ms": 1000.0,
+        "hard_ms": 1000,
+        "retry_nodes": 57209,
+        "aborted_work": 0,
+        "stop_reason": "controller",
+        "absolute_ply": 135,
+        "aborted": false,
+        "trace": [
+          {
+            "depth": 1,
+            "move": 2211,
+            "score": 278,
+            "nodes": 55,
+            "ms": 0.09,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.07272727272727272
+          },
+          {
+            "depth": 2,
+            "move": 2211,
+            "score": 278,
+            "nodes": 155,
+            "ms": 0.17,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.41935483870967744
+          },
+          {
+            "depth": 3,
+            "move": 2851,
+            "score": 252,
+            "nodes": 1194,
+            "ms": 1.11,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.18174204355108878
+          },
+          {
+            "depth": 4,
+            "move": 2851,
+            "score": 248,
+            "nodes": 1181,
+            "ms": 1.21,
+            "initial_window": [
+              227,
+              277
+            ],
+            "final_window": [
+              227,
+              277
+            ],
+            "aspiration": "none",
+            "root_effort": 0.5156646909398814
+          },
+          {
+            "depth": 5,
+            "move": 2851,
+            "score": 200,
+            "nodes": 5330,
+            "ms": 5.29,
+            "initial_window": [
+              223,
+              273
+            ],
+            "final_window": [
+              123,
+              273
+            ],
+            "aspiration": "low",
+            "root_effort": 0.3919324577861163
+          },
+          {
+            "depth": 6,
+            "move": 2851,
+            "score": 215,
+            "nodes": 6742,
+            "ms": 6.93,
+            "initial_window": [
+              175,
+              225
+            ],
+            "final_window": [
+              175,
+              225
+            ],
+            "aspiration": "none",
+            "root_effort": 0.3665084544645506
+          },
+          {
+            "depth": 7,
+            "move": 2851,
+            "score": 199,
+            "nodes": 16808,
+            "ms": 15.15,
+            "initial_window": [
+              190,
+              240
+            ],
+            "final_window": [
+              190,
+              240
+            ],
+            "aspiration": "none",
+            "root_effort": 0.33841028081865776
+          },
+          {
+            "depth": 8,
+            "move": 2723,
+            "score": 246,
+            "nodes": 132251,
+            "ms": 127.68,
+            "initial_window": [
+              174,
+              224
+            ],
+            "final_window": [
+              174,
+              324
+            ],
+            "aspiration": "high",
+            "root_effort": 0.39003107726973707
+          },
+          {
+            "depth": 9,
+            "move": 2723,
+            "score": 248,
+            "nodes": 295062,
+            "ms": 270.46,
+            "initial_window": [
+              221,
+              271
+            ],
+            "final_window": [
+              221,
+              271
+            ],
+            "aspiration": "none",
+            "root_effort": 0.21884214165158508
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-r17-ply120",
+      "fen": "3q4/3Pb1k1/4Q2p/2p1p2p/8/1B3PPK/8/8 b - - 0 67",
+      "history_length": 121,
+      "history_pair": false,
+      "halfmove": 0,
+      "move": "e7g5",
+      "elapsed_ms": 859.9564842879772,
+      "info": {
+        "depth": 10,
+        "score": -223,
+        "nodes": 636147,
+        "elapsed_ms": 859.9150627851486,
+        "initial_soft_ms": 1000,
+        "target_ms": 1000.0,
+        "hard_ms": 1000,
+        "retry_nodes": 286045,
+        "aborted_work": 0,
+        "stop_reason": "controller",
+        "absolute_ply": 133,
+        "aborted": false,
+        "trace": [
+          {
+            "depth": 1,
+            "move": 2932,
+            "score": -106,
+            "nodes": 153,
+            "ms": 0.24,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.0457516339869281
+          },
+          {
+            "depth": 2,
+            "move": 2932,
+            "score": -125,
+            "nodes": 413,
+            "ms": 0.53,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.2542372881355932
+          },
+          {
+            "depth": 3,
+            "move": 2932,
+            "score": -126,
+            "nodes": 851,
+            "ms": 1.13,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.481786133960047
+          },
+          {
+            "depth": 4,
+            "move": 2932,
+            "score": -131,
+            "nodes": 2604,
+            "ms": 2.76,
+            "initial_window": [
+              -151,
+              -101
+            ],
+            "final_window": [
+              -151,
+              -101
+            ],
+            "aspiration": "none",
+            "root_effort": 0.38517665130568357
+          },
+          {
+            "depth": 5,
+            "move": 2932,
+            "score": -136,
+            "nodes": 8034,
+            "ms": 10.47,
+            "initial_window": [
+              -156,
+              -106
+            ],
+            "final_window": [
+              -156,
+              -106
+            ],
+            "aspiration": "none",
+            "root_effort": 0.4054020413243714
+          },
+          {
+            "depth": 6,
+            "move": 2932,
+            "score": -154,
+            "nodes": 9460,
+            "ms": 10.96,
+            "initial_window": [
+              -161,
+              -111
+            ],
+            "final_window": [
+              -161,
+              -111
+            ],
+            "aspiration": "none",
+            "root_effort": 0.2164904862579281
+          },
+          {
+            "depth": 7,
+            "move": 2023,
+            "score": -187,
+            "nodes": 51438,
+            "ms": 64.0,
+            "initial_window": [
+              -179,
+              -129
+            ],
+            "final_window": [
+              -279,
+              -129
+            ],
+            "aspiration": "low",
+            "root_effort": 0.4204479178817217
+          },
+          {
+            "depth": 8,
+            "move": 2023,
+            "score": -193,
+            "nodes": 39197,
+            "ms": 49.58,
+            "initial_window": [
+              -212,
+              -162
+            ],
+            "final_window": [
+              -212,
+              -162
+            ],
+            "aspiration": "none",
+            "root_effort": 0.5067989897186009
+          },
+          {
+            "depth": 9,
+            "move": 2023,
+            "score": -198,
+            "nodes": 61560,
+            "ms": 85.46,
+            "initial_window": [
+              -218,
+              -168
+            ],
+            "final_window": [
+              -218,
+              -168
+            ],
+            "aspiration": "none",
+            "root_effort": 0.4869720597790773
+          },
+          {
+            "depth": 10,
+            "move": 2484,
+            "score": -223,
+            "nodes": 462437,
+            "ms": 634.09,
+            "initial_window": [
+              -223,
+              -173
+            ],
+            "final_window": [
+              -323,
+              -173
+            ],
+            "aspiration": "low",
+            "root_effort": 0.22412998959858316
+          }
+        ]
+      }
+    },
+    {
+      "id": "site-r17-ply114",
+      "fen": "2Qq4/3P1k2/1p2p2p/2b1p2p/2P5/1B3PPK/8/8 b - - 27 64",
+      "history_length": 115,
+      "history_pair": false,
+      "halfmove": 27,
+      "move": "c5e7",
+      "elapsed_ms": 773.9273738116026,
+      "info": {
+        "depth": 12,
+        "score": -156,
+        "nodes": 823493,
+        "elapsed_ms": 773.9033680409193,
+        "initial_soft_ms": 1000,
+        "target_ms": 811.8000000000001,
+        "hard_ms": 1000,
+        "retry_nodes": 38602,
+        "aborted_work": 0,
+        "stop_reason": "controller",
+        "absolute_ply": 127,
+        "aborted": false,
+        "trace": [
+          {
+            "depth": 1,
+            "move": 3381,
+            "score": -91,
+            "nodes": 135,
+            "ms": 0.18,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.07407407407407407
+          },
+          {
+            "depth": 2,
+            "move": 3381,
+            "score": -60,
+            "nodes": 237,
+            "ms": 0.27,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.43037974683544306
+          },
+          {
+            "depth": 3,
+            "move": 3381,
+            "score": -67,
+            "nodes": 417,
+            "ms": 0.61,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.48201438848920863
+          },
+          {
+            "depth": 4,
+            "move": 3381,
+            "score": -71,
+            "nodes": 579,
+            "ms": 0.78,
+            "initial_window": [
+              -92,
+              -42
+            ],
+            "final_window": [
+              -92,
+              -42
+            ],
+            "aspiration": "none",
+            "root_effort": 0.6804835924006909
+          },
+          {
+            "depth": 5,
+            "move": 3362,
+            "score": -82,
+            "nodes": 5841,
+            "ms": 6.9,
+            "initial_window": [
+              -96,
+              -46
+            ],
+            "final_window": [
+              -96,
+              -46
+            ],
+            "aspiration": "none",
+            "root_effort": 0.6728299948638932
+          },
+          {
+            "depth": 6,
+            "move": 3362,
+            "score": -91,
+            "nodes": 8800,
+            "ms": 8.68,
+            "initial_window": [
+              -107,
+              -57
+            ],
+            "final_window": [
+              -107,
+              -57
+            ],
+            "aspiration": "none",
+            "root_effort": 0.7785227272727273
+          },
+          {
+            "depth": 7,
+            "move": 3362,
+            "score": -90,
+            "nodes": 9316,
+            "ms": 8.54,
+            "initial_window": [
+              -116,
+              -66
+            ],
+            "final_window": [
+              -116,
+              -66
+            ],
+            "aspiration": "none",
+            "root_effort": 0.5494847574066123
+          },
+          {
+            "depth": 8,
+            "move": 3362,
+            "score": -85,
+            "nodes": 15796,
+            "ms": 17.53,
+            "initial_window": [
+              -115,
+              -65
+            ],
+            "final_window": [
+              -115,
+              -65
+            ],
+            "aspiration": "none",
+            "root_effort": 0.8426183844011143
+          },
+          {
+            "depth": 9,
+            "move": 3362,
+            "score": -91,
+            "nodes": 28807,
+            "ms": 54.26,
+            "initial_window": [
+              -110,
+              -60
+            ],
+            "final_window": [
+              -110,
+              -60
+            ],
+            "aspiration": "none",
+            "root_effort": 0.866351928350748
+          },
+          {
+            "depth": 10,
+            "move": 3362,
+            "score": -131,
+            "nodes": 108587,
+            "ms": 135.02,
+            "initial_window": [
+              -116,
+              -66
+            ],
+            "final_window": [
+              -216,
+              -66
+            ],
+            "aspiration": "low",
+            "root_effort": 0.894628270419111
+          },
+          {
+            "depth": 11,
+            "move": 3362,
+            "score": -136,
+            "nodes": 58927,
+            "ms": 70.12,
+            "initial_window": [
+              -156,
+              -106
+            ],
+            "final_window": [
+              -156,
+              -106
+            ],
+            "aspiration": "none",
+            "root_effort": 0.8587574456530962
+          },
+          {
+            "depth": 12,
+            "move": 3362,
+            "score": -156,
+            "nodes": 586051,
+            "ms": 470.25,
+            "initial_window": [
+              -161,
+              -111
+            ],
+            "final_window": [
+              -161,
+              -111
+            ],
+            "aspiration": "none",
+            "root_effort": 0.2475450088814796
+          }
+        ]
+      }
+    },
+    {
+      "id": "holdout-a-g12-o165-ply111",
+      "fen": "R4k2/5p2/6p1/4P2p/5K1P/5P2/p7/r7 b - - 5 61",
+      "history_length": 112,
+      "history_pair": false,
+      "halfmove": 5,
+      "move": "f8e7",
+      "elapsed_ms": 516.1800663918257,
+      "info": {
+        "depth": 9,
+        "score": 252,
+        "nodes": 354147,
+        "elapsed_ms": 516.1370988935232,
+        "initial_soft_ms": 1000,
+        "target_ms": 656.0,
+        "hard_ms": 1000,
+        "retry_nodes": 0,
+        "aborted_work": 0,
+        "stop_reason": "controller",
+        "absolute_ply": 121,
+        "aborted": false,
+        "trace": [
+          {
+            "depth": 1,
+            "move": 3389,
+            "score": 250,
+            "nodes": 4,
+            "ms": 0.04,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.5
+          },
+          {
+            "depth": 2,
+            "move": 3389,
+            "score": 260,
+            "nodes": 87,
+            "ms": 0.13,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.7931034482758621
+          },
+          {
+            "depth": 3,
+            "move": 3389,
+            "score": 253,
+            "nodes": 266,
+            "ms": 0.34,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.8984962406015038
+          },
+          {
+            "depth": 4,
+            "move": 3389,
+            "score": 256,
+            "nodes": 859,
+            "ms": 0.98,
+            "initial_window": [
+              228,
+              278
+            ],
+            "final_window": [
+              228,
+              278
+            ],
+            "aspiration": "none",
+            "root_effort": 0.9138533178114087
+          },
+          {
+            "depth": 5,
+            "move": 3389,
+            "score": 257,
+            "nodes": 1272,
+            "ms": 1.5,
+            "initial_window": [
+              231,
+              281
+            ],
+            "final_window": [
+              231,
+              281
+            ],
+            "aspiration": "none",
+            "root_effort": 0.9127358490566038
+          },
+          {
+            "depth": 6,
+            "move": 3389,
+            "score": 252,
+            "nodes": 6087,
+            "ms": 9.39,
+            "initial_window": [
+              232,
+              282
+            ],
+            "final_window": [
+              232,
+              282
+            ],
+            "aspiration": "none",
+            "root_effort": 0.8299655002464268
+          },
+          {
+            "depth": 7,
+            "move": 3389,
+            "score": 257,
+            "nodes": 21798,
+            "ms": 30.12,
+            "initial_window": [
+              227,
+              277
+            ],
+            "final_window": [
+              227,
+              277
+            ],
+            "aspiration": "none",
+            "root_effort": 0.9024681163409487
+          },
+          {
+            "depth": 8,
+            "move": 3389,
+            "score": 252,
+            "nodes": 51050,
+            "ms": 77.0,
+            "initial_window": [
+              232,
+              282
+            ],
+            "final_window": [
+              232,
+              282
+            ],
+            "aspiration": "none",
+            "root_effort": 0.8372967678746327
+          },
+          {
+            "depth": 9,
+            "move": 3389,
+            "score": 252,
+            "nodes": 272724,
+            "ms": 396.07,
+            "initial_window": [
+              227,
+              277
+            ],
+            "final_window": [
+              227,
+              277
+            ],
+            "aspiration": "none",
+            "root_effort": 0.8273089277071325
+          }
+        ]
+      }
+    }
+  ],
+  "note": "Known diagnostic roots, all legal moves, cold TT per root. Development only; no strength inference."
+}

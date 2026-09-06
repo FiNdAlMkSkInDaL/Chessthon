@@ -1,0 +1,662 @@
+{
+  "pass": true,
+  "positions": 33,
+  "nodes_per_position": 100000,
+  "total_baseline_seconds": 50.9748045000124,
+  "total_fused_seconds": 43.77198490000592,
+  "throughput_ratio": 1.1645531866206393,
+  "metadata": {
+    "baseline": {
+      "event": "READY",
+      "source": "see_order",
+      "source_hashes": {
+        "agent.py": "a28f926e2b7aaee8211f220111dc3f2f493eaccbf3d2e23e5cfcacded21f906e",
+        "bitops_nb.py": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+        "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+        "core_nb.py": "305ee9b19daef0c75989f6eb00b6afa1b59ae16f195559182c10a1af2e441819",
+        "eval_nb.py": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f",
+        "history.py": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e",
+        "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+        "search_nb.py": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6",
+        "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+        "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+        "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+        "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+      },
+      "cold_seconds": 92.0905242000008,
+      "node_limit": 100000,
+      "runtime": "Windows-11-10.0.26200-SP0",
+      "cpu": 6,
+      "worker_sha256": "555a68377afda49ac1e8995cd26dd9698b0953c1b77bbbbe6a19065759186827",
+      "silent_native_fallback_rejected": true,
+      "instrumentation_sha256": "c820f8b8bebe109e18e42c433fbd3024b7c8b574b38da46fc3993c08927c9c2f",
+      "readiness_override": false,
+      "scope": "Offline strength screen, not competition wall-clock or init evidence."
+    },
+    "fused": {
+      "event": "READY",
+      "source": "odin_see_fast",
+      "source_hashes": {
+        "agent.py": "a28f926e2b7aaee8211f220111dc3f2f493eaccbf3d2e23e5cfcacded21f906e",
+        "bitops_nb.py": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+        "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+        "core_nb.py": "fd408eb2257ce8c22944000bdf96f64dc04318415b4855341ecfd2b0940b5799",
+        "eval_nb.py": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f",
+        "history.py": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e",
+        "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+        "search_nb.py": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6",
+        "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+        "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+        "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+        "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+      },
+      "cold_seconds": 95.66600599999947,
+      "node_limit": 100000,
+      "runtime": "Windows-11-10.0.26200-SP0",
+      "cpu": 6,
+      "worker_sha256": "555a68377afda49ac1e8995cd26dd9698b0953c1b77bbbbe6a19065759186827",
+      "silent_native_fallback_rejected": true,
+      "instrumentation_sha256": "c820f8b8bebe109e18e42c433fbd3024b7c8b574b38da46fc3993c08927c9c2f",
+      "readiness_override": false,
+      "scope": "Offline strength screen, not competition wall-clock or init evidence."
+    }
+  },
+  "rows": [
+    {
+      "index": 0,
+      "fen": "r1bq1rk1/pp3ppp/3b1nn1/2pp4/8/2PBPNB1/PP1N1PPP/R2QK2R w KQ - 0 10",
+      "baseline": {
+        "uci": "c3c4",
+        "depth": 7,
+        "score": -26,
+        "nodes": 100000,
+        "seconds": 1.9714027999980317
+      },
+      "fused": {
+        "uci": "c3c4",
+        "depth": 7,
+        "score": -26,
+        "nodes": 100000,
+        "seconds": 1.405167100001563
+      }
+    },
+    {
+      "index": 1,
+      "fen": "r1bq1rk1/pp2ppbp/2n3p1/8/3p4/2P2NP1/P3PPBP/1RBQ1RK1 w - - 0 11",
+      "fused": {
+        "uci": "c3d4",
+        "depth": 9,
+        "score": -8,
+        "nodes": 100000,
+        "seconds": 1.1377508000005037
+      },
+      "baseline": {
+        "uci": "c3d4",
+        "depth": 9,
+        "score": -8,
+        "nodes": 100000,
+        "seconds": 1.4795819999999367
+      }
+    },
+    {
+      "index": 2,
+      "fen": "r1bqr1k1/ppp2ppp/2np4/8/2P1n3/P1B1PN2/1P3PPP/2RQKB1R w K - 1 11",
+      "baseline": {
+        "uci": "f1d3",
+        "depth": 9,
+        "score": 14,
+        "nodes": 100000,
+        "seconds": 1.78284530000019
+      },
+      "fused": {
+        "uci": "f1d3",
+        "depth": 9,
+        "score": 14,
+        "nodes": 100000,
+        "seconds": 1.3339280000000144
+      }
+    },
+    {
+      "index": 3,
+      "fen": "rnbq1rk1/pp4pp/2pbp3/3p1p2/2PPn3/2N2NP1/PPQ1PPBP/R1B2RK1 w - - 6 9",
+      "fused": {
+        "uci": "c4c5",
+        "depth": 8,
+        "score": 84,
+        "nodes": 100000,
+        "seconds": 1.3313882000002195
+      },
+      "baseline": {
+        "uci": "c4c5",
+        "depth": 8,
+        "score": 84,
+        "nodes": 100000,
+        "seconds": 1.8098949999985052
+      }
+    },
+    {
+      "index": 4,
+      "fen": "rnbq1rk1/p1p1b1pp/1p2p3/3p1p2/2PPn3/BP3NP1/P3PPBP/RN1Q1RK1 w - - 0 9",
+      "baseline": {
+        "uci": "f3e5",
+        "depth": 7,
+        "score": 42,
+        "nodes": 100000,
+        "seconds": 1.13842520000253
+      },
+      "fused": {
+        "uci": "f3e5",
+        "depth": 7,
+        "score": 42,
+        "nodes": 100000,
+        "seconds": 0.6302400000022317
+      }
+    },
+    {
+      "index": 5,
+      "fen": "r2qk2r/1b1nbpp1/p3pn1p/1pppN3/3P3B/P1NBP3/1PP2PPP/R2Q1RK1 w kq - 4 11",
+      "fused": {
+        "uci": "e5d7",
+        "depth": 7,
+        "score": 32,
+        "nodes": 100000,
+        "seconds": 0.5935735999992175
+      },
+      "baseline": {
+        "uci": "e5d7",
+        "depth": 7,
+        "score": 32,
+        "nodes": 100000,
+        "seconds": 0.8004059000013513
+      }
+    },
+    {
+      "index": 6,
+      "fen": "rn1q1rk1/pp1nppbp/3p2p1/8/3PP3/2N2N2/PP2QPPP/R1B1K2R w KQ - 0 10",
+      "baseline": {
+        "uci": "c1e3",
+        "depth": 7,
+        "score": 62,
+        "nodes": 100000,
+        "seconds": 0.5349731000023894
+      },
+      "fused": {
+        "uci": "c1e3",
+        "depth": 7,
+        "score": 62,
+        "nodes": 100000,
+        "seconds": 0.9037894000030064
+      }
+    },
+    {
+      "index": 7,
+      "fen": "rnbq1rk1/pp2ppbp/3p1np1/8/4P3/B1PB1N2/3P1PPP/RN1Q1RK1 w - - 1 9",
+      "fused": {
+        "uci": "f1e1",
+        "depth": 7,
+        "score": -7,
+        "nodes": 100000,
+        "seconds": 0.7591410999993968
+      },
+      "baseline": {
+        "uci": "f1e1",
+        "depth": 7,
+        "score": -7,
+        "nodes": 100000,
+        "seconds": 0.7354797000007238
+      }
+    },
+    {
+      "index": 8,
+      "fen": "r1bqrk2/ppp2pb1/2n2npp/3pp3/4P3/3P1NP1/PPPN1PBP/R1BQR1K1 w - - 0 11",
+      "baseline": {
+        "uci": "e4d5",
+        "depth": 7,
+        "score": -24,
+        "nodes": 100000,
+        "seconds": 0.7908041000009689
+      },
+      "fused": {
+        "uci": "e4d5",
+        "depth": 7,
+        "score": -24,
+        "nodes": 100000,
+        "seconds": 0.6168232999989414
+      }
+    },
+    {
+      "index": 9,
+      "fen": "r2q1rk1/pp1nbpp1/2ppbn1p/4p3/2P5/2NP1NPP/PP2PPB1/1RBQ1RK1 w - - 2 10",
+      "fused": {
+        "uci": "e2e4",
+        "depth": 7,
+        "score": -13,
+        "nodes": 100000,
+        "seconds": 0.6352796999999555
+      },
+      "baseline": {
+        "uci": "e2e4",
+        "depth": 7,
+        "score": -13,
+        "nodes": 100000,
+        "seconds": 0.7045479000007617
+      }
+    },
+    {
+      "index": 10,
+      "fen": "r2q1rk1/pp1nppbp/2p2np1/3p1b2/P1PP4/1P3NP1/4PPBP/RNBQ1RK1 w - - 1 9",
+      "baseline": {
+        "uci": "b1c3",
+        "depth": 8,
+        "score": 3,
+        "nodes": 100000,
+        "seconds": 0.7256664999986242
+      },
+      "fused": {
+        "uci": "b1c3",
+        "depth": 8,
+        "score": 3,
+        "nodes": 100000,
+        "seconds": 0.8959896000014851
+      }
+    },
+    {
+      "index": 11,
+      "fen": "r1bq1rk1/pp1n1pbp/3p1np1/3P4/8/2N2N2/PP2BPPP/R1BQ1RK1 w - - 2 11",
+      "fused": {
+        "uci": "f1e1",
+        "depth": 6,
+        "score": 48,
+        "nodes": 100000,
+        "seconds": 0.9330374999990454
+      },
+      "baseline": {
+        "uci": "f1e1",
+        "depth": 6,
+        "score": 48,
+        "nodes": 100000,
+        "seconds": 1.5725356000002648
+      }
+    },
+    {
+      "index": 12,
+      "fen": "r2q1rk1/pbpn1ppp/1p1bp3/3p4/2PPn3/1P1BPN2/PB1N1PPP/2RQK2R w K - 7 10",
+      "baseline": {
+        "uci": "c4d5",
+        "depth": 7,
+        "score": 19,
+        "nodes": 100000,
+        "seconds": 1.954254000000219
+      },
+      "fused": {
+        "uci": "c4d5",
+        "depth": 7,
+        "score": 19,
+        "nodes": 100000,
+        "seconds": 1.4489007999982277
+      }
+    },
+    {
+      "index": 13,
+      "fen": "1r1q1rk1/pppnbppp/4pn2/3pN3/3P4/1Q1PPN2/PP1B1PPP/R3K2R w KQ - 4 11",
+      "fused": {
+        "uci": "e1g1",
+        "depth": 7,
+        "score": 15,
+        "nodes": 100000,
+        "seconds": 1.4465602999989642
+      },
+      "baseline": {
+        "uci": "e1g1",
+        "depth": 7,
+        "score": 15,
+        "nodes": 100000,
+        "seconds": 1.976143800002319
+      }
+    },
+    {
+      "index": 14,
+      "fen": "r2q1rk1/1pp2ppp/2n5/p1b1p3/4P1b1/P1PP1N2/4BPPP/R1BQ1RK1 w - - 5 11",
+      "baseline": {
+        "uci": "a1b1",
+        "depth": 7,
+        "score": -3,
+        "nodes": 100000,
+        "seconds": 1.81447610000032
+      },
+      "fused": {
+        "uci": "a1b1",
+        "depth": 7,
+        "score": -3,
+        "nodes": 100000,
+        "seconds": 1.4951222000017879
+      }
+    },
+    {
+      "index": 15,
+      "fen": "r2q1rk1/pp1nbppp/4pn2/2pp4/P2P1B2/3QPN1P/1PPN1PP1/R4RK1 w - - 0 11",
+      "fused": {
+        "uci": "c2c4",
+        "depth": 7,
+        "score": 45,
+        "nodes": 100000,
+        "seconds": 1.545217999999295
+      },
+      "baseline": {
+        "uci": "c2c4",
+        "depth": 7,
+        "score": 45,
+        "nodes": 100000,
+        "seconds": 1.5054884999990463
+      }
+    },
+    {
+      "index": 16,
+      "fen": "r1bq1rk1/pp2ppbp/2np1np1/8/3P1B2/2P2N1P/PP1N1PP1/R2QKB1R w KQ - 0 9",
+      "baseline": {
+        "uci": "d2c4",
+        "depth": 6,
+        "score": -16,
+        "nodes": 100000,
+        "seconds": 1.7990355000001728
+      },
+      "fused": {
+        "uci": "d2c4",
+        "depth": 6,
+        "score": -16,
+        "nodes": 100000,
+        "seconds": 1.737579900000128
+      }
+    },
+    {
+      "index": 17,
+      "fen": "2rq1rk1/pp1bbppp/2n1pn2/2p5/2B5/1PN1PN2/PB1P1PPP/2RQ1RK1 w - - 5 11",
+      "fused": {
+        "uci": "c3b5",
+        "depth": 6,
+        "score": 13,
+        "nodes": 100000,
+        "seconds": 1.7044129999994766
+      },
+      "baseline": {
+        "uci": "c3b5",
+        "depth": 6,
+        "score": 13,
+        "nodes": 100000,
+        "seconds": 1.7764839000010397
+      }
+    },
+    {
+      "index": 18,
+      "fen": "r2q1rk1/ppp2pp1/2nbpn1p/3p1b2/3P1B2/P2BPN1P/1PP2PP1/RN1Q1RK1 w - - 5 9",
+      "baseline": {
+        "uci": "f3e5",
+        "depth": 8,
+        "score": 9,
+        "nodes": 100000,
+        "seconds": 1.9183606000005966
+      },
+      "fused": {
+        "uci": "f3e5",
+        "depth": 8,
+        "score": 9,
+        "nodes": 100000,
+        "seconds": 1.8111849000015354
+      }
+    },
+    {
+      "index": 19,
+      "fen": "r1b2rk1/p1q1ppbp/1pn3p1/2pn4/2N5/3P1NP1/PPP2PBP/R1BQR1K1 w - - 2 11",
+      "fused": {
+        "uci": "f3d4",
+        "depth": 6,
+        "score": 7,
+        "nodes": 100000,
+        "seconds": 1.4335473999999522
+      },
+      "baseline": {
+        "uci": "f3d4",
+        "depth": 6,
+        "score": 7,
+        "nodes": 100000,
+        "seconds": 1.6453628999988723
+      }
+    },
+    {
+      "index": 20,
+      "fen": "r1bqr1k1/ppp2pbp/2nppnp1/8/2PPP3/P1N2N2/1P2BPPP/R1BQ1RK1 w - - 5 9",
+      "baseline": {
+        "uci": "d4d5",
+        "depth": 6,
+        "score": 70,
+        "nodes": 100000,
+        "seconds": 1.7472802000011143
+      },
+      "fused": {
+        "uci": "d4d5",
+        "depth": 6,
+        "score": 70,
+        "nodes": 100000,
+        "seconds": 1.6657288999995217
+      }
+    },
+    {
+      "index": 21,
+      "fen": "rn3rk1/pbq2ppp/1p1bpn2/2ppN3/3P1P2/2P1P1B1/PP1N2PP/R2QKB1R w KQ - 1 10",
+      "fused": {
+        "uci": "f1e2",
+        "depth": 7,
+        "score": -30,
+        "nodes": 100000,
+        "seconds": 1.8970448999971268
+      },
+      "baseline": {
+        "uci": "f1e2",
+        "depth": 7,
+        "score": -30,
+        "nodes": 100000,
+        "seconds": 2.1010442999977386
+      }
+    },
+    {
+      "index": 22,
+      "fen": "r1bq1rk1/p4ppp/1pn1pn2/2bp4/2P2B2/3BPN2/PP1N1PPP/R2Q1RK1 w - - 0 10",
+      "baseline": {
+        "uci": "d2b3",
+        "depth": 6,
+        "score": 28,
+        "nodes": 100000,
+        "seconds": 1.9033668000010948
+      },
+      "fused": {
+        "uci": "d2b3",
+        "depth": 6,
+        "score": 28,
+        "nodes": 100000,
+        "seconds": 1.3879147000006924
+      }
+    },
+    {
+      "index": 23,
+      "fen": "r2q1rk1/pbp2ppp/1pn1pn2/8/2PP4/2N2B2/PP1QNPPP/R3K2R w KQ - 5 11",
+      "fused": {
+        "uci": "e1g1",
+        "depth": 7,
+        "score": 36,
+        "nodes": 100000,
+        "seconds": 1.1262303000003158
+      },
+      "baseline": {
+        "uci": "e1g1",
+        "depth": 7,
+        "score": 36,
+        "nodes": 100000,
+        "seconds": 1.3842508000016096
+      }
+    },
+    {
+      "index": 24,
+      "fen": "r1bq1rk1/pp1nppbp/5np1/3p4/3p4/1P2PN2/PBPNBPPP/R2Q1RK1 w - - 0 9",
+      "baseline": {
+        "uci": "e3d4",
+        "depth": 8,
+        "score": -2,
+        "nodes": 100000,
+        "seconds": 1.3380928000005952
+      },
+      "fused": {
+        "uci": "e3d4",
+        "depth": 8,
+        "score": -2,
+        "nodes": 100000,
+        "seconds": 1.2827867000014521
+      }
+    },
+    {
+      "index": 25,
+      "fen": "rnbq1rk1/pp2ppbp/6p1/3n4/3N1P2/2N1B2P/PPP1B1P1/R2QK2R w KQ - 1 11",
+      "fused": {
+        "uci": "c3d5",
+        "depth": 9,
+        "score": 29,
+        "nodes": 100000,
+        "seconds": 1.9176138000002538
+      },
+      "baseline": {
+        "uci": "c3d5",
+        "depth": 9,
+        "score": 29,
+        "nodes": 100000,
+        "seconds": 2.0067721999985224
+      }
+    },
+    {
+      "index": 26,
+      "fen": "r1b1kb1r/ppqppppp/1n6/4n3/2p5/2P2N2/PPBP1PPP/RNBQ1RK1 w kq - 0 9",
+      "baseline": {
+        "uci": "f3e5",
+        "depth": 8,
+        "score": 16,
+        "nodes": 100000,
+        "seconds": 1.7466803999996046
+      },
+      "fused": {
+        "uci": "f3e5",
+        "depth": 8,
+        "score": 16,
+        "nodes": 100000,
+        "seconds": 1.7064939000010781
+      }
+    },
+    {
+      "index": 27,
+      "fen": "r1bqk2r/p2nbppp/2ppp3/2p5/4PP2/2NP1N2/PPP3PP/R1BQ1RK1 w kq - 4 9",
+      "fused": {
+        "uci": "c1e3",
+        "depth": 6,
+        "score": 32,
+        "nodes": 100000,
+        "seconds": 1.425674699999945
+      },
+      "baseline": {
+        "uci": "c1e3",
+        "depth": 6,
+        "score": 32,
+        "nodes": 100000,
+        "seconds": 1.6136414000029617
+      }
+    },
+    {
+      "index": 28,
+      "fen": "rn3rk1/pp3ppp/2p2n2/q3p3/1b1pP3/1B1P1Q1P/PPPB1PP1/RN2K2R w KQ - 2 11",
+      "baseline": {
+        "uci": "c2c3",
+        "depth": 9,
+        "score": 31,
+        "nodes": 100000,
+        "seconds": 1.836978999999701
+      },
+      "fused": {
+        "uci": "c2c3",
+        "depth": 9,
+        "score": 31,
+        "nodes": 100000,
+        "seconds": 1.560282800001005
+      }
+    },
+    {
+      "index": 29,
+      "fen": "2kr1b1r/pbp1qppp/1pn2n2/3pp3/1P2P3/2PP1N2/P1QNBPPP/R1B1K2R w - - 1 11",
+      "fused": {
+        "uci": "b4b5",
+        "depth": 7,
+        "score": -2,
+        "nodes": 100000,
+        "seconds": 1.574582900000678
+      },
+      "baseline": {
+        "uci": "b4b5",
+        "depth": 7,
+        "score": -2,
+        "nodes": 100000,
+        "seconds": 1.8239275000014459
+      }
+    },
+    {
+      "index": 30,
+      "fen": "r2q1rk1/pp2ppbp/2np1np1/3N4/4P1b1/2PQ1N2/PP2BPPP/R1B1K2R w KQ - 1 10",
+      "baseline": {
+        "uci": "e1g1",
+        "depth": 7,
+        "score": 9,
+        "nodes": 100000,
+        "seconds": 1.7016898000001675
+      },
+      "fused": {
+        "uci": "e1g1",
+        "depth": 7,
+        "score": 9,
+        "nodes": 100000,
+        "seconds": 1.3251116999999795
+      }
+    },
+    {
+      "index": 31,
+      "fen": "r1bqk2r/pp2npp1/2n4p/2bp2B1/8/2NB4/PPP1NPPP/R2Q1RK1 w kq - 0 10",
+      "fused": {
+        "uci": "g5e7",
+        "depth": 8,
+        "score": 20,
+        "nodes": 100000,
+        "seconds": 1.4071409999996831
+      },
+      "baseline": {
+        "uci": "g5e7",
+        "depth": 8,
+        "score": 20,
+        "nodes": 100000,
+        "seconds": 1.5579674000000523
+      }
+    },
+    {
+      "index": 32,
+      "fen": "r1bq1rk1/1pp1npp1/1bnp3p/p3p3/P3P3/1BPP1N2/1P1N1PPP/R1BQ1RK1 w - - 4 10",
+      "baseline": {
+        "uci": "d2c4",
+        "depth": 9,
+        "score": 37,
+        "nodes": 100000,
+        "seconds": 1.7769435000009253
+      },
+      "fused": {
+        "uci": "d2c4",
+        "depth": 9,
+        "score": 37,
+        "nodes": 100000,
+        "seconds": 1.6967437999992399
+      }
+    }
+  ],
+  "platform": "Windows-11-10.0.26200-SP0",
+  "scope": "Whole-search comparison on the recorded host; all selected moves, scores, depths and node counts equal. Native exact-source gate still required for a submission."
+}

@@ -1,0 +1,16 @@
+{
+  "candidate": {
+    "n": 63,
+    "mean_regret_cp": 20.92063492063492,
+    "regret_over_200": 1,
+    "score_mae": 1279.952380952381,
+    "optimistic_by_200": 3
+  },
+  "baseline": {
+    "n": 63,
+    "mean_regret_cp": 163.0952380952381,
+    "regret_over_200": 2,
+    "score_mae": 1280.5714285714287,
+    "optimistic_by_200": 8
+  }
+}

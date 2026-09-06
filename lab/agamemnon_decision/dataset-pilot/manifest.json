@@ -1,0 +1,19 @@
+{
+  "sources": {
+    "pilot\\lane0.jsonl": "da7b623c952e9476933de25236dbebf5efa643fefccf17dc945cb41c6251639b",
+    "pilot\\lane1.jsonl": "b1ffb079d826701f3225c52bb604bb1a3f1b307973c5e452fdf227961e5defe5",
+    "pilot\\lane2.jsonl": "ab4d690dee7d5a227f649b905ae0dc0e998f8b48eb4fdd94c58fb3223fea28fc",
+    "pilot\\lane3.jsonl": "a77e42ef165c7c2fd712e9a038250efbe7f62ebafd72296acf7bca1dfcaa9af0"
+  },
+  "eligibility": {
+    "roots": 160,
+    "alternatives": 689,
+    "provenance": 671,
+    "quiet": 109
+  },
+  "kept_leaves": 76,
+  "training_groups": 27,
+  "development_groups": 4,
+  "max_float_vs_native_backed_score_error": 1.345947265625,
+  "scope": "Conditional quiet-leaf alternative groups; regret compares eligible alternatives only. Full legal-move search screening remains required. Cross-split exact/mirror leaves removed."
+}

@@ -1,0 +1,1 @@
+{"pass": true, "counts": {"positions": 9221, "legal_moves": 218670, "captures": 14242, "en_passant": 20, "castles": 505, "promotions": 720, "checks": 487}, "seconds": 27.9529999999977}

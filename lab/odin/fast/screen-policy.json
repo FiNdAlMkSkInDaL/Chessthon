@@ -1,0 +1,9 @@
+{
+  "baseline": "released Odin v5 c7d8972e823eb821c016010445d4b02996daff954d870d63083c445850e21102",
+  "candidates": ["odin_v6_aspiration", "odin_v6_selective"],
+  "pairs_per_candidate": 24,
+  "nodes_per_move": 20000,
+  "selection": "Complete fixed 24-pair coverage for both candidates. Select highest paired points if above 50%, all isolation checks pass and zero operational failures. Ties prefer aspiration-only. This is exploratory selection, not an improvement confidence claim. If neither clears, inspect failures and develop a new focused candidate using fresh positions.",
+  "overnight": "One frozen winner against exact released Odin v5 on 56 separate candidate-blind opening pairs, 112 games at 120s+500ms; no result-based early stopping. Review paired uncertainty and all faults before promotion.",
+  "cpu_layout": "Laptop four lanes on CPUs4-7 cover screen indices0-15 for each candidate. VPS two lanes on CPUs0-1 cover indices16-23 for each. Only one active mover per lane/core. Report platform strata separately."
+}

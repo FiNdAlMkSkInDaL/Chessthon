@@ -1,0 +1,297 @@
+{
+  "checks": 15,
+  "groups": 4064,
+  "trials": [
+    {
+      "temperature": 0.5,
+      "uniform_fraction": 0,
+      "nll": 3.0568598877469,
+      "uniform_nll": 3.1479474232163045,
+      "teacher_below_uniform_fraction": 0.46801181102362205,
+      "mean_teacher_child_budget": 6.967379392047,
+      "teacher_budget_p05": 6.0358161746914005,
+      "fold_nll": [
+        3.1771081182101675,
+        3.0063984640340955,
+        3.0505483590847673,
+        3.0826339573478916,
+        2.980401549802443
+      ]
+    },
+    {
+      "temperature": 0.5,
+      "uniform_fraction": 0.1,
+      "nll": 2.8885905381362003,
+      "uniform_nll": 3.1479474232163045,
+      "teacher_below_uniform_fraction": 0.46801181102362205,
+      "mean_teacher_child_budget": 7.028453729933157,
+      "teacher_budget_p05": 6.37732983527677,
+      "fold_nll": [
+        2.97537878479215,
+        2.851699118154422,
+        2.862558521231972,
+        2.9275832129526536,
+        2.837439454879129
+      ]
+    },
+    {
+      "temperature": 0.5,
+      "uniform_fraction": 0.25,
+      "nll": 2.808929440320925,
+      "uniform_nll": 3.1479474232163045,
+      "teacher_below_uniform_fraction": 0.46801181102362205,
+      "mean_teacher_child_budget": 7.065438019810551,
+      "teacher_budget_p05": 6.602803403361025,
+      "fold_nll": [
+        2.875694142521961,
+        2.776360688233338,
+        2.7825956029364947,
+        2.8443316449771534,
+        2.7756317477102743
+      ]
+    },
+    {
+      "temperature": 0.5,
+      "uniform_fraction": 0.5,
+      "nll": 2.7861830513697967,
+      "uniform_nll": 3.1479474232163045,
+      "teacher_below_uniform_fraction": 0.46801181102362205,
+      "mean_teacher_child_budget": 7.092939232935139,
+      "teacher_budget_p05": 6.792541452231672,
+      "fold_nll": [
+        2.829079928953807,
+        2.7571078847289185,
+        2.7620555937701186,
+        2.817834398034727,
+        2.7729140114380333
+      ]
+    },
+    {
+      "temperature": 1,
+      "uniform_fraction": 0,
+      "nll": 2.7178944768743496,
+      "uniform_nll": 3.1479474232163045,
+      "teacher_below_uniform_fraction": 0.33513779527559057,
+      "mean_teacher_child_budget": 7.11898538468212,
+      "teacher_budget_p05": 6.672464097841054,
+      "fold_nll": [
+        2.7628758910138425,
+        2.6723277255150566,
+        2.7105638317058385,
+        2.7430148558284864,
+        2.7093114623697203
+      ]
+    },
+    {
+      "temperature": 1,
+      "uniform_fraction": 0.1,
+      "nll": 2.722196687900011,
+      "uniform_nll": 3.1479474232163045,
+      "teacher_below_uniform_fraction": 0.33513779527559057,
+      "mean_teacher_child_budget": 7.12113622318509,
+      "teacher_budget_p05": 6.723140435349631,
+      "fold_nll": [
+        2.761467441335699,
+        2.6789256892736786,
+        2.7094931848226627,
+        2.7515419105229237,
+        2.7182284479965646
+      ]
+    },
+    {
+      "temperature": 1,
+      "uniform_fraction": 0.25,
+      "nll": 2.7455686484032675,
+      "uniform_nll": 3.1479474232163045,
+      "teacher_below_uniform_fraction": 0.33513779527559057,
+      "mean_teacher_child_budget": 7.118474277810748,
+      "teacher_budget_p05": 6.788042693038288,
+      "fold_nll": [
+        2.7790463020437066,
+        2.703670706953125,
+        2.7299761962399898,
+        2.7767134155290663,
+        2.746936664486752
+      ]
+    },
+    {
+      "temperature": 1,
+      "uniform_fraction": 0.5,
+      "nll": 2.815289851729822,
+      "uniform_nll": 3.1479474232163045,
+      "teacher_below_uniform_fraction": 0.33513779527559057,
+      "mean_teacher_child_budget": 7.102004036261899,
+      "teacher_budget_p05": 6.874705912644351,
+      "fold_nll": [
+        2.838797873423005,
+        2.774752758156782,
+        2.7974743117555474,
+        2.848147965232457,
+        2.825386300992167
+      ]
+    },
+    {
+      "temperature": 2,
+      "uniform_fraction": 0,
+      "nll": 2.810538825318089,
+      "uniform_nll": 3.1479474232163045,
+      "teacher_below_uniform_fraction": 0.24729330708661418,
+      "mean_teacher_child_budget": 7.105152315495544,
+      "teacher_budget_p05": 6.876983784577099,
+      "fold_nll": [
+        2.8276790894896284,
+        2.7656077531549053,
+        2.798126657429827,
+        2.8412826137478095,
+        2.827864897718941
+      ]
+    },
+    {
+      "temperature": 2,
+      "uniform_fraction": 0.1,
+      "nll": 2.8313747204894977,
+      "uniform_nll": 3.1479474232163045,
+      "teacher_below_uniform_fraction": 0.24729330708661418,
+      "mean_teacher_child_budget": 7.098788570934174,
+      "teacher_budget_p05": 6.891445541700281,
+      "fold_nll": [
+        2.846987816187684,
+        2.7867713861147023,
+        2.8176153044466354,
+        2.8632909760337486,
+        2.850115240575636
+      ]
+    },
+    {
+      "temperature": 2,
+      "uniform_fraction": 0.25,
+      "nll": 2.866543713643651,
+      "uniform_nll": 3.1479474232163045,
+      "teacher_below_uniform_fraction": 0.24729330708661418,
+      "mean_teacher_child_budget": 7.087909810572034,
+      "teacher_budget_p05": 6.912405916806835,
+      "fold_nll": [
+        2.8799144157147465,
+        2.822315895803008,
+        2.8511922603253894,
+        2.8999163906265113,
+        2.8873218730054497
+      ]
+    },
+    {
+      "temperature": 2,
+      "uniform_fraction": 0.5,
+      "nll": 2.9367508713635906,
+      "uniform_nll": 3.1479474232163045,
+      "teacher_below_uniform_fraction": 0.24729330708661418,
+      "mean_teacher_child_budget": 7.066015033764368,
+      "teacher_budget_p05": 6.944629052454381,
+      "fold_nll": [
+        2.9460427028617193,
+        2.8930629139101125,
+        2.919236565120602,
+        2.972370659756021,
+        2.9610099596408013
+      ]
+    },
+    {
+      "temperature": 4,
+      "uniform_fraction": 0,
+      "nll": 2.944506062187505,
+      "uniform_nll": 3.1479474232163045,
+      "teacher_below_uniform_fraction": 0.19931102362204725,
+      "mean_teacher_child_budget": 7.063734197723227,
+      "teacher_budget_p05": 6.948200440316432,
+      "fold_nll": [
+        2.9518960181724454,
+        2.901069354144729,
+        2.927042648535553,
+        2.979751765634896,
+        2.9705816433454713
+      ]
+    },
+    {
+      "temperature": 4,
+      "uniform_fraction": 0.1,
+      "nll": 2.9606521408242847,
+      "uniform_nll": 3.1479474232163045,
+      "teacher_below_uniform_fraction": 0.19931102362204725,
+      "mean_teacher_child_budget": 7.058667681950671,
+      "teacher_budget_p05": 6.953766203886609,
+      "fold_nll": [
+        2.9673850560872608,
+        2.9173155931436647,
+        2.9426328459398685,
+        2.996458335412802,
+        2.9873069675553863
+      ]
+    },
+    {
+      "temperature": 4,
+      "uniform_fraction": 0.25,
+      "nll": 2.986242022861519,
+      "uniform_nll": 3.1479474232163045,
+      "teacher_below_uniform_fraction": 0.19931102362204725,
+      "mean_teacher_child_budget": 7.050637659423262,
+      "teacher_budget_p05": 6.961937941183233,
+      "fold_nll": [
+        2.9919450334087383,
+        2.9430711175699495,
+        2.967406632447952,
+        3.022888854778171,
+        3.0137736505940382
+      ]
+    },
+    {
+      "temperature": 4,
+      "uniform_fraction": 0.5,
+      "nll": 3.0330436540582633,
+      "uniform_nll": 3.1479474232163045,
+      "teacher_below_uniform_fraction": 0.19931102362204725,
+      "mean_teacher_child_budget": 7.03595841883321,
+      "teacher_budget_p05": 6.975121368328573,
+      "fold_nll": [
+        3.036910140489425,
+        2.9902208940856725,
+        3.0128209139892794,
+        3.0711325379643237,
+        3.06206430359938
+      ]
+    }
+  ],
+  "nested_calibration": [
+    {
+      "fold": 0,
+      "temperature": 1,
+      "uniform_fraction": 0,
+      "nll": 2.7628758910138425
+    },
+    {
+      "fold": 1,
+      "temperature": 1,
+      "uniform_fraction": 0,
+      "nll": 2.6723277255150566
+    },
+    {
+      "fold": 2,
+      "temperature": 1,
+      "uniform_fraction": 0,
+      "nll": 2.7105638317058385
+    },
+    {
+      "fold": 3,
+      "temperature": 1,
+      "uniform_fraction": 0,
+      "nll": 2.7430148558284864
+    },
+    {
+      "fold": 4,
+      "temperature": 1,
+      "uniform_fraction": 0,
+      "nll": 2.7093114623697203
+    }
+  ],
+  "script_sha256": "999ae1d56355d36f6b71d7e792ea19c35688b3c2792e51bb2f9cee48f8b4dadf",
+  "data_sha256": "500c00c13c37381dc37b09346dbfea54221ff2c2c5ac2f6bc00eae9bf1e13c44",
+  "scope": "Reused development predictions; calibration is not fresh validation. This tests probability budget math, not a complete chess search. It exposes low-prior teacher moves before allocating real depth. Full move alternatives, tactical verification and equal-wall integration remain required."
+}

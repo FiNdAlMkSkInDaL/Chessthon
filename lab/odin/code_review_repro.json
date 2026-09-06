@@ -1,0 +1,54 @@
+{
+  "method": "Unmodified function AST bodies with decorators removed; numpy scalar behavior and original move generation. No compiled engine, search or JIT was run. This establishes local helper behavior, not any game's best move or runtime.",
+  "see": [
+    {
+      "kind": "illegal_king_recapture",
+      "fen": "5k2/6p1/8/8/8/8/1B6/4K1R1 w - - 0 1",
+      "move": "g1g7",
+      "source_isolated_see": -400,
+      "legal_recaptures": [],
+      "gives_check": false,
+      "captured_value": 100
+    },
+    {
+      "kind": "pinned_bishop_recapture",
+      "fen": "4k3/4b3/3p4/2B5/8/8/8/4R1K1 w - - 0 1",
+      "move": "c5d6",
+      "source_isolated_see": -200,
+      "legal_recaptures": [],
+      "gives_check": false,
+      "captured_value": 100
+    }
+  ],
+  "en_passant_repetition_key": {
+    "fen_with_ep": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+    "fen_without_ep": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+    "referee_keys_equal": true,
+    "storm_keys_equal": false
+  },
+  "tt_key_excludes_halfmove": {
+    "counter_values": [
+      0,
+      98
+    ],
+    "storm_keys_equal": true
+  },
+  "second_occurrence": {
+    "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 4 3",
+    "referee_outcome": "None",
+    "source_isolated_is_repeat": true
+  },
+  "late_clock_at_300": {
+    "moves_to_go": 1.0,
+    "allocation_20s": [
+      "search",
+      18925.0,
+      19600.0
+    ]
+  },
+  "history_buffer": {
+    "fixed_capacity": 512,
+    "max_search_ply": 96,
+    "capacity_exceeded_with_pre_root_history": 512
+  }
+}

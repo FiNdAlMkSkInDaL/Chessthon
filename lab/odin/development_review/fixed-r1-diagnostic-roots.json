@@ -1,0 +1,848 @@
+[
+  {
+    "id": "fixed-r1-development-g1-ply0",
+    "start_fen": "rnb2rk1/1p2bppp/p3pn2/8/1PB5/P1N1PN2/5PPP/R1BK3R w - - 1 11",
+    "history_uci": [],
+    "fen": "rnb2rk1/1p2bppp/p3pn2/8/1PB5/P1N1PN2/5PPP/R1BK3R w - - 1 11",
+    "absolute_ply": 20,
+    "played_uci": "d1c2",
+    "recorded_time_ms": 966.741,
+    "recorded_time_left_ms": 30000,
+    "reference_1m": {
+      "type": "position",
+      "ply": 0,
+      "absolute_ply": 20,
+      "fen": "rnb2rk1/1p2bppp/p3pn2/8/1PB5/P1N1PN2/5PPP/R1BK3R w - - 1 11",
+      "move_number": 11,
+      "turn": "white",
+      "candidate_turn": true,
+      "played_uci": "d1c2",
+      "played_san": "Kc2",
+      "timing": {
+        "elapsed_ms": 966.741,
+        "fen": "rnb2rk1/1p2bppp/p3pn2/8/1PB5/P1N1PN2/5PPP/R1BK3R w - - 1 11",
+        "move": "d1c2",
+        "ok": true,
+        "request": 1,
+        "time_left_ms": 30000
+      },
+      "telemetry": {
+        "depth": 10,
+        "elapsed_ms": 964,
+        "game_ply": 20,
+        "nodes": 783940,
+        "score": -12,
+        "target_ms": 1185
+      },
+      "white_cp": -8,
+      "white_mate": null,
+      "depth": 23,
+      "seldepth": 28,
+      "nodes": 1000571,
+      "seconds": 1.071,
+      "pv_uci": [
+        "d1e2",
+        "b7b5"
+      ],
+      "pv_san": [
+        "Ke2",
+        "b5"
+      ],
+      "wdl_white": [
+        4,
+        987,
+        9
+      ],
+      "played_root": {
+        "white_cp": -70,
+        "white_mate": null,
+        "depth": 21,
+        "seldepth": 42,
+        "nodes": 1000726,
+        "seconds": 1.133,
+        "pv_uci": [
+          "d1c2",
+          "c8d7"
+        ],
+        "pv_san": [
+          "Kc2",
+          "Bd7"
+        ],
+        "wdl_white": [
+          0,
+          820,
+          180
+        ]
+      }
+    },
+    "scope": "Development diagnosis; never ship move labels or pool with holdout."
+  },
+  {
+    "id": "fixed-r1-development-g1-ply4",
+    "start_fen": "rnb2rk1/1p2bppp/p3pn2/8/1PB5/P1N1PN2/5PPP/R1BK3R w - - 1 11",
+    "history_uci": [
+      "d1c2",
+      "b8c6",
+      "c1b2",
+      "b7b5"
+    ],
+    "fen": "r1b2rk1/4bppp/p1n1pn2/1p6/1PB5/P1N1PN2/1BK2PPP/R6R w - - 0 13",
+    "absolute_ply": 24,
+    "played_uci": "c4b3",
+    "recorded_time_ms": 1233.346,
+    "recorded_time_left_ms": 27373,
+    "reference_1m": {
+      "type": "position",
+      "ply": 4,
+      "absolute_ply": 24,
+      "fen": "r1b2rk1/4bppp/p1n1pn2/1p6/1PB5/P1N1PN2/1BK2PPP/R6R w - - 0 13",
+      "move_number": 13,
+      "turn": "white",
+      "candidate_turn": true,
+      "played_uci": "c4b3",
+      "played_san": "Bb3",
+      "timing": {
+        "elapsed_ms": 1233.346,
+        "fen": "r1b2rk1/4bppp/p1n1pn2/1p6/1PB5/P1N1PN2/1BK2PPP/R6R w - - 0 13",
+        "move": "c4b3",
+        "ok": true,
+        "request": 3,
+        "time_left_ms": 27373
+      },
+      "telemetry": {
+        "depth": 11,
+        "elapsed_ms": 1231,
+        "game_ply": 24,
+        "nodes": 974188,
+        "score": -14,
+        "target_ms": 1025
+      },
+      "white_cp": -67,
+      "white_mate": null,
+      "depth": 20,
+      "seldepth": 37,
+      "nodes": 1000268,
+      "seconds": 2.323,
+      "pv_uci": [
+        "c4d3",
+        "f6g4"
+      ],
+      "pv_san": [
+        "Bd3",
+        "Ng4"
+      ],
+      "wdl_white": [
+        0,
+        841,
+        159
+      ],
+      "played_root": {
+        "white_cp": -116,
+        "white_mate": null,
+        "depth": 22,
+        "seldepth": 40,
+        "nodes": 1000650,
+        "seconds": 2.52,
+        "pv_uci": [
+          "c4b3",
+          "a6a5",
+          "c2d3",
+          "a5b4",
+          "a3b4",
+          "c8a6",
+          "c3a2",
+          "c6b4",
+          "a2b4",
+          "e7b4",
+          "b2f6",
+          "g7f6",
+          "h1c1",
+          "a6b7",
+          "f3d4",
+          "a8a1"
+        ],
+        "pv_san": [
+          "Bb3",
+          "a5",
+          "Kd3",
+          "axb4",
+          "axb4",
+          "Ba6",
+          "Na2",
+          "Nxb4+",
+          "Nxb4",
+          "Bxb4",
+          "Bxf6",
+          "gxf6",
+          "Rhc1",
+          "Bb7",
+          "Nd4",
+          "Rxa1"
+        ],
+        "wdl_white": [
+          0,
+          310,
+          690
+        ]
+      }
+    },
+    "scope": "Development diagnosis; never ship move labels or pool with holdout."
+  },
+  {
+    "id": "fixed-r1-development-g1-ply6",
+    "start_fen": "rnb2rk1/1p2bppp/p3pn2/8/1PB5/P1N1PN2/5PPP/R1BK3R w - - 1 11",
+    "history_uci": [
+      "d1c2",
+      "b8c6",
+      "c1b2",
+      "b7b5",
+      "c4b3",
+      "e6e5"
+    ],
+    "fen": "r1b2rk1/4bppp/p1n2n2/1p2p3/1P6/PBN1PN2/1BK2PPP/R6R w - - 0 14",
+    "absolute_ply": 26,
+    "played_uci": "h1e1",
+    "recorded_time_ms": 2193.189,
+    "recorded_time_left_ms": 26239,
+    "reference_1m": {
+      "type": "position",
+      "ply": 6,
+      "absolute_ply": 26,
+      "fen": "r1b2rk1/4bppp/p1n2n2/1p2p3/1P6/PBN1PN2/1BK2PPP/R6R w - - 0 14",
+      "move_number": 14,
+      "turn": "white",
+      "candidate_turn": true,
+      "played_uci": "h1e1",
+      "played_san": "Rhe1",
+      "timing": {
+        "elapsed_ms": 2193.189,
+        "fen": "r1b2rk1/4bppp/p1n2n2/1p2p3/1P6/PBN1PN2/1BK2PPP/R6R w - - 0 14",
+        "move": "h1e1",
+        "ok": true,
+        "request": 4,
+        "time_left_ms": 26239
+      },
+      "telemetry": {
+        "depth": 11,
+        "elapsed_ms": 2191,
+        "game_ply": 26,
+        "nodes": 1667211,
+        "score": -28,
+        "target_ms": 1170
+      },
+      "white_cp": -9,
+      "white_mate": null,
+      "depth": 21,
+      "seldepth": 46,
+      "nodes": 1000113,
+      "seconds": 2.247,
+      "pv_uci": [
+        "c2d1",
+        "e5e4"
+      ],
+      "pv_san": [
+        "Kd1",
+        "e4"
+      ],
+      "wdl_white": [
+        4,
+        986,
+        10
+      ],
+      "played_root": {
+        "white_cp": -87,
+        "white_mate": null,
+        "depth": 21,
+        "seldepth": 33,
+        "nodes": 1000066,
+        "seconds": 1.491,
+        "pv_uci": [
+          "h1e1",
+          "a6a5"
+        ],
+        "pv_san": [
+          "Rhe1",
+          "a5"
+        ],
+        "wdl_white": [
+          0,
+          664,
+          336
+        ]
+      }
+    },
+    "scope": "Development diagnosis; never ship move labels or pool with holdout."
+  },
+  {
+    "id": "fixed-r1-development-g1-ply16",
+    "start_fen": "rnb2rk1/1p2bppp/p3pn2/8/1PB5/P1N1PN2/5PPP/R1BK3R w - - 1 11",
+    "history_uci": [
+      "d1c2",
+      "b8c6",
+      "c1b2",
+      "b7b5",
+      "c4b3",
+      "e6e5",
+      "h1e1",
+      "e5e4",
+      "f3d2",
+      "c8f5",
+      "d2f1",
+      "f5g6",
+      "f1g3",
+      "f8d8",
+      "a1d1",
+      "c6e5"
+    ],
+    "fen": "r2r2k1/4bppp/p4nb1/1p2n3/1P2p3/PBN1P1N1/1BK2PPP/3RR3 w - - 8 19",
+    "absolute_ply": 36,
+    "played_uci": "b3d5",
+    "recorded_time_ms": 706.89,
+    "recorded_time_left_ms": 19340,
+    "reference_1m": {
+      "type": "position",
+      "ply": 16,
+      "absolute_ply": 36,
+      "fen": "r2r2k1/4bppp/p4nb1/1p2n3/1P2p3/PBN1P1N1/1BK2PPP/3RR3 w - - 8 19",
+      "move_number": 19,
+      "turn": "white",
+      "candidate_turn": true,
+      "played_uci": "b3d5",
+      "played_san": "Bd5",
+      "timing": {
+        "elapsed_ms": 706.89,
+        "fen": "r2r2k1/4bppp/p4nb1/1p2n3/1P2p3/PBN1P1N1/1BK2PPP/3RR3 w - - 8 19",
+        "move": "b3d5",
+        "ok": true,
+        "request": 9,
+        "time_left_ms": 19340
+      },
+      "telemetry": {
+        "depth": 11,
+        "elapsed_ms": 705,
+        "game_ply": 36,
+        "nodes": 576651,
+        "score": -27,
+        "target_ms": 919
+      },
+      "white_cp": 0,
+      "white_mate": null,
+      "depth": 24,
+      "seldepth": 44,
+      "nodes": 1000102,
+      "seconds": 2.086,
+      "pv_uci": [
+        "c3d5",
+        "a8c8"
+      ],
+      "pv_san": [
+        "Nd5",
+        "Rac8+"
+      ],
+      "wdl_white": [
+        6,
+        988,
+        6
+      ],
+      "played_root": {
+        "white_cp": -72,
+        "white_mate": null,
+        "depth": 19,
+        "seldepth": 46,
+        "nodes": 1000215,
+        "seconds": 2.594,
+        "pv_uci": [
+          "b3d5",
+          "a8c8"
+        ],
+        "pv_san": [
+          "Bd5",
+          "Rac8"
+        ],
+        "wdl_white": [
+          0,
+          805,
+          195
+        ]
+      }
+    },
+    "scope": "Development diagnosis; never ship move labels or pool with holdout."
+  },
+  {
+    "id": "fixed-r1-development-g1-ply42",
+    "start_fen": "rnb2rk1/1p2bppp/p3pn2/8/1PB5/P1N1PN2/5PPP/R1BK3R w - - 1 11",
+    "history_uci": [
+      "d1c2",
+      "b8c6",
+      "c1b2",
+      "b7b5",
+      "c4b3",
+      "e6e5",
+      "h1e1",
+      "e5e4",
+      "f3d2",
+      "c8f5",
+      "d2f1",
+      "f5g6",
+      "f1g3",
+      "f8d8",
+      "a1d1",
+      "c6e5",
+      "b3d5",
+      "e5d3",
+      "d5a8",
+      "d3e1",
+      "d1e1",
+      "d8a8",
+      "h2h3",
+      "a8c8",
+      "g3e2",
+      "g6f5",
+      "g2g4",
+      "f5e6",
+      "e2f4",
+      "f6d5",
+      "f4e6",
+      "f7e6",
+      "c2b3",
+      "d5c3",
+      "b2c3",
+      "c8f8",
+      "e1d1",
+      "f8f2",
+      "d1d4",
+      "g8f7",
+      "d4e4",
+      "g7g5"
+    ],
+    "fen": "8/4bk1p/p3p3/1p4p1/1P2R1P1/PKB1P2P/5r2/8 w - - 0 32",
+    "absolute_ply": 62,
+    "played_uci": "a3a4",
+    "recorded_time_ms": 433.829,
+    "recorded_time_left_ms": 4816,
+    "reference_1m": {
+      "type": "position",
+      "ply": 42,
+      "absolute_ply": 62,
+      "fen": "8/4bk1p/p3p3/1p4p1/1P2R1P1/PKB1P2P/5r2/8 w - - 0 32",
+      "move_number": 32,
+      "turn": "white",
+      "candidate_turn": true,
+      "played_uci": "a3a4",
+      "played_san": "a4",
+      "timing": {
+        "elapsed_ms": 433.829,
+        "fen": "8/4bk1p/p3p3/1p4p1/1P2R1P1/PKB1P2P/5r2/8 w - - 0 32",
+        "move": "a3a4",
+        "ok": true,
+        "request": 22,
+        "time_left_ms": 4816
+      },
+      "telemetry": {
+        "depth": 9,
+        "elapsed_ms": 432,
+        "game_ply": 62,
+        "nodes": 593714,
+        "score": -68,
+        "target_ms": 550
+      },
+      "white_cp": -43,
+      "white_mate": null,
+      "depth": 24,
+      "seldepth": 46,
+      "nodes": 1000211,
+      "seconds": 1.166,
+      "pv_uci": [
+        "e4d4",
+        "f2f3"
+      ],
+      "pv_san": [
+        "Rd4",
+        "Rf3"
+      ],
+      "wdl_white": [
+        0,
+        957,
+        43
+      ],
+      "lowerbound": true,
+      "upperbound": false,
+      "played_root": {
+        "white_cp": -243,
+        "white_mate": null,
+        "depth": 22,
+        "seldepth": 48,
+        "nodes": 1000564,
+        "seconds": 0.875,
+        "pv_uci": [
+          "a3a4",
+          "e7f6",
+          "c3f6",
+          "f7f6",
+          "e4d4",
+          "f2f3",
+          "d4d6",
+          "f3e3",
+          "b3a2",
+          "b5a4",
+          "d6a6",
+          "e3h3",
+          "a6a4",
+          "h7h5",
+          "b4b5",
+          "h5g4"
+        ],
+        "pv_san": [
+          "a4",
+          "Bf6",
+          "Bxf6",
+          "Kxf6",
+          "Rd4",
+          "Rf3",
+          "Rd6",
+          "Rxe3+",
+          "Ka2",
+          "bxa4",
+          "Rxa6",
+          "Rxh3",
+          "Rxa4",
+          "h5",
+          "b5",
+          "hxg4"
+        ],
+        "wdl_white": [
+          0,
+          0,
+          1000
+        ],
+        "lowerbound": false,
+        "upperbound": false
+      }
+    },
+    "scope": "Development diagnosis; never ship move labels or pool with holdout."
+  },
+  {
+    "id": "fixed-r1-development-g1-ply44",
+    "start_fen": "rnb2rk1/1p2bppp/p3pn2/8/1PB5/P1N1PN2/5PPP/R1BK3R w - - 1 11",
+    "history_uci": [
+      "d1c2",
+      "b8c6",
+      "c1b2",
+      "b7b5",
+      "c4b3",
+      "e6e5",
+      "h1e1",
+      "e5e4",
+      "f3d2",
+      "c8f5",
+      "d2f1",
+      "f5g6",
+      "f1g3",
+      "f8d8",
+      "a1d1",
+      "c6e5",
+      "b3d5",
+      "e5d3",
+      "d5a8",
+      "d3e1",
+      "d1e1",
+      "d8a8",
+      "h2h3",
+      "a8c8",
+      "g3e2",
+      "g6f5",
+      "g2g4",
+      "f5e6",
+      "e2f4",
+      "f6d5",
+      "f4e6",
+      "f7e6",
+      "c2b3",
+      "d5c3",
+      "b2c3",
+      "c8f8",
+      "e1d1",
+      "f8f2",
+      "d1d4",
+      "g8f7",
+      "d4e4",
+      "g7g5",
+      "a3a4",
+      "f2f3"
+    ],
+    "fen": "8/4bk1p/p3p3/1p4p1/PP2R1P1/1KB1Pr1P/8/8 w - - 1 33",
+    "absolute_ply": 64,
+    "played_uci": "a4a5",
+    "recorded_time_ms": 1384.034,
+    "recorded_time_left_ms": 4482,
+    "reference_1m": {
+      "type": "position",
+      "ply": 44,
+      "absolute_ply": 64,
+      "fen": "8/4bk1p/p3p3/1p4p1/PP2R1P1/1KB1Pr1P/8/8 w - - 1 33",
+      "move_number": 33,
+      "turn": "white",
+      "candidate_turn": true,
+      "played_uci": "a4a5",
+      "played_san": "a5",
+      "timing": {
+        "elapsed_ms": 1384.034,
+        "fen": "8/4bk1p/p3p3/1p4p1/PP2R1P1/1KB1Pr1P/8/8 w - - 1 33",
+        "move": "a4a5",
+        "ok": true,
+        "request": 23,
+        "time_left_ms": 4482
+      },
+      "telemetry": {
+        "depth": 9,
+        "elapsed_ms": 1382,
+        "game_ply": 64,
+        "nodes": 1833231,
+        "score": -69,
+        "target_ms": 1320
+      },
+      "white_cp": -2,
+      "white_mate": null,
+      "depth": 26,
+      "seldepth": 36,
+      "nodes": 1000060,
+      "seconds": 1.552,
+      "pv_uci": [
+        "a4b5",
+        "a6b5"
+      ],
+      "pv_san": [
+        "axb5",
+        "axb5"
+      ],
+      "wdl_white": [
+        4,
+        991,
+        5
+      ],
+      "lowerbound": true,
+      "upperbound": false,
+      "played_root": {
+        "white_cp": -430,
+        "white_mate": null,
+        "depth": 19,
+        "seldepth": 52,
+        "nodes": 1000340,
+        "seconds": 1.846,
+        "pv_uci": [
+          "a4a5",
+          "f3h3"
+        ],
+        "pv_san": [
+          "a5",
+          "Rxh3"
+        ],
+        "wdl_white": [
+          0,
+          0,
+          1000
+        ],
+        "lowerbound": false,
+        "upperbound": true
+      }
+    },
+    "scope": "Development diagnosis; never ship move labels or pool with holdout."
+  },
+  {
+    "id": "fixed-r1-development-g1-ply62",
+    "start_fen": "rnb2rk1/1p2bppp/p3pn2/8/1PB5/P1N1PN2/5PPP/R1BK3R w - - 1 11",
+    "history_uci": [
+      "d1c2",
+      "b8c6",
+      "c1b2",
+      "b7b5",
+      "c4b3",
+      "e6e5",
+      "h1e1",
+      "e5e4",
+      "f3d2",
+      "c8f5",
+      "d2f1",
+      "f5g6",
+      "f1g3",
+      "f8d8",
+      "a1d1",
+      "c6e5",
+      "b3d5",
+      "e5d3",
+      "d5a8",
+      "d3e1",
+      "d1e1",
+      "d8a8",
+      "h2h3",
+      "a8c8",
+      "g3e2",
+      "g6f5",
+      "g2g4",
+      "f5e6",
+      "e2f4",
+      "f6d5",
+      "f4e6",
+      "f7e6",
+      "c2b3",
+      "d5c3",
+      "b2c3",
+      "c8f8",
+      "e1d1",
+      "f8f2",
+      "d1d4",
+      "g8f7",
+      "d4e4",
+      "g7g5",
+      "a3a4",
+      "f2f3",
+      "a4a5",
+      "f3h3",
+      "b3c2",
+      "h7h5",
+      "g4h5",
+      "e7f6",
+      "c3f6",
+      "f7f6",
+      "e4d4",
+      "h3h5",
+      "c2c3",
+      "f6e5",
+      "d4g4",
+      "e5f5",
+      "g4g2",
+      "h5h4",
+      "g2f2",
+      "f5e5"
+    ],
+    "fen": "8/8/p3p3/Pp2k1p1/1P5r/2K1P3/5R2/8 w - - 8 42",
+    "absolute_ply": 82,
+    "played_uci": "f2g2",
+    "recorded_time_ms": 76.925,
+    "recorded_time_left_ms": 587,
+    "reference_1m": {
+      "type": "position",
+      "ply": 62,
+      "absolute_ply": 82,
+      "fen": "8/8/p3p3/Pp2k1p1/1P5r/2K1P3/5R2/8 w - - 8 42",
+      "move_number": 42,
+      "turn": "white",
+      "candidate_turn": true,
+      "played_uci": "f2g2",
+      "played_san": "Rg2",
+      "timing": {
+        "elapsed_ms": 76.925,
+        "fen": "8/8/p3p3/Pp2k1p1/1P5r/2K1P3/5R2/8 w - - 8 42",
+        "move": "f2g2",
+        "ok": true,
+        "request": 32,
+        "time_left_ms": 587
+      },
+      "telemetry": {
+        "depth": 8,
+        "elapsed_ms": 75,
+        "game_ply": 82,
+        "nodes": 98521,
+        "score": -126,
+        "target_ms": 145
+      },
+      "white_cp": -436,
+      "white_mate": null,
+      "depth": 19,
+      "seldepth": 50,
+      "nodes": 1000038,
+      "seconds": 1.701,
+      "pv_uci": [
+        "f2f7",
+        "h4c4",
+        "c3d2",
+        "c4b4",
+        "f7a7",
+        "g5g4",
+        "a7a6",
+        "b4a4",
+        "a6a7",
+        "e5e4",
+        "a7g7",
+        "e4f3",
+        "g7f7",
+        "f3g3",
+        "f7f6",
+        "a4a5"
+      ],
+      "pv_san": [
+        "Rf7",
+        "Rc4+",
+        "Kd2",
+        "Rxb4",
+        "Ra7",
+        "g4",
+        "Rxa6",
+        "Ra4",
+        "Ra7",
+        "Ke4",
+        "Rg7",
+        "Kf3",
+        "Rf7+",
+        "Kg3",
+        "Rf6",
+        "Rxa5"
+      ],
+      "wdl_white": [
+        0,
+        0,
+        1000
+      ],
+      "played_root": {
+        "white_cp": -540,
+        "white_mate": null,
+        "depth": 18,
+        "seldepth": 42,
+        "nodes": 1000128,
+        "seconds": 1.72,
+        "pv_uci": [
+          "f2g2",
+          "h4c4",
+          "c3d3",
+          "g5g4",
+          "g2h2",
+          "c4b4",
+          "h2h5",
+          "e5d6",
+          "h5g5",
+          "b4a4",
+          "g5g8",
+          "a4a5",
+          "g8g4",
+          "a5a3",
+          "d3d2",
+          "e6e5"
+        ],
+        "pv_san": [
+          "Rg2",
+          "Rc4+",
+          "Kd3",
+          "g4",
+          "Rh2",
+          "Rxb4",
+          "Rh5+",
+          "Kd6",
+          "Rg5",
+          "Ra4",
+          "Rg8",
+          "Rxa5",
+          "Rxg4",
+          "Ra3+",
+          "Kd2",
+          "e5"
+        ],
+        "wdl_white": [
+          0,
+          0,
+          1000
+        ]
+      }
+    },
+    "scope": "Development diagnosis; never ship move labels or pool with holdout."
+  }
+]

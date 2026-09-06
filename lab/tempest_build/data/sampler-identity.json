@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "roots": 30,
+  "total_samples": 175,
+  "identity_fields": [
+    "id",
+    "uci",
+    "score",
+    "depth",
+    "nodes"
+  ]
+}

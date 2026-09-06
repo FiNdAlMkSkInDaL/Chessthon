@@ -1,0 +1,18 @@
+{
+  "raw": 5754,
+  "deduplicated": 5754,
+  "cross_split_positions_removed": 0,
+  "split_counts": {
+    "train": 4520,
+    "test": 491,
+    "validation": 743
+  },
+  "kind_counts": {
+    "guard": 2259,
+    "quiet": 3495
+  },
+  "sha256": "117169e50116083d254a62a9a7438b83aac6cc40631e6160ebe11338e0dbfdc2",
+  "nodes_per_label": 200000,
+  "shards": 4,
+  "scope": "History-preserving deeper leaf labels; root ranking requires a separate search gate, not static one-ply substitutes."
+}

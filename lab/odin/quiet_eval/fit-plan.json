@@ -1,0 +1,123 @@
+{
+  "frozen_utc": "2026-09-05T19:35:09.311605+00:00",
+  "feature_names": [
+    "pawn_isolated",
+    "pawn_doubled",
+    "pawn_supported",
+    "passed_advance",
+    "passed_blocked",
+    "passer_friendly_king_distance",
+    "passer_enemy_king_distance",
+    "rook_open_file",
+    "rook_semi_open_file",
+    "king_shelter",
+    "king_file_open"
+  ],
+  "mg_bounds": {
+    "pawn_isolated": [
+      -50,
+      0
+    ],
+    "pawn_doubled": [
+      -50,
+      0
+    ],
+    "pawn_supported": [
+      0,
+      50
+    ],
+    "passed_advance": [
+      0,
+      40
+    ],
+    "passed_blocked": [
+      -120,
+      0
+    ],
+    "passer_friendly_king_distance": [
+      -30,
+      0
+    ],
+    "passer_enemy_king_distance": [
+      0,
+      40
+    ],
+    "rook_open_file": [
+      0,
+      80
+    ],
+    "rook_semi_open_file": [
+      0,
+      60
+    ],
+    "king_shelter": [
+      0,
+      60
+    ],
+    "king_file_open": [
+      -100,
+      0
+    ]
+  },
+  "eg_bounds": {
+    "pawn_isolated": [
+      -50,
+      0
+    ],
+    "pawn_doubled": [
+      -50,
+      0
+    ],
+    "pawn_supported": [
+      0,
+      50
+    ],
+    "passed_advance": [
+      0,
+      40
+    ],
+    "passed_blocked": [
+      -120,
+      0
+    ],
+    "passer_friendly_king_distance": [
+      -40,
+      0
+    ],
+    "passer_enemy_king_distance": [
+      0,
+      40
+    ],
+    "rook_open_file": [
+      0,
+      80
+    ],
+    "rook_semi_open_file": [
+      0,
+      60
+    ],
+    "king_shelter": [
+      0,
+      20
+    ],
+    "king_file_open": [
+      -20,
+      0
+    ]
+  },
+  "correction_clip_cp": 400,
+  "ridge_grid": [
+    10.0,
+    100.0,
+    1000.0
+  ],
+  "huber_cp": 100.0,
+  "irls_iterations": 6,
+  "inner_training_partition": "sha256('quiet-inner-v1'+opening_key) mod5 equals0",
+  "choice": "Lowest internal-training-holdout MAE, ties prefer larger ridge; final validation not consulted.",
+  "standardization": "Training-subset RMS only; no intercept/centering so color symmetry is preserved.",
+  "baseline": "Exact existing PeSTO with its actual10cp side-to-move tempo; white orientation.",
+  "quantization": "Round MG/EG coefficients to nearest integer after fitting; report both metrics without validation retuning.",
+  "deduplication": "Exclude every canonical quiet-position key shared across original train/validation; retain one deterministic row within each partition.",
+  "confidence": "2000 deterministic opening-family bootstrap resamples of validation per-row MAE improvement; descriptive offline uncertainty only."
+}

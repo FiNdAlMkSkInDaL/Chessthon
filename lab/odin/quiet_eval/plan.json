@@ -1,0 +1,52 @@
+{
+  "frozen_utc": "2026-09-05T19:31:26.026248+00:00",
+  "seed": "odin-quiet-eval-20260905-v1",
+  "selection_rows": 6000,
+  "selection_sha256": "61e937f02511278f7024b47465973515cbb36b069e226165c91db0771cdb4187",
+  "original_corpus_sha256": "4a954d9ee11db19db81f412c54e34f571388f38fc6c3eabd75b62d13e3833790",
+  "eligible": {
+    "middlegame": 6364,
+    "attack": 7013,
+    "ending": 5249
+  },
+  "counts": {
+    "ending:train": 1535,
+    "ending:validation": 465,
+    "attack:train": 1529,
+    "attack:validation": 471,
+    "middlegame:validation": 508,
+    "middlegame:train": 1492
+  },
+  "partition_policy": "Original source-game/first-eight-ply-family train-validation assignment retained exactly; no release-opening source is read.",
+  "nodes_per_analysis": 100000,
+  "engine_sha256": "3b5881df3d6f92817cf6664a6a18a473b50d424c71a1247fe4268090db281413",
+  "worker_cpus": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "engine_threads": 1,
+  "hash_mb": 32,
+  "max_forcing_plies": 12,
+  "max_analyses_per_row": 2,
+  "screen": {
+    "score_abs_max_cp": 1000,
+    "last_two_exact_score_drift_cp": 40,
+    "minimum_exact_score_nodes": 10000,
+    "required_leaf": "Not in check; reference best move is neither capture, promotion nor check."
+  },
+  "time_limit": "Each worker stops by the shared wall deadline after finishing its current <=100k-node analysis; any unprocessed suffix remains reported, not silently replaced.",
+  "fit_plan": {
+    "features": "Same original 11 geometry counts, independently tapered MG/EG; no intercept; actual PeSTO tempo baseline",
+    "huber_cp": 100,
+    "ridge_grid": [
+      10,
+      100,
+      1000
+    ],
+    "irls_iterations": 6,
+    "hyperparameter_selection": "Training-only first-eight-ply-family hash holdout, 20%; final validation never selects regularization.",
+    "bounds": "Sign/range constraints frozen in fit.py before labels are inspected."
+  }
+}

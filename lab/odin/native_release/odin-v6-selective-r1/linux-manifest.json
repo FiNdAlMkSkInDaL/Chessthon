@@ -1,0 +1,80 @@
+{
+  "archive": "/home/botuser/chess-sign-odin-20260905/odin-v6-selective-r1/candidate-linux-x86.zip",
+  "archive_sha256": "1b3cc02020c592506ef0889c4b2a592c32da054d069805785995d068f7ae6f15",
+  "zip_bytes": 37471,
+  "uncompressed_bytes": 137525,
+  "entries": [
+    {
+      "name": "agent.py",
+      "compressed_bytes": 1390,
+      "uncompressed_bytes": 3748,
+      "sha256": "7fd30408cb39e61a967bdd2a3e0c0b570fa594960183168d4f8f93409ee76451"
+    },
+    {
+      "name": "bitops_nb.py",
+      "compressed_bytes": 783,
+      "uncompressed_bytes": 1699,
+      "sha256": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e"
+    },
+    {
+      "name": "board_nb.py",
+      "compressed_bytes": 3513,
+      "uncompressed_bytes": 13207,
+      "sha256": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d"
+    },
+    {
+      "name": "core_nb.py",
+      "compressed_bytes": 14049,
+      "uncompressed_bytes": 65301,
+      "sha256": "b597174ef7b86fe660abc5a4aacaa9454f8ae2e31821f7b7584845b835bd8559"
+    },
+    {
+      "name": "eval_nb.py",
+      "compressed_bytes": 2792,
+      "uncompressed_bytes": 8267,
+      "sha256": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f"
+    },
+    {
+      "name": "history.py",
+      "compressed_bytes": 1791,
+      "uncompressed_bytes": 5082,
+      "sha256": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e"
+    },
+    {
+      "name": "movegen_nb.py",
+      "compressed_bytes": 2004,
+      "uncompressed_bytes": 8581,
+      "sha256": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c"
+    },
+    {
+      "name": "search_nb.py",
+      "compressed_bytes": 3986,
+      "uncompressed_bytes": 15989,
+      "sha256": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6"
+    },
+    {
+      "name": "storm_clock.py",
+      "compressed_bytes": 3298,
+      "uncompressed_bytes": 8845,
+      "sha256": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8"
+    },
+    {
+      "name": "tables_nb.py",
+      "compressed_bytes": 1361,
+      "uncompressed_bytes": 3561,
+      "sha256": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007"
+    },
+    {
+      "name": "time_nb.py",
+      "compressed_bytes": 461,
+      "uncompressed_bytes": 899,
+      "sha256": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8"
+    },
+    {
+      "name": "tt_nb.py",
+      "compressed_bytes": 849,
+      "uncompressed_bytes": 2346,
+      "sha256": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+    }
+  ]
+}

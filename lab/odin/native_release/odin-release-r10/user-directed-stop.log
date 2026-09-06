@@ -1,0 +1,3 @@
+{"event": "USER_DIRECTED_SAMPLE_CHANGE", "target_games_per_lane": 8, "reason": "User rejects waiting for112 games and prioritizes rapid iteration. No claim that the original confidence gate passed."}
+{"event": "PAIR_BOUNDARY_STOP_REQUESTED", "lane": "a", "complete_games": 8, "match_pid": 3532348}
+{"event": "PAIR_BOUNDARY_STOP_REQUESTED", "lane": "b", "complete_games": 8, "match_pid": 3532711}

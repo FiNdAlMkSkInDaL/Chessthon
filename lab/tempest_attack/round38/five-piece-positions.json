@@ -1,0 +1,608 @@
+[
+  {
+    "fen": "4b3/1B6/5k2/n1K5/8/8/8/8 w - - 0 54",
+    "ply": 106,
+    "move_uci": "c6a5",
+    "check": false
+  },
+  {
+    "fen": "4b3/8/5k2/n1K5/8/8/6B1/8 b - - 1 54",
+    "ply": 107,
+    "move_uci": "b7g2",
+    "check": false
+  },
+  {
+    "fen": "4b3/8/5k2/2K5/8/1n6/6B1/8 w - - 2 55",
+    "ply": 108,
+    "move_uci": "a5b3",
+    "check": true
+  },
+  {
+    "fen": "4b3/8/5k2/8/1K6/1n6/6B1/8 b - - 3 55",
+    "ply": 109,
+    "move_uci": "c5b4",
+    "check": false
+  },
+  {
+    "fen": "4b3/8/5k2/8/1K1n4/8/6B1/8 w - - 4 56",
+    "ply": 110,
+    "move_uci": "b3d4",
+    "check": false
+  },
+  {
+    "fen": "4b3/8/5k2/8/1K1n4/7B/8/8 b - - 5 56",
+    "ply": 111,
+    "move_uci": "g2h3",
+    "check": false
+  },
+  {
+    "fen": "8/8/2b2k2/8/1K1n4/7B/8/8 w - - 6 57",
+    "ply": 112,
+    "move_uci": "e8c6",
+    "check": false
+  },
+  {
+    "fen": "8/8/2b2k2/8/1K1n2B1/8/8/8 b - - 7 57",
+    "ply": 113,
+    "move_uci": "h3g4",
+    "check": false
+  },
+  {
+    "fen": "8/8/2b5/4k3/1K1n2B1/8/8/8 w - - 8 58",
+    "ply": 114,
+    "move_uci": "f6e5",
+    "check": false
+  },
+  {
+    "fen": "8/8/2b5/2K1k3/3n2B1/8/8/8 b - - 9 58",
+    "ply": 115,
+    "move_uci": "b4c5",
+    "check": false
+  },
+  {
+    "fen": "b7/8/8/2K1k3/3n2B1/8/8/8 w - - 10 59",
+    "ply": 116,
+    "move_uci": "c6a8",
+    "check": false
+  },
+  {
+    "fen": "b7/8/8/4k3/1K1n2B1/8/8/8 b - - 11 59",
+    "ply": 117,
+    "move_uci": "c5b4",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/3bk3/1K1n2B1/8/8/8 w - - 12 60",
+    "ply": 118,
+    "move_uci": "a8d5",
+    "check": false
+  },
+  {
+    "fen": "8/3B4/8/3bk3/1K1n4/8/8/8 b - - 13 60",
+    "ply": 119,
+    "move_uci": "g4d7",
+    "check": false
+  },
+  {
+    "fen": "8/3B4/3k4/3b4/1K1n4/8/8/8 w - - 14 61",
+    "ply": 120,
+    "move_uci": "e5d6",
+    "check": false
+  },
+  {
+    "fen": "2B5/8/3k4/3b4/1K1n4/8/8/8 b - - 15 61",
+    "ply": 121,
+    "move_uci": "d7c8",
+    "check": false
+  },
+  {
+    "fen": "2B5/8/2nk4/3b4/1K6/8/8/8 w - - 16 62",
+    "ply": 122,
+    "move_uci": "d4c6",
+    "check": true
+  },
+  {
+    "fen": "2B5/8/2nk4/3b4/K7/8/8/8 b - - 17 62",
+    "ply": 123,
+    "move_uci": "b4a4",
+    "check": false
+  },
+  {
+    "fen": "2B5/4n3/3k4/3b4/K7/8/8/8 w - - 18 63",
+    "ply": 124,
+    "move_uci": "c6e7",
+    "check": false
+  },
+  {
+    "fen": "8/4n3/3k4/3b4/K5B1/8/8/8 b - - 19 63",
+    "ply": 125,
+    "move_uci": "c8g4",
+    "check": false
+  },
+  {
+    "fen": "8/4n3/8/2kb4/K5B1/8/8/8 w - - 20 64",
+    "ply": 126,
+    "move_uci": "d6c5",
+    "check": false
+  },
+  {
+    "fen": "8/4n3/8/2kb4/K7/8/8/3B4 b - - 21 64",
+    "ply": 127,
+    "move_uci": "g4d1",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/2kb1n2/K7/8/8/3B4 w - - 22 65",
+    "ply": 128,
+    "move_uci": "e7f5",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/2kb1n2/K7/8/4B3/8 b - - 23 65",
+    "ply": 129,
+    "move_uci": "d1e2",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/2k2n2/K3b3/8/4B3/8 w - - 24 66",
+    "ply": 130,
+    "move_uci": "d5e4",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/2k2n2/4b3/K7/4B3/8 b - - 25 66",
+    "ply": 131,
+    "move_uci": "a4a3",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/2k5/3nb3/K7/4B3/8 w - - 26 67",
+    "ply": 132,
+    "move_uci": "f5d4",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/2k5/3nb3/K7/8/5B2 b - - 27 67",
+    "ply": 133,
+    "move_uci": "e2f1",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/2kb4/3n4/K7/8/5B2 w - - 28 68",
+    "ply": 134,
+    "move_uci": "e4d5",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/2kb4/3n4/8/1K6/5B2 b - - 29 68",
+    "ply": 135,
+    "move_uci": "a3b2",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/3b4/1k1n4/8/1K6/5B2 w - - 30 69",
+    "ply": 136,
+    "move_uci": "c5b4",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/3b4/1k1n4/7B/1K6/8 b - - 31 69",
+    "ply": 137,
+    "move_uci": "f1h3",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/8/1k1n4/5b1B/1K6/8 w - - 32 70",
+    "ply": 138,
+    "move_uci": "d5f3",
+    "check": false
+  },
+  {
+    "fen": "2B5/8/8/8/1k1n4/5b2/1K6/8 b - - 33 70",
+    "ply": 139,
+    "move_uci": "h3c8",
+    "check": false
+  },
+  {
+    "fen": "2B5/8/8/8/1k1nb3/8/1K6/8 w - - 34 71",
+    "ply": 140,
+    "move_uci": "f3e4",
+    "check": false
+  },
+  {
+    "fen": "8/3B4/8/8/1k1nb3/8/1K6/8 b - - 35 71",
+    "ply": 141,
+    "move_uci": "c8d7",
+    "check": false
+  },
+  {
+    "fen": "8/3B4/8/8/1k2b3/1n6/1K6/8 w - - 36 72",
+    "ply": 142,
+    "move_uci": "d4b3",
+    "check": false
+  },
+  {
+    "fen": "2B5/8/8/8/1k2b3/1n6/1K6/8 b - - 37 72",
+    "ply": 143,
+    "move_uci": "d7c8",
+    "check": false
+  },
+  {
+    "fen": "2B5/8/8/2n5/1k2b3/8/1K6/8 w - - 38 73",
+    "ply": 144,
+    "move_uci": "b3c5",
+    "check": false
+  },
+  {
+    "fen": "2B5/8/8/2n5/1k2b3/8/8/2K5 b - - 39 73",
+    "ply": 145,
+    "move_uci": "b2c1",
+    "check": false
+  },
+  {
+    "fen": "2B5/8/8/2n5/4b3/2k5/8/2K5 w - - 40 74",
+    "ply": 146,
+    "move_uci": "b4c3",
+    "check": false
+  },
+  {
+    "fen": "2B5/8/8/2n5/4b3/2k5/8/3K4 b - - 41 74",
+    "ply": 147,
+    "move_uci": "c1d1",
+    "check": false
+  },
+  {
+    "fen": "2B5/8/8/2n5/4b3/3k4/8/3K4 w - - 42 75",
+    "ply": 148,
+    "move_uci": "c3d3",
+    "check": false
+  },
+  {
+    "fen": "2B5/8/8/2n5/4b3/3k4/8/2K5 b - - 43 75",
+    "ply": 149,
+    "move_uci": "d1c1",
+    "check": false
+  },
+  {
+    "fen": "2B5/8/8/2n5/4b3/4k3/8/2K5 w - - 44 76",
+    "ply": 150,
+    "move_uci": "d3e3",
+    "check": false
+  },
+  {
+    "fen": "2B5/8/8/2n5/4b3/4k3/1K6/8 b - - 45 76",
+    "ply": 151,
+    "move_uci": "c1b2",
+    "check": false
+  },
+  {
+    "fen": "2B5/8/8/2n5/4b3/8/1K1k4/8 w - - 46 77",
+    "ply": 152,
+    "move_uci": "e3d2",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/2n5/4b3/7B/1K1k4/8 b - - 47 77",
+    "ply": 153,
+    "move_uci": "c8h3",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/2n5/4b3/3k3B/1K6/8 w - - 48 78",
+    "ply": 154,
+    "move_uci": "d2d3",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/2n5/4b3/3k4/1K6/5B2 b - - 49 78",
+    "ply": 155,
+    "move_uci": "h3f1",
+    "check": true
+  },
+  {
+    "fen": "8/8/8/2n5/3kb3/8/1K6/5B2 w - - 50 79",
+    "ply": 156,
+    "move_uci": "d3d4",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/1Bn5/3kb3/8/1K6/8 b - - 51 79",
+    "ply": 157,
+    "move_uci": "f1b5",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/1Bn5/3k4/5b2/1K6/8 w - - 52 80",
+    "ply": 158,
+    "move_uci": "e4f3",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/1Bn5/3k4/5b2/2K5/8 b - - 53 80",
+    "ply": 159,
+    "move_uci": "b2c2",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/1Bnb4/3k4/8/2K5/8 w - - 54 81",
+    "ply": 160,
+    "move_uci": "f3d5",
+    "check": false
+  },
+  {
+    "fen": "4B3/8/8/2nb4/3k4/8/2K5/8 b - - 55 81",
+    "ply": 161,
+    "move_uci": "b5e8",
+    "check": false
+  },
+  {
+    "fen": "4B3/8/8/3b4/3k4/3n4/2K5/8 w - - 56 82",
+    "ply": 162,
+    "move_uci": "c5d3",
+    "check": false
+  },
+  {
+    "fen": "4B3/8/8/3b4/3k4/3n4/3K4/8 b - - 57 82",
+    "ply": 163,
+    "move_uci": "c2d2",
+    "check": false
+  },
+  {
+    "fen": "4B3/8/8/3bn3/3k4/8/3K4/8 w - - 58 83",
+    "ply": 164,
+    "move_uci": "d3e5",
+    "check": false
+  },
+  {
+    "fen": "4B3/8/8/3bn3/3k4/8/2K5/8 b - - 59 83",
+    "ply": 165,
+    "move_uci": "d2c2",
+    "check": false
+  },
+  {
+    "fen": "4B3/8/8/4n3/2bk4/8/2K5/8 w - - 60 84",
+    "ply": 166,
+    "move_uci": "d5c4",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/4n3/B1bk4/8/2K5/8 b - - 61 84",
+    "ply": 167,
+    "move_uci": "e8a4",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/4n3/B2k4/3b4/2K5/8 w - - 62 85",
+    "ply": 168,
+    "move_uci": "c4d3",
+    "check": true
+  },
+  {
+    "fen": "8/8/8/4n3/B2k4/1K1b4/8/8 b - - 63 85",
+    "ply": 169,
+    "move_uci": "c2b3",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/4n3/B2kb3/1K6/8/8 w - - 64 86",
+    "ply": 170,
+    "move_uci": "d3e4",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/4n3/BK1kb3/8/8/8 b - - 65 86",
+    "ply": 171,
+    "move_uci": "b3b4",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/4n3/BK1k4/5b2/8/8 w - - 66 87",
+    "ply": 172,
+    "move_uci": "e4f3",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/4n3/1K1k4/1B3b2/8/8 b - - 67 87",
+    "ply": 173,
+    "move_uci": "a4b3",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/4n3/1K1k4/1B6/4b3/8 w - - 68 88",
+    "ply": 174,
+    "move_uci": "f3e2",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/K3n3/3k4/1B6/4b3/8 b - - 69 88",
+    "ply": 175,
+    "move_uci": "b4a5",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/K1k1n3/8/1B6/4b3/8 w - - 70 89",
+    "ply": 176,
+    "move_uci": "d4c5",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/2k1n3/K7/1B6/4b3/8 b - - 71 89",
+    "ply": 177,
+    "move_uci": "a5a4",
+    "check": false
+  },
+  {
+    "fen": "8/8/2n5/2k5/K7/1B6/4b3/8 w - - 72 90",
+    "ply": 178,
+    "move_uci": "e5c6",
+    "check": false
+  },
+  {
+    "fen": "8/5B2/2n5/2k5/K7/8/4b3/8 b - - 73 90",
+    "ply": 179,
+    "move_uci": "b3f7",
+    "check": false
+  },
+  {
+    "fen": "8/5B2/8/2k5/K2n4/8/4b3/8 w - - 74 91",
+    "ply": 180,
+    "move_uci": "c6d4",
+    "check": false
+  },
+  {
+    "fen": "8/8/6B1/2k5/K2n4/8/4b3/8 b - - 75 91",
+    "ply": 181,
+    "move_uci": "f7g6",
+    "check": false
+  },
+  {
+    "fen": "8/8/6B1/1bk5/K2n4/8/8/8 w - - 76 92",
+    "ply": 182,
+    "move_uci": "e2b5",
+    "check": true
+  },
+  {
+    "fen": "8/8/6B1/1bk5/3n4/K7/8/8 b - - 77 92",
+    "ply": 183,
+    "move_uci": "a4a3",
+    "check": false
+  },
+  {
+    "fen": "8/8/2b3B1/2k5/3n4/K7/8/8 w - - 78 93",
+    "ply": 184,
+    "move_uci": "b5c6",
+    "check": false
+  },
+  {
+    "fen": "8/8/2b5/2k5/3n4/K2B4/8/8 b - - 79 93",
+    "ply": 185,
+    "move_uci": "g6d3",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/2k5/3n4/K2B1b2/8/8 w - - 80 94",
+    "ply": 186,
+    "move_uci": "c6f3",
+    "check": false
+  },
+  {
+    "fen": "8/8/B7/2k5/3n4/K4b2/8/8 b - - 81 94",
+    "ply": 187,
+    "move_uci": "d3a6",
+    "check": false
+  },
+  {
+    "fen": "8/8/B7/2kb4/3n4/K7/8/8 w - - 82 95",
+    "ply": 188,
+    "move_uci": "f3d5",
+    "check": false
+  },
+  {
+    "fen": "8/8/B7/2kb4/3n4/8/1K6/8 b - - 83 95",
+    "ply": 189,
+    "move_uci": "a3b2",
+    "check": false
+  },
+  {
+    "fen": "8/8/B7/3b4/1k1n4/8/1K6/8 w - - 84 96",
+    "ply": 190,
+    "move_uci": "c5b4",
+    "check": false
+  },
+  {
+    "fen": "2B5/8/8/3b4/1k1n4/8/1K6/8 b - - 85 96",
+    "ply": 191,
+    "move_uci": "a6c8",
+    "check": false
+  },
+  {
+    "fen": "2B5/8/2b5/8/1k1n4/8/1K6/8 w - - 86 97",
+    "ply": 192,
+    "move_uci": "d5c6",
+    "check": false
+  },
+  {
+    "fen": "8/8/2b5/8/1k1n2B1/8/1K6/8 b - - 87 97",
+    "ply": 193,
+    "move_uci": "c8g4",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/8/1k1n2B1/8/1K4b1/8 w - - 88 98",
+    "ply": 194,
+    "move_uci": "c6g2",
+    "check": false
+  },
+  {
+    "fen": "2B5/8/8/8/1k1n4/8/1K4b1/8 b - - 89 98",
+    "ply": 195,
+    "move_uci": "g4c8",
+    "check": false
+  },
+  {
+    "fen": "2B5/8/8/8/1k1n4/5b2/1K6/8 w - - 90 99",
+    "ply": 196,
+    "move_uci": "g2f3",
+    "check": false
+  },
+  {
+    "fen": "8/3B4/8/8/1k1n4/5b2/1K6/8 b - - 91 99",
+    "ply": 197,
+    "move_uci": "c8d7",
+    "check": false
+  },
+  {
+    "fen": "8/3B4/8/8/1k1nb3/8/1K6/8 w - - 92 100",
+    "ply": 198,
+    "move_uci": "f3e4",
+    "check": false
+  },
+  {
+    "fen": "8/3B4/8/8/1k1nb3/8/8/2K5 b - - 93 100",
+    "ply": 199,
+    "move_uci": "b2c1",
+    "check": false
+  },
+  {
+    "fen": "8/1b1B4/8/8/1k1n4/8/8/2K5 w - - 94 101",
+    "ply": 200,
+    "move_uci": "e4b7",
+    "check": false
+  },
+  {
+    "fen": "8/1b1B4/8/8/1k1n4/8/3K4/8 b - - 95 101",
+    "ply": 201,
+    "move_uci": "c1d2",
+    "check": false
+  },
+  {
+    "fen": "8/3B4/8/8/1k1nb3/8/3K4/8 w - - 96 102",
+    "ply": 202,
+    "move_uci": "b7e4",
+    "check": false
+  },
+  {
+    "fen": "4B3/8/8/8/1k1nb3/8/3K4/8 b - - 97 102",
+    "ply": 203,
+    "move_uci": "d7e8",
+    "check": false
+  },
+  {
+    "fen": "4B3/8/8/8/2knb3/8/3K4/8 w - - 98 103",
+    "ply": 204,
+    "move_uci": "b4c4",
+    "check": false
+  },
+  {
+    "fen": "8/8/8/8/B1knb3/8/3K4/8 b - - 99 103",
+    "ply": 205,
+    "move_uci": "e8a4",
+    "check": false
+  },
+  {
+    "fen": "b7/8/8/8/B1kn4/8/3K4/8 w - - 100 104",
+    "ply": 206,
+    "move_uci": "e4a8",
+    "check": false
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "audit": "PASS",
+  "native_variants": [
+    "queen",
+    "graded",
+    "capture"
+  ],
+  "tt_instrument_identity": true,
+  "tt_gate_passed": true,
+  "tt_gate_roots": [
+    {
+      "id": "v6-r37-p31",
+      "nodes": 4000000,
+      "stats": [
+        2036106,
+        377654,
+        377645,
+        1034,
+        6905,
+        9,
+        0
+      ]
+    },
+    {
+      "id": "v6-r37-p35",
+      "nodes": 4000000,
+      "stats": [
+        2115952,
+        393161,
+        393152,
+        1231,
+        9599,
+        9,
+        0
+      ]
+    },
+    {
+      "id": "v6-r37-p37",
+      "nodes": 4000000,
+      "stats": [
+        2148775,
+        401665,
+        401659,
+        964,
+        9816,
+        6,
+        0
+      ]
+    },
+    {
+      "id": "v6-r37-opponent-after-Qxa5",
+      "nodes": 4000000,
+      "stats": [
+        2166750,
+        406790,
+        406781,
+        952,
+        10689,
+        9,
+        0
+      ]
+    }
+  ],
+  "capture_roots_with_learned_reorder": 5,
+  "evidence_sha256": {
+    "queen-gate": "4c3153e0b6031129e8e3bdae85ef3662e1bef5d91b99a8fd345d6ab346061101",
+    "graded-gate": "505e11409674ace0fde2cfb1b4c33afc351cfd2c8fbfb7679ff9d90b3948ac9d",
+    "capture-gate": "5ca9382af0363c5a0b6c8e20c054a04d86f9e965067897951aa0d745b149f8d3",
+    "control-tt-linux": "7570631020c86cf72262e59dad39afb725a8687cefaf476f8f56c1e73ab0771a",
+    "tt_instrument-tt-linux": "20c8841c095818997e990b4de2152caee534fa026baeafc3ece4887d4321aeec"
+  }
+}

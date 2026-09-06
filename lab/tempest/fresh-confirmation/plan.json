@@ -1,0 +1,44 @@
+{
+  "seed": "tempest-confirm-v1",
+  "quota": {
+    "e4": 4,
+    "d4": 4,
+    "flank": 4
+  },
+  "max_abs_cp": 80,
+  "nodes": 100000,
+  "pool_sha256": "037c81bca32bb751ab02d11e3a4f72efd28a0dfbcf1e4c827dee9e4ca4d3abe1",
+  "excluded_families": 172,
+  "known_positions": 28532,
+  "exclusion_files": [
+    {
+      "path": "lab\\odin\\release_openings\\development.jsonl",
+      "sha256": "a79884e7a48d5bee22cfe0aea2439fa9a241dc3b59207729608d5deba9dc19c1"
+    },
+    {
+      "path": "lab\\odin\\release_openings\\holdout.jsonl",
+      "sha256": "f2297b902f5a1be536f70eff2e4affdbf00a283a5d4326825cecf3f38c1d39b3"
+    },
+    {
+      "path": "lab\\odin\\release_openings\\independent-screen.jsonl",
+      "sha256": "5bb6371fdc7b4be24569869e1de359f743f065ba6ffcaa9bdcf6b397f152fcf1"
+    },
+    {
+      "path": "lab\\odin\\fast\\generation-openings\\confirm.jsonl",
+      "sha256": "b93358ea8d94715e1590534f292a09f73b15e4b856b706e47d911486f669f48d"
+    },
+    {
+      "path": "lab\\odin\\fast\\generation-openings\\screen.jsonl",
+      "sha256": "57e19543c1d0848552eb51370e6f59a961b0ef6f1f8233ff270515f3a28d6b20"
+    },
+    {
+      "path": "lab\\odin\\fast\\overnight-openings\\openings.jsonl",
+      "sha256": "66382f9128083d4ab68af784e06db296be34e76f17396ee5f03cec2bc60856cd"
+    },
+    {
+      "path": "lab\\odin\\fast\\screen-openings\\openings.jsonl",
+      "sha256": "77ad6161931506e4248e8dadce0b9bd613602841fc217bafa60221db4ee45488"
+    }
+  ],
+  "purpose": "12 paired confirmation openings for a future frozen candidate. Not sufficient for decisive promotion. No engine/candidate searches conducted here; labels used only to balance starts."
+}

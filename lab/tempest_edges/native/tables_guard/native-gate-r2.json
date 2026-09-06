@@ -1,0 +1,1394 @@
+{
+  "verdict": "PASS",
+  "runtime": {
+    "python": "3.12.3",
+    "executable": "/home/botuser/chess-tk/.venv/bin/python",
+    "platform": "Linux-6.8.0-90-generic-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "cpu_models": [
+      "AMD EPYC-Genoa Processor"
+    ],
+    "controller_affinity": [
+      0,
+      1
+    ],
+    "packages": {
+      "chess": "1.11.2",
+      "numpy": "2.5.2",
+      "numba": "0.67.0",
+      "llvmlite": "0.49.0"
+    }
+  },
+  "cpu": 0,
+  "service_runtime_limit_s": 900,
+  "cold_target_s": 55.0,
+  "odin_rules_required": true,
+  "limitations": [
+    "Signer CPU differs from competition CPU.",
+    "Read-only source uses modes, without a read-only root mount.",
+    "Private temp has no aggregate 256 MiB filesystem quota."
+  ],
+  "archive": {
+    "source_path": "/home/botuser/chess-sign-odin-20260905/tempest-edges-native-r1/native/tables_guard/candidate-linux-x86.zip",
+    "sha256": "6282db3d2f8add9fb9c5636c0b6f3117e05aa6b89400cba9d5ae0fa341b4e2c1",
+    "zip_bytes": 5003522,
+    "uncompressed_bytes": 5295632,
+    "entry_count": 85,
+    "private_snapshot_verified": true,
+    "entries": [
+      {
+        "name": "agent.py",
+        "compressed_bytes": 1519,
+        "uncompressed_bytes": 4074,
+        "sha256": "3f7ab63c66633189e50d2e20a484b08cbfc11b1beca46cf2586864e6029f4626"
+      },
+      {
+        "name": "bitops_nb.py",
+        "compressed_bytes": 866,
+        "uncompressed_bytes": 2286,
+        "sha256": "34f606a1a6bd60d492a90072ff236f15d97c000e131a567c214b59f85baabb58"
+      },
+      {
+        "name": "board_nb.py",
+        "compressed_bytes": 3513,
+        "uncompressed_bytes": 13207,
+        "sha256": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d"
+      },
+      {
+        "name": "core_nb.py",
+        "compressed_bytes": 15116,
+        "uncompressed_bytes": 75433,
+        "sha256": "9ff2ae924f4da91b934e78080483a46e81c618efb7e955b5530aa5434f4770e1"
+      },
+      {
+        "name": "endgame_exact.py",
+        "compressed_bytes": 1312,
+        "uncompressed_bytes": 2975,
+        "sha256": "f7dbe9e443658cc5b972d8a5b1a7dea3e85ec8f789757d13e58ac64d3ef9d71a"
+      },
+      {
+        "name": "eval_nb.py",
+        "compressed_bytes": 2792,
+        "uncompressed_bytes": 8267,
+        "sha256": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f"
+      },
+      {
+        "name": "history.py",
+        "compressed_bytes": 1791,
+        "uncompressed_bytes": 5082,
+        "sha256": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e"
+      },
+      {
+        "name": "movegen_nb.py",
+        "compressed_bytes": 2004,
+        "uncompressed_bytes": 8581,
+        "sha256": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c"
+      },
+      {
+        "name": "search_nb.py",
+        "compressed_bytes": 3986,
+        "uncompressed_bytes": 15989,
+        "sha256": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6"
+      },
+      {
+        "name": "storm_clock.py",
+        "compressed_bytes": 3298,
+        "uncompressed_bytes": 8845,
+        "sha256": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8"
+      },
+      {
+        "name": "syzygy/KBBvK.rtbw",
+        "compressed_bytes": 57175,
+        "uncompressed_bytes": 58000,
+        "sha256": "3afa74fcfd6100df851c3b18ca255acd9d68c31c7c74cb02b2d5236ffd610ed6"
+      },
+      {
+        "name": "syzygy/KBBvK.rtbz",
+        "compressed_bytes": 134804,
+        "uncompressed_bytes": 136464,
+        "sha256": "5b38f0d651f01aa27705e88ab173381f8041eea723905abe3680b530a886e08d"
+      },
+      {
+        "name": "syzygy/KBNvK.rtbw",
+        "compressed_bytes": 6055,
+        "uncompressed_bytes": 7632,
+        "sha256": "76958da65bc243f2f0a16ceb83f1c00cbc4fb6d6e2f43d052c2f9d65bf16fee8"
+      },
+      {
+        "name": "syzygy/KBNvK.rtbz",
+        "compressed_bytes": 456972,
+        "uncompressed_bytes": 461840,
+        "sha256": "5bfb242b6c60dc8bef99a5f9349fc94019e02457cd19680c3bb0464c7d0b341a"
+      },
+      {
+        "name": "syzygy/KBPvK.rtbw",
+        "compressed_bytes": 76293,
+        "uncompressed_bytes": 81424,
+        "sha256": "4714e6844d18eea21b9e7be3c8b2f5b04739638d74416ae18ab86e1fb4a12e4c"
+      },
+      {
+        "name": "syzygy/KBPvK.rtbz",
+        "compressed_bytes": 71689,
+        "uncompressed_bytes": 76560,
+        "sha256": "5a15cf4df25489c8b964ad4d3d3a044fe47738da6e44924bb4056e2a48b6906a"
+      },
+      {
+        "name": "syzygy/KBvK.rtbw",
+        "compressed_bytes": 35,
+        "uncompressed_bytes": 80,
+        "sha256": "bc0d8ab3560de9038460f0e8f61e3b7efd3e3d0327d19ae0387c0da7ddeb244d"
+      },
+      {
+        "name": "syzygy/KBvK.rtbz",
+        "compressed_bytes": 32,
+        "uncompressed_bytes": 80,
+        "sha256": "f85b400027adcdfe0461955fa96ea56218f80c0185c280a33a8253735040d538"
+      },
+      {
+        "name": "syzygy/KBvKB.rtbw",
+        "compressed_bytes": 222,
+        "uncompressed_bytes": 1232,
+        "sha256": "f0bfff470a9775c0f6693d7c1b73a0879cfed64f9b50cb56872cc15dbe8336ad"
+      },
+      {
+        "name": "syzygy/KBvKB.rtbz",
+        "compressed_bytes": 32,
+        "uncompressed_bytes": 80,
+        "sha256": "8ce252a513e98d2df3ac1cc55e838f967dd803f258b33db427d90c68fb6c1365"
+      },
+      {
+        "name": "syzygy/KBvKN.rtbw",
+        "compressed_bytes": 221,
+        "uncompressed_bytes": 2256,
+        "sha256": "1d0c01bfb86b5167103f5e46eaa9cfda8b614424cd7749b5e02539c850594bda"
+      },
+      {
+        "name": "syzygy/KBvKN.rtbz",
+        "compressed_bytes": 32,
+        "uncompressed_bytes": 80,
+        "sha256": "fe16f6137727fcd09ef38fec97066e399bb7dc836dfa31991395bdc7901f82d9"
+      },
+      {
+        "name": "syzygy/KBvKP.rtbw",
+        "compressed_bytes": 99789,
+        "uncompressed_bytes": 107472,
+        "sha256": "7ea5491c17771a47cb558bf3ac3d6fe6a85e2075daa34f8ec4fa91b4319c1fe5"
+      },
+      {
+        "name": "syzygy/KBvKP.rtbz",
+        "compressed_bytes": 3412,
+        "uncompressed_bytes": 5968,
+        "sha256": "21ce4de75ba923482cb230524cbd0d07752c42871458e4a55faa3da99f7a77c0"
+      },
+      {
+        "name": "syzygy/KNNvK.rtbw",
+        "compressed_bytes": 395,
+        "uncompressed_bytes": 1360,
+        "sha256": "8b5195abd7f1d4be7aa4b4dca669e9075d61d1c6b02dec8b71f5e9ea21d9eced"
+      },
+      {
+        "name": "syzygy/KNNvK.rtbz",
+        "compressed_bytes": 33,
+        "uncompressed_bytes": 80,
+        "sha256": "52aab642dbcbe3e3869fe82e10560678109a86e8f30f252aa8ff3dae71783899"
+      },
+      {
+        "name": "syzygy/KNPvK.rtbw",
+        "compressed_bytes": 87271,
+        "uncompressed_bytes": 93200,
+        "sha256": "27ce7e0ea8f585dfbbb29e2cc1e04ac547818d547c17ad9b053b05eca6f5b479"
+      },
+      {
+        "name": "syzygy/KNPvK.rtbz",
+        "compressed_bytes": 104904,
+        "uncompressed_bytes": 111440,
+        "sha256": "0545d5c72896d8f9d03c2d80274e6e4a0389610146903ddf0b03b7b712bc185f"
+      },
+      {
+        "name": "syzygy/KNvK.rtbw",
+        "compressed_bytes": 36,
+        "uncompressed_bytes": 80,
+        "sha256": "9d3518b12df3d2006441df758bce31e961346e70a11920aaad75c647003bb6e7"
+      },
+      {
+        "name": "syzygy/KNvK.rtbz",
+        "compressed_bytes": 33,
+        "uncompressed_bytes": 80,
+        "sha256": "c9ad713ca74f2c395fcd81b64fe3c8e8cfb74f26c416af73c29f069d8ae747d3"
+      },
+      {
+        "name": "syzygy/KNvKN.rtbw",
+        "compressed_bytes": 139,
+        "uncompressed_bytes": 1168,
+        "sha256": "290b5d295f531ac680e35a3295ff265e89da864fc0363b5d7aca928c8e38faf6"
+      },
+      {
+        "name": "syzygy/KNvKN.rtbz",
+        "compressed_bytes": 33,
+        "uncompressed_bytes": 80,
+        "sha256": "f28ebfa954d5c4da832fc439a14400a976f4fc4a386fcba905f56e3e582be6f5"
+      },
+      {
+        "name": "syzygy/KNvKP.rtbw",
+        "compressed_bytes": 139619,
+        "uncompressed_bytes": 148048,
+        "sha256": "f21332cc4b380764847d6c32511dee16cbf56e65604596ca24e784f8e4c13bdb"
+      },
+      {
+        "name": "syzygy/KNvKP.rtbz",
+        "compressed_bytes": 8679,
+        "uncompressed_bytes": 10640,
+        "sha256": "a9d49ffffcd889d7adda0d08fa245fcafe019f81ff02add0afcdf5e5650b2bcd"
+      },
+      {
+        "name": "syzygy/KPPvK.rtbw",
+        "compressed_bytes": 22675,
+        "uncompressed_bytes": 25104,
+        "sha256": "55aa91c460bc5eea322b8a6cde4f94d2e0a244b6fc14f6aca17e6ccfb2e56ef6"
+      },
+      {
+        "name": "syzygy/KPPvK.rtbz",
+        "compressed_bytes": 7908,
+        "uncompressed_bytes": 8912,
+        "sha256": "6e1fa110411feec811f2e2420cbf28fc0c7c487aec5a04452f55f52ff11f9fd7"
+      },
+      {
+        "name": "syzygy/KPvK.rtbw",
+        "compressed_bytes": 7053,
+        "uncompressed_bytes": 7824,
+        "sha256": "02fd2bdcd92821c869458f019f63524def1c9e7a2862ca8d2b16dc7712b16183"
+      },
+      {
+        "name": "syzygy/KPvK.rtbz",
+        "compressed_bytes": 3081,
+        "uncompressed_bytes": 4176,
+        "sha256": "03be81a42aa1939ee455f1d0fd130f8f08c018f1209549c227e9393f73b6b9c4"
+      },
+      {
+        "name": "syzygy/KPvKP.rtbw",
+        "compressed_bytes": 238398,
+        "uncompressed_bytes": 245328,
+        "sha256": "6d21860e47a91d00841ccf63a657dc09b78f602e0ec005f925470e2449e1ae05"
+      },
+      {
+        "name": "syzygy/KPvKP.rtbz",
+        "compressed_bytes": 53113,
+        "uncompressed_bytes": 55120,
+        "sha256": "e412c2aafc803f3e72f6154ed4c208d22177fd3be7fceff9b9e3237e36322c51"
+      },
+      {
+        "name": "syzygy/KQBvK.rtbw",
+        "compressed_bytes": 4240,
+        "uncompressed_bytes": 4944,
+        "sha256": "55948e960dcdf6b4f02ebae87b1a1a7d14bff085aea17e6e6d4b7f75a2306493"
+      },
+      {
+        "name": "syzygy/KQBvK.rtbz",
+        "compressed_bytes": 209879,
+        "uncompressed_bytes": 215568,
+        "sha256": "cb39a7f348f39191dc0dd36135e1218d99f2e1d60f8337968fcd9fd97bf38956"
+      },
+      {
+        "name": "syzygy/KQNvK.rtbw",
+        "compressed_bytes": 2846,
+        "uncompressed_bytes": 3600,
+        "sha256": "cd807df1b6f5966ddc9f481e01bd58b4653d67c77d9d450d348c9bca827b51b8"
+      },
+      {
+        "name": "syzygy/KQNvK.rtbz",
+        "compressed_bytes": 229285,
+        "uncompressed_bytes": 235088,
+        "sha256": "b1fdb417ac3cf2184eba99722ae630e5000a08898d0e5f2eae02d6e18bc7b024"
+      },
+      {
+        "name": "syzygy/KQPvK.rtbw",
+        "compressed_bytes": 10333,
+        "uncompressed_bytes": 12496,
+        "sha256": "e7cd0729a1b2662f289d423bf788634d60a0fb86e11b0b791da9ab88a36a8e6f"
+      },
+      {
+        "name": "syzygy/KQPvK.rtbz",
+        "compressed_bytes": 34266,
+        "uncompressed_bytes": 36816,
+        "sha256": "6cf31fca47b7af941fd5bb1758e3483475f9a50c8b110809e942802ed691c885"
+      },
+      {
+        "name": "syzygy/KQQvK.rtbw",
+        "compressed_bytes": 6823,
+        "uncompressed_bytes": 7056,
+        "sha256": "b1c0d3eabf1226440b950fd468c4f30a13ea69ce38194bc65e07bd6b617226e0"
+      },
+      {
+        "name": "syzygy/KQQvK.rtbz",
+        "compressed_bytes": 47962,
+        "uncompressed_bytes": 48848,
+        "sha256": "11bda5dde4c373dcd29a75789d3d472c222851c1f334cb2321b006e623bb47c4"
+      },
+      {
+        "name": "syzygy/KQRvK.rtbw",
+        "compressed_bytes": 3655,
+        "uncompressed_bytes": 4560,
+        "sha256": "b018ece9cc195618981b027268f9cca929a1ed4c0bdd739874b7846640ef479a"
+      },
+      {
+        "name": "syzygy/KQRvK.rtbz",
+        "compressed_bytes": 95550,
+        "uncompressed_bytes": 99664,
+        "sha256": "d08590d98b9a702d5c70386f834f19d01b3be3af1834dbbeba6d202dca47ca00"
+      },
+      {
+        "name": "syzygy/KQvK.rtbw",
+        "compressed_bytes": 182,
+        "uncompressed_bytes": 272,
+        "sha256": "517667dff787162dbb1ed9d5d6484d30ee854e686ee0675c08d99ecf045d2d50"
+      },
+      {
+        "name": "syzygy/KQvK.rtbz",
+        "compressed_bytes": 5191,
+        "uncompressed_bytes": 5392,
+        "sha256": "f9ed147a057e0b15354690e20116f2d9443e57812272b1669055b17c884f092d"
+      },
+      {
+        "name": "syzygy/KQvKB.rtbw",
+        "compressed_bytes": 5286,
+        "uncompressed_bytes": 6672,
+        "sha256": "0c18bbcaec0e7c161d56392ff57a39258dd93acd0321e3bbb32f7c05636abeac"
+      },
+      {
+        "name": "syzygy/KQvKB.rtbz",
+        "compressed_bytes": 192822,
+        "uncompressed_bytes": 195216,
+        "sha256": "83227219eedf0354b8f56f4d1f8c094c834cdacb465ea4a09291caac2b14c3aa"
+      },
+      {
+        "name": "syzygy/KQvKN.rtbw",
+        "compressed_bytes": 8453,
+        "uncompressed_bytes": 10064,
+        "sha256": "ba07bd47c6eaa20904b595f43e171c6fc70fcc056cb33696fe12ed254c546100"
+      },
+      {
+        "name": "syzygy/KQvKN.rtbz",
+        "compressed_bytes": 160062,
+        "uncompressed_bytes": 162640,
+        "sha256": "6337ad0f1bb0f5de13e209faea28477618416d55c467477a062812a8bfeb4435"
+      },
+      {
+        "name": "syzygy/KQvKP.rtbw",
+        "compressed_bytes": 50520,
+        "uncompressed_bytes": 58064,
+        "sha256": "2f92788170e8a5c05608f44a47fd42f3f4fff372d0af64633c56bd081039d8f9"
+      },
+      {
+        "name": "syzygy/KQvKP.rtbz",
+        "compressed_bytes": 244523,
+        "uncompressed_bytes": 254032,
+        "sha256": "aa5cbdef8d280d65bf87715e53227f7b61004ec9c0dc3aaf580dcc3e9364a8b2"
+      },
+      {
+        "name": "syzygy/KQvKQ.rtbw",
+        "compressed_bytes": 15794,
+        "uncompressed_bytes": 16528,
+        "sha256": "571a85d86e635e48567997ea648fd1e90dde39c9b413b2fe968f5e7faeacfbb0"
+      },
+      {
+        "name": "syzygy/KQvKQ.rtbz",
+        "compressed_bytes": 6316,
+        "uncompressed_bytes": 6992,
+        "sha256": "c6612ef0ace51d36d37612b9ad61388fac716191bf07cd4fd42820f67b206488"
+      },
+      {
+        "name": "syzygy/KQvKR.rtbw",
+        "compressed_bytes": 18989,
+        "uncompressed_bytes": 20496,
+        "sha256": "8cdbe3c8e098037875de5854c656f8afeadb8327c85b5b7b1cac81719afd3e2c"
+      },
+      {
+        "name": "syzygy/KQvKR.rtbz",
+        "compressed_bytes": 306265,
+        "uncompressed_bytes": 309008,
+        "sha256": "1dfb49a52c14e90cbde3261da5258a1db9f657faa0d61c22078d3dd756547a6b"
+      },
+      {
+        "name": "syzygy/KRBvK.rtbw",
+        "compressed_bytes": 1979,
+        "uncompressed_bytes": 2832,
+        "sha256": "9e6eced11a37cad71b4fc1a4f62a15e191e58883b51ce8c4c45f341051c6ae8e"
+      },
+      {
+        "name": "syzygy/KRBvK.rtbz",
+        "compressed_bytes": 329451,
+        "uncompressed_bytes": 336656,
+        "sha256": "b05df8fbb670d0be73bf29b82d226dae6f0b88d4fb3b9aac62675691450e04ab"
+      },
+      {
+        "name": "syzygy/KRNvK.rtbw",
+        "compressed_bytes": 1480,
+        "uncompressed_bytes": 2320,
+        "sha256": "4f96cab9fc0005f2679eacb92cec32edf9c932db7bb29b5dc7659be0012d6c35"
+      },
+      {
+        "name": "syzygy/KRNvK.rtbz",
+        "compressed_bytes": 418957,
+        "uncompressed_bytes": 425936,
+        "sha256": "021de5585660b75c337c3280aa548dd9d1b21e408f82646c19777067f97fa28d"
+      },
+      {
+        "name": "syzygy/KRPvK.rtbw",
+        "compressed_bytes": 2273,
+        "uncompressed_bytes": 5136,
+        "sha256": "6bc2aa9db5ee7fcc287e6c3b006ab6cfc2be4dff4ae7ca4a524a78520eea61db"
+      },
+      {
+        "name": "syzygy/KRPvK.rtbz",
+        "compressed_bytes": 12116,
+        "uncompressed_bytes": 14352,
+        "sha256": "51ae3be3d62774ce58f0b7205c008fabdf88a9a81f1f56d8920865af53f0cc39"
+      },
+      {
+        "name": "syzygy/KRRvK.rtbw",
+        "compressed_bytes": 1540,
+        "uncompressed_bytes": 1936,
+        "sha256": "4c05ec32e6e43b690d235307de75432a3ceecdbc3d2659d8101ed15b48b8445d"
+      },
+      {
+        "name": "syzygy/KRRvK.rtbz",
+        "compressed_bytes": 77538,
+        "uncompressed_bytes": 80016,
+        "sha256": "33dda50787753a882d7dadb1cbef95617941ab8017e8e9d708e016b38352df38"
+      },
+      {
+        "name": "syzygy/KRvK.rtbw",
+        "compressed_bytes": 112,
+        "uncompressed_bytes": 208,
+        "sha256": "386fbde73308e49a4207836922c68b30b664e83c5a37f7fa37305a15cd16f2f1"
+      },
+      {
+        "name": "syzygy/KRvK.rtbz",
+        "compressed_bytes": 7248,
+        "uncompressed_bytes": 7632,
+        "sha256": "d3abd58650d3f2d73978871c06f1acb9bef031f5b3de6b1818a8af414b266a67"
+      },
+      {
+        "name": "syzygy/KRvKB.rtbw",
+        "compressed_bytes": 31200,
+        "uncompressed_bytes": 32912,
+        "sha256": "69b247cb390ffcd729cf5fe5c40f8a24803190bf67b108b8f05b8b08b26a6a72"
+      },
+      {
+        "name": "syzygy/KRvKB.rtbz",
+        "compressed_bytes": 9867,
+        "uncompressed_bytes": 10448,
+        "sha256": "4df2e3aee2ccd50ba63d08dd19ff223b7fc41a98c066ff5946af790c2f5f5500"
+      },
+      {
+        "name": "syzygy/KRvKN.rtbw",
+        "compressed_bytes": 97786,
+        "uncompressed_bytes": 100048,
+        "sha256": "a8cde902b010bf6c8763c97d19b5430b422e74db9cb8e9d5e67fa07373c13c5b"
+      },
+      {
+        "name": "syzygy/KRvKN.rtbz",
+        "compressed_bytes": 92245,
+        "uncompressed_bytes": 93904,
+        "sha256": "6704d6e031b6406f75182e50abc334af92228f669a40d6c0a6ccede9f7092991"
+      },
+      {
+        "name": "syzygy/KRvKP.rtbw",
+        "compressed_bytes": 170059,
+        "uncompressed_bytes": 179408,
+        "sha256": "3968c2bfced3a5ecfbb54166ec13d4e7b70f3b03c495af4ae87cad2ec75a0749"
+      },
+      {
+        "name": "syzygy/KRvKP.rtbz",
+        "compressed_bytes": 193744,
+        "uncompressed_bytes": 201680,
+        "sha256": "6713b45d6e2508da8e76fb3f36afd0df4c9c9d04b55dce041f0ddb59cdfabc30"
+      },
+      {
+        "name": "syzygy/KRvKR.rtbw",
+        "compressed_bytes": 12256,
+        "uncompressed_bytes": 12944,
+        "sha256": "797081b5b3fbac20c4baa5453d68bdae1425b63895f5c9a5ac5c68ea63a97712"
+      },
+      {
+        "name": "syzygy/KRvKR.rtbz",
+        "compressed_bytes": 2980,
+        "uncompressed_bytes": 3600,
+        "sha256": "102196c88b28540e0b7460facbf6d569dca517f075e1d19a06b8adc2fa18e00e"
+      },
+      {
+        "name": "syzygy_root.py",
+        "compressed_bytes": 4492,
+        "uncompressed_bytes": 9073,
+        "sha256": "cba6463c527c55c34463ee869cf9dd0e62d34a0763bef2458f5a4b1e8669da3f"
+      },
+      {
+        "name": "tables_nb.py",
+        "compressed_bytes": 1361,
+        "uncompressed_bytes": 3561,
+        "sha256": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007"
+      },
+      {
+        "name": "three_piece_dtm.npz",
+        "compressed_bytes": 248756,
+        "uncompressed_bytes": 257222,
+        "sha256": "8a5d9742eed9c7e40b2001b5b37d30c22513d54659da69d4e93caa088e77014f"
+      },
+      {
+        "name": "time_nb.py",
+        "compressed_bytes": 461,
+        "uncompressed_bytes": 899,
+        "sha256": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8"
+      },
+      {
+        "name": "tt_nb.py",
+        "compressed_bytes": 849,
+        "uncompressed_bytes": 2346,
+        "sha256": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+      }
+    ]
+  },
+  "source_provenance": {
+    "lab/odin/release/linux_match.py": "d2cfce7f2de709e25e3899c91aad1420e2313e1191811b76451d83152baf60ca",
+    "lab/odin/release/plan.py": "f64a5730257a394c5889e6d0a93e4936f3ab5eb760b79f40097739487c331d7a",
+    "lab/odin/release/validate_match.py": "53c7bcbc6810302188a0f7046ed4ae48d163c35d4a7e6ee91403485e9cee6531",
+    "lab/laptop_match.py": "bdaa949ee65c13cd586bfc17537818fdb3e389e3acf40b8a694e35217b58f7e8",
+    "lab/laptop_runner.py": "57f3c62d7a5070436ebbb056c65e7394d292b692309a263139298767a5e7c61e",
+    "lab/release_audit.py": "ecfd901d3868dc6e293172051aa83d64fe658486e40f1b16b31cf4d0e8b838c2",
+    "lab/paired_match_stats.py": "8ce432d0d23404af5d8b0c5785bc2fca8f976e8fc601b38c5828672b90e257ef",
+    "official/harness/referee.py": "9a99a885ae3926522138788ef9f7526d1873a474826177076005fec51129b509",
+    "official/harness/rules.py": "72737d2ec7e524e72873127c43fe9cd356e9dac2337ce84d14ca9abd35061710",
+    "official/harness/runner.py": "da81957fd55536691e635f44e7fe1fc3666712cdd2266a2214eb3943034c2501",
+    "official/harness/sandbox.py": "a972d6f9e64fc7ee2dda55fee37aba0989d84aec4d5c5e3dbddff20bb7457c55"
+  },
+  "gate_provenance": {
+    "lab/odin/release/native_gate.py": "6bafa993237b25d0db961d5d6f00d98ec43938cb40d4734e9d70945215b1607e",
+    "lab/perft.py": "5ae7cc45621f407411bcaa102a86308b5c047c27e409d4434fdbc4056beb3d62"
+  },
+  "structural": {
+    "verdict": "PASS",
+    "source": "/tmp/chesstk-odin-gate-1gk_gzc0/structural/source",
+    "cold_agent_import_s": 33.193024918437004,
+    "search_root_signature": "(pos, packed_root, hard_ms, soft_ms, adjudicate, game_zkeys) -> 'int'",
+    "warmup_s": 32.90325316786766,
+    "original_numba_ready": true,
+    "nopython_root_signatures": [
+      "(Array(uint64, 1, 'C', False, aligned=True), Array(int8, 1, 'C', False, aligned=True), Array(uint64, 1, 'C', False, aligned=True), Array(int32, 1, 'C', False, aligned=True), int64, int64, Array(uint64, 1, 'C', False, aligned=True), int64, int64, int64, int64, int64, int64, int64, Array(uint64, 2, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(uint64, 1, 'C', False, aligned=True), Array(int32, 1, 'C', False, aligned=True), Array(int16, 1, 'C', False, aligned=True), Array(uint8, 1, 'C', False, aligned=True), Array(uint8, 1, 'C', False, aligned=True), Array(int32, 1, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(int64, 1, 'C', False, aligned=True), Array(int32, 1, 'C', False, aligned=True)) -> Tuple(int32, int64)"
+    ],
+    "perft": [
+      {
+        "name": "startpos",
+        "depth": 3,
+        "nodes": 8902,
+        "seconds": 0.00038688816130161285
+      },
+      {
+        "name": "kiwipete",
+        "depth": 3,
+        "nodes": 97862,
+        "seconds": 0.0022926032543182373
+      },
+      {
+        "name": "cpw3",
+        "depth": 3,
+        "nodes": 2812,
+        "seconds": 0.00016577914357185364
+      },
+      {
+        "name": "cpw4",
+        "depth": 3,
+        "nodes": 9467,
+        "seconds": 0.0003110896795988083
+      },
+      {
+        "name": "cpw5",
+        "depth": 3,
+        "nodes": 62379,
+        "seconds": 0.0016119647771120071
+      },
+      {
+        "name": "cpw6",
+        "depth": 3,
+        "nodes": 89890,
+        "seconds": 0.001945003867149353
+      }
+    ],
+    "deadline_probes": [
+      {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "hard_ms": 30,
+        "elapsed_ms": 4.1742827743291855,
+        "move": "e2e4",
+        "info": {
+          "depth": 3,
+          "score": 43,
+          "nodes": 1405,
+          "elapsed_ms": 4.094626754522324,
+          "target_ms": 0.0,
+          "hard_ms": 30.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              263948,
+              46,
+              48,
+              0.04,
+              false
+            ],
+            [
+              2,
+              263948,
+              10,
+              129,
+              0.45,
+              false
+            ],
+            [
+              3,
+              263948,
+              43,
+              1228,
+              3.44,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "hard_ms": 100,
+        "elapsed_ms": 0.34715980291366577,
+        "move": "e2e4",
+        "info": {
+          "depth": 3,
+          "score": 43,
+          "nodes": 244,
+          "elapsed_ms": 0.2948213368654251,
+          "target_ms": 0.0,
+          "hard_ms": 100.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              263883,
+              45,
+              42,
+              0.03,
+              false
+            ],
+            [
+              2,
+              263948,
+              43,
+              66,
+              0.13,
+              false
+            ],
+            [
+              3,
+              263948,
+              43,
+              136,
+              0.05,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "hard_ms": 300,
+        "elapsed_ms": 0.2103801816701889,
+        "move": "e2e4",
+        "info": {
+          "depth": 3,
+          "score": 43,
+          "nodes": 243,
+          "elapsed_ms": 0.17137080430984497,
+          "target_ms": 0.0,
+          "hard_ms": 300.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              263883,
+              45,
+              42,
+              0.02,
+              false
+            ],
+            [
+              2,
+              263948,
+              43,
+              65,
+              0.03,
+              false
+            ],
+            [
+              3,
+              263948,
+              43,
+              136,
+              0.05,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1",
+        "hard_ms": 30,
+        "elapsed_ms": 7.400404661893845,
+        "move": "d5e6",
+        "info": {
+          "depth": 3,
+          "score": 24,
+          "nodes": 2391,
+          "elapsed_ms": 7.349994033575058,
+          "target_ms": 0.0,
+          "hard_ms": 30.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              35340,
+              95,
+              370,
+              1.66,
+              false
+            ],
+            [
+              2,
+              35340,
+              95,
+              303,
+              0.96,
+              false
+            ],
+            [
+              3,
+              35619,
+              24,
+              1718,
+              4.63,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1",
+        "hard_ms": 100,
+        "elapsed_ms": 0.25232136249542236,
+        "move": "d5e6",
+        "info": {
+          "depth": 3,
+          "score": 24,
+          "nodes": 219,
+          "elapsed_ms": 0.18922053277492523,
+          "target_ms": 0.0,
+          "hard_ms": 100.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              35619,
+              24,
+              108,
+              0.06,
+              false
+            ],
+            [
+              2,
+              35619,
+              24,
+              50,
+              0.02,
+              false
+            ],
+            [
+              3,
+              35619,
+              24,
+              61,
+              0.03,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1",
+        "hard_ms": 300,
+        "elapsed_ms": 0.2014394849538803,
+        "move": "d5e6",
+        "info": {
+          "depth": 3,
+          "score": 24,
+          "nodes": 219,
+          "elapsed_ms": 0.16059912741184235,
+          "target_ms": 0.0,
+          "hard_ms": 300.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              35619,
+              24,
+              108,
+              0.05,
+              false
+            ],
+            [
+              2,
+              35619,
+              24,
+              50,
+              0.02,
+              false
+            ],
+            [
+              3,
+              35619,
+              24,
+              61,
+              0.03,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "8/2p5/3p4/KP5r/1R3p1k/8/4P1P1/8 w - - 0 1",
+        "hard_ms": 30,
+        "elapsed_ms": 1.7925947904586792,
+        "move": "b4f4",
+        "info": {
+          "depth": 3,
+          "score": 24,
+          "nodes": 1000,
+          "elapsed_ms": 1.7538629472255707,
+          "target_ms": 0.0,
+          "hard_ms": 30.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              1689,
+              4,
+              44,
+              0.1,
+              false
+            ],
+            [
+              2,
+              1689,
+              23,
+              213,
+              0.44,
+              false
+            ],
+            [
+              3,
+              34649,
+              24,
+              743,
+              1.14,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "8/2p5/3p4/KP5r/1R3p1k/8/4P1P1/8 w - - 0 1",
+        "hard_ms": 100,
+        "elapsed_ms": 0.1296214759349823,
+        "move": "b4f4",
+        "info": {
+          "depth": 3,
+          "score": 24,
+          "nodes": 59,
+          "elapsed_ms": 0.09064935147762299,
+          "target_ms": 0.0,
+          "hard_ms": 100.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              34649,
+              24,
+              28,
+              0.02,
+              false
+            ],
+            [
+              2,
+              34649,
+              24,
+              16,
+              0.01,
+              false
+            ],
+            [
+              3,
+              34649,
+              24,
+              15,
+              0.01,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "8/2p5/3p4/KP5r/1R3p1k/8/4P1P1/8 w - - 0 1",
+        "hard_ms": 300,
+        "elapsed_ms": 0.11366792023181915,
+        "move": "b4f4",
+        "info": {
+          "depth": 3,
+          "score": 24,
+          "nodes": 59,
+          "elapsed_ms": 0.0827498733997345,
+          "target_ms": 0.0,
+          "hard_ms": 300.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              34649,
+              24,
+              28,
+              0.02,
+              false
+            ],
+            [
+              2,
+              34649,
+              24,
+              16,
+              0.01,
+              false
+            ],
+            [
+              3,
+              34649,
+              24,
+              15,
+              0.01,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "4k3/8/8/3pP3/8/8/8/4K3 w - d6 0 1",
+        "hard_ms": 30,
+        "elapsed_ms": 0.4094596952199936,
+        "move": "e1d2",
+        "info": {
+          "depth": 3,
+          "score": 21,
+          "nodes": 250,
+          "elapsed_ms": 0.3778785467147827,
+          "target_ms": 0.0,
+          "hard_ms": 30.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              101092,
+              203,
+              16,
+              0.04,
+              false
+            ],
+            [
+              2,
+              101092,
+              132,
+              23,
+              0.03,
+              false
+            ],
+            [
+              3,
+              708,
+              21,
+              211,
+              0.26,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "4k3/8/8/3pP3/8/8/8/4K3 w - d6 0 1",
+        "hard_ms": 100,
+        "elapsed_ms": 0.11258944869041443,
+        "move": "e1d2",
+        "info": {
+          "depth": 3,
+          "score": 21,
+          "nodes": 48,
+          "elapsed_ms": 0.08250027894973755,
+          "target_ms": 0.0,
+          "hard_ms": 100.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              2852,
+              73,
+              14,
+              0.01,
+              false
+            ],
+            [
+              2,
+              708,
+              21,
+              16,
+              0.02,
+              false
+            ],
+            [
+              3,
+              708,
+              21,
+              18,
+              0.01,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "4k3/8/8/3pP3/8/8/8/4K3 w - d6 0 1",
+        "hard_ms": 300,
+        "elapsed_ms": 0.09801797568798065,
+        "move": "e1d2",
+        "info": {
+          "depth": 3,
+          "score": 21,
+          "nodes": 48,
+          "elapsed_ms": 0.07160007953643799,
+          "target_ms": 0.0,
+          "hard_ms": 300.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              2852,
+              73,
+              14,
+              0.01,
+              false
+            ],
+            [
+              2,
+              708,
+              21,
+              16,
+              0.01,
+              false
+            ],
+            [
+              3,
+              708,
+              21,
+              18,
+              0.01,
+              false
+            ]
+          ]
+        }
+      }
+    ],
+    "current_rules_and_history_probes": [
+      {
+        "fen": "7k/7p/8/8/8/8/P7/K7 b - - 0 300",
+        "move": "h7h6",
+        "score": 0
+      },
+      {
+        "fen": "8/8/8/8/8/k7/2q5/K7 b - - 0 300",
+        "move": "c2c1",
+        "score": 31999
+      },
+      {
+        "history_length": 500,
+        "move": "a1b2",
+        "elapsed_ms": 0.4751775413751602
+      },
+      {
+        "history_length": 620,
+        "move": "a1b2",
+        "elapsed_ms": 0.19095838069915771
+      },
+      {
+        "history_length": 750,
+        "move": "a1b2",
+        "elapsed_ms": 0.21206028759479523
+      },
+      {
+        "history_length": 900,
+        "move": "a1b2",
+        "elapsed_ms": 0.22476911544799805
+      }
+    ]
+  },
+  "structural_service": {
+    "role": "candidate",
+    "cpu": 0,
+    "unit": "chesstk-odin-gate-56604e614b1743b0ade4ed1e1ef64fad-structural.service",
+    "init_s": 33.358,
+    "move_count": 0,
+    "move_total_ms": 0,
+    "move_max_ms": 0,
+    "move_median_ms": 0,
+    "moves": [],
+    "memory_peak_bytes": 424910848,
+    "memory_samples": [
+      {
+        "RuntimeMaxUSec": "15min",
+        "MainPID": "3560408",
+        "Result": "success",
+        "ControlGroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/chesstk-odin-gate-56604e614b1743b0ade4ed1e1ef64fad-structural.service",
+        "MemoryCurrent": "424837120",
+        "MemoryPeak": "424910848",
+        "CPUQuotaPerSecUSec": "1s",
+        "MemoryMax": "2147483648",
+        "MemorySwapMax": "0",
+        "TasksMax": "128",
+        "LimitFSIZE": "268435456",
+        "CPUAffinity": "0",
+        "NoNewPrivileges": "yes",
+        "RestrictAddressFamilies": "AF_UNIX",
+        "LoadState": "loaded",
+        "ActiveState": "active",
+        "SubState": "running",
+        "query_returncode": 0,
+        "phase": "after_init"
+      },
+      {
+        "RuntimeMaxUSec": "15min",
+        "MainPID": "3560408",
+        "Result": "success",
+        "ControlGroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/chesstk-odin-gate-56604e614b1743b0ade4ed1e1ef64fad-structural.service",
+        "MemoryCurrent": "424837120",
+        "MemoryPeak": "424910848",
+        "CPUQuotaPerSecUSec": "1s",
+        "MemoryMax": "2147483648",
+        "MemorySwapMax": "0",
+        "TasksMax": "128",
+        "LimitFSIZE": "268435456",
+        "CPUAffinity": "0",
+        "NoNewPrivileges": "yes",
+        "RestrictAddressFamilies": "AF_UNIX",
+        "LoadState": "loaded",
+        "ActiveState": "active",
+        "SubState": "running",
+        "query_returncode": 0,
+        "phase": "before_stop"
+      }
+    ],
+    "envelope_errors": [],
+    "cleanup_error": null,
+    "search_telemetry": [],
+    "stderr_tail": ""
+  },
+  "structural_extraction_errors": [],
+  "protocol": {
+    "cold_agent_import_s": 33.66674259118736,
+    "moves": [
+      {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "time_left_ms": 100,
+        "move": "g1h3",
+        "elapsed_ms": 1.330554485321045
+      },
+      {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "time_left_ms": 450,
+        "move": "g1h3",
+        "elapsed_ms": 1.1320356279611588
+      },
+      {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "time_left_ms": 1000,
+        "move": "e2e4",
+        "elapsed_ms": 321.92081958055496
+      },
+      {
+        "fen": "4k3/8/8/3pP3/8/8/8/4K3 w - d6 0 1",
+        "time_left_ms": 1000,
+        "move": "e1e2",
+        "elapsed_ms": 370.83873711526394
+      },
+      {
+        "fen": "8/k1P5/2K5/8/8/8/8/8 w - - 0 1",
+        "time_left_ms": 1200,
+        "move": "c7c8r",
+        "elapsed_ms": 5.568468943238258
+      },
+      {
+        "fen": "8/k1P5/2K5/8/8/8/8/8 w - - 0 1",
+        "time_left_ms": 1199,
+        "move": "c6d7",
+        "elapsed_ms": 270.60084231197834
+      },
+      {
+        "fen": "8/8/8/8/8/3K4/2BN4/k7 w - - 0 1",
+        "time_left_ms": 1200,
+        "move": "d3c3",
+        "elapsed_ms": 9.23086702823639
+      }
+    ]
+  },
+  "protocol_service": {
+    "role": "candidate",
+    "cpu": 0,
+    "unit": "chesstk-odin-gate-e78655fd9df442cc8513bd73feb06d16-protocol.service",
+    "init_s": 33.667,
+    "move_count": 7,
+    "move_total_ms": 980.561,
+    "move_max_ms": 370.824,
+    "move_median_ms": 9.226,
+    "moves": [
+      {
+        "request": 1,
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "time_left_ms": 100,
+        "ok": true,
+        "move": "g1h3",
+        "elapsed_ms": 1.32
+      },
+      {
+        "request": 2,
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "time_left_ms": 450,
+        "ok": true,
+        "move": "g1h3",
+        "elapsed_ms": 1.124
+      },
+      {
+        "request": 3,
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "time_left_ms": 1000,
+        "ok": true,
+        "move": "e2e4",
+        "elapsed_ms": 321.913
+      },
+      {
+        "request": 4,
+        "fen": "4k3/8/8/3pP3/8/8/8/4K3 w - d6 0 1",
+        "time_left_ms": 1000,
+        "ok": true,
+        "move": "e1e2",
+        "elapsed_ms": 370.824
+      },
+      {
+        "request": 5,
+        "fen": "8/k1P5/2K5/8/8/8/8/8 w - - 0 1",
+        "time_left_ms": 1200,
+        "ok": true,
+        "move": "c7c8r",
+        "elapsed_ms": 5.56
+      },
+      {
+        "request": 6,
+        "fen": "8/k1P5/2K5/8/8/8/8/8 w - - 0 1",
+        "time_left_ms": 1199,
+        "ok": true,
+        "move": "c6d7",
+        "elapsed_ms": 270.594
+      },
+      {
+        "request": 7,
+        "fen": "8/8/8/8/8/3K4/2BN4/k7 w - - 0 1",
+        "time_left_ms": 1200,
+        "ok": true,
+        "move": "d3c3",
+        "elapsed_ms": 9.226
+      }
+    ],
+    "memory_peak_bytes": 455135232,
+    "memory_samples": [
+      {
+        "RuntimeMaxUSec": "15min",
+        "MainPID": "3560421",
+        "Result": "success",
+        "ControlGroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/chesstk-odin-gate-e78655fd9df442cc8513bd73feb06d16-protocol.service",
+        "MemoryCurrent": "413130752",
+        "MemoryPeak": "413241344",
+        "CPUQuotaPerSecUSec": "1s",
+        "MemoryMax": "2147483648",
+        "MemorySwapMax": "0",
+        "TasksMax": "128",
+        "LimitFSIZE": "268435456",
+        "CPUAffinity": "0",
+        "NoNewPrivileges": "yes",
+        "RestrictAddressFamilies": "AF_UNIX",
+        "LoadState": "loaded",
+        "ActiveState": "active",
+        "SubState": "running",
+        "query_returncode": 0,
+        "phase": "after_init"
+      },
+      {
+        "RuntimeMaxUSec": "15min",
+        "MainPID": "3560421",
+        "Result": "success",
+        "ControlGroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/chesstk-odin-gate-e78655fd9df442cc8513bd73feb06d16-protocol.service",
+        "MemoryCurrent": "454877184",
+        "MemoryPeak": "455135232",
+        "CPUQuotaPerSecUSec": "1s",
+        "MemoryMax": "2147483648",
+        "MemorySwapMax": "0",
+        "TasksMax": "128",
+        "LimitFSIZE": "268435456",
+        "CPUAffinity": "0",
+        "NoNewPrivileges": "yes",
+        "RestrictAddressFamilies": "AF_UNIX",
+        "LoadState": "loaded",
+        "ActiveState": "active",
+        "SubState": "running",
+        "query_returncode": 0,
+        "phase": "before_stop"
+      }
+    ],
+    "envelope_errors": [],
+    "cleanup_error": null,
+    "search_telemetry": [
+      {
+        "game_ply": 0,
+        "depth": 10,
+        "nodes": 393053,
+        "score": 24,
+        "elapsed_ms": 320,
+        "target_ms": 340
+      },
+      {
+        "game_ply": 0,
+        "depth": 32,
+        "nodes": 617783,
+        "score": 0,
+        "elapsed_ms": 368,
+        "target_ms": 278
+      },
+      {
+        "game_ply": 0,
+        "depth": 13,
+        "nodes": 551657,
+        "score": 1250,
+        "elapsed_ms": 269,
+        "target_ms": 285
+      }
+    ],
+    "stderr_tail": "S4 p0 d10 n393053 s24 t320 b340\nS4 p0 d32 n617783 s0 t368 b278\nS4 p0 d13 n551657 s1250 t269 b285\n"
+  },
+  "protocol_extraction_errors": []
+}

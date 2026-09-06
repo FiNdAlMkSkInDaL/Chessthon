@@ -1,0 +1,149 @@
+AI CHESSATHON MATCH LOG
+=======================
+
+MATCH
+  Round          Rated 21
+  Team           Finlay Phillips
+  Colour         Black
+  Opponent       The Castle Gambit
+  Opening        Sicilian Closed
+  Start FEN      r1bqk2r/pp2ppbp/2np1np1/2p5/P3P3/2NP1NP1/1PP2PBP/R1BQK2R b KQkq - 0 7
+  You moved      First
+  Machine        w-60cad5
+  Finished       2026-09-05 12:11:26 UTC
+  Match ID       97aae2c4-3682-4b59-9d6c-9d8ef224a86e
+
+INIT
+  Ready in       45.5 s
+  Budget         90.0 s
+  Used           51 percent
+
+CLOCK
+  Base           120.0 s plus 0.5 s per move
+  Moves          54
+  Time used      140.6 s
+  Slowest        8.4 s on move 5
+  Fastest        0.0 s on move 51
+  Average        2.6 s
+  Left at end    6.4 s
+
+RESULT
+  Won by checkmate
+  Game lasted 281.1 s
+
+MOVES
+    #  move          time     clock left
+    1  O-O           2.2 s      118.3 s
+    2  Bg4           2.5 s      116.4 s
+    3  Bxf3          3.2 s      113.7 s
+    4  e6            3.6 s      110.5 s
+    5  Qb6           8.4 s      102.6 s
+    6  Nxa5          2.6 s      100.6 s
+    7  Rae8          5.0 s       96.0 s
+    8  e5            1.8 s       94.7 s
+    9  Re6           5.3 s       89.9 s
+   10  Nc6           2.7 s       87.7 s
+   11  Rc8           5.5 s       82.8 s
+   12  Qc7           3.0 s       80.3 s
+   13  Nd4           1.7 s       79.1 s
+   14  cxd4          1.5 s       78.1 s
+   15  Ree8          3.8 s       74.9 s
+   16  Rb8           5.5 s       69.9 s
+   17  a6            5.2 s       65.1 s
+   18  Kxg7          1.5 s       64.1 s
+   19  b5            3.1 s       61.5 s
+   20  dxe5          2.2 s       59.8 s
+   21  Rb6           3.7 s       56.6 s
+   22  axb5          2.0 s       55.1 s
+   23  h6            3.4 s       52.2 s
+   24  Rc6           4.0 s       48.8 s
+   25  Rb8           3.0 s       46.3 s
+   26  b4            3.7 s       43.1 s
+   27  Rc3           1.6 s       42.0 s
+   28  Rb6           1.5 s       41.0 s
+   29  Rbc6          1.8 s       39.7 s
+   30  Rxb3          1.4 s       38.8 s
+   31  Rbc3          2.9 s       36.4 s
+   32  b3            2.4 s       34.5 s
+   33  hxg5          1.7 s       33.3 s
+   34  Nh5           1.6 s       32.2 s
+   35  Nf4           1.9 s       30.8 s
+   36  Rc2           6.5 s       24.8 s
+   37  Rxf2          1.6 s       23.7 s
+   38  Rc2           2.1 s       22.1 s
+   39  Rxf2          2.2 s       20.4 s
+   40  b2            1.2 s       19.7 s
+   41  Qc2+          0.9 s       19.2 s
+   42  b1=Q          1.6 s       18.2 s
+   43  Qxb1          4.2 s       14.5 s
+   44  Qe1           3.0 s       12.1 s
+   45  Qe3           2.3 s       10.3 s
+   46  Qf4+          1.1 s        9.7 s
+   47  Qxg5+         3.8 s        6.4 s
+   48  Qe3+          0.6 s        6.2 s
+   49  g5            2.8 s        3.9 s
+   50  g4            0.0 s        4.4 s
+   51  Qf2+          0.0 s        4.9 s
+   52  Kg6           0.0 s        5.4 s
+   53  g3            0.0 s        5.9 s
+   54  Qh2#          0.0 s        6.4 s
+
+OUTPUT
+  1,941 bytes on stderr
+
+  S4 p0 d12 n1367817 s6 t2146 b2724
+  S4 p2 d13 n1625856 s8 t2467 b3374
+  S4 p4 d14 n2045075 s2 t3187 b2683
+  S4 p6 d13 n2368443 s6 t3640 b4970
+  S4 p8 d14 n5262508 s11 t8393 b6413
+  S4 p10 d14 n1598695 s41 t2555 b2585
+  S4 p12 d15 n3166175 s68 t5030 b3861
+  S4 p14 d15 n1212270 s64 t1830 b2531
+  S4 p16 d16 n3312323 s58 t5323 b2618
+  S4 p18 d15 n1711112 s58 t2646 b2361
+  S4 p20 d13 n3510117 s51 t5459 b6160
+  S4 p22 d14 n1910413 s59 t2979 b2274
+  S4 p24 d14 n1164605 s55 t1654 b2204
+  S4 p26 d15 n983508 s53 t1480 b2243
+  S4 p28 d14 n2499857 s64 t3745 b3708
+  S4 p30 d15 n3585660 s72 t5509 b5355
+  S4 p32 d15 n3403290 s80 t5233 b3243
+  S4 p34 d15 n1019299 s81 t1503 b2061
+  S4 p36 d13 n1946554 s95 t3099 b2586
+  S4 p38 d13 n1357249 s105 t2202 b2091
+  S4 p40 d13 n2262200 s109 t3738 b3119
+  S4 p42 d14 n1283131 s123 t1973 b1964
+  S4 p44 d14 n2118176 s117 t3354 b2012
+  S4 p46 d15 n2334771 s129 t3967 b2431
+  S4 p48 d13 n1696182 s129 t2985 b2184
+  S4 p50 d14 n2257422 s107 t3714 b3786
+  S4 p52 d13 n1013868 s127 t1568 b1694
+  S4 p54 d14 n992463 s137 t1470 b1649
+  S4 p56 d14 n1223623 s140 t1786 b1659
+  S4 p58 d13 n867388 s178 t1442 b1610
+  S4 p60 d13 n1751882 s232 t2901 b2781
+  S4 p62 d15 n1478352 s238 t2397 b1537
+  S4 p64 d15 n1028688 s263 t1677 b1511
+  S4 p66 d15 n1002586 s283 t1604 b2692
+  S4 p68 d12 n1050914 s463 t1890 b2806
+  S4 p70 d16 n3755008 s753 t6525 b2208
+  S4 p72 d18 n1114551 s816 t1596 b1189
+  S4 p74 d19 n1484689 s935 t2089 b2162
+  S4 p76 d20 n1658476 s1001 t2189 b2429
+  S4 p78 d21 n1034444 s1026 t1205 b1302
+  S4 p80 d19 n642966 s1026 t934 b1264
+  S4 p82 d23 n1349824 s1087 t1546 b2160
+  S4 p84 d23 n2390225 s1176 t4151 b2724
+  S4 p86 d19 n1335317 s1250 t2948 b2319
+  S4 p88 d17 n1907727 s1287 t2291 b2633
+  S4 p90 d19 n794584 s1313 t1053 b833
+  S4 p92 d18 n2861056 s1313 t3823 b771
+  S4 p94 d16 n412602 s1678 t625 b571
+  S4 p96 d16 n1640448 s1678 t2794 b563
+  S4 p98 d7 n3814 s31989 t9 b1038
+  S4 p100 d1 n63 s31993 t0 b693
+  S4 p102 d8 n10402 s31995 t18 b1588
+  S4 p104 d1 n49 s31997 t0 b782
+  S4 p106 d1 n42 s31999 t0 b828
+
+Email hello@aichessathon.com with this file if anything here is unclear.

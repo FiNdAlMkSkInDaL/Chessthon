@@ -1,0 +1,17 @@
+{
+  "audit": "PASS",
+  "games": 16,
+  "wins": 5,
+  "draws": 5,
+  "losses": 6,
+  "score": 0.46875,
+  "legal_plies": 2092,
+  "cold_seconds": {
+    "baseline": 88.00601579999784,
+    "candidate": 71.4352566999878
+  },
+  "decision": "REJECT promotion testing",
+  "scope": "Used-family 16-game 500ms equal-wall addition screen; not full-clock or reliable Elo evidence.",
+  "plan_sha256": "6f974cb9b6d44f26e819e6bfd1e9e196124606c75a205cfbee132e739a43cdbf",
+  "log_sha256": "126c4190a68b98a76bdbdb69adfe5e3fc8e552fbab883322cadb901cf41d4e6d"
+}

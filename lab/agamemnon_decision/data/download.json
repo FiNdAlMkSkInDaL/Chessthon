@@ -1,0 +1,8 @@
+{
+  "url": "https://database.lichess.org/standard/lichess_db_standard_rated_2025-01.pgn.zst",
+  "range": "bytes 0-67108863/32870953370",
+  "etag": "\"679e56e3-7a742f19a\"",
+  "sha256": "e55f74cf00e1e081c583e5d05d8b92715c04d3c0ad7479bc1778009e39795624",
+  "license": "CC0: https://database.lichess.org/",
+  "scope": "Bounded prefix sample, not representative of all Lichess games."
+}

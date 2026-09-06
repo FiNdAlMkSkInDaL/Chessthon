@@ -1,0 +1,64 @@
+{
+  "frozen_utc": "2026-09-05T18:43:09.201007+00:00",
+  "engine": {
+    "name": "Stockfish 19",
+    "path": "C:\\Users\\finla\\AppData\\Local\\ChessTK\\analysis-tools\\stockfish-19\\stockfish\\stockfish-windows-arm64-universal.exe",
+    "sha256": "3b5881df3d6f92817cf6664a6a18a473b50d424c71a1247fe4268090db281413",
+    "purpose": "Offline independent starting-position balance only; never submission code."
+  },
+  "screen_nodes": 150000,
+  "screened": 56,
+  "selected": 48,
+  "counts": {
+    "development": {
+      "flank": 2,
+      "e4": 3,
+      "d4": 3
+    },
+    "holdout": {
+      "d4": 16,
+      "flank": 8,
+      "e4": 16
+    }
+  },
+  "geometry": {
+    "development": {
+      "one": 7,
+      "same": 1
+    },
+    "holdout": {
+      "same": 23,
+      "one": 17
+    }
+  },
+  "guard_holdout_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    16
+  ],
+  "files": {
+    "candidate-pool.jsonl": "037c81bca32bb751ab02d11e3a4f72efd28a0dfbcf1e4c827dee9e4ca4d3abe1",
+    "development.jsonl": "01873f460f8bb561c93bbaa6d52579576d9327f3f0c46f5b2b26f6e5657dd55f",
+    "holdout.jsonl": "4697ddebc9c1c12cdde0a688fd75838c1abe04bae09571980c060d5407227ec5",
+    "independent-screen.jsonl": "80ff8147d9b37919ad8ec9c74b2512f3796923dc7113c03eb8e4c7f5a25ebb21"
+  },
+  "fen_files": {
+    "development.fen": "0ac8e4afff0f96b9185c496c492e84a1e36817e1a2d8370c4f8e96a4192ef4e7",
+    "holdout.fen": "43a9e52fcdc5cb495fd511d7ec1310c6c3562aeed112e1c8e9178af9b958d182"
+  },
+  "pre_screen_sha256": "fb98d8880d7eb582a30268f0cc47aaa9a35c2e2a7ae204afd497aee04fb29ea1",
+  "independence": "No candidate or control engine was imported or played during construction. Final positions remain excluded from development tuning. Guard reuses predeclared holdout subset and is reported separately."
+}

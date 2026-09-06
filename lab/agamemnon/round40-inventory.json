@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "Event": "AI Chessathon Rated",
+    "Site": "aichessathon.com",
+    "Date": "2026.09.06",
+    "Round": "40",
+    "White": "Finlay Phillips",
+    "Black": "PawnStorm",
+    "Result": "1/2-1/2",
+    "FEN": "r1bqk2r/ppp1bppp/2n5/3np3/P1B5/3P1N2/1PP2PPP/RNBQ1RK1 b kq - 1 7",
+    "SetUp": "1",
+    "Termination": "threefold_repetition"
+  },
+  "sha256": "0338216f1fe9c1e9f0554ff793a07629607efc849f63b5adee654307bc1c4240",
+  "legal_plies": 142,
+  "final_fen": "1b6/1P6/p5p1/N2k2P1/1P1p4/3Pp3/4K3/8 b - - 29 78",
+  "actual_third": true,
+  "own_final_bank": 4.006,
+  "own_min_recorded_bank": 3.509,
+  "scope": "Arrived after all100fits and checkpoint selection; inventory/legality only, not fitted or independently reference-reviewed."
+}

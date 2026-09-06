@@ -1,0 +1,10 @@
+{
+  "counts": {
+    "flank": 4,
+    "d4": 4,
+    "e4": 4
+  },
+  "n": 12,
+  "fen_sha256": "be8f7b3b16954d103a7f013619f1b4e515d264d364ed1d7e9411cd17ddaa84da",
+  "candidate_unsearched": true
+}

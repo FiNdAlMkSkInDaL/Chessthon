@@ -1,0 +1,50 @@
+[
+  {
+    "name": "agent.py",
+    "sha256": "f8df2dbd7dde24c50d74fd13d8d7f31e9f380bab0302bc662f9e6828b9b88fde"
+  },
+  {
+    "name": "bitops_nb.py",
+    "sha256": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e"
+  },
+  {
+    "name": "board_nb.py",
+    "sha256": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d"
+  },
+  {
+    "name": "core_nb.py",
+    "sha256": "917f79950b0a7d78a9eedc8e8ad7c3ddd28ad65fc7da2592aca2b1212569bc3a"
+  },
+  {
+    "name": "eval_nb.py",
+    "sha256": "607d3d8c9094a24ebfeff4088f6354b5acc320aa98e681be179f333c4e003ca7"
+  },
+  {
+    "name": "history.py",
+    "sha256": "7f23e9aace3c41d9c22d1b289b7a2c5d70436f67a4e0df727ce61959ecb5be5c"
+  },
+  {
+    "name": "movegen_nb.py",
+    "sha256": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c"
+  },
+  {
+    "name": "search_nb.py",
+    "sha256": "1cc327d7c0dc1fc37fcf2aec3db4b0b19cd2277d4a3095c7bb0e57f5e3ea0741"
+  },
+  {
+    "name": "storm_clock.py",
+    "sha256": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8"
+  },
+  {
+    "name": "tables_nb.py",
+    "sha256": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007"
+  },
+  {
+    "name": "time_nb.py",
+    "sha256": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8"
+  },
+  {
+    "name": "tt_nb.py",
+    "sha256": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+  }
+]

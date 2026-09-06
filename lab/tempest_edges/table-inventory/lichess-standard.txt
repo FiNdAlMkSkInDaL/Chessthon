@@ -1,0 +1,26 @@
+<html>
+<head><title>Index of /tables/standard/</title></head>
+<body>
+<h1>Index of /tables/standard/</h1><hr><pre><a href="../">../</a>
+<a href="3-4-5-dtz/">3-4-5-dtz/</a>                                         23-Jun-2024 08:16                   -
+<a href="3-4-5-dtz-nr/">3-4-5-dtz-nr/</a>                                      15-Aug-2022 20:23                   -
+<a href="3-4-5-wdl/">3-4-5-wdl/</a>                                         23-Jun-2024 08:16                   -
+<a href="6-dtz/">6-dtz/</a>                                             11-Apr-2018 19:47                   -
+<a href="6-dtz-nr/">6-dtz-nr/</a>                                          18-Aug-2022 17:42                   -
+<a href="6-wdl/">6-wdl/</a>                                             11-Apr-2018 19:47                   -
+<a href="7/">7/</a>                                                 05-Sep-2018 21:58                   -
+<a href="Gaviota/">Gaviota/</a>                                           23-Jun-2024 08:22                   -
+<a href="prophet/">prophet/</a>                                           08-Feb-2026 13:49                   -
+<a href="b2">b2</a>                                                 23-Jun-2024 08:52              433778
+<a href="b3">b3</a>                                                 23-Jun-2024 08:51              240370
+<a href="bytes.tsv">bytes.tsv</a>                                          23-Jun-2024 08:51               71641
+<a href="download.txt">download.txt</a>                                       23-Jun-2024 08:54              216030
+<a href="md5">md5</a>                                                23-Jun-2024 08:51              143666
+<a href="sha1">sha1</a>                                               23-Jun-2024 08:51              167842
+<a href="sha256">sha256</a>                                             23-Jun-2024 08:51              240370
+<a href="sha3-224">sha3-224</a>                                           23-Jun-2024 08:51              216194
+<a href="sha512">sha512</a>                                             23-Jun-2024 08:51              433778
+<a href="stats.json">stats.json</a>                                         23-Jun-2024 08:52            13584851
+<a href="tbcheck.txt">tbcheck.txt</a>                                        23-Jun-2024 08:51              143666
+</pre><hr></body>
+</html>

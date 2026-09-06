@@ -1,0 +1,378 @@
+{
+  "rows": [
+    {
+      "id": "opp-r32-p7",
+      "player": "ms",
+      "mode": "nodes",
+      "budget": 200000,
+      "actual": "a5",
+      "v6": "Be6",
+      "same_move": false,
+      "actual_minus_v6_cp": 1
+    },
+    {
+      "id": "opp-r32-p7",
+      "player": "ms",
+      "mode": "nodes",
+      "budget": 1000000,
+      "actual": "a5",
+      "v6": "Re8",
+      "same_move": false,
+      "actual_minus_v6_cp": -12
+    },
+    {
+      "id": "opp-r32-p7",
+      "player": "ms",
+      "mode": "wall",
+      "budget": 1500,
+      "actual": "a5",
+      "v6": "Be6",
+      "same_move": false,
+      "actual_minus_v6_cp": 1
+    },
+    {
+      "id": "opp-r32-p9",
+      "player": "ms",
+      "mode": "nodes",
+      "budget": 200000,
+      "actual": "b6",
+      "v6": "a4",
+      "same_move": false,
+      "actual_minus_v6_cp": 82
+    },
+    {
+      "id": "opp-r32-p9",
+      "player": "ms",
+      "mode": "nodes",
+      "budget": 1000000,
+      "actual": "b6",
+      "v6": "b6",
+      "same_move": true,
+      "actual_minus_v6_cp": 0
+    },
+    {
+      "id": "opp-r32-p9",
+      "player": "ms",
+      "mode": "wall",
+      "budget": 1500,
+      "actual": "b6",
+      "v6": "a4",
+      "same_move": false,
+      "actual_minus_v6_cp": 82
+    },
+    {
+      "id": "opp-r32-p17",
+      "player": "ms",
+      "mode": "nodes",
+      "budget": 200000,
+      "actual": "Ne4",
+      "v6": "Qb6",
+      "same_move": false,
+      "actual_minus_v6_cp": -93
+    },
+    {
+      "id": "opp-r32-p17",
+      "player": "ms",
+      "mode": "nodes",
+      "budget": 1000000,
+      "actual": "Ne4",
+      "v6": "Qb6",
+      "same_move": false,
+      "actual_minus_v6_cp": -93
+    },
+    {
+      "id": "opp-r32-p17",
+      "player": "ms",
+      "mode": "wall",
+      "budget": 1500,
+      "actual": "Ne4",
+      "v6": "Qb6",
+      "same_move": false,
+      "actual_minus_v6_cp": -93
+    },
+    {
+      "id": "opp-r32-p19",
+      "player": "ms",
+      "mode": "nodes",
+      "budget": 200000,
+      "actual": "a4",
+      "v6": "Qb6",
+      "same_move": false,
+      "actual_minus_v6_cp": -76
+    },
+    {
+      "id": "opp-r32-p19",
+      "player": "ms",
+      "mode": "nodes",
+      "budget": 1000000,
+      "actual": "a4",
+      "v6": "Qb6",
+      "same_move": false,
+      "actual_minus_v6_cp": -76
+    },
+    {
+      "id": "opp-r32-p19",
+      "player": "ms",
+      "mode": "wall",
+      "budget": 1500,
+      "actual": "a4",
+      "v6": "Qb6",
+      "same_move": false,
+      "actual_minus_v6_cp": -76
+    },
+    {
+      "id": "opp-r33-p5",
+      "player": "AI Fellows",
+      "mode": "nodes",
+      "budget": 200000,
+      "actual": "Bb5",
+      "v6": "Bb5",
+      "same_move": true,
+      "actual_minus_v6_cp": 0
+    },
+    {
+      "id": "opp-r33-p5",
+      "player": "AI Fellows",
+      "mode": "nodes",
+      "budget": 1000000,
+      "actual": "Bb5",
+      "v6": "Bb5",
+      "same_move": true,
+      "actual_minus_v6_cp": 0
+    },
+    {
+      "id": "opp-r33-p5",
+      "player": "AI Fellows",
+      "mode": "wall",
+      "budget": 1500,
+      "actual": "Bb5",
+      "v6": "Bb5",
+      "same_move": true,
+      "actual_minus_v6_cp": 0
+    },
+    {
+      "id": "opp-r33-p7",
+      "player": "AI Fellows",
+      "mode": "nodes",
+      "budget": 200000,
+      "actual": "Bxa4",
+      "v6": "Bxa4",
+      "same_move": true,
+      "actual_minus_v6_cp": 0
+    },
+    {
+      "id": "opp-r33-p7",
+      "player": "AI Fellows",
+      "mode": "nodes",
+      "budget": 1000000,
+      "actual": "Bxa4",
+      "v6": "Bxa4",
+      "same_move": true,
+      "actual_minus_v6_cp": 0
+    },
+    {
+      "id": "opp-r33-p7",
+      "player": "AI Fellows",
+      "mode": "wall",
+      "budget": 1500,
+      "actual": "Bxa4",
+      "v6": "Bxa4",
+      "same_move": true,
+      "actual_minus_v6_cp": 0
+    },
+    {
+      "id": "opp-r33-p33",
+      "player": "AI Fellows",
+      "mode": "nodes",
+      "budget": 200000,
+      "actual": "b5",
+      "v6": "a6",
+      "same_move": false,
+      "actual_minus_v6_cp": -13
+    },
+    {
+      "id": "opp-r33-p33",
+      "player": "AI Fellows",
+      "mode": "nodes",
+      "budget": 1000000,
+      "actual": "b5",
+      "v6": "a6",
+      "same_move": false,
+      "actual_minus_v6_cp": -13
+    },
+    {
+      "id": "opp-r33-p33",
+      "player": "AI Fellows",
+      "mode": "wall",
+      "budget": 1500,
+      "actual": "b5",
+      "v6": "a6",
+      "same_move": false,
+      "actual_minus_v6_cp": -13
+    },
+    {
+      "id": "opp-r33-p35",
+      "player": "AI Fellows",
+      "mode": "nodes",
+      "budget": 200000,
+      "actual": "Qe1",
+      "v6": "f3",
+      "same_move": false,
+      "actual_minus_v6_cp": 31
+    },
+    {
+      "id": "opp-r33-p35",
+      "player": "AI Fellows",
+      "mode": "nodes",
+      "budget": 1000000,
+      "actual": "Qe1",
+      "v6": "f3",
+      "same_move": false,
+      "actual_minus_v6_cp": 31
+    },
+    {
+      "id": "opp-r33-p35",
+      "player": "AI Fellows",
+      "mode": "wall",
+      "budget": 1500,
+      "actual": "Qe1",
+      "v6": "f3",
+      "same_move": false,
+      "actual_minus_v6_cp": 31
+    },
+    {
+      "id": "opp-r34-p22",
+      "player": "adashima",
+      "mode": "nodes",
+      "budget": 200000,
+      "actual": "Re8",
+      "v6": "Re8",
+      "same_move": true,
+      "actual_minus_v6_cp": 0
+    },
+    {
+      "id": "opp-r34-p22",
+      "player": "adashima",
+      "mode": "nodes",
+      "budget": 1000000,
+      "actual": "Re8",
+      "v6": "Re8",
+      "same_move": true,
+      "actual_minus_v6_cp": 0
+    },
+    {
+      "id": "opp-r34-p22",
+      "player": "adashima",
+      "mode": "wall",
+      "budget": 1500,
+      "actual": "Re8",
+      "v6": "Re8",
+      "same_move": true,
+      "actual_minus_v6_cp": 0
+    },
+    {
+      "id": "opp-r34-p24",
+      "player": "adashima",
+      "mode": "nodes",
+      "budget": 200000,
+      "actual": "c6",
+      "v6": "c6",
+      "same_move": true,
+      "actual_minus_v6_cp": 0
+    },
+    {
+      "id": "opp-r34-p24",
+      "player": "adashima",
+      "mode": "nodes",
+      "budget": 1000000,
+      "actual": "c6",
+      "v6": "c6",
+      "same_move": true,
+      "actual_minus_v6_cp": 0
+    },
+    {
+      "id": "opp-r34-p24",
+      "player": "adashima",
+      "mode": "wall",
+      "budget": 1500,
+      "actual": "c6",
+      "v6": "c6",
+      "same_move": true,
+      "actual_minus_v6_cp": 0
+    },
+    {
+      "id": "opp-r34-p26",
+      "player": "adashima",
+      "mode": "nodes",
+      "budget": 200000,
+      "actual": "Qb8",
+      "v6": "Qb8",
+      "same_move": true,
+      "actual_minus_v6_cp": 0
+    },
+    {
+      "id": "opp-r34-p26",
+      "player": "adashima",
+      "mode": "nodes",
+      "budget": 1000000,
+      "actual": "Qb8",
+      "v6": "Qb8",
+      "same_move": true,
+      "actual_minus_v6_cp": 0
+    },
+    {
+      "id": "opp-r34-p26",
+      "player": "adashima",
+      "mode": "wall",
+      "budget": 1500,
+      "actual": "Qb8",
+      "v6": "Qb8",
+      "same_move": true,
+      "actual_minus_v6_cp": 0
+    },
+    {
+      "id": "opp-r34-p28",
+      "player": "adashima",
+      "mode": "nodes",
+      "budget": 200000,
+      "actual": "cxd5",
+      "v6": "cxd5",
+      "same_move": true,
+      "actual_minus_v6_cp": 0
+    },
+    {
+      "id": "opp-r34-p28",
+      "player": "adashima",
+      "mode": "nodes",
+      "budget": 1000000,
+      "actual": "cxd5",
+      "v6": "cxd5",
+      "same_move": true,
+      "actual_minus_v6_cp": 0
+    },
+    {
+      "id": "opp-r34-p28",
+      "player": "adashima",
+      "mode": "wall",
+      "budget": 1500,
+      "actual": "cxd5",
+      "v6": "cxd5",
+      "same_move": true,
+      "actual_minus_v6_cp": 0
+    }
+  ],
+  "by_budget": {
+    "200000": {
+      "n": 12,
+      "same": 6
+    },
+    "1000000": {
+      "n": 12,
+      "same": 7
+    },
+    "1500": {
+      "n": 12,
+      "same": 6
+    }
+  }
+}

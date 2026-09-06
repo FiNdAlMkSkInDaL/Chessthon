@@ -1,0 +1,234 @@
+--- odin_history_perf/core_nb.py
++++ odin_history_compact/core_nb.py
+@@ -88,6 +88,9 @@
+ Z_E = np.array(Z_EP, dtype=np.uint64)
+ Z_S = np.uint64(Z_SIDE)
+ HIST_SEED = np.uint64(0xCBF29CE484222325)
++# A null pass starts a fresh virtual repetition ledger. Its scores remain
++# context-separated until a legal zeroing move erases all prior positions.
++NULL_HIST_SEED = np.uint64(0x84222325CBF29CE4)
+ HIST_MUL = np.uint64(0x100000001B3)
+ CTX_FIFTY = np.uint64(0x9E3779B185EBCA87)
+ CTX_CAP = np.uint64(0xC2B2AE3D27D4EB4F)
+@@ -1365,7 +1368,6 @@
+     cap_left,
+     has_pair,
+     hist_sig,
+-    null_tree,
+     max_nodes,
+     allow_abort,
+     undos,
+@@ -1399,7 +1401,7 @@
+     if ply >= MAX_PLY:
+         return evaluate_nb(bb, st, adjudicate)
+ 
+-    if np.int32(st[FIFTY]) == 0 or null_tree:
++    if np.int32(st[FIFTY]) == 0:
+         # A legal pawn move/capture makes every preceding board unreachable.
+         # Rebase into the unused suffix so a child cannot overwrite a parent's
+         # history. On return its caller retains the original view and length.
+@@ -1430,10 +1432,10 @@
+     if insufficient_material_nb(bb):
+         return DRAW
+     orig_alpha = alpha
+-    child_hist_sig = HIST_SEED if null_tree else history_append(hist_sig, st[KEY])
++    child_hist_sig = history_append(hist_sig, st[KEY])
+     tt_key = score_tt_key(st[KEY], np.int32(st[FIFTY]), cap_left, child_hist_sig)
+     hash_move = move_hint_probe(st[KEY], ttk, ttm)
+-    if not adjudicate and not null_tree:
++    if not adjudicate:
+         hit, move, _d, flag, s = tt_probe(tt_key, ply, ttk, ttm, tts, ttd, ttg)
+         if hit:
+             hash_move = move
+@@ -1451,7 +1453,7 @@
+                 bb, mb, st, scratch, undos[ply]
+             ):
+                 return DRAW
+-            if not adjudicate and not null_tree:
++            if not adjudicate:
+                 tt_store(tt_key, 0, 0, LOWER, stand, ply, ttk, ttm, tts, ttd, ttg, tta)
+             return stand
+         if stand > alpha:
+@@ -1473,10 +1475,8 @@
+ 
+     sort_moves(mb, moves_buf, n, ply, hash_move, killers, histy)
+     best_move = np.int32(0)
+-    hlen2 = hlen
+-    if not null_tree:
+-        hist[hlen] = st[KEY]
+-        hlen2 += 1
++    hist[hlen] = st[KEY]
++    hlen2 = hlen + 1
+     for i in range(n):
+         move = moves_buf[i]
+         if not checked:
+@@ -1504,7 +1504,6 @@
+             cap_left - 1,
+             child_has_pair,
+             child_hist_sig,
+-            null_tree,
+             max_nodes,
+             allow_abort,
+             undos,
+@@ -1531,7 +1530,7 @@
+             alpha = best
+         if alpha >= beta:
+             break
+-    if not adjudicate and not null_tree:
++    if not adjudicate:
+         flag = EXACT
+         if best <= orig_alpha:
+             flag = UPPER
+@@ -1557,7 +1556,6 @@
+     cap_left,
+     has_pair,
+     hist_sig,
+-    null_tree,
+     max_nodes,
+     allow_abort,
+     undos,
+@@ -1589,7 +1587,7 @@
+     if ply >= MAX_PLY:
+         return evaluate_nb(bb, st, adjudicate)
+ 
+-    if np.int32(st[FIFTY]) == 0 or null_tree:
++    if np.int32(st[FIFTY]) == 0:
+         hist = hist[hlen:]
+         hlen = 0
+         has_pair = False
+@@ -1632,7 +1630,6 @@
+             cap_left,
+             has_pair,
+             hist_sig,
+-            null_tree,
+             max_nodes,
+             allow_abort,
+             undos,
+@@ -1661,10 +1658,10 @@
+ 
+     is_pv = (beta - alpha) > 1
+     orig_alpha = alpha
+-    child_hist_sig = HIST_SEED if null_tree else history_append(hist_sig, st[KEY])
++    child_hist_sig = history_append(hist_sig, st[KEY])
+     tt_key = score_tt_key(st[KEY], np.int32(st[FIFTY]), cap_left, child_hist_sig)
+     hash_move = move_hint_probe(st[KEY], ttk, ttm)
+-    if not adjudicate and not null_tree:
++    if not adjudicate:
+         hit, move, tdepth, flag, s = tt_probe(tt_key, ply, ttk, ttm, tts, ttd, ttg)
+         if hit:
+             hash_move = move
+@@ -1704,6 +1701,10 @@
+             # Legal make uses captured-piece IDs 0..11 or empty=12.
+             # This slot is ignored by unmake_null and marks only this edge.
+             undos[ply, U_CAP] = np.uint64(13)
++            # The pass itself is not a legal game-history edge. Start a
++            # virtual game in unused storage, keeping its count-context
++            # distinct from the real game. A later zeroing legal move
++            # makes either prehistory unreachable and resets normally.
+             score = -negamax_nb(
+                 bb,
+                 mb,
+@@ -1712,13 +1713,12 @@
+                 -beta,
+                 -beta + 1,
+                 ply + 1,
+-                hist,
+-                hlen,
++                hist[hlen:],
++                0,
+                 adjudicate,
+                 cap_left,
+-                has_pair,
+-                hist_sig,
+-                True,
++                False,
++                NULL_HIST_SEED,
+                 max_nodes,
+                 allow_abort,
+                 undos,
+@@ -1760,7 +1760,6 @@
+                         cap_left,
+                         has_pair,
+                         hist_sig,
+-                        null_tree,
+                         max_nodes,
+                         allow_abort,
+                         undos,
+@@ -1795,10 +1794,8 @@
+         return DRAW
+ 
+     sort_moves(mb, moves_buf, n, ply, hash_move, killers, histy)
+-    hlen2 = hlen
+-    if not null_tree:
+-        hist[hlen] = st[KEY]
+-        hlen2 += 1
++    hist[hlen] = st[KEY]
++    hlen2 = hlen + 1
+     best = -INF
+     best_move = np.int32(0)
+     searched = 0
+@@ -1868,7 +1865,6 @@
+                 cap_left - 1,
+                 child_has_pair,
+                 child_hist_sig,
+-                null_tree,
+                 max_nodes,
+                 allow_abort,
+                 undos,
+@@ -1900,7 +1896,6 @@
+                 cap_left - 1,
+                 child_has_pair,
+                 child_hist_sig,
+-                null_tree,
+                 max_nodes,
+                 allow_abort,
+                 undos,
+@@ -1934,7 +1929,6 @@
+                     cap_left - 1,
+                     child_has_pair,
+                     child_hist_sig,
+-                    null_tree,
+                     max_nodes,
+                     allow_abort,
+                     undos,
+@@ -1966,7 +1960,6 @@
+                     cap_left - 1,
+                     child_has_pair,
+                     child_hist_sig,
+-                    null_tree,
+                     max_nodes,
+                     allow_abort,
+                     undos,
+@@ -2009,7 +2002,7 @@
+     # transposition-table score.
+     if best_move == 0:
+         return orig_alpha
+-    if not adjudicate and not null_tree:
++    if not adjudicate:
+         flag = EXACT
+         if best <= orig_alpha:
+             flag = UPPER
+@@ -2084,7 +2077,6 @@
+                 cap_left - 1,
+                 root_has_pair,
+                 root_hist_sig,
+-                False,
+                 max_nodes,
+                 allow,
+                 undos,
+@@ -2116,7 +2108,6 @@
+                 cap_left - 1,
+                 root_has_pair,
+                 root_hist_sig,
+-                False,
+                 max_nodes,
+                 allow,
+                 undos,
+@@ -2148,7 +2139,6 @@
+                     cap_left - 1,
+                     root_has_pair,
+                     root_hist_sig,
+-                    False,
+                     max_nodes,
+                     allow,
+                     undos,

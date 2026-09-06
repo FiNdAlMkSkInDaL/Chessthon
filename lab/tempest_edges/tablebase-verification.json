@@ -1,0 +1,369 @@
+{
+  "audit": "PASS",
+  "families": {
+    "KBBvK": 24,
+    "KBNvK": 24,
+    "KBPvK": 24,
+    "KBvKB": 24,
+    "KBvKN": 24,
+    "KBvKP": 24,
+    "KNNvK": 24,
+    "KNPvK": 24,
+    "KNvKN": 24,
+    "KNvKP": 24,
+    "KPPvK": 24,
+    "KPvK": 24,
+    "KPvKP": 24,
+    "KQBvK": 24,
+    "KQNvK": 24,
+    "KQPvK": 24,
+    "KQQvK": 24,
+    "KQRvK": 24,
+    "KQvK": 24,
+    "KQvKB": 24,
+    "KQvKN": 24,
+    "KQvKP": 24,
+    "KQvKQ": 24,
+    "KQvKR": 24,
+    "KRBvK": 24,
+    "KRNvK": 24,
+    "KRPvK": 24,
+    "KRRvK": 24,
+    "KRvK": 24,
+    "KRvKB": 24,
+    "KRvKN": 24,
+    "KRvKP": 24,
+    "KRvKR": 24
+  },
+  "random_positions": 792,
+  "root_checks": 4983,
+  "rollouts": [
+    {
+      "fen": "8/k3B3/8/8/4K1B1/8/8/8 b - - 0 1",
+      "plies": 20,
+      "result": "1-0"
+    },
+    {
+      "fen": "4B3/B7/8/8/8/8/8/K3k3 w - - 0 1",
+      "plies": 19,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/2B3k1/8/5B2/3K4/8/8/8 b - - 0 1",
+      "plies": 22,
+      "result": "1-0"
+    },
+    {
+      "fen": "k6K/8/8/8/8/8/1B4B1/8 b - - 0 1",
+      "plies": 28,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/8/2K5/7B/8/8/8/4k1B1 w - - 0 1",
+      "plies": 21,
+      "result": "1-0"
+    },
+    {
+      "fen": "2B5/8/8/8/1K6/5kB1/8/8 w - - 0 1",
+      "plies": 29,
+      "result": "1-0"
+    },
+    {
+      "fen": "2K3B1/4k3/8/8/8/4B3/8/8 w - - 0 1",
+      "plies": 27,
+      "result": "1-0"
+    },
+    {
+      "fen": "K7/8/6k1/8/8/1B6/8/4B3 b - - 0 1",
+      "plies": 34,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/8/2k5/8/6K1/8/5B2/7B b - - 0 1",
+      "plies": 30,
+      "result": "1-0"
+    },
+    {
+      "fen": "K7/8/3B4/1k6/8/8/2B5/8 b - - 0 1",
+      "plies": 34,
+      "result": "1-0"
+    },
+    {
+      "fen": "4kB2/8/8/3B4/8/4K3/8/8 w - - 0 1",
+      "plies": 23,
+      "result": "1-0"
+    },
+    {
+      "fen": "3K4/8/8/1B6/8/5k2/8/4N3 b - - 0 1",
+      "plies": 58,
+      "result": "1-0"
+    },
+    {
+      "fen": "2N5/8/7K/1k6/8/5B2/8/8 w - - 0 1",
+      "plies": 57,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/8/k4N2/8/8/K7/2B5/8 w - - 0 1",
+      "plies": 29,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/3B4/1k6/8/5N2/8/8/K7 b - - 0 1",
+      "plies": 54,
+      "result": "1-0"
+    },
+    {
+      "fen": "3N4/8/3K4/8/8/7B/1k6/8 b - - 0 1",
+      "plies": 52,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/1k6/6N1/8/8/8/6B1/1K6 b - - 0 1",
+      "plies": 48,
+      "result": "1-0"
+    },
+    {
+      "fen": "3B4/3N4/8/1k6/8/8/8/1K6 b - - 0 1",
+      "plies": 60,
+      "result": "1-0"
+    },
+    {
+      "fen": "B7/5N2/k7/4K3/8/8/8/8 b - - 0 1",
+      "plies": 40,
+      "result": "1-0"
+    },
+    {
+      "fen": "2k5/8/6N1/8/8/K7/8/4B3 b - - 0 1",
+      "plies": 56,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/8/3N4/2B5/3K1k2/8/8/8 b - - 0 1",
+      "plies": 50,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/7P/8/3K3B/8/8/k7/8 b - - 0 1",
+      "plies": 20,
+      "result": "1-0"
+    },
+    {
+      "fen": "4B3/k7/8/8/3P4/1K6/8/8 b - - 0 1",
+      "plies": 26,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/8/4k3/8/8/1K1P4/7B/8 w - - 0 1",
+      "plies": 39,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/2B5/2k2P2/8/8/5K2/8/8 w - - 0 1",
+      "plies": 59,
+      "result": "1-0"
+    },
+    {
+      "fen": "B4K2/2k5/8/8/8/8/P7/8 w - - 0 1",
+      "plies": 81,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/5P2/3k4/8/4B3/8/2K5/8 b - - 0 1",
+      "plies": 44,
+      "result": "1-0"
+    },
+    {
+      "fen": "3B4/8/4P2k/8/8/4K3/8/8 w - - 0 1",
+      "plies": 31,
+      "result": "1-0"
+    },
+    {
+      "fen": "2B5/3P4/8/8/8/6k1/2K5/8 w - - 0 1",
+      "plies": 31,
+      "result": "1-0"
+    },
+    {
+      "fen": "2K5/3P4/5k2/B7/8/8/8/8 w - - 0 1",
+      "plies": 61,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/K7/8/6k1/3B4/8/3P4/8 b - - 0 1",
+      "plies": 32,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/7P/8/8/8/8/4K1k1/2B5 b - - 0 1",
+      "plies": 50,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/8/7K/8/3k4/8/2B3p1/8 b - - 0 1",
+      "plies": 23,
+      "result": "0-1"
+    },
+    {
+      "fen": "8/B3k3/8/8/8/8/5p2/7K b - - 0 1",
+      "plies": 15,
+      "result": "0-1"
+    },
+    {
+      "fen": "8/6k1/8/8/8/7p/6B1/2K5 b - - 0 1",
+      "plies": 19,
+      "result": "0-1"
+    },
+    {
+      "fen": "8/7k/8/7N/7P/8/8/5K2 b - - 0 1",
+      "plies": 82,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/6N1/2KP4/8/1k6/8/8/8 w - - 0 1",
+      "plies": 45,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/6P1/8/6k1/8/4K3/8/6N1 w - - 0 1",
+      "plies": 55,
+      "result": "1-0"
+    },
+    {
+      "fen": "k7/4P3/8/8/8/3K4/8/N7 b - - 0 1",
+      "plies": 46,
+      "result": "1-0"
+    },
+    {
+      "fen": "2k5/8/8/8/1K4P1/7N/8/8 w - - 0 1",
+      "plies": 41,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/8/8/2P5/8/kN6/8/K7 w - - 0 1",
+      "plies": 15,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/8/1N6/PK6/8/8/8/3k4 w - - 0 1",
+      "plies": 55,
+      "result": "1-0"
+    },
+    {
+      "fen": "5K2/8/N7/5k2/8/3P4/8/8 w - - 0 1",
+      "plies": 67,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/7K/5P2/8/2k3N1/8/8/8 w - - 0 1",
+      "plies": 61,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/6P1/8/8/8/8/1k3K1N/8 b - - 0 1",
+      "plies": 52,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/K7/8/8/8/P3N3/8/6k1 b - - 0 1",
+      "plies": 66,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/8/2K5/8/7p/N7/2k5/8 b - - 0 1",
+      "plies": 19,
+      "result": "0-1"
+    },
+    {
+      "fen": "1N6/K7/8/8/8/8/2p5/7k w - - 0 1",
+      "plies": 28,
+      "result": "0-1"
+    },
+    {
+      "fen": "8/2k5/7K/8/8/N7/6p1/8 w - - 0 1",
+      "plies": 26,
+      "result": "0-1"
+    },
+    {
+      "fen": "6k1/8/8/4K3/8/6P1/3P4/8 w - - 0 1",
+      "plies": 43,
+      "result": "1-0"
+    },
+    {
+      "fen": "k7/8/1K6/5P2/8/8/1P6/8 w - - 0 1",
+      "plies": 11,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/6P1/8/P7/8/8/2K2k2/8 b - - 0 1",
+      "plies": 56,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/8/8/8/2PK3k/8/4P3/8 w - - 0 1",
+      "plies": 27,
+      "result": "1-0"
+    },
+    {
+      "fen": "3K4/4P3/8/6k1/8/6P1/8/8 b - - 0 1",
+      "plies": 34,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/8/8/6P1/1K1k4/8/1P6/8 b - - 0 1",
+      "plies": 44,
+      "result": "1-0"
+    },
+    {
+      "fen": "1k6/8/8/5P2/8/8/1P6/6K1 b - - 0 1",
+      "plies": 76,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/8/k6P/8/5K2/3P4/8/8 b - - 0 1",
+      "plies": 62,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/8/P7/8/4P3/8/k7/6K1 w - - 0 1",
+      "plies": 67,
+      "result": "1-0"
+    },
+    {
+      "fen": "4K3/8/8/P4Pk1/8/8/8/8 b - - 0 1",
+      "plies": 44,
+      "result": "1-0"
+    },
+    {
+      "fen": "1K6/6P1/1k6/8/8/P7/8/8 b - - 0 1",
+      "plies": 72,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/7P/2K5/8/3k3P/8/8/8 b - - 0 1",
+      "plies": 18,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/P7/5k2/7K/8/8/8/8 w - - 0 1",
+      "plies": 17,
+      "result": "1-0"
+    },
+    {
+      "fen": "4k3/8/8/8/8/8/4P3/K7 w - - 0 1",
+      "plies": 33,
+      "result": "1-0"
+    },
+    {
+      "fen": "8/8/8/4P2K/8/k7/8/8 b - - 0 1",
+      "plies": 22,
+      "result": "1-0"
+    }
+  ],
+  "rollout_plies": 2606,
+  "policy_import_seconds": 0.27965880000556353,
+  "max_policy_ms": 281.36009999434464,
+  "total_uncompressed_bytes": 5295482,
+  "script_sha256": "c63b59a054a5b0050ab46355a323eb2c694cf015a6fa8708a6a19c05ca01e600",
+  "manifest_sha256": "927b29e04761cb08afdfd0d702d29566a4c6057602a472f16ff8150f8ef5227e",
+  "scope": "Random all-material WDL/clock preservation and complete DTZ conversions, with original 3-piece DTM retained. Final 200 plies fall back to search. No full-history expanded proof or full-clock archive gate."
+}

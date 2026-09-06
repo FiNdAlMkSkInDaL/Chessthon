@@ -1,0 +1,850 @@
+{
+  "verdict": "PASS",
+  "source": "odin_history_perf",
+  "source_sha256": {
+    "agent.py": "f8df2dbd7dde24c50d74fd13d8d7f31e9f380bab0302bc662f9e6828b9b88fde",
+    "bitops_nb.py": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+    "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+    "core_nb.py": "cf177dbd148984f2d0a601691a8ce9322922084cea951909f4cc34d50e5b8df8",
+    "eval_nb.py": "607d3d8c9094a24ebfeff4088f6354b5acc320aa98e681be179f333c4e003ca7",
+    "history.py": "9db4161f08b09e9ac2f1c6b65eb42ae43278ccf9b134b3b0d9d3c4ff0c5db62d",
+    "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+    "search_nb.py": "9f91df7eb4c28097f82edef4f5f7325884bd949c81f6b91e79b574039b0d623d",
+    "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+    "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+    "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+    "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+  },
+  "runtime": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "ARM64",
+    "packages": {
+      "chess": "1.11.2",
+      "numpy": "2.5.2",
+      "numba": "0.67.0",
+      "llvmlite": "0.49.0"
+    }
+  },
+  "cpu": 4,
+  "thread_env": {
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "NUMBA_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "BLIS_NUM_THREADS": "1"
+  },
+  "cold_agent_import_s": 29.012433599998985,
+  "warmup_s": 27.229829900001278,
+  "original_numba_ready": true,
+  "root_signature_present_after_import": false,
+  "off_clock_diagnostic_compile_s": 133.30291899999975,
+  "source_unchanged": true,
+  "results": [
+    {
+      "id": "fixed-r1-development-g1-ply42",
+      "fen": "8/4bk1p/p3p3/1p4p1/1P2R1P1/PKB1P2P/5r2/8 w - - 0 32",
+      "history_uci": [
+        "d1c2",
+        "b8c6",
+        "c1b2",
+        "b7b5",
+        "c4b3",
+        "e6e5",
+        "h1e1",
+        "e5e4",
+        "f3d2",
+        "c8f5",
+        "d2f1",
+        "f5g6",
+        "f1g3",
+        "f8d8",
+        "a1d1",
+        "c6e5",
+        "b3d5",
+        "e5d3",
+        "d5a8",
+        "d3e1",
+        "d1e1",
+        "d8a8",
+        "h2h3",
+        "a8c8",
+        "g3e2",
+        "g6f5",
+        "g2g4",
+        "f5e6",
+        "e2f4",
+        "f6d5",
+        "f4e6",
+        "f7e6",
+        "c2b3",
+        "d5c3",
+        "b2c3",
+        "c8f8",
+        "e1d1",
+        "f8f2",
+        "d1d4",
+        "g8f7",
+        "d4e4",
+        "g7g5"
+      ],
+      "full_recorded_keys": 43,
+      "absolute_ply": 62,
+      "hard_ms": 1000,
+      "soft_ms": 1000,
+      "actual_wall_ms": 856.6097000002628,
+      "move": "a3a4",
+      "san": "a4",
+      "depth": 8,
+      "score": -57,
+      "nodes": 74025,
+      "info": {
+        "depth": 8,
+        "score": -57,
+        "nodes": 74025,
+        "elapsed_ms": 856.5242000004218,
+        "initial_soft_ms": 1000.0,
+        "target_ms": 664.2,
+        "hard_ms": 1000.0,
+        "retry_nodes": 5447,
+        "aborted_work": 0,
+        "stop_reason": "controller",
+        "absolute_ply": 62,
+        "aborted": false,
+        "trace": [
+          {
+            "depth": 1,
+            "move": 1746,
+            "score": -18,
+            "nodes": 41,
+            "ms": 9.29,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.0975609756097561
+          },
+          {
+            "depth": 2,
+            "move": 1746,
+            "score": -4,
+            "nodes": 222,
+            "ms": 6.53,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.32432432432432434
+          },
+          {
+            "depth": 3,
+            "move": 1552,
+            "score": -26,
+            "nodes": 1217,
+            "ms": 26.33,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.2900575184880855
+          },
+          {
+            "depth": 4,
+            "move": 1552,
+            "score": -26,
+            "nodes": 1391,
+            "ms": 26.83,
+            "initial_window": [
+              -51,
+              -1
+            ],
+            "final_window": [
+              -51,
+              -1
+            ],
+            "aspiration": "none",
+            "root_effort": 0.5398993529834651
+          },
+          {
+            "depth": 5,
+            "move": 1552,
+            "score": -59,
+            "nodes": 7812,
+            "ms": 86.38,
+            "initial_window": [
+              -51,
+              -1
+            ],
+            "final_window": [
+              -151,
+              -1
+            ],
+            "aspiration": "low",
+            "root_effort": 0.37992831541218636
+          },
+          {
+            "depth": 6,
+            "move": 1552,
+            "score": -51,
+            "nodes": 6338,
+            "ms": 82.21,
+            "initial_window": [
+              -84,
+              -34
+            ],
+            "final_window": [
+              -84,
+              -34
+            ],
+            "aspiration": "none",
+            "root_effort": 0.5201956453139792
+          },
+          {
+            "depth": 7,
+            "move": 1552,
+            "score": -62,
+            "nodes": 14506,
+            "ms": 156.29,
+            "initial_window": [
+              -76,
+              -26
+            ],
+            "final_window": [
+              -76,
+              -26
+            ],
+            "aspiration": "none",
+            "root_effort": 0.5745898249000414
+          },
+          {
+            "depth": 8,
+            "move": 1552,
+            "score": -57,
+            "nodes": 42498,
+            "ms": 461.55,
+            "initial_window": [
+              -87,
+              -37
+            ],
+            "final_window": [
+              -87,
+              -37
+            ],
+            "aspiration": "none",
+            "root_effort": 0.5611087580592028
+          }
+        ]
+      },
+      "original_recorded_move": "a3a4"
+    },
+    {
+      "id": "fixed-r1-development-g1-ply42",
+      "fen": "8/4bk1p/p3p3/1p4p1/1P2R1P1/PKB1P2P/5r2/8 w - - 0 32",
+      "history_uci": [
+        "d1c2",
+        "b8c6",
+        "c1b2",
+        "b7b5",
+        "c4b3",
+        "e6e5",
+        "h1e1",
+        "e5e4",
+        "f3d2",
+        "c8f5",
+        "d2f1",
+        "f5g6",
+        "f1g3",
+        "f8d8",
+        "a1d1",
+        "c6e5",
+        "b3d5",
+        "e5d3",
+        "d5a8",
+        "d3e1",
+        "d1e1",
+        "d8a8",
+        "h2h3",
+        "a8c8",
+        "g3e2",
+        "g6f5",
+        "g2g4",
+        "f5e6",
+        "e2f4",
+        "f6d5",
+        "f4e6",
+        "f7e6",
+        "c2b3",
+        "d5c3",
+        "b2c3",
+        "c8f8",
+        "e1d1",
+        "f8f2",
+        "d1d4",
+        "g8f7",
+        "d4e4",
+        "g7g5"
+      ],
+      "full_recorded_keys": 43,
+      "absolute_ply": 62,
+      "hard_ms": 3000,
+      "soft_ms": 3000,
+      "actual_wall_ms": 3012.8208000005543,
+      "move": "a3a4",
+      "san": "a4",
+      "depth": 8,
+      "score": -57,
+      "nodes": 287744,
+      "info": {
+        "depth": 8,
+        "score": -57,
+        "nodes": 287744,
+        "elapsed_ms": 3012.6399000000674,
+        "initial_soft_ms": 3000.0,
+        "target_ms": 1992.6000000000001,
+        "hard_ms": 3000.0,
+        "retry_nodes": 5447,
+        "aborted_work": 213719,
+        "stop_reason": "deadline",
+        "absolute_ply": 62,
+        "aborted": true,
+        "trace": [
+          {
+            "depth": 1,
+            "move": 1746,
+            "score": -18,
+            "nodes": 41,
+            "ms": 0.52,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.0975609756097561
+          },
+          {
+            "depth": 2,
+            "move": 1746,
+            "score": -4,
+            "nodes": 222,
+            "ms": 2.68,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.32432432432432434
+          },
+          {
+            "depth": 3,
+            "move": 1552,
+            "score": -26,
+            "nodes": 1217,
+            "ms": 15.49,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.2900575184880855
+          },
+          {
+            "depth": 4,
+            "move": 1552,
+            "score": -26,
+            "nodes": 1391,
+            "ms": 17.38,
+            "initial_window": [
+              -51,
+              -1
+            ],
+            "final_window": [
+              -51,
+              -1
+            ],
+            "aspiration": "none",
+            "root_effort": 0.5398993529834651
+          },
+          {
+            "depth": 5,
+            "move": 1552,
+            "score": -59,
+            "nodes": 7812,
+            "ms": 82.58,
+            "initial_window": [
+              -51,
+              -1
+            ],
+            "final_window": [
+              -151,
+              -1
+            ],
+            "aspiration": "low",
+            "root_effort": 0.37992831541218636
+          },
+          {
+            "depth": 6,
+            "move": 1552,
+            "score": -51,
+            "nodes": 6338,
+            "ms": 81.24,
+            "initial_window": [
+              -84,
+              -34
+            ],
+            "final_window": [
+              -84,
+              -34
+            ],
+            "aspiration": "none",
+            "root_effort": 0.5201956453139792
+          },
+          {
+            "depth": 7,
+            "move": 1552,
+            "score": -62,
+            "nodes": 14506,
+            "ms": 154.87,
+            "initial_window": [
+              -76,
+              -26
+            ],
+            "final_window": [
+              -76,
+              -26
+            ],
+            "aspiration": "none",
+            "root_effort": 0.5745898249000414
+          },
+          {
+            "depth": 8,
+            "move": 1552,
+            "score": -57,
+            "nodes": 42498,
+            "ms": 458.73,
+            "initial_window": [
+              -87,
+              -37
+            ],
+            "final_window": [
+              -87,
+              -37
+            ],
+            "aspiration": "none",
+            "root_effort": 0.5611087580592028
+          }
+        ]
+      },
+      "original_recorded_move": "a3a4"
+    },
+    {
+      "id": "fixed-r1-development-g1-ply44",
+      "fen": "8/4bk1p/p3p3/1p4p1/PP2R1P1/1KB1Pr1P/8/8 w - - 1 33",
+      "history_uci": [
+        "d1c2",
+        "b8c6",
+        "c1b2",
+        "b7b5",
+        "c4b3",
+        "e6e5",
+        "h1e1",
+        "e5e4",
+        "f3d2",
+        "c8f5",
+        "d2f1",
+        "f5g6",
+        "f1g3",
+        "f8d8",
+        "a1d1",
+        "c6e5",
+        "b3d5",
+        "e5d3",
+        "d5a8",
+        "d3e1",
+        "d1e1",
+        "d8a8",
+        "h2h3",
+        "a8c8",
+        "g3e2",
+        "g6f5",
+        "g2g4",
+        "f5e6",
+        "e2f4",
+        "f6d5",
+        "f4e6",
+        "f7e6",
+        "c2b3",
+        "d5c3",
+        "b2c3",
+        "c8f8",
+        "e1d1",
+        "f8f2",
+        "d1d4",
+        "g8f7",
+        "d4e4",
+        "g7g5",
+        "a3a4",
+        "f2f3"
+      ],
+      "full_recorded_keys": 45,
+      "absolute_ply": 64,
+      "hard_ms": 1000,
+      "soft_ms": 1000,
+      "actual_wall_ms": 1001.2461999995139,
+      "move": "a4a5",
+      "san": "a5",
+      "depth": 6,
+      "score": -57,
+      "nodes": 101376,
+      "info": {
+        "depth": 6,
+        "score": -57,
+        "nodes": 101376,
+        "elapsed_ms": 1001.1226999995415,
+        "initial_soft_ms": 1000.0,
+        "target_ms": 891.0000000000001,
+        "hard_ms": 1000.0,
+        "retry_nodes": 0,
+        "aborted_work": 71714,
+        "stop_reason": "deadline",
+        "absolute_ply": 64,
+        "aborted": true,
+        "trace": [
+          {
+            "depth": 1,
+            "move": 34904,
+            "score": 1,
+            "nodes": 68,
+            "ms": 0.86,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.11764705882352941
+          },
+          {
+            "depth": 2,
+            "move": 34904,
+            "score": 1,
+            "nodes": 266,
+            "ms": 2.6,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.17669172932330826
+          },
+          {
+            "depth": 3,
+            "move": 2072,
+            "score": -59,
+            "nodes": 846,
+            "ms": 13.52,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.1288416075650118
+          },
+          {
+            "depth": 4,
+            "move": 2072,
+            "score": -51,
+            "nodes": 3818,
+            "ms": 36.86,
+            "initial_window": [
+              -84,
+              -34
+            ],
+            "final_window": [
+              -84,
+              -34
+            ],
+            "aspiration": "none",
+            "root_effort": 0.1393399685699319
+          },
+          {
+            "depth": 5,
+            "move": 2072,
+            "score": -62,
+            "nodes": 5293,
+            "ms": 61.26,
+            "initial_window": [
+              -76,
+              -26
+            ],
+            "final_window": [
+              -76,
+              -26
+            ],
+            "aspiration": "none",
+            "root_effort": 0.15038730398639713
+          },
+          {
+            "depth": 6,
+            "move": 2072,
+            "score": -57,
+            "nodes": 19371,
+            "ms": 217.27,
+            "initial_window": [
+              -87,
+              -37
+            ],
+            "final_window": [
+              -87,
+              -37
+            ],
+            "aspiration": "none",
+            "root_effort": 0.18496721903876928
+          }
+        ]
+      },
+      "original_recorded_move": "a4a5"
+    },
+    {
+      "id": "fixed-r1-development-g1-ply44",
+      "fen": "8/4bk1p/p3p3/1p4p1/PP2R1P1/1KB1Pr1P/8/8 w - - 1 33",
+      "history_uci": [
+        "d1c2",
+        "b8c6",
+        "c1b2",
+        "b7b5",
+        "c4b3",
+        "e6e5",
+        "h1e1",
+        "e5e4",
+        "f3d2",
+        "c8f5",
+        "d2f1",
+        "f5g6",
+        "f1g3",
+        "f8d8",
+        "a1d1",
+        "c6e5",
+        "b3d5",
+        "e5d3",
+        "d5a8",
+        "d3e1",
+        "d1e1",
+        "d8a8",
+        "h2h3",
+        "a8c8",
+        "g3e2",
+        "g6f5",
+        "g2g4",
+        "f5e6",
+        "e2f4",
+        "f6d5",
+        "f4e6",
+        "f7e6",
+        "c2b3",
+        "d5c3",
+        "b2c3",
+        "c8f8",
+        "e1d1",
+        "f8f2",
+        "d1d4",
+        "g8f7",
+        "d4e4",
+        "g7g5",
+        "a3a4",
+        "f2f3"
+      ],
+      "full_recorded_keys": 45,
+      "absolute_ply": 64,
+      "hard_ms": 3000,
+      "soft_ms": 3000,
+      "actual_wall_ms": 3010.2671999993618,
+      "move": "a4a5",
+      "san": "a5",
+      "depth": 7,
+      "score": -68,
+      "nodes": 278528,
+      "info": {
+        "depth": 7,
+        "score": -68,
+        "nodes": 278528,
+        "elapsed_ms": 3010.1610999990953,
+        "initial_soft_ms": 3000.0,
+        "target_ms": 2313.6300000000006,
+        "hard_ms": 3000.0,
+        "retry_nodes": 0,
+        "aborted_work": 171144,
+        "stop_reason": "deadline",
+        "absolute_ply": 64,
+        "aborted": true,
+        "trace": [
+          {
+            "depth": 1,
+            "move": 34904,
+            "score": 1,
+            "nodes": 68,
+            "ms": 0.76,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.11764705882352941
+          },
+          {
+            "depth": 2,
+            "move": 34904,
+            "score": 1,
+            "nodes": 266,
+            "ms": 2.56,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.17669172932330826
+          },
+          {
+            "depth": 3,
+            "move": 2072,
+            "score": -59,
+            "nodes": 846,
+            "ms": 13.16,
+            "initial_window": [
+              -32001,
+              32001
+            ],
+            "final_window": [
+              -32001,
+              32001
+            ],
+            "aspiration": "none",
+            "root_effort": 0.1288416075650118
+          },
+          {
+            "depth": 4,
+            "move": 2072,
+            "score": -51,
+            "nodes": 3818,
+            "ms": 36.33,
+            "initial_window": [
+              -84,
+              -34
+            ],
+            "final_window": [
+              -84,
+              -34
+            ],
+            "aspiration": "none",
+            "root_effort": 0.1393399685699319
+          },
+          {
+            "depth": 5,
+            "move": 2072,
+            "score": -62,
+            "nodes": 5293,
+            "ms": 60.9,
+            "initial_window": [
+              -76,
+              -26
+            ],
+            "final_window": [
+              -76,
+              -26
+            ],
+            "aspiration": "none",
+            "root_effort": 0.15038730398639713
+          },
+          {
+            "depth": 6,
+            "move": 2072,
+            "score": -57,
+            "nodes": 19371,
+            "ms": 217.08,
+            "initial_window": [
+              -87,
+              -37
+            ],
+            "final_window": [
+              -87,
+              -37
+            ],
+            "aspiration": "none",
+            "root_effort": 0.18496721903876928
+          },
+          {
+            "depth": 7,
+            "move": 2072,
+            "score": -68,
+            "nodes": 77722,
+            "ms": 724.89,
+            "initial_window": [
+              -82,
+              -32
+            ],
+            "final_window": [
+              -82,
+              -32
+            ],
+            "aspiration": "none",
+            "root_effort": 0.15061372584339056
+          }
+        ]
+      },
+      "original_recorded_move": "a4a5"
+    }
+  ],
+  "method": "Fresh process per source; all full-history roots legal; TT including move hints, scores, history and killers reset before each budget/root; soft and hard targets both equal stated budget; real adaptive controller may finish earlier.",
+  "limitations": [
+    "Windows laptop diagnosis only; not Linux timing or playing-strength evidence.",
+    "Two selected development positions are not holdout cases.",
+    "One run per root/budget/source; timing can change iteration completion."
+  ]
+}

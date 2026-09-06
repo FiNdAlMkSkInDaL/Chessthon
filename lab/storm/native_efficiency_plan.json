@@ -1,0 +1,23 @@
+{
+  "mode": "plan only; no engine imports",
+  "cpu": 1,
+  "method": "Two fresh exact-agent imports, sequential processes; identical ordered roots; TT/history/killers cleared per root; depth 1 through 5 with full windows.",
+  "limitations": [
+    "Same nominal depth does not mean equal selective search or playing strength.",
+    "Per-node times compare different engine node mixes; they are not a pure evaluation microbenchmark.",
+    "Fixed-depth work uses no live deadline or adaptive time allocation.",
+    "One sequential sample per archive; same signer CPU, not the organiser CPU.",
+    "Historical site roots are diagnostics, not holdout games."
+  ],
+  "archives": {
+    "r2": "15db92a79feff24cf52f5b85974f55504753f981823d7e6d92881fb62812e85c",
+    "v3": "3397e7a8ca55696bb8d7586a9c73cbeabc0c8b6f51b26cdc8c26562a37c91408"
+  },
+  "provenance": {
+    "lab/storm/native_efficiency.py": "97879b953d946ce58dfa8b9922d6c7126c01251ac38428af1ba48c568ff17f54",
+    "lab/storm/test_selectivity.py": "ba81ac29bac08dfe785ce05f39501720cf27e02d4471fc5856b7908775764e7e",
+    "lab/release_audit.py": "ecfd901d3868dc6e293172051aa83d64fe658486e40f1b16b31cf4d0e8b838c2",
+    "lab/storm/storm_r2_fixed_depth5.json": "05bb309986a615b19e74f1366f0866e073951a3f1c7f3de6039c50f54312b11b",
+    "lab/storm/v3_fixed_depth5.json": "0f87cddca04e1c17163b08756713b26c5b214b3a642ef574e650ce088fea8c22"
+  }
+}

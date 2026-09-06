@@ -1,0 +1,6712 @@
+{
+  "games": [
+    {
+      "game_id": "site-r16",
+      "result": "1-0",
+      "storm_colour": "white",
+      "plies": 107,
+      "reference_initial_white_cp": -20,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 44,
+          "move": "30.Qd1",
+          "reference_storm_cp_before": -263,
+          "reference_storm_cp_after": -441,
+          "estimated_drop_cp": 178,
+          "preferred_san": [
+            "d4",
+            "Nc4"
+          ],
+          "fen": "1r4k1/p4p2/br1pp1p1/q1p1n2p/4PN1P/2PPRPP1/P5B1/2R1Q1K1 w - - 9 30"
+        },
+        {
+          "ply": 46,
+          "move": "31.a4",
+          "reference_storm_cp_before": -388,
+          "reference_storm_cp_after": -479,
+          "estimated_drop_cp": 91,
+          "preferred_san": [
+            "Re2",
+            "c4",
+            "Rxb2",
+            "Rxb2",
+            "d4",
+            "Nd3",
+            "Rc2",
+            "Rxa2"
+          ],
+          "fen": "1r4k1/p4p2/b2pp1p1/q1p1n2p/4PN1P/2PPRPP1/Pr4B1/2RQ2K1 w - - 11 31"
+        },
+        {
+          "ply": 32,
+          "move": "24.Qe2",
+          "reference_storm_cp_before": 0,
+          "reference_storm_cp_after": -71,
+          "estimated_drop_cp": 71,
+          "preferred_san": [
+            "d4",
+            "cxd4",
+            "Nxh5+",
+            "Kh7",
+            "Nf6+",
+            "Kg7",
+            "Nh5+"
+          ],
+          "fen": "1r3r2/p4pk1/3pp1p1/q1p1n2p/b3PN1P/2PP2P1/P2Q1PB1/2R1R1K1 w - - 4 24"
+        },
+        {
+          "ply": 82,
+          "move": "49.c5",
+          "reference_storm_cp_before": 761,
+          "reference_storm_cp_after": 695,
+          "estimated_drop_cp": 66,
+          "preferred_san": [
+            "Qxd2",
+            "Qxc4",
+            "g6+",
+            "Kxg6",
+            "Qd6+",
+            "Kh7",
+            "Qxa6",
+            "Qxe4"
+          ],
+          "fen": "2q5/7k/b7/4P1Pp/2PQP3/6P1/3p3K/R7 w - - 1 49"
+        },
+        {
+          "ply": 40,
+          "move": "28.Qe1",
+          "reference_storm_cp_before": -161,
+          "reference_storm_cp_after": -224,
+          "estimated_drop_cp": 63,
+          "preferred_san": [
+            "d4",
+            "cxd4"
+          ],
+          "fen": "1r4k1/p4p2/1r1pp1p1/q1p1n2p/b3PN1P/2PP1PP1/P2QR1B1/2R3K1 w - - 5 28"
+        },
+        {
+          "ply": 88,
+          "move": "52.Kh1",
+          "reference_storm_cp_before": 884,
+          "reference_storm_cp_after": 825,
+          "estimated_drop_cp": 59,
+          "preferred_san": [
+            "Kh1",
+            "Qh3+",
+            "Kg1",
+            "Qg3+",
+            "Qg2",
+            "Qe3+",
+            "Qf2",
+            "Qxf2+"
+          ],
+          "fen": "8/7k/R7/2P1P1P1/4P2p/6q1/3Q3K/8 w - - 0 52"
+        },
+        {
+          "ply": 42,
+          "move": "29.Re3",
+          "reference_storm_cp_before": -186,
+          "reference_storm_cp_after": -242,
+          "estimated_drop_cp": 56,
+          "preferred_san": [
+            "Rd2",
+            "Qa3"
+          ],
+          "fen": "1r4k1/p4p2/1r1pp1p1/qbp1n2p/4PN1P/2PP1PP1/P3R1B1/2R1Q1K1 w - - 7 29"
+        },
+        {
+          "ply": 36,
+          "move": "26.Qd2",
+          "reference_storm_cp_before": -116,
+          "reference_storm_cp_after": -171,
+          "estimated_drop_cp": 55,
+          "preferred_san": [
+            "Qe3",
+            "Rb2"
+          ],
+          "fen": "1r6/p4pk1/2rpp1p1/q1p1n2p/b3PN1P/2PP1PP1/P3Q1B1/2R1R1K1 w - - 1 26"
+        }
+      ]
+    },
+    {
+      "game_id": "site-r17",
+      "result": "1-0",
+      "storm_colour": "black",
+      "plies": 164,
+      "reference_initial_white_cp": -24,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 120,
+          "move": "67...e4",
+          "reference_storm_cp_before": -361,
+          "reference_storm_cp_after": -899,
+          "estimated_drop_cp": 538,
+          "preferred_san": [
+            "Qf8",
+            "Qxe5+"
+          ],
+          "fen": "3q4/3Pb1k1/4Q2p/2p1p2p/8/1B3PPK/8/8 b - - 0 67"
+        },
+        {
+          "ply": 104,
+          "move": "59...Bf8",
+          "reference_storm_cp_before": -4,
+          "reference_storm_cp_after": -460,
+          "estimated_drop_cp": 456,
+          "preferred_san": [
+            "Qg8",
+            "Qxb6",
+            "Qg5",
+            "Qb1",
+            "h4",
+            "Qh7+",
+            "Kf6",
+            "gxh4"
+          ],
+          "fen": "3q4/3Pbk2/1pQ1p2p/4p2p/B1P5/5PPK/8/8 b - - 17 59"
+        },
+        {
+          "ply": 114,
+          "move": "64...Be7",
+          "reference_storm_cp_before": -30,
+          "reference_storm_cp_after": -347,
+          "estimated_drop_cp": 317,
+          "preferred_san": [
+            "Ke7",
+            "Ba4"
+          ],
+          "fen": "2Qq4/3P1k2/1p2p2p/2b1p2p/2P5/1B3PPK/8/8 b - - 27 64"
+        },
+        {
+          "ply": 78,
+          "move": "46...Kf7",
+          "reference_storm_cp_before": -149,
+          "reference_storm_cp_after": -419,
+          "estimated_drop_cp": 270,
+          "preferred_san": [
+            "Qe7",
+            "Rxd8",
+            "Qxd8",
+            "Qd3",
+            "Kf6",
+            "Be4",
+            "Bd4",
+            "Bc6"
+          ],
+          "fen": "2Rr1q2/1B1P2k1/1p2p1pp/2b1p3/2P4P/5PP1/3Q2K1/8 b - - 8 46"
+        },
+        {
+          "ply": 110,
+          "move": "62...Be7",
+          "reference_storm_cp_before": -68,
+          "reference_storm_cp_after": -334,
+          "estimated_drop_cp": 266,
+          "preferred_san": [
+            "Bc5",
+            "Qe4",
+            "Qf6",
+            "Qb7",
+            "Qd8",
+            "Qc6",
+            "Qf8",
+            "Qc8"
+          ],
+          "fen": "3q1b2/3P1k2/1pQ1p2p/4p2p/B1P5/5PPK/8/8 b - - 23 62"
+        },
+        {
+          "ply": 122,
+          "move": "68...Kh8",
+          "reference_storm_cp_before": -761,
+          "reference_storm_cp_after": -974,
+          "estimated_drop_cp": 213,
+          "preferred_san": [
+            "Kh8",
+            "Qe8+"
+          ],
+          "fen": "3q4/3PbQk1/7p/2p4p/4p3/1B3PPK/8/8 b - - 1 68"
+        },
+        {
+          "ply": 134,
+          "move": "74...Ke7",
+          "reference_storm_cp_before": -912,
+          "reference_storm_cp_after": -1076,
+          "estimated_drop_cp": 164,
+          "preferred_san": [
+            "Ke7",
+            "Qxf3",
+            "h4",
+            "Kxh4",
+            "Kd6",
+            "Qb7",
+            "Ke6",
+            "Kh5"
+          ],
+          "fen": "8/5k2/7p/5Q1p/8/5pPK/8/8 b - - 2 74"
+        },
+        {
+          "ply": 138,
+          "move": "76...f2",
+          "reference_storm_cp_before": -1100,
+          "reference_storm_cp_after": -1247,
+          "estimated_drop_cp": 147,
+          "preferred_san": [
+            "f2",
+            "Kxh6",
+            "f1=R",
+            "Qxf1",
+            "Kc5",
+            "g4",
+            "Kb6",
+            "g5"
+          ],
+          "fen": "8/8/3k3p/5Q1K/8/5pP1/8/8 b - - 0 76"
+        }
+      ]
+    },
+    {
+      "game_id": "site-r18",
+      "result": "0-1",
+      "storm_colour": "white",
+      "plies": 141,
+      "reference_initial_white_cp": 29,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 49,
+          "move": "30.Qd2",
+          "reference_storm_cp_before": -381,
+          "reference_storm_cp_after": -541,
+          "estimated_drop_cp": 160,
+          "preferred_san": [
+            "Bd2",
+            "Bxf3",
+            "Rxc8+",
+            "Nxc8",
+            "gxf3",
+            "Ne7",
+            "Qc2",
+            "Rb3"
+          ],
+          "fen": "2r3k1/4npp1/4p2p/1q1pP3/3Pb3/r1B2N1P/5PP1/2RQR1K1 w - - 11 30"
+        },
+        {
+          "ply": 111,
+          "move": "61.f3",
+          "reference_storm_cp_before": -884,
+          "reference_storm_cp_after": -1010,
+          "estimated_drop_cp": 126,
+          "preferred_san": [
+            "h4",
+            "Kg7",
+            "h5",
+            "gxh5",
+            "f3",
+            "h4",
+            "Kf2",
+            "h3"
+          ],
+          "fen": "6k1/5p2/6pp/4Pp2/3n4/4K2P/5P2/3r4 w - - 2 61"
+        },
+        {
+          "ply": 31,
+          "move": "21.Qd1",
+          "reference_storm_cp_before": 0,
+          "reference_storm_cp_after": -112,
+          "estimated_drop_cp": 112,
+          "preferred_san": [
+            "Bd2",
+            "Qxb2",
+            "Bc3",
+            "Qe2",
+            "Re1",
+            "Qd3",
+            "Rd1",
+            "Qe4"
+          ],
+          "fen": "1r3rk1/5pp1/1qp1p1bp/p1RpPn2/3P1B2/P4N1P/1P3PP1/2Q2RK1 w - - 2 21"
+        },
+        {
+          "ply": 67,
+          "move": "39.Qg4",
+          "reference_storm_cp_before": -545,
+          "reference_storm_cp_after": -646,
+          "estimated_drop_cp": 101,
+          "preferred_san": [
+            "Qd3",
+            "Qa4",
+            "Rd2",
+            "Qa3",
+            "Rdc2",
+            "Nf5",
+            "Qd2",
+            "Kh7"
+          ],
+          "fen": "2r3k1/5pp1/2q1p2p/3pP3/2rP1P1n/2B4P/2R1QP2/2R3K1 w - - 9 39"
+        },
+        {
+          "ply": 93,
+          "move": "52.Re4",
+          "reference_storm_cp_before": -842,
+          "reference_storm_cp_after": -936,
+          "estimated_drop_cp": 94,
+          "preferred_san": [
+            "f5",
+            "exf5",
+            "Ra3",
+            "Kf8",
+            "Rd3",
+            "Rbc4",
+            "Re3",
+            "Nb5"
+          ],
+          "fen": "2r3k1/5p2/4p1pp/4P3/1r1n1P2/4R2P/2p2PK1/2R5 w - - 4 52"
+        },
+        {
+          "ply": 81,
+          "move": "46.Qa2",
+          "reference_storm_cp_before": -771,
+          "reference_storm_cp_after": -836,
+          "estimated_drop_cp": 65,
+          "preferred_san": [
+            "Ra2",
+            "Qc5",
+            "Bd2",
+            "Qd5+",
+            "f3",
+            "Rxc1",
+            "Bxc1",
+            "Rxc1"
+          ],
+          "fen": "2r3k1/5pp1/4p2p/4Pn2/2rp1P2/q1B4P/1R3PK1/1QR5 w - - 0 46"
+        },
+        {
+          "ply": 47,
+          "move": "29.Bc3",
+          "reference_storm_cp_before": -134,
+          "reference_storm_cp_after": -195,
+          "estimated_drop_cp": 61,
+          "preferred_san": [
+            "Rxc8+",
+            "Rxc8",
+            "Be3",
+            "Bxf3",
+            "Qxf3",
+            "Nf5",
+            "g4",
+            "Qb4"
+          ],
+          "fen": "r1r3k1/4npp1/4p2p/1q1pP3/3Pb3/5N1P/3B1PP1/2RQR1K1 w - - 9 29"
+        },
+        {
+          "ply": 71,
+          "move": "41.Qf3",
+          "reference_storm_cp_before": -635,
+          "reference_storm_cp_after": -696,
+          "estimated_drop_cp": 61,
+          "preferred_san": [
+            "h4",
+            "Qb3",
+            "Qh3",
+            "Nxd4",
+            "Bxd4",
+            "Qxh3+",
+            "Kxh3",
+            "Rxc2"
+          ],
+          "fen": "2r3k1/5pp1/4p2p/3pPn2/q1rP1PQ1/2B4P/2R2P1K/2R5 w - - 13 41"
+        }
+      ]
+    },
+    {
+      "game_id": "site-r19",
+      "result": "1-0",
+      "storm_colour": "white",
+      "plies": 32,
+      "reference_initial_white_cp": 26,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 9,
+          "move": "13.Bb5",
+          "reference_storm_cp_before": 800,
+          "reference_storm_cp_after": 633,
+          "estimated_drop_cp": 167,
+          "preferred_san": [
+            "Ne5",
+            "Nxe5",
+            "Bxe5",
+            "Qc6",
+            "Bb5",
+            "Qb6",
+            "c4",
+            "Bd7"
+          ],
+          "fen": "2kr1b1r/pp1qp1p1/2n1b2p/3p1p1n/3P4/1QPB1N1P/PP1N1PPB/R4RK1 w - - 2 13"
+        },
+        {
+          "ply": 7,
+          "move": "12.Nbd2",
+          "reference_storm_cp_before": 472,
+          "reference_storm_cp_after": 432,
+          "estimated_drop_cp": 40,
+          "preferred_san": [
+            "Re1",
+            "g5",
+            "Ne5",
+            "Qc8",
+            "Na3",
+            "a6",
+            "c4",
+            "Nf6"
+          ],
+          "fen": "r3kb1r/pp1qp1p1/2n1b2p/3p1p1n/3P4/1QPB1N1P/PP3PPB/RN3RK1 w kq - 0 12"
+        },
+        {
+          "ply": 3,
+          "move": "10.Nf3",
+          "reference_storm_cp_before": 83,
+          "reference_storm_cp_after": 53,
+          "estimated_drop_cp": 30,
+          "preferred_san": [
+            "Nd2",
+            "g6",
+            "Ne2",
+            "Bh6",
+            "g4",
+            "Nf6",
+            "Qd1",
+            "Na5"
+          ],
+          "fen": "r3kb1r/pp1qpppp/2n1b3/3p3n/3P4/1QPB3P/PP3PPB/RN2K1NR w KQkq - 3 10"
+        },
+        {
+          "ply": 13,
+          "move": "15.Bxc6",
+          "reference_storm_cp_before": 694,
+          "reference_storm_cp_after": 665,
+          "estimated_drop_cp": 29,
+          "preferred_san": [
+            "Bxc6",
+            "bxc6",
+            "Qa4",
+            "Qc7",
+            "Qd1",
+            "Nf6",
+            "Ng6",
+            "Rg8"
+          ],
+          "fen": "2kr1b1r/pp2p1p1/2nqb2p/1B1pN2n/3P1p2/1QP4P/PP1N1PPB/R4RK1 w - - 2 15"
+        },
+        {
+          "ply": 17,
+          "move": "17.Bxf4",
+          "reference_storm_cp_before": 739,
+          "reference_storm_cp_after": 713,
+          "estimated_drop_cp": 26,
+          "preferred_san": [
+            "Bxf4",
+            "g5",
+            "Bg3",
+            "Rg8",
+            "Qa4",
+            "Kb7",
+            "Nb3",
+            "Rc8"
+          ],
+          "fen": "2kr1b1r/p3p1p1/2pqbn1p/3pN3/3P1p2/2P4P/PP1N1PPB/R2Q1RK1 w - - 2 17"
+        },
+        {
+          "ply": 19,
+          "move": "18.Bg3",
+          "reference_storm_cp_before": 786,
+          "reference_storm_cp_after": 768,
+          "estimated_drop_cp": 18,
+          "preferred_san": [
+            "Bg3",
+            "g4",
+            "Ng6",
+            "Rg8",
+            "Bxd6",
+            "gxh3",
+            "Bg3",
+            "Rxg6"
+          ],
+          "fen": "2kr1b1r/p3p3/2pqbn1p/3pN1p1/3P1B2/2P4P/PP1N1PP1/R2Q1RK1 w - - 0 18"
+        },
+        {
+          "ply": 1,
+          "move": "9.Bh2",
+          "reference_storm_cp_before": 91,
+          "reference_storm_cp_after": 90,
+          "estimated_drop_cp": 1,
+          "preferred_san": [
+            "Be3",
+            "Be6",
+            "Nd2",
+            "g6",
+            "Ne2",
+            "Bg7",
+            "g4",
+            "Nf6"
+          ],
+          "fen": "r3kb1r/pp1qpppp/2n5/3p3n/3P1Bb1/1QPB3P/PP3PP1/RN2K1NR w KQkq - 1 9"
+        },
+        {
+          "ply": 5,
+          "move": "11.O-O",
+          "reference_storm_cp_before": 190,
+          "reference_storm_cp_after": 190,
+          "estimated_drop_cp": 0,
+          "preferred_san": [
+            "Ne5",
+            "Qc8",
+            "Na3",
+            "a6",
+            "g4",
+            "Nxe5",
+            "Bxe5",
+            "Nf6"
+          ],
+          "fen": "r3kb1r/pp1qp1pp/2n1b3/3p1p1n/3P4/1QPB1N1P/PP3PPB/RN2K2R w KQkq - 0 11"
+        }
+      ]
+    },
+    {
+      "game_id": "site-r20",
+      "result": "0-1",
+      "storm_colour": "black",
+      "plies": 93,
+      "reference_initial_white_cp": 10,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 64,
+          "move": "38...f5",
+          "reference_storm_cp_before": 315,
+          "reference_storm_cp_after": 91,
+          "estimated_drop_cp": 224,
+          "preferred_san": [
+            "e4",
+            "fxe4",
+            "Rc8",
+            "Rf1",
+            "Qg4",
+            "Rf3",
+            "Rc7",
+            "Qf2"
+          ],
+          "fen": "3rr1k1/p2q2p1/3b1p2/2pPp2p/N1p4P/P1P1QPP1/1PB3K1/3R4 b - - 2 38"
+        },
+        {
+          "ply": 70,
+          "move": "41...fxe4",
+          "reference_storm_cp_before": 538,
+          "reference_storm_cp_after": 447,
+          "estimated_drop_cp": 91,
+          "preferred_san": [
+            "f4",
+            "Nxc5",
+            "Rxh5",
+            "Nxd7",
+            "Rxd7",
+            "gxf4",
+            "Bxf4",
+            "Rd4"
+          ],
+          "fen": "3r2k1/p2q2p1/3b4/2pPrp1Q/N1p1P2P/P1P3P1/1PB3K1/3R4 b - - 0 41"
+        },
+        {
+          "ply": 24,
+          "move": "18...Nc5",
+          "reference_storm_cp_before": -9,
+          "reference_storm_cp_after": -70,
+          "estimated_drop_cp": 61,
+          "preferred_san": [
+            "a5",
+            "Ba2"
+          ],
+          "fen": "2r1r1k1/p1qnbppp/2pp4/4p2b/4P3/PBN2P2/1PP1QBPP/R3R1K1 b - - 2 18"
+        },
+        {
+          "ply": 76,
+          "move": "44...e2",
+          "reference_storm_cp_before": 833,
+          "reference_storm_cp_after": 773,
+          "estimated_drop_cp": 60,
+          "preferred_san": [
+            "e2",
+            "Qd3"
+          ],
+          "fen": "3rq1k1/p5p1/3b4/2pPr3/N1Q4P/P1P1p1P1/1PB3K1/3R4 b - - 0 44"
+        },
+        {
+          "ply": 60,
+          "move": "36...Bxd5",
+          "reference_storm_cp_before": 144,
+          "reference_storm_cp_after": 89,
+          "estimated_drop_cp": 55,
+          "preferred_san": [
+            "f5",
+            "Qg5",
+            "f4",
+            "gxf4",
+            "Be7",
+            "Qxe7",
+            "Rxe7",
+            "Rxd8+"
+          ],
+          "fen": "3rr1k1/p4bp1/2qb1p2/2pRp2p/N1p1P2P/P1P1QPP1/1PB5/3R2K1 b - - 5 36"
+        },
+        {
+          "ply": 18,
+          "move": "15...Bh5",
+          "reference_storm_cp_before": -16,
+          "reference_storm_cp_after": -54,
+          "estimated_drop_cp": 38,
+          "preferred_san": [
+            "Be6",
+            "Bf2"
+          ],
+          "fen": "2r2rk1/p1q1bppp/2pp1n2/4p3/4P1b1/1BN2PB1/PPP1Q1PP/R2R2K1 b - - 0 15"
+        },
+        {
+          "ply": 28,
+          "move": "20...h6",
+          "reference_storm_cp_before": -49,
+          "reference_storm_cp_after": -84,
+          "estimated_drop_cp": 35,
+          "preferred_san": [
+            "Rcd8",
+            "Nb1"
+          ],
+          "fen": "2r1r1k1/p1q1bppp/2p5/2p1p2b/4P3/PBN2P2/1PP1Q1PP/3RR1K1 b - - 1 20"
+        },
+        {
+          "ply": 44,
+          "move": "28...Bd6",
+          "reference_storm_cp_before": 64,
+          "reference_storm_cp_after": 36,
+          "estimated_drop_cp": 28,
+          "preferred_san": [
+            "Qb5",
+            "Rxd8"
+          ],
+          "fen": "3rr1k1/p3bpp1/2p3b1/q3p2p/N1p1P2P/P1P2PPQ/1PB5/3RR1K1 b - - 0 28"
+        }
+      ]
+    },
+    {
+      "game_id": "site-r21",
+      "result": "0-1",
+      "storm_colour": "black",
+      "plies": 107,
+      "reference_initial_white_cp": -12,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 88,
+          "move": "51...Qe3",
+          "reference_storm_cp_before": 1486,
+          "reference_storm_cp_after": 891,
+          "estimated_drop_cp": 595,
+          "preferred_san": [
+            "Kg8",
+            "Kg1",
+            "f6",
+            "Kg2",
+            "fxg5",
+            "Kg1",
+            "g4",
+            "Kg2"
+          ],
+          "fen": "8/5pk1/6p1/4p1P1/3pP3/3P4/6K1/4qB2 b - - 3 51"
+        },
+        {
+          "ply": 52,
+          "move": "33...Rc3",
+          "reference_storm_cp_before": 328,
+          "reference_storm_cp_after": 85,
+          "estimated_drop_cp": 243,
+          "preferred_san": [
+            "Qb6",
+            "Raf1",
+            "Rb7",
+            "g4",
+            "Nh7",
+            "g5",
+            "h5",
+            "Qd1"
+          ],
+          "fen": "1r6/2q2pk1/2r2npp/4p3/1p1pP2P/1P1P2PB/3Q1R2/R5K1 b - - 0 33"
+        },
+        {
+          "ply": 44,
+          "move": "29...h6",
+          "reference_storm_cp_before": 419,
+          "reference_storm_cp_after": 218,
+          "estimated_drop_cp": 201,
+          "preferred_san": [
+            "Ra8",
+            "Ra3",
+            "Rxa3",
+            "bxa3",
+            "Rc6",
+            "Qb4",
+            "Rc5",
+            "Rf2"
+          ],
+          "fen": "4r3/2q2pkp/1r3np1/1p2p3/3pP2P/1R1P2PB/1P1Q4/5RK1 b - - 1 29"
+        },
+        {
+          "ply": 32,
+          "move": "23...a6",
+          "reference_storm_cp_before": 134,
+          "reference_storm_cp_after": -6,
+          "estimated_drop_cp": 140,
+          "preferred_san": [
+            "Bxh6",
+            "Qxh6"
+          ],
+          "fen": "1r2r1k1/ppq2pbp/3p1npB/4p3/2PpP2P/1R1P2PB/1P1Q1P2/5RK1 b - - 4 23"
+        },
+        {
+          "ply": 12,
+          "move": "13...Rae8",
+          "reference_storm_cp_before": 170,
+          "reference_storm_cp_after": 54,
+          "estimated_drop_cp": 116,
+          "preferred_san": [
+            "Nc6",
+            "c3",
+            "a5",
+            "d4",
+            "Nd7",
+            "Rd1",
+            "a4",
+            "Qd3"
+          ],
+          "fen": "r4rk1/pp3pbp/1q1ppnp1/n1p5/4P3/R2P1QPP/1PP1NPB1/2B2RK1 b - - 1 13"
+        },
+        {
+          "ply": 24,
+          "move": "19...Nd4",
+          "reference_storm_cp_before": 55,
+          "reference_storm_cp_after": -20,
+          "estimated_drop_cp": 75,
+          "preferred_san": [
+            "Rf8",
+            "Nc3"
+          ],
+          "fen": "2r3k1/ppq2pbp/2nprnp1/2p1p1B1/2P1P3/1R1P2PP/1P1QNPB1/5RK1 b - - 0 19"
+        },
+        {
+          "ply": 76,
+          "move": "45...Rxf2",
+          "reference_storm_cp_before": 898,
+          "reference_storm_cp_after": 838,
+          "estimated_drop_cp": 60,
+          "preferred_san": [
+            "Rxf2",
+            "Kxf2",
+            "b2",
+            "Be2",
+            "Qc1",
+            "Rd1",
+            "Qxg5",
+            "Bf3"
+          ],
+          "fen": "8/2q2pk1/6p1/4p1P1/3pP3/1p1P1B2/2r2R2/5RK1 b - - 2 45"
+        },
+        {
+          "ply": 60,
+          "move": "37...Rbc3",
+          "reference_storm_cp_before": 497,
+          "reference_storm_cp_after": 451,
+          "estimated_drop_cp": 46,
+          "preferred_san": [
+            "Rbc3",
+            "g4",
+            "Rc2",
+            "Qxb4",
+            "Rc1",
+            "Kg2",
+            "Rxf1",
+            "Rxf1"
+          ],
+          "fen": "8/2q2pk1/2r2npp/4p3/1p1pP2P/1r1P1RPB/3Q4/5RK1 b - - 1 37"
+        }
+      ]
+    },
+    {
+      "game_id": "site-r22",
+      "result": "1/2-1/2",
+      "storm_colour": "white",
+      "plies": 155,
+      "reference_initial_white_cp": 27,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 39,
+          "move": "27.Qd2",
+          "reference_storm_cp_before": -135,
+          "reference_storm_cp_after": -447,
+          "estimated_drop_cp": 312,
+          "preferred_san": [
+            "e5",
+            "dxe5"
+          ],
+          "fen": "2r3k1/2r1bp2/3p2pp/pb1P4/1q2Pp2/2N4P/1PQ2PP1/1BR1R2K w - - 0 27"
+        },
+        {
+          "ply": 129,
+          "move": "72.Rh8",
+          "reference_storm_cp_before": 0,
+          "reference_storm_cp_after": -270,
+          "estimated_drop_cp": 270,
+          "preferred_san": [
+            "Rxh2",
+            "Rb1",
+            "Rhh1",
+            "a1=Q",
+            "Rxb1",
+            "Qa6+",
+            "Kf2",
+            "Qa7+"
+          ],
+          "fen": "8/8/8/7R/8/2k3P1/pr1pK2p/3R4 w - - 2 72"
+        },
+        {
+          "ply": 55,
+          "move": "35.Qd2",
+          "reference_storm_cp_before": -47,
+          "reference_storm_cp_after": -243,
+          "estimated_drop_cp": 196,
+          "preferred_san": [
+            "Bxg6",
+            "fxg6"
+          ],
+          "fen": "2r3k1/1q3p2/3p2pQ/3Pb3/2b5/p6P/5PP1/1B1R2RK w - - 1 35"
+        },
+        {
+          "ply": 31,
+          "move": "23.Rc1",
+          "reference_storm_cp_before": -13,
+          "reference_storm_cp_after": -141,
+          "estimated_drop_cp": 128,
+          "preferred_san": [
+            "Bxf4",
+            "exf4",
+            "e5",
+            "dxe5",
+            "d6",
+            "Bxd6",
+            "Qg6",
+            "Bxa4"
+          ],
+          "fen": "2r3k1/1prbbpp1/3p3p/p2Pp3/Pq2Pn2/2N1B2P/BPQ2PP1/3RR2K w - - 6 23"
+        },
+        {
+          "ply": 37,
+          "move": "26.Bb1",
+          "reference_storm_cp_before": -119,
+          "reference_storm_cp_after": -238,
+          "estimated_drop_cp": 119,
+          "preferred_san": [
+            "e5",
+            "dxe5"
+          ],
+          "fen": "2r3k1/2r1bpp1/3p3p/pb1P4/1q2Pp2/2N4P/BPQ2PP1/2R1R2K w - - 0 26"
+        },
+        {
+          "ply": 15,
+          "move": "15.Qc2",
+          "reference_storm_cp_before": 110,
+          "reference_storm_cp_after": 21,
+          "estimated_drop_cp": 89,
+          "preferred_san": [
+            "Qxd4",
+            "exd4"
+          ],
+          "fen": "r1b2rk1/pp2bpp1/3p1n1p/3Pp3/P2qP3/7P/BP3PP1/RNBQR1K1 w - - 0 15"
+        },
+        {
+          "ply": 27,
+          "move": "21.Kh1",
+          "reference_storm_cp_before": 35,
+          "reference_storm_cp_after": -42,
+          "estimated_drop_cp": 77,
+          "preferred_san": [
+            "Rd2",
+            "Rab8"
+          ],
+          "fen": "r1r3k1/1p1bbpp1/3p3p/p2Pp3/Pq2Pn2/1BN1B2P/1PQ2PPK/3RR3 w - - 2 21"
+        },
+        {
+          "ply": 51,
+          "move": "33.e5",
+          "reference_storm_cp_before": -62,
+          "reference_storm_cp_after": -119,
+          "estimated_drop_cp": 57,
+          "preferred_san": [
+            "Qxh6",
+            "Bg7"
+          ],
+          "fen": "2r3k1/5p2/3p2pp/3P4/1qb1PQ2/p1b4P/5PP1/1B1R2RK w - - 0 33"
+        }
+      ]
+    },
+    {
+      "game_id": "site-r23",
+      "result": "0-1",
+      "storm_colour": "white",
+      "plies": 131,
+      "reference_initial_white_cp": 11,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 117,
+          "move": "67.Kc7",
+          "reference_storm_cp_before": -1246,
+          "reference_storm_cp_after": -1567,
+          "estimated_drop_cp": 321,
+          "preferred_san": [
+            "Rf1",
+            "b3",
+            "Kc5",
+            "Rc3+",
+            "Kxd4",
+            "Rcg3",
+            "Rh1",
+            "b2"
+          ],
+          "fen": "8/5pk1/1Kp3r1/8/1p1p4/4r3/p7/3R4 w - - 0 67"
+        },
+        {
+          "ply": 53,
+          "move": "35.Qe2",
+          "reference_storm_cp_before": -719,
+          "reference_storm_cp_after": -971,
+          "estimated_drop_cp": 252,
+          "preferred_san": [
+            "Qf4",
+            "Rf6",
+            "Qe5",
+            "Re8",
+            "Qh5",
+            "Kg7",
+            "Rdc1",
+            "Rh6"
+          ],
+          "fen": "r5k1/3q1p2/2p4r/pp1p4/3Pn1p1/P3PQP1/1PR2BP1/3R2K1 w - - 0 35"
+        },
+        {
+          "ply": 45,
+          "move": "31.hxg5",
+          "reference_storm_cp_before": -264,
+          "reference_storm_cp_after": -484,
+          "estimated_drop_cp": 220,
+          "preferred_san": [
+            "Qg4",
+            "Ne4",
+            "Qh3",
+            "Qc7",
+            "Rc2",
+            "Kg7",
+            "Bf2",
+            "a4"
+          ],
+          "fen": "r5k1/3q1p2/2pnr2p/pp1p2p1/3P3P/P3P1P1/1P2Q1P1/2RRB1K1 w - - 1 31"
+        },
+        {
+          "ply": 39,
+          "move": "28.Qe2",
+          "reference_storm_cp_before": 69,
+          "reference_storm_cp_after": -106,
+          "estimated_drop_cp": 175,
+          "preferred_san": [
+            "Nf1",
+            "Qd8"
+          ],
+          "fen": "r5k1/2nq1p2/2p1r2p/pp1p2p1/3Pn3/P3P1NP/1PQ2PP1/2RRB1K1 w - - 2 28"
+        },
+        {
+          "ply": 47,
+          "move": "32.Bf2",
+          "reference_storm_cp_before": -487,
+          "reference_storm_cp_after": -653,
+          "estimated_drop_cp": 166,
+          "preferred_san": [
+            "Qg4",
+            "Ne4",
+            "Bc3",
+            "Qd6",
+            "Rf1",
+            "Qxg3",
+            "Qxg3",
+            "Nxg3"
+          ],
+          "fen": "r5k1/3q1p2/2pnr3/pp1p2p1/3P4/P3P1P1/1P2Q1P1/2RRB1K1 w - - 0 32"
+        },
+        {
+          "ply": 43,
+          "move": "30.h4",
+          "reference_storm_cp_before": -91,
+          "reference_storm_cp_after": -256,
+          "estimated_drop_cp": 165,
+          "preferred_san": [
+            "Bd2",
+            "Nd6"
+          ],
+          "fen": "r3n1k1/3q1p2/2p1r2p/pp1p2p1/3P4/P3P1PP/1P2Q1P1/2RRB1K1 w - - 1 30"
+        },
+        {
+          "ply": 115,
+          "move": "66.Kb6",
+          "reference_storm_cp_before": -999,
+          "reference_storm_cp_after": -1130,
+          "estimated_drop_cp": 131,
+          "preferred_san": [
+            "Rxd4",
+            "a2",
+            "Rd6",
+            "Rg1",
+            "Kxc6",
+            "Rc3+",
+            "Kb5",
+            "a1=Q"
+          ],
+          "fen": "8/2K2pk1/2p3r1/8/1p1p4/p3r3/8/3R4 w - - 2 66"
+        },
+        {
+          "ply": 51,
+          "move": "34.Qf3",
+          "reference_storm_cp_before": -654,
+          "reference_storm_cp_after": -754,
+          "estimated_drop_cp": 100,
+          "preferred_san": [
+            "Qf3",
+            "Kg7",
+            "g4",
+            "Rah8",
+            "Kf1",
+            "Rf6",
+            "Rdc1",
+            "Rh1+"
+          ],
+          "fen": "r5k1/3q1p2/2p4r/pp1p2p1/3Pn3/P3P1P1/1PR1QBP1/3R2K1 w - - 4 34"
+        }
+      ]
+    },
+    {
+      "game_id": "site-r24",
+      "result": "1-0",
+      "storm_colour": "white",
+      "plies": 120,
+      "reference_initial_white_cp": 6,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 41,
+          "move": "29.Be2",
+          "reference_storm_cp_before": 85,
+          "reference_storm_cp_after": -1,
+          "estimated_drop_cp": 86,
+          "preferred_san": [
+            "Ne3",
+            "Bxe3"
+          ],
+          "fen": "5r1k/r5pp/3p4/1p1Npbb1/1Pq5/2P2B1P/1Q3PP1/3R1RK1 w - - 1 29"
+        },
+        {
+          "ply": 85,
+          "move": "51.Na4",
+          "reference_storm_cp_before": 191,
+          "reference_storm_cp_after": 128,
+          "estimated_drop_cp": 63,
+          "preferred_san": [
+            "Ra1",
+            "Be3"
+          ],
+          "fen": "3r4/5k2/1NR3pp/1P1pp3/6P1/5P1K/1r1b2P1/3R4 w - - 0 51"
+        },
+        {
+          "ply": 99,
+          "move": "58.Nd6+",
+          "reference_storm_cp_before": 807,
+          "reference_storm_cp_after": 749,
+          "estimated_drop_cp": 58,
+          "preferred_san": [
+            "Nd6+",
+            "Kd8"
+          ],
+          "fen": "1r2k3/1NR5/1P6/3pp2p/8/5P1K/r2b2P1/1R6 w - - 5 58"
+        },
+        {
+          "ply": 25,
+          "move": "21.a3",
+          "reference_storm_cp_before": 40,
+          "reference_storm_cp_after": -17,
+          "estimated_drop_cp": 57,
+          "preferred_san": [
+            "exf5",
+            "Bxf5"
+          ],
+          "fen": "1rq2r1k/6pp/p2pb3/1p1Nppb1/4P3/2PQ1B2/PP3PPP/3R1RK1 w - - 4 21"
+        },
+        {
+          "ply": 23,
+          "move": "20.O-O",
+          "reference_storm_cp_before": 56,
+          "reference_storm_cp_after": 4,
+          "estimated_drop_cp": 52,
+          "preferred_san": [
+            "exf5",
+            "Bxf5"
+          ],
+          "fen": "1r1q1r1k/6pp/p2pb3/1p1Nppb1/4P3/2PQ1B2/PP3PPP/3RK2R w K - 2 20"
+        },
+        {
+          "ply": 27,
+          "move": "22.h3",
+          "reference_storm_cp_before": 40,
+          "reference_storm_cp_after": -10,
+          "estimated_drop_cp": 50,
+          "preferred_san": [
+            "exf5",
+            "Bxf5"
+          ],
+          "fen": "1rq2r1k/6pp/3pb3/pp1Nppb1/4P3/P1PQ1B2/1P3PPP/3R1RK1 w - - 0 22"
+        },
+        {
+          "ply": 35,
+          "move": "26.Qb2",
+          "reference_storm_cp_before": -10,
+          "reference_storm_cp_after": -59,
+          "estimated_drop_cp": 49,
+          "preferred_san": [
+            "Be4",
+            "Bxe4"
+          ],
+          "fen": "5r1k/1r4pp/3p4/ppqNpbb1/8/PPP2B1P/5PP1/1Q1R1RK1 w - - 0 26"
+        },
+        {
+          "ply": 53,
+          "move": "35.Rdd1",
+          "reference_storm_cp_before": 51,
+          "reference_storm_cp_after": 21,
+          "estimated_drop_cp": 30,
+          "preferred_san": [
+            "Rf3",
+            "Rxf3"
+          ],
+          "fen": "5r1k/6p1/2qp3p/1p1Np1b1/1P4Q1/2PR3P/r4PP1/5RK1 w - - 0 35"
+        }
+      ]
+    },
+    {
+      "game_id": "site-r25",
+      "result": "0-1",
+      "storm_colour": "black",
+      "plies": 93,
+      "reference_initial_white_cp": 23,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 20,
+          "move": "17...c4",
+          "reference_storm_cp_before": 207,
+          "reference_storm_cp_after": 6,
+          "estimated_drop_cp": 201,
+          "preferred_san": [
+            "b5",
+            "Qc2",
+            "cxd4",
+            "a4",
+            "bxa4",
+            "Bxa6",
+            "Ra8",
+            "Bb5"
+          ],
+          "fen": "2r2rk1/1pqn1pp1/p2bpnp1/2p3B1/Q2P4/2PB2N1/PP3PPP/3RR1K1 b - - 1 17"
+        },
+        {
+          "ply": 48,
+          "move": "31...Kh7",
+          "reference_storm_cp_before": 437,
+          "reference_storm_cp_after": 257,
+          "estimated_drop_cp": 180,
+          "preferred_san": [
+            "Rc6",
+            "bxc4",
+            "Rxb6",
+            "Rxb6",
+            "Re1+",
+            "Rf1",
+            "Rxf1+",
+            "Kxf1"
+          ],
+          "fen": "2r1r1k1/1q4p1/pP4p1/3p4/2pP4/1PPn1RP1/Q5PP/1R4K1 b - - 2 31"
+        },
+        {
+          "ply": 78,
+          "move": "46...Rxb6",
+          "reference_storm_cp_before": 1232,
+          "reference_storm_cp_after": 1062,
+          "estimated_drop_cp": 170,
+          "preferred_san": [
+            "Rxb6",
+            "Rf2",
+            "Qe1",
+            "d6",
+            "Rxd6",
+            "Ra2",
+            "Rd1",
+            "Rxa6+"
+          ],
+          "fen": "1r6/6p1/pP5k/3P4/2p2pP1/2P1qP2/6KP/5R2 b - - 6 46"
+        },
+        {
+          "ply": 58,
+          "move": "36...Rf8",
+          "reference_storm_cp_before": 596,
+          "reference_storm_cp_after": 536,
+          "estimated_drop_cp": 60,
+          "preferred_san": [
+            "Rf8",
+            "Qa1",
+            "Rb8",
+            "Rxf8",
+            "Rxf8",
+            "Qb1",
+            "Qe2",
+            "Rf3"
+          ],
+          "fen": "2r1r3/6p1/pP4k1/Q5p1/2pPq1P1/2Pn3R/6PP/5RK1 b - - 5 36"
+        },
+        {
+          "ply": 70,
+          "move": "42...gxf4",
+          "reference_storm_cp_before": 845,
+          "reference_storm_cp_after": 801,
+          "estimated_drop_cp": 44,
+          "preferred_san": [
+            "gxf4",
+            "Rf2",
+            "Qd3",
+            "Kg2",
+            "Kg6",
+            "d5",
+            "Qe3",
+            "d6"
+          ],
+          "fen": "2r5/6p1/pP5k/6p1/2pP1QP1/2P2P2/4q2P/5RK1 b - - 0 42"
+        },
+        {
+          "ply": 56,
+          "move": "35...Qe4",
+          "reference_storm_cp_before": 391,
+          "reference_storm_cp_after": 349,
+          "estimated_drop_cp": 42,
+          "preferred_san": [
+            "Qe4",
+            "Rf3",
+            "Nf4",
+            "Ra1",
+            "Rb8",
+            "Qc5",
+            "Re6",
+            "h4"
+          ],
+          "fen": "2r1r3/1q4p1/pP4k1/Q5p1/2pP2P1/2Pn3R/6PP/1R4K1 b - - 3 35"
+        },
+        {
+          "ply": 50,
+          "move": "32...dxc4",
+          "reference_storm_cp_before": 262,
+          "reference_storm_cp_after": 225,
+          "estimated_drop_cp": 37,
+          "preferred_san": [
+            "dxc4",
+            "g4",
+            "g5",
+            "Qa5",
+            "Rf8",
+            "Rbf1",
+            "Rxf3",
+            "Rxf3"
+          ],
+          "fen": "2r1r3/1q4pk/pP4p1/3p4/2PP4/2Pn1RP1/Q5PP/1R4K1 b - - 0 32"
+        },
+        {
+          "ply": 18,
+          "move": "16...a6",
+          "reference_storm_cp_before": 63,
+          "reference_storm_cp_after": 29,
+          "estimated_drop_cp": 34,
+          "preferred_san": [
+            "Nb6",
+            "Qd1",
+            "cxd4",
+            "cxd4",
+            "Nbd5",
+            "Qb3",
+            "Bf4",
+            "Bxf4"
+          ],
+          "fen": "2r2rk1/ppqn1pp1/3bpnp1/2p3B1/Q2P4/2PB2N1/PP3PPP/R3R1K1 b - - 3 16"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-a-g1-o160",
+      "result": "1-0",
+      "storm_colour": "white",
+      "plies": 109,
+      "reference_initial_white_cp": 74,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 30,
+          "move": "20.c6",
+          "reference_storm_cp_before": 330,
+          "reference_storm_cp_after": 216,
+          "estimated_drop_cp": 114,
+          "preferred_san": [
+            "Ra3",
+            "a5",
+            "Na4",
+            "Rb8",
+            "Nb6",
+            "Be8",
+            "Rxa5",
+            "Nh4"
+          ],
+          "fen": "r2q1rk1/pp1b2p1/4p1np/1PPp1p2/3Pn3/2NBPN1P/2Q2PP1/R4RK1 w - - 1 20"
+        },
+        {
+          "ply": 58,
+          "move": "34.Nxa8",
+          "reference_storm_cp_before": 704,
+          "reference_storm_cp_after": 608,
+          "estimated_drop_cp": 96,
+          "preferred_san": [
+            "Rxa8",
+            "Rxa8",
+            "Nxa8",
+            "f4",
+            "Nc7",
+            "fxe3",
+            "fxe3",
+            "Ne7"
+          ],
+          "fen": "b1r3k1/2N3p1/6n1/RB1p1p1p/3P3P/4P3/5PP1/6K1 w - - 0 34"
+        },
+        {
+          "ply": 46,
+          "move": "28.Rxa7",
+          "reference_storm_cp_before": 593,
+          "reference_storm_cp_after": 516,
+          "estimated_drop_cp": 77,
+          "preferred_san": [
+            "Qc5",
+            "Qb8",
+            "Rxa7",
+            "Rxa7",
+            "Rxa7",
+            "Bxc6",
+            "Bxc6",
+            "Qb1+"
+          ],
+          "fen": "2r1b1k1/p1q1r1p1/R1P1p1n1/1B1p1pNp/3P3P/2Q1P3/5PP1/R5K1 w - - 2 28"
+        },
+        {
+          "ply": 48,
+          "move": "29.Ra8",
+          "reference_storm_cp_before": 676,
+          "reference_storm_cp_after": 602,
+          "estimated_drop_cp": 74,
+          "preferred_san": [
+            "Rxe7",
+            "Nxe7",
+            "Qa3",
+            "Kf8",
+            "Nxe6+",
+            "Kf7",
+            "Ng5+",
+            "Kf8"
+          ],
+          "fen": "2r1b1k1/R3r1p1/1qP1p1n1/1B1p1pNp/3P3P/2Q1P3/5PP1/R5K1 w - - 1 29"
+        },
+        {
+          "ply": 60,
+          "move": "35.Kh2",
+          "reference_storm_cp_before": 667,
+          "reference_storm_cp_after": 626,
+          "estimated_drop_cp": 41,
+          "preferred_san": [
+            "Bf1",
+            "f4",
+            "Rxd5",
+            "Ra1",
+            "Nb6",
+            "fxe3",
+            "fxe3",
+            "Nxh4"
+          ],
+          "fen": "N5k1/6p1/6n1/RB1p1p1p/3P3P/4P3/5PP1/2r3K1 w - - 1 35"
+        },
+        {
+          "ply": 24,
+          "move": "17.Nc3",
+          "reference_storm_cp_before": 205,
+          "reference_storm_cp_after": 174,
+          "estimated_drop_cp": 31,
+          "preferred_san": [
+            "Nbd2",
+            "e5",
+            "dxe5",
+            "Nxe5",
+            "Nxe5",
+            "Qxe5",
+            "Nf3",
+            "Qe7"
+          ],
+          "fen": "r4rk1/ppqb2pp/4pnn1/1PPp1p2/3P4/3BPN2/5PPP/RN1Q1RK1 w - - 5 17"
+        },
+        {
+          "ply": 74,
+          "move": "42.Bxf5",
+          "reference_storm_cp_before": 758,
+          "reference_storm_cp_after": 730,
+          "estimated_drop_cp": 28,
+          "preferred_san": [
+            "Bxf5",
+            "gxf5",
+            "Ra8+",
+            "Kg7",
+            "Ra7+",
+            "Kh6",
+            "Ra6+",
+            "Kh7"
+          ],
+          "fen": "6k1/8/6p1/R2P1n1p/5N2/3BP3/6PK/2r5 w - - 1 42"
+        },
+        {
+          "ply": 44,
+          "move": "27.Ng5",
+          "reference_storm_cp_before": 598,
+          "reference_storm_cp_after": 572,
+          "estimated_drop_cp": 26,
+          "preferred_san": [
+            "Ng5",
+            "Re7",
+            "Qc5",
+            "Ra8",
+            "Be2",
+            "Qd8",
+            "Rb1",
+            "Rc7"
+          ],
+          "fen": "2r1b1k1/p1q2rp1/R1P1p1n1/1B1p1p1p/3P3P/2Q1PN2/5PP1/R5K1 w - - 0 27"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-a-g2-o160",
+      "result": "1/2-1/2",
+      "storm_colour": "black",
+      "plies": 106,
+      "reference_initial_white_cp": 74,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 31,
+          "move": "20...Be8",
+          "reference_storm_cp_before": 41,
+          "reference_storm_cp_after": -26,
+          "estimated_drop_cp": 67,
+          "preferred_san": [
+            "b5",
+            "Ra1"
+          ],
+          "fen": "2rr2k1/1p1b2p1/p1nbpq1p/3p1p2/1P1P4/1QP1PNP1/3NBPP1/2R1R1K1 b - - 5 20"
+        },
+        {
+          "ply": 33,
+          "move": "21...Bg6",
+          "reference_storm_cp_before": 19,
+          "reference_storm_cp_after": -27,
+          "estimated_drop_cp": 46,
+          "preferred_san": [
+            "Nxb4",
+            "Qb3"
+          ],
+          "fen": "2rrb1k1/1p4p1/p1nbpq1p/3p1p2/1P1P4/2P1PNP1/2QNBPP1/2R1R1K1 b - - 7 21"
+        },
+        {
+          "ply": 75,
+          "move": "42...Kg8",
+          "reference_storm_cp_before": -10,
+          "reference_storm_cp_after": -55,
+          "estimated_drop_cp": 45,
+          "preferred_san": [
+            "Kg8",
+            "Rd1",
+            "Qd6",
+            "g3",
+            "Rb8",
+            "Qb5",
+            "Rd8",
+            "Kg2"
+          ],
+          "fen": "3r4/6pk/1p5p/3P4/5q2/8/5PP1/1Q2R1K1 b - - 1 42"
+        },
+        {
+          "ply": 17,
+          "move": "13...a6",
+          "reference_storm_cp_before": -34,
+          "reference_storm_cp_after": -78,
+          "estimated_drop_cp": 44,
+          "preferred_san": [
+            "Bd7",
+            "Bxd6",
+            "Nxd6",
+            "Nbd2",
+            "a5",
+            "bxa5",
+            "Nxa5",
+            "Qb1"
+          ],
+          "fen": "r1bq1rk1/pp4pp/2nbp3/3p1p2/1P1Pn3/2PBPNB1/5PPP/RN1Q1RK1 b - - 0 13"
+        },
+        {
+          "ply": 27,
+          "move": "18...Qf6",
+          "reference_storm_cp_before": -9,
+          "reference_storm_cp_after": -52,
+          "estimated_drop_cp": 43,
+          "preferred_san": [
+            "g5",
+            "Qb2"
+          ],
+          "fen": "2rq1rk1/1p1b2p1/p1nbp2p/3p1p2/1P1P4/1QPBPNP1/3N1PP1/2R2RK1 b - - 1 18"
+        },
+        {
+          "ply": 25,
+          "move": "17...h6",
+          "reference_storm_cp_before": -9,
+          "reference_storm_cp_after": -45,
+          "estimated_drop_cp": 36,
+          "preferred_san": [
+            "g5",
+            "Rfb1"
+          ],
+          "fen": "2rq1rk1/1p1b2pp/p1nbp3/3p1p2/1P1P4/1QPBPNP1/3N1PP1/R4RK1 b - - 2 17"
+        },
+        {
+          "ply": 19,
+          "move": "14...Bd7",
+          "reference_storm_cp_before": -5,
+          "reference_storm_cp_after": -26,
+          "estimated_drop_cp": 21,
+          "preferred_san": [
+            "Nxg3",
+            "hxg3"
+          ],
+          "fen": "r1bq1rk1/1p4pp/p1nbp3/3p1p2/1P1Pn3/2PBPNB1/2Q2PPP/RN3RK1 b - - 1 14"
+        },
+        {
+          "ply": 67,
+          "move": "38...Qf6",
+          "reference_storm_cp_before": -6,
+          "reference_storm_cp_after": -27,
+          "estimated_drop_cp": 21,
+          "preferred_san": [
+            "Qc4",
+            "Qxf5"
+          ],
+          "fen": "3r2k1/6p1/1p2q2p/5p2/3P4/6P1/5PP1/1Q2R1K1 b - - 0 38"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-a-g3-o161",
+      "result": "1-0",
+      "storm_colour": "white",
+      "plies": 99,
+      "reference_initial_white_cp": 148,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 16,
+          "move": "13.Bf4",
+          "reference_storm_cp_before": 368,
+          "reference_storm_cp_after": 177,
+          "estimated_drop_cp": 191,
+          "preferred_san": [
+            "g3",
+            "c6",
+            "b6",
+            "Bb7",
+            "Bg2",
+            "a5",
+            "O-O",
+            "Bb4"
+          ],
+          "fen": "rnbqkb1r/2p3pp/p4n2/1P1p1p2/8/1QNPBN2/4PPPP/R3KB1R w KQ - 2 13"
+        },
+        {
+          "ply": 34,
+          "move": "22.bxa6",
+          "reference_storm_cp_before": 618,
+          "reference_storm_cp_after": 470,
+          "estimated_drop_cp": 148,
+          "preferred_san": [
+            "bxc6",
+            "Nxc6",
+            "Rb6",
+            "Bd7",
+            "Nb5",
+            "axb5",
+            "Qxa7",
+            "Bd8"
+          ],
+          "fen": "1nb1kr2/r5pp/p1pq1b2/1P1p1p2/Q2P4/2NBPN2/5PPP/1R3RK1 w - - 6 22"
+        },
+        {
+          "ply": 18,
+          "move": "14.Bg5",
+          "reference_storm_cp_before": 206,
+          "reference_storm_cp_after": 102,
+          "estimated_drop_cp": 104,
+          "preferred_san": [
+            "g3",
+            "Bxf4",
+            "gxf4",
+            "Bb7",
+            "Bg2",
+            "axb5",
+            "Rxa8",
+            "Bxa8"
+          ],
+          "fen": "rnbqk2r/2p3pp/p2b1n2/1P1p1p2/5B2/1QNP1N2/4PPPP/R3KB1R w KQ - 4 14"
+        },
+        {
+          "ply": 4,
+          "move": "7.cxd5",
+          "reference_storm_cp_before": 192,
+          "reference_storm_cp_after": 100,
+          "estimated_drop_cp": 92,
+          "preferred_san": [
+            "g3",
+            "e5"
+          ],
+          "fen": "rnbqkbnr/p1p1p1pp/8/3p1p2/pPP5/3PB3/4PPPP/RN1QKBNR w KQ - 1 7"
+        },
+        {
+          "ply": 66,
+          "move": "38.Rh8",
+          "reference_storm_cp_before": 854,
+          "reference_storm_cp_after": 762,
+          "estimated_drop_cp": 92,
+          "preferred_san": [
+            "Rd8",
+            "Ke7",
+            "Rd6",
+            "Kf7",
+            "Rxd5",
+            "Ke6",
+            "Rd1",
+            "Ke7"
+          ],
+          "fen": "1R6/7p/4k3/3pPp2/5P2/7P/6P1/6K1 w - - 1 38"
+        },
+        {
+          "ply": 28,
+          "move": "19.Qa4",
+          "reference_storm_cp_before": 410,
+          "reference_storm_cp_after": 326,
+          "estimated_drop_cp": 84,
+          "preferred_san": [
+            "Qa2",
+            "Be6"
+          ],
+          "fen": "1nb1k2r/r5pp/pqp2b2/1P1p1p2/3P4/1QNBPN2/5PPP/R3K2R w KQ - 0 19"
+        },
+        {
+          "ply": 12,
+          "move": "11.Qb3",
+          "reference_storm_cp_before": 90,
+          "reference_storm_cp_after": 14,
+          "estimated_drop_cp": 76,
+          "preferred_san": [
+            "g3",
+            "c6",
+            "Nf3",
+            "a5",
+            "bxc6",
+            "Bxc6",
+            "Qd4",
+            "Bb4"
+          ],
+          "fen": "rn1qkb1r/p1pb2pp/5n2/1P1p1p2/Q7/2NPB3/4PPPP/R3KBNR w KQ - 2 11"
+        },
+        {
+          "ply": 14,
+          "move": "12.Nf3",
+          "reference_storm_cp_before": 279,
+          "reference_storm_cp_after": 204,
+          "estimated_drop_cp": 75,
+          "preferred_san": [
+            "g3",
+            "c6"
+          ],
+          "fen": "rn1qkb1r/2pb2pp/p4n2/1P1p1p2/8/1QNPB3/4PPPP/R3KBNR w KQ - 0 12"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-a-g4-o161",
+      "result": "0-1",
+      "storm_colour": "black",
+      "plies": 82,
+      "reference_initial_white_cp": 148,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 67,
+          "move": "38...Kf7",
+          "reference_storm_cp_before": 1003,
+          "reference_storm_cp_after": 889,
+          "estimated_drop_cp": 114,
+          "preferred_san": [
+            "Kf7",
+            "e8=Q+",
+            "Kxe8",
+            "Kg1",
+            "Kd7",
+            "Kh2",
+            "Ke6",
+            "Kh1"
+          ],
+          "fen": "6k1/4P1p1/8/6P1/8/1b1r1pP1/3b1P2/5K2 b - - 1 38"
+        },
+        {
+          "ply": 39,
+          "move": "24...h6",
+          "reference_storm_cp_before": 612,
+          "reference_storm_cp_after": 531,
+          "estimated_drop_cp": 81,
+          "preferred_san": [
+            "Rc6",
+            "Nb4",
+            "Rb6",
+            "f3",
+            "Bxb4",
+            "Bxb4",
+            "Rxb4",
+            "Kf2"
+          ],
+          "fen": "2r3k1/3n2pp/N4n2/5pN1/4p3/bb4P1/3BPPBP/4K2R b - - 5 24"
+        },
+        {
+          "ply": 49,
+          "move": "29...Nde5",
+          "reference_storm_cp_before": 867,
+          "reference_storm_cp_after": 809,
+          "estimated_drop_cp": 58,
+          "preferred_san": [
+            "Nde5",
+            "Bh1",
+            "Rxd2",
+            "Kxd2",
+            "Bxb4+",
+            "Kc1",
+            "Nxf2",
+            "Kb2"
+          ],
+          "fen": "6k1/3n2p1/3r4/5pP1/1N2p1nR/bb2P1P1/3B1PB1/4K3 b - - 2 29"
+        },
+        {
+          "ply": 1,
+          "move": "5...bxa4",
+          "reference_storm_cp_before": -163,
+          "reference_storm_cp_after": -187,
+          "estimated_drop_cp": 24,
+          "preferred_san": [
+            "e5",
+            "c3"
+          ],
+          "fen": "rnbq1bnr/p1pkp1pp/8/1p1p1p2/PP6/3PB3/2P1PPPP/RN1QKBNR b KQ - 0 5"
+        },
+        {
+          "ply": 23,
+          "move": "16...Bxc4",
+          "reference_storm_cp_before": 293,
+          "reference_storm_cp_after": 271,
+          "estimated_drop_cp": 22,
+          "preferred_san": [
+            "Bxc4",
+            "Nd2"
+          ],
+          "fen": "5b1r/2Nn1kpp/b4n2/4pp2/2P5/4BN2/4PPPP/3K1B1R b - - 0 16"
+        },
+        {
+          "ply": 61,
+          "move": "35...Rd3",
+          "reference_storm_cp_before": 880,
+          "reference_storm_cp_after": 865,
+          "estimated_drop_cp": 15,
+          "preferred_san": [
+            "Rd4",
+            "e6",
+            "Rd3",
+            "g4",
+            "Bxe6",
+            "g6",
+            "Rd4",
+            "Ba5"
+          ],
+          "fen": "6k1/6p1/3r4/4P1P1/8/bb3pP1/3B1P2/4K3 b - - 0 35"
+        },
+        {
+          "ply": 55,
+          "move": "32...gxf3",
+          "reference_storm_cp_before": 856,
+          "reference_storm_cp_after": 843,
+          "estimated_drop_cp": 13,
+          "preferred_san": [
+            "gxf3",
+            "Nc6",
+            "Rxc6",
+            "g6",
+            "Bd5",
+            "Ba5",
+            "Bf8"
+          ],
+          "fen": "6k1/6p1/3r4/6P1/1N4p1/bb2PBP1/3B1P2/4K3 b - - 0 32"
+        },
+        {
+          "ply": 3,
+          "move": "6...Nf6",
+          "reference_storm_cp_before": -90,
+          "reference_storm_cp_after": -100,
+          "estimated_drop_cp": 10,
+          "preferred_san": [
+            "Ke8",
+            "Nf3"
+          ],
+          "fen": "rnbq1bnr/p1pkp1pp/8/3p1p2/RP6/3PB3/2P1PPPP/1N1QKBNR b K - 0 6"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-a-g5-o162",
+      "result": "1-0",
+      "storm_colour": "white",
+      "plies": 53,
+      "reference_initial_white_cp": -32,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 26,
+          "move": "19.Qxh6+",
+          "reference_storm_cp_before": 794,
+          "reference_storm_cp_after": 534,
+          "estimated_drop_cp": 260,
+          "preferred_san": [
+            "Qxh6+",
+            "Kg8",
+            "Qg6+",
+            "Kh8",
+            "Qh5+",
+            "Kg8",
+            "Kf2",
+            "Bh4+"
+          ],
+          "fen": "r2q1r1k/ppp1b3/3p2Qp/4p3/4P3/2N2P2/PPP4P/R5KR w - - 2 19"
+        },
+        {
+          "ply": 40,
+          "move": "26.Qh6+",
+          "reference_storm_cp_before": 880,
+          "reference_storm_cp_after": 790,
+          "estimated_drop_cp": 90,
+          "preferred_san": [
+            "Rg6",
+            "c6",
+            "Nxf6",
+            "Qc8",
+            "Ng4",
+            "Ke7",
+            "Qg5+",
+            "Kd7"
+          ],
+          "fen": "r2q1k2/ppp2r2/3p1b2/3Np2Q/4P3/5P2/PPP1K2P/6RR w - - 13 26"
+        },
+        {
+          "ply": 34,
+          "move": "23.Ke2",
+          "reference_storm_cp_before": 812,
+          "reference_storm_cp_after": 737,
+          "estimated_drop_cp": 75,
+          "preferred_san": [
+            "Ke2",
+            "Rf7",
+            "Rag1+",
+            "Bg5",
+            "Rxg5+",
+            "Qxg5",
+            "Qxg5+",
+            "Rg7"
+          ],
+          "fen": "r2q1rk1/ppp5/3p4/4p2Q/4P2b/2N2P2/PPP2K1P/R6R w - - 7 23"
+        },
+        {
+          "ply": 32,
+          "move": "22.Kf2",
+          "reference_storm_cp_before": 821,
+          "reference_storm_cp_after": 749,
+          "estimated_drop_cp": 72,
+          "preferred_san": [
+            "Kf2",
+            "Bh4+",
+            "Ke2",
+            "Rf7",
+            "Rag1+",
+            "Kf8",
+            "Qh8+",
+            "Ke7"
+          ],
+          "fen": "r2q1rk1/ppp1b3/3p4/4p2Q/4P3/2N2P2/PPP4P/R5KR w - - 5 22"
+        },
+        {
+          "ply": 12,
+          "move": "12.Qe1",
+          "reference_storm_cp_before": -67,
+          "reference_storm_cp_after": -92,
+          "estimated_drop_cp": 25,
+          "preferred_san": [
+            "h3",
+            "Nc6"
+          ],
+          "fen": "rn1q1rk1/ppp1b1p1/3ppn1p/8/3PP3/2N2N2/PPPQ2PP/R1B3KR w - - 0 12"
+        },
+        {
+          "ply": 20,
+          "move": "16.Qxh5",
+          "reference_storm_cp_before": 305,
+          "reference_storm_cp_after": 280,
+          "estimated_drop_cp": 25,
+          "preferred_san": [
+            "Qxh5",
+            "gxh6",
+            "Nxd4",
+            "exd4",
+            "Qg6+",
+            "Kh8",
+            "Qxh6+",
+            "Kg8"
+          ],
+          "fen": "r2q1rk1/ppp1b1p1/3p3B/4p2n/3nP1Q1/2N2N2/PPP3PP/R5KR w - - 0 16"
+        },
+        {
+          "ply": 8,
+          "move": "10.Nf3",
+          "reference_storm_cp_before": -62,
+          "reference_storm_cp_after": -79,
+          "estimated_drop_cp": 17,
+          "preferred_san": [
+            "Ke1",
+            "O-O"
+          ],
+          "fen": "rn1qk2r/ppp1b1pp/3ppn2/8/3PP3/2N5/PPPQ2PP/R1B2KNR w kq - 3 10"
+        },
+        {
+          "ply": 18,
+          "move": "15.Qg4",
+          "reference_storm_cp_before": 20,
+          "reference_storm_cp_after": 3,
+          "estimated_drop_cp": 17,
+          "preferred_san": [
+            "Qg4",
+            "Qe8"
+          ],
+          "fen": "r2q1rk1/ppp1b1p1/2np3B/4p2n/3PP3/2N2NQ1/PPP3PP/R5KR w - - 1 15"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-a-g6-o162",
+      "result": "0-1",
+      "storm_colour": "black",
+      "plies": 116,
+      "reference_initial_white_cp": -32,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 95,
+          "move": "53...b4",
+          "reference_storm_cp_before": 803,
+          "reference_storm_cp_after": 676,
+          "estimated_drop_cp": 127,
+          "preferred_san": [
+            "b4",
+            "Ke4",
+            "b3",
+            "Kf5",
+            "b2",
+            "Rh1+",
+            "Kg8",
+            "Kxg5"
+          ],
+          "fen": "8/6pk/r7/1p4p1/6P1/3P1K2/p5P1/R7 b - - 1 53"
+        },
+        {
+          "ply": 43,
+          "move": "27...Qxa2",
+          "reference_storm_cp_before": 454,
+          "reference_storm_cp_after": 340,
+          "estimated_drop_cp": 114,
+          "preferred_san": [
+            "Qc6",
+            "Qg6",
+            "Bc5",
+            "Kh2",
+            "Ng4+",
+            "Qxg4",
+            "Rxf2",
+            "Nf5"
+          ],
+          "fen": "4r1k1/1p3rp1/p2b1n1p/4pQ2/2q5/4N2P/P1PB1RP1/6KR b - - 1 27"
+        },
+        {
+          "ply": 53,
+          "move": "32...Qc1+",
+          "reference_storm_cp_before": 346,
+          "reference_storm_cp_after": 236,
+          "estimated_drop_cp": 110,
+          "preferred_san": [
+            "Rd1+",
+            "Kh2",
+            "Rxh1+",
+            "Kxh1",
+            "Qc1+",
+            "Kh2",
+            "Qg5",
+            "Qxg5"
+          ],
+          "fen": "3r2k1/1p3rp1/p4nQp/4pN2/8/q6P/2P2RP1/6KR b - - 2 32"
+        },
+        {
+          "ply": 27,
+          "move": "19...Re8",
+          "reference_storm_cp_before": 268,
+          "reference_storm_cp_after": 170,
+          "estimated_drop_cp": 98,
+          "preferred_san": [
+            "Re8",
+            "a3"
+          ],
+          "fen": "r5k1/pp2brp1/3pQn1p/2pPn3/1q6/1PN2N2/P1PB2PP/5RKR b - - 6 19"
+        },
+        {
+          "ply": 21,
+          "move": "16...Qb4",
+          "reference_storm_cp_before": 157,
+          "reference_storm_cp_after": 63,
+          "estimated_drop_cp": 94,
+          "preferred_san": [
+            "Nbd7",
+            "Re1"
+          ],
+          "fen": "rn4k1/pp2brp1/1q1p1n1p/2pP4/5B2/1PN2N2/P1P1Q1PP/R5KR b - - 0 16"
+        },
+        {
+          "ply": 25,
+          "move": "18...Ne5",
+          "reference_storm_cp_before": 239,
+          "reference_storm_cp_after": 150,
+          "estimated_drop_cp": 89,
+          "preferred_san": [
+            "Re8",
+            "Na4"
+          ],
+          "fen": "r5k1/pp1nbrp1/3pQn1p/2pP4/1q6/1PN2N2/P1PB2PP/R5KR b - - 4 18"
+        },
+        {
+          "ply": 99,
+          "move": "55...Kg8",
+          "reference_storm_cp_before": 982,
+          "reference_storm_cp_after": 914,
+          "estimated_drop_cp": 68,
+          "preferred_san": [
+            "Kg6",
+            "Ra1"
+          ],
+          "fen": "8/6pk/r7/6p1/4K1P1/1p1P4/p5P1/7R b - - 1 55"
+        },
+        {
+          "ply": 103,
+          "move": "57...b1=Q",
+          "reference_storm_cp_before": 1344,
+          "reference_storm_cp_after": 1283,
+          "estimated_drop_cp": 61,
+          "preferred_san": [
+            "b1=Q",
+            "Rxb1",
+            "axb1=Q",
+            "g3",
+            "Qe1+",
+            "Kd5",
+            "Qe6+",
+            "Kd4"
+          ],
+          "fen": "6k1/6p1/r7/6p1/4K1P1/3P4/pp4P1/7R b - - 1 57"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-a-g7-o163",
+      "result": "1-0",
+      "storm_colour": "white",
+      "plies": 111,
+      "reference_initial_white_cp": -27,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 96,
+          "move": "53.g7",
+          "reference_storm_cp_before": 1189,
+          "reference_storm_cp_after": 996,
+          "estimated_drop_cp": 193,
+          "preferred_san": [
+            "g7",
+            "Kg4",
+            "h6",
+            "Kf3",
+            "g8=Q",
+            "Ke2",
+            "Qxd5",
+            "Kd2"
+          ],
+          "fen": "8/8/6P1/3p1k1P/3K4/8/5P2/8 w - - 0 53"
+        },
+        {
+          "ply": 92,
+          "move": "51.Nf5+",
+          "reference_storm_cp_before": 1060,
+          "reference_storm_cp_after": 920,
+          "estimated_drop_cp": 140,
+          "preferred_san": [
+            "Kxd5",
+            "Kd7"
+          ],
+          "fen": "8/4k3/7N/3p2PP/3K4/8/5P2/8 w - - 1 51"
+        },
+        {
+          "ply": 44,
+          "move": "27.exf6",
+          "reference_storm_cp_before": 769,
+          "reference_storm_cp_after": 654,
+          "estimated_drop_cp": 115,
+          "preferred_san": [
+            "exf6",
+            "Bc6",
+            "Rxe8+",
+            "Bxe8",
+            "Rc8",
+            "gxf6",
+            "Rxe8+",
+            "Kg7"
+          ],
+          "fen": "4r1k1/1p3ppp/r2p1nq1/4P3/1Q6/P4bP1/3N1P1P/2R1R1K1 w - - 0 27"
+        },
+        {
+          "ply": 16,
+          "move": "13.b5",
+          "reference_storm_cp_before": 20,
+          "reference_storm_cp_after": -56,
+          "estimated_drop_cp": 76,
+          "preferred_san": [
+            "cxd6",
+            "Bxd6"
+          ],
+          "fen": "r1b2rk1/ppp1bppp/2np1n2/2P4q/1P1pP3/P2B1N2/1B1N1PPP/R2Q1RK1 w - - 0 13"
+        },
+        {
+          "ply": 14,
+          "move": "12.Bb2",
+          "reference_storm_cp_before": 74,
+          "reference_storm_cp_after": 17,
+          "estimated_drop_cp": 57,
+          "preferred_san": [
+            "e5",
+            "Nd5"
+          ],
+          "fen": "r1b2rk1/ppppbppp/2n2n2/2P4q/1P1pP3/P2B1N2/3N1PPP/R1BQ1RK1 w - - 1 12"
+        },
+        {
+          "ply": 50,
+          "move": "30.Qxb7",
+          "reference_storm_cp_before": 673,
+          "reference_storm_cp_after": 617,
+          "estimated_drop_cp": 56,
+          "preferred_san": [
+            "Rc7",
+            "d4",
+            "Rce7",
+            "h6",
+            "Re8+",
+            "Rxe8",
+            "Rxe8+",
+            "Kh7"
+          ],
+          "fen": "3r2k1/1p3ppp/r4q2/3p4/1Q6/P4NP1/5PKP/2R1R3 w - - 0 30"
+        },
+        {
+          "ply": 90,
+          "move": "50.h5",
+          "reference_storm_cp_before": 1053,
+          "reference_storm_cp_after": 1009,
+          "estimated_drop_cp": 44,
+          "preferred_san": [
+            "Kxd5",
+            "Ke7"
+          ],
+          "fen": "5k2/8/7N/3p2P1/3K3P/8/5P2/8 w - - 1 50"
+        },
+        {
+          "ply": 66,
+          "move": "38.Qxe7+",
+          "reference_storm_cp_before": 727,
+          "reference_storm_cp_after": 686,
+          "estimated_drop_cp": 41,
+          "preferred_san": [
+            "Qb5",
+            "Qc7",
+            "Nf3",
+            "g5",
+            "Qb4",
+            "Qc2",
+            "Ne5+",
+            "Kf6"
+          ],
+          "fen": "8/3Qqkp1/4p2p/3p4/P2N4/6P1/5PKP/8 w - - 6 38"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-a-g8-o163",
+      "result": "0-1",
+      "storm_colour": "black",
+      "plies": 118,
+      "reference_initial_white_cp": -27,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 89,
+          "move": "49...f4+",
+          "reference_storm_cp_before": 1315,
+          "reference_storm_cp_after": 1029,
+          "estimated_drop_cp": 286,
+          "preferred_san": [
+            "f4+",
+            "Kg2",
+            "h4",
+            "Kh3",
+            "Kh5",
+            "Kg2",
+            "Kg4",
+            "Kf2"
+          ],
+          "fen": "8/8/8/5pkp/8/6K1/8/8 b - - 3 49"
+        },
+        {
+          "ply": 87,
+          "move": "48...Kg5",
+          "reference_storm_cp_before": 805,
+          "reference_storm_cp_after": 583,
+          "estimated_drop_cp": 222,
+          "preferred_san": [
+            "Kg5",
+            "Kg3"
+          ],
+          "fen": "8/8/8/5p1p/7k/5K2/8/8 b - - 1 48"
+        },
+        {
+          "ply": 93,
+          "move": "51...Kg4",
+          "reference_storm_cp_before": 1421,
+          "reference_storm_cp_after": 1228,
+          "estimated_drop_cp": 193,
+          "preferred_san": [
+            "Kg4",
+            "Kf2",
+            "h3",
+            "Kf1",
+            "Kf3",
+            "Ke1",
+            "Kg3",
+            "Ke2"
+          ],
+          "fen": "8/8/8/6k1/5p1p/8/6K1/8 b - - 1 51"
+        },
+        {
+          "ply": 3,
+          "move": "6...Bd6",
+          "reference_storm_cp_before": 42,
+          "reference_storm_cp_after": -106,
+          "estimated_drop_cp": 148,
+          "preferred_san": [
+            "a5",
+            "Bd3"
+          ],
+          "fen": "r1b1kbnr/pppp1ppp/2n5/8/1qPpP3/5N2/PP1N1PPP/R1BQKB1R b KQkq - 4 6"
+        },
+        {
+          "ply": 67,
+          "move": "38...Rxc3",
+          "reference_storm_cp_before": 440,
+          "reference_storm_cp_after": 306,
+          "estimated_drop_cp": 134,
+          "preferred_san": [
+            "Nxd5",
+            "Nxd5+"
+          ],
+          "fen": "8/5p2/5k2/3R1P1p/1n5P/r1N3P1/1K6/8 b - - 2 38"
+        },
+        {
+          "ply": 59,
+          "move": "34...d5",
+          "reference_storm_cp_before": 108,
+          "reference_storm_cp_after": 7,
+          "estimated_drop_cp": 101,
+          "preferred_san": [
+            "Nc4",
+            "Rb1"
+          ],
+          "fen": "8/5p2/2pp1k2/4nP1p/4P2P/r1N3P1/2K5/3R4 b - - 5 34"
+        },
+        {
+          "ply": 71,
+          "move": "40...Na2+",
+          "reference_storm_cp_before": 519,
+          "reference_storm_cp_after": 430,
+          "estimated_drop_cp": 89,
+          "preferred_san": [
+            "Kxd6",
+            "Kxb4"
+          ],
+          "fen": "8/5p2/3R4/4kP1p/1n5P/2K3P1/8/8 b - - 0 40"
+        },
+        {
+          "ply": 23,
+          "move": "16...Ng6",
+          "reference_storm_cp_before": -47,
+          "reference_storm_cp_after": -134,
+          "estimated_drop_cp": 87,
+          "preferred_san": [
+            "Ned7",
+            "Bg2"
+          ],
+          "fen": "r1b2rk1/ppp2ppp/3p1n2/1P2n3/2PBPP2/P5P1/3N3P/3RKB1R b K - 0 16"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-a-g9-o164",
+      "result": "1-0",
+      "storm_colour": "white",
+      "plies": 161,
+      "reference_initial_white_cp": 80,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 142,
+          "move": "76.Ra3",
+          "reference_storm_cp_before": 1280,
+          "reference_storm_cp_after": 1065,
+          "estimated_drop_cp": 215,
+          "preferred_san": [
+            "Ra5",
+            "Kc7",
+            "f4",
+            "Kd8",
+            "Ra8+",
+            "Kc7",
+            "e7",
+            "Kc6"
+          ],
+          "fen": "8/1k6/R3P3/2B5/8/5P2/6PK/8 w - - 1 76"
+        },
+        {
+          "ply": 20,
+          "move": "15.Be3",
+          "reference_storm_cp_before": 397,
+          "reference_storm_cp_after": 261,
+          "estimated_drop_cp": 136,
+          "preferred_san": [
+            "Bxc6",
+            "Qxc6"
+          ],
+          "fen": "r3kr2/pp1qbppp/2n2n2/2pBp3/4P3/1QP2N2/PP3PPP/R1B2RK1 w - - 0 15"
+        },
+        {
+          "ply": 32,
+          "move": "21.Qxf7+",
+          "reference_storm_cp_before": 343,
+          "reference_storm_cp_after": 210,
+          "estimated_drop_cp": 133,
+          "preferred_san": [
+            "Qa4+",
+            "Qd7",
+            "Qxa5",
+            "Nxe4",
+            "Nf3",
+            "Qc6",
+            "Rfe1",
+            "Bc7"
+          ],
+          "fen": "2r1k1r1/pp3q1p/3b1np1/n1p1p1B1/4P2N/1QP5/PP3PPP/3R1RK1 w - - 0 21"
+        },
+        {
+          "ply": 16,
+          "move": "13.Qb3",
+          "reference_storm_cp_before": 260,
+          "reference_storm_cp_after": 128,
+          "estimated_drop_cp": 132,
+          "preferred_san": [
+            "dxc5",
+            "dxc5",
+            "Bxc6",
+            "Qxc6",
+            "Nxe5",
+            "Qe6",
+            "Bf4",
+            "a6"
+          ],
+          "fen": "r3k2r/pp1qbppp/2np1n2/2pBp3/3PP3/2P2N2/PP3PPP/R1BQ1RK1 w - - 1 13"
+        },
+        {
+          "ply": 122,
+          "move": "66.Bxe5",
+          "reference_storm_cp_before": 856,
+          "reference_storm_cp_after": 730,
+          "estimated_drop_cp": 126,
+          "preferred_san": [
+            "Nd7",
+            "Ka6",
+            "Nb8+",
+            "Ka7",
+            "Nc6+",
+            "Ka6",
+            "Bd8",
+            "Rb5"
+          ],
+          "fen": "8/k7/5B2/r1N1p3/4P3/1R3P2/6PK/8 w - - 9 66"
+        },
+        {
+          "ply": 28,
+          "move": "19.Bg5",
+          "reference_storm_cp_before": 418,
+          "reference_storm_cp_after": 327,
+          "estimated_drop_cp": 91,
+          "preferred_san": [
+            "Nf3",
+            "Na5",
+            "Qc2",
+            "Nxd5",
+            "Rxd5",
+            "f6",
+            "Rfd1",
+            "Rc6"
+          ],
+          "fen": "2r1k1r1/pp1q1p1p/2nb1npB/2pBp3/4P2N/1QP5/PP3PPP/3R1RK1 w - - 2 19"
+        },
+        {
+          "ply": 136,
+          "move": "73.Ra5",
+          "reference_storm_cp_before": 1076,
+          "reference_storm_cp_after": 989,
+          "estimated_drop_cp": 87,
+          "preferred_san": [
+            "Rb6",
+            "Kd7",
+            "g3",
+            "Kc7",
+            "Kg1",
+            "Kc8",
+            "Bd6",
+            "Kd7"
+          ],
+          "fen": "8/2k5/R7/2B1P3/8/5P2/6PK/8 w - - 1 73"
+        },
+        {
+          "ply": 24,
+          "move": "17.Nh4",
+          "reference_storm_cp_before": 451,
+          "reference_storm_cp_after": 365,
+          "estimated_drop_cp": 86,
+          "preferred_san": [
+            "Rd2",
+            "c4"
+          ],
+          "fen": "2r1kr2/pp1q1ppp/2nb1n2/2pBp3/4P3/1QP1BN2/PP3PPP/3R1RK1 w - - 4 17"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-a-g10-o164",
+      "result": "0-1",
+      "storm_colour": "black",
+      "plies": 176,
+      "reference_initial_white_cp": 80,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 105,
+          "move": "57...e2+",
+          "reference_storm_cp_before": 727,
+          "reference_storm_cp_after": 565,
+          "estimated_drop_cp": 162,
+          "preferred_san": [
+            "Kc4",
+            "Kc1",
+            "Kc3",
+            "Kb1",
+            "Ra6",
+            "Rc7+",
+            "Kd3"
+          ],
+          "fen": "8/P3R3/3p2pp/3k4/3p4/4p2P/r7/3K4 b - - 0 57"
+        },
+        {
+          "ply": 59,
+          "move": "34...Rc3",
+          "reference_storm_cp_before": 245,
+          "reference_storm_cp_after": 123,
+          "estimated_drop_cp": 122,
+          "preferred_san": [
+            "Rc5",
+            "Kf1"
+          ],
+          "fen": "1rr5/p2bkp2/3p2pp/Pp1Pp3/3pP3/P2P3P/4BPP1/2R1R1K1 b - - 2 34"
+        },
+        {
+          "ply": 15,
+          "move": "12...Bd7",
+          "reference_storm_cp_before": -23,
+          "reference_storm_cp_after": -136,
+          "estimated_drop_cp": 113,
+          "preferred_san": [
+            "Nxd5",
+            "cxd5"
+          ],
+          "fen": "r1bqkr2/pp2bppp/3p1n2/2pNp3/2PnP3/3PBN2/PP2BPPP/2RQ1RK1 b - - 6 12"
+        },
+        {
+          "ply": 19,
+          "move": "14...Qa5",
+          "reference_storm_cp_before": -33,
+          "reference_storm_cp_after": -138,
+          "estimated_drop_cp": 105,
+          "preferred_san": [
+            "Nxf3+",
+            "Bxf3",
+            "Rh8",
+            "Bg4",
+            "Bf6",
+            "Bxd7+",
+            "Qxd7",
+            "Qd2"
+          ],
+          "fen": "r2qkr2/pp1bbppp/3p4/2pPp3/3nP3/3PBN2/PP2BPPP/2RQR1K1 b - - 0 14"
+        },
+        {
+          "ply": 103,
+          "move": "56...Ra2",
+          "reference_storm_cp_before": 737,
+          "reference_storm_cp_after": 655,
+          "estimated_drop_cp": 82,
+          "preferred_san": [
+            "Ra2",
+            "a7"
+          ],
+          "fen": "8/4R3/P2p2pp/3k4/3p4/4p2P/6r1/3K4 b - - 1 56"
+        },
+        {
+          "ply": 45,
+          "move": "27...Ke8",
+          "reference_storm_cp_before": 32,
+          "reference_storm_cp_after": -47,
+          "estimated_drop_cp": 79,
+          "preferred_san": [
+            "Ke7",
+            "Nc4"
+          ],
+          "fen": "1r1b1r2/pp1k1pp1/3p3p/Nb1Pp3/1P1pP1B1/P2P3P/2R2PP1/4R1K1 b - - 6 27"
+        },
+        {
+          "ply": 13,
+          "move": "11...Nd4",
+          "reference_storm_cp_before": -54,
+          "reference_storm_cp_after": -128,
+          "estimated_drop_cp": 74,
+          "preferred_san": [
+            "Rh8",
+            "Nd2"
+          ],
+          "fen": "r1bqkr2/pp2bppp/2np1n2/2pNp3/2P1P3/3PBN2/PP2BPPP/R2Q1RK1 b - - 4 11"
+        },
+        {
+          "ply": 61,
+          "move": "35...b4",
+          "reference_storm_cp_before": 270,
+          "reference_storm_cp_after": 211,
+          "estimated_drop_cp": 59,
+          "preferred_san": [
+            "Rbc8",
+            "Reb1"
+          ],
+          "fen": "1r6/p2bkp2/3p2pp/Pp1Pp3/3pP3/P1rP3P/4BPP1/R3R1K1 b - - 4 35"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-a-g11-o165",
+      "result": "1/2-1/2",
+      "storm_colour": "white",
+      "plies": 24,
+      "reference_initial_white_cp": -22,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 22,
+          "move": "17.Ra5",
+          "reference_storm_cp_before": -9,
+          "reference_storm_cp_after": -85,
+          "estimated_drop_cp": 76,
+          "preferred_san": [
+            "Ra4",
+            "Bg4"
+          ],
+          "fen": "r1b1kb1r/pp3ppp/n1p3n1/4p3/2P1P3/RP3NN1/1P1B1PPP/4KB1R w Kkq - 9 17"
+        },
+        {
+          "ply": 14,
+          "move": "13.Ng3",
+          "reference_storm_cp_before": -60,
+          "reference_storm_cp_after": -110,
+          "estimated_drop_cp": 50,
+          "preferred_san": [
+            "Nc1",
+            "Nc5"
+          ],
+          "fen": "r1b1kb1r/pp3ppp/n1p3n1/4p3/2P1P3/1P3N2/1P1BNPPP/R3KB1R w KQkq - 1 13"
+        },
+        {
+          "ply": 4,
+          "move": "8.c4",
+          "reference_storm_cp_before": -17,
+          "reference_storm_cp_after": -66,
+          "estimated_drop_cp": 49,
+          "preferred_san": [
+            "Ng3",
+            "g6"
+          ],
+          "fen": "rnb1kb1r/ppq1nppp/2p5/3pp3/4P3/3P4/PPPBNPPP/R2QKBNR w KQkq - 0 8"
+        },
+        {
+          "ply": 8,
+          "move": "10.Nf3",
+          "reference_storm_cp_before": -50,
+          "reference_storm_cp_after": -84,
+          "estimated_drop_cp": 34,
+          "preferred_san": [
+            "h4",
+            "Qb6"
+          ],
+          "fen": "rnb1kb1r/ppq2ppp/2p3n1/4p3/2P1P3/8/PP1BNPPP/R2QKBNR w KQkq - 1 10"
+        },
+        {
+          "ply": 12,
+          "move": "12.axb3",
+          "reference_storm_cp_before": -66,
+          "reference_storm_cp_after": -88,
+          "estimated_drop_cp": 22,
+          "preferred_san": [
+            "axb3",
+            "Na6",
+            "Nc1",
+            "Nc5",
+            "Bd3",
+            "Bg4",
+            "b4",
+            "Bxf3"
+          ],
+          "fen": "rnb1kb1r/pp3ppp/2p3n1/4p3/2P1P3/1q3N2/PP1BNPPP/R3KB1R w KQkq - 0 12"
+        },
+        {
+          "ply": 10,
+          "move": "11.Qb3",
+          "reference_storm_cp_before": -66,
+          "reference_storm_cp_after": -79,
+          "estimated_drop_cp": 13,
+          "preferred_san": [
+            "Nc1",
+            "Na6"
+          ],
+          "fen": "rnb1kb1r/pp3ppp/1qp3n1/4p3/2P1P3/5N2/PP1BNPPP/R2QKB1R w KQkq - 3 11"
+        },
+        {
+          "ply": 16,
+          "move": "14.Ra3",
+          "reference_storm_cp_before": -11,
+          "reference_storm_cp_after": -20,
+          "estimated_drop_cp": 9,
+          "preferred_san": [
+            "Ra3",
+            "Na6",
+            "Ra4",
+            "Bg4",
+            "b4",
+            "Bxf3",
+            "gxf3",
+            "Nf4"
+          ],
+          "fen": "r1b1kb1r/pp3ppp/2p3n1/2n1p3/2P1P3/1P3NN1/1P1B1PPP/R3KB1R w KQkq - 3 14"
+        },
+        {
+          "ply": 20,
+          "move": "16.Ra3",
+          "reference_storm_cp_before": -20,
+          "reference_storm_cp_after": -26,
+          "estimated_drop_cp": 6,
+          "preferred_san": [
+            "Ra3",
+            "Na6"
+          ],
+          "fen": "r1b1kb1r/pp3ppp/2p3n1/2n1p3/R1P1P3/1P3NN1/1P1B1PPP/4KB1R w Kkq - 7 16"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-a-g12-o165",
+      "result": "1-0",
+      "storm_colour": "black",
+      "plies": 205,
+      "reference_initial_white_cp": -22,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 159,
+          "move": "85...Rf4+",
+          "reference_storm_cp_before": -6,
+          "reference_storm_cp_after": -441,
+          "estimated_drop_cp": 435,
+          "preferred_san": [
+            "Kc7",
+            "Re2"
+          ],
+          "fen": "2k5/5KP1/8/8/4p1r1/7p/R7/8 b - - 2 85"
+        },
+        {
+          "ply": 165,
+          "move": "88...Rxg7",
+          "reference_storm_cp_before": -48,
+          "reference_storm_cp_after": -454,
+          "estimated_drop_cp": 406,
+          "preferred_san": [
+            "h2",
+            "Kxg4"
+          ],
+          "fen": "R7/2k3P1/8/5K2/4p1r1/7p/8/8 b - - 8 88"
+        },
+        {
+          "ply": 155,
+          "move": "83...Rf4",
+          "reference_storm_cp_before": -1,
+          "reference_storm_cp_after": -332,
+          "estimated_drop_cp": 331,
+          "preferred_san": [
+            "Rg3",
+            "Kf7"
+          ],
+          "fen": "2k5/4K3/6P1/8/4p3/5r1p/R7/8 b - - 5 83"
+        },
+        {
+          "ply": 89,
+          "move": "50...Ra1",
+          "reference_storm_cp_before": 202,
+          "reference_storm_cp_after": 10,
+          "estimated_drop_cp": 192,
+          "preferred_san": [
+            "Ra3",
+            "Kg3"
+          ],
+          "fen": "8/5p1k/6pp/p3P3/r7/5P1P/6RK/8 b - - 0 50"
+        },
+        {
+          "ply": 85,
+          "move": "48...Qxe5+",
+          "reference_storm_cp_before": 362,
+          "reference_storm_cp_after": 175,
+          "estimated_drop_cp": 187,
+          "preferred_san": [
+            "Kg7",
+            "Rg4",
+            "Rxa4",
+            "Qxf6+",
+            "Kxf6",
+            "Rf4+",
+            "Kg7",
+            "Re4"
+          ],
+          "fen": "8/5p1k/5qpp/p3Q3/P1rP4/7P/5PRK/8 b - - 1 48"
+        },
+        {
+          "ply": 105,
+          "move": "58...h5",
+          "reference_storm_cp_before": 200,
+          "reference_storm_cp_after": 71,
+          "estimated_drop_cp": 129,
+          "preferred_san": [
+            "g5+",
+            "hxg5"
+          ],
+          "fen": "6k1/R4p2/6pp/4P3/5K1P/5P2/p7/r7 b - - 0 58"
+        },
+        {
+          "ply": 29,
+          "move": "20...Nd4",
+          "reference_storm_cp_before": 123,
+          "reference_storm_cp_after": 13,
+          "estimated_drop_cp": 110,
+          "preferred_san": [
+            "Rad8",
+            "h4"
+          ],
+          "fen": "r4rk1/pp2qppp/2n3n1/2p1p1N1/2P3Q1/3PB3/PP3PPP/R4RK1 b - - 0 20"
+        },
+        {
+          "ply": 133,
+          "move": "72...g5+",
+          "reference_storm_cp_before": 92,
+          "reference_storm_cp_after": -2,
+          "estimated_drop_cp": 94,
+          "preferred_san": [
+            "Kb7",
+            "Ra4"
+          ],
+          "fen": "1k6/5p2/6p1/R3P2p/5K1P/5P2/p7/r7 b - - 27 72"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-a-g13-o166",
+      "result": "1-0",
+      "storm_colour": "white",
+      "plies": 105,
+      "reference_initial_white_cp": 705,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 78,
+          "move": "45.Nd7",
+          "reference_storm_cp_before": 1055,
+          "reference_storm_cp_after": 827,
+          "estimated_drop_cp": 228,
+          "preferred_san": [
+            "Rg7+",
+            "Kh8",
+            "Ng6+",
+            "Rxg6",
+            "Rxg6",
+            "Re8",
+            "Rf6",
+            "Kg8"
+          ],
+          "fen": "r5k1/2R1R3/4P2r/4N3/8/p1K5/P1P2P2/8 w - - 5 45"
+        },
+        {
+          "ply": 14,
+          "move": "13.Qf3",
+          "reference_storm_cp_before": 645,
+          "reference_storm_cp_after": 560,
+          "estimated_drop_cp": 85,
+          "preferred_san": [
+            "Nf3",
+            "b5",
+            "Bh6",
+            "Ng4",
+            "Bg5",
+            "Qe6",
+            "h3",
+            "Nf6"
+          ],
+          "fen": "r3k2r/1p2qp1p/p1pb1np1/2p1p3/4P2N/2N1B3/PPP1QPPP/2KR3R w kq - 0 13"
+        },
+        {
+          "ply": 44,
+          "move": "28.Rfxf7",
+          "reference_storm_cp_before": 719,
+          "reference_storm_cp_after": 659,
+          "estimated_drop_cp": 60,
+          "preferred_san": [
+            "Nxg7",
+            "Rxg7",
+            "Rd1",
+            "Rf8",
+            "Nxe5",
+            "Re8"
+          ],
+          "fen": "r5k1/1p1R1pb1/p1p1N3/4pR2/2p1P3/5N2/PPP2Pr1/2K5 w - - 6 28"
+        },
+        {
+          "ply": 58,
+          "move": "35.Ke3",
+          "reference_storm_cp_before": 778,
+          "reference_storm_cp_after": 725,
+          "estimated_drop_cp": 53,
+          "preferred_san": [
+            "Nf3",
+            "c5",
+            "Rxc5",
+            "Rg4",
+            "Rcc7",
+            "b3",
+            "axb3",
+            "Rgf4"
+          ],
+          "fen": "5rk1/2R1R3/p1p5/4N3/1pp1P3/8/PPP1KPr1/8 w - - 1 35"
+        },
+        {
+          "ply": 32,
+          "move": "22.Rxh5",
+          "reference_storm_cp_before": 652,
+          "reference_storm_cp_after": 603,
+          "estimated_drop_cp": 49,
+          "preferred_san": [
+            "g3",
+            "Rh8",
+            "Nh4",
+            "b5",
+            "Ne2",
+            "a5",
+            "f3",
+            "b4"
+          ],
+          "fen": "r3k1r1/1p3p2/p1p2b2/2p1p2p/4P3/2N2N2/PPP2PP1/2KR3R w q - 0 22"
+        },
+        {
+          "ply": 8,
+          "move": "10.O-O-O",
+          "reference_storm_cp_before": 734,
+          "reference_storm_cp_after": 686,
+          "estimated_drop_cp": 48,
+          "preferred_san": [
+            "Qf3",
+            "b5",
+            "h4",
+            "c4",
+            "Nge2",
+            "b4",
+            "Nb1",
+            "c3"
+          ],
+          "fen": "r2qk2r/1pp2ppp/p2b1n2/2p1p3/4P3/2N1B3/PPP1QPPP/R3K1NR w KQkq - 4 10"
+        },
+        {
+          "ply": 34,
+          "move": "23.Rf5",
+          "reference_storm_cp_before": 629,
+          "reference_storm_cp_after": 585,
+          "estimated_drop_cp": 44,
+          "preferred_san": [
+            "Nxe5",
+            "Ke7",
+            "Rf1",
+            "Rg5",
+            "Rxg5",
+            "Bxg5+",
+            "Kb1",
+            "Bf6"
+          ],
+          "fen": "r3k3/1p3p2/p1p2b2/2p1p2R/4P3/2N2N2/PPP2Pr1/2KR4 w q - 0 23"
+        },
+        {
+          "ply": 20,
+          "move": "16.Qg4",
+          "reference_storm_cp_before": 645,
+          "reference_storm_cp_after": 609,
+          "estimated_drop_cp": 36,
+          "preferred_san": [
+            "Qg4",
+            "Qxg4",
+            "hxg4",
+            "Nf6",
+            "Bg7",
+            "Nxg4",
+            "Bxh8",
+            "Bg5+"
+          ],
+          "fen": "r3k2r/1p2bp1p/p1p1q1pB/2p1p2n/4P2N/2N2Q1P/PPP2PP1/2KR3R w kq - 1 16"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-a-g14-o166",
+      "result": "1-0",
+      "storm_colour": "black",
+      "plies": 121,
+      "reference_initial_white_cp": 705,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 101,
+          "move": "56...Kd7",
+          "reference_storm_cp_before": -718,
+          "reference_storm_cp_after": -811,
+          "estimated_drop_cp": 93,
+          "preferred_san": [
+            "Kxc7",
+            "Rb3",
+            "Kd7",
+            "Re3",
+            "Kd8",
+            "Re4",
+            "Kd7",
+            "Kf4"
+          ],
+          "fen": "1R6/2N5/2k2p2/8/8/5KP1/5P2/8 b - - 0 56"
+        },
+        {
+          "ply": 49,
+          "move": "30...Nd4",
+          "reference_storm_cp_before": -599,
+          "reference_storm_cp_after": -684,
+          "estimated_drop_cp": 85,
+          "preferred_san": [
+            "Bf8",
+            "Bb6",
+            "Ra8",
+            "Nd2",
+            "Ra2",
+            "Rb1",
+            "Ng5"
+          ],
+          "fen": "3r2k1/5pp1/3bn3/1p1Np2P/2p1P1p1/4B1P1/1PP2P2/3R1NK1 b - - 7 30"
+        },
+        {
+          "ply": 31,
+          "move": "21...Qg4",
+          "reference_storm_cp_before": -597,
+          "reference_storm_cp_after": -678,
+          "estimated_drop_cp": 81,
+          "preferred_san": [
+            "bxa4",
+            "Qf5",
+            "Qxf5",
+            "exf5",
+            "c3",
+            "bxc3",
+            "Nf8",
+            "Ne2"
+          ],
+          "fen": "4k2r/B3bpp1/2p3n1/1p2p2p/P1p1P2P/5QPq/1PPN1P2/2N2RK1 b k - 0 21"
+        },
+        {
+          "ply": 23,
+          "move": "17...Qg4",
+          "reference_storm_cp_before": -528,
+          "reference_storm_cp_after": -606,
+          "estimated_drop_cp": 78,
+          "preferred_san": [
+            "Qh3",
+            "Re1",
+            "c4",
+            "Nbd2",
+            "c3",
+            "bxc3",
+            "Nf4",
+            "gxf4"
+          ],
+          "fen": "2q1k2r/p3bpp1/1pp3n1/2p1p2p/P3P2P/1N2BNP1/1PP2P2/3Q1RK1 b k - 0 17"
+        },
+        {
+          "ply": 33,
+          "move": "22...O-O",
+          "reference_storm_cp_before": -608,
+          "reference_storm_cp_after": -675,
+          "estimated_drop_cp": 67,
+          "preferred_san": [
+            "Qxf3",
+            "Nxf3",
+            "bxa4",
+            "Nc3",
+            "O-O",
+            "Be3",
+            "Ra8",
+            "Ra1"
+          ],
+          "fen": "4k2r/B3bpp1/2p3n1/1p2p2p/P1p1P1qP/5QP1/1PPNNP2/5RK1 b k - 2 22"
+        },
+        {
+          "ply": 105,
+          "move": "58...f5+",
+          "reference_storm_cp_before": -803,
+          "reference_storm_cp_after": -868,
+          "estimated_drop_cp": 65,
+          "preferred_san": [
+            "Kd6",
+            "Rb6+",
+            "Kc5",
+            "Rxf6",
+            "Kb5",
+            "Rh6",
+            "Kc5",
+            "Ke5"
+          ],
+          "fen": "1R6/8/4kp2/3N4/4K3/6P1/5P2/8 b - - 4 58"
+        },
+        {
+          "ply": 3,
+          "move": "7...c6",
+          "reference_storm_cp_before": -702,
+          "reference_storm_cp_after": -758,
+          "estimated_drop_cp": 56,
+          "preferred_san": [
+            "Ne7",
+            "Nf3",
+            "f6",
+            "Bd2",
+            "Nc6",
+            "c3",
+            "Qd7",
+            "Na3"
+          ],
+          "fen": "r2qkbnr/ppp2ppp/8/2p1p3/4P3/8/PPP1QPPP/RNB1K1NR b KQkq - 1 7"
+        },
+        {
+          "ply": 91,
+          "move": "51...Kd6",
+          "reference_storm_cp_before": -707,
+          "reference_storm_cp_after": -762,
+          "estimated_drop_cp": 55,
+          "preferred_san": [
+            "Kd6",
+            "Rg7",
+            "Rc8",
+            "Rd7+",
+            "Kc5",
+            "f4",
+            "Rxc6",
+            "Nxc6"
+          ],
+          "fen": "3r4/1R2k3/2P2p2/8/3N4/6P1/5PK1/8 b - - 2 51"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-a-g15-o167",
+      "result": "1-0",
+      "storm_colour": "white",
+      "plies": 95,
+      "reference_initial_white_cp": 832,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 70,
+          "move": "40.Na5",
+          "reference_storm_cp_before": 1178,
+          "reference_storm_cp_after": 998,
+          "estimated_drop_cp": 180,
+          "preferred_san": [
+            "Ba5",
+            "Be7"
+          ],
+          "fen": "2k2b2/8/PBN5/1Pp4p/2P1p3/4P3/5PPP/6K1 w - - 1 40"
+        },
+        {
+          "ply": 18,
+          "move": "14.O-O",
+          "reference_storm_cp_before": 844,
+          "reference_storm_cp_after": 702,
+          "estimated_drop_cp": 142,
+          "preferred_san": [
+            "Nxg7",
+            "Rxg7",
+            "Nf3",
+            "N6d7",
+            "Ng5",
+            "h6"
+          ],
+          "fen": "2k1rnr1/1pp1p1bp/p3Nnp1/3p4/3N4/3PP3/PPP1BPPP/R1B1K2R w KQ - 6 14"
+        },
+        {
+          "ply": 52,
+          "move": "31.Bxh5",
+          "reference_storm_cp_before": 829,
+          "reference_storm_cp_after": 755,
+          "estimated_drop_cp": 74,
+          "preferred_san": [
+            "Rd7",
+            "Nf6",
+            "Re7",
+            "Be1",
+            "Bd6+",
+            "Kc8",
+            "Rc7+",
+            "Kd8"
+          ],
+          "fen": "5r2/1kB4p/Np4p1/1Pp4n/P1P1p3/2b1P3/4BPPP/3R2K1 w - - 1 31"
+        },
+        {
+          "ply": 20,
+          "move": "15.c4",
+          "reference_storm_cp_before": 809,
+          "reference_storm_cp_after": 743,
+          "estimated_drop_cp": 66,
+          "preferred_san": [
+            "Nc5",
+            "e5",
+            "Ndb3",
+            "b6",
+            "Na4",
+            "Bg7",
+            "Rb1",
+            "N8d7"
+          ],
+          "fen": "2k1rnr1/1pp1p2p/p3Nnpb/3p4/3N4/3PP3/PPP1BPPP/R1B2RK1 w - - 8 15"
+        },
+        {
+          "ply": 10,
+          "move": "10.Ng5",
+          "reference_storm_cp_before": 876,
+          "reference_storm_cp_after": 821,
+          "estimated_drop_cp": 55,
+          "preferred_san": [
+            "Nxa7+",
+            "Kb8",
+            "Nb5",
+            "c6",
+            "Na3",
+            "e5",
+            "Be2",
+            "Bf8"
+          ],
+          "fen": "2kr3r/pppnp1bp/5np1/1N1p4/8/3PPN2/PPP2PPP/R1B1KB1R w KQ - 6 10"
+        },
+        {
+          "ply": 2,
+          "move": "6.Qxd7+",
+          "reference_storm_cp_before": 926,
+          "reference_storm_cp_after": 876,
+          "estimated_drop_cp": 50,
+          "preferred_san": [
+            "Qxd7+",
+            "Nxd7",
+            "g3",
+            "Kd8",
+            "Bh3",
+            "g5",
+            "Na3"
+          ],
+          "fen": "rn2kbnr/pppqp2p/4Q1p1/3p4/8/3PP3/PPP2PPP/RNB1KBNR w KQkq - 1 6"
+        },
+        {
+          "ply": 46,
+          "move": "28.Be5",
+          "reference_storm_cp_before": 794,
+          "reference_storm_cp_after": 750,
+          "estimated_drop_cp": 44,
+          "preferred_san": [
+            "a5",
+            "Rxd1",
+            "Rxd1",
+            "Rd8",
+            "Bd2",
+            "Ng7",
+            "g3",
+            "h5"
+          ],
+          "fen": "3r1r2/1k5p/Np4p1/1Pp3bn/P1P1p3/2B1P3/4BPPP/3R1RK1 w - - 1 28"
+        },
+        {
+          "ply": 40,
+          "move": "25.b5",
+          "reference_storm_cp_before": 839,
+          "reference_storm_cp_after": 803,
+          "estimated_drop_cp": 36,
+          "preferred_san": [
+            "bxc5",
+            "Kxa6",
+            "Rfb1",
+            "bxc5",
+            "Rb5",
+            "Rb8",
+            "Rxb8",
+            "Rxb8"
+          ],
+          "fen": "4rr2/1k5p/Np3npb/2p5/1PP1p3/2B1P3/P3BPPP/R4RK1 w - - 1 25"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-a-g16-o167",
+      "result": "1-0",
+      "storm_colour": "black",
+      "plies": 129,
+      "reference_initial_white_cp": 832,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 115,
+          "move": "62...Kb8",
+          "reference_storm_cp_before": -1294,
+          "reference_storm_cp_after": -1491,
+          "estimated_drop_cp": 197,
+          "preferred_san": [
+            "Kb8",
+            "d7",
+            "Kxc7",
+            "d8=Q+",
+            "Kb7",
+            "Qd6",
+            "Ka8",
+            "Qc6+"
+          ],
+          "fen": "2k5/2R5/1n1P4/p5B1/P2P2P1/1P5P/5P2/6K1 b - - 2 62"
+        },
+        {
+          "ply": 103,
+          "move": "56...Rxd5",
+          "reference_storm_cp_before": -907,
+          "reference_storm_cp_after": -1053,
+          "estimated_drop_cp": 146,
+          "preferred_san": [
+            "Rxd5",
+            "cxd5",
+            "Ke8",
+            "h4",
+            "Kf7",
+            "Rb7+",
+            "Kf6"
+          ],
+          "fen": "3k1n2/8/1R6/p1rB4/P1PP1BP1/1P5P/5P2/6K1 b - - 0 56"
+        },
+        {
+          "ply": 1,
+          "move": "5...Qd7",
+          "reference_storm_cp_before": -803,
+          "reference_storm_cp_after": -926,
+          "estimated_drop_cp": 123,
+          "preferred_san": [
+            "Nf6",
+            "d4",
+            "c6",
+            "Be2",
+            "Ne4",
+            "Qg4",
+            "e5",
+            "dxe5"
+          ],
+          "fen": "rn1qkbnr/ppp1p2p/4Q1p1/3p4/8/3PP3/PPP2PPP/RNB1KBNR b KQkq - 0 5"
+        },
+        {
+          "ply": 107,
+          "move": "58...Kc8",
+          "reference_storm_cp_before": -973,
+          "reference_storm_cp_after": -1058,
+          "estimated_drop_cp": 85,
+          "preferred_san": [
+            "Nf6",
+            "d6",
+            "Nd7",
+            "b4",
+            "axb4",
+            "Rxb4",
+            "Kc8"
+          ],
+          "fen": "3k4/1R1n4/8/p2P4/P2P1BP1/1P5P/5P2/6K1 b - - 2 58"
+        },
+        {
+          "ply": 65,
+          "move": "37...Rg6",
+          "reference_storm_cp_before": -772,
+          "reference_storm_cp_after": -855,
+          "estimated_drop_cp": 83,
+          "preferred_san": [
+            "Rg6",
+            "Rxg6",
+            "Rxg6",
+            "Bg2",
+            "Ne6",
+            "Be4",
+            "Rg8",
+            "Bf5"
+          ],
+          "fen": "6r1/2k3r1/1pB2R2/p1n3p1/P2p2Pp/1P1P3P/2PB1P2/4R1K1 b - - 2 37"
+        },
+        {
+          "ply": 85,
+          "move": "47...Ke8",
+          "reference_storm_cp_before": -759,
+          "reference_storm_cp_after": -826,
+          "estimated_drop_cp": 67,
+          "preferred_san": [
+            "Nf6",
+            "Rxg5",
+            "Rxg5",
+            "Bxg5",
+            "Kc8",
+            "Be6+",
+            "Kb8",
+            "Bf4+"
+          ],
+          "fen": "3k4/3n2r1/1p6/p2B2pR/P5Pp/1P1PB2P/2P2P2/6K1 b - - 4 47"
+        },
+        {
+          "ply": 39,
+          "move": "24...Bxg5",
+          "reference_storm_cp_before": -697,
+          "reference_storm_cp_after": -751,
+          "estimated_drop_cp": 54,
+          "preferred_san": [
+            "Bxg5",
+            "Bxg5",
+            "Nc7",
+            "Bf4",
+            "Rf6",
+            "Bxc7",
+            "Kxc7",
+            "Re7+"
+          ],
+          "fen": "2k3r1/p7/1ppr1bp1/3n2Np/P2p4/3P1B1P/1PPB1PP1/2R1R1K1 b - - 3 24"
+        },
+        {
+          "ply": 31,
+          "move": "20...Nd5",
+          "reference_storm_cp_before": -723,
+          "reference_storm_cp_after": -774,
+          "estimated_drop_cp": 51,
+          "preferred_san": [
+            "Rxe1+",
+            "Rxe1",
+            "Bh8",
+            "Nh7",
+            "Nd7",
+            "Be4",
+            "Ne5",
+            "a4"
+          ],
+          "fen": "2krr3/pp6/1np2bp1/6Np/3p4/3P1B1P/PPPB1PP1/1R2R1K1 b - - 3 20"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-a-g17-o168",
+      "result": "0-1",
+      "storm_colour": "white",
+      "plies": 122,
+      "reference_initial_white_cp": -287,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 108,
+          "move": "61.Kg7",
+          "reference_storm_cp_before": -1155,
+          "reference_storm_cp_after": -1465,
+          "estimated_drop_cp": 310,
+          "preferred_san": [
+            "Kg7",
+            "Re7+"
+          ],
+          "fen": "Q7/8/5K2/P5p1/3k4/8/5q1p/4r2R w - - 4 61"
+        },
+        {
+          "ply": 72,
+          "move": "43.a5",
+          "reference_storm_cp_before": -369,
+          "reference_storm_cp_after": -486,
+          "estimated_drop_cp": 117,
+          "preferred_san": [
+            "Re5",
+            "h6",
+            "a5",
+            "Kd7",
+            "Rf5",
+            "Ke7",
+            "Re5+",
+            "Kd6"
+          ],
+          "fen": "8/p1k4p/2p5/3p2p1/PP6/4RP1r/8/4K3 w - - 0 43"
+        },
+        {
+          "ply": 30,
+          "move": "22.Bxc6",
+          "reference_storm_cp_before": -309,
+          "reference_storm_cp_after": -416,
+          "estimated_drop_cp": 107,
+          "preferred_san": [
+            "Bxc6",
+            "bxc6"
+          ],
+          "fen": "2kr1r2/ppp4p/2n1b1pb/1B1pp3/8/2P2NN1/PP3PP1/3RKR2 w - - 0 22"
+        },
+        {
+          "ply": 56,
+          "move": "35.Ne2",
+          "reference_storm_cp_before": -235,
+          "reference_storm_cp_after": -342,
+          "estimated_drop_cp": 107,
+          "preferred_san": [
+            "Re3",
+            "Bd6"
+          ],
+          "fen": "8/pkp1b2p/2p3p1/3p2r1/1P1N4/2PR1P1P/P7/3K4 w - - 4 35"
+        },
+        {
+          "ply": 22,
+          "move": "18.Rf1",
+          "reference_storm_cp_before": -276,
+          "reference_storm_cp_after": -382,
+          "estimated_drop_cp": 106,
+          "preferred_san": [
+            "b4",
+            "Ng4",
+            "Bxe7",
+            "Nxe7",
+            "Nf3",
+            "e4",
+            "Nd4",
+            "Bd7"
+          ],
+          "fen": "2kr1r2/ppp1b2p/2n1bnpP/1B1pp1B1/8/2P3N1/PP1N1PP1/3RK2R w - - 4 18"
+        },
+        {
+          "ply": 24,
+          "move": "19.Nf3",
+          "reference_storm_cp_before": -290,
+          "reference_storm_cp_after": -377,
+          "estimated_drop_cp": 87,
+          "preferred_san": [
+            "Bxe7",
+            "Nxe7",
+            "Be2",
+            "e4",
+            "Nb3",
+            "Ne5",
+            "Nc5",
+            "Bg8"
+          ],
+          "fen": "2kr1r2/ppp1b2p/2n1b1pP/1B1pp1B1/6n1/2P3N1/PP1N1PP1/3RKR2 w - - 6 19"
+        },
+        {
+          "ply": 44,
+          "move": "29.f3",
+          "reference_storm_cp_before": -291,
+          "reference_storm_cp_after": -352,
+          "estimated_drop_cp": 61,
+          "preferred_san": [
+            "f4",
+            "Rf6"
+          ],
+          "fen": "5r2/pkp1r2p/2p3p1/3p4/1P6/2PRb2P/P3NP2/3K1R2 w - - 1 29"
+        },
+        {
+          "ply": 6,
+          "move": "10.Ke1",
+          "reference_storm_cp_before": -274,
+          "reference_storm_cp_after": -331,
+          "estimated_drop_cp": 57,
+          "preferred_san": [
+            "h4",
+            "d5"
+          ],
+          "fen": "r3kbnr/ppp3pp/2np2b1/4p3/8/2P3N1/PP1K1PPP/RNB2B1R w kq - 4 10"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-a-g18-o168",
+      "result": "0-1",
+      "storm_colour": "black",
+      "plies": 108,
+      "reference_initial_white_cp": -287,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 25,
+          "move": "19...Rhf8",
+          "reference_storm_cp_before": 523,
+          "reference_storm_cp_after": 336,
+          "estimated_drop_cp": 187,
+          "preferred_san": [
+            "Be7",
+            "Rg4",
+            "Nxf4",
+            "Rxf4",
+            "Ne5",
+            "Nde4",
+            "Rd5",
+            "a4"
+          ],
+          "fen": "2kr3r/ppp3pb/2n4p/1B1n3P/1b1p1B1R/P5N1/1P1N1PP1/R3K3 b - - 0 19"
+        },
+        {
+          "ply": 43,
+          "move": "28...Rxe3",
+          "reference_storm_cp_before": 896,
+          "reference_storm_cp_after": 781,
+          "estimated_drop_cp": 115,
+          "preferred_san": [
+            "dxe2+",
+            "Kxe2",
+            "Rd8",
+            "f3",
+            "g4",
+            "Kf2",
+            "a6"
+          ],
+          "fen": "2k1r3/ppp5/2n2b1p/5bpr/8/PN1pR3/1P2NPP1/R1BK4 b - - 1 28"
+        },
+        {
+          "ply": 17,
+          "move": "15...d4",
+          "reference_storm_cp_before": 533,
+          "reference_storm_cp_after": 473,
+          "estimated_drop_cp": 60,
+          "preferred_san": [
+            "d4",
+            "cxd4",
+            "exd4",
+            "Bf4",
+            "Nd5",
+            "Bxc6",
+            "bxc6",
+            "Rh4"
+          ],
+          "fen": "2kr1b1r/ppp3pb/2n2n1p/1B1pp2P/8/2P1B1N1/PP1N1PP1/R3K2R b - - 2 15"
+        },
+        {
+          "ply": 11,
+          "move": "12...O-O-O",
+          "reference_storm_cp_before": 431,
+          "reference_storm_cp_after": 386,
+          "estimated_drop_cp": 45,
+          "preferred_san": [
+            "d5",
+            "f3",
+            "Bd6",
+            "Nd2",
+            "a5",
+            "Bb5",
+            "O-O",
+            "h5"
+          ],
+          "fen": "r3kb1r/ppp3p1/2np1nbp/4p3/7P/2P1B1N1/PP3PP1/RN2KB1R b kq - 1 12"
+        },
+        {
+          "ply": 19,
+          "move": "16...exd4",
+          "reference_storm_cp_before": 582,
+          "reference_storm_cp_after": 538,
+          "estimated_drop_cp": 44,
+          "preferred_san": [
+            "exd4",
+            "Bf4"
+          ],
+          "fen": "2kr1b1r/ppp3pb/2n2n1p/1B2p2P/3P4/4B1N1/PP1N1PP1/R3K2R b - - 0 16"
+        },
+        {
+          "ply": 93,
+          "move": "53...Bxg2",
+          "reference_storm_cp_before": 1003,
+          "reference_storm_cp_after": 959,
+          "estimated_drop_cp": 44,
+          "preferred_san": [
+            "Ke6",
+            "Kc3",
+            "Be7",
+            "g3",
+            "f3",
+            "g4",
+            "a3",
+            "g5"
+          ],
+          "fen": "8/2pk4/7p/3b4/p2K1p2/b7/6P1/8 b - - 0 53"
+        },
+        {
+          "ply": 85,
+          "move": "49...Nd4+",
+          "reference_storm_cp_before": 883,
+          "reference_storm_cp_after": 840,
+          "estimated_drop_cp": 43,
+          "preferred_san": [
+            "Nb4",
+            "Kd2",
+            "Kd6",
+            "Nc3",
+            "Bxc3+",
+            "Kxc3",
+            "Na2+",
+            "Kb2"
+          ],
+          "fen": "8/2pk4/7p/p2b2p1/8/5P2/1bn1K1P1/1N6 b - - 1 49"
+        },
+        {
+          "ply": 23,
+          "move": "18...Bb4",
+          "reference_storm_cp_before": 546,
+          "reference_storm_cp_after": 508,
+          "estimated_drop_cp": 38,
+          "preferred_san": [
+            "Ncb4",
+            "Ke2",
+            "a6",
+            "Bc4",
+            "Be7",
+            "Rg4",
+            "b5",
+            "Bb3"
+          ],
+          "fen": "2kr1b1r/ppp3pb/2n4p/1B1n3P/3p1B1R/6N1/PP1N1PP1/R3K3 b - - 3 18"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-a-g19-o169",
+      "result": "1-0",
+      "storm_colour": "white",
+      "plies": 139,
+      "reference_initial_white_cp": -98,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 28,
+          "move": "19.Rhd1",
+          "reference_storm_cp_before": 268,
+          "reference_storm_cp_after": 108,
+          "estimated_drop_cp": 160,
+          "preferred_san": [
+            "Rhc1",
+            "c6",
+            "Kd2",
+            "Rh6",
+            "h3",
+            "a5",
+            "a4",
+            "Be8"
+          ],
+          "fen": "3r2k1/p1pbn1pp/4pr2/1p2Np2/3P1P2/P1K1P3/BP4PP/R6R w - - 4 19"
+        },
+        {
+          "ply": 102,
+          "move": "56.Re6",
+          "reference_storm_cp_before": 575,
+          "reference_storm_cp_after": 476,
+          "estimated_drop_cp": 99,
+          "preferred_san": [
+            "Rf8",
+            "Ra3+",
+            "Kf4",
+            "Ra4+",
+            "Kg5",
+            "Rxa7",
+            "Rf7+",
+            "Kb8"
+          ],
+          "fen": "8/P1k5/5R2/5P2/r7/5K2/8/8 w - - 1 56"
+        },
+        {
+          "ply": 50,
+          "move": "30.Rd2",
+          "reference_storm_cp_before": 410,
+          "reference_storm_cp_after": 319,
+          "estimated_drop_cp": 91,
+          "preferred_san": [
+            "fxg6",
+            "hxg6",
+            "Re1",
+            "Rd6",
+            "Re5",
+            "Ng8",
+            "Rc1",
+            "Bxg4"
+          ],
+          "fen": "3r1r1k/4n2p/2p1B1p1/1pR2P1b/p2PP1N1/P3K2P/1P6/3R4 w - - 0 30"
+        },
+        {
+          "ply": 62,
+          "move": "36.g5",
+          "reference_storm_cp_before": 582,
+          "reference_storm_cp_after": 496,
+          "estimated_drop_cp": 86,
+          "preferred_san": [
+            "Rxc6",
+            "Ne3",
+            "Rxd8",
+            "Rxd8",
+            "f6",
+            "Rf8",
+            "Rc7",
+            "Re8"
+          ],
+          "fen": "3r1r1k/8/2p1B2p/1pRnKP2/p5P1/P7/1P1R4/8 w - - 0 36"
+        },
+        {
+          "ply": 46,
+          "move": "28.Ke3",
+          "reference_storm_cp_before": 485,
+          "reference_storm_cp_after": 400,
+          "estimated_drop_cp": 85,
+          "preferred_san": [
+            "Rg1",
+            "Rd6",
+            "Ke3",
+            "Bd7",
+            "Bxd7",
+            "Rxd7",
+            "h4"
+          ],
+          "fen": "3rbr1k/4n1pp/2p1B3/1pR2P2/p2PP1N1/P2K4/1P5P/3R4 w - - 0 28"
+        },
+        {
+          "ply": 8,
+          "move": "9.Nc3",
+          "reference_storm_cp_before": 21,
+          "reference_storm_cp_after": -62,
+          "estimated_drop_cp": 83,
+          "preferred_san": [
+            "Bd2",
+            "Bd6"
+          ],
+          "fen": "r1bqk2r/ppp3pp/2n1p3/5p2/1bQPnP2/5N2/PP2P1PP/RNB1KB1R w kq - 1 9"
+        },
+        {
+          "ply": 40,
+          "move": "25.Bxe6+",
+          "reference_storm_cp_before": 533,
+          "reference_storm_cp_after": 459,
+          "estimated_drop_cp": 74,
+          "preferred_san": [
+            "Bxe6+",
+            "Kh8",
+            "Nxg4",
+            "Rf8",
+            "Rxc7",
+            "Nxf5",
+            "Rf1",
+            "Bg6"
+          ],
+          "fen": "3rb1k1/2p1n1pp/4pr2/1pR1NP2/p2P2p1/P2KP3/BP5P/3R4 w - - 1 25"
+        },
+        {
+          "ply": 114,
+          "move": "62.Rxa7",
+          "reference_storm_cp_before": 657,
+          "reference_storm_cp_after": 587,
+          "estimated_drop_cp": 70,
+          "preferred_san": [
+            "Rxa7",
+            "Kxa7"
+          ],
+          "fen": "8/r5R1/1k6/5PK1/8/8/8/8 w - - 2 62"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-a-g20-o169",
+      "result": "1/2-1/2",
+      "storm_colour": "black",
+      "plies": 91,
+      "reference_initial_white_cp": -98,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 49,
+          "move": "29...c5",
+          "reference_storm_cp_before": 301,
+          "reference_storm_cp_after": 85,
+          "estimated_drop_cp": 216,
+          "preferred_san": [
+            "Nd5",
+            "g3",
+            "Nf6",
+            "e4",
+            "Nxe4",
+            "Nxe4",
+            "fxe4",
+            "Qxe4"
+          ],
+          "fen": "q2rr1k1/2p1n1pp/3bp3/1p3p2/p2P1P2/P2QP2P/1B1N2P1/2R1R1K1 b - - 2 29"
+        },
+        {
+          "ply": 37,
+          "move": "23...Rad8",
+          "reference_storm_cp_before": 301,
+          "reference_storm_cp_after": 193,
+          "estimated_drop_cp": 108,
+          "preferred_san": [
+            "b5",
+            "Nd2",
+            "Rfb8",
+            "Bb2",
+            "Na5",
+            "e4",
+            "fxe4",
+            "Nxe4"
+          ],
+          "fen": "r4rk1/2p1b1pp/1pn1p3/3q1p2/p1NP1P2/P1BQP3/6PP/1R2R1K1 b - - 2 23"
+        },
+        {
+          "ply": 47,
+          "move": "28...Qa8",
+          "reference_storm_cp_before": 271,
+          "reference_storm_cp_after": 163,
+          "estimated_drop_cp": 108,
+          "preferred_san": [
+            "Rb8",
+            "Re2",
+            "Rb6",
+            "Qd3",
+            "Rc6",
+            "e4",
+            "Rxc1+",
+            "Bxc1"
+          ],
+          "fen": "3rr1k1/2p1n1pp/3bp3/1p1q1p2/p2P1P2/P1Q1P2P/1B1N2P1/2R1R1K1 b - - 0 28"
+        },
+        {
+          "ply": 39,
+          "move": "24...Rfe8",
+          "reference_storm_cp_before": 247,
+          "reference_storm_cp_after": 172,
+          "estimated_drop_cp": 75,
+          "preferred_san": [
+            "b5",
+            "Na5"
+          ],
+          "fen": "3r1rk1/2p1b1pp/1pn1p3/3q1p2/p1NP1P2/P1BQP3/6PP/2R1R1K1 b - - 4 24"
+        },
+        {
+          "ply": 7,
+          "move": "8...c3",
+          "reference_storm_cp_before": 104,
+          "reference_storm_cp_after": 32,
+          "estimated_drop_cp": 72,
+          "preferred_san": [
+            "Bd5",
+            "Nxc4"
+          ],
+          "fen": "r2qkb1r/ppp1p1pp/2n1b3/5p2/2pPnP2/N3PN2/PP4PP/R1BQKB1R b kq - 2 8"
+        },
+        {
+          "ply": 15,
+          "move": "12...Bd5",
+          "reference_storm_cp_before": 145,
+          "reference_storm_cp_after": 83,
+          "estimated_drop_cp": 62,
+          "preferred_san": [
+            "Nxg5",
+            "fxg5"
+          ],
+          "fen": "r1q1kb1r/ppp1p1pp/2n1b3/5pN1/3PnP2/N3P3/P1Q3PP/1RB1KB1R b kq - 5 12"
+        },
+        {
+          "ply": 89,
+          "move": "49...Qb1+",
+          "reference_storm_cp_before": 42,
+          "reference_storm_cp_after": 0,
+          "estimated_drop_cp": 42,
+          "preferred_san": [
+            "Qd6",
+            "Rf3"
+          ],
+          "fen": "1q2r1k1/6p1/4p3/3n1p2/2Q4P/R6P/3R4/6K1 b - - 7 49"
+        },
+        {
+          "ply": 29,
+          "move": "19...b6",
+          "reference_storm_cp_before": 127,
+          "reference_storm_cp_after": 86,
+          "estimated_drop_cp": 41,
+          "preferred_san": [
+            "Nb4",
+            "Bxb4",
+            "axb4",
+            "Rb2",
+            "Qd8",
+            "Qb3",
+            "Qd5",
+            "Rc1"
+          ],
+          "fen": "r1q2rk1/1pp1b1pp/2n1p3/p4p2/2NP1P2/3QP3/P2B1KPP/1R3R2 b - - 1 19"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-b-g1-o170",
+      "result": "1-0",
+      "storm_colour": "white",
+      "plies": 106,
+      "reference_initial_white_cp": 60,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 59,
+          "move": "35.c6",
+          "reference_storm_cp_before": 479,
+          "reference_storm_cp_after": 362,
+          "estimated_drop_cp": 117,
+          "preferred_san": [
+            "Nb5",
+            "Be1",
+            "Nxa7",
+            "Kd8",
+            "Kc4",
+            "Ne3+",
+            "Kb3",
+            "Nf1"
+          ],
+          "fen": "8/pB2k1p1/8/2P1p2p/PP4n1/2NK4/5bP1/8 w - - 1 35"
+        },
+        {
+          "ply": 83,
+          "move": "47.Kxe4",
+          "reference_storm_cp_before": 814,
+          "reference_storm_cp_after": 732,
+          "estimated_drop_cp": 82,
+          "preferred_san": [
+            "Kxe4",
+            "g4",
+            "Kf4",
+            "h3",
+            "Kg3",
+            "Kb8",
+            "gxh3",
+            "Kc7"
+          ],
+          "fen": "8/1Bk5/2P5/P5p1/4p2p/5K2/6P1/8 w - - 0 47"
+        },
+        {
+          "ply": 57,
+          "move": "34.a4",
+          "reference_storm_cp_before": 484,
+          "reference_storm_cp_after": 424,
+          "estimated_drop_cp": 60,
+          "preferred_san": [
+            "Nb5",
+            "Ng4",
+            "Nxa7",
+            "g5",
+            "a4",
+            "Kd8",
+            "a5",
+            "Be1"
+          ],
+          "fen": "8/pB2k1p1/8/2P1p2p/1P6/2NK4/P4bPn/8 w - - 2 34"
+        },
+        {
+          "ply": 75,
+          "move": "43.b6",
+          "reference_storm_cp_before": 625,
+          "reference_storm_cp_after": 582,
+          "estimated_drop_cp": 43,
+          "preferred_san": [
+            "b6",
+            "g5",
+            "bxc7+",
+            "Kxc7",
+            "a6",
+            "Kb6",
+            "Bc8",
+            "g4"
+          ],
+          "fen": "3k4/1Bb3p1/2P5/PP2p2p/8/8/4K1P1/8 w - - 1 43"
+        },
+        {
+          "ply": 67,
+          "move": "39.Ke2",
+          "reference_storm_cp_before": 583,
+          "reference_storm_cp_after": 544,
+          "estimated_drop_cp": 39,
+          "preferred_san": [
+            "Ke2",
+            "Ne4",
+            "Nb5",
+            "Nd6",
+            "Nxd6",
+            "Bxd6",
+            "b5",
+            "Bc7"
+          ],
+          "fen": "3k4/NBb3p1/2P5/P3p2p/1P6/3K4/5nP1/8 w - - 1 39"
+        },
+        {
+          "ply": 61,
+          "move": "36.a5",
+          "reference_storm_cp_before": 463,
+          "reference_storm_cp_after": 437,
+          "estimated_drop_cp": 26,
+          "preferred_san": [
+            "a5",
+            "e4+",
+            "Ke2",
+            "Bc7",
+            "Nb5",
+            "Kd8",
+            "Nxa7",
+            "Nh6"
+          ],
+          "fen": "8/pB2k1p1/1bP5/4p2p/PP4n1/2NK4/6P1/8 w - - 1 36"
+        },
+        {
+          "ply": 69,
+          "move": "40.Nb5",
+          "reference_storm_cp_before": 634,
+          "reference_storm_cp_after": 612,
+          "estimated_drop_cp": 22,
+          "preferred_san": [
+            "Nb5",
+            "Nd6",
+            "Nxd6",
+            "Bxd6",
+            "b5",
+            "Bc7",
+            "b6",
+            "h4"
+          ],
+          "fen": "3k4/NBb3p1/2P5/P3p2p/1P2n3/8/4K1P1/8 w - - 3 40"
+        },
+        {
+          "ply": 37,
+          "move": "24.Kxd1",
+          "reference_storm_cp_before": 371,
+          "reference_storm_cp_after": 350,
+          "estimated_drop_cp": 21,
+          "preferred_san": [
+            "Kxd1",
+            "Rxf2",
+            "Rxf2",
+            "Bxf2",
+            "Bxe7",
+            "Nxe7",
+            "Bxb7",
+            "Nf5"
+          ],
+          "fen": "5rk1/pp2n1pp/1bn5/4p3/4B3/BPP5/P1K1NPPP/3r1R2 w - - 0 24"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-b-g2-o170",
+      "result": "0-1",
+      "storm_colour": "black",
+      "plies": 157,
+      "reference_initial_white_cp": 60,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 28,
+          "move": "19...a5",
+          "reference_storm_cp_before": 344,
+          "reference_storm_cp_after": 144,
+          "estimated_drop_cp": 200,
+          "preferred_san": [
+            "g5",
+            "Bc2",
+            "g4",
+            "hxg4",
+            "fxg4",
+            "a5",
+            "a6",
+            "Bxe4"
+          ],
+          "fen": "1k1r3r/ppp3pp/4q3/3p1p2/P1n1n3/1BP1P2P/1P2QPP1/R1B2RK1 b - - 0 19"
+        },
+        {
+          "ply": 92,
+          "move": "51...h3",
+          "reference_storm_cp_before": 295,
+          "reference_storm_cp_after": 96,
+          "estimated_drop_cp": 199,
+          "preferred_san": [
+            "Rc1",
+            "Rf8",
+            "h3",
+            "Rf3+",
+            "Rc3",
+            "Rf2",
+            "Rg3",
+            "Kc5"
+          ],
+          "fen": "R7/8/8/1K6/7p/1k6/8/7r b - - 0 51"
+        },
+        {
+          "ply": 88,
+          "move": "49...Ka4",
+          "reference_storm_cp_before": 467,
+          "reference_storm_cp_after": 344,
+          "estimated_drop_cp": 123,
+          "preferred_san": [
+            "Rc1+",
+            "Kd5",
+            "Rc4",
+            "Ra8+",
+            "Kb4",
+            "Ra1",
+            "h3",
+            "Rb1+"
+          ],
+          "fen": "7R/8/8/kpK5/7p/8/8/7r b - - 5 49"
+        },
+        {
+          "ply": 48,
+          "move": "29...Rd3",
+          "reference_storm_cp_before": 158,
+          "reference_storm_cp_after": 42,
+          "estimated_drop_cp": 116,
+          "preferred_san": [
+            "Rxd1+",
+            "Rxd1",
+            "Rxf4",
+            "Bxc5",
+            "bxc5",
+            "Rd5",
+            "c6",
+            "Rxc5"
+          ],
+          "fen": "1k1r1r2/2p3pp/1p6/2n5/P1p2P2/B4P1P/6P1/R2R2K1 b - - 0 29"
+        },
+        {
+          "ply": 54,
+          "move": "32...Kb7",
+          "reference_storm_cp_before": 527,
+          "reference_storm_cp_after": 440,
+          "estimated_drop_cp": 87,
+          "preferred_san": [
+            "b5",
+            "Kf2",
+            "Ka7",
+            "g4",
+            "Ka6",
+            "f5",
+            "c3",
+            "Rb3"
+          ],
+          "fen": "1k6/2p3pp/1p6/P1r5/2p2P2/3r1P1P/6P1/RR4K1 b - - 0 32"
+        },
+        {
+          "ply": 12,
+          "move": "11...Qxe5",
+          "reference_storm_cp_before": 34,
+          "reference_storm_cp_after": -46,
+          "estimated_drop_cp": 80,
+          "preferred_san": [
+            "Nxe5",
+            "Bxd5"
+          ],
+          "fen": "r1b1k2r/ppp1q1pp/2n2n2/3pPp2/8/1BP1P3/PP2NPPP/R1BQK2R b KQkq - 0 11"
+        },
+        {
+          "ply": 82,
+          "move": "46...h4",
+          "reference_storm_cp_before": 486,
+          "reference_storm_cp_after": 414,
+          "estimated_drop_cp": 72,
+          "preferred_san": [
+            "Rh4",
+            "Rg8",
+            "Rc4+",
+            "Kd5",
+            "Ka5",
+            "Ra8+",
+            "Kb4",
+            "Ra1"
+          ],
+          "fen": "8/6R1/k7/1pK4p/8/7r/8/8 b - - 1 46"
+        },
+        {
+          "ply": 74,
+          "move": "42...Rxh3",
+          "reference_storm_cp_before": 520,
+          "reference_storm_cp_after": 452,
+          "estimated_drop_cp": 68,
+          "preferred_san": [
+            "Rf7",
+            "Kd5",
+            "g5",
+            "Ke6",
+            "Rg7",
+            "Rc6",
+            "Rg6+",
+            "Kd5"
+          ],
+          "fen": "8/k1p3pp/Pp6/8/4K3/5r1P/2R5/8 b - - 0 42"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-b-g3-o171",
+      "result": "1-0",
+      "storm_colour": "white",
+      "plies": 164,
+      "reference_initial_white_cp": -72,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 29,
+          "move": "21.Rfe1",
+          "reference_storm_cp_before": 317,
+          "reference_storm_cp_after": 167,
+          "estimated_drop_cp": 150,
+          "preferred_san": [
+            "b5",
+            "Rc5"
+          ],
+          "fen": "2k1qb1r/pp4p1/2rp3p/3Np3/1P3P2/3Q4/P5PP/3R1RK1 w - - 1 21"
+        },
+        {
+          "ply": 31,
+          "move": "22.Re2",
+          "reference_storm_cp_before": 142,
+          "reference_storm_cp_after": 38,
+          "estimated_drop_cp": 104,
+          "preferred_san": [
+            "Kh1",
+            "Qd8",
+            "Qg6",
+            "h5",
+            "h3",
+            "Rh6",
+            "Qd3",
+            "Rc8"
+          ],
+          "fen": "1k2qb1r/pp4p1/2rp3p/3Np3/1P3P2/3Q4/P5PP/3RR1K1 w - - 3 22"
+        },
+        {
+          "ply": 11,
+          "move": "12.Qd3",
+          "reference_storm_cp_before": 173,
+          "reference_storm_cp_after": 78,
+          "estimated_drop_cp": 95,
+          "preferred_san": [
+            "Qa4+",
+            "Ke6",
+            "O-O",
+            "Kf7",
+            "Nc3",
+            "Nf6",
+            "Qb3+",
+            "d5"
+          ],
+          "fen": "r2q1bnr/pp1k2pp/3p4/4p3/3Q4/8/PP3PPP/RNB1K2R w KQ - 0 12"
+        },
+        {
+          "ply": 33,
+          "move": "23.Rde1",
+          "reference_storm_cp_before": 52,
+          "reference_storm_cp_after": -24,
+          "estimated_drop_cp": 76,
+          "preferred_san": [
+            "b5",
+            "Rc8"
+          ],
+          "fen": "1k2q2r/pp2b1p1/2rp3p/3Np3/1P3P2/3Q4/P3R1PP/3R2K1 w - - 5 23"
+        },
+        {
+          "ply": 133,
+          "move": "73.Qd2",
+          "reference_storm_cp_before": 595,
+          "reference_storm_cp_after": 540,
+          "estimated_drop_cp": 55,
+          "preferred_san": [
+            "Qa2",
+            "Kg3",
+            "Kd7",
+            "Kf3",
+            "Kd6",
+            "Kg3",
+            "Qa3+",
+            "Kg4"
+          ],
+          "fen": "2K5/8/8/8/8/7k/4Q3/8 w - - 23 73"
+        },
+        {
+          "ply": 57,
+          "move": "35.Re3",
+          "reference_storm_cp_before": 48,
+          "reference_storm_cp_after": 4,
+          "estimated_drop_cp": 44,
+          "preferred_san": [
+            "Qxc3",
+            "Rxc3"
+          ],
+          "fen": "1kr5/pp6/7p/4R3/8/2q2Q1P/P5P1/7K w - - 5 35"
+        },
+        {
+          "ply": 111,
+          "move": "62.Qb8+",
+          "reference_storm_cp_before": 664,
+          "reference_storm_cp_after": 630,
+          "estimated_drop_cp": 34,
+          "preferred_san": [
+            "Kd7",
+            "Kh4",
+            "Ke6",
+            "Kg5",
+            "Qg2+",
+            "Kf4",
+            "Kf6",
+            "Ke3"
+          ],
+          "fen": "Q1K5/8/8/8/8/6k1/8/8 w - - 1 62"
+        },
+        {
+          "ply": 119,
+          "move": "66.Qg3+",
+          "reference_storm_cp_before": 616,
+          "reference_storm_cp_after": 582,
+          "estimated_drop_cp": 34,
+          "preferred_san": [
+            "Kc7",
+            "Ke3",
+            "Kd6",
+            "Kf4",
+            "Ke6",
+            "Ke3",
+            "Qg3+",
+            "Kd2"
+          ],
+          "fen": "2K5/8/8/8/8/3k4/6Q1/8 w - - 9 66"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-b-g4-o171",
+      "result": "0-1",
+      "storm_colour": "black",
+      "plies": 99,
+      "reference_initial_white_cp": -72,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 8,
+          "move": "10...Kc8",
+          "reference_storm_cp_before": -8,
+          "reference_storm_cp_after": -244,
+          "estimated_drop_cp": 236,
+          "preferred_san": [
+            "Nf6",
+            "Ng5"
+          ],
+          "fen": "r2q1bnr/pp1kp1pp/2np4/4p3/8/2N2N2/PP3PPP/R1BQ1RK1 b - - 0 10"
+        },
+        {
+          "ply": 20,
+          "move": "16...e6",
+          "reference_storm_cp_before": 31,
+          "reference_storm_cp_after": -101,
+          "estimated_drop_cp": 132,
+          "preferred_san": [
+            "Qc6",
+            "Bxd4"
+          ],
+          "fen": "r1kn1b1r/ppNqp1pp/3p4/1N1Qp3/3n4/4B3/PP3PPP/R4RK1 b - - 12 16"
+        },
+        {
+          "ply": 28,
+          "move": "20...Nc6",
+          "reference_storm_cp_before": 194,
+          "reference_storm_cp_after": 70,
+          "estimated_drop_cp": 124,
+          "preferred_san": [
+            "Qxa4",
+            "Nxa4"
+          ],
+          "fen": "rk1n1b1r/1p1q2pp/p2pp3/4p3/Q7/2N1B3/PP3PPP/R4RK1 b - - 1 20"
+        },
+        {
+          "ply": 22,
+          "move": "17...Nxb5",
+          "reference_storm_cp_before": -11,
+          "reference_storm_cp_after": -102,
+          "estimated_drop_cp": 91,
+          "preferred_san": [
+            "Nxb5",
+            "Nxa8+"
+          ],
+          "fen": "r1kn1b1r/ppNq2pp/3pp3/1N2p3/2Qn4/4B3/PP3PPP/R4RK1 b - - 1 17"
+        },
+        {
+          "ply": 10,
+          "move": "11...Nh6",
+          "reference_storm_cp_before": -204,
+          "reference_storm_cp_after": -269,
+          "estimated_drop_cp": 65,
+          "preferred_san": [
+            "Qe8",
+            "Be3"
+          ],
+          "fen": "r1kq1bnr/pp2p1pp/2np4/4p1N1/8/2N5/PP3PPP/R1BQ1RK1 b - - 2 11"
+        },
+        {
+          "ply": 2,
+          "move": "7...e5",
+          "reference_storm_cp_before": 66,
+          "reference_storm_cp_after": 3,
+          "estimated_drop_cp": 63,
+          "preferred_san": [
+            "Ke8",
+            "O-O"
+          ],
+          "fen": "rn1q1bnr/pp1kp1pp/3pp3/8/3p4/5N2/PPP2PPP/RNBQK2R b KQ - 1 7"
+        },
+        {
+          "ply": 52,
+          "move": "32...Ka7",
+          "reference_storm_cp_before": 591,
+          "reference_storm_cp_after": 537,
+          "estimated_drop_cp": 54,
+          "preferred_san": [
+            "Ka7",
+            "Qb3",
+            "Qf2",
+            "Rb1",
+            "Bb6",
+            "a4",
+            "Qc5",
+            "Qxb6+"
+          ],
+          "fen": "k5Q1/1p5p/p1n5/4p3/8/4b3/Pq4PP/3R3K b - - 0 32"
+        },
+        {
+          "ply": 34,
+          "move": "23...Qd8",
+          "reference_storm_cp_before": 463,
+          "reference_storm_cp_after": 410,
+          "estimated_drop_cp": 53,
+          "preferred_san": [
+            "Qd8",
+            "Nxa8"
+          ],
+          "fen": "rk3b1r/1p1q2pp/pNn1p3/4p3/3p2Q1/4B3/PP3PPP/R4RK1 b - - 1 23"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-b-g5-o172",
+      "result": "1-0",
+      "storm_colour": "white",
+      "plies": 228,
+      "reference_initial_white_cp": -201,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 5,
+          "move": "9.Qxb7",
+          "reference_storm_cp_before": -144,
+          "reference_storm_cp_after": -343,
+          "estimated_drop_cp": 199,
+          "preferred_san": [
+            "Nh3",
+            "Bxh3"
+          ],
+          "fen": "rn2k1nr/ppp3pp/8/2bpPp2/5Pb1/1QP5/PP1KPq1P/RNB2BNR w kq - 5 9"
+        },
+        {
+          "ply": 27,
+          "move": "20.Be2",
+          "reference_storm_cp_before": -145,
+          "reference_storm_cp_after": -341,
+          "estimated_drop_cp": 196,
+          "preferred_san": [
+            "h4",
+            "Ne6"
+          ],
+          "fen": "r2nk2r/p1p1n1p1/1b5p/1P1pPp1b/5B2/2P1P2P/P1K5/RN3BNR w kq - 1 20"
+        },
+        {
+          "ply": 3,
+          "move": "8.Qb3",
+          "reference_storm_cp_before": -92,
+          "reference_storm_cp_after": -271,
+          "estimated_drop_cp": 179,
+          "preferred_san": [
+            "Kc2",
+            "Ne7"
+          ],
+          "fen": "rn2k1nr/ppp3pp/8/2bpPp2/5Pbq/2P5/PP1KP2P/RNBQ1BNR w kq - 3 8"
+        },
+        {
+          "ply": 87,
+          "move": "50.Ka5",
+          "reference_storm_cp_before": 125,
+          "reference_storm_cp_after": 39,
+          "estimated_drop_cp": 86,
+          "preferred_san": [
+            "Kc6",
+            "h5"
+          ],
+          "fen": "8/R7/5k1p/1KP5/p3r3/8/P2R4/1r6 w - - 6 50"
+        },
+        {
+          "ply": 141,
+          "move": "77.Rh6",
+          "reference_storm_cp_before": 405,
+          "reference_storm_cp_after": 338,
+          "estimated_drop_cp": 67,
+          "preferred_san": [
+            "Rh6",
+            "Kc8"
+          ],
+          "fen": "8/3k4/K1R5/PR6/8/8/r7/r7 w - - 3 77"
+        },
+        {
+          "ply": 131,
+          "move": "72.Rc4",
+          "reference_storm_cp_before": 96,
+          "reference_storm_cp_after": 44,
+          "estimated_drop_cp": 52,
+          "preferred_san": [
+            "Rb8",
+            "Kg5"
+          ],
+          "fen": "8/1R6/K5k1/8/P4R2/8/r7/4r3 w - - 15 72"
+        },
+        {
+          "ply": 25,
+          "move": "19.b5",
+          "reference_storm_cp_before": -197,
+          "reference_storm_cp_after": -242,
+          "estimated_drop_cp": 45,
+          "preferred_san": [
+            "h4",
+            "g5"
+          ],
+          "fen": "r3k2r/p1p1n1p1/1bn4p/3pPp1b/1P3B2/2P1P2P/P1K5/RN3BNR w kq - 1 19"
+        },
+        {
+          "ply": 137,
+          "move": "75.a5",
+          "reference_storm_cp_before": 344,
+          "reference_storm_cp_after": 301,
+          "estimated_drop_cp": 43,
+          "preferred_san": [
+            "a5",
+            "Ke7"
+          ],
+          "fen": "8/8/K4k2/1R6/P1R5/8/r7/r7 w - - 21 75"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-b-g6-o172",
+      "result": "0-1",
+      "storm_colour": "black",
+      "plies": 63,
+      "reference_initial_white_cp": -201,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 48,
+          "move": "30...Qc2+",
+          "reference_storm_cp_before": 1485,
+          "reference_storm_cp_after": 1277,
+          "estimated_drop_cp": 208,
+          "preferred_san": [
+            "Qc2+",
+            "Kb5",
+            "Rxd1",
+            "Be6+",
+            "Kb8",
+            "Qxd1",
+            "Qxd1",
+            "Bf5"
+          ],
+          "fen": "2kr4/1pp3pp/2n5/2b1P3/K1B2p2/2P4P/Pp3q1B/3R3Q b - - 1 30"
+        },
+        {
+          "ply": 30,
+          "move": "21...Qf3",
+          "reference_storm_cp_before": 510,
+          "reference_storm_cp_after": 316,
+          "estimated_drop_cp": 194,
+          "preferred_san": [
+            "g5",
+            "Bh2",
+            "Qg6",
+            "Bg2",
+            "f4+",
+            "Be4",
+            "Qe6",
+            "Rxd8+"
+          ],
+          "fen": "2kr3r/1pp3pp/1bn5/p3Pp1q/2p2B2/2P4P/PPK5/R2RQB2 b - - 0 21"
+        },
+        {
+          "ply": 2,
+          "move": "7...Bc5",
+          "reference_storm_cp_before": 186,
+          "reference_storm_cp_after": 92,
+          "estimated_drop_cp": 94,
+          "preferred_san": [
+            "Nc6",
+            "Kc2",
+            "d4",
+            "Bg2",
+            "O-O-O",
+            "Qf1",
+            "Bxe2",
+            "Nxe2"
+          ],
+          "fen": "rn2kbnr/ppp3pp/8/3pPp2/5Pbq/2P5/PP1KP2P/RNBQ1BNR b kq - 2 7"
+        },
+        {
+          "ply": 6,
+          "move": "9...Bxf3",
+          "reference_storm_cp_before": 185,
+          "reference_storm_cp_after": 125,
+          "estimated_drop_cp": 60,
+          "preferred_san": [
+            "Bxf3",
+            "exf3"
+          ],
+          "fen": "rn2k2r/ppp1n1pp/8/2bpPp2/5Pbq/2P2N2/PPK1P2P/RNBQ1B1R b kq - 6 9"
+        },
+        {
+          "ply": 18,
+          "move": "15...Qg3",
+          "reference_storm_cp_before": 590,
+          "reference_storm_cp_after": 543,
+          "estimated_drop_cp": 47,
+          "preferred_san": [
+            "d4",
+            "Qe1",
+            "Qh6",
+            "Na3",
+            "Qg6",
+            "Bh1",
+            "Nd5",
+            "Bd2"
+          ],
+          "fen": "2kr3r/1pp1n1pp/1bn5/p2pPp2/5P1q/2P2P1P/PPK1Q1B1/RNB2R2 b - - 0 15"
+        },
+        {
+          "ply": 12,
+          "move": "12...Bf2",
+          "reference_storm_cp_before": 460,
+          "reference_storm_cp_after": 416,
+          "estimated_drop_cp": 44,
+          "preferred_san": [
+            "Bf2",
+            "Qe2",
+            "O-O-O",
+            "Rf1",
+            "Bb6",
+            "a4",
+            "d4",
+            "Kb3"
+          ],
+          "fen": "r3k2r/1pp1n1pp/2n5/p1bpPp2/5P1q/2P2P2/PPK3BP/RNB1Q2R b kq - 3 12"
+        },
+        {
+          "ply": 0,
+          "move": "6...Qh4+",
+          "reference_storm_cp_before": 201,
+          "reference_storm_cp_after": 170,
+          "estimated_drop_cp": 31,
+          "preferred_san": [
+            "Qh4+",
+            "Kd2",
+            "Nc6",
+            "Bg2",
+            "O-O-O",
+            "Qf1",
+            "Nge7",
+            "Kc2"
+          ],
+          "fen": "rn1qkbnr/ppp3pp/8/3pPp2/5Pb1/2P5/PP2P2P/RNBQKBNR b KQkq - 0 6"
+        },
+        {
+          "ply": 38,
+          "move": "25...a4+",
+          "reference_storm_cp_before": 678,
+          "reference_storm_cp_after": 652,
+          "estimated_drop_cp": 26,
+          "preferred_san": [
+            "a4+",
+            "Kxa4",
+            "Rxd1",
+            "Qxd1",
+            "Qxh2",
+            "Bd5",
+            "Ne7",
+            "Bh1"
+          ],
+          "fen": "2kr3r/1pp3pp/2n5/p3P3/2B2p2/1KP1b2P/PP3q1B/R2R3Q b - - 3 25"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-b-g7-o173",
+      "result": "1-0",
+      "storm_colour": "white",
+      "plies": 124,
+      "reference_initial_white_cp": 18,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 37,
+          "move": "24.Qf5",
+          "reference_storm_cp_before": 544,
+          "reference_storm_cp_after": 76,
+          "estimated_drop_cp": 468,
+          "preferred_san": [
+            "Rxe6",
+            "fxe6",
+            "Qg6",
+            "Kf8",
+            "Rd4",
+            "gxh6",
+            "Rf4+",
+            "Qxf4"
+          ],
+          "fen": "r5k1/pb2rpp1/1ppqn2B/3p4/6Q1/2P3P1/PPB2PP1/3RR1K1 w - - 1 24"
+        },
+        {
+          "ply": 69,
+          "move": "40.a4",
+          "reference_storm_cp_before": 264,
+          "reference_storm_cp_after": 41,
+          "estimated_drop_cp": 223,
+          "preferred_san": [
+            "Bxf6",
+            "gxf6",
+            "Kf2",
+            "Ke6",
+            "Bd3",
+            "Kd6",
+            "Be2",
+            "Bxe2"
+          ],
+          "fen": "8/5kp1/p1p2n2/1p1p4/1P1B1Pb1/2P3P1/P1B3P1/6K1 w - - 2 40"
+        },
+        {
+          "ply": 27,
+          "move": "19.Rad1",
+          "reference_storm_cp_before": 192,
+          "reference_storm_cp_after": 76,
+          "estimated_drop_cp": 116,
+          "preferred_san": [
+            "f4",
+            "d6"
+          ],
+          "fen": "r1b1r1k1/pp1pqpp1/2p1n2p/3pP2Q/8/2P1B1P1/PPB2PP1/R4RK1 w - - 0 19"
+        },
+        {
+          "ply": 23,
+          "move": "17.Be3",
+          "reference_storm_cp_before": 90,
+          "reference_storm_cp_after": -3,
+          "estimated_drop_cp": 93,
+          "preferred_san": [
+            "Qd3",
+            "g6"
+          ],
+          "fen": "r1b2rk1/pp1pqppp/2p1n3/3pP3/5B2/2P3P1/PPB2PP1/R2Q1RK1 w - - 7 17"
+        },
+        {
+          "ply": 97,
+          "move": "54.gxf5",
+          "reference_storm_cp_before": 858,
+          "reference_storm_cp_after": 765,
+          "estimated_drop_cp": 93,
+          "preferred_san": [
+            "gxf5",
+            "Kf7"
+          ],
+          "fen": "4k3/8/2pK4/1p1p1pP1/1P4P1/2P5/8/8 w - - 0 54"
+        },
+        {
+          "ply": 9,
+          "move": "10.c3",
+          "reference_storm_cp_before": 133,
+          "reference_storm_cp_after": 72,
+          "estimated_drop_cp": 61,
+          "preferred_san": [
+            "Qd2",
+            "Qxc5"
+          ],
+          "fen": "rnb2rk1/pp1p1ppp/2p2n2/q1Np4/4P3/6N1/PPP1BPPP/R1BQK2R w KQ - 1 10"
+        },
+        {
+          "ply": 49,
+          "move": "30.f4",
+          "reference_storm_cp_before": 89,
+          "reference_storm_cp_after": 45,
+          "estimated_drop_cp": 44,
+          "preferred_san": [
+            "f3",
+            "f6"
+          ],
+          "fen": "r3qnk1/p4pp1/1pp1b3/3p3Q/8/2P3P1/PPBB1PP1/4R1K1 w - - 1 30"
+        },
+        {
+          "ply": 55,
+          "move": "33.Bc2",
+          "reference_storm_cp_before": 181,
+          "reference_storm_cp_after": 139,
+          "estimated_drop_cp": 42,
+          "preferred_san": [
+            "Bh3",
+            "Nh7"
+          ],
+          "fen": "4rn2/p4kp1/1pp1b3/3p1B2/5P2/2P3P1/PP1B2P1/4R1K1 w - - 1 33"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-b-g8-o173",
+      "result": "0-1",
+      "storm_colour": "black",
+      "plies": 151,
+      "reference_initial_white_cp": 18,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 72,
+          "move": "41...Ra1",
+          "reference_storm_cp_before": -39,
+          "reference_storm_cp_after": -270,
+          "estimated_drop_cp": 231,
+          "preferred_san": [
+            "Bf1+",
+            "Kh2"
+          ],
+          "fen": "8/6k1/8/R2p4/1pb5/5BP1/P4PK1/1r6 b - - 1 41"
+        },
+        {
+          "ply": 26,
+          "move": "18...Ng6",
+          "reference_storm_cp_before": -75,
+          "reference_storm_cp_after": -200,
+          "estimated_drop_cp": 125,
+          "preferred_san": [
+            "Nc6",
+            "Bd3"
+          ],
+          "fen": "r1b2rk1/pp1pnpp1/3P3p/8/8/6N1/Pq2BPPP/R2Q1RK1 b - - 0 18"
+        },
+        {
+          "ply": 112,
+          "move": "61...Kb4",
+          "reference_storm_cp_before": 615,
+          "reference_storm_cp_after": 495,
+          "estimated_drop_cp": 120,
+          "preferred_san": [
+            "Bd3",
+            "Rf4",
+            "Be4",
+            "Kh4",
+            "Kd4",
+            "Kh3",
+            "Ke5",
+            "Rf1"
+          ],
+          "fen": "6r1/8/8/2kp1R1K/2b5/8/8/8 b - - 3 61"
+        },
+        {
+          "ply": 8,
+          "move": "9...cxd5",
+          "reference_storm_cp_before": -50,
+          "reference_storm_cp_after": -151,
+          "estimated_drop_cp": 101,
+          "preferred_san": [
+            "Nxe4",
+            "Nxe4"
+          ],
+          "fen": "rnbq1rk1/pp1p1ppp/2p2n2/2bP4/4N3/6N1/PPP1BPPP/R1BQK2R b KQ - 1 9"
+        },
+        {
+          "ply": 24,
+          "move": "17...Qxb2",
+          "reference_storm_cp_before": -24,
+          "reference_storm_cp_after": -117,
+          "estimated_drop_cp": 93,
+          "preferred_san": [
+            "d6",
+            "Qd2"
+          ],
+          "fen": "r1b2rk1/pp1pnpp1/5q1p/3P4/8/6N1/PP2BPPP/R2Q1RK1 b - - 0 17"
+        },
+        {
+          "ply": 18,
+          "move": "14...Ne7",
+          "reference_storm_cp_before": -61,
+          "reference_storm_cp_after": -153,
+          "estimated_drop_cp": 92,
+          "preferred_san": [
+            "h6",
+            "Bxf6"
+          ],
+          "fen": "r1b2rk1/pp1p1ppp/2nq1n2/3p2B1/8/2P3N1/PP2BPPP/R2Q1RK1 b - - 5 14"
+        },
+        {
+          "ply": 118,
+          "move": "64...d4",
+          "reference_storm_cp_before": 593,
+          "reference_storm_cp_after": 502,
+          "estimated_drop_cp": 91,
+          "preferred_san": [
+            "Bd3",
+            "Kg5",
+            "Re8",
+            "Kf6",
+            "Re4"
+          ],
+          "fen": "3r4/8/8/3p3K/2b2R2/2k5/8/8 b - - 9 64"
+        },
+        {
+          "ply": 114,
+          "move": "62...Rd8",
+          "reference_storm_cp_before": 596,
+          "reference_storm_cp_after": 508,
+          "estimated_drop_cp": 88,
+          "preferred_san": [
+            "Kc3",
+            "Kh4",
+            "Re8",
+            "Rf3+",
+            "Bd3",
+            "Kg4",
+            "d4",
+            "Rf4"
+          ],
+          "fen": "6r1/8/8/3p3K/1kb2R2/8/8/8 b - - 5 62"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-b-g9-o174",
+      "result": "1-0",
+      "storm_colour": "white",
+      "plies": 130,
+      "reference_initial_white_cp": -6,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 27,
+          "move": "19.f3",
+          "reference_storm_cp_before": 186,
+          "reference_storm_cp_after": 59,
+          "estimated_drop_cp": 127,
+          "preferred_san": [
+            "Qd4",
+            "Be7",
+            "c5",
+            "bxc5",
+            "Nxc5",
+            "Qb6",
+            "Nxe4",
+            "Qxd4"
+          ],
+          "fen": "1rbqrbk1/7p/1ppp1np1/p7/N1P1p3/1PB1P2P/1P1QBPP1/3R1RK1 w - - 4 19"
+        },
+        {
+          "ply": 9,
+          "move": "10.Rad1",
+          "reference_storm_cp_before": 20,
+          "reference_storm_cp_after": -30,
+          "estimated_drop_cp": 50,
+          "preferred_san": [
+            "d4",
+            "Nce4"
+          ],
+          "fen": "r1bq1rk1/ppp3bp/3p1np1/2n1pp2/2P5/2NPPN2/PPQBBPPP/R4RK1 w - - 6 10"
+        },
+        {
+          "ply": 55,
+          "move": "33.Rf6",
+          "reference_storm_cp_before": 680,
+          "reference_storm_cp_after": 635,
+          "estimated_drop_cp": 45,
+          "preferred_san": [
+            "Ra6",
+            "Rb5",
+            "e4",
+            "Rdb8",
+            "Ra7",
+            "R5b6",
+            "Rxa5",
+            "Rxb2"
+          ],
+          "fen": "3r2k1/7p/2R5/p4N2/8/1rB1P3/1P4P1/6K1 w - - 3 33"
+        },
+        {
+          "ply": 103,
+          "move": "57.Rh8",
+          "reference_storm_cp_before": 670,
+          "reference_storm_cp_after": 626,
+          "estimated_drop_cp": 44,
+          "preferred_san": [
+            "Rf7",
+            "Re8",
+            "Kf4",
+            "Rd8",
+            "Rf6+",
+            "Kb7"
+          ],
+          "fen": "6r1/7R/2k5/4B3/4K3/4P1P1/8/8 w - - 1 57"
+        },
+        {
+          "ply": 37,
+          "move": "24.Qxd6",
+          "reference_storm_cp_before": 499,
+          "reference_storm_cp_after": 456,
+          "estimated_drop_cp": 43,
+          "preferred_san": [
+            "Qxd6",
+            "Bg4"
+          ],
+          "fen": "1r1q1rk1/3b3p/1ppp4/p6p/N1P5/1PB1P2P/1P1Q2P1/3R2K1 w - - 0 24"
+        },
+        {
+          "ply": 61,
+          "move": "36.Ra8+",
+          "reference_storm_cp_before": 686,
+          "reference_storm_cp_after": 655,
+          "estimated_drop_cp": 31,
+          "preferred_san": [
+            "Ra8+",
+            "Ke7",
+            "Rxa5",
+            "Rbxc3",
+            "Nf5+",
+            "Kf7",
+            "bxc3",
+            "Rxc3"
+          ],
+          "fen": "5k2/7p/R6N/p7/8/1rBrP3/1P4P1/6K1 w - - 9 36"
+        },
+        {
+          "ply": 63,
+          "move": "37.Rxa5",
+          "reference_storm_cp_before": 677,
+          "reference_storm_cp_after": 654,
+          "estimated_drop_cp": 23,
+          "preferred_san": [
+            "Rxa5",
+            "Rbxc3",
+            "bxc3",
+            "Ke6",
+            "Nf5",
+            "Rd1+",
+            "Kf2",
+            "Rd5"
+          ],
+          "fen": "R7/4k2p/7N/p7/8/1rBrP3/1P4P1/6K1 w - - 11 37"
+        },
+        {
+          "ply": 35,
+          "move": "23.Rxf8+",
+          "reference_storm_cp_before": 467,
+          "reference_storm_cp_after": 448,
+          "estimated_drop_cp": 19,
+          "preferred_san": [
+            "Qd4",
+            "Re5",
+            "c5",
+            "Qg5",
+            "Nxb6",
+            "Bxh3",
+            "cxd6",
+            "Bg7"
+          ],
+          "fen": "1r1qrbk1/3b3p/1ppp4/p6p/N1P5/1PB1P2P/1P1Q1RP1/3R2K1 w - - 0 23"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-b-g10-o174",
+      "result": "0-1",
+      "storm_colour": "black",
+      "plies": 41,
+      "reference_initial_white_cp": -6,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 2,
+          "move": "6...e4",
+          "reference_storm_cp_before": 2,
+          "reference_storm_cp_after": -91,
+          "estimated_drop_cp": 93,
+          "preferred_san": [
+            "Bg7",
+            "Nc3"
+          ],
+          "fen": "r1bqkbnr/pppn3p/3p2p1/4pp2/2P5/3PPN2/PP1BBPPP/RN1QK2R b KQkq - 1 6"
+        },
+        {
+          "ply": 10,
+          "move": "10...c5",
+          "reference_storm_cp_before": -25,
+          "reference_storm_cp_after": -114,
+          "estimated_drop_cp": 89,
+          "preferred_san": [
+            "Nf6",
+            "Qc2"
+          ],
+          "fen": "r1bqk1nr/ppp3bp/3p2p1/4n3/2PNp3/2N1P3/PP1BBPPP/R2Q1RK1 b kq - 5 10"
+        },
+        {
+          "ply": 16,
+          "move": "13...h5",
+          "reference_storm_cp_before": 148,
+          "reference_storm_cp_after": 78,
+          "estimated_drop_cp": 70,
+          "preferred_san": [
+            "O-O",
+            "Qd1"
+          ],
+          "fen": "r2qk2r/pp4bp/3p1np1/2p1nb2/2P1p3/1NN1P2P/PPQBBPP1/R4RK1 b kq - 0 13"
+        },
+        {
+          "ply": 20,
+          "move": "15...Qh4",
+          "reference_storm_cp_before": 396,
+          "reference_storm_cp_after": 327,
+          "estimated_drop_cp": 69,
+          "preferred_san": [
+            "O-O",
+            "Qd1"
+          ],
+          "fen": "r2qk2r/pp4b1/3p2p1/2pPnb1p/4p3/1N2P2P/PPQBBPP1/R4RK1 b kq - 0 15"
+        },
+        {
+          "ply": 18,
+          "move": "14...Nxd5",
+          "reference_storm_cp_before": 459,
+          "reference_storm_cp_after": 397,
+          "estimated_drop_cp": 62,
+          "preferred_san": [
+            "Nxd5",
+            "cxd5"
+          ],
+          "fen": "r2qk2r/pp4b1/3p1np1/2pNnb1p/2P1p3/1N2P2P/PPQBBPP1/R4RK1 b kq - 1 14"
+        },
+        {
+          "ply": 8,
+          "move": "9...Bg7",
+          "reference_storm_cp_before": -47,
+          "reference_storm_cp_after": -76,
+          "estimated_drop_cp": 29,
+          "preferred_san": [
+            "Nf6",
+            "Bc3"
+          ],
+          "fen": "r1bqkbnr/ppp4p/3p2p1/4n3/2PNp3/4P3/PP1BBPPP/RN1Q1RK1 b kq - 3 9"
+        },
+        {
+          "ply": 6,
+          "move": "8...Ne5",
+          "reference_storm_cp_before": -66,
+          "reference_storm_cp_after": -91,
+          "estimated_drop_cp": 25,
+          "preferred_san": [
+            "Ne5",
+            "Bc3"
+          ],
+          "fen": "r1bqkbnr/pppn3p/3p2p1/8/2PNp3/4P3/PP1BBPPP/RN1QK2R b KQkq - 1 8"
+        },
+        {
+          "ply": 12,
+          "move": "11...Nf6",
+          "reference_storm_cp_before": 9,
+          "reference_storm_cp_after": 0,
+          "estimated_drop_cp": 9,
+          "preferred_san": [
+            "Nf6",
+            "Be1",
+            "Bf5",
+            "Nd5",
+            "Nxd5",
+            "Qxd5",
+            "Qe7",
+            "Bc3"
+          ],
+          "fen": "r1bqk1nr/pp4bp/3p2p1/2p1n3/2P1p3/1NN1P3/PP1BBPPP/R2Q1RK1 b kq - 1 11"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-b-g11-o175",
+      "result": "1-0",
+      "storm_colour": "white",
+      "plies": 51,
+      "reference_initial_white_cp": 249,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 26,
+          "move": "19.Ne4",
+          "reference_storm_cp_before": 773,
+          "reference_storm_cp_after": 463,
+          "estimated_drop_cp": 310,
+          "preferred_san": [
+            "h5",
+            "d6",
+            "e6",
+            "fxe6",
+            "Qxg6+",
+            "Kf8",
+            "Qh6+",
+            "Kg8"
+          ],
+          "fen": "rnb1r1k1/3pbp2/p5p1/q1pPP3/1p4QP/2N2NP1/PP3PB1/2KR3R w - - 0 19"
+        },
+        {
+          "ply": 4,
+          "move": "8.Nf3",
+          "reference_storm_cp_before": 444,
+          "reference_storm_cp_after": 218,
+          "estimated_drop_cp": 226,
+          "preferred_san": [
+            "d6",
+            "b5"
+          ],
+          "fen": "rnb1kb1r/pp1p1pp1/6n1/q1pP3p/4P2P/2N5/PP3PP1/R1BQKBNR w KQkq - 0 8"
+        },
+        {
+          "ply": 10,
+          "move": "11.Bg2",
+          "reference_storm_cp_before": 394,
+          "reference_storm_cp_after": 238,
+          "estimated_drop_cp": 156,
+          "preferred_san": [
+            "Nd2",
+            "Ng4"
+          ],
+          "fen": "rnb1k2r/1p1p1pp1/p2b4/q1pPn2p/4P2P/2N1BNP1/PP3P2/R2QKB1R w KQkq - 1 11"
+        },
+        {
+          "ply": 8,
+          "move": "10.g3",
+          "reference_storm_cp_before": 483,
+          "reference_storm_cp_after": 404,
+          "estimated_drop_cp": 79,
+          "preferred_san": [
+            "Be2",
+            "Bf4"
+          ],
+          "fen": "rnb1k2r/1p1p1pp1/p2b2n1/q1pP3p/4P2P/2N1BN2/PP3PP1/R2QKB1R w KQkq - 0 10"
+        },
+        {
+          "ply": 16,
+          "move": "14.Qg5",
+          "reference_storm_cp_before": 651,
+          "reference_storm_cp_after": 600,
+          "estimated_drop_cp": 51,
+          "preferred_san": [
+            "e5",
+            "Re8",
+            "O-O",
+            "Qb6",
+            "Rae1",
+            "Bxe5",
+            "d6",
+            "Qxd6"
+          ],
+          "fen": "rnb2rk1/1p1p1pp1/p2b4/q1pP3p/4P2P/2N1QNP1/PP3PB1/R3K2R w KQ - 1 14"
+        },
+        {
+          "ply": 0,
+          "move": "6.Nc3",
+          "reference_storm_cp_before": 249,
+          "reference_storm_cp_after": 202,
+          "estimated_drop_cp": 47,
+          "preferred_san": [
+            "Bd2",
+            "Qc7",
+            "Bc3",
+            "d6",
+            "Nd2",
+            "Nd7",
+            "a4",
+            "a6"
+          ],
+          "fen": "rnb1kb1r/pp1pnppp/8/q1pP4/4P3/8/PP3PPP/RNBQKBNR w KQkq - 1 6"
+        },
+        {
+          "ply": 18,
+          "move": "15.O-O-O",
+          "reference_storm_cp_before": 550,
+          "reference_storm_cp_after": 503,
+          "estimated_drop_cp": 47,
+          "preferred_san": [
+            "Qxh5",
+            "g6",
+            "Qg5",
+            "Bf8",
+            "e5",
+            "Qd8",
+            "Ne4",
+            "d6"
+          ],
+          "fen": "rnb1r1k1/1p1p1pp1/p2b4/q1pP2Qp/4P2P/2N2NP1/PP3PB1/R3K2R w KQ - 3 15"
+        },
+        {
+          "ply": 6,
+          "move": "9.Be3",
+          "reference_storm_cp_before": 484,
+          "reference_storm_cp_after": 455,
+          "estimated_drop_cp": 29,
+          "preferred_san": [
+            "Bd2",
+            "a6",
+            "Nb5",
+            "Qb6",
+            "Nxd6+",
+            "Qxd6",
+            "Be2",
+            "Qb6"
+          ],
+          "fen": "rnb1k2r/pp1p1pp1/3b2n1/q1pP3p/4P2P/2N2N2/PP3PP1/R1BQKB1R w KQkq - 2 9"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-b-g12-o175",
+      "result": "0-1",
+      "storm_colour": "black",
+      "plies": 120,
+      "reference_initial_white_cp": 249,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 99,
+          "move": "55...Rxb2+",
+          "reference_storm_cp_before": 1174,
+          "reference_storm_cp_after": 923,
+          "estimated_drop_cp": 251,
+          "preferred_san": [
+            "Rxb2+",
+            "Kg3"
+          ],
+          "fen": "8/7k/8/8/p1p5/8/1P5K/1r6 b - - 0 55"
+        },
+        {
+          "ply": 1,
+          "move": "6...Ng6",
+          "reference_storm_cp_before": -202,
+          "reference_storm_cp_after": -427,
+          "estimated_drop_cp": 225,
+          "preferred_san": [
+            "d6",
+            "Be2",
+            "Nd7",
+            "h4",
+            "a6",
+            "h5",
+            "h6",
+            "f4"
+          ],
+          "fen": "rnb1kb1r/pp1pnppp/8/q1pP4/4P3/2N5/PP3PPP/R1BQKBNR b KQkq - 2 6"
+        },
+        {
+          "ply": 15,
+          "move": "13...Rad8",
+          "reference_storm_cp_before": 117,
+          "reference_storm_cp_after": -39,
+          "estimated_drop_cp": 156,
+          "preferred_san": [
+            "b5",
+            "Bxb5"
+          ],
+          "fen": "r4rk1/pp1nbpp1/3p2np/q1pP4/4P1b1/2N1BN2/PPQ1BPPP/2KRR3 b - - 9 13"
+        },
+        {
+          "ply": 21,
+          "move": "16...a6",
+          "reference_storm_cp_before": 45,
+          "reference_storm_cp_after": -58,
+          "estimated_drop_cp": 103,
+          "preferred_san": [
+            "Be5",
+            "Bd2"
+          ],
+          "fen": "3r1rk1/pp1n1pp1/3p1bnp/q1pP4/4P3/1QN1BP2/PP2BP1P/1K1RR3 b - - 0 16"
+        },
+        {
+          "ply": 25,
+          "move": "18...Nh4",
+          "reference_storm_cp_before": -63,
+          "reference_storm_cp_after": -141,
+          "estimated_drop_cp": 78,
+          "preferred_san": [
+            "b5",
+            "Rg1"
+          ],
+          "fen": "3rr1k1/1p1n1pp1/p2p1bnp/q1pP4/4PP2/2N1B3/PPQ1BP1P/1K1RR3 b - - 2 18"
+        },
+        {
+          "ply": 87,
+          "move": "49...h2",
+          "reference_storm_cp_before": 662,
+          "reference_storm_cp_after": 584,
+          "estimated_drop_cp": 78,
+          "preferred_san": [
+            "h2",
+            "Kf4",
+            "Kg6",
+            "a4",
+            "bxa4",
+            "b3",
+            "g3",
+            "bxa4"
+          ],
+          "fen": "8/7k/8/1p6/2p3p1/P3K2p/1P4r1/7R b - - 3 49"
+        },
+        {
+          "ply": 97,
+          "move": "54...Rb1",
+          "reference_storm_cp_before": 961,
+          "reference_storm_cp_after": 886,
+          "estimated_drop_cp": 75,
+          "preferred_san": [
+            "Re1",
+            "Kxh2"
+          ],
+          "fen": "8/7k/8/8/p1p5/6K1/1P5p/7r b - - 0 54"
+        },
+        {
+          "ply": 35,
+          "move": "23...Nf6",
+          "reference_storm_cp_before": 221,
+          "reference_storm_cp_after": 149,
+          "estimated_drop_cp": 72,
+          "preferred_san": [
+            "Nf6",
+            "a4"
+          ],
+          "fen": "3rr1k1/2qn1pp1/p2p3p/1ppP4/4PP1n/2N1P2P/PPQ1B3/1K1R1R2 b - - 0 23"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-b-g13-o176",
+      "result": "1-0",
+      "storm_colour": "white",
+      "plies": 110,
+      "reference_initial_white_cp": 10,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 91,
+          "move": "51.Qxf4+",
+          "reference_storm_cp_before": 978,
+          "reference_storm_cp_after": 897,
+          "estimated_drop_cp": 81,
+          "preferred_san": [
+            "Qxf4+",
+            "Kxf4",
+            "c7",
+            "b3",
+            "c8=Q",
+            "Kg5",
+            "Qd8+",
+            "Kh5"
+          ],
+          "fen": "1Q6/8/2P3p1/5k2/1pP2q2/5P1P/5PK1/8 w - - 7 51"
+        },
+        {
+          "ply": 75,
+          "move": "43.Qxh7",
+          "reference_storm_cp_before": 529,
+          "reference_storm_cp_after": 466,
+          "estimated_drop_cp": 63,
+          "preferred_san": [
+            "Qa8+",
+            "Kc7",
+            "Qa5+",
+            "Kc8",
+            "Qxb4",
+            "Qd8",
+            "Qc3",
+            "Qg5+"
+          ],
+          "fen": "2k5/Q6p/6p1/2P5/1pP5/5P1P/5PK1/3q4 w - - 9 43"
+        },
+        {
+          "ply": 65,
+          "move": "38.Qxf6+",
+          "reference_storm_cp_before": 589,
+          "reference_storm_cp_after": 540,
+          "estimated_drop_cp": 49,
+          "preferred_san": [
+            "Qxf6+",
+            "Ke8",
+            "c6",
+            "Qd8",
+            "Qh8+",
+            "Ke7",
+            "Qe5+",
+            "Kf7"
+          ],
+          "fen": "5k2/7p/4Qbp1/2P5/1pP5/5P1P/5PK1/3q4 w - - 0 38"
+        },
+        {
+          "ply": 33,
+          "move": "22.Ng4",
+          "reference_storm_cp_before": 4,
+          "reference_storm_cp_after": -43,
+          "estimated_drop_cp": 47,
+          "preferred_san": [
+            "Nxc6",
+            "Qxc6",
+            "Kg2",
+            "Rd8",
+            "Rd1",
+            "g6",
+            "h3",
+            "Nd5"
+          ],
+          "fen": "2q2rk1/4bppp/2n2n2/2p1N3/1p6/3BPP2/1PQ2P1P/2B2RK1 w - - 3 22"
+        },
+        {
+          "ply": 21,
+          "move": "16.Bd3",
+          "reference_storm_cp_before": -53,
+          "reference_storm_cp_after": -91,
+          "estimated_drop_cp": 38,
+          "preferred_san": [
+            "b3",
+            "Qa2"
+          ],
+          "fen": "q4rk1/3bbppp/2np1n2/4p3/1pP5/4PN2/1P1NBPPP/2BQ1RK1 w - - 4 16"
+        },
+        {
+          "ply": 45,
+          "move": "28.Kg2",
+          "reference_storm_cp_before": 28,
+          "reference_storm_cp_after": -1,
+          "estimated_drop_cp": 29,
+          "preferred_san": [
+            "Ra1",
+            "Qxh3"
+          ],
+          "fen": "2qr2k1/4bp1p/2n3p1/2p5/1p6/1P2PP1P/1BQ1BP2/5RK1 w - - 3 28"
+        },
+        {
+          "ply": 25,
+          "move": "18.Nc4",
+          "reference_storm_cp_before": 0,
+          "reference_storm_cp_after": -28,
+          "estimated_drop_cp": 28,
+          "preferred_san": [
+            "cxd6",
+            "Bxd6",
+            "h3",
+            "Bh5",
+            "Be2",
+            "Ne6",
+            "b3",
+            "e4"
+          ],
+          "fen": "q2n1rk1/4bppp/3p1n2/2P1p3/1p4b1/3BPN2/1P1N1PPP/2BQ1RK1 w - - 1 18"
+        },
+        {
+          "ply": 35,
+          "move": "23.h3",
+          "reference_storm_cp_before": 3,
+          "reference_storm_cp_after": -25,
+          "estimated_drop_cp": 28,
+          "preferred_san": [
+            "Nxf6+",
+            "Bxf6"
+          ],
+          "fen": "2q2rk1/4bp1p/2n2np1/2p5/1p4N1/3BPP2/1PQ2P1P/2B2RK1 w - - 0 23"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-b-g14-o176",
+      "result": "1/2-1/2",
+      "storm_colour": "black",
+      "plies": 152,
+      "reference_initial_white_cp": 10,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 68,
+          "move": "39...g5",
+          "reference_storm_cp_before": -2,
+          "reference_storm_cp_after": -235,
+          "estimated_drop_cp": 233,
+          "preferred_san": [
+            "Kg7",
+            "a3"
+          ],
+          "fen": "5bk1/8/6p1/5p2/rp3Rp1/4P1P1/P2B1P1P/6K1 b - - 1 39"
+        },
+        {
+          "ply": 62,
+          "move": "36...Bc5",
+          "reference_storm_cp_before": 3,
+          "reference_storm_cp_after": -179,
+          "estimated_drop_cp": 182,
+          "preferred_san": [
+            "f5",
+            "e4"
+          ],
+          "fen": "6k1/4bp2/6p1/8/rp1R2p1/4P1P1/P4P1P/4B1K1 b - - 1 36"
+        },
+        {
+          "ply": 132,
+          "move": "71...Rb4",
+          "reference_storm_cp_before": -3,
+          "reference_storm_cp_after": -119,
+          "estimated_drop_cp": 116,
+          "preferred_san": [
+            "Rd3",
+            "Bd4"
+          ],
+          "fen": "8/8/8/5p2/6p1/1r2PkP1/p4P2/B3RK2 b - - 21 71"
+        },
+        {
+          "ply": 42,
+          "move": "26...b4",
+          "reference_storm_cp_before": -97,
+          "reference_storm_cp_after": -181,
+          "estimated_drop_cp": 84,
+          "preferred_san": [
+            "g6",
+            "Bc3",
+            "gxf5",
+            "Bxe5",
+            "Rfc8",
+            "g3",
+            "f6",
+            "Bb2"
+          ],
+          "fen": "r4rk1/4bppp/p7/1p1pnB2/8/1P2P3/P2B1PPP/2RR2K1 b - - 6 26"
+        },
+        {
+          "ply": 52,
+          "move": "31...Ng4",
+          "reference_storm_cp_before": -89,
+          "reference_storm_cp_after": -162,
+          "estimated_drop_cp": 73,
+          "preferred_san": [
+            "Rxd5",
+            "Rxd5"
+          ],
+          "fen": "r2r2k1/4bp2/6p1/p2Rn2p/1p6/1P2P2B/P4PPP/3RB1K1 b - - 0 31"
+        },
+        {
+          "ply": 8,
+          "move": "9...Be7",
+          "reference_storm_cp_before": 22,
+          "reference_storm_cp_after": -29,
+          "estimated_drop_cp": 51,
+          "preferred_san": [
+            "d5",
+            "a4",
+            "Rb8",
+            "axb5",
+            "axb5",
+            "f3",
+            "exf3",
+            "Nxf3"
+          ],
+          "fen": "r2qkb1r/2pb1ppp/p1np1n2/1p6/3Pp3/4P3/PPPNBPPP/RNBQ1RK1 b kq - 1 9"
+        },
+        {
+          "ply": 14,
+          "move": "12...c6",
+          "reference_storm_cp_before": -36,
+          "reference_storm_cp_after": -82,
+          "estimated_drop_cp": 46,
+          "preferred_san": [
+            "bxc4",
+            "Nxc4"
+          ],
+          "fen": "r2q1rk1/2pbbppp/p2p1n2/1p1Pn3/2P1p3/2N1P3/PP1NBPPP/R1BQ1RK1 b - - 2 12"
+        },
+        {
+          "ply": 30,
+          "move": "20...Qc8",
+          "reference_storm_cp_before": -45,
+          "reference_storm_cp_after": -78,
+          "estimated_drop_cp": 33,
+          "preferred_san": [
+            "g6",
+            "Qd3"
+          ],
+          "fen": "r2q1rk1/5ppp/pn3b2/1p1p1Q2/8/1P2P3/P3BPPP/1RB2RK1 b - - 1 20"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-b-g15-o177",
+      "result": "0-1",
+      "storm_colour": "white",
+      "plies": 184,
+      "reference_initial_white_cp": -329,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 18,
+          "move": "15.Nxe4",
+          "reference_storm_cp_before": -535,
+          "reference_storm_cp_after": -730,
+          "estimated_drop_cp": 195,
+          "preferred_san": [
+            "a4",
+            "b5",
+            "Nxe4",
+            "dxe4",
+            "Kb2",
+            "bxa4",
+            "c4",
+            "exd4"
+          ],
+          "fen": "1n2kb1r/1pp2ppp/2b5/r2pp3/3Pn3/1KN1B3/P1P1P1PP/R3NB1R w k - 0 15"
+        },
+        {
+          "ply": 2,
+          "move": "7.Be3",
+          "reference_storm_cp_before": -245,
+          "reference_storm_cp_after": -407,
+          "estimated_drop_cp": 162,
+          "preferred_san": [
+            "f4",
+            "exf4",
+            "Nf3",
+            "Bxf3",
+            "exf3",
+            "g6",
+            "Kb3"
+          ],
+          "fen": "rn2kbnr/ppp2ppp/2bp4/4p3/1P5q/2KP4/P1P1PPPP/RNBQ1BNR w kq - 2 7"
+        },
+        {
+          "ply": 8,
+          "move": "10.Qe1",
+          "reference_storm_cp_before": -390,
+          "reference_storm_cp_after": -535,
+          "estimated_drop_cp": 145,
+          "preferred_san": [
+            "Bxf2",
+            "Qxf2",
+            "e4",
+            "a5",
+            "Kb2",
+            "axb4",
+            "a4",
+            "exd4"
+          ],
+          "fen": "rn2kb1r/ppp2ppp/2bp4/4p3/1P1P3q/2K1BN2/P1P1PnPP/RN1Q1B1R w kq - 0 10"
+        },
+        {
+          "ply": 54,
+          "move": "33.Rd5",
+          "reference_storm_cp_before": -524,
+          "reference_storm_cp_after": -609,
+          "estimated_drop_cp": 85,
+          "preferred_san": [
+            "a3",
+            "Rb6+",
+            "Ka1",
+            "Rh6",
+            "Nxe3",
+            "Rha6",
+            "Nd5",
+            "Rxa3+"
+          ],
+          "fen": "r5k1/1pp2ppp/r7/2n5/2P5/4pP2/PKN4P/3RR3 w - - 1 33"
+        },
+        {
+          "ply": 74,
+          "move": "43.Ne3",
+          "reference_storm_cp_before": -560,
+          "reference_storm_cp_after": -635,
+          "estimated_drop_cp": 75,
+          "preferred_san": [
+            "h5",
+            "Rea8",
+            "Kb2",
+            "Ra2+",
+            "Kb1",
+            "R2a7",
+            "Nb4",
+            "Kg7"
+          ],
+          "fen": "4r3/2p2p1p/1p3kp1/2n5/r1P4P/2R2P2/2NR4/1K6 w - - 11 43"
+        },
+        {
+          "ply": 130,
+          "move": "71.Rb2",
+          "reference_storm_cp_before": -650,
+          "reference_storm_cp_after": -724,
+          "estimated_drop_cp": 74,
+          "preferred_san": [
+            "Ne3",
+            "Kg6",
+            "Ra2",
+            "f5",
+            "Ra6+",
+            "c6"
+          ],
+          "fen": "8/2p2pk1/8/1p4p1/5nN1/5PKp/3R4/2r5 w - - 2 71"
+        },
+        {
+          "ply": 10,
+          "move": "11.Kb3",
+          "reference_storm_cp_before": -475,
+          "reference_storm_cp_after": -548,
+          "estimated_drop_cp": 73,
+          "preferred_san": [
+            "Kb2",
+            "Qxe1",
+            "Nxe1",
+            "a5",
+            "a3",
+            "g6",
+            "c4",
+            "Bg7"
+          ],
+          "fen": "rn2kb1r/ppp2ppp/2bp4/4p3/1P1Pn2q/2K1BN2/P1P1P1PP/RN2QB1R w kq - 2 11"
+        },
+        {
+          "ply": 16,
+          "move": "14.Nc3",
+          "reference_storm_cp_before": -544,
+          "reference_storm_cp_after": -601,
+          "estimated_drop_cp": 57,
+          "preferred_san": [
+            "a4",
+            "Be7",
+            "Nd3",
+            "O-O",
+            "Nc3",
+            "exd4",
+            "Bxd4",
+            "Nd7"
+          ],
+          "fen": "1n2kb1r/1pp2ppp/2bp4/r3p3/3Pn3/1K2B3/P1P1P1PP/RN2NB1R w k - 0 14"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-b-g16-o177",
+      "result": "0-1",
+      "storm_colour": "black",
+      "plies": 144,
+      "reference_initial_white_cp": -329,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 35,
+          "move": "23...e3",
+          "reference_storm_cp_before": 486,
+          "reference_storm_cp_after": 251,
+          "estimated_drop_cp": 235,
+          "preferred_san": [
+            "Bd3",
+            "b5",
+            "Bf6",
+            "Rf2",
+            "Rc8",
+            "a4",
+            "Bxd4",
+            "cxd4"
+          ],
+          "fen": "r3k2r/1p2bppp/3p4/pb1P4/1P1Np3/2P5/PK1R2PP/RN6 b kq - 1 23"
+        },
+        {
+          "ply": 1,
+          "move": "6...Qh4",
+          "reference_storm_cp_before": 373,
+          "reference_storm_cp_after": 245,
+          "estimated_drop_cp": 128,
+          "preferred_san": [
+            "d5",
+            "Nf3",
+            "a5",
+            "b5",
+            "Bxb5",
+            "Kd2",
+            "e4",
+            "Nd4"
+          ],
+          "fen": "rn1qkbnr/ppp2ppp/2bp4/4p3/1P6/2KP4/P1P1PPPP/RNBQ1BNR b kq - 1 6"
+        },
+        {
+          "ply": 31,
+          "move": "21...Bb5",
+          "reference_storm_cp_before": 556,
+          "reference_storm_cp_after": 430,
+          "estimated_drop_cp": 126,
+          "preferred_san": [
+            "f5",
+            "Nfd2",
+            "b5",
+            "a3",
+            "Bf6",
+            "Nb3",
+            "a4",
+            "Na5"
+          ],
+          "fen": "r3k2r/1p1bbppp/3p4/p2Pp3/1P6/2P2N2/PK2R1PP/RN6 b kq - 0 21"
+        },
+        {
+          "ply": 47,
+          "move": "29...O-O",
+          "reference_storm_cp_before": 136,
+          "reference_storm_cp_after": 45,
+          "estimated_drop_cp": 91,
+          "preferred_san": [
+            "Kd7",
+            "Re1",
+            "Rhc8",
+            "Rxe2",
+            "Rxc2+",
+            "Nxc2",
+            "Bxb5",
+            "Rf2"
+          ],
+          "fen": "r3k2r/1p3ppp/b2p1b2/1P1P4/3R4/N7/PKN1p1PP/R7 b kq - 0 29"
+        },
+        {
+          "ply": 11,
+          "move": "11...Qf2",
+          "reference_storm_cp_before": 511,
+          "reference_storm_cp_after": 426,
+          "estimated_drop_cp": 85,
+          "preferred_san": [
+            "Qd8",
+            "b5",
+            "Bxb5",
+            "Nc3",
+            "Bd7",
+            "Kb2",
+            "g6",
+            "e4"
+          ],
+          "fen": "rn2kb1r/1pp2ppp/2bp4/p3p3/1P1P3q/1K2PN2/P1P1P1PP/RN1Q1B1R b kq - 1 11"
+        },
+        {
+          "ply": 45,
+          "move": "28...Bf6",
+          "reference_storm_cp_before": 185,
+          "reference_storm_cp_after": 102,
+          "estimated_drop_cp": 83,
+          "preferred_san": [
+            "b5",
+            "Re1",
+            "Bf6",
+            "Rxe2+",
+            "Kd7",
+            "Rf2",
+            "Bxd4+",
+            "Nxd4"
+          ],
+          "fen": "r3k2r/1p2bppp/b2p4/3P4/1P1R4/N7/PKN1p1PP/R7 b kq - 0 28"
+        },
+        {
+          "ply": 33,
+          "move": "22...e4",
+          "reference_storm_cp_before": 440,
+          "reference_storm_cp_after": 380,
+          "estimated_drop_cp": 60,
+          "preferred_san": [
+            "Ba4",
+            "Rf2",
+            "f5",
+            "Nfd2",
+            "O-O",
+            "Nc4",
+            "axb4",
+            "cxb4"
+          ],
+          "fen": "r3k2r/1p2bppp/3p4/pb1Pp3/1P6/2P2N2/PK1R2PP/RN6 b kq - 2 22"
+        },
+        {
+          "ply": 123,
+          "move": "67...b4",
+          "reference_storm_cp_before": 802,
+          "reference_storm_cp_after": 745,
+          "estimated_drop_cp": 57,
+          "preferred_san": [
+            "Kc4",
+            "Nf3",
+            "Kc3",
+            "Kf1",
+            "f5",
+            "Kf2",
+            "f4",
+            "Nh2"
+          ],
+          "fen": "8/5p2/3q4/1pk5/8/8/4K3/4N3 b - - 1 67"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-b-g17-o178",
+      "result": "1-0",
+      "storm_colour": "white",
+      "plies": 277,
+      "reference_initial_white_cp": 41,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 206,
+          "move": "108.Qh8+",
+          "reference_storm_cp_before": 479,
+          "reference_storm_cp_after": 20,
+          "estimated_drop_cp": 459,
+          "preferred_san": [
+            "Qxb2",
+            "h1=Q"
+          ],
+          "fen": "8/8/K7/P3Q1p1/8/7k/1r5p/8 w - - 17 108"
+        },
+        {
+          "ply": 234,
+          "move": "122.Qe3+",
+          "reference_storm_cp_before": 570,
+          "reference_storm_cp_after": 125,
+          "estimated_drop_cp": 445,
+          "preferred_san": [
+            "Qxa5",
+            "h1=Q",
+            "Qf5+",
+            "g4",
+            "Qh5+",
+            "Kg2",
+            "Qxg4+",
+            "Kf2"
+          ],
+          "fen": "8/8/P7/r5p1/3K4/7k/7p/4Q3 w - - 17 122"
+        },
+        {
+          "ply": 252,
+          "move": "131.Qh8+",
+          "reference_storm_cp_before": 983,
+          "reference_storm_cp_after": 584,
+          "estimated_drop_cp": 399,
+          "preferred_san": [
+            "a8=Q",
+            "Rxa8"
+          ],
+          "fen": "3Q4/P7/8/8/3K2p1/7k/8/r7 w - - 2 131"
+        },
+        {
+          "ply": 168,
+          "move": "89.b7",
+          "reference_storm_cp_before": 329,
+          "reference_storm_cp_after": 107,
+          "estimated_drop_cp": 222,
+          "preferred_san": [
+            "Rd7+",
+            "Kf6"
+          ],
+          "fen": "8/5k2/1P4p1/K7/P7/7p/3R2r1/8 w - - 1 89"
+        },
+        {
+          "ply": 164,
+          "move": "87.Rd2",
+          "reference_storm_cp_before": 297,
+          "reference_storm_cp_after": 89,
+          "estimated_drop_cp": 208,
+          "preferred_san": [
+            "Rd7+",
+            "Ke6"
+          ],
+          "fen": "8/5k2/6p1/KP6/P6p/3R2r1/8/8 w - - 1 87"
+        },
+        {
+          "ply": 220,
+          "move": "115.Qe3+",
+          "reference_storm_cp_before": 200,
+          "reference_storm_cp_after": 2,
+          "estimated_drop_cp": 198,
+          "preferred_san": [
+            "Kb6",
+            "Rb2+"
+          ],
+          "fen": "8/K7/P7/6p1/4Q3/6k1/5r1p/8 w - - 3 115"
+        },
+        {
+          "ply": 240,
+          "move": "125.Qh7",
+          "reference_storm_cp_before": 194,
+          "reference_storm_cp_after": 12,
+          "estimated_drop_cp": 182,
+          "preferred_san": [
+            "Qe2+",
+            "Kg3"
+          ],
+          "fen": "8/8/P7/r5p1/3K2k1/3Q4/7p/8 w - - 23 125"
+        },
+        {
+          "ply": 230,
+          "move": "120.Kd5",
+          "reference_storm_cp_before": 181,
+          "reference_storm_cp_after": 55,
+          "estimated_drop_cp": 126,
+          "preferred_san": [
+            "Kb3",
+            "g4"
+          ],
+          "fen": "8/8/P7/6p1/2K2r2/7k/7p/4Q3 w - - 13 120"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-b-g18-o178",
+      "result": "0-1",
+      "storm_colour": "black",
+      "plies": 258,
+      "reference_initial_white_cp": 41,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 47,
+          "move": "28...d5",
+          "reference_storm_cp_before": -84,
+          "reference_storm_cp_after": -350,
+          "estimated_drop_cp": 266,
+          "preferred_san": [
+            "c5",
+            "bxc5"
+          ],
+          "fen": "b2rrnk1/3q2b1/2pp1p2/Np4p1/1P1PPp2/2PQ1N2/2B2PP1/1K1RR3 b - - 4 28"
+        },
+        {
+          "ply": 29,
+          "move": "19...Nf4",
+          "reference_storm_cp_before": 333,
+          "reference_storm_cp_after": 134,
+          "estimated_drop_cp": 199,
+          "preferred_san": [
+            "Nxg3",
+            "hxg3"
+          ],
+          "fen": "3rr1k1/1bqn1pb1/2pp2pp/1p2p2n/3PP3/1NP2NB1/1PB1QPPP/1K1RR3 b - - 1 19"
+        },
+        {
+          "ply": 25,
+          "move": "17...Rad8",
+          "reference_storm_cp_before": 477,
+          "reference_storm_cp_after": 283,
+          "estimated_drop_cp": 194,
+          "preferred_san": [
+            "Nxg3",
+            "hxg3",
+            "exd4",
+            "cxd4",
+            "c5",
+            "Qe3",
+            "Rac8",
+            "Rc1"
+          ],
+          "fen": "r3r1k1/1bqn1pb1/p1pp2pp/1p2p2n/P2PP3/2P2NB1/1PBNQPPP/1K1RR3 b - - 3 17"
+        },
+        {
+          "ply": 79,
+          "move": "44...Qb2+",
+          "reference_storm_cp_before": 174,
+          "reference_storm_cp_after": 3,
+          "estimated_drop_cp": 171,
+          "preferred_san": [
+            "Qc5",
+            "Bd3"
+          ],
+          "fen": "R4nk1/8/2p5/Np1p2p1/8/q4pP1/3K1P2/1B1R4 b - - 10 44"
+        },
+        {
+          "ply": 43,
+          "move": "26...Qd7",
+          "reference_storm_cp_before": -151,
+          "reference_storm_cp_after": -300,
+          "estimated_drop_cp": 149,
+          "preferred_san": [
+            "Ne6",
+            "Bb3"
+          ],
+          "fen": "3rrnk1/1b3qb1/2pp1p2/1p4p1/1P1PPp2/2PQ1N2/2BN1PP1/1K1RR3 b - - 0 26"
+        },
+        {
+          "ply": 35,
+          "move": "22...f6",
+          "reference_storm_cp_before": 9,
+          "reference_storm_cp_after": -116,
+          "estimated_drop_cp": 125,
+          "preferred_san": [
+            "g4",
+            "Qxf4"
+          ],
+          "fen": "3rr1k1/1bqn1pb1/2pp3p/1p4p1/3PPp1P/1NP2N2/1PBQ1PP1/1K1RR3 b - - 0 22"
+        },
+        {
+          "ply": 21,
+          "move": "15...h6",
+          "reference_storm_cp_before": 369,
+          "reference_storm_cp_after": 247,
+          "estimated_drop_cp": 122,
+          "preferred_san": [
+            "exd4",
+            "cxd4"
+          ],
+          "fen": "r3r1k1/1bqn1pbp/p1pp1np1/1p2p1B1/P2PP3/2P2N2/1PBNQPPP/1K1RR3 b - - 2 15"
+        },
+        {
+          "ply": 23,
+          "move": "16...Nh5",
+          "reference_storm_cp_before": 352,
+          "reference_storm_cp_after": 236,
+          "estimated_drop_cp": 116,
+          "preferred_san": [
+            "exd4",
+            "cxd4",
+            "c5",
+            "Bxf6",
+            "Bxf6",
+            "h4",
+            "h5",
+            "Ng5"
+          ],
+          "fen": "r3r1k1/1bqn1pb1/p1pp1npp/1p2p3/P2PP2B/2P2N2/1PBNQPPP/1K1RR3 b - - 1 16"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-b-g19-o179",
+      "result": "1-0",
+      "storm_colour": "white",
+      "plies": 114,
+      "reference_initial_white_cp": -81,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 25,
+          "move": "19.Nf3",
+          "reference_storm_cp_before": 440,
+          "reference_storm_cp_after": 226,
+          "estimated_drop_cp": 214,
+          "preferred_san": [
+            "Qf2",
+            "Qh6",
+            "g3",
+            "Nxc3",
+            "bxc3",
+            "b6",
+            "Nf3",
+            "Rxd1+"
+          ],
+          "fen": "r1br2k1/pp5p/2n1p1q1/2pn1p2/2B2P2/2B3Q1/PPPN2PP/2KRR3 w - - 7 19"
+        },
+        {
+          "ply": 19,
+          "move": "16.Qg3+",
+          "reference_storm_cp_before": 461,
+          "reference_storm_cp_after": 279,
+          "estimated_drop_cp": 182,
+          "preferred_san": [
+            "O-O-O",
+            "Nd5",
+            "Rhe1",
+            "Nxc3",
+            "Qxc3",
+            "Qg7",
+            "Qe3",
+            "Qd4"
+          ],
+          "fen": "r1b2rk1/pp3q1p/2n1pn2/2p2p2/2B2P2/2B4Q/PPPN2PP/R3K2R w KQ - 1 16"
+        },
+        {
+          "ply": 93,
+          "move": "53.Qg4+",
+          "reference_storm_cp_before": 1391,
+          "reference_storm_cp_after": 1242,
+          "estimated_drop_cp": 149,
+          "preferred_san": [
+            "Ka5",
+            "Kf7",
+            "Qc7+",
+            "Kf6",
+            "Qd7",
+            "Ke5",
+            "Qxa7",
+            "Ke4"
+          ],
+          "fen": "2Q5/p7/P5k1/8/1K6/8/8/8 w - - 0 53"
+        },
+        {
+          "ply": 101,
+          "move": "57.Qxa7",
+          "reference_storm_cp_before": 1323,
+          "reference_storm_cp_after": 1179,
+          "estimated_drop_cp": 144,
+          "preferred_san": [
+            "Qxa7",
+            "Kg6",
+            "Ka4",
+            "Kg5",
+            "Qh7",
+            "Kf4",
+            "Qh2+",
+            "Kg4"
+          ],
+          "fen": "8/p4Q2/P7/6k1/1K6/8/8/8 w - - 8 57"
+        },
+        {
+          "ply": 87,
+          "move": "50.c6",
+          "reference_storm_cp_before": 1226,
+          "reference_storm_cp_after": 1095,
+          "estimated_drop_cp": 131,
+          "preferred_san": [
+            "c6",
+            "Ke7"
+          ],
+          "fen": "5k2/p7/P5P1/2P5/1K6/8/8/8 w - - 1 50"
+        },
+        {
+          "ply": 23,
+          "move": "18.Rhe1",
+          "reference_storm_cp_before": 326,
+          "reference_storm_cp_after": 199,
+          "estimated_drop_cp": 127,
+          "preferred_san": [
+            "Qf3",
+            "Nxc3"
+          ],
+          "fen": "r1b2rk1/pp5p/2n1p1q1/2pn1p2/2B2P2/2B3Q1/PPPN2PP/2KR3R w - - 5 18"
+        },
+        {
+          "ply": 97,
+          "move": "55.Qh5+",
+          "reference_storm_cp_before": 1345,
+          "reference_storm_cp_after": 1227,
+          "estimated_drop_cp": 118,
+          "preferred_san": [
+            "Qh7",
+            "Kd5",
+            "Qb7+",
+            "Kd4",
+            "Qxa7+",
+            "Kd3",
+            "Qh7+",
+            "Ke2"
+          ],
+          "fen": "8/p7/P7/4k3/1K5Q/8/8/8 w - - 4 55"
+        },
+        {
+          "ply": 53,
+          "move": "33.a5",
+          "reference_storm_cp_before": 480,
+          "reference_storm_cp_after": 386,
+          "estimated_drop_cp": 94,
+          "preferred_san": [
+            "g4",
+            "Ra6",
+            "Kb3",
+            "Rb6",
+            "a5",
+            "Ra6",
+            "Rxb7",
+            "Rxa5"
+          ],
+          "fen": "6k1/pp1R3p/1r6/2p2N2/Pn3P2/2K3P1/2P3P1/8 w - - 1 33"
+        }
+      ]
+    },
+    {
+      "game_id": "holdout-b-g20-o179",
+      "result": "0-1",
+      "storm_colour": "black",
+      "plies": 85,
+      "reference_initial_white_cp": -81,
+      "screen_largest_storm_drops": [
+        {
+          "ply": 6,
+          "move": "9...Qxe6",
+          "reference_storm_cp_before": 432,
+          "reference_storm_cp_after": 391,
+          "estimated_drop_cp": 41,
+          "preferred_san": [
+            "Qxe6",
+            "d5"
+          ],
+          "fen": "r1b1kb1r/pppq3p/2npNn2/5p2/3P4/2BQ4/PPP1P1PP/RN2KB1R b KQkq - 0 9"
+        },
+        {
+          "ply": 8,
+          "move": "10...Nxd5",
+          "reference_storm_cp_before": 454,
+          "reference_storm_cp_after": 413,
+          "estimated_drop_cp": 41,
+          "preferred_san": [
+            "Nxd5",
+            "Bxh8"
+          ],
+          "fen": "r1b1kb1r/ppp4p/2npqn2/3P1p2/8/2BQ4/PPP1P1PP/RN2KB1R b KQkq - 0 10"
+        },
+        {
+          "ply": 48,
+          "move": "30...Kd7",
+          "reference_storm_cp_before": 841,
+          "reference_storm_cp_after": 802,
+          "estimated_drop_cp": 39,
+          "preferred_san": [
+            "Ke7",
+            "Kd2",
+            "c5",
+            "Rg8",
+            "Bf3",
+            "Rc8",
+            "Bc6",
+            "Rc7+"
+          ],
+          "fen": "R3k3/1p5p/2pp4/8/3b1p1P/2rB4/4K1b1/8 b - - 2 30"
+        },
+        {
+          "ply": 46,
+          "move": "29...Bd4",
+          "reference_storm_cp_before": 850,
+          "reference_storm_cp_after": 814,
+          "estimated_drop_cp": 36,
+          "preferred_san": [
+            "Ke7",
+            "Ra8",
+            "Bd4",
+            "Kd2",
+            "f3",
+            "Ra4",
+            "f2",
+            "Bf1"
+          ],
+          "fen": "4k3/1p5p/2pp4/8/5p1P/2rBb3/4K1b1/R7 b - - 0 29"
+        },
+        {
+          "ply": 10,
+          "move": "11...Ncb4",
+          "reference_storm_cp_before": 479,
+          "reference_storm_cp_after": 447,
+          "estimated_drop_cp": 32,
+          "preferred_san": [
+            "Ncb4",
+            "Qb3"
+          ],
+          "fen": "r1b1kb1B/ppp4p/2npq3/3n1p2/8/3Q4/PPP1P1PP/RN2KB1R b KQq - 0 11"
+        },
+        {
+          "ply": 58,
+          "move": "35...Bxf2",
+          "reference_storm_cp_before": 953,
+          "reference_storm_cp_after": 928,
+          "estimated_drop_cp": 25,
+          "preferred_san": [
+            "Bxf2",
+            "Ke2"
+          ],
+          "fen": "8/1p2k2p/2pp4/7P/3b4/3K4/5Rb1/8 b - - 0 35"
+        },
+        {
+          "ply": 40,
+          "move": "26...Ra3",
+          "reference_storm_cp_before": 748,
+          "reference_storm_cp_after": 729,
+          "estimated_drop_cp": 19,
+          "preferred_san": [
+            "Bxg2",
+            "Bb1",
+            "Ra3",
+            "Bf6",
+            "Rb3",
+            "Bc2",
+            "Rb4",
+            "Bd1"
+          ],
+          "fen": "4k3/1p5p/2pp4/3b4/5p2/2BBb2P/r5P1/4KR2 b - - 4 26"
+        },
+        {
+          "ply": 44,
+          "move": "28...Rxc3",
+          "reference_storm_cp_before": 819,
+          "reference_storm_cp_after": 801,
+          "estimated_drop_cp": 18,
+          "preferred_san": [
+            "Rxc3",
+            "h4",
+            "Bh3",
+            "Bxh7",
+            "Kf7",
+            "h5",
+            "Bg4+",
+            "Ke1"
+          ],
+          "fen": "4k3/1p5p/2pp4/8/5p2/r1BBb2P/4K1b1/R7 b - - 1 28"
+        }
+      ]
+    }
+  ],
+  "positions": 6221,
+  "played_plies": 6171,
+  "native_unique_starts": 20,
+  "native_start_screen": {
+    "abs_over_100_cp": 7,
+    "abs_over_200_cp": 6,
+    "max_abs_cp": 832,
+    "median_abs_cp": 77.0,
+    "starts": [
+      {
+        "fen": "rnbqkbnr/pp2p1pp/3p4/5p2/2p2B2/2PP4/PP2PPPP/RN1QKBNR w KQkq - 0 5",
+        "white_cp": 74
+      },
+      {
+        "fen": "rnbq1bnr/p1pkp1pp/8/1p1p1p2/1P6/3PB3/P1P1PPPP/RN1QKBNR w KQ - 0 5",
+        "white_cp": 148
+      },
+      {
+        "fen": "rn1qkbnr/ppp3pp/3pp3/1b3p2/3PP3/5P2/PPPQK1PP/RNB2BNR w kq - 2 6",
+        "white_cp": -32
+      },
+      {
+        "fen": "rnb1kbnr/pppp1ppp/8/8/1qPpP3/8/PP3PPP/RNBQKBNR w KQkq - 1 5",
+        "white_cp": -27
+      },
+      {
+        "fen": "rnbq1b1r/pp1pkppp/2p2n2/4p3/4P3/2NB4/PPPP1PPP/R1BQK1NR w KQ - 2 5",
+        "white_cp": 80
+      },
+      {
+        "fen": "rnb1kb1r/pp2nppp/2pp4/q3p3/3NP3/3P4/PPP2PPP/R1BQKBNR w KQkq - 2 6",
+        "white_cp": -22
+      },
+      {
+        "fen": "r2qkbnr/ppp2ppp/3p4/2n1p3/3PP3/8/PPP2PPP/RNBQK1NR w KQkq - 1 6",
+        "white_cp": 705
+      },
+      {
+        "fen": "rn1qkbnr/ppp1p2p/4b1p1/3p1Q2/8/3PP3/PPP2PPP/RNB1KBNR w KQkq - 1 5",
+        "white_cp": 832
+      },
+      {
+        "fen": "rnb1kbnr/ppp3pp/3p4/4pp2/4P3/2P5/PP1K1PPP/RNB2BNR w kq - 0 7",
+        "white_cp": -287
+      },
+      {
+        "fen": "rnbqkb1r/ppp1p1pp/8/3p1p2/2PPnP2/8/PP2PKPP/RNBQ1BNR w kq - 3 5",
+        "white_cp": -98
+      },
+      {
+        "fen": "rnbqk1nr/pppp2pp/8/3Npp2/1b6/2PPP3/PP3PPP/R1BQKBNR b KQkq - 0 5",
+        "white_cp": 60
+      },
+      {
+        "fen": "rn1q1bnr/pp1kpppp/3pP3/8/3p4/8/PPP2PPP/RNBQK1NR b KQ - 0 6",
+        "white_cp": -72
+      },
+      {
+        "fen": "rn1qkbnr/ppp3pp/8/3pPp2/5Pb1/2P5/PP2P2P/RNBQKBNR b KQkq - 0 6",
+        "white_cp": -201
+      },
+      {
+        "fen": "rnbqk1nr/pppp1ppp/4p3/2bP4/4P3/8/PPPNNPPP/R1BQKB1R b KQkq - 0 5",
+        "white_cp": 18
+      },
+      {
+        "fen": "r1bqkbnr/pppn2pp/3p4/4pp2/2P5/3PP3/PP1BBPPP/RN1QK1NR b KQkq - 2 5",
+        "white_cp": -6
+      },
+      {
+        "fen": "rnb1kb1r/pp1pnppp/8/q1pP4/4P3/8/PP3PPP/RNBQKBNR w KQkq - 1 6",
+        "white_cp": 249
+      },
+      {
+        "fen": "r2qkbnr/p1pbpppp/2np4/1p6/8/3PP3/PPP1BPPP/RNBQK1NR b KQkq - 3 5",
+        "white_cp": 10
+      },
+      {
+        "fen": "rn1qkbnr/ppp2ppp/2bp4/4p3/1P1K4/3P4/P1P1PPPP/RNBQ1BNR w kq - 0 6",
+        "white_cp": -329
+      },
+      {
+        "fen": "r1bqkbnr/pppn1ppp/3p4/1B2p3/3PP3/8/PPP1QPPP/RNB1K1NR w KQkq - 0 5",
+        "white_cp": 41
+      },
+      {
+        "fen": "rnb1kbnr/pppq3p/3pp3/5pp1/3P1P2/2BQ4/PPP1P1PP/RN2KBNR b KQkq - 1 6",
+        "white_cp": -81
+      }
+    ]
+  },
+  "limitations": [
+    "100k-node site / 50k-node native screens; adjacent-root score changes are estimates, not verified move loss.",
+    "Screen and first deep pass aggregate UCI info and did not preserve bound flags; do not treat their reported depth/score/PV as a certified complete exact event.",
+    "Confirm key positions using reference-confirmed.jsonl streamed score events or retained tablebase evidence.",
+    "External engine does not implement the competition mandatory intended-move claim or 600-ply cap inside its own search.",
+    "These reviewed positions are development diagnostics, not an unseen future holdout."
+  ],
+  "screen_sha256": "b4aa3f4c1ee326964ba3311ca7b0507234fcc1412cc96d168fa7fa538bfd4538"
+}

@@ -1,0 +1,788 @@
+{
+  "new_games": [
+    {
+      "round": 35,
+      "headers": {
+        "Event": "AI Chessathon Rated",
+        "Site": "aichessathon.com",
+        "Date": "2026.09.06",
+        "Round": "35",
+        "White": "Finlay Phillips",
+        "Black": "Rush hour",
+        "Result": "1-0",
+        "FEN": "rnbq1rk1/ppp2ppp/3b4/3p4/3Pn3/3BBN2/PPP2PPP/RN1Q1RK1 b - - 5 8",
+        "SetUp": "1",
+        "Termination": "checkmate"
+      },
+      "positions": 193,
+      "deep": [
+        {
+          "ply": 115,
+          "played": "Kd5",
+          "best": "Kd5",
+          "best_white_cp": 31985,
+          "played_white_cp": 31985,
+          "best_white_mate": 15,
+          "played_white_mate": 15,
+          "clock_ms": 1119
+        },
+        {
+          "ply": 127,
+          "played": "Kd5",
+          "best": "Kc5",
+          "best_white_cp": 31989,
+          "played_white_cp": 31989,
+          "best_white_mate": 11,
+          "played_white_mate": 11,
+          "clock_ms": 899
+        },
+        {
+          "ply": 17,
+          "played": "Bb5",
+          "best": "cxb6",
+          "best_white_cp": 229,
+          "played_white_cp": 0,
+          "best_white_mate": null,
+          "played_white_mate": null,
+          "clock_ms": 99530
+        },
+        {
+          "ply": 11,
+          "played": "c5",
+          "best": "d5",
+          "best_white_cp": 115,
+          "played_white_cp": -39,
+          "best_white_mate": null,
+          "played_white_mate": null,
+          "clock_ms": 109130
+        },
+        {
+          "ply": 105,
+          "played": "Rb6+",
+          "best": "Rxb5",
+          "best_white_cp": 1543,
+          "played_white_cp": 1436,
+          "best_white_mate": null,
+          "played_white_mate": null,
+          "clock_ms": 6363
+        },
+        {
+          "ply": 59,
+          "played": "a5",
+          "best": "b4",
+          "best_white_cp": 553,
+          "played_white_cp": 494,
+          "best_white_mate": null,
+          "played_white_mate": null,
+          "clock_ms": 32499
+        }
+      ]
+    },
+    {
+      "round": 36,
+      "headers": {
+        "Event": "AI Chessathon Rated",
+        "Site": "aichessathon.com",
+        "Date": "2026.09.06",
+        "Round": "36",
+        "White": "Dogwarts",
+        "Black": "Finlay Phillips",
+        "Result": "0-1",
+        "FEN": "r2qkb1r/1p3ppp/p1npbn2/4p3/4P3/N1N2P2/PPP3PP/R1BQKB1R w KQkq - 2 9",
+        "SetUp": "1",
+        "Termination": "checkmate"
+      },
+      "positions": 91,
+      "deep": [
+        {
+          "ply": 77,
+          "played": "Qxh4+",
+          "best": "Qxh4+",
+          "best_white_cp": -31990,
+          "played_white_cp": -31990,
+          "best_white_mate": -10,
+          "played_white_mate": -10,
+          "clock_ms": 5986
+        },
+        {
+          "ply": 81,
+          "played": "Nxf1",
+          "best": "Nxf1",
+          "best_white_cp": -31989,
+          "played_white_cp": -31989,
+          "best_white_mate": -11,
+          "played_white_mate": -11,
+          "clock_ms": 3911
+        },
+        {
+          "ply": 79,
+          "played": "Ng3+",
+          "best": "Nf4",
+          "best_white_cp": -31991,
+          "played_white_cp": -31988,
+          "best_white_mate": -9,
+          "played_white_mate": -12,
+          "clock_ms": 5807
+        },
+        {
+          "ply": 43,
+          "played": "Nxg3",
+          "best": "Kg7",
+          "best_white_cp": -266,
+          "played_white_cp": -38,
+          "best_white_mate": null,
+          "played_white_mate": null,
+          "clock_ms": 48331
+        },
+        {
+          "ply": 41,
+          "played": "h3+",
+          "best": "Qc2+",
+          "best_white_cp": -324,
+          "played_white_cp": -151,
+          "best_white_mate": null,
+          "played_white_mate": null,
+          "clock_ms": 53528
+        },
+        {
+          "ply": 21,
+          "played": "Nf4",
+          "best": "Rxc2",
+          "best_white_cp": -72,
+          "played_white_cp": -18,
+          "best_white_mate": null,
+          "played_white_mate": null,
+          "clock_ms": 92381
+        }
+      ]
+    },
+    {
+      "round": 37,
+      "headers": {
+        "Event": "AI Chessathon Rated",
+        "Site": "aichessathon.com",
+        "Date": "2026.09.06",
+        "Round": "37",
+        "White": "Finlay Phillips",
+        "Black": "Neural Gambit",
+        "Result": "0-1",
+        "FEN": "rnbqkb1r/ppp3pp/4pn2/3p1p2/3P3P/5NP1/PPP1PPB1/RNBQK2R b KQkq - 0 5",
+        "SetUp": "1",
+        "Termination": "checkmate"
+      },
+      "positions": 78,
+      "deep": [
+        {
+          "ply": 55,
+          "played": "Bxe4",
+          "best": "Bxe4",
+          "best_white_cp": -31990,
+          "played_white_cp": -31990,
+          "best_white_mate": -10,
+          "played_white_mate": -10,
+          "clock_ms": 35389
+        },
+        {
+          "ply": 35,
+          "played": "Qc3",
+          "best": "Kf1",
+          "best_white_cp": -319,
+          "played_white_cp": -504,
+          "best_white_mate": null,
+          "played_white_mate": null,
+          "clock_ms": 73960
+        },
+        {
+          "ply": 39,
+          "played": "exf4",
+          "best": "exf4",
+          "best_white_cp": -892,
+          "played_white_cp": -905,
+          "best_white_mate": null,
+          "played_white_mate": null,
+          "clock_ms": 60484
+        },
+        {
+          "ply": 49,
+          "played": "Qf3+",
+          "best": "Qf3+",
+          "best_white_cp": -1117,
+          "played_white_cp": -1670,
+          "best_white_mate": null,
+          "played_white_mate": null,
+          "clock_ms": 45568
+        },
+        {
+          "ply": 31,
+          "played": "c5",
+          "best": "Rcd1",
+          "best_white_cp": -96,
+          "played_white_cp": -251,
+          "best_white_mate": null,
+          "played_white_mate": null,
+          "clock_ms": 77733
+        },
+        {
+          "ply": 37,
+          "played": "Qxa5",
+          "best": "Qc2",
+          "best_white_cp": -499,
+          "played_white_cp": -657,
+          "best_white_mate": null,
+          "played_white_mate": null,
+          "clock_ms": 71745
+        }
+      ]
+    }
+  ],
+  "neural_pilot": {
+    "chosen": {
+      "ridge": 0.01,
+      "seed": 260907,
+      "validation_mae_cp": 274.6688232421875,
+      "epochs": 9,
+      "curve": [
+        [
+          1,
+          275.8465270996094
+        ],
+        [
+          2,
+          276.0206604003906
+        ],
+        [
+          3,
+          276.1899108886719
+        ],
+        [
+          4,
+          276.4471130371094
+        ],
+        [
+          5,
+          277.18701171875
+        ],
+        [
+          6,
+          277.4239501953125
+        ],
+        [
+          7,
+          279.05963134765625
+        ],
+        [
+          8,
+          278.9510803222656
+        ],
+        [
+          9,
+          274.6688232421875
+        ],
+        [
+          10,
+          278.01788330078125
+        ],
+        [
+          11,
+          278.7632141113281
+        ],
+        [
+          12,
+          276.1050720214844
+        ],
+        [
+          13,
+          277.00830078125
+        ],
+        [
+          14,
+          278.7308349609375
+        ],
+        [
+          15,
+          278.2071533203125
+        ],
+        [
+          16,
+          278.4605407714844
+        ],
+        [
+          17,
+          275.7796630859375
+        ],
+        [
+          18,
+          275.237548828125
+        ],
+        [
+          19,
+          278.398193359375
+        ]
+      ]
+    },
+    "linear_trials": [
+      {
+        "ridge": 10,
+        "n": 684,
+        "mae_cp": 265.23964362813655,
+        "rmse_cp": 353.7210912705493,
+        "p90_cp": 606.0128555124224
+      },
+      {
+        "ridge": 100,
+        "n": 684,
+        "mae_cp": 268.0549615188846,
+        "rmse_cp": 355.6640314778574,
+        "p90_cp": 606.520344315821
+      },
+      {
+        "ridge": 1000,
+        "n": 684,
+        "mae_cp": 272.6701978386056,
+        "rmse_cp": 360.54605442223595,
+        "p90_cp": 621.1538115791571
+      },
+      {
+        "ridge": 10000,
+        "n": 684,
+        "mae_cp": 275.44001078353415,
+        "rmse_cp": 363.5233509631017,
+        "p90_cp": 622.9644456742442
+      }
+    ],
+    "linear_chosen": {
+      "ridge": 10,
+      "n": 684,
+      "mae_cp": 265.23964362813655,
+      "rmse_cp": 353.7210912705493,
+      "p90_cp": 606.0128555124224
+    },
+    "data_counts": {
+      "train": 4159,
+      "validation": 684,
+      "test": 445
+    },
+    "dropped_mate_terminal_extreme": 466,
+    "metrics": {
+      "train": {
+        "v6": {
+          "n": 4159,
+          "mae_cp": 274.3159484863281,
+          "rmse_cp": 373.2047119140625,
+          "p90_cp": 651.0
+        },
+        "linear": {
+          "n": 4159,
+          "mae_cp": 262.91416965220066,
+          "rmse_cp": 359.19020887418264,
+          "p90_cp": 592.9864612285073
+        },
+        "network": {
+          "n": 4159,
+          "mae_cp": 229.84515380859375,
+          "rmse_cp": 335.29510498046875,
+          "p90_cp": 569.4000244140625
+        }
+      },
+      "validation": {
+        "v6": {
+          "n": 684,
+          "mae_cp": 275.9809875488281,
+          "rmse_cp": 364.1003723144531,
+          "p90_cp": 623.2000122070312
+        },
+        "linear": {
+          "n": 684,
+          "mae_cp": 265.23964362813655,
+          "rmse_cp": 353.7210912705493,
+          "p90_cp": 606.0128555124224
+        },
+        "network": {
+          "n": 684,
+          "mae_cp": 274.9458923339844,
+          "rmse_cp": 362.5370178222656,
+          "p90_cp": 608.0999755859375
+        }
+      },
+      "test": {
+        "v6": {
+          "n": 445,
+          "mae_cp": 267.1595458984375,
+          "rmse_cp": 361.13018798828125,
+          "p90_cp": 583.7999877929688
+        },
+        "linear": {
+          "n": 445,
+          "mae_cp": 255.44811921314707,
+          "rmse_cp": 358.8106455259738,
+          "p90_cp": 582.5642407408031
+        },
+        "network": {
+          "n": 445,
+          "mae_cp": 272.1370849609375,
+          "rmse_cp": 363.1029357910156,
+          "p90_cp": 597.0
+        }
+      }
+    },
+    "phase_test": {
+      "endgame": {
+        "v6": {
+          "n": 151,
+          "mae_cp": 236.6688690185547,
+          "rmse_cp": 309.60198974609375,
+          "p90_cp": 514.0
+        },
+        "network": {
+          "n": 151,
+          "mae_cp": 237.5165557861328,
+          "rmse_cp": 305.66790771484375,
+          "p90_cp": 487.0
+        }
+      },
+      "middle": {
+        "v6": {
+          "n": 175,
+          "mae_cp": 262.182861328125,
+          "rmse_cp": 348.44805908203125,
+          "p90_cp": 537.4000244140625
+        },
+        "network": {
+          "n": 175,
+          "mae_cp": 275.8399963378906,
+          "rmse_cp": 367.83441162109375,
+          "p90_cp": 626.5999755859375
+        }
+      },
+      "high": {
+        "v6": {
+          "n": 119,
+          "mae_cp": 313.1680603027344,
+          "rmse_cp": 433.0176696777344,
+          "p90_cp": 791.2000122070312
+        },
+        "network": {
+          "n": 119,
+          "mae_cp": 310.6218566894531,
+          "rmse_cp": 418.9245300292969,
+          "p90_cp": 705.2000122070312
+        }
+      }
+    },
+    "quantization_mae_cp": 2.2402868270874023,
+    "seconds": 31.421123799998895,
+    "scalar_gate_pass": false,
+    "decision": "REJECT integration of this pilot; preserve fitted v6 fallback"
+  },
+  "linear_followup": {
+    "family_count": 52,
+    "family_equal_weight_gain_cp": 14.965258698596934,
+    "paired_family_bootstrap95_cp": [
+      2.1141506072620295,
+      30.040523189731992
+    ],
+    "phase": {
+      "endgame": {
+        "n": 151,
+        "gain_cp": 14.387914224205,
+        "baseline_p90": 514.0,
+        "linear_p90": 528.760541732898
+      },
+      "middle": {
+        "n": 175,
+        "gain_cp": 9.112375715816178,
+        "baseline_p90": 537.4000244140625,
+        "linear_p90": 495.1571829601655
+      },
+      "high": {
+        "n": 119,
+        "gain_cp": 12.137362622073649,
+        "baseline_p90": 791.2000122070312,
+        "linear_p90": 796.2009436552648
+      }
+    },
+    "kind": {
+      "quiet": {
+        "n": 269,
+        "gain_cp": 6.727585792457471,
+        "baseline_p90": 411.0,
+        "linear_p90": 420.63849166087664
+      },
+      "guard": {
+        "n": 176,
+        "gain_cp": 19.328786204423242,
+        "baseline_p90": 794.5,
+        "linear_p90": 792.7824405139044
+      }
+    }
+  },
+  "exact_generation": {
+    "queen": {
+      "legal_states": 368452,
+      "winning_states": 345404,
+      "draw_states": 23048,
+      "max_dtm": 20
+    },
+    "rook": {
+      "legal_states": 399112,
+      "winning_states": 376868,
+      "draw_states": 22244,
+      "max_dtm": 32
+    },
+    "seconds": 4.543351699991035,
+    "generator_sha256": "fec98a4766a4743bd611006126a6f27c18d580063019fbc3fe38734d3acebf15",
+    "data_sha256": "8a5d9742eed9c7e40b2001b5b37d30c22513d54659da69d4e93caa088e77014f",
+    "provenance": "Original exhaustive legal-state retrograde; no reference engine data, code, or published tablebase."
+  },
+  "exact_verification": {
+    "queen": {
+      "states": 368452,
+      "legal_edges": 4891672
+    },
+    "rook": {
+      "states": 399112,
+      "legal_edges": 4469208
+    },
+    "pass_all": true,
+    "python_chess_positions": 4000,
+    "seconds": 13.786069199995836,
+    "table_sha256": "8a5d9742eed9c7e40b2001b5b37d30c22513d54659da69d4e93caa088e77014f",
+    "source_hashes": {
+      "agent.py": "18d398d1135bec4c402962f20b66a96b395edd61ff1a2e0d38058bd9ad8f0708",
+      "bitops_nb.py": "34f606a1a6bd60d492a90072ff236f15d97c000e131a567c214b59f85baabb58",
+      "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+      "core_nb.py": "9ff2ae924f4da91b934e78080483a46e81c618efb7e955b5530aa5434f4770e1",
+      "endgame_exact.py": "631868dc108ca451133cdbbd4f4888ff4e9e6208b80d17595e5afa70b326543e",
+      "eval_nb.py": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f",
+      "history.py": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e",
+      "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+      "search_nb.py": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6",
+      "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+      "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+      "three_piece_dtm.npz": "8a5d9742eed9c7e40b2001b5b37d30c22513d54659da69d4e93caa088e77014f",
+      "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+      "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+    }
+  },
+  "exact_policy": {
+    "pass_all": true,
+    "complete_conversions": 640,
+    "total_plies": 10580,
+    "max_policy_ms": 4.759999996167608,
+    "seconds": 4.565190200009965,
+    "boundaries": [
+      [
+        5,
+        1,
+        "fifty_mate"
+      ],
+      [
+        5,
+        1,
+        "absolute_cap_mate"
+      ],
+      [
+        5,
+        3,
+        "fifty_mate"
+      ],
+      [
+        5,
+        3,
+        "absolute_cap_mate"
+      ],
+      [
+        5,
+        5,
+        "fifty_mate"
+      ],
+      [
+        5,
+        5,
+        "absolute_cap_mate"
+      ],
+      [
+        5,
+        9,
+        "fifty_mate"
+      ],
+      [
+        5,
+        9,
+        "absolute_cap_mate"
+      ],
+      [
+        4,
+        1,
+        "fifty_mate"
+      ],
+      [
+        4,
+        1,
+        "absolute_cap_mate"
+      ],
+      [
+        4,
+        3,
+        "fifty_mate"
+      ],
+      [
+        4,
+        3,
+        "absolute_cap_mate"
+      ],
+      [
+        4,
+        5,
+        "fifty_mate"
+      ],
+      [
+        4,
+        5,
+        "absolute_cap_mate"
+      ],
+      [
+        4,
+        9,
+        "fifty_mate"
+      ],
+      [
+        4,
+        9,
+        "absolute_cap_mate"
+      ]
+    ],
+    "scope": "640 independently started exact-policy-versus-exact-policy conversions; not strength games against v6."
+  },
+  "exact_native_gate": "PASS",
+  "short_smoke": {
+    "audit": "PASS",
+    "games": 12,
+    "pairs": 6,
+    "wins": 5,
+    "draws": 4,
+    "losses": 3,
+    "score": 0.5833333333333334,
+    "legal_plies": 1441,
+    "routes": {
+      "search": 1418,
+      "forced": 20,
+      "exact": 3
+    },
+    "smoke_score_guard_pass": true,
+    "plan_sha256": "0f0776c16bcf85de47795a669fe8893bb8189f793daf8121cd0000e312da6c56",
+    "lanes": {
+      "a": "80e13f1e93f8b4680fb061d7bf81e63ad5d60cd821a4bae19ec193d5f1288c30",
+      "b": "474c34e26885463e0b26b332809d0c1dbb3966bd784735645027e61307023b93"
+    },
+    "scope": "100ms per search on two Linux CPU-pinned lanes. No full-game-clock or reliable Elo claim. No failed games excluded; initial attempt failed worker reset before any game."
+  },
+  "release": {
+    "released_utc": "2026-09-06T13:39:33.720080+00:00",
+    "name": "Tempest r1",
+    "source": "tempest_exact",
+    "archive_sha256": "0ed607e21235046d239c05d5bcb735e48b919e3d6d83cd74fe543c134addf6e4",
+    "previous_v6_sha256": "cd3ed778f75ded38dd4371a56c285f6f66c1311464a093707d473d8a9d0c8647",
+    "preserved": "Desktop/Odin-v6.zip",
+    "desktop_files": [
+      "agent.zip",
+      "Tempest-r1.zip"
+    ],
+    "site_upload_performed": false,
+    "scope": "Conservative referee and exact KQK/KRK improvement. No neural evaluator or general Elo claim. Native deployment gates, exact-state proof, 12 short smoke games and two separate full-clock smoke games passed.",
+    "smoke": {
+      "audit": "PASS",
+      "games": 12,
+      "pairs": 6,
+      "wins": 5,
+      "draws": 4,
+      "losses": 3,
+      "score": 0.5833333333333334,
+      "legal_plies": 1441,
+      "routes": {
+        "search": 1418,
+        "forced": 20,
+        "exact": 3
+      },
+      "smoke_score_guard_pass": true,
+      "plan_sha256": "0f0776c16bcf85de47795a669fe8893bb8189f793daf8121cd0000e312da6c56",
+      "lanes": {
+        "a": "80e13f1e93f8b4680fb061d7bf81e63ad5d60cd821a4bae19ec193d5f1288c30",
+        "b": "474c34e26885463e0b26b332809d0c1dbb3966bd784735645027e61307023b93"
+      },
+      "scope": "100ms per search on two Linux CPU-pinned lanes. No full-game-clock or reliable Elo claim. No failed games excluded; initial attempt failed worker reset before any game."
+    },
+    "post_staging_fullclock_audit": {
+      "audit": "PASS",
+      "games": 2,
+      "results": [
+        {
+          "candidate_colour": "white",
+          "points": 0.5,
+          "termination": "fifty_moves"
+        },
+        {
+          "candidate_colour": "black",
+          "points": 0.5,
+          "termination": "threefold_repetition"
+        }
+      ],
+      "operational_failures": 0,
+      "legal_plies": 246,
+      "candidate_cold_import_s": [
+        33.885,
+        32.934
+      ],
+      "min_candidate_request_headroom_ms": 494.20900000000006,
+      "fresh_processes": 4,
+      "log_sha256": "36da6db90fd744025c60a9e0c0766f7225f3d92d941d1a28062fa6022ff251ab",
+      "validation_function_sha256": "e471409d8be244920939a0555e57d2066dc9415dd0dabf134a01d78b1ac572e4",
+      "scope": "Two full 120+0.5 wall-clock smoke games, exact current referee, fresh processes, CPU/RAM/no-swap/source/clock audit; not a strength estimate."
+    },
+    "final_integrity_verified_utc": "2026-09-06T13:59:25.314905+00:00"
+  },
+  "linux_table_regeneration": {
+    "same_arrays": {
+      "queen": true,
+      "rook": true
+    },
+    "same_uncompressed_entries": {
+      "queen.npy": true,
+      "rook.npy": true
+    },
+    "linux_archive_sha256": "f6b7689060e31673632aec4a9a4814fc8b859c11d91a48a767cdc370c023400b",
+    "shipped_data_sha256": "8a5d9742eed9c7e40b2001b5b37d30c22513d54659da69d4e93caa088e77014f"
+  },
+  "fullclock_audit": {
+    "audit": "PASS",
+    "games": 2,
+    "results": [
+      {
+        "candidate_colour": "white",
+        "points": 0.5,
+        "termination": "fifty_moves"
+      },
+      {
+        "candidate_colour": "black",
+        "points": 0.5,
+        "termination": "threefold_repetition"
+      }
+    ],
+    "operational_failures": 0,
+    "legal_plies": 246,
+    "candidate_cold_import_s": [
+      33.885,
+      32.934
+    ],
+    "min_candidate_request_headroom_ms": 494.20900000000006,
+    "fresh_processes": 4,
+    "log_sha256": "36da6db90fd744025c60a9e0c0766f7225f3d92d941d1a28062fa6022ff251ab",
+    "validation_function_sha256": "e471409d8be244920939a0555e57d2066dc9415dd0dabf134a01d78b1ac572e4",
+    "scope": "Two full 120+0.5 wall-clock smoke games, exact current referee, fresh processes, CPU/RAM/no-swap/source/clock audit; not a strength estimate."
+  },
+  "round37_opponent_followup": {
+    "probes": "day3-v6/round37-opponent-probes.jsonl",
+    "reference": "day3-v6/round37-opponent-forced-reference.json",
+    "finding": "V6 selects winning Qh2+ but scores it approximately -1 pawn for Black; finite reference rates both Qh2+ and actual f4 approximately +8.7 for Black. Different UCI is not evidence of a missed winning attack; continuation valuation remains badly discrepant."
+  }
+}

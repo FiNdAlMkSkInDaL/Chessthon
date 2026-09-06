@@ -1,0 +1,9 @@
+{
+  "ids": [
+    "36a3c43d-69fb-4885-958a-94b1b8518966-p12",
+    "36a3c43d-69fb-4885-958a-94b1b8518966-p64",
+    "2f5963df-5dd4-46fe-acac-805671e734a5-p12"
+  ],
+  "nodes": 2000000,
+  "selection": "All ms/adashima broad roots with >=30cp advantage over 200k-node v6; deepen unrestricted and both forced moves. This is selected diagnostic confirmation, not holdout testing."
+}

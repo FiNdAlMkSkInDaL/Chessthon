@@ -1,0 +1,84 @@
+AI CHESSATHON MATCH LOG
+=======================
+
+MATCH
+  Round          Rated 9
+  Team           Finlay Phillips
+  Colour         White
+  Opponent       Tobias Carlsen
+  Opening        Two Knights Defence
+  Start FEN      r1bq1rk1/ppp1bppp/2np1n2/4p3/P1B1P3/2PP1N2/1P3PPP/RNBQ1RK1 b - - 0 7
+  You moved      Second
+  Machine        w-a99c3d
+  Finished       2026-09-04 15:10:13 UTC
+  Match ID       eb647af1-ccca-4dcc-8f1c-795e422dbd0f
+
+INIT
+  Ready in       NA
+  Budget         90.0 s
+  Used           NA
+
+CLOCK
+  Base           120.0 s plus 0.5 s per move
+  Moves          42
+  Time used      94.6 s
+  Slowest        4.2 s on move 18
+  Fastest        0.0 s on move 42
+  Average        2.3 s
+  Left at end    46.4 s
+
+RESULT
+  Lost by checkmate
+  Game lasted 175.6 s
+
+MOVES
+    #  move          time     clock left
+    1  Nbd2          3.5 s      117.0 s
+    2  Ba2           3.7 s      113.7 s
+    3  Re1           4.2 s      110.0 s
+    4  d4            2.7 s      107.8 s
+    5  dxe5          2.9 s      105.4 s
+    6  Nxe5          2.8 s      103.1 s
+    7  Nef3          2.8 s      100.8 s
+    8  e5            2.6 s       98.7 s
+    9  Nd4           2.5 s       96.7 s
+   10  Nxc4          3.5 s       93.7 s
+   11  a5            2.7 s       91.5 s
+   12  Nxc6          2.4 s       89.5 s
+   13  Ne7+          2.3 s       87.8 s
+   14  Be3           2.2 s       86.1 s
+   15  Rxe3          2.5 s       84.0 s
+   16  Qa4           2.9 s       81.6 s
+   17  g3            2.2 s       79.9 s
+   18  Rb1           4.2 s       76.2 s
+   19  b4            2.1 s       74.6 s
+   20  Rbe1          2.3 s       72.7 s
+   21  Re4           2.6 s       70.6 s
+   22  fxg3          2.5 s       68.6 s
+   23  Bxc4          2.7 s       66.4 s
+   24  Kh1           1.9 s       65.0 s
+   25  Qa2           1.9 s       63.6 s
+   26  Kg1           1.7 s       62.5 s
+   27  Kh1           1.7 s       61.2 s
+   28  Bxa2          1.7 s       60.0 s
+   29  R4e2          2.0 s       58.6 s
+   30  Rxe2          1.5 s       57.5 s
+   31  Bc4           1.7 s       56.3 s
+   32  e6            1.6 s       55.2 s
+   33  Bb3           2.5 s       53.2 s
+   34  Kh2           1.7 s       52.0 s
+   35  Kh3           1.9 s       50.6 s
+   36  Kg4           1.7 s       49.4 s
+   37  Kxg5          3.1 s       46.8 s
+   38  Kh5           1.3 s       46.0 s
+   39  g4            1.3 s       45.2 s
+   40  g5            0.2 s       45.4 s
+   41  gxh6          0.0 s       45.9 s
+   42  Kh4           0.0 s       46.4 s
+
+OUTPUT
+  NA. This game was played before agent logs were kept, so the output
+  and the init time were never recorded. Everything above comes from
+  the clocks in the game itself.
+
+Email hello@aichessathon.com with this file if anything here is unclear.

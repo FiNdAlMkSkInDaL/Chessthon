@@ -1,0 +1,640 @@
+{
+  "files": [
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KBBvK.rtbw",
+      "bytes": 58000,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KBBvK.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KBNvK.rtbw",
+      "bytes": 7632,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KBNvK.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KBPvK.rtbw",
+      "bytes": 81424,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KBPvK.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KBvK.rtbw",
+      "bytes": 80,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KBvK.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KBvKB.rtbw",
+      "bytes": 1232,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KBvKB.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KBvKN.rtbw",
+      "bytes": 2256,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KBvKN.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KBvKP.rtbw",
+      "bytes": 107472,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KBvKP.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KNNvK.rtbw",
+      "bytes": 1360,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KNNvK.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KNPvK.rtbw",
+      "bytes": 93200,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KNPvK.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KNvK.rtbw",
+      "bytes": 80,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KNvK.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KNvKN.rtbw",
+      "bytes": 1168,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KNvKN.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KNvKP.rtbw",
+      "bytes": 148048,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KNvKP.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KPPvK.rtbw",
+      "bytes": 25104,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KPPvK.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KPvK.rtbw",
+      "bytes": 7824,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KPvK.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KPvKP.rtbw",
+      "bytes": 245328,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KPvKP.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KQBvK.rtbw",
+      "bytes": 4944,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KQBvK.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KQNvK.rtbw",
+      "bytes": 3600,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KQNvK.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KQPvK.rtbw",
+      "bytes": 12496,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KQPvK.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KQQvK.rtbw",
+      "bytes": 7056,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KQQvK.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KQRvK.rtbw",
+      "bytes": 4560,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KQRvK.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KQvK.rtbw",
+      "bytes": 272,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KQvK.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KQvKB.rtbw",
+      "bytes": 6672,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KQvKB.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KQvKN.rtbw",
+      "bytes": 10064,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KQvKN.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KQvKP.rtbw",
+      "bytes": 58064,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KQvKP.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KQvKQ.rtbw",
+      "bytes": 16528,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KQvKQ.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KQvKR.rtbw",
+      "bytes": 20496,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KQvKR.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KRBvK.rtbw",
+      "bytes": 2832,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KRBvK.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KRNvK.rtbw",
+      "bytes": 2320,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KRNvK.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KRPvK.rtbw",
+      "bytes": 5136,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KRPvK.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KRRvK.rtbw",
+      "bytes": 1936,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KRRvK.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KRvK.rtbw",
+      "bytes": 208,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KRvK.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KRvKB.rtbw",
+      "bytes": 32912,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KRvKB.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KRvKN.rtbw",
+      "bytes": 100048,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KRvKN.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KRvKP.rtbw",
+      "bytes": 179408,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KRvKP.rtbw"
+    },
+    {
+      "directory": "3-4-5-wdl",
+      "name": "KRvKR.rtbw",
+      "bytes": 12944,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KRvKR.rtbw"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KBBvK.rtbz",
+      "bytes": 136272,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KBBvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KBNvK.rtbz",
+      "bytes": 461840,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KBNvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KBPvK.rtbz",
+      "bytes": 75792,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KBPvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KBvK.rtbz",
+      "bytes": 80,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KBvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KBvKB.rtbz",
+      "bytes": 80,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KBvKB.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KBvKN.rtbz",
+      "bytes": 80,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KBvKN.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KBvKP.rtbz",
+      "bytes": 5968,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KBvKP.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KNNvK.rtbz",
+      "bytes": 80,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KNNvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KNPvK.rtbz",
+      "bytes": 111056,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KNPvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KNvK.rtbz",
+      "bytes": 80,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KNvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KNvKN.rtbz",
+      "bytes": 80,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KNvKN.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KNvKP.rtbz",
+      "bytes": 10640,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KNvKP.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KPPvK.rtbz",
+      "bytes": 8656,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KPPvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KPvK.rtbz",
+      "bytes": 4176,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KPvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KPvKP.rtbz",
+      "bytes": 54480,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KPvKP.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KQBvK.rtbz",
+      "bytes": 139088,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KQBvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KQNvK.rtbz",
+      "bytes": 156432,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KQNvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KQPvK.rtbz",
+      "bytes": 32208,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KQPvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KQQvK.rtbz",
+      "bytes": 25936,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KQQvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KQRvK.rtbz",
+      "bytes": 44112,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KQRvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KQvK.rtbz",
+      "bytes": 5392,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KQvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KQvKB.rtbz",
+      "bytes": 195216,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KQvKB.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KQvKN.rtbz",
+      "bytes": 162640,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KQvKN.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KQvKP.rtbz",
+      "bytes": 205776,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KQvKP.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KQvKQ.rtbz",
+      "bytes": 6736,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KQvKQ.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KQvKR.rtbz",
+      "bytes": 309008,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KQvKR.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KRBvK.rtbz",
+      "bytes": 261776,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KRBvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KRNvK.rtbz",
+      "bytes": 295632,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KRNvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KRPvK.rtbz",
+      "bytes": 12944,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KRPvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KRRvK.rtbz",
+      "bytes": 53520,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KRRvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KRvK.rtbz",
+      "bytes": 7632,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KRvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KRvKB.rtbz",
+      "bytes": 9936,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KRvKB.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KRvKN.rtbz",
+      "bytes": 93200,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KRvKN.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KRvKP.rtbz",
+      "bytes": 193424,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KRvKP.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz",
+      "name": "KRvKR.rtbz",
+      "bytes": 3408,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KRvKR.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KBBvK.rtbz",
+      "bytes": 136464,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KBBvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KBNvK.rtbz",
+      "bytes": 461840,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KBNvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KBPvK.rtbz",
+      "bytes": 76560,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KBPvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KBvK.rtbz",
+      "bytes": 80,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KBvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KBvKB.rtbz",
+      "bytes": 80,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KBvKB.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KBvKN.rtbz",
+      "bytes": 80,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KBvKN.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KBvKP.rtbz",
+      "bytes": 5968,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KBvKP.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KNNvK.rtbz",
+      "bytes": 80,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KNNvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KNPvK.rtbz",
+      "bytes": 111440,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KNPvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KNvK.rtbz",
+      "bytes": 80,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KNvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KNvKN.rtbz",
+      "bytes": 80,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KNvKN.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KNvKP.rtbz",
+      "bytes": 10640,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KNvKP.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KPPvK.rtbz",
+      "bytes": 8912,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KPPvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KPvK.rtbz",
+      "bytes": 4176,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KPvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KPvKP.rtbz",
+      "bytes": 55120,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KPvKP.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KQBvK.rtbz",
+      "bytes": 215568,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KQBvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KQNvK.rtbz",
+      "bytes": 235088,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KQNvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KQPvK.rtbz",
+      "bytes": 36816,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KQPvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KQQvK.rtbz",
+      "bytes": 48848,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KQQvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KQRvK.rtbz",
+      "bytes": 99664,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KQRvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KQvK.rtbz",
+      "bytes": 5392,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KQvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KQvKB.rtbz",
+      "bytes": 195216,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KQvKB.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KQvKN.rtbz",
+      "bytes": 162640,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KQvKN.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KQvKP.rtbz",
+      "bytes": 254032,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KQvKP.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KQvKQ.rtbz",
+      "bytes": 6992,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KQvKQ.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KQvKR.rtbz",
+      "bytes": 309008,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KQvKR.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KRBvK.rtbz",
+      "bytes": 336656,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KRBvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KRNvK.rtbz",
+      "bytes": 425936,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KRNvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KRPvK.rtbz",
+      "bytes": 14352,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KRPvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KRRvK.rtbz",
+      "bytes": 80016,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KRRvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KRvK.rtbz",
+      "bytes": 7632,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KRvK.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KRvKB.rtbz",
+      "bytes": 10448,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KRvKB.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KRvKN.rtbz",
+      "bytes": 93904,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KRvKN.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KRvKP.rtbz",
+      "bytes": 201680,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KRvKP.rtbz"
+    },
+    {
+      "directory": "3-4-5-dtz-nr",
+      "name": "KRvKR.rtbz",
+      "bytes": 3600,
+      "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz-nr/KRvKR.rtbz"
+    }
+  ],
+  "totals": {
+    "3-4-5-wdl": 1262704,
+    "3-4-5-dtz": 3083376,
+    "3-4-5-dtz-nr": 3615088
+  },
+  "scope": "All 3/4-piece files in public listings. Payloads not downloaded yet. Known SHA256 manifest retained."
+}

@@ -1,0 +1,7 @@
+{
+  "scope": "Windows correctness only",
+  "positions": 5288,
+  "max_rounding_cp": 1.9525146484375,
+  "perft_positions": 6,
+  "elapsed": 51.452173700003186
+}

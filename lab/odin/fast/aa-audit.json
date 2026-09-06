@@ -1,0 +1,8 @@
+{
+  "pass": true,
+  "games": 4,
+  "pairs": 2,
+  "score": 0.5,
+  "every_paired_move_depth_score_nodes_identical": true,
+  "log_sha256": "63b3369ec67698e870db3655c0d73b5d3352351aacbc07f46367a572940430b9"
+}

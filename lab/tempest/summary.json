@@ -1,0 +1,888 @@
+{
+  "metadata": {
+    "baseline": {
+      "complete": true,
+      "n": 102,
+      "isolation": true
+    },
+    "lmr_off": {
+      "complete": true,
+      "n": 72,
+      "isolation": true
+    },
+    "futility_off": {
+      "complete": true,
+      "n": 72,
+      "isolation": true
+    },
+    "see_off": {
+      "complete": true,
+      "n": 72,
+      "isolation": true
+    },
+    "null_off": {
+      "complete": true,
+      "n": 72,
+      "isolation": true
+    },
+    "pesto_only": {
+      "complete": true,
+      "n": 72,
+      "isolation": true
+    }
+  },
+  "table": [
+    {
+      "variant": "baseline",
+      "mode": "nodes",
+      "budget": 200000,
+      "n": 22,
+      "mean_candidate_set_regret_cp": 49.63636363636363,
+      "mean_delta_vs_v6_cp": 0,
+      "improve_ge30": 0,
+      "worsen_ge30": 0,
+      "same_move": 22,
+      "median_depth": 9.0,
+      "total_seconds": 24.522359699971275
+    },
+    {
+      "variant": "baseline",
+      "mode": "nodes",
+      "budget": 1000000,
+      "n": 22,
+      "mean_candidate_set_regret_cp": 51,
+      "mean_delta_vs_v6_cp": 0,
+      "improve_ge30": 0,
+      "worsen_ge30": 0,
+      "same_move": 22,
+      "median_depth": 11.0,
+      "total_seconds": 119.36079110002902
+    },
+    {
+      "variant": "baseline",
+      "mode": "wall",
+      "budget": 1500,
+      "n": 22,
+      "mean_candidate_set_regret_cp": 49.54545454545455,
+      "mean_delta_vs_v6_cp": 0,
+      "improve_ge30": 0,
+      "worsen_ge30": 0,
+      "same_move": 22,
+      "median_depth": 9.0,
+      "total_seconds": 23.192596200024127
+    },
+    {
+      "variant": "lmr_off",
+      "mode": "nodes",
+      "budget": 200000,
+      "n": 22,
+      "mean_candidate_set_regret_cp": 55.04545454545455,
+      "mean_delta_vs_v6_cp": 5.409090909090909,
+      "improve_ge30": 1,
+      "worsen_ge30": 2,
+      "same_move": 14,
+      "median_depth": 7.0,
+      "total_seconds": 22.422129799961112
+    },
+    {
+      "variant": "lmr_off",
+      "mode": "nodes",
+      "budget": 1000000,
+      "n": 22,
+      "mean_candidate_set_regret_cp": 50.90909090909091,
+      "mean_delta_vs_v6_cp": -0.09090909090909091,
+      "improve_ge30": 1,
+      "worsen_ge30": 0,
+      "same_move": 16,
+      "median_depth": 9.0,
+      "total_seconds": 108.48709969999618
+    },
+    {
+      "variant": "lmr_off",
+      "mode": "wall",
+      "budget": 1500,
+      "n": 22,
+      "mean_candidate_set_regret_cp": 55.04545454545455,
+      "mean_delta_vs_v6_cp": 5.5,
+      "improve_ge30": 1,
+      "worsen_ge30": 2,
+      "same_move": 14,
+      "median_depth": 7.0,
+      "total_seconds": 22.311248500001966
+    },
+    {
+      "variant": "futility_off",
+      "mode": "nodes",
+      "budget": 200000,
+      "n": 22,
+      "mean_candidate_set_regret_cp": 55.04545454545455,
+      "mean_delta_vs_v6_cp": 5.409090909090909,
+      "improve_ge30": 2,
+      "worsen_ge30": 2,
+      "same_move": 12,
+      "median_depth": 7.0,
+      "total_seconds": 22.48339729999134
+    },
+    {
+      "variant": "futility_off",
+      "mode": "nodes",
+      "budget": 1000000,
+      "n": 22,
+      "mean_candidate_set_regret_cp": 51.31818181818182,
+      "mean_delta_vs_v6_cp": 0.3181818181818182,
+      "improve_ge30": 1,
+      "worsen_ge30": 0,
+      "same_move": 17,
+      "median_depth": 10.0,
+      "total_seconds": 110.66301810005098
+    },
+    {
+      "variant": "futility_off",
+      "mode": "wall",
+      "budget": 1500,
+      "n": 22,
+      "mean_candidate_set_regret_cp": 55.5,
+      "mean_delta_vs_v6_cp": 5.954545454545454,
+      "improve_ge30": 2,
+      "worsen_ge30": 2,
+      "same_move": 15,
+      "median_depth": 7.5,
+      "total_seconds": 23.465899700007867
+    },
+    {
+      "variant": "see_off",
+      "mode": "nodes",
+      "budget": 200000,
+      "n": 22,
+      "mean_candidate_set_regret_cp": 57.31818181818182,
+      "mean_delta_vs_v6_cp": 7.681818181818182,
+      "improve_ge30": 1,
+      "worsen_ge30": 2,
+      "same_move": 18,
+      "median_depth": 8.0,
+      "total_seconds": 22.297011099988595
+    },
+    {
+      "variant": "see_off",
+      "mode": "nodes",
+      "budget": 1000000,
+      "n": 22,
+      "mean_candidate_set_regret_cp": 54.68181818181818,
+      "mean_delta_vs_v6_cp": 3.6818181818181817,
+      "improve_ge30": 1,
+      "worsen_ge30": 1,
+      "same_move": 14,
+      "median_depth": 11.0,
+      "total_seconds": 108.4075267999724
+    },
+    {
+      "variant": "see_off",
+      "mode": "wall",
+      "budget": 1500,
+      "n": 22,
+      "mean_candidate_set_regret_cp": 50.09090909090909,
+      "mean_delta_vs_v6_cp": 0.5454545454545454,
+      "improve_ge30": 2,
+      "worsen_ge30": 1,
+      "same_move": 17,
+      "median_depth": 8.0,
+      "total_seconds": 23.45869290000701
+    },
+    {
+      "variant": "null_off",
+      "mode": "nodes",
+      "budget": 200000,
+      "n": 22,
+      "mean_candidate_set_regret_cp": 52.45454545454545,
+      "mean_delta_vs_v6_cp": 2.8181818181818183,
+      "improve_ge30": 0,
+      "worsen_ge30": 1,
+      "same_move": 19,
+      "median_depth": 8.0,
+      "total_seconds": 24.36668019994977
+    },
+    {
+      "variant": "null_off",
+      "mode": "nodes",
+      "budget": 1000000,
+      "n": 22,
+      "mean_candidate_set_regret_cp": 51.04545454545455,
+      "mean_delta_vs_v6_cp": 0.045454545454545456,
+      "improve_ge30": 0,
+      "worsen_ge30": 0,
+      "same_move": 17,
+      "median_depth": 10.0,
+      "total_seconds": 120.0539178999752
+    },
+    {
+      "variant": "null_off",
+      "mode": "wall",
+      "budget": 1500,
+      "n": 22,
+      "mean_candidate_set_regret_cp": 49.22727272727273,
+      "mean_delta_vs_v6_cp": -0.3181818181818182,
+      "improve_ge30": 1,
+      "worsen_ge30": 1,
+      "same_move": 17,
+      "median_depth": 8.0,
+      "total_seconds": 22.55578200003947
+    },
+    {
+      "variant": "pesto_only",
+      "mode": "nodes",
+      "budget": 200000,
+      "n": 22,
+      "mean_candidate_set_regret_cp": 42,
+      "mean_delta_vs_v6_cp": -7.636363636363637,
+      "improve_ge30": 3,
+      "worsen_ge30": 1,
+      "same_move": 13,
+      "median_depth": 9.0,
+      "total_seconds": 648.9894658000121
+    },
+    {
+      "variant": "pesto_only",
+      "mode": "nodes",
+      "budget": 1000000,
+      "n": 22,
+      "mean_candidate_set_regret_cp": 40.63636363636363,
+      "mean_delta_vs_v6_cp": -10.363636363636363,
+      "improve_ge30": 2,
+      "worsen_ge30": 0,
+      "same_move": 15,
+      "median_depth": 12.0,
+      "total_seconds": 101.93735120003112
+    },
+    {
+      "variant": "pesto_only",
+      "mode": "wall",
+      "budget": 1500,
+      "n": 22,
+      "mean_candidate_set_regret_cp": 37.04545454545455,
+      "mean_delta_vs_v6_cp": -12.5,
+      "improve_ge30": 4,
+      "worsen_ge30": 0,
+      "same_move": 15,
+      "median_depth": 9.5,
+      "total_seconds": 23.513687099999515
+    }
+  ],
+  "budget_curve": [
+    {
+      "id": "day3-r33-p34",
+      "lo_uci": "b7e4",
+      "hi_uci": "b7e4",
+      "improvement_cp": 0,
+      "low_regret": 167,
+      "high_regret": 167
+    },
+    {
+      "id": "day3-r34-p25",
+      "lo_uci": "f5g6",
+      "hi_uci": "e6e7",
+      "improvement_cp": 41,
+      "low_regret": 281,
+      "high_regret": 240
+    },
+    {
+      "id": "69d277c2-15ce-4c99-8339-22ca7c2f9693-p32",
+      "lo_uci": "e8b8",
+      "hi_uci": "e8b8",
+      "improvement_cp": 0,
+      "low_regret": 15,
+      "high_regret": 15
+    },
+    {
+      "id": "69d277c2-15ce-4c99-8339-22ca7c2f9693-p12",
+      "lo_uci": "e5e4",
+      "hi_uci": "f7f6",
+      "improvement_cp": 10,
+      "low_regret": 10,
+      "high_regret": 0
+    },
+    {
+      "id": "day3-r33-p6",
+      "lo_uci": "a4a3",
+      "hi_uci": "c8e6",
+      "improvement_cp": -77,
+      "low_regret": 65,
+      "high_regret": 142
+    },
+    {
+      "id": "day3-r33-p4",
+      "lo_uci": "a5a4",
+      "hi_uci": "h7h6",
+      "improvement_cp": -2,
+      "low_regret": 0,
+      "high_regret": 2
+    },
+    {
+      "id": "4d1c6a55-334b-4160-8027-4aedb2904b07-p12",
+      "lo_uci": "b8b2",
+      "hi_uci": "b8b2",
+      "improvement_cp": 0,
+      "low_regret": 0,
+      "high_regret": 0
+    },
+    {
+      "id": "4d1c6a55-334b-4160-8027-4aedb2904b07-p32",
+      "lo_uci": "g8h8",
+      "hi_uci": "g8h8",
+      "improvement_cp": 0,
+      "low_regret": 0,
+      "high_regret": 0
+    },
+    {
+      "id": "36a3c43d-69fb-4885-958a-94b1b8518966-p32",
+      "lo_uci": "d1d2",
+      "hi_uci": "g2g4",
+      "improvement_cp": 1,
+      "low_regret": 1,
+      "high_regret": 0
+    },
+    {
+      "id": "287fa830-5ca2-47f0-a4b6-1114e5801a8d-p12",
+      "lo_uci": "e8g8",
+      "hi_uci": "e8g8",
+      "improvement_cp": 0,
+      "low_regret": 4,
+      "high_regret": 4
+    },
+    {
+      "id": "287fa830-5ca2-47f0-a4b6-1114e5801a8d-p32",
+      "lo_uci": "h4h7",
+      "hi_uci": "h4h7",
+      "improvement_cp": 0,
+      "low_regret": 34,
+      "high_regret": 34
+    },
+    {
+      "id": "day3-r34-p23",
+      "lo_uci": "e4f5",
+      "hi_uci": "e4f5",
+      "improvement_cp": 0,
+      "low_regret": 160,
+      "high_regret": 160
+    },
+    {
+      "id": "0ce8dc9a-7491-4178-8053-67d82240ce72-p32",
+      "lo_uci": "e2c3",
+      "hi_uci": "e2c3",
+      "improvement_cp": 0,
+      "low_regret": 9,
+      "high_regret": 9
+    },
+    {
+      "id": "bd31b3fa-8921-4a0b-b3d9-666060bded2e-p32",
+      "lo_uci": "b8c8",
+      "hi_uci": "b8c8",
+      "improvement_cp": 0,
+      "low_regret": 30,
+      "high_regret": 30
+    },
+    {
+      "id": "day3-r32-p8",
+      "lo_uci": "a1e1",
+      "hi_uci": "a1e1",
+      "improvement_cp": 0,
+      "low_regret": 80,
+      "high_regret": 80
+    },
+    {
+      "id": "day3-r31-p81",
+      "lo_uci": "d8e6",
+      "hi_uci": "d8e6",
+      "improvement_cp": 0,
+      "low_regret": 6,
+      "high_regret": 6
+    },
+    {
+      "id": "constructed-0",
+      "lo_uci": "d3e3",
+      "hi_uci": "d3e3",
+      "improvement_cp": 0,
+      "low_regret": 0,
+      "high_regret": 0
+    },
+    {
+      "id": "bd31b3fa-8921-4a0b-b3d9-666060bded2e-p12",
+      "lo_uci": "f8e8",
+      "hi_uci": "f8e8",
+      "improvement_cp": 0,
+      "low_regret": 19,
+      "high_regret": 19
+    },
+    {
+      "id": "0ce8dc9a-7491-4178-8053-67d82240ce72-p12",
+      "lo_uci": "e2c4",
+      "hi_uci": "e2c4",
+      "improvement_cp": 0,
+      "low_regret": 0,
+      "high_regret": 0
+    },
+    {
+      "id": "constructed-2",
+      "lo_uci": "c3d5",
+      "hi_uci": "c3d5",
+      "improvement_cp": 0,
+      "low_regret": 0,
+      "high_regret": 0
+    },
+    {
+      "id": "36a3c43d-69fb-4885-958a-94b1b8518966-p12",
+      "lo_uci": "c3e4",
+      "hi_uci": "c2d1",
+      "improvement_cp": 20,
+      "low_regret": 36,
+      "high_regret": 16
+    },
+    {
+      "id": "day3-r32-p18",
+      "lo_uci": "f3h5",
+      "hi_uci": "f3g4",
+      "improvement_cp": -23,
+      "low_regret": 175,
+      "high_regret": 198
+    }
+  ],
+  "opponent_roots": [
+    {
+      "id": "36a3c43d-69fb-4885-958a-94b1b8518966-p12",
+      "player": "ms",
+      "opponent": "Ransom",
+      "played": "Qc1",
+      "v6": "Nxe4",
+      "actual_minus_v6_cp": 36,
+      "actual_clock_ms": 101137,
+      "game_id": "36a3c43d-69fb-4885-958a-94b1b8518966",
+      "fen": "r3qrk1/ppp3b1/3p2pp/2n2b2/2P1n3/2N2N2/PPQBBPPP/4RRK1 w - - 2 16"
+    },
+    {
+      "id": "36a3c43d-69fb-4885-958a-94b1b8518966-p32",
+      "player": "ms",
+      "opponent": "Ransom",
+      "played": "g4",
+      "v6": "Qd2",
+      "actual_minus_v6_cp": 1,
+      "actual_clock_ms": 54522,
+      "game_id": "36a3c43d-69fb-4885-958a-94b1b8518966",
+      "fen": "4rr1k/pp4b1/2np2qp/2pN1bp1/2P5/4BP2/PP2BRPP/3QR1K1 w - - 7 26"
+    },
+    {
+      "id": "36a3c43d-69fb-4885-958a-94b1b8518966-p64",
+      "player": "ms",
+      "opponent": "Ransom",
+      "played": "Rf1",
+      "v6": "Bf2",
+      "actual_minus_v6_cp": 154,
+      "actual_clock_ms": 20830,
+      "game_id": "36a3c43d-69fb-4885-958a-94b1b8518966",
+      "fen": "7k/p7/1p1p3r/2PN1n1P/2Pb3q/4B3/6Q1/3BR1K1 w - - 1 42"
+    },
+    {
+      "id": "feaeb422-7d92-47a0-a5fe-f65a2564d15f-p12",
+      "player": "Finlay Phillips",
+      "opponent": "ms",
+      "played": "Qf3",
+      "v6": "Qf3",
+      "actual_minus_v6_cp": 0,
+      "actual_clock_ms": 101015,
+      "game_id": "feaeb422-7d92-47a0-a5fe-f65a2564d15f",
+      "fen": "r2q1rk1/5ppp/bp3n2/p1bp4/5B2/1NPQ4/PP2NPPP/4RRK1 w - - 2 14"
+    },
+    {
+      "id": "feaeb422-7d92-47a0-a5fe-f65a2564d15f-p32",
+      "player": "Finlay Phillips",
+      "opponent": "ms",
+      "played": "Nf5",
+      "v6": "Nf5",
+      "actual_minus_v6_cp": 0,
+      "actual_clock_ms": 63094,
+      "game_id": "feaeb422-7d92-47a0-a5fe-f65a2564d15f",
+      "fen": "r2qr1k1/5ppp/8/3p4/2bNn1Q1/p1P1B2P/5PP1/4RRK1 w - - 2 24"
+    },
+    {
+      "id": "69d277c2-15ce-4c99-8339-22ca7c2f9693-p12",
+      "player": "AI Fellows",
+      "opponent": "checkers",
+      "played": "f6",
+      "v6": "e4",
+      "actual_minus_v6_cp": 10,
+      "actual_clock_ms": 85380,
+      "game_id": "69d277c2-15ce-4c99-8339-22ca7c2f9693",
+      "fen": "r2q1r1k/ppp1bppp/2n3b1/1B2p3/P5P1/2PP1N1P/2P2P2/R1BQR1K1 b - - 2 13"
+    },
+    {
+      "id": "69d277c2-15ce-4c99-8339-22ca7c2f9693-p32",
+      "player": "AI Fellows",
+      "opponent": "checkers",
+      "played": "Qf7",
+      "v6": "Rb8",
+      "actual_minus_v6_cp": 15,
+      "actual_clock_ms": 39280,
+      "game_id": "69d277c2-15ce-4c99-8339-22ca7c2f9693",
+      "fen": "4rr1k/2pq2pp/p2b1p2/4pP2/P2PR3/2P2Q1P/2PB1P2/R5K1 b - - 6 23"
+    },
+    {
+      "id": "69d277c2-15ce-4c99-8339-22ca7c2f9693-p64",
+      "player": "AI Fellows",
+      "opponent": "checkers",
+      "played": "gxh6",
+      "v6": "gxh6",
+      "actual_minus_v6_cp": 0,
+      "actual_clock_ms": 12135,
+      "game_id": "69d277c2-15ce-4c99-8339-22ca7c2f9693",
+      "fen": "4r3/2p3pk/p4p1B/P1bP1P2/q1P4R/3Q3P/2P1rPK1/5R2 b - - 0 39"
+    },
+    {
+      "id": "6b1357ac-e475-49d6-b29b-d0f88ae33807-p12",
+      "player": "Finlay Phillips",
+      "opponent": "AI Fellows",
+      "played": "h6",
+      "v6": "h6",
+      "actual_minus_v6_cp": 0,
+      "actual_clock_ms": 99200,
+      "game_id": "6b1357ac-e475-49d6-b29b-d0f88ae33807",
+      "fen": "3r1rk1/1pp1qppp/1bnpbn2/4p3/B3P3/2PP1NNP/PP3PP1/R1BQR1K1 b - - 4 13"
+    },
+    {
+      "id": "6b1357ac-e475-49d6-b29b-d0f88ae33807-p32",
+      "player": "Finlay Phillips",
+      "opponent": "AI Fellows",
+      "played": "Qe5",
+      "v6": "Qe6",
+      "actual_minus_v6_cp": 12,
+      "actual_clock_ms": 73514,
+      "game_id": "6b1357ac-e475-49d6-b29b-d0f88ae33807",
+      "fen": "3r1rk1/1bp1qpp1/3p1n1p/P1p2N2/1PP1P3/4R1NP/5PP1/R2Q2K1 b - - 1 23"
+    },
+    {
+      "id": "6b1357ac-e475-49d6-b29b-d0f88ae33807-p64",
+      "player": "Finlay Phillips",
+      "opponent": "AI Fellows",
+      "played": "Rb6",
+      "v6": "Rb3",
+      "actual_minus_v6_cp": -48,
+      "actual_clock_ms": 21103,
+      "game_id": "6b1357ac-e475-49d6-b29b-d0f88ae33807",
+      "fen": "5rk1/qP2Rp2/P5pp/8/5Q2/7P/1r3PP1/R5K1 b - - 2 39"
+    },
+    {
+      "id": "f2d38be3-81f7-4491-bf65-a6b683f64363-p12",
+      "player": "AI Fellows",
+      "opponent": "Emile Andrieu",
+      "played": "Rb6",
+      "v6": "Rb6",
+      "actual_minus_v6_cp": 0,
+      "actual_clock_ms": 81891,
+      "game_id": "f2d38be3-81f7-4491-bf65-a6b683f64363",
+      "fen": "1r3rk1/p4ppp/Q1nqpn2/3p3b/3P4/2PB1N1P/PP1N1PP1/R4RK1 b - - 2 14"
+    },
+    {
+      "id": "f2d38be3-81f7-4491-bf65-a6b683f64363-p32",
+      "player": "AI Fellows",
+      "opponent": "Emile Andrieu",
+      "played": "Rb8",
+      "v6": "dxc4",
+      "actual_minus_v6_cp": 5,
+      "actual_clock_ms": 43310,
+      "game_id": "f2d38be3-81f7-4491-bf65-a6b683f64363",
+      "fen": "5rk1/p3npp1/4p1p1/3p4/P1PP4/1N5P/P3rPP1/R1R3K1 b - - 0 24"
+    },
+    {
+      "id": "f2d38be3-81f7-4491-bf65-a6b683f64363-p64",
+      "player": "AI Fellows",
+      "opponent": "Emile Andrieu",
+      "played": "Nxd4",
+      "v6": "Nxd4",
+      "actual_minus_v6_cp": 0,
+      "actual_clock_ms": 17786,
+      "game_id": "f2d38be3-81f7-4491-bf65-a6b683f64363",
+      "fen": "8/p5pk/3rpp2/Pn4p1/3P4/5NPP/P1R2PK1/8 b - - 3 40"
+    },
+    {
+      "id": "452de142-52f4-4d7c-a376-4a73b3890825-p12",
+      "player": "Make_no_mistakes",
+      "opponent": "AI Fellows",
+      "played": "Rxf3",
+      "v6": "Re8",
+      "actual_minus_v6_cp": 205,
+      "actual_clock_ms": 107112,
+      "game_id": "452de142-52f4-4d7c-a376-4a73b3890825",
+      "fen": "r2q1rk1/1bpnp1bp/p1npR1p1/1p4B1/3P4/2N2N2/PPP2PPP/R2Q1BK1 b - - 0 12"
+    },
+    {
+      "id": "452de142-52f4-4d7c-a376-4a73b3890825-p32",
+      "player": "Make_no_mistakes",
+      "opponent": "AI Fellows",
+      "played": "Rb6",
+      "v6": "Rb6",
+      "actual_minus_v6_cp": 0,
+      "actual_clock_ms": 89850,
+      "game_id": "452de142-52f4-4d7c-a376-4a73b3890825",
+      "fen": "1r6/Q1pq2kp/p2pnpp1/1p6/8/8/PPP2PPP/3R1BK1 b - - 3 22"
+    },
+    {
+      "id": "452de142-52f4-4d7c-a376-4a73b3890825-p64",
+      "player": "Make_no_mistakes",
+      "opponent": "AI Fellows",
+      "played": "Rxf2",
+      "v6": "Qd7",
+      "actual_minus_v6_cp": 314,
+      "actual_clock_ms": 55892,
+      "game_id": "452de142-52f4-4d7c-a376-4a73b3890825",
+      "fen": "3q4/Q6p/p5pk/1pp2p2/4nR2/6P1/PP1r1P1P/5BK1 b - - 1 38"
+    },
+    {
+      "id": "4d1c6a55-334b-4160-8027-4aedb2904b07-p12",
+      "player": "Emile Andrieu",
+      "opponent": "Lubina",
+      "played": "Rxb2",
+      "v6": "Rxb2",
+      "actual_minus_v6_cp": 0,
+      "actual_clock_ms": 100370,
+      "game_id": "4d1c6a55-334b-4160-8027-4aedb2904b07",
+      "fen": "1rbr2k1/p1q1npbp/2pp1np1/P3p3/4P3/2N2N1P/1PPB1PP1/R2QRBK1 b - - 2 14"
+    },
+    {
+      "id": "4d1c6a55-334b-4160-8027-4aedb2904b07-p32",
+      "player": "Emile Andrieu",
+      "opponent": "Lubina",
+      "played": "Kh8",
+      "v6": "Kh8",
+      "actual_minus_v6_cp": 0,
+      "actual_clock_ms": 75975,
+      "game_id": "4d1c6a55-334b-4160-8027-4aedb2904b07",
+      "fen": "2brn1k1/p2q2bp/Prnp1pp1/1NpQp3/2P1P3/R3BN1P/5PP1/R4BK1 b - - 3 24"
+    },
+    {
+      "id": "4d1c6a55-334b-4160-8027-4aedb2904b07-p64",
+      "player": "Emile Andrieu",
+      "opponent": "Lubina",
+      "played": "Qb1+",
+      "v6": "Qb1+",
+      "actual_minus_v6_cp": 0,
+      "actual_clock_ms": 48138,
+      "game_id": "4d1c6a55-334b-4160-8027-4aedb2904b07",
+      "fen": "2b4k/p6p/3B3P/2p5/1nPpq3/8/3Q1PP1/6K1 b - - 0 40"
+    },
+    {
+      "id": "c64cf058-a891-4884-b68a-b2dc32bf8951-p12",
+      "player": "LeetBeaters",
+      "opponent": "Emile Andrieu",
+      "played": "Nxf6",
+      "v6": "Bxf6",
+      "actual_minus_v6_cp": 51,
+      "actual_clock_ms": 101163,
+      "game_id": "c64cf058-a891-4884-b68a-b2dc32bf8951",
+      "fen": "r4rk1/pbqnbppp/1pp1pN2/8/2PP4/5N2/PPQ1BPPP/R1BR2K1 b - - 0 12"
+    },
+    {
+      "id": "c64cf058-a891-4884-b68a-b2dc32bf8951-p32",
+      "player": "LeetBeaters",
+      "opponent": "Emile Andrieu",
+      "played": "Ng6",
+      "v6": "Ng6",
+      "actual_minus_v6_cp": 0,
+      "actual_clock_ms": 74490,
+      "game_id": "c64cf058-a891-4884-b68a-b2dc32bf8951",
+      "fen": "r5k1/pbq2pp1/2p1p2p/1pPr4/5n2/1P4P1/PBQ2P1P/2R1RBK1 b - - 0 22"
+    },
+    {
+      "id": "c64cf058-a891-4884-b68a-b2dc32bf8951-p64",
+      "player": "LeetBeaters",
+      "opponent": "Emile Andrieu",
+      "played": "Kb8",
+      "v6": "Kb8",
+      "actual_minus_v6_cp": 0,
+      "actual_clock_ms": 22240,
+      "game_id": "c64cf058-a891-4884-b68a-b2dc32bf8951",
+      "fen": "r1k3q1/pb6/2p5/1pP2Q2/8/1P4P1/P4PKP/4R3 b - - 4 38"
+    },
+    {
+      "id": "3121cf00-a8d0-43d5-b61d-052b8f95ee85-p12",
+      "player": "Emile Andrieu",
+      "opponent": "darKnight",
+      "played": "Ne2+",
+      "v6": "Ne2+",
+      "actual_minus_v6_cp": 0,
+      "actual_clock_ms": 98587,
+      "game_id": "3121cf00-a8d0-43d5-b61d-052b8f95ee85",
+      "fen": "r1bq1rk1/pp2bppp/2n5/2pp4/3P4/1Pn1PNP1/P1QN1PBP/R1B2RK1 b - - 4 11"
+    },
+    {
+      "id": "3121cf00-a8d0-43d5-b61d-052b8f95ee85-p32",
+      "player": "Emile Andrieu",
+      "opponent": "darKnight",
+      "played": "h5",
+      "v6": "Qf2",
+      "actual_minus_v6_cp": -91,
+      "actual_clock_ms": 71287,
+      "game_id": "3121cf00-a8d0-43d5-b61d-052b8f95ee85",
+      "fen": "3rr1k1/p4ppp/bqp2b2/3p4/4P3/1P4P1/P1QN2BP/1R1R3K b - - 4 21"
+    },
+    {
+      "id": "3121cf00-a8d0-43d5-b61d-052b8f95ee85-p64",
+      "player": "Emile Andrieu",
+      "opponent": "darKnight",
+      "played": "Kg4",
+      "v6": "Kg4",
+      "actual_minus_v6_cp": 0,
+      "actual_clock_ms": 42971,
+      "game_id": "3121cf00-a8d0-43d5-b61d-052b8f95ee85",
+      "fen": "8/p2b2p1/5p2/2P2k1p/7P/P5P1/8/4K3 b - - 4 37"
+    },
+    {
+      "id": "287fa830-5ca2-47f0-a4b6-1114e5801a8d-p12",
+      "player": "Sobriety",
+      "opponent": "THE ROOOOOKKK!!!!",
+      "played": "a5",
+      "v6": "O-O",
+      "actual_minus_v6_cp": 4,
+      "actual_clock_ms": 104760,
+      "game_id": "287fa830-5ca2-47f0-a4b6-1114e5801a8d",
+      "fen": "r1b1k2r/pp1nq1pp/2p1p3/3p1p2/2PPn3/1P3NP1/P1QNPPBP/R4RK1 b kq - 1 12"
+    },
+    {
+      "id": "287fa830-5ca2-47f0-a4b6-1114e5801a8d-p32",
+      "player": "Sobriety",
+      "opponent": "THE ROOOOOKKK!!!!",
+      "played": "Rh6",
+      "v6": "Rh7",
+      "actual_minus_v6_cp": 34,
+      "actual_clock_ms": 71708,
+      "game_id": "287fa830-5ca2-47f0-a4b6-1114e5801a8d",
+      "fen": "2b1k3/1p2q3/r1p5/p2P1pp1/4n2r/1P1Q1N2/P3P1BP/2R2RK1 b - - 3 22"
+    },
+    {
+      "id": "287fa830-5ca2-47f0-a4b6-1114e5801a8d-p64",
+      "player": "Sobriety",
+      "opponent": "THE ROOOOOKKK!!!!",
+      "played": "Kd7",
+      "v6": "Kd7",
+      "actual_minus_v6_cp": 0,
+      "actual_clock_ms": 37698,
+      "game_id": "287fa830-5ca2-47f0-a4b6-1114e5801a8d",
+      "fen": "4k3/8/2p5/P7/6p1/3P4/5K2/8 b - - 0 38"
+    },
+    {
+      "id": "e509abe9-a4fc-4782-8bdf-43044caf5bf9-p12",
+      "player": "THE ROOOOOKKK!!!!",
+      "opponent": "Mate in One",
+      "played": "Nxd3",
+      "v6": "Bd7",
+      "actual_minus_v6_cp": 8,
+      "actual_clock_ms": 101080,
+      "game_id": "e509abe9-a4fc-4782-8bdf-43044caf5bf9",
+      "fen": "r1b1kb1r/1p3ppp/nq2p3/p1npP3/3N1P2/3B4/PPP1N1PP/R2QBRK1 b kq - 0 12"
+    },
+    {
+      "id": "e509abe9-a4fc-4782-8bdf-43044caf5bf9-p32",
+      "player": "THE ROOOOOKKK!!!!",
+      "opponent": "Mate in One",
+      "played": "Bxg7",
+      "v6": "Bxg7",
+      "actual_minus_v6_cp": 0,
+      "actual_clock_ms": 76202,
+      "game_id": "e509abe9-a4fc-4782-8bdf-43044caf5bf9",
+      "fen": "r1rq1bk1/3b1pPp/n3p3/3pP3/pp1N2P1/P2P4/1P1QNB1P/3R1RK1 b - - 0 22"
+    },
+    {
+      "id": "0ce8dc9a-7491-4178-8053-67d82240ce72-p12",
+      "player": "FuzzyBot",
+      "opponent": "Danya's Disciple",
+      "played": "Bc4",
+      "v6": "Bc4",
+      "actual_minus_v6_cp": 0,
+      "actual_clock_ms": 102073,
+      "game_id": "0ce8dc9a-7491-4178-8053-67d82240ce72",
+      "fen": "r4rk1/pp3ppp/3q1n2/2pb4/8/4PN1P/PP2BPP1/R2QK2R w KQ - 0 14"
+    },
+    {
+      "id": "0ce8dc9a-7491-4178-8053-67d82240ce72-p32",
+      "player": "FuzzyBot",
+      "opponent": "Danya's Disciple",
+      "played": "Nc3",
+      "v6": "Nc3",
+      "actual_minus_v6_cp": 0,
+      "actual_clock_ms": 75602,
+      "game_id": "0ce8dc9a-7491-4178-8053-67d82240ce72",
+      "fen": "r1r2k2/pR3ppp/8/8/2p5/3nP2P/P3NPP1/R5K1 w - - 4 24"
+    },
+    {
+      "id": "0ce8dc9a-7491-4178-8053-67d82240ce72-p64",
+      "player": "FuzzyBot",
+      "opponent": "Danya's Disciple",
+      "played": "Re4",
+      "v6": "Rc7",
+      "actual_minus_v6_cp": -3,
+      "actual_clock_ms": 29275,
+      "game_id": "0ce8dc9a-7491-4178-8053-67d82240ce72",
+      "fen": "7r/5pk1/p7/r3n1p1/P1R3P1/2N1P3/R4P2/5K2 w - - 1 40"
+    },
+    {
+      "id": "bd31b3fa-8921-4a0b-b3d9-666060bded2e-p12",
+      "player": "BitsEntangled",
+      "opponent": "adashima",
+      "played": "Bf5",
+      "v6": "Re8",
+      "actual_minus_v6_cp": 19,
+      "actual_clock_ms": 104146,
+      "game_id": "bd31b3fa-8921-4a0b-b3d9-666060bded2e",
+      "fen": "r1bq1rk1/1p2ppbp/2n2np1/p2p4/P2P4/2PBBN1P/1P3PP1/RN1QR1K1 b - - 0 12"
+    },
+    {
+      "id": "bd31b3fa-8921-4a0b-b3d9-666060bded2e-p32",
+      "player": "BitsEntangled",
+      "opponent": "adashima",
+      "played": "Ng6",
+      "v6": "Rbc8",
+      "actual_minus_v6_cp": -39,
+      "actual_clock_ms": 76868,
+      "game_id": "bd31b3fa-8921-4a0b-b3d9-666060bded2e",
+      "fen": "1r3rk1/1p2npbp/4p3/pN1p1p1q/P2PnB2/2PN2PP/1P2RP2/R2Q2K1 b - - 2 22"
+    },
+    {
+      "id": "bd31b3fa-8921-4a0b-b3d9-666060bded2e-p64",
+      "player": "BitsEntangled",
+      "opponent": "adashima",
+      "played": "Ke8",
+      "v6": "f6",
+      "actual_minus_v6_cp": 63,
+      "actual_clock_ms": 38509,
+      "game_id": "bd31b3fa-8921-4a0b-b3d9-666060bded2e",
+      "fen": "5k2/5p1p/3b4/R4N1P/2P1p3/3r4/1P3P2/6K1 b - - 0 38"
+    },
+    {
+      "id": "2f5963df-5dd4-46fe-acac-805671e734a5-p12",
+      "player": "adashima",
+      "opponent": "Finlay Phillips",
+      "played": "bxc5",
+      "v6": "dxc5",
+      "actual_minus_v6_cp": 82,
+      "actual_clock_ms": 91336,
+      "game_id": "2f5963df-5dd4-46fe-acac-805671e734a5",
+      "fen": "r1bq1rk1/2p1n1bp/1p1p2p1/p1BPppN1/2P1P3/P1N4P/1PQ1BPP1/R4RK1 b - - 0 14"
+    },
+    {
+      "id": "2f5963df-5dd4-46fe-acac-805671e734a5-p32",
+      "player": "adashima",
+      "opponent": "Finlay Phillips",
+      "played": "Qxa8",
+      "v6": "Qxa8",
+      "actual_minus_v6_cp": 0,
+      "actual_clock_ms": 65399,
+      "game_id": "2f5963df-5dd4-46fe-acac-805671e734a5",
+      "fen": "Bq2r2k/4P1bp/3p2p1/p3pP2/2Pp4/P6P/1PQ2PP1/5RK1 b - - 0 24"
+    }
+  ],
+  "label_audit": {
+    "n": 120,
+    "mean_abs_delta_cp": 29.2,
+    "median_abs_delta_cp": 13.0,
+    "ge50": 17,
+    "ge100": 7
+  },
+  "reference_moves": 125,
+  "limitations": "Candidate-set regret uses the maximum of same-budget 1M restricted root analyses among measured moves; non-mate only. Candidate pool selected by interventions, finite reference instability remains. It is not exhaustive minimax regret, a random sample, or an Elo estimate. ARM wall tests are exploratory and occurred alongside other CPU-affined work."
+}

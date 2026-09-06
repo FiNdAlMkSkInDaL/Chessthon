@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "positions": 3857,
+  "native_make_undo_edges": 9503,
+  "oracle_preflight": {
+    "traces": 66,
+    "positions": 3857,
+    "claimable_positions": 8,
+    "diagnostic_endpoints_verified": 37,
+    "note": "Some traces deliberately continue past an auto-claim to test predicate boundaries; they are legal-position histories, not complete competition games."
+  },
+  "claimable_positions": 6,
+  "traces": 66,
+  "seconds": 34.67170616425574,
+  "oracle": "python-chess 1.11.2 legal moves, can_claim_fifty_moves, independent FEN pack",
+  "scope": "Development correctness; no playing-strength inference.",
+  "exact_threefold_predicates_tested": false,
+  "total_fifty_helper_tested": true
+}

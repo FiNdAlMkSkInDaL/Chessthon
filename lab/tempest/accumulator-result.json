@@ -1,0 +1,40 @@
+{
+  "weight_sha256": "dec1a5e076a91e7a00b49a140bbf8dd917a378b06fb961f0f71785ff0e74d50a",
+  "shape": [
+    768,
+    16
+  ],
+  "dtype": "int16 weights / int32 accumulator",
+  "state_checks": 2999,
+  "special_moves": {
+    "castle": 32,
+    "ep": 9,
+    "promotion": 29
+  },
+  "max_abs_accumulator": 302,
+  "embedding_bytes": 24576,
+  "accumulator_bytes": 12288,
+  "runs": [
+    {
+      "incremental": false,
+      "seconds": 0.4742092000087723,
+      "checksum": 78004800
+    },
+    {
+      "incremental": true,
+      "seconds": 0.26671370000985917,
+      "checksum": 78004800
+    },
+    {
+      "incremental": true,
+      "seconds": 0.2665047000045888,
+      "checksum": 78004800
+    },
+    {
+      "incremental": false,
+      "seconds": 0.47421749999921303,
+      "checksum": 78004800
+    }
+  ],
+  "scope": "Isolated ARM compiled loops, no Python board-delta cost in timing; does NOT measure search throughput, Linux import or playing strength. Reuses our rejected small-data network only as original test weights."
+}

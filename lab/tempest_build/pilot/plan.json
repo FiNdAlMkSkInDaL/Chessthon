@@ -1,0 +1,28 @@
+{
+  "architecture": "6144x32 shared eight-king-bucket embedding, color-antisymmetric clipped-ReLU, 32x2 phase output; original random initialization; fixed v6 base",
+  "ridges": [
+    0.0001,
+    0.001,
+    0.01
+  ],
+  "seeds": [
+    260906,
+    260907
+  ],
+  "max_epochs": 60,
+  "batch": 128,
+  "selection": "minimum validation MAE; test accessed only for chosen network and chosen linear control",
+  "scope": "scalar pilot; paired move-ranking and native integration remain separate gates",
+  "gate": "at least 5cp test MAE gain, no phase p90 damage; then independent move-ranking before integration",
+  "pair_loss": false,
+  "provenance": {
+    "lab\\tempest_build\\data\\states.jsonl": "117169e50116083d254a62a9a7438b83aac6cc40631e6160ebe11338e0dbfdc2",
+    "lab\\tempest_build\\data\\split-manifest.json": "dfb630034ea19429299d2462399c248598e51cdf0bb129b8fe689f4bd6de98b4",
+    "lab\\tempest_build\\data\\sampler-identity.json": "8ab8c2a876685bd9e474352f6fd8cf21a5f7e510cbc686a3d12a31d394f8cb99",
+    "lab\\tempest_build\\fit_pilot.py": "d9eaf6edec3dba867f767e75cad704e5f196af4d88ded76c0633e859dfef59af",
+    "lab\\tempest_build\\data\\labels-0.jsonl": "1f51d2053c1b3ebc69452ad181793ceefb75eb138525d101e6193707bf91d84e",
+    "lab\\tempest_build\\data\\labels-1.jsonl": "1db19b3f827a81049cf12f20f2f99265f9da5f0e3840af759dd8f907e5144ebe",
+    "lab\\tempest_build\\data\\labels-2.jsonl": "1c78d1324cbe9dc0e408a533af8c83bed1c53880a0e75d7e7312c26e8922cb98",
+    "lab\\tempest_build\\data\\labels-3.jsonl": "81ffdabac0966f47505d459a64afd80ad954d9d8a230b31b264b545f070794ef"
+  }
+}

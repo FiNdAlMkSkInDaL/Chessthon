@@ -1,0 +1,109 @@
+AI CHESSATHON MATCH LOG
+=======================
+
+MATCH
+  Round          Rated 44
+  Team           Finlay Phillips
+  Colour         Black
+  Opponent       xx
+  Opening        Petroff Defence
+  Start FEN      rnbqk2r/pp3ppp/2pb4/3p4/2PPn3/5N2/PP2BPPP/RNBQ1RK1 b kq - 1 8
+  You moved      First
+  Machine        w-6272d4
+  Finished       2026-09-06 20:09:27 UTC
+  Match ID       94b5065e-78d7-4cb6-a7d7-6d768e1078b6
+
+INIT
+  Ready in       46.0 s
+  Budget         90.0 s
+  Used           51 percent
+
+CLOCK
+  Base           120.0 s plus 0.5 s per move
+  Moves          34
+  Time used      125.4 s
+  Slowest        13.8 s on move 20
+  Fastest        0.0 s on move 34
+  Average        3.7 s
+  Left at end    11.6 s
+
+RESULT
+  Lost by checkmate
+  Game lasted 212.1 s
+
+MOVES
+    #  move          time     clock left
+    1  O-O           3.9 s      116.6 s
+    2  h6            6.6 s      110.5 s
+    3  Nxc3          2.8 s      108.2 s
+    4  cxd5          2.6 s      106.1 s
+    5  Nc6           5.2 s      101.4 s
+    6  Be6           2.3 s       99.5 s
+    7  Re8           2.0 s       98.0 s
+    8  g6            6.3 s       92.2 s
+    9  Qc7           2.6 s       90.1 s
+   10  Rac8          4.0 s       86.6 s
+   11  Bxh2+         6.0 s       81.1 s
+   12  Bd6           3.4 s       78.2 s
+   13  fxg6          1.7 s       77.0 s
+   14  Bf7           4.0 s       73.4 s
+   15  Rxe1+         4.2 s       69.8 s
+   16  Bxg6          1.9 s       68.4 s
+   17  Kh8           5.0 s       63.9 s
+   18  Qd7           5.5 s       59.0 s
+   19  Qxh3+         2.8 s       56.7 s
+   20  Rg8          13.8 s       43.4 s
+   21  Kh7           4.4 s       39.5 s
+   22  Rxf8          2.8 s       37.2 s
+   23  Kg6           3.0 s       34.8 s
+   24  a6            4.4 s       30.9 s
+   25  Kf7           4.9 s       26.5 s
+   26  Ne7           2.2 s       24.8 s
+   27  dxc4          8.3 s       17.0 s
+   28  Kf6           6.0 s       11.5 s
+   29  Ng6           1.1 s       10.8 s
+   30  Ne5           0.7 s       10.6 s
+   31  Kf5           0.9 s       10.3 s
+   32  Kg6           0.1 s       10.6 s
+   33  Kh6           0.0 s       11.1 s
+   34  c3            0.0 s       11.6 s
+
+OUTPUT
+  1,274 bytes on stderr
+
+  S4 p15 d14 n3591191 s-11 t3881 b3004
+  S4 p17 d14 n5366279 s-11 t6589 b6776
+  S4 p19 d15 n2529997 s-3 t2834 b2828
+  S4 p21 d15 n2325977 s-1 t2611 b2839
+  S4 p23 d14 n4488670 s5 t5202 b2861
+  S4 p25 d13 n2076316 s11 t2324 b2735
+  S4 p27 d12 n1739882 s0 t2010 b2720
+  S4 p29 d15 n5163403 s-45 t6336 b4499
+  S4 p31 d14 n2140638 s-45 t2612 b2596
+  S4 p33 d13 n3320055 s-79 t3955 b4822
+  S4 p35 d12 n5040992 s-60 t6017 b9161
+  S4 p37 d15 n2978619 s-68 t3427 b2921
+  S4 p39 d15 n1406247 s-61 t1662 b2418
+  S4 p41 d15 n3632089 s-154 t4042 b5929
+  S4 p43 d14 n3580709 s-373 t4152 b6552
+  S4 p45 d15 n1648918 s-382 t1859 b2596
+  S4 p47 d15 n4424705 s-311 t4978 b6848
+  S4 p49 d16 n5030364 s-1033 t5448 b7003
+  S4 p51 d16 n2756156 s-1123 t2771 b6480
+  S4 p53 d16 n15153152 s-1175 t13830 b9042
+  S4 p55 d18 n5110494 s-1241 t4414 b4039
+  S4 p57 d18 n3268615 s-1277 t2747 b3888
+  S4 p59 d19 n3600196 s-1314 t2947 b2393
+  S4 p61 d16 n5473243 s-1341 t4360 b5382
+  S4 p63 d19 n6422694 s-1475 t4947 b5087
+  S4 p65 d19 n2642948 s-1584 t2161 b5417
+  S4 p67 d15 n11814912 s-1545 t8316 b3182
+  S4 p69 d14 n6770688 s-1603 t5988 b1208
+  S4 p71 d14 n1069785 s-31988 t1134 b878
+  S4 p73 d14 n687751 s-31990 t741 b840
+  S4 p75 d24 n869025 s-31992 t849 b787
+  S4 p77 d64 n143294 s-31994 t146 b712
+  S4 p79 d64 n8500 s-31996 t11 b750
+  S4 p81 d64 n447 s-31998 t5 b775
+
+Email hello@aichessathon.com with this file if anything here is unclear.

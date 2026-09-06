@@ -1,0 +1,9 @@
+<html>
+<head><title>Index of /tables/</title></head>
+<body>
+<h1>Index of /tables/</h1><hr><pre><a href="../">../</a>
+<a href="antichess/">antichess/</a>                                         17-Aug-2018 09:57                   -
+<a href="atomic/">atomic/</a>                                            23-Jun-2024 08:46                   -
+<a href="standard/">standard/</a>                                          08-Feb-2026 09:34                   -
+</pre><hr></body>
+</html>

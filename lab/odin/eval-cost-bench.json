@@ -1,0 +1,263 @@
+{
+  "baseline": {
+    "enabled": false,
+    "positions": 24,
+    "nodes": 323202,
+    "elapsed_s": 3.755,
+    "nps": 86065.3,
+    "decisions": [
+      {
+        "move": "f3d1",
+        "depth": 3,
+        "nodes": 5765
+      },
+      {
+        "move": "f8h7",
+        "depth": 6,
+        "nodes": 6596
+      },
+      {
+        "move": "g2g3",
+        "depth": 6,
+        "nodes": 12013
+      },
+      {
+        "move": "d5e4",
+        "depth": 7,
+        "nodes": 15608
+      },
+      {
+        "move": "h4g3",
+        "depth": 6,
+        "nodes": 10726
+      },
+      {
+        "move": "h7g6",
+        "depth": 6,
+        "nodes": 10349
+      },
+      {
+        "move": "c3g3",
+        "depth": 3,
+        "nodes": 8208
+      },
+      {
+        "move": "a2a3",
+        "depth": 4,
+        "nodes": 8620
+      },
+      {
+        "move": "b1b4",
+        "depth": 5,
+        "nodes": 26624
+      },
+      {
+        "move": "b5c4",
+        "depth": 7,
+        "nodes": 18045
+      },
+      {
+        "move": "f3e5",
+        "depth": 4,
+        "nodes": 9057
+      },
+      {
+        "move": "h2h3",
+        "depth": 4,
+        "nodes": 8687
+      },
+      {
+        "move": "b4c4",
+        "depth": 7,
+        "nodes": 11862
+      },
+      {
+        "move": "c6d5",
+        "depth": 6,
+        "nodes": 13322
+      },
+      {
+        "move": "a1e1",
+        "depth": 5,
+        "nodes": 15364
+      },
+      {
+        "move": "e1e5",
+        "depth": 7,
+        "nodes": 11759
+      },
+      {
+        "move": "c5c4",
+        "depth": 6,
+        "nodes": 10550
+      },
+      {
+        "move": "g6g1",
+        "depth": 6,
+        "nodes": 14006
+      },
+      {
+        "move": "f3g5",
+        "depth": 5,
+        "nodes": 18120
+      },
+      {
+        "move": "b1b7",
+        "depth": 5,
+        "nodes": 12302
+      },
+      {
+        "move": "f8f2",
+        "depth": 8,
+        "nodes": 23896
+      },
+      {
+        "move": "c7b6",
+        "depth": 7,
+        "nodes": 20247
+      },
+      {
+        "move": "f8c8",
+        "depth": 7,
+        "nodes": 19331
+      },
+      {
+        "move": "f1g3",
+        "depth": 5,
+        "nodes": 12145
+      }
+    ]
+  },
+  "fitted": {
+    "enabled": true,
+    "positions": 24,
+    "nodes": 389694,
+    "elapsed_s": 4.243,
+    "nps": 91840.6,
+    "decisions": [
+      {
+        "move": "c3b5",
+        "depth": 3,
+        "nodes": 8613
+      },
+      {
+        "move": "f8h7",
+        "depth": 7,
+        "nodes": 17048
+      },
+      {
+        "move": "g2g3",
+        "depth": 6,
+        "nodes": 11919
+      },
+      {
+        "move": "d5e4",
+        "depth": 7,
+        "nodes": 22183
+      },
+      {
+        "move": "e4e5",
+        "depth": 6,
+        "nodes": 8803
+      },
+      {
+        "move": "h7g6",
+        "depth": 6,
+        "nodes": 8950
+      },
+      {
+        "move": "c3g3",
+        "depth": 3,
+        "nodes": 11946
+      },
+      {
+        "move": "c3e4",
+        "depth": 4,
+        "nodes": 9599
+      },
+      {
+        "move": "b1b4",
+        "depth": 4,
+        "nodes": 10666
+      },
+      {
+        "move": "b5c4",
+        "depth": 7,
+        "nodes": 19266
+      },
+      {
+        "move": "f3e5",
+        "depth": 4,
+        "nodes": 25600
+      },
+      {
+        "move": "h2h3",
+        "depth": 4,
+        "nodes": 5526
+      },
+      {
+        "move": "b4c4",
+        "depth": 7,
+        "nodes": 29696
+      },
+      {
+        "move": "c6d5",
+        "depth": 6,
+        "nodes": 12729
+      },
+      {
+        "move": "a1e1",
+        "depth": 5,
+        "nodes": 21006
+      },
+      {
+        "move": "e1e5",
+        "depth": 8,
+        "nodes": 14526
+      },
+      {
+        "move": "c5c4",
+        "depth": 7,
+        "nodes": 26220
+      },
+      {
+        "move": "g6g1",
+        "depth": 6,
+        "nodes": 14326
+      },
+      {
+        "move": "f1e3",
+        "depth": 5,
+        "nodes": 21125
+      },
+      {
+        "move": "d4d5",
+        "depth": 7,
+        "nodes": 24832
+      },
+      {
+        "move": "f8f2",
+        "depth": 8,
+        "nodes": 17695
+      },
+      {
+        "move": "c7b6",
+        "depth": 7,
+        "nodes": 19477
+      },
+      {
+        "move": "f8c8",
+        "depth": 7,
+        "nodes": 17015
+      },
+      {
+        "move": "d1d8",
+        "depth": 6,
+        "nodes": 10928
+      }
+    ]
+  },
+  "throughput_overhead_fraction": -0.0671,
+  "gate": "Engineering target is <= 0.15; a larger cost requires separate strength evidence.",
+  "note": "Windows fixed-wall cost screen only; decisions are unlabeled here and this is not a strength result."
+}

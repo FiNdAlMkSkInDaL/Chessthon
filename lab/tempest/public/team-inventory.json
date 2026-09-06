@@ -1,0 +1,1819 @@
+[
+  {
+    "team": "ms",
+    "game_id": "36a3c43d-69fb-4885-958a-94b1b8518966",
+    "url": "https://aichessathon.com/game/36a3c43d-69fb-4885-958a-94b1b8518966?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 35 view the game White Ransom Win King's Indian Classical",
+    "void": false,
+    "pgn": "public\\36a3c43d-69fb-4885-958a-94b1b8518966.pgn",
+    "sha256": "0094ce4282f92fa5c8f12dd324d830db9e44e135345a58be7e79612ae4a38e5e",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "35",
+      "White": "ms",
+      "Black": "Ransom",
+      "Result": "1-0",
+      "FEN": "r1b1qrk1/ppp2pbp/n2p2p1/4p1B1/2PPP1n1/2NQ1N2/PP2BPPP/R3K2R w KQ - 6 10",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 93,
+    "legal": true,
+    "final_fen": "4Rk2/8/6BP/p2N4/2p5/8/8/6K1 b - - 3 56",
+    "referee_outcome": "Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)",
+    "clock_comments": 93,
+    "page_status": "Back to ms Rated 35 \u00b7 Final ms 1 \u2013 0 Fried Liver Time control 120s + 0.5s Termination Checkmate Opening King's Indian Classical PGN Download Fried Liver 0:14 . 18 8 7 6 5 4 3 2 1 a b c d e f g h ms 0:14 . 46 <div class=\""
+  },
+  {
+    "team": "ms",
+    "game_id": "32f805a3-6190-4249-b270-48c42eda2c38",
+    "url": "https://aichessathon.com/game/32f805a3-6190-4249-b270-48c42eda2c38?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 34 view the game Black FuzzyBot Loss Petroff Defence",
+    "void": false,
+    "pgn": "public\\32f805a3-6190-4249-b270-48c42eda2c38.pgn",
+    "sha256": "02f03a3776a59994db8b6b3b4c2b0fd16f7d6e2a9196f8e14245a1f3a23f837e",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "34",
+      "White": "FuzzyBot",
+      "Black": "ms",
+      "Result": "1-0",
+      "FEN": "rnbqkb1r/pp3ppp/2p5/1B1p4/3Pn3/5N2/PPP2PPP/RNBQK2R w KQkq - 0 7",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 153,
+    "legal": true,
+    "final_fen": "8/8/8/1kQ1K3/6P1/Q7/8/8 b - - 1 83",
+    "referee_outcome": "Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)",
+    "clock_comments": 153,
+    "page_status": "Back to ms Rated 34 \u00b7 Final Fuzzydafool 1 \u2013 0 ms Time control 120s + 0.5s Termination Checkmate Opening Petroff Defence PGN Download ms 0:07 . 46 8 7 6 5 4 3 2 1 a b c d e f g h Fuzzydafool 0:04 . 44 <div class=\""
+  },
+  {
+    "team": "ms",
+    "game_id": "0c7ddcbb-4de3-44b6-998f-371c4524d597",
+    "url": "https://aichessathon.com/game/0c7ddcbb-4de3-44b6-998f-371c4524d597?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 33 view the game White Cornelius Draw Petroff Defence",
+    "void": false,
+    "pgn": "public\\0c7ddcbb-4de3-44b6-998f-371c4524d597.pgn",
+    "sha256": "6df63c006c564c33119c1f541b59c2cacfd9988eee6519d0ceab7e12464f5579",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "33",
+      "White": "ms",
+      "Black": "Cornelius",
+      "Result": "1/2-1/2",
+      "FEN": "rnbqk2r/ppp2ppp/3b4/3p4/3Pn3/2P2N1P/PP3PP1/RNBQKB1R w KQkq - 1 8",
+      "SetUp": "1",
+      "Termination": "insufficient_material"
+    },
+    "plies": 115,
+    "legal": true,
+    "final_fen": "8/8/8/4N3/5K1k/8/8/8 b - - 0 65",
+    "referee_outcome": "Outcome(termination=<Termination.INSUFFICIENT_MATERIAL: 3>, winner=None)",
+    "clock_comments": 115,
+    "page_status": "Back to ms Rated 33 \u00b7 Final ms \u00bd \u2013 \u00bd Cornelius Time control 120s + 0.5s Termination Insufficient material Opening Petroff Defence PGN Download Cornelius 0:21 . 10 8 7 6 5 4 3 2 1 a b c d e f g h ms 0:06 . 19 <div class=\""
+  },
+  {
+    "team": "ms",
+    "game_id": "feaeb422-7d92-47a0-a5fe-f65a2564d15f",
+    "url": "https://aichessathon.com/game/feaeb422-7d92-47a0-a5fe-f65a2564d15f?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 32 view the game Black Finlay Phillips Win Caro-Kann Exchange",
+    "void": false,
+    "pgn": "public\\feaeb422-7d92-47a0-a5fe-f65a2564d15f.pgn",
+    "sha256": "1cd651d556fdeaecffc8d064ce2a9beea62e5ff0cf89750c6d344a2a37e46081",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "32",
+      "White": "Finlay Phillips",
+      "Black": "ms",
+      "Result": "0-1",
+      "FEN": "r1bqkb1r/pp3ppp/5n2/3pn3/8/2PB4/PP2NPPP/RNBQK2R w KQkq - 0 8",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 96,
+    "legal": true,
+    "final_fen": "8/5p2/8/8/8/5k2/6r1/4K2q w - - 0 56",
+    "referee_outcome": "Outcome(termination=<Termination.CHECKMATE: 1>, winner=False)",
+    "clock_comments": 96,
+    "page_status": "Back to ms Rated 32 \u00b7 Final Samson 0 \u2013 1 ms Time control 120s + 0.5s Termination Checkmate Opening Caro-Kann Exchange PGN Download ms 0:22 . 77 8 7 6 5 4 3 2 1 a b c d e f g h Samson 0:04 . 84 <div class=\""
+  },
+  {
+    "team": "ms",
+    "game_id": "4671ec1d-2324-4b74-8961-91e23755bfb3",
+    "url": "https://aichessathon.com/game/4671ec1d-2324-4b74-8961-91e23755bfb3?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 31 view the game White Solo Man Win Sicilian Taimanov",
+    "void": false
+  },
+  {
+    "team": "ms",
+    "game_id": "95cebd81-53e3-495a-b0f8-dd1d211c992b",
+    "url": "https://aichessathon.com/game/95cebd81-53e3-495a-b0f8-dd1d211c992b?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 30 view the game Black zak Win Sicilian Closed",
+    "void": false
+  },
+  {
+    "team": "ms",
+    "game_id": "ae7787c7-f806-4ca6-b4b9-d6faf29647a8",
+    "url": "https://aichessathon.com/game/ae7787c7-f806-4ca6-b4b9-d6faf29647a8?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 29 view the game White BitsEntangled Win Sicilian Closed",
+    "void": false
+  },
+  {
+    "team": "ms",
+    "game_id": "baaa6a2e-95e8-4c88-8df6-b11ccf2bcd9a",
+    "url": "https://aichessathon.com/game/baaa6a2e-95e8-4c88-8df6-b11ccf2bcd9a?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 28 view the game White Abhi's chess demon Draw Sicilian Classical",
+    "void": false
+  },
+  {
+    "team": "ms",
+    "game_id": "cb08b7ee-0908-4bee-a23e-8b153fca64e7",
+    "url": "https://aichessathon.com/game/cb08b7ee-0908-4bee-a23e-8b153fca64e7?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 27 view the game Black Imperial Larper Win Sicilian Closed",
+    "void": false
+  },
+  {
+    "team": "ms",
+    "game_id": "d6794542-6a47-45f1-a6be-8f7983e7932f",
+    "url": "https://aichessathon.com/game/d6794542-6a47-45f1-a6be-8f7983e7932f?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 26 view the game White adashima Loss English Symmetrical",
+    "void": false,
+    "pgn": "public\\d6794542-6a47-45f1-a6be-8f7983e7932f.pgn",
+    "sha256": "f12361424af6dad39073ac8a74d5bdaa97653a945bdd90616d05241b9db1ef7e",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.05",
+      "Round": "26",
+      "White": "ms",
+      "Black": "adashima",
+      "Result": "0-1",
+      "FEN": "r1bqk2r/pp1pppbp/2n2np1/2p5/2P5/2NP1NP1/PP2PPBP/R1BQK2R b KQkq - 0 6",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 139,
+    "legal": true,
+    "final_fen": "8/5k2/6p1/p6q/7K/2q5/8/8 w - - 4 76",
+    "referee_outcome": "Outcome(termination=<Termination.CHECKMATE: 1>, winner=False)",
+    "clock_comments": 139,
+    "page_status": "Back to ms Rated 26 \u00b7 Final ms 0 \u2013 1 meowfish Time control 120s + 0.5s Termination Checkmate Opening English Symmetrical PGN Download meowfish 0:20 . 45 8 7 6 5 4 3 2 1 a b c d e f g h ms 0:07 . 28 <div class=\""
+  },
+  {
+    "team": "ms",
+    "game_id": "bf896759-269b-485a-ac32-0e838cf73328",
+    "url": "https://aichessathon.com/game/bf896759-269b-485a-ac32-0e838cf73328?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 25 view the game Black Ransom Void Scotch Game",
+    "void": true
+  },
+  {
+    "team": "ms",
+    "game_id": "dfb69183-d9d3-4df6-8d6d-ec8206a02ee6",
+    "url": "https://aichessathon.com/game/dfb69183-d9d3-4df6-8d6d-ec8206a02ee6?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 24 view the game Black Danya's Disciple Void Scotch Game",
+    "void": true
+  },
+  {
+    "team": "ms",
+    "game_id": "2b14b6a1-b489-4988-88dc-2a35380552c8",
+    "url": "https://aichessathon.com/game/2b14b6a1-b489-4988-88dc-2a35380552c8?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 23 view the game White Make_no_mistakes Draw Sicilian Taimanov",
+    "void": false
+  },
+  {
+    "team": "ms",
+    "game_id": "5754efbf-9cc8-48c2-beef-f81fbeff46b5",
+    "url": "https://aichessathon.com/game/5754efbf-9cc8-48c2-beef-f81fbeff46b5?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 22 view the game Black mangodogo Win English Symmetrical",
+    "void": false
+  },
+  {
+    "team": "ms",
+    "game_id": "f9e99559-54dc-461d-93e4-6660911cda47",
+    "url": "https://aichessathon.com/game/f9e99559-54dc-461d-93e4-6660911cda47?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 21 view the game White 50CentRaise Win Reti Opening",
+    "void": false
+  },
+  {
+    "team": "ms",
+    "game_id": "f73819dd-9928-4575-95d6-e1a8ded83487",
+    "url": "https://aichessathon.com/game/f73819dd-9928-4575-95d6-e1a8ded83487?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 20 view the game Black Emile Andrieu Loss Nimzo-Indian Defence",
+    "void": false
+  },
+  {
+    "team": "ms",
+    "game_id": "0275f974-e2ac-40ec-881f-d76f311af90b",
+    "url": "https://aichessathon.com/game/0275f974-e2ac-40ec-881f-d76f311af90b?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 19 view the game Black Amplifirm Win London System",
+    "void": false
+  },
+  {
+    "team": "ms",
+    "game_id": "fe142c0b-07c0-4d52-9a62-f2e9b4eb278f",
+    "url": "https://aichessathon.com/game/fe142c0b-07c0-4d52-9a62-f2e9b4eb278f?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 18 view the game White FuzzyBot Void Pirc Defence",
+    "void": true
+  },
+  {
+    "team": "ms",
+    "game_id": "e69ea82d-7d6e-4c5f-9337-ed3321ae6ecb",
+    "url": "https://aichessathon.com/game/e69ea82d-7d6e-4c5f-9337-ed3321ae6ecb?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 17 view the game White Lightning Tree Win Sicilian Closed",
+    "void": false
+  },
+  {
+    "team": "ms",
+    "game_id": "79abebb8-61b3-49e1-81d7-548cbce3de73",
+    "url": "https://aichessathon.com/game/79abebb8-61b3-49e1-81d7-548cbce3de73?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 16 view the game Black Team1 Loss Italian Game",
+    "void": false
+  },
+  {
+    "team": "ms",
+    "game_id": "d2fbe9ce-8aa1-4510-b46b-ed6188cee5ee",
+    "url": "https://aichessathon.com/game/d2fbe9ce-8aa1-4510-b46b-ed6188cee5ee?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 15 view the game Black pheanup Win Reti Opening",
+    "void": false
+  },
+  {
+    "team": "ms",
+    "game_id": "cf374d51-6612-43d4-8a7d-9b11b320d671",
+    "url": "https://aichessathon.com/game/cf374d51-6612-43d4-8a7d-9b11b320d671?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 14 view the game White AI Fellows Void London System",
+    "void": true
+  },
+  {
+    "team": "ms",
+    "game_id": "e10f5be4-06bf-4c30-b655-2aa29eac6f7c",
+    "url": "https://aichessathon.com/game/e10f5be4-06bf-4c30-b655-2aa29eac6f7c?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 13 view the game White slopfish Win Four Knights Game",
+    "void": false
+  },
+  {
+    "team": "ms",
+    "game_id": "3e4cc31e-cd87-4dee-9b1b-fb4308a49842",
+    "url": "https://aichessathon.com/game/3e4cc31e-cd87-4dee-9b1b-fb4308a49842?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 12 view the game Black Sobriety Loss French Classical",
+    "void": false
+  },
+  {
+    "team": "ms",
+    "game_id": "fc8f30ae-529c-4088-8ddf-7d4ceeebdc6a",
+    "url": "https://aichessathon.com/game/fc8f30ae-529c-4088-8ddf-7d4ceeebdc6a?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 11 view the game White Mate in One Win French Classical",
+    "void": false
+  },
+  {
+    "team": "ms",
+    "game_id": "f21486e0-1528-43ba-b321-3a15ba690eca",
+    "url": "https://aichessathon.com/game/f21486e0-1528-43ba-b321-3a15ba690eca?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 10 view the game Black No More Ammo Win Petroff Defence",
+    "void": false
+  },
+  {
+    "team": "ms",
+    "game_id": "68b84c77-5928-411f-91fe-b84e2aac51a3",
+    "url": "https://aichessathon.com/game/68b84c77-5928-411f-91fe-b84e2aac51a3?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 9 view the game White pgn Win Petroff Defence",
+    "void": false
+  },
+  {
+    "team": "ms",
+    "game_id": "13efcf9b-a889-42ba-899a-4cce1204ba96",
+    "url": "https://aichessathon.com/game/13efcf9b-a889-42ba-899a-4cce1204ba96?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 8 view the game Black checkers Void Sicilian Taimanov",
+    "void": true
+  },
+  {
+    "team": "ms",
+    "game_id": "022012e6-810e-4978-b35c-e91094c32529",
+    "url": "https://aichessathon.com/game/022012e6-810e-4978-b35c-e91094c32529?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 7 view the game Black Gijs Smit Loss French Tarrasch",
+    "void": false
+  },
+  {
+    "team": "ms",
+    "game_id": "4d7e8991-e4ff-49c8-9e36-70f394cb44dc",
+    "url": "https://aichessathon.com/game/4d7e8991-e4ff-49c8-9e36-70f394cb44dc?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 6 view the game White Lubina Void English Symmetrical",
+    "void": true
+  },
+  {
+    "team": "ms",
+    "game_id": "7e806b39-2c12-4614-b3e8-8752a76aa35c",
+    "url": "https://aichessathon.com/game/7e806b39-2c12-4614-b3e8-8752a76aa35c?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 5 view the game Black Waterside Research Win Pirc Defence",
+    "void": false
+  },
+  {
+    "team": "ms",
+    "game_id": "fca79fa4-f4f2-42ce-9b9c-5ea1dcdf8376",
+    "url": "https://aichessathon.com/game/fca79fa4-f4f2-42ce-9b9c-5ea1dcdf8376?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 4 view the game Black IM_master Win King's Indian Classical",
+    "void": false
+  },
+  {
+    "team": "ms",
+    "game_id": "180b7dc5-b0e4-47ed-a563-fd5b7b2a4d8d",
+    "url": "https://aichessathon.com/game/180b7dc5-b0e4-47ed-a563-fd5b7b2a4d8d?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 3 view the game White jlu Win London System",
+    "void": false
+  },
+  {
+    "team": "ms",
+    "game_id": "cd1240a9-1c5f-4ad5-a8db-a4d4f54e70bf",
+    "url": "https://aichessathon.com/game/cd1240a9-1c5f-4ad5-a8db-a4d4f54e70bf?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 2 view the game White THE ROOOOOKKK!!!! Win Pirc Defence",
+    "void": false
+  },
+  {
+    "team": "ms",
+    "game_id": "2467fdc8-6b79-4f19-93fe-346f8c48981c",
+    "url": "https://aichessathon.com/game/2467fdc8-6b79-4f19-93fe-346f8c48981c?from=t.c3e1bc09-3d21-4279-ace0-16bb3742f5da",
+    "text": "Rated 1 view the game White Thorp Win English Symmetrical",
+    "void": false
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "69d277c2-15ce-4c99-8339-22ca7c2f9693",
+    "url": "https://aichessathon.com/game/69d277c2-15ce-4c99-8339-22ca7c2f9693?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 35 view the game Black checkers Draw Two Knights Defence",
+    "void": false,
+    "pgn": "public\\69d277c2-15ce-4c99-8339-22ca7c2f9693.pgn",
+    "sha256": "c1284b40d4ede217882edb0cd7087742711762bf7789e7388cecf3c0c5df53d1",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "35",
+      "White": "checkers",
+      "Black": "AI Fellows",
+      "Result": "1/2-1/2",
+      "FEN": "r1bqk2r/ppp1bppp/2n5/3np3/P1B5/3P1N2/1PP2PPP/RNBQ1RK1 b kq - 1 7",
+      "SetUp": "1",
+      "Termination": "threefold_repetition"
+    },
+    "plies": 165,
+    "legal": true,
+    "final_fen": "7Q/5k2/8/2b5/6K1/8/5p2/6r1 w - - 9 90",
+    "referee_outcome": "Outcome(termination=<Termination.THREEFOLD_REPETITION: 7>, winner=None)",
+    "clock_comments": 165,
+    "page_status": "Back to AI Fellow Rated 35 \u00b7 Final checkers \u00bd \u2013 \u00bd AI Fellow Time control 120s + 0.5s Termination Threefold repetition Opening Two Knights Defence PGN Download AI Fellow 0:03 . 15 8 7 6 5 4 3 2 1 a b c d e f g h checkers 0:12 . 50 <div class=\""
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "64e7bca1-e8eb-427a-89e0-8bae0bc4b068",
+    "url": "https://aichessathon.com/game/64e7bca1-e8eb-427a-89e0-8bae0bc4b068?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 34 view the game White Make_no_mistakes Win Sicilian Dragon",
+    "void": false,
+    "pgn": "public\\64e7bca1-e8eb-427a-89e0-8bae0bc4b068.pgn",
+    "sha256": "f5ef994f7ff961b32bd9445011384cf29a7b75b820a6673c411de107b1c4e901",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "34",
+      "White": "AI Fellows",
+      "Black": "Make_no_mistakes",
+      "Result": "1-0",
+      "FEN": "rnbqkb1r/pp2pp1p/3p1np1/8/3NP3/2N4P/PPP2PP1/R1BQKB1R b KQkq - 0 6",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 148,
+    "legal": true,
+    "final_fen": "5Q1k/8/6K1/8/6P1/8/8/8 b - - 0 80",
+    "referee_outcome": "Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)",
+    "clock_comments": 148,
+    "page_status": "Back to AI Fellow Rated 34 \u00b7 Final AI Fellow 1 \u2013 0 make_no_mistakes Time control 120s + 0.5s Termination Checkmate Opening Sicilian Dragon PGN Download make_no_mistakes 0:17 . 16 8 7 6 5 4 3 2 1 a b c d e f g h AI Fellow 0:01 . 67 <div class=\""
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "6b1357ac-e475-49d6-b29b-d0f88ae33807",
+    "url": "https://aichessathon.com/game/6b1357ac-e475-49d6-b29b-d0f88ae33807?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 33 view the game White Finlay Phillips Win Italian Game",
+    "void": false,
+    "pgn": "public\\6b1357ac-e475-49d6-b29b-d0f88ae33807.pgn",
+    "sha256": "9c77916f3100da703d3a12595f72c26f9ccc85d6d34c306abdf55b86ddbb6baa",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "33",
+      "White": "AI Fellows",
+      "Black": "Finlay Phillips",
+      "Result": "1-0",
+      "FEN": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP1N1PPP/R1BQ1RK1 b - - 3 7",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 100,
+    "legal": true,
+    "final_fen": "1R3R2/P7/6Q1/7P/7k/6P1/7K/8 b - - 0 57",
+    "referee_outcome": "Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)",
+    "clock_comments": 100,
+    "page_status": "Back to AI Fellow Rated 33 \u00b7 Final AI Fellow 1 \u2013 0 Samson Time control 120s + 0.5s Termination Checkmate Opening Italian Game PGN Download Samson 0:08 . 62 8 7 6 5 4 3 2 1 a b c d e f g h AI Fellow 0:10 . 16 <div class=\""
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "c559236b-7ce5-4c02-ad32-d18864bef168",
+    "url": "https://aichessathon.com/game/c559236b-7ce5-4c02-ad32-d18864bef168?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 32 view the game Black pgn Win Queen's Gambit Accepted",
+    "void": false
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "fb55bfb0-63bd-4f12-8a69-635db7b249de",
+    "url": "https://aichessathon.com/game/fb55bfb0-63bd-4f12-8a69-635db7b249de?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 31 view the game White David Naylor Void Sicilian Sveshnikov",
+    "void": true
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "27ca24df-2c8a-4aea-af1f-8a2030cffcd2",
+    "url": "https://aichessathon.com/game/27ca24df-2c8a-4aea-af1f-8a2030cffcd2?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 30 view the game Black Danya's Disciple Win Ruy Lopez, Closed",
+    "void": false
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "4029b260-aa5e-4192-801d-ca6b7e21d6b3",
+    "url": "https://aichessathon.com/game/4029b260-aa5e-4192-801d-ca6b7e21d6b3?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 29 view the game Black Asher Falcon Win Petroff Defence",
+    "void": false
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "5a011e5d-e7f1-4e2c-bb5a-1dc24060e6fd",
+    "url": "https://aichessathon.com/game/5a011e5d-e7f1-4e2c-bb5a-1dc24060e6fd?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 28 view the game White Cornelius Void Ruy Lopez, Closed",
+    "void": true
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "346c8ec9-de23-41dd-8ea4-486af6011ea9",
+    "url": "https://aichessathon.com/game/346c8ec9-de23-41dd-8ea4-486af6011ea9?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 27 view the game Black BitsEntangled Win Ruy Lopez, Closed",
+    "void": false
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "452de142-52f4-4d7c-a376-4a73b3890825",
+    "url": "https://aichessathon.com/game/452de142-52f4-4d7c-a376-4a73b3890825?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 26 view the game White Make_no_mistakes Loss Pirc Defence",
+    "void": false,
+    "pgn": "public\\452de142-52f4-4d7c-a376-4a73b3890825.pgn",
+    "sha256": "a5a5aa04d2d73f7b03714d56e5a2fed48b4400f539989f702f4f48f55551bb72",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.05",
+      "Round": "26",
+      "White": "AI Fellows",
+      "Black": "Make_no_mistakes",
+      "Result": "0-1",
+      "FEN": "rnbq1rk1/ppp1ppbp/3p1np1/6B1/3PP3/2N2N2/PPP1BPPP/R2QK2R b KQ - 5 6",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 163,
+    "legal": true,
+    "final_fen": "2q1K3/8/4k3/8/8/8/8/8 w - - 12 88",
+    "referee_outcome": "Outcome(termination=<Termination.CHECKMATE: 1>, winner=False)",
+    "clock_comments": 163,
+    "page_status": "Back to AI Fellow Rated 26 \u00b7 Final AI Fellow 0 \u2013 1 make_no_mistakes Time control 120s + 0.5s Termination Checkmate Opening Pirc Defence PGN Download make_no_mistakes 0:18 . 13 8 7 6 5 4 3 2 1 a b c d e f g h AI Fellow 0:02 . 30 <div class=\""
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "fc1593bf-8798-464e-ac96-e9321ca129f0",
+    "url": "https://aichessathon.com/game/fc1593bf-8798-464e-ac96-e9321ca129f0?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 25 view the game White Abhi's chess demon Win Sicilian Closed",
+    "void": false
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "f2d38be3-81f7-4491-bf65-a6b683f64363",
+    "url": "https://aichessathon.com/game/f2d38be3-81f7-4491-bf65-a6b683f64363?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 24 view the game Black Emile Andrieu Draw Caro-Kann Exchange",
+    "void": false,
+    "pgn": "public\\f2d38be3-81f7-4491-bf65-a6b683f64363.pgn",
+    "sha256": "e04da1a54b8be7e385b3a5244f6e094fbb88c6429da279cbe0b8867b7ede96a8",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.05",
+      "Round": "24",
+      "White": "Emile Andrieu",
+      "Black": "AI Fellows",
+      "Result": "1/2-1/2",
+      "FEN": "r3kb1r/pp1qpppp/2n2n2/3p4/3P1Bb1/1QPB3P/PP3PP1/RN2K1NR b KQkq - 0 8",
+      "SetUp": "1",
+      "Termination": "insufficient_material"
+    },
+    "plies": 525,
+    "legal": true,
+    "final_fen": "8/6k1/8/4K3/8/8/8/8 w - - 0 271",
+    "referee_outcome": "Outcome(termination=<Termination.INSUFFICIENT_MATERIAL: 3>, winner=None)",
+    "clock_comments": 525,
+    "page_status": "Back to AI Fellow Rated 24 \u00b7 Final AlphaFish \u00bd \u2013 \u00bd AI Fellow Time control 120s + 0.5s Termination Insufficient material Opening Caro-Kann Exchange PGN Download AI Fellow 0:01 . 29 8 7 6 5 4 3 2 1 a b c d e f g h AlphaFish 0:05 . 59 <div class=\""
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "d0ca4877-f091-420e-a8bf-d1dbb9a7bd4b",
+    "url": "https://aichessathon.com/game/d0ca4877-f091-420e-a8bf-d1dbb9a7bd4b?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 23 view the game White mangodogo Void Sicilian Classical",
+    "void": true
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "7bcef61f-8400-4c21-9a82-d785d265d996",
+    "url": "https://aichessathon.com/game/7bcef61f-8400-4c21-9a82-d785d265d996?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 22 view the game Black 50CentRaise Void Sicilian Closed",
+    "void": true
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "934d61e5-c36c-4fb3-9e42-3db23e57dfba",
+    "url": "https://aichessathon.com/game/934d61e5-c36c-4fb3-9e42-3db23e57dfba?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 21 view the game White FuzzyBot Loss Italian Game",
+    "void": false
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "e03c567e-9b63-419f-8a1c-575c1b6b4e8a",
+    "url": "https://aichessathon.com/game/e03c567e-9b63-419f-8a1c-575c1b6b4e8a?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 20 view the game Black THE ROOOOOKKK!!!! Void Nimzo-Indian Defence",
+    "void": true
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "486a9e07-af03-4a0a-bf4d-f32b66669771",
+    "url": "https://aichessathon.com/game/486a9e07-af03-4a0a-bf4d-f32b66669771?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 19 view the game White Lightning Tree Win Two Knights Defence",
+    "void": false
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "5eb24f9d-64cb-4701-91e5-1f543bc0ccfd",
+    "url": "https://aichessathon.com/game/5eb24f9d-64cb-4701-91e5-1f543bc0ccfd?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 18 view the game White Gijs Smit Draw Sicilian Closed",
+    "void": false
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "aa8dc23a-8061-4488-a61c-106ed70798fc",
+    "url": "https://aichessathon.com/game/aa8dc23a-8061-4488-a61c-106ed70798fc?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 17 view the game Black Sobriety Void Nimzo-Indian Defence",
+    "void": true
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "ab3a32fe-3cd0-42fd-bf6b-6f805732c18f",
+    "url": "https://aichessathon.com/game/ab3a32fe-3cd0-42fd-bf6b-6f805732c18f?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 16 view the game White what even is en passant Win King's Indian Classical",
+    "void": false
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "786fc86d-4c17-4efe-94a7-0b0d73ad31a4",
+    "url": "https://aichessathon.com/game/786fc86d-4c17-4efe-94a7-0b0d73ad31a4?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 15 view the game Black slopfish Win Ruy Lopez, Closed",
+    "void": false
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "cf374d51-6612-43d4-8a7d-9b11b320d671",
+    "url": "https://aichessathon.com/game/cf374d51-6612-43d4-8a7d-9b11b320d671?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 14 view the game Black ms Void London System",
+    "void": true
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "e7c86d6b-6755-47bd-9d57-e5a0f1743708",
+    "url": "https://aichessathon.com/game/e7c86d6b-6755-47bd-9d57-e5a0f1743708?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 13 view the game White checkers Loss Scotch Game",
+    "void": false
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "28162785-c377-4666-9d5c-9563ec2eb0c5",
+    "url": "https://aichessathon.com/game/28162785-c377-4666-9d5c-9563ec2eb0c5?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 12 view the game Black Lubina Void Sicilian Closed",
+    "void": true
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "3b939888-f693-4849-b3fb-a8e4074e0ee8",
+    "url": "https://aichessathon.com/game/3b939888-f693-4849-b3fb-a8e4074e0ee8?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 11 view the game White omega3 fish Win Sicilian Closed",
+    "void": false
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "06cddfa2-d42e-43ee-850e-352c6788a9b8",
+    "url": "https://aichessathon.com/game/06cddfa2-d42e-43ee-850e-352c6788a9b8?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 10 view the game White Alien Gambit Win Ruy Lopez, Closed",
+    "void": false
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "b8472949-cb36-4a2b-983f-45d89ece6ba6",
+    "url": "https://aichessathon.com/game/b8472949-cb36-4a2b-983f-45d89ece6ba6?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 9 view the game Black pheanup Void French Tarrasch",
+    "void": true
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "444c7df8-4624-40fe-9068-68616161febd",
+    "url": "https://aichessathon.com/game/444c7df8-4624-40fe-9068-68616161febd?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 8 view the game Black LeetBeaters Win Queen's Indian Defence",
+    "void": false
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "173afa39-94ec-489e-90b0-d878943fd93b",
+    "url": "https://aichessathon.com/game/173afa39-94ec-489e-90b0-d878943fd93b?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 7 view the game White DGS ELO Win Sicilian Dragon",
+    "void": false
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "66389284-4a12-4633-a9de-a08560d1d788",
+    "url": "https://aichessathon.com/game/66389284-4a12-4633-a9de-a08560d1d788?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 6 view the game Black Team1 Loss English Symmetrical",
+    "void": false
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "574f91ed-ebc4-4751-81fc-ec61e0a52aba",
+    "url": "https://aichessathon.com/game/574f91ed-ebc4-4751-81fc-ec61e0a52aba?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 5 view the game Black Mate in One Draw Sicilian Dragon",
+    "void": false
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "6f4a2bd0-4a3b-4718-be0b-cadf0d18d13f",
+    "url": "https://aichessathon.com/game/6f4a2bd0-4a3b-4718-be0b-cadf0d18d13f?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 4 view the game White Elbow Grease Win Ruy Lopez, Closed",
+    "void": false
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "3c50f46d-14cf-46a7-8523-9955bcdb16db",
+    "url": "https://aichessathon.com/game/3c50f46d-14cf-46a7-8523-9955bcdb16db?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 3 view the game White Bonjour Oui Oui Baguette Win Reti Opening",
+    "void": false
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "e5a7934a-7ed4-4d9b-a9c0-07d4d4aff7ef",
+    "url": "https://aichessathon.com/game/e5a7934a-7ed4-4d9b-a9c0-07d4d4aff7ef?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 2 view the game Black No More Ammo Void Sicilian Closed",
+    "void": true
+  },
+  {
+    "team": "AI Fellows",
+    "game_id": "07111d86-dae7-4981-a569-147c02bf661a",
+    "url": "https://aichessathon.com/game/07111d86-dae7-4981-a569-147c02bf661a?from=t.b574c0ea-e994-4a16-9918-7fbc989c4234",
+    "text": "Rated 1 view the game White Team I Love Fortnite Win Catalan Opening",
+    "void": false
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "4d1c6a55-334b-4160-8027-4aedb2904b07",
+    "url": "https://aichessathon.com/game/4d1c6a55-334b-4160-8027-4aedb2904b07?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 35 view the game Black Lubina Win Pirc Defence",
+    "void": false,
+    "pgn": "public\\4d1c6a55-334b-4160-8027-4aedb2904b07.pgn",
+    "sha256": "d0a7e79c6000ea8fc1dc51ccb5fca9927ae923e3261a84b856e4d15b22257a40",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "35",
+      "White": "Lubina",
+      "Black": "Emile Andrieu",
+      "Result": "0-1",
+      "FEN": "r1bq1rk1/ppp2pbp/2np1np1/P2Pp3/4P3/2N2N2/1PP1BPPP/R1BQK2R b KQ - 0 8",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 103,
+    "legal": true,
+    "final_fen": "8/7p/2b3kP/2p3P1/pn3P2/8/5q2/7K w - - 1 60",
+    "referee_outcome": "Outcome(termination=<Termination.CHECKMATE: 1>, winner=False)",
+    "clock_comments": 103,
+    "page_status": "Back to AlphaFish Rated 35 \u00b7 Final Anchoa 0 \u2013 1 AlphaFish Time control 120s + 0.5s Termination Checkmate Opening Pirc Defence PGN Download AlphaFish 0:32 . 66 8 7 6 5 4 3 2 1 a b c d e f g h Anchoa 0:47 . 26 <div class=\""
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "5e599ffe-c29c-4d81-8b28-8a10b2ccb097",
+    "url": "https://aichessathon.com/game/5e599ffe-c29c-4d81-8b28-8a10b2ccb097?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 34 view the game White THE ROOOOOKKK!!!! Win Petroff Defence",
+    "void": false,
+    "pgn": "public\\5e599ffe-c29c-4d81-8b28-8a10b2ccb097.pgn",
+    "sha256": "bbc74adbafceb33cc8bd99714fe8db6a6596e3da66aecc04a45af259b47c8467",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "34",
+      "White": "Emile Andrieu",
+      "Black": "THE ROOOOOKKK!!!!",
+      "Result": "1-0",
+      "FEN": "rnbqkb1r/ppp2ppp/8/3p4/3Pn3/4BN2/PPP2PPP/RN1QKB1R b KQkq - 1 6",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 202,
+    "legal": true,
+    "final_fen": "5Q2/Q6k/6p1/8/8/8/6K1/8 b - - 4 107",
+    "referee_outcome": "Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)",
+    "clock_comments": 202,
+    "page_status": "Back to AlphaFish Rated 34 \u00b7 Final AlphaFish 1 \u2013 0 Capablanca Time control 120s + 0.5s Termination Checkmate Opening Petroff Defence PGN Download Capablanca 0:16 . 30 8 7 6 5 4 3 2 1 a b c d e f g h AlphaFish 0:13 . 82 <div class=\""
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "c64cf058-a891-4884-b68a-b2dc32bf8951",
+    "url": "https://aichessathon.com/game/c64cf058-a891-4884-b68a-b2dc32bf8951?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 33 view the game White LeetBeaters Win Semi-Slav Defence",
+    "void": false,
+    "pgn": "public\\c64cf058-a891-4884-b68a-b2dc32bf8951.pgn",
+    "sha256": "f88611634f17f6b3d2afeccf1317e2d0572cccfc733dc9fe661ef0fead66490b",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "33",
+      "White": "Emile Andrieu",
+      "Black": "LeetBeaters",
+      "Result": "1-0",
+      "FEN": "r1bqkb1r/pp1n1ppp/2p1pn2/3p4/2PP4/2N1PN2/PP2BPPP/R1BQK2R b KQkq - 2 6",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 104,
+    "legal": true,
+    "final_fen": "8/4r3/2Q5/2P2k1Q/P7/5PP1/p5K1/8 b - - 2 58",
+    "referee_outcome": "Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)",
+    "clock_comments": 104,
+    "page_status": "Back to AlphaFish Rated 33 \u00b7 Final AlphaFish 1 \u2013 0 DolphinBot Time control 120s + 0.5s Termination Checkmate Opening Semi-Slav Defence PGN Download DolphinBot 0:08 . 85 8 7 6 5 4 3 2 1 a b c d e f g h AlphaFish 0:32 . 85 <div class=\""
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "8d85365a-cac4-4165-ae4c-0ed400c4d53f",
+    "url": "https://aichessathon.com/game/8d85365a-cac4-4165-ae4c-0ed400c4d53f?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 32 view the game Black zak Void Sicilian Classical",
+    "void": true
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "3d3835a2-c371-42cb-8871-5414d701aca7",
+    "url": "https://aichessathon.com/game/3d3835a2-c371-42cb-8871-5414d701aca7?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 31 view the game Black Ransom Win Four Knights Game",
+    "void": false
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "4c43c368-dd36-4c29-b387-26bbb921de8a",
+    "url": "https://aichessathon.com/game/4c43c368-dd36-4c29-b387-26bbb921de8a?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 30 view the game White Lightning Tree Win Nimzo-Indian Defence",
+    "void": false
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "f1aabee5-c6d1-4012-a06f-582f56f62fda",
+    "url": "https://aichessathon.com/game/f1aabee5-c6d1-4012-a06f-582f56f62fda?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 29 view the game Black Make_no_mistakes Win London System",
+    "void": false
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "21a3c5b7-f5b4-4eb9-9906-850a11d24c60",
+    "url": "https://aichessathon.com/game/21a3c5b7-f5b4-4eb9-9906-850a11d24c60?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 28 view the game Black Danya's Disciple Void French Advance",
+    "void": true
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "fb3a3839-d49a-4600-b37b-5a518d710e99",
+    "url": "https://aichessathon.com/game/fb3a3839-d49a-4600-b37b-5a518d710e99?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 27 view the game White pheanup Win Italian Game",
+    "void": false
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "f477e611-b732-4c2d-8ffa-40f6eab19e35",
+    "url": "https://aichessathon.com/game/f477e611-b732-4c2d-8ffa-40f6eab19e35?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 26 view the game White No More Ammo Void Ruy Lopez, Closed",
+    "void": true
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "56ad5744-a87f-4f6a-853c-92c415bd445f",
+    "url": "https://aichessathon.com/game/56ad5744-a87f-4f6a-853c-92c415bd445f?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 25 view the game Black slopfish Win French Tarrasch",
+    "void": false
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "f2d38be3-81f7-4491-bf65-a6b683f64363",
+    "url": "https://aichessathon.com/game/f2d38be3-81f7-4491-bf65-a6b683f64363?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 24 view the game White AI Fellows Draw Caro-Kann Exchange",
+    "void": false
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "d513a8ce-c35b-4339-bcf5-a21a170d6911",
+    "url": "https://aichessathon.com/game/d513a8ce-c35b-4339-bcf5-a21a170d6911?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 23 view the game Black checkers Win English Symmetrical",
+    "void": false
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "2efedcd1-66f7-4cc2-801e-18cd48075608",
+    "url": "https://aichessathon.com/game/2efedcd1-66f7-4cc2-801e-18cd48075608?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 22 view the game White THE ROOOOOKKK!!!! Void Ruy Lopez, Closed",
+    "void": true
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "0ca6e4a9-07d0-4668-88f9-03ea6147bed1",
+    "url": "https://aichessathon.com/game/0ca6e4a9-07d0-4668-88f9-03ea6147bed1?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 21 view the game White Gijs Smit Win Sicilian Closed",
+    "void": false
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "f73819dd-9928-4575-95d6-e1a8ded83487",
+    "url": "https://aichessathon.com/game/f73819dd-9928-4575-95d6-e1a8ded83487?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 20 view the game White ms Win Nimzo-Indian Defence",
+    "void": false
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "0b546ee5-6071-4660-beae-0ae20806c65b",
+    "url": "https://aichessathon.com/game/0b546ee5-6071-4660-beae-0ae20806c65b?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 19 view the game Black Sobriety Win English Symmetrical",
+    "void": false
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "5b45d931-74db-4238-bd29-f99152f302ed",
+    "url": "https://aichessathon.com/game/5b45d931-74db-4238-bd29-f99152f302ed?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 18 view the game Black Mate in One Win London System",
+    "void": false
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "04fb60db-417a-4fe9-9a40-de955faed00a",
+    "url": "https://aichessathon.com/game/04fb60db-417a-4fe9-9a40-de955faed00a?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 17 view the game White Lubina Win Grunfeld Defence",
+    "void": false
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "c6cf17c1-909a-4f5b-bf4d-30adda2e87da",
+    "url": "https://aichessathon.com/game/c6cf17c1-909a-4f5b-bf4d-30adda2e87da?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 16 view the game White Abhi's chess demon Win Sicilian Closed",
+    "void": false
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "01541a6d-faab-4460-993e-ebe5a7478d41",
+    "url": "https://aichessathon.com/game/01541a6d-faab-4460-993e-ebe5a7478d41?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 15 view the game Black FuzzyBot Void Grunfeld Defence",
+    "void": true
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "b0134086-c126-48b5-8391-ab2db8d9115e",
+    "url": "https://aichessathon.com/game/b0134086-c126-48b5-8391-ab2db8d9115e?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 14 view the game White JSP Win Sicilian Closed",
+    "void": false
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "082150d7-b327-419b-840c-8beffbd97f1b",
+    "url": "https://aichessathon.com/game/082150d7-b327-419b-840c-8beffbd97f1b?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 13 view the game Black AlphaBeta Win Sicilian Classical",
+    "void": false
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "79728859-8da9-41df-8568-93e07bf27573",
+    "url": "https://aichessathon.com/game/79728859-8da9-41df-8568-93e07bf27573?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 12 view the game White mangodogo Win Caro-Kann Classical",
+    "void": false
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "0d0d0aa8-d50e-4a55-b48a-7c2f619cd8ac",
+    "url": "https://aichessathon.com/game/0d0d0aa8-d50e-4a55-b48a-7c2f619cd8ac?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 11 view the game White Team I Love Fortnite Win Sicilian Alapin",
+    "void": false
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "3121cf00-a8d0-43d5-b61d-052b8f95ee85",
+    "url": "https://aichessathon.com/game/3121cf00-a8d0-43d5-b61d-052b8f95ee85?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 10 view the game Black darKnight Loss Reti Opening",
+    "void": false,
+    "pgn": "public\\3121cf00-a8d0-43d5-b61d-052b8f95ee85.pgn",
+    "sha256": "1778a35fe4998883c775b7903b5f68f8814cc31b97069a4591a862c45a6b4587",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.04",
+      "Round": "10",
+      "White": "darKnight",
+      "Black": "Emile Andrieu",
+      "Result": "1-0",
+      "FEN": "rnbqk2r/ppp1bppp/4pn2/3p4/2P5/1P3NP1/P2PPPBP/RNBQK2R b KQkq - 0 5",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 102,
+    "legal": true,
+    "final_fen": "8/6P1/8/7p/7k/6Q1/p4K2/8 b - - 1 56",
+    "referee_outcome": "Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)",
+    "clock_comments": 102,
+    "page_status": "Back to AlphaFish Rated 10 \u00b7 Final Oyinda 1 \u2013 0 AlphaFish Time control 120s + 0.5s Termination Checkmate Opening Reti Opening PGN Download AlphaFish 0:31 . 79 8 7 6 5 4 3 2 1 a b c d e f g h Oyinda 0:34 . 15 <div class=\""
+  },
+  {
+    "team": "AlphaFish",
+    "game_id": "65b127b4-36d8-4b85-bc71-c90263b0fcda",
+    "url": "https://aichessathon.com/game/65b127b4-36d8-4b85-bc71-c90263b0fcda?from=t.659a3020-8af7-4934-b753-3b7c5fd11184",
+    "text": "Rated 9 view the game Black 2sigbros Win Sicilian Closed",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "287fa830-5ca2-47f0-a4b6-1114e5801a8d",
+    "url": "https://aichessathon.com/game/287fa830-5ca2-47f0-a4b6-1114e5801a8d?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 35 view the game White Sobriety Draw Dutch Stonewall",
+    "void": false,
+    "pgn": "public\\287fa830-5ca2-47f0-a4b6-1114e5801a8d.pgn",
+    "sha256": "26a1f217fe2303adb12bc3b481b26449dacbd0b3ddc128ef13b19ca94ae36d0d",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "35",
+      "White": "THE ROOOOOKKK!!!!",
+      "Black": "Sobriety",
+      "Result": "1/2-1/2",
+      "FEN": "rnbqk2r/ppp3pp/4pn2/3p1p2/1b1P4/1PP2NP1/P3PPBP/RNBQK2R b KQkq - 0 6",
+      "SetUp": "1",
+      "Termination": "stalemate"
+    },
+    "plies": 88,
+    "legal": true,
+    "final_fen": "2k5/2P5/2K5/8/8/8/8/8 b - - 2 50",
+    "referee_outcome": "Outcome(termination=<Termination.STALEMATE: 2>, winner=None)",
+    "clock_comments": 88,
+    "page_status": "Back to Capablanca Rated 35 \u00b7 Final Capablanca \u00bd \u2013 \u00bd SoberElwood Time control 120s + 0.5s Termination Stalemate Opening Dutch Stonewall PGN Download SoberElwood 0:35 . 74 8 7 6 5 4 3 2 1 a b c d e f g h Capablanca 0:45 . 56 <div class=\""
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "5e599ffe-c29c-4d81-8b28-8a10b2ccb097",
+    "url": "https://aichessathon.com/game/5e599ffe-c29c-4d81-8b28-8a10b2ccb097?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 34 view the game Black Emile Andrieu Loss Petroff Defence",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "3358dd3a-1175-4fa3-893e-89b5a63618d5",
+    "url": "https://aichessathon.com/game/3358dd3a-1175-4fa3-893e-89b5a63618d5?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 33 view the game White zak Win Sicilian Dragon",
+    "void": false,
+    "pgn": "public\\3358dd3a-1175-4fa3-893e-89b5a63618d5.pgn",
+    "sha256": "1e1cd031f61b304180efcd3a4c2de8eacd72c10167a47b97f84644689e8865f1",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "33",
+      "White": "THE ROOOOOKKK!!!!",
+      "Black": "zak",
+      "Result": "1-0",
+      "FEN": "rn1qkb1r/pp1bpp1p/3p1np1/8/3NP3/2N5/PPP1BPPP/R1BQK2R b KQkq - 3 7",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 180,
+    "legal": true,
+    "final_fen": "8/1k6/Q2Q4/8/6K1/8/8/8 b - - 0 97",
+    "referee_outcome": "Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)",
+    "clock_comments": 180,
+    "page_status": "Back to Capablanca Rated 33 \u00b7 Final Capablanca 1 \u2013 0 zak Time control 120s + 0.5s Termination Checkmate Opening Sicilian Dragon PGN Download zak 0:05 . 91 8 7 6 5 4 3 2 1 a b c d e f g h Capablanca 0:15 . 46 <div class=\""
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "a3d264ce-23bf-4418-a5cd-97b77dd5161b",
+    "url": "https://aichessathon.com/game/a3d264ce-23bf-4418-a5cd-97b77dd5161b?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 32 view the game Black David Naylor Win Caro-Kann Exchange",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "a64b08f0-04b5-494e-ba93-baa19c6ed1bf",
+    "url": "https://aichessathon.com/game/a64b08f0-04b5-494e-ba93-baa19c6ed1bf?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 31 view the game White Something Win Sicilian Sveshnikov",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "718ef3ff-871d-4522-8514-cb97ec024044",
+    "url": "https://aichessathon.com/game/718ef3ff-871d-4522-8514-cb97ec024044?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 30 view the game Black Cornelius Win Caro-Kann Exchange",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "6d692784-78c5-44cd-8ba5-484a01bef78d",
+    "url": "https://aichessathon.com/game/6d692784-78c5-44cd-8ba5-484a01bef78d?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 29 view the game White adashima Win Sicilian Taimanov",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "1ffc2666-af79-4107-946c-c1ba038fd1cc",
+    "url": "https://aichessathon.com/game/1ffc2666-af79-4107-946c-c1ba038fd1cc?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 28 view the game Black Ransom Void King's Indian Classical",
+    "void": true
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "8072d38f-6c4b-40b6-b385-ca33212cf664",
+    "url": "https://aichessathon.com/game/8072d38f-6c4b-40b6-b385-ca33212cf664?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 27 view the game Black what even is en passant Win Grunfeld Defence",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "cce4de58-c43e-4224-a525-37b15c94ce46",
+    "url": "https://aichessathon.com/game/cce4de58-c43e-4224-a525-37b15c94ce46?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 26 view the game White slopfish Void Nimzo-Indian Defence",
+    "void": true
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "11ce7714-f4bd-4861-b66c-21578d1ae08d",
+    "url": "https://aichessathon.com/game/11ce7714-f4bd-4861-b66c-21578d1ae08d?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 25 view the game Black Make_no_mistakes Win Sicilian Closed",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "1a0025a4-547b-4b0b-b79d-bd0b7411a62a",
+    "url": "https://aichessathon.com/game/1a0025a4-547b-4b0b-b79d-bd0b7411a62a?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 24 view the game White Team1 Win French Advance",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "00a92014-6eb1-46b5-9331-773761d23232",
+    "url": "https://aichessathon.com/game/00a92014-6eb1-46b5-9331-773761d23232?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 23 view the game White FuzzyBot Win Caro-Kann Classical",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "2efedcd1-66f7-4cc2-801e-18cd48075608",
+    "url": "https://aichessathon.com/game/2efedcd1-66f7-4cc2-801e-18cd48075608?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 22 view the game Black Emile Andrieu Void Ruy Lopez, Closed",
+    "void": true
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "4d5a9846-fe92-45e8-b362-a94505dcdb89",
+    "url": "https://aichessathon.com/game/4d5a9846-fe92-45e8-b362-a94505dcdb89?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 21 view the game Black Lubina Win French Classical",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "e03c567e-9b63-419f-8a1c-575c1b6b4e8a",
+    "url": "https://aichessathon.com/game/e03c567e-9b63-419f-8a1c-575c1b6b4e8a?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 20 view the game White AI Fellows Void Nimzo-Indian Defence",
+    "void": true
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "de13b6f1-b8de-464f-9cd7-96d20cdbc1e1",
+    "url": "https://aichessathon.com/game/de13b6f1-b8de-464f-9cd7-96d20cdbc1e1?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 19 view the game White pheanup Win Ruy Lopez, Closed",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "ea7e5e9a-fbff-4dd0-af6a-6a70c9d5fd22",
+    "url": "https://aichessathon.com/game/ea7e5e9a-fbff-4dd0-af6a-6a70c9d5fd22?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 18 view the game Black No More Ammo Win Petroff Defence",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "d75d59d1-22af-43d8-bd2f-3da1071c07f7",
+    "url": "https://aichessathon.com/game/d75d59d1-22af-43d8-bd2f-3da1071c07f7?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 17 view the game White Gijs Smit Void Caro-Kann Advance",
+    "void": true
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "2868ba3c-e482-4c27-9d5a-f4a51d690755",
+    "url": "https://aichessathon.com/game/2868ba3c-e482-4c27-9d5a-f4a51d690755?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 16 view the game White Sobriety Void Sicilian Sveshnikov",
+    "void": true
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "ae775357-c6cf-41d8-9e80-2d71b945de0f",
+    "url": "https://aichessathon.com/game/ae775357-c6cf-41d8-9e80-2d71b945de0f?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 15 view the game White checkers Win Two Knights Defence",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "e509abe9-a4fc-4782-8bdf-43044caf5bf9",
+    "url": "https://aichessathon.com/game/e509abe9-a4fc-4782-8bdf-43044caf5bf9?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 14 view the game Black Mate in One Loss French Classical",
+    "void": false,
+    "pgn": "public\\e509abe9-a4fc-4782-8bdf-43044caf5bf9.pgn",
+    "sha256": "23794ac23eeca24bb9be61959592f064f1bb1664757e33798af4f37b0e15ee84",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.04",
+      "Round": "14",
+      "White": "Mate in One",
+      "Black": "THE ROOOOOKKK!!!!",
+      "Result": "1-0",
+      "FEN": "rnbqkb1r/pp1n1ppp/4p3/2ppP3/3P1P2/2NB4/PPP3PP/R1BQK1NR b KQkq - 1 6",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 74,
+    "legal": true,
+    "final_fen": "6Qk/3b3P/2r5/3pp3/p2B4/P2P4/7Q/1n5K b - - 0 43",
+    "referee_outcome": "Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)",
+    "clock_comments": 74,
+    "page_status": "Back to Capablanca Rated 14 \u00b7 Final Mate in One 1 \u2013 0 Capablanca Time control 120s + 0.5s Termination Checkmate Opening French Classical PGN Download Capablanca 0:52 . 95 8 7 6 5 4 3 2 1 a b c d e f g h Mate in One 0:38 . 12 <div class=\""
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "53078bce-1cc1-4b08-ba3b-c11aaa897dbd",
+    "url": "https://aichessathon.com/game/53078bce-1cc1-4b08-ba3b-c11aaa897dbd?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 13 view the game White 50CentRaise Win Petroff Defence",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "008b92e9-04c3-4aff-abcd-6e9260d1228e",
+    "url": "https://aichessathon.com/game/008b92e9-04c3-4aff-abcd-6e9260d1228e?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 12 view the game Black omega3 fish Win Sicilian Classical",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "4f81dd5a-9985-4abc-91e4-816233247e07",
+    "url": "https://aichessathon.com/game/4f81dd5a-9985-4abc-91e4-816233247e07?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 11 view the game Black AlphaBeta Win Caro-Kann Classical",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "6eae3d36-c44e-4af1-b5ad-ad834a670e95",
+    "url": "https://aichessathon.com/game/6eae3d36-c44e-4af1-b5ad-ad834a670e95?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 10 view the game White LeetBeaters Win Caro-Kann Exchange",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "d9038a7f-0a34-46c1-8620-09abf57e5412",
+    "url": "https://aichessathon.com/game/d9038a7f-0a34-46c1-8620-09abf57e5412?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 9 view the game Black French Carlsen Win Slav Defence",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "2c91763d-c2d8-4556-a8d0-d6284aab3d55",
+    "url": "https://aichessathon.com/game/2c91763d-c2d8-4556-a8d0-d6284aab3d55?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 8 view the game White Danya's Disciple Win English Symmetrical",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "bafc96d3-baaa-41e4-85b4-cbea31d7a8ce",
+    "url": "https://aichessathon.com/game/bafc96d3-baaa-41e4-85b4-cbea31d7a8ce?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 7 view the game Black Abhi's chess demon Loss Petroff Defence",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "177127eb-04ca-45ea-927a-ce0d7d4f38be",
+    "url": "https://aichessathon.com/game/177127eb-04ca-45ea-927a-ce0d7d4f38be?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 6 view the game White LehmanBro Win Ruy Lopez, Closed",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "b37db6e3-57a0-406c-b263-3785062afcc3",
+    "url": "https://aichessathon.com/game/b37db6e3-57a0-406c-b263-3785062afcc3?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 5 view the game Black Asher Falcon Void King's Indian Classical",
+    "void": true
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "ed05c218-390e-429c-8c75-770fd601ecf0",
+    "url": "https://aichessathon.com/game/ed05c218-390e-429c-8c75-770fd601ecf0?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 4 view the game White OnlyBlunder Win Reti Opening",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "8bf6f6fd-bd60-45e5-abd9-b8c330e9e610",
+    "url": "https://aichessathon.com/game/8bf6f6fd-bd60-45e5-abd9-b8c330e9e610?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 3 view the game Black Imperial Knights Win King's Indian Classical",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "cd1240a9-1c5f-4ad5-a8db-a4d4f54e70bf",
+    "url": "https://aichessathon.com/game/cd1240a9-1c5f-4ad5-a8db-a4d4f54e70bf?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 2 view the game Black ms Loss Pirc Defence",
+    "void": false
+  },
+  {
+    "team": "Capablanca",
+    "game_id": "c7436996-f275-4301-8bab-9e8c6fbb37b8",
+    "url": "https://aichessathon.com/game/c7436996-f275-4301-8bab-9e8c6fbb37b8?from=t.c7fad433-1020-4b2a-a0e3-8e86720d23de",
+    "text": "Rated 1 view the game White Lightning Tree Win Reti Opening",
+    "void": false
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "6c63b304-bf04-4c9d-8f89-938de65fe0bd",
+    "url": "https://aichessathon.com/game/6c63b304-bf04-4c9d-8f89-938de65fe0bd?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 35 view the game Black pheanup Draw Sicilian Closed",
+    "void": false,
+    "pgn": "public\\6c63b304-bf04-4c9d-8f89-938de65fe0bd.pgn",
+    "sha256": "8a31e6152fb4b38154e8ec74ac23d6e2fd59a8be3a9ebd8227287f583766ed81",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "35",
+      "White": "pheanup",
+      "Black": "FuzzyBot",
+      "Result": "1/2-1/2",
+      "FEN": "r1bqk2r/pp2ppbp/2np1np1/2p5/4P2P/2NP2P1/PPP2PB1/R1BQK1NR w KQkq - 1 7",
+      "SetUp": "1",
+      "Termination": "threefold_repetition"
+    },
+    "plies": 152,
+    "legal": true,
+    "final_fen": "1k5r/7P/7R/2P5/8/4Kp2/4b3/8 w - - 36 83",
+    "referee_outcome": "Outcome(termination=<Termination.THREEFOLD_REPETITION: 7>, winner=None)",
+    "clock_comments": 152,
+    "page_status": "Back to Fuzzydafool Rated 35 \u00b7 Final test_bot \u00bd \u2013 \u00bd Fuzzydafool Time control 120s + 0.5s Termination Threefold repetition Opening Sicilian Closed PGN Download Fuzzydafool 0:02 . 98 8 7 6 5 4 3 2 1 a b c d e f g h test_bot 0:01 . 61 <div class=\""
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "32f805a3-6190-4249-b270-48c42eda2c38",
+    "url": "https://aichessathon.com/game/32f805a3-6190-4249-b270-48c42eda2c38?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 34 view the game White ms Win Petroff Defence",
+    "void": false
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "6090979b-9170-4d3e-afb1-b09ad3c7718b",
+    "url": "https://aichessathon.com/game/6090979b-9170-4d3e-afb1-b09ad3c7718b?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 33 view the game White Abhi's chess demon Void Petroff Defence",
+    "void": true
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "4aa22bb6-c6f6-42fd-b6d7-818a51f52c2d",
+    "url": "https://aichessathon.com/game/4aa22bb6-c6f6-42fd-b6d7-818a51f52c2d?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 32 view the game Black adashima Win Petroff Defence",
+    "void": false,
+    "pgn": "public\\4aa22bb6-c6f6-42fd-b6d7-818a51f52c2d.pgn",
+    "sha256": "60de4eae73011b4f8f8b139d204858a8fe096d7c759df6bc8fc03d93a43732d8",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "32",
+      "White": "adashima",
+      "Black": "FuzzyBot",
+      "Result": "0-1",
+      "FEN": "rnbqkb1r/ppp2ppp/8/3p4/3Pn3/P4N2/1PP2PPP/RNBQKB1R b KQkq - 0 6",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 219,
+    "legal": true,
+    "final_fen": "8/8/8/1p6/1P6/P4k2/8/2q2K2 w - - 34 116",
+    "referee_outcome": "Outcome(termination=<Termination.CHECKMATE: 1>, winner=False)",
+    "clock_comments": 219,
+    "page_status": "Back to Fuzzydafool Rated 32 \u00b7 Final meowfish 0 \u2013 1 Fuzzydafool Time control 120s + 0.5s Termination Checkmate Opening Petroff Defence PGN Download Fuzzydafool 0:02 . 80 8 7 6 5 4 3 2 1 a b c d e f g h meowfish 0:10 . 50 <div class=\""
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "0ce8dc9a-7491-4178-8053-67d82240ce72",
+    "url": "https://aichessathon.com/game/0ce8dc9a-7491-4178-8053-67d82240ce72?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 31 view the game White Danya's Disciple Loss London System",
+    "void": false,
+    "pgn": "public\\0ce8dc9a-7491-4178-8053-67d82240ce72.pgn",
+    "sha256": "171210492b9bf956e39ae03c4af30dc4e7c2848ba2cf954050c742c5ae03bec9",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "31",
+      "White": "FuzzyBot",
+      "Black": "Danya's Disciple",
+      "Result": "0-1",
+      "FEN": "r1b1k2r/pp3ppp/2nqpn2/2pp4/3P4/2P1P2P/PP1N1PP1/R2QKBNR w KQkq - 0 8",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 224,
+    "legal": true,
+    "final_fen": "8/8/8/8/8/6k1/8/5r1K w - - 34 120",
+    "referee_outcome": "Outcome(termination=<Termination.CHECKMATE: 1>, winner=False)",
+    "clock_comments": 224,
+    "page_status": "Back to Fuzzydafool Rated 31 \u00b7 Final Fuzzydafool 0 \u2013 1 Danya's Disciple Time control 120s + 0.5s Termination Checkmate Opening London System PGN Download Danya's Disciple 0:14 . 75 8 7 6 5 4 3 2 1 a b c d e f g h Fuzzydafool 0:09 . 23 <div class=\""
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "f21fd09c-2e5f-4be9-9c26-9b5fe2167f60",
+    "url": "https://aichessathon.com/game/f21fd09c-2e5f-4be9-9c26-9b5fe2167f60?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 30 view the game Black Amplifirm Win Sicilian Sveshnikov",
+    "void": false
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "2e053bf5-188b-4547-b7a0-1ee675898ed9",
+    "url": "https://aichessathon.com/game/2e053bf5-188b-4547-b7a0-1ee675898ed9?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 29 view the game White Finlay Phillips Void Sicilian Dragon",
+    "void": true
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "433ebbbf-bae1-4904-b694-cbc66d7fc091",
+    "url": "https://aichessathon.com/game/433ebbbf-bae1-4904-b694-cbc66d7fc091?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 28 view the game Black Imperial Larper Win Petroff Defence",
+    "void": false
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "1d66d610-c601-4448-beed-0abbdaf838c3",
+    "url": "https://aichessathon.com/game/1d66d610-c601-4448-beed-0abbdaf838c3?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 27 view the game Black Lightning Tree Loss Pirc Defence",
+    "void": false
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "c830a1f3-13b6-454d-a1a1-f13e47494704",
+    "url": "https://aichessathon.com/game/c830a1f3-13b6-454d-a1a1-f13e47494704?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 26 view the game White BitsEntangled Void English Symmetrical",
+    "void": true
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "2c1df903-5b2c-4ab9-a256-0bad011bbc1c",
+    "url": "https://aichessathon.com/game/2c1df903-5b2c-4ab9-a256-0bad011bbc1c?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 25 view the game White Lubina Loss Nimzo-Indian Defence",
+    "void": false
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "90e6f2d1-9279-4fd1-899e-b157572573fe",
+    "url": "https://aichessathon.com/game/90e6f2d1-9279-4fd1-899e-b157572573fe?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 24 view the game White pheanup Void Reti Opening",
+    "void": true
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "00a92014-6eb1-46b5-9331-773761d23232",
+    "url": "https://aichessathon.com/game/00a92014-6eb1-46b5-9331-773761d23232?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 23 view the game Black THE ROOOOOKKK!!!! Loss Caro-Kann Classical",
+    "void": false
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "a63c0cd1-373c-429e-9324-ae5a73488688",
+    "url": "https://aichessathon.com/game/a63c0cd1-373c-429e-9324-ae5a73488688?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 22 view the game White No More Ammo Void London System",
+    "void": true
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "934d61e5-c36c-4fb3-9e42-3db23e57dfba",
+    "url": "https://aichessathon.com/game/934d61e5-c36c-4fb3-9e42-3db23e57dfba?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 21 view the game Black AI Fellows Win Italian Game",
+    "void": false
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "749699b0-a6b5-4102-aa66-7a69b1ed2cef",
+    "url": "https://aichessathon.com/game/749699b0-a6b5-4102-aa66-7a69b1ed2cef?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 20 view the game White Mate in One Void French Winawer",
+    "void": true
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "7f9278f0-e094-496e-9678-c21c12f2e08c",
+    "url": "https://aichessathon.com/game/7f9278f0-e094-496e-9678-c21c12f2e08c?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 19 view the game Black checkers Draw French Tarrasch",
+    "void": false,
+    "pgn": "public\\7f9278f0-e094-496e-9678-c21c12f2e08c.pgn",
+    "sha256": "820833f4e09607fdfa87f9a7b83e016e0ae1ecd7837cf906732340d432089c9e",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.05",
+      "Round": "19",
+      "White": "checkers",
+      "Black": "FuzzyBot",
+      "Result": "1/2-1/2",
+      "FEN": "rn2kb1r/pp1q1ppp/5n2/2pp4/3P4/7P/PPPN1PP1/R1BQK1NR w KQkq - 0 8",
+      "SetUp": "1",
+      "Termination": "insufficient_material"
+    },
+    "plies": 195,
+    "legal": true,
+    "final_fen": "6k1/8/6K1/8/8/8/8/8 b - - 0 105",
+    "referee_outcome": "Outcome(termination=<Termination.INSUFFICIENT_MATERIAL: 3>, winner=None)",
+    "clock_comments": 195,
+    "page_status": "Back to Fuzzydafool Rated 19 \u00b7 Final checkers \u00bd \u2013 \u00bd Fuzzydafool Time control 120s + 0.5s Termination Insufficient material Opening French Tarrasch PGN Download Fuzzydafool 0:32 . 24 8 7 6 5 4 3 2 1 a b c d e f g h checkers 0:26 . 22 <div class=\""
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "fe142c0b-07c0-4d52-9a62-f2e9b4eb278f",
+    "url": "https://aichessathon.com/game/fe142c0b-07c0-4d52-9a62-f2e9b4eb278f?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 18 view the game Black ms Void Pirc Defence",
+    "void": true
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "8e8e45d0-35ef-4220-8439-ca926efb1658",
+    "url": "https://aichessathon.com/game/8e8e45d0-35ef-4220-8439-ca926efb1658?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 17 view the game White LeetBeaters Win Petroff Defence",
+    "void": false
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "2fd82e43-ddcf-429b-9184-a95c1460b13c",
+    "url": "https://aichessathon.com/game/2fd82e43-ddcf-429b-9184-a95c1460b13c?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 16 view the game Black Asher Falcon Win Ruy Lopez, Closed",
+    "void": false
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "01541a6d-faab-4460-993e-ebe5a7478d41",
+    "url": "https://aichessathon.com/game/01541a6d-faab-4460-993e-ebe5a7478d41?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 15 view the game White Emile Andrieu Void Grunfeld Defence",
+    "void": true
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "ca646a07-3791-4e83-8220-1c6f11b4467d",
+    "url": "https://aichessathon.com/game/ca646a07-3791-4e83-8220-1c6f11b4467d?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 14 view the game Black Gijs Smit Loss Reti Opening",
+    "void": false
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "60f374fc-3f0b-4e2a-94e5-8d5188591304",
+    "url": "https://aichessathon.com/game/60f374fc-3f0b-4e2a-94e5-8d5188591304?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 13 view the game White keep kann and caro on Win Sicilian Closed",
+    "void": false
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "d06f13ec-31ba-4669-b126-6fef3b935219",
+    "url": "https://aichessathon.com/game/d06f13ec-31ba-4669-b126-6fef3b935219?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 12 view the game Black MeshPotato Win Sicilian Sveshnikov",
+    "void": false
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "e4d54068-c594-4315-983e-5dc9b9cc329d",
+    "url": "https://aichessathon.com/game/e4d54068-c594-4315-983e-5dc9b9cc329d?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 11 view the game White Loki 3.0 Win Sicilian Sveshnikov",
+    "void": false
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "685b5bdb-9200-4c0e-ae94-2bff2d3036a1",
+    "url": "https://aichessathon.com/game/685b5bdb-9200-4c0e-ae94-2bff2d3036a1?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 10 view the game White 50CentRaise Loss King's Indian Classical",
+    "void": false
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "84951de0-6a3b-4c72-847e-b2936ae8e6b8",
+    "url": "https://aichessathon.com/game/84951de0-6a3b-4c72-847e-b2936ae8e6b8?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 9 view the game Black Make_no_mistakes Void Sicilian Classical",
+    "void": true
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "084e99fb-2da5-4af8-88f3-866e42ea3c42",
+    "url": "https://aichessathon.com/game/084e99fb-2da5-4af8-88f3-866e42ea3c42?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 8 view the game White Team1 Void French Advance",
+    "void": true
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "9a94d22a-02c4-4163-bc64-19506f7c7534",
+    "url": "https://aichessathon.com/game/9a94d22a-02c4-4163-bc64-19506f7c7534?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 7 view the game White Waterside Research Loss Catalan Opening",
+    "void": false
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "2be8878d-4749-470b-ba3f-b5f9fcc86995",
+    "url": "https://aichessathon.com/game/2be8878d-4749-470b-ba3f-b5f9fcc86995?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 6 view the game White slopfish Loss King's Indian Classical",
+    "void": false
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "d761b1bd-1307-4198-b7d6-c6dde617afc5",
+    "url": "https://aichessathon.com/game/d761b1bd-1307-4198-b7d6-c6dde617afc5?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 5 view the game Black Alien Gambit Loss Reti Opening",
+    "void": false
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "dde0dcf6-5c11-43cc-94fe-87c9ab9f1ce6",
+    "url": "https://aichessathon.com/game/dde0dcf6-5c11-43cc-94fe-87c9ab9f1ce6?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 4 view the game Black Sobriety Win Four Knights Game",
+    "void": false
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "2daf2008-756a-4f6e-8aae-38aa3bae94b1",
+    "url": "https://aichessathon.com/game/2daf2008-756a-4f6e-8aae-38aa3bae94b1?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 3 view the game Black French Carlsen Win Ruy Lopez, Closed",
+    "void": false
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "c108926e-5b0f-47af-a471-7b2827a8b261",
+    "url": "https://aichessathon.com/game/c108926e-5b0f-47af-a471-7b2827a8b261?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 2 view the game White NotLLM Win Nimzo-Indian Defence",
+    "void": false
+  },
+  {
+    "team": "FuzzyBot",
+    "game_id": "4963020b-f005-480d-b3c3-a8cfb289e025",
+    "url": "https://aichessathon.com/game/4963020b-f005-480d-b3c3-a8cfb289e025?from=t.3241cef5-6b1c-41f2-b275-f0e50fc52ed5",
+    "text": "Rated 1 view the game Black Team Keble Win Petroff Defence",
+    "void": false
+  },
+  {
+    "team": "adashima",
+    "game_id": "bd31b3fa-8921-4a0b-b3d9-666060bded2e",
+    "url": "https://aichessathon.com/game/bd31b3fa-8921-4a0b-b3d9-666060bded2e?from=t.e356ff20-37e4-4fc4-bfef-00cf5957a82c",
+    "text": "Rated 35 view the game White BitsEntangled Win Caro-Kann Exchange",
+    "void": false,
+    "pgn": "public\\bd31b3fa-8921-4a0b-b3d9-666060bded2e.pgn",
+    "sha256": "3bfede934902c11e9cecdcaadcc48e6422bb18e968245a1b5502033eceecda0d",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "35",
+      "White": "adashima",
+      "Black": "BitsEntangled",
+      "Result": "1-0",
+      "FEN": "r1bqkb1r/pp2pppp/2n2n2/3p4/3P1B2/2PB4/PP3PPP/RN1QK1NR b KQkq - 2 6",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 114,
+    "legal": true,
+    "final_fen": "4R3/8/7P/6K1/6Q1/5k2/5p1r/8 b - - 9 63",
+    "referee_outcome": "Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)",
+    "clock_comments": 114,
+    "page_status": "Back to meowfish Rated 35 \u00b7 Final meowfish 1 \u2013 0 SirBlunderiusThird Time control 120s + 0.5s Termination Checkmate Opening Caro-Kann Exchange PGN Download SirBlunderiusThird 0:12 . 20 8 7 6 5 4 3 2 1 a b c d e f g h meowfish 0:21 . 01 <div class=\""
+  },
+  {
+    "team": "adashima",
+    "game_id": "2f5963df-5dd4-46fe-acac-805671e734a5",
+    "url": "https://aichessathon.com/game/2f5963df-5dd4-46fe-acac-805671e734a5?from=t.e356ff20-37e4-4fc4-bfef-00cf5957a82c",
+    "text": "Rated 34 view the game Black Finlay Phillips Win King's Indian Classical",
+    "void": false,
+    "pgn": "public\\2f5963df-5dd4-46fe-acac-805671e734a5.pgn",
+    "sha256": "1fa0e27d985263b033b50a80ab4be2c9847964fa8e6b25583d6a7f084fefa6e5",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "34",
+      "White": "Finlay Phillips",
+      "Black": "adashima",
+      "Result": "0-1",
+      "FEN": "r1bq1rk1/ppp2pbp/2np1np1/3Pp3/2P1P3/P1N2N2/1P2BPPP/R1BQK2R b KQ - 0 8",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 79,
+    "legal": true,
+    "final_fen": "7k/8/8/8/1P6/6PP/1r6/3q3K w - - 10 48",
+    "referee_outcome": "Outcome(termination=<Termination.CHECKMATE: 1>, winner=False)",
+    "clock_comments": 79,
+    "page_status": "Back to meowfish Rated 34 \u00b7 Final Samson 0 \u2013 1 meowfish Time control 120s + 0.5s Termination Checkmate Opening King's Indian Classical PGN Download meowfish 0:37 . 63 8 7 6 5 4 3 2 1 a b c d e f g h Samson 0:08 . 33 <div class=\""
+  },
+  {
+    "team": "adashima",
+    "game_id": "9f8245b5-1851-49a3-a801-577412047baa",
+    "url": "https://aichessathon.com/game/9f8245b5-1851-49a3-a801-577412047baa?from=t.e356ff20-37e4-4fc4-bfef-00cf5957a82c",
+    "text": "Rated 33 view the game Black slopfish Loss Sicilian Najdorf",
+    "void": false,
+    "pgn": "public\\9f8245b5-1851-49a3-a801-577412047baa.pgn",
+    "sha256": "27b66c97665d9aa0004149c290097af0ad3c2c0a51ac2d573608d687c6e967db",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "33",
+      "White": "slopfish",
+      "Black": "adashima",
+      "Result": "1-0",
+      "FEN": "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B2P/PPP2PP1/R2QKB1R b KQkq - 3 8",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 154,
+    "legal": true,
+    "final_fen": "8/8/8/2K1P3/1Q4N1/1k6/5R2/8 b - - 4 85",
+    "referee_outcome": "Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)",
+    "clock_comments": 154,
+    "page_status": "Back to meowfish Rated 33 \u00b7 Final lyra 1 \u2013 0 meowfish Time control 120s + 0.5s Termination Checkmate Opening Sicilian Najdorf PGN Download meowfish 0:11 . 89 8 7 6 5 4 3 2 1 a b c d e f g h lyra 0:09 . 84 <div class=\""
+  },
+  {
+    "team": "adashima",
+    "game_id": "4aa22bb6-c6f6-42fd-b6d7-818a51f52c2d",
+    "url": "https://aichessathon.com/game/4aa22bb6-c6f6-42fd-b6d7-818a51f52c2d?from=t.e356ff20-37e4-4fc4-bfef-00cf5957a82c",
+    "text": "Rated 32 view the game White FuzzyBot Loss Petroff Defence",
+    "void": false
+  },
+  {
+    "team": "adashima",
+    "game_id": "946ad232-a8e8-42cf-b154-af514b7d900e",
+    "url": "https://aichessathon.com/game/946ad232-a8e8-42cf-b154-af514b7d900e?from=t.e356ff20-37e4-4fc4-bfef-00cf5957a82c",
+    "text": "Rated 31 view the game Black pheanup Loss Ruy Lopez, Closed",
+    "void": false
+  },
+  {
+    "team": "adashima",
+    "game_id": "83ec477d-a310-48a9-b8e5-21661586c3a8",
+    "url": "https://aichessathon.com/game/83ec477d-a310-48a9-b8e5-21661586c3a8?from=t.e356ff20-37e4-4fc4-bfef-00cf5957a82c",
+    "text": "Rated 30 view the game White Lubina Loss Sicilian Sveshnikov",
+    "void": false
+  },
+  {
+    "team": "adashima",
+    "game_id": "6d692784-78c5-44cd-8ba5-484a01bef78d",
+    "url": "https://aichessathon.com/game/6d692784-78c5-44cd-8ba5-484a01bef78d?from=t.e356ff20-37e4-4fc4-bfef-00cf5957a82c",
+    "text": "Rated 29 view the game Black THE ROOOOOKKK!!!! Loss Sicilian Taimanov",
+    "void": false
+  },
+  {
+    "team": "adashima",
+    "game_id": "37659256-917a-4736-a88c-075c5f59d2ae",
+    "url": "https://aichessathon.com/game/37659256-917a-4736-a88c-075c5f59d2ae?from=t.e356ff20-37e4-4fc4-bfef-00cf5957a82c",
+    "text": "Rated 28 view the game White Sobriety Void Sicilian Dragon",
+    "void": true
+  },
+  {
+    "team": "adashima",
+    "game_id": "aadf8267-483c-44a8-b60b-666771aa3626",
+    "url": "https://aichessathon.com/game/aadf8267-483c-44a8-b60b-666771aa3626?from=t.e356ff20-37e4-4fc4-bfef-00cf5957a82c",
+    "text": "Rated 27 view the game White Mate in One Loss Sicilian Classical",
+    "void": false
+  },
+  {
+    "team": "adashima",
+    "game_id": "d6794542-6a47-45f1-a6be-8f7983e7932f",
+    "url": "https://aichessathon.com/game/d6794542-6a47-45f1-a6be-8f7983e7932f?from=t.e356ff20-37e4-4fc4-bfef-00cf5957a82c",
+    "text": "Rated 26 view the game Black ms Win English Symmetrical",
+    "void": false
+  },
+  {
+    "team": "adashima",
+    "game_id": "91518718-0074-43a6-bdc7-0b9c4ef872f0",
+    "url": "https://aichessathon.com/game/91518718-0074-43a6-bdc7-0b9c4ef872f0?from=t.e356ff20-37e4-4fc4-bfef-00cf5957a82c",
+    "text": "Rated 25 view the game Black ChessML Win London System",
+    "void": false
+  },
+  {
+    "team": "adashima",
+    "game_id": "c2f5d8fe-0f9d-42d7-aa09-3d2b01633b78",
+    "url": "https://aichessathon.com/game/c2f5d8fe-0f9d-42d7-aa09-3d2b01633b78?from=t.e356ff20-37e4-4fc4-bfef-00cf5957a82c",
+    "text": "Rated 24 view the game White JSP Win Semi-Slav Defence",
+    "void": false
+  },
+  {
+    "team": "adashima",
+    "game_id": "61b9c072-d8e5-4eea-a21c-62a830cfb8bc",
+    "url": "https://aichessathon.com/game/61b9c072-d8e5-4eea-a21c-62a830cfb8bc?from=t.e356ff20-37e4-4fc4-bfef-00cf5957a82c",
+    "text": "Rated 23 view the game Black French Carlsen Win Petroff Defence",
+    "void": false
+  },
+  {
+    "team": "adashima",
+    "game_id": "808770b5-476f-4a4b-9856-bfd6556ae417",
+    "url": "https://aichessathon.com/game/808770b5-476f-4a4b-9856-bfd6556ae417?from=t.e356ff20-37e4-4fc4-bfef-00cf5957a82c",
+    "text": "Rated 22 view the game White keep kann and caro on Win Scotch Game",
+    "void": false
+  },
+  {
+    "team": "adashima",
+    "game_id": "292d87b0-a384-4fdf-a4ec-3ea9a4cf90a3",
+    "url": "https://aichessathon.com/game/292d87b0-a384-4fdf-a4ec-3ea9a4cf90a3?from=t.e356ff20-37e4-4fc4-bfef-00cf5957a82c",
+    "text": "Rated 21 view the game Black AlphaBeta Loss English Symmetrical",
+    "void": false
+  },
+  {
+    "team": "adashima",
+    "game_id": "d917e183-7e4e-4dc9-82d2-ed52f41fc16f",
+    "url": "https://aichessathon.com/game/d917e183-7e4e-4dc9-82d2-ed52f41fc16f?from=t.e356ff20-37e4-4fc4-bfef-00cf5957a82c",
+    "text": "Rated 20 view the game White Asher Falcon Loss Sicilian Dragon",
+    "void": false
+  },
+  {
+    "team": "adashima",
+    "game_id": "7c4a62ca-9cad-43fd-ba6d-48594f74a665",
+    "url": "https://aichessathon.com/game/7c4a62ca-9cad-43fd-ba6d-48594f74a665?from=t.e356ff20-37e4-4fc4-bfef-00cf5957a82c",
+    "text": "Rated 19 view the game Black Make_no_mistakes Loss Two Knights Defence",
+    "void": false
+  },
+  {
+    "team": "adashima",
+    "game_id": "7f88aeaf-b633-403e-a3b4-536f9265cdaf",
+    "url": "https://aichessathon.com/game/7f88aeaf-b633-403e-a3b4-536f9265cdaf?from=t.e356ff20-37e4-4fc4-bfef-00cf5957a82c",
+    "text": "Rated 18 view the game White Danya's Disciple Void Italian Game",
+    "void": true
+  },
+  {
+    "team": "adashima",
+    "game_id": "b829db1c-82d4-4b32-9f3a-9bca39be7961",
+    "url": "https://aichessathon.com/game/b829db1c-82d4-4b32-9f3a-9bca39be7961?from=t.e356ff20-37e4-4fc4-bfef-00cf5957a82c",
+    "text": "Rated 17 view the game Black Binvengers Win Caro-Kann Classical",
+    "void": false
+  },
+  {
+    "team": "adashima",
+    "game_id": "d0ee2c1d-a769-4923-bb04-11bda788af68",
+    "url": "https://aichessathon.com/game/d0ee2c1d-a769-4923-bb04-11bda788af68?from=t.e356ff20-37e4-4fc4-bfef-00cf5957a82c",
+    "text": "Rated 16 view the game Black archierayteam Win Queen's Indian Defence",
+    "void": false
+  },
+  {
+    "team": "adashima",
+    "game_id": "24305d8a-9d37-4d78-ab5d-906150032489",
+    "url": "https://aichessathon.com/game/24305d8a-9d37-4d78-ab5d-906150032489?from=t.e356ff20-37e4-4fc4-bfef-00cf5957a82c",
+    "text": "Rated 15 view the game White murmp Win Two Knights Defence",
+    "void": false
+  },
+  {
+    "team": "adashima",
+    "game_id": "c0228a25-5c0c-45e5-a2a2-aa6ef4528277",
+    "url": "https://aichessathon.com/game/c0228a25-5c0c-45e5-a2a2-aa6ef4528277?from=t.e356ff20-37e4-4fc4-bfef-00cf5957a82c",
+    "text": "Rated 14 view the game White this team Void Queen's Gambit Accepted",
+    "void": true
+  },
+  {
+    "team": "adashima",
+    "game_id": "bf3a920a-c693-43c1-b43b-5b9cccce42d3",
+    "url": "https://aichessathon.com/game/bf3a920a-c693-43c1-b43b-5b9cccce42d3?from=t.e356ff20-37e4-4fc4-bfef-00cf5957a82c",
+    "text": "Rated 13 view the game Black QueenC4 Win Sicilian Closed",
+    "void": false
+  },
+  {
+    "team": "adashima",
+    "game_id": "5010fae2-6cfe-412f-87dd-838630fabd8b",
+    "url": "https://aichessathon.com/game/5010fae2-6cfe-412f-87dd-838630fabd8b?from=t.e356ff20-37e4-4fc4-bfef-00cf5957a82c",
+    "text": "Rated 12 view the game White ChEKmate Void Sicilian Sveshnikov",
+    "void": true
+  }
+]

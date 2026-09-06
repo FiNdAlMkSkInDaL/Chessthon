@@ -1,0 +1,14 @@
+{
+  "split": "screen",
+  "positions": 24,
+  "counts": {
+    "e4": 8,
+    "d4": 8,
+    "flank": 8
+  },
+  "node_cap": 100000,
+  "maximum_abs_reference_cp": 80,
+  "pool_sha256": "037c81bca32bb751ab02d11e3a4f72efd28a0dfbcf1e4c827dee9e4ca4d3abe1",
+  "fen_sha256": "25c79be39b21f98f27a7e22d9c9388f4b5eaa5462251ee204c7a6553e25d9a85",
+  "selection": "New hash-split opening families, excluding all previous48 selected families, training exclusions inherited from audited pool, and all known site positions. Candidate blind."
+}

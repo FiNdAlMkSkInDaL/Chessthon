@@ -1,0 +1,18 @@
+{
+  "queen": {
+    "legal_states": 368452,
+    "winning_states": 345404,
+    "draw_states": 23048,
+    "max_dtm": 20
+  },
+  "rook": {
+    "legal_states": 399112,
+    "winning_states": 376868,
+    "draw_states": 22244,
+    "max_dtm": 32
+  },
+  "seconds": 4.543351699991035,
+  "generator_sha256": "fec98a4766a4743bd611006126a6f27c18d580063019fbc3fe38734d3acebf15",
+  "data_sha256": "8a5d9742eed9c7e40b2001b5b37d30c22513d54659da69d4e93caa088e77014f",
+  "provenance": "Original exhaustive legal-state retrograde; no reference engine data, code, or published tablebase."
+}

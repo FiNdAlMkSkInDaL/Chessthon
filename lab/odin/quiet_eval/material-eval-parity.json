@@ -1,0 +1,5 @@
+{
+  "verdict": "PASS",
+  "native_fallback_cases": 11202,
+  "scope": "Exact final integer material/pair evaluation, both colors."
+}

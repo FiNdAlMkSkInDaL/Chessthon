@@ -1,0 +1,12 @@
+{
+  "same_arrays": {
+    "queen": true,
+    "rook": true
+  },
+  "same_uncompressed_entries": {
+    "queen.npy": true,
+    "rook.npy": true
+  },
+  "linux_archive_sha256": "f6b7689060e31673632aec4a9a4814fc8b859c11d91a48a767cdc370c023400b",
+  "shipped_data_sha256": "8a5d9742eed9c7e40b2001b5b37d30c22513d54659da69d4e93caa088e77014f"
+}

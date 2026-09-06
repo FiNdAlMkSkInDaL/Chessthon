@@ -1,0 +1,519 @@
+--- native-control-r1/board_nb.py
++++ storm-plus/board_nb.py
+@@ -185,6 +185,100 @@
+     return piece
+ 
+ 
++def _square_attacked(pos: Position, sq: int, by_side: int) -> bool:
++    """Attack test kept local so canonical EP hashing cannot import movegen.
++
++    The FIDE repetition identity includes an en-passant field only when an
++    en-passant capture is *legal*.  Calling ``generate_legal`` here would make
++    ``make`` recurse while it is establishing the new EP key, so this small
++    geometry-only attack routine is deliberately independent of movegen.
++    """
++    file = sq & 7
++    rank = sq >> 3
++    pawn = WP if by_side == WHITE else BP
++    pawn_rank = rank - 1 if by_side == WHITE else rank + 1
++    if 0 <= pawn_rank < 8:
++        for pawn_file in (file - 1, file + 1):
++            if 0 <= pawn_file < 8 and pos.mb[pawn_rank * 8 + pawn_file] == pawn:
++                return True
++
++    knight = 1 if by_side == WHITE else 7
++    for df, dr in ((1, 2), (2, 1), (2, -1), (1, -2),
++                   (-1, -2), (-2, -1), (-2, 1), (-1, 2)):
++        nf, nr = file + df, rank + dr
++        if 0 <= nf < 8 and 0 <= nr < 8 and pos.mb[nr * 8 + nf] == knight:
++            return True
++
++    king = 5 if by_side == WHITE else 11
++    for df, dr in ((-1, -1), (-1, 0), (-1, 1), (0, -1),
++                   (0, 1), (1, -1), (1, 0), (1, 1)):
++        nf, nr = file + df, rank + dr
++        if 0 <= nf < 8 and 0 <= nr < 8 and pos.mb[nr * 8 + nf] == king:
++            return True
++
++    bishop = 2 if by_side == WHITE else 8
++    rook = WR if by_side == WHITE else BR
++    queen = 4 if by_side == WHITE else 10
++    for df, dr, sliders in (
++        (1, 1, (bishop, queen)), (1, -1, (bishop, queen)),
++        (-1, 1, (bishop, queen)), (-1, -1, (bishop, queen)),
++        (1, 0, (rook, queen)), (-1, 0, (rook, queen)),
++        (0, 1, (rook, queen)), (0, -1, (rook, queen)),
++    ):
++        nf, nr = file + df, rank + dr
++        while 0 <= nf < 8 and 0 <= nr < 8:
++            piece = pos.mb[nr * 8 + nf]
++            if piece >= 0:
++                if piece in sliders:
++                    return True
++                break
++            nf += df
++            nr += dr
++    return False
++
++
++def _legal_ep_from(pos: Position, frm: int) -> bool:
++    """Whether the side-to-move can legally capture the raw EP square."""
++    ep = pos.ep
++    if ep == EP_NONE:
++        return False
++    side = pos.side
++    pawn = WP if side == WHITE else BP
++    cap_sq = ep - 8 if side == WHITE else ep + 8
++    if pos.mb[frm] != pawn or not (0 <= cap_sq < 64):
++        return False
++    if pos.mb[cap_sq] != (BP if side == WHITE else WP):
++        return False
++    trial = pos.copy()
++    _remove(trial, cap_sq, xor_hash=False)
++    _remove(trial, frm, xor_hash=False)
++    _put(trial, ep, pawn, xor_hash=False)
++    king_bb = trial.bb[5 if side == WHITE else 11]
++    if not king_bb:
++        return False
++    king_sq = (king_bb & -king_bb).bit_length() - 1
++    return not _square_attacked(trial, king_sq, side ^ 1)
++
++
++def ep_hashable(pos: Position) -> bool:
++    """Return whether FIDE repetition identity retains ``pos.ep``.
++
++    A syntactic FEN EP square is not enough: the capture must exist and must
++    not expose our king.  This matches python-chess's transposition identity.
++    """
++    if pos.ep == EP_NONE:
++        return False
++    ep_file = pos.ep & 7
++    ep_rank = pos.ep >> 3
++    source_rank = ep_rank - 1 if pos.side == WHITE else ep_rank + 1
++    if not 0 <= source_rank < 8:
++        return False
++    for source_file in (ep_file - 1, ep_file + 1):
++        if 0 <= source_file < 8 and _legal_ep_from(pos, source_rank * 8 + source_file):
++            return True
++    return False
++
++
+ def compute_key(pos: Position) -> int:
+     key = 0
+     for piece in range(N_PIECES):
+@@ -195,7 +289,7 @@
+             key ^= Z_PIECE[piece][sq]
+             bb ^= bit
+     key ^= Z_CASTLE[pos.castle]
+-    if pos.ep != EP_NONE:
++    if ep_hashable(pos):
+         key ^= Z_EP[pos.ep & 7]
+     if pos.side == BLACK:
+         key ^= Z_SIDE
+@@ -289,7 +383,7 @@
+     piece = pos.mb[frm]
+     us = pos.side
+ 
+-    if pos.ep != EP_NONE:
++    if pos.ep != EP_NONE and ep_hashable(pos):
+         pos.key ^= Z_EP[pos.ep & 7]
+         pos.ep = EP_NONE
+ 
+@@ -334,12 +428,13 @@
+             pos.fifty += 1
+         if move_is_double(move):
+             pos.ep = (frm + to) // 2
+-            pos.key ^= Z_EP[pos.ep & 7]
+ 
+     pos.key ^= Z_SIDE
+     pos.side ^= 1
+     if us == BLACK:
+         pos.fullmove += 1
++    if pos.ep != EP_NONE and ep_hashable(pos):
++        pos.key ^= Z_EP[pos.ep & 7]
+     return undo
+ 
+ 
+--- native-control-r1/core_nb.py
++++ storm-plus/core_nb.py
+@@ -244,6 +244,44 @@
+ 
+ 
+ @njit(cache=False)
++def ep_hashable_nb(bb, mb, st):
++    """Whether the raw EP square belongs in the repetition/TT key.
++
++    FEN retains a syntactic EP target after every double pawn push.  FIDE
++    position identity retains it only when the side to move has a *legal* EP
++    capture; a horizontally pinned pawn therefore does not make a distinct
++    repetition position.  This helper is intentionally independent of
++    ``gen_legal`` because ``make_nb`` is itself used to filter legal moves.
++    """
++    ep = np.int32(st[EP])
++    if ep == EP_NONE:
++        return False
++    side = np.int32(st[SIDE])
++    base = side * 6
++    cap_sq = ep - 8 if side == 0 else ep + 8
++    if cap_sq < 0 or cap_sq >= 64 or np.int32(mb[cap_sq]) != (6 if side == 0 else 0):
++        return False
++    candidates = PAWN_A[side ^ 1, ep] & bb[base]
++    while candidates:
++        frm = lsb(candidates)
++        candidates &= candidates - np.uint64(1)
++        trial = np.empty(12, dtype=np.uint64)
++        for i in range(12):
++            trial[i] = bb[i]
++        trial[base] &= ~bit(frm)
++        trial[base] |= bit(ep)
++        trial[(side ^ 1) * 6] &= ~bit(cap_sq)
++        occ = np.uint64(st[OCC])
++        occ &= ~bit(frm)
++        occ &= ~bit(cap_sq)
++        occ |= bit(ep)
++        king = trial[base + 5]
++        if king and not sq_attacked(trial, lsb(king), side ^ 1, occ):
++            return True
++    return False
++
++
++@njit(cache=False)
+ def put(bb, mb, st, sq, piece, xor_hash):
+     b = bit(sq)
+     bb[piece] |= b
+@@ -296,8 +334,9 @@
+     piece = np.int32(mb[frm])
+     us = np.int32(st[SIDE])
+ 
++    if np.int32(st[EP]) != EP_NONE and ep_hashable_nb(bb, mb, st):
++        st[KEY] ^= Z_E[np.int32(st[EP]) & 7]
+     if np.int32(st[EP]) != EP_NONE:
+-        st[KEY] ^= Z_E[np.int32(st[EP]) & 7]
+         st[EP] = np.uint64(EP_NONE)
+ 
+     old_castle = np.int32(st[CASTLE])
+@@ -341,12 +380,13 @@
+             st[FIFTY] += np.uint64(1)
+         if m_double(move):
+             st[EP] = np.uint64((frm + to) // 2)
+-            st[KEY] ^= Z_E[np.int32(st[EP]) & 7]
+ 
+     st[KEY] ^= Z_S
+     st[SIDE] ^= np.uint64(1)
+     if us == 1:
+         st[FULL] += np.uint64(1)
++    if np.int32(st[EP]) != EP_NONE and ep_hashable_nb(bb, mb, st):
++        st[KEY] ^= Z_E[np.int32(st[EP]) & 7]
+ 
+ 
+ @njit(cache=False)
+@@ -725,7 +765,7 @@
+ 
+ 
+ @njit(cache=False)
+-def make_null(st, undo):
++def make_null(bb, mb, st, undo):
+     undo[U_CAP] = np.uint64(12)
+     undo[U_EP] = st[EP]
+     undo[U_CASTLE] = st[CASTLE]
+@@ -735,12 +775,15 @@
+     undo[U_KEY] = st[KEY]
+     ep = np.int32(st[EP])
+     if ep != EP_NONE:
+-        st[KEY] ^= Z_E[ep & 7]
++        if ep_hashable_nb(bb, mb, st):
++            st[KEY] ^= Z_E[ep & 7]
+         st[EP] = np.uint64(EP_NONE)
+     us = np.int32(st[SIDE])
+     st[KEY] ^= Z_S
+     st[SIDE] ^= np.uint64(1)
+-    # An artificial null edge cannot advance the real rule-50 clock.
++    # Null moves are an internal pruning device, not referee plies.  They
++    # must not fabricate a rule-50 claim (nor advance the cap, handled by the
++    # caller's unchanged ``cap_left``).
+     if us == 1:
+         st[FULL] += np.uint64(1)
+ 
+@@ -877,39 +920,105 @@
+ 
+ 
+ @njit(cache=False)
++def legal_lva_see_nb(work, to, side, occ, victim):
++    """Least valuable *legal* recapture onto ``to``.
++
++    A geometric attacker may be absolutely pinned, and a king may not capture
++    onto an attacked square.  Trial bitboards are local to SEE only; this is
++    still a bounded native swap-off, not legal-tree generation in qsearch.
++    """
++    base = side * 6
++    bq = bishop_att(to, occ)
++    rq = rook_att(to, occ)
++    for typ in range(6):
++        if typ == 0:
++            candidates = PAWN_A[side ^ 1, to] & work[base]
++        elif typ == 1:
++            candidates = KNIGHT_A[to] & work[base + 1]
++        elif typ == 2:
++            candidates = bq & work[base + 2]
++        elif typ == 3:
++            candidates = rq & work[base + 3]
++        elif typ == 4:
++            candidates = (bq | rq) & work[base + 4]
++        else:
++            candidates = KING_A[to] & work[base + 5]
++        candidates &= occ
++        while candidates:
++            frm = lsb(candidates)
++            candidates &= candidates - np.uint64(1)
++            promoted = typ == 0 and ((side == 0 and to >= 56) or (side == 1 and to < 8))
++            moved = base + (4 if promoted else typ)
++            trial = np.empty(12, dtype=np.uint64)
++            for j in range(12):
++                trial[j] = work[j]
++            trial[victim] &= ~bit(to)
++            trial[base + typ] &= ~bit(frm)
++            trial[moved] |= bit(to)
++            occ_after = occ & ~bit(frm)
++            occ_after |= bit(to)
++            king = trial[base + 5]
++            if king and not sq_attacked(trial, lsb(king), side ^ 1, occ_after):
++                bonus = SEE_V[4] - SEE_V[0] if promoted else 0
++                return frm, np.int32(base + typ), np.int32(moved), np.int32(bonus)
++    return np.int32(-1), np.int32(-1), np.int32(-1), np.int32(0)
++
++
++@njit(cache=False)
+ def see_nb(bb, mb, st, move):
++    """Legality-aware static exchange evaluation in centipawns.
++
++    The old helper only removed geometric attackers from occupancy.  It could
++    therefore invent a king recapture onto an attacked square or a recapture
++    by an absolutely pinned piece, causing qsearch to prune a free pawn.
++    """
+     frm = m_from(move)
+     to = m_to(move)
+     us = np.int32(st[SIDE])
+-    occ = np.uint64(st[OCC])
+     mover = np.int32(mb[frm])
+     if mover < 0:
+         return 0
++    work = np.empty(12, dtype=np.uint64)
++    for i in range(12):
++        work[i] = bb[i]
++    occ = np.uint64(st[OCC])
+     promo = m_promo(move)
+     if m_ep(move):
+-        occ ^= bit(to - 8 if us == 0 else to + 8)
++        cap_sq = to - 8 if us == 0 else to + 8
++        cap = 6 if us == 0 else 0
++        work[cap] &= ~bit(cap_sq)
++        occ &= ~bit(cap_sq)
+         gain = SEE_V[0]
+     else:
+         cap = np.int32(mb[to])
+         gain = SEE_V[cap % 6] if cap >= 0 else 0
++        if cap >= 0:
++            work[cap] &= ~bit(to)
+     if promo:
+         gain += SEE_V[promo] - SEE_V[0]
+-    occ ^= bit(frm)
+-    if not (occ & bit(to)):
+-        occ |= bit(to)
+-    hanging = SEE_V[promo] if promo else SEE_V[mover % 6]
++    work[mover] &= ~bit(frm)
++    moved = us * 6 + promo if promo else mover
++    work[moved] |= bit(to)
++    occ &= ~bit(frm)
++    occ |= bit(to)
++    victim = np.int32(moved)
++    hanging = SEE_V[victim % 6]
+     side = us ^ 1
+     gains = np.empty(32, dtype=np.int32)
+     gains[0] = gain
+     ng = 1
+     while ng < 32:
+-        att = lva(bb, mb, to, side, occ)
++        att, piece, moved, bonus = legal_lva_see_nb(work, to, side, occ, victim)
+         if att < 0:
+             break
+-        att_p = np.int32(mb[att])
+-        occ ^= bit(att)
+-        gains[ng] = hanging - gains[ng - 1]
+-        hanging = SEE_V[att_p % 6]
++        gains[ng] = hanging + bonus - gains[ng - 1]
++        work[victim] &= ~bit(to)
++        work[piece] &= ~bit(att)
++        work[moved] |= bit(to)
++        occ &= ~bit(att)
++        occ |= bit(to)
++        victim = moved
++        hanging = SEE_V[victim % 6]
+         ng += 1
+         if hanging == SEE_V[5]:
+             break
+@@ -1324,7 +1433,7 @@
+             and has_nm_pieces(bb, np.int32(st[SIDE]))
+         ):
+             r = 2 + depth // 5 + min(2, (static_eval - beta) // 200)
+-            make_null(st, undos[ply])
++            make_null(bb, mb, st, undos[ply])
+             # Legal make uses captured-piece IDs 0..11 or empty=12.
+             # This slot is ignored by unmake_null and marks only this edge.
+             undos[ply, U_CAP] = np.uint64(13)
+@@ -1907,23 +2016,38 @@
+ 
+ 
+ def warmup() -> bool:
+-    """Compile the signatures search uses and report whether that succeeded."""
++    """Compile the exact original Storm root signature before reporting ready."""
+     global NUMBA_READY, WARMUP_S
+     from board_nb import START_FEN, from_fen
+     from movegen_nb import generate_legal
+ 
+-    t0 = time.perf_counter()
++    began = time.perf_counter()
++    NUMBA_READY = False
+     pos = from_fen(START_FEN)
+     _ = perft_pos(pos, 2)
+     packed = generate_legal(pos)
+-    # ``search_root`` intentionally refuses a live depth-one pass below
+-    # MIN_ITER_MS.  Warmup must nevertheless enter that same Numba path, or
+-    # the first tactical move pays its compilation cost on the game clock.
+-    _ = search_root(pos, packed, float(MIN_ITER_MS + 50), 0.0, False, [])
+-    WARMUP_S = time.perf_counter() - t0
+-    # The live referee has already spent this time while importing us.  If
+-    # compilation returned, the compiled functions are strictly preferable
+-    # to falling back to Python.  The signer separately enforces the much
+-    # tighter WARMUP_TARGET_S/cold-import release thresholds.
++    bb, mb, st = pack_pos(pos)
++    root = np.array(packed, dtype=np.int32)
++    hist = np.empty(MAX_PLY + 8, dtype=np.uint64)
++    undos = np.zeros((MAX_PLY, 7), dtype=np.uint64)
++    stacks = np.zeros((MAX_PLY, MAX_MOVES), dtype=np.int32)
++    scratches = np.zeros((MAX_PLY, MAX_MOVES), dtype=np.int32)
++    nodes = np.zeros(2, dtype=np.int64)
++    aborted = np.zeros(1, dtype=np.int32)
++    nodes[0], nodes[1] = 1024, 1
++    if not check_clock(nodes, 10**15, True, aborted) or not aborted[0]:
++        raise RuntimeError("Native monotonic-clock warmup did not abort")
++    nodes.fill(0)
++    aborted.fill(0)
++    # Finite depth-one start-position search; compilation has no live deadline.
++    _ = root_search_nb(
++        bb, mb, st, root, len(packed), 1, hist, 0, int(root[0]),
++        -INF, INF, 0, 600, 10**15, undos, stacks, scratches,
++        TT_KEY, TT_MOVE, TT_SCORE, TT_DEPTH, TT_GEN, TT_AGE,
++        KILLERS, HISTORY, nodes, aborted,
++    )
++    if not root_search_nb.nopython_signatures or aborted[0]:
++        raise RuntimeError("Native root search was not compiled during import")
++    WARMUP_S = time.perf_counter() - began
+     NUMBA_READY = True
+     return NUMBA_READY
+--- native-control-r1/history.py
++++ storm-plus/history.py
+@@ -165,31 +165,10 @@
+     *,
+     deadline: float | None = None,
+ ) -> list[chess.Move]:
+-    if not legal:
+-        return legal
+-    if not winning and board.halfmove_clock < FIFTY_ZERO_FROM:
+-        return legal
+-    kept: list[chess.Move] = []
+-    fifty = board.halfmove_clock
+-    for move in legal:
+-        board.push(move)
+-        key = board._transposition_key()
+-        checkmates = board.is_checkmate()
+-        draws_immediately = board.is_stalemate() or board.is_insufficient_material()
+-        board.pop()
+-        # Checkmate ends the game before any automatic draw claim.  In
+-        # particular, never discard a quiet mate merely because the
+-        # halfmove clock is in the zeroing-only safety band.
+-        if checkmates:
+-            kept.append(move)
+-            continue
+-        if winning and draws_immediately:
+-            continue
+-        if winning and fifty >= FIFTY_ZERO_FROM and not board.is_zeroing(move):
+-            continue
+-        if winning and _seen[key] >= 1:
+-            continue
+-        if winning and _opponent_can_force_auto_claim(board, move, deadline):
+-            continue
+-        kept.append(move)
+-    return kept if kept else legal
++    """Keep every legal root, including drawing resources and quiet defences.
++
++    The inherited search treats a path cycle as a draw heuristic; this
++    is deliberately distinct from the referee claiming true threefold.
++    """
++    del board, winning, deadline
++    return legal
+--- native-control-r1/search_nb.py
++++ storm-plus/search_nb.py
+@@ -128,40 +128,47 @@
+ 
+ 
+ def see(pos, move: int) -> int:
+-    """Swap-off, no X-rays. Positive is winning for the side to move."""
++    """Legality-aware fallback swap-off. Positive favours the mover.
++
++    This path is used only when native warmup fails, so clarity is preferable
++    to duplicating the old geometric shortcut.  The compiled path has its own
++    bounded native implementation; neither one invents pinned or illegal king
++    recaptures.
++    """
+     frm = move_from(move)
+     to = move_to(move)
+-    us = pos.side
+-    occ = pos.occ
+     mover = pos.mb[frm]
+     if mover < 0:
+         return 0
+     promo = move_promo(move)
+     if move_is_ep(move):
+-        occ ^= 1 << (to - 8 if us == WHITE else to + 8)
+         gain = SEE_VAL[0]
+     else:
+         cap = pos.mb[to]
+         gain = SEE_VAL[cap % 6] if cap >= 0 else 0
+     if promo:
+         gain += SEE_VAL[promo] - SEE_VAL[0]
+-    occ ^= 1 << frm
+-    if not (occ & (1 << to)):
+-        occ |= 1 << to
+-    hanging = SEE_VAL[promo] if promo else SEE_VAL[mover % 6]
+-    side = us ^ 1
++    trial = pos.copy()
++    make(trial, move)
++    hanging = SEE_VAL[trial.mb[to] % 6]
+     gains = [gain]
+     while True:
+-        att = _lva(pos, to, side, occ)
+-        if att < 0:
++        captures = [
++            candidate
++            for candidate in generate_legal(trial)
++            if move_to(candidate) == to
++            and (move_is_capture(candidate) or move_is_ep(candidate))
++        ]
++        if not captures:
+             break
+-        att_p = pos.mb[att]
+-        occ ^= 1 << att
+-        gains.append(hanging - gains[-1])
+-        hanging = SEE_VAL[att_p % 6]
++        capture = min(captures, key=lambda candidate: trial.mb[move_from(candidate)] % 6)
++        promoted = move_promo(capture)
++        bonus = SEE_VAL[promoted] - SEE_VAL[0] if promoted else 0
++        gains.append(hanging + bonus - gains[-1])
++        make(trial, capture)
++        hanging = SEE_VAL[trial.mb[to] % 6]
+         if hanging == SEE_VAL[5]:
+             break
+-        side ^= 1
+     i = len(gains) - 1
+     while i > 0:
+         gains[i - 1] = -max(-gains[i - 1], gains[i])

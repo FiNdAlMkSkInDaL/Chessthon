@@ -1,0 +1,418 @@
+--- odin/core_nb.py
++++ odin_history_perf/core_nb.py
+@@ -69,6 +69,8 @@
+ TT_BITS = 22
+ TT_SIZE = 1 << TT_BITS
+ TT_MASK = TT_SIZE - 1
++MOVE_HINT_SIZE = 1 << 18
++MOVE_HINT_MASK = MOVE_HINT_SIZE - 1
+ 
+ OCC_W, OCC_B, OCC, SIDE, CASTLE, EP, FIFTY, FULL, KEY = range(9)
+ MG_ACC, EG_ACC, PHASE_ACC = 9, 10, 11
+@@ -100,8 +102,10 @@
+ SEE_V = np.array((100, 300, 300, 500, 900, 20_000), dtype=np.int32)
+ PROMOS = np.array((4, 3, 2, 1), dtype=np.int32)
+ 
+-TT_KEY = np.zeros(TT_SIZE, dtype=np.uint64)
+-TT_MOVE = np.zeros(TT_SIZE, dtype=np.int32)
++# The extra 3 MiB tail stores board-key move hints only. Score entries in the
++# first TT_SIZE slots retain their complete rule/history-context identity.
++TT_KEY = np.zeros(TT_SIZE + MOVE_HINT_SIZE, dtype=np.uint64)
++TT_MOVE = np.zeros(TT_SIZE + MOVE_HINT_SIZE, dtype=np.int32)
+ TT_SCORE = np.zeros(TT_SIZE, dtype=np.int16)
+ TT_DEPTH = np.zeros(TT_SIZE, dtype=np.uint8)
+ TT_GEN = np.zeros(TT_SIZE, dtype=np.uint8)
+@@ -973,8 +977,40 @@
+ 
+ @njit(cache=False)
+ def history_append(sig, key):
+-    """Order-sensitive reversible-history signature for TT score validity."""
+-    return (np.uint64(sig) ^ np.uint64(key)) * HIST_MUL
++    """Order-independent, multiplicity-sensitive reversible-position digest.
++
++    Future repetition claims depend on occurrence counts, not their order.
++    Addition retains duplicate occurrences (unlike XOR); an avalanche mix
++    avoids relying on arithmetic structure in the underlying board Zobrist key.
++    Like the existing TT board key this is a probabilistic 64-bit identity.
++    """
++    mixed = np.uint64(key) + np.uint64(0x9E3779B97F4A7C15)
++    mixed = (mixed ^ (mixed >> np.uint64(30))) * np.uint64(0xBF58476D1CE4E5B9)
++    mixed = (mixed ^ (mixed >> np.uint64(27))) * np.uint64(0x94D049BB133111EB)
++    mixed ^= mixed >> np.uint64(31)
++    return np.uint64(sig) + mixed
++
++
++@njit(cache=False)
++def move_hint_probe(key, ttk, ttm):
++    """A board-only hint can order a generated legal move, never return a score."""
++    idx = TT_SIZE + np.int64(np.uint64(key) & np.uint64(MOVE_HINT_MASK))
++    if idx >= ttk.size or idx >= ttm.size:
++        return np.int32(0)
++    if np.uint64(key) != 0 and ttk[idx] == np.uint64(key):
++        return ttm[idx]
++    return np.int32(0)
++
++
++@njit(cache=False)
++def move_hint_store(key, move, ttk, ttm):
++    if move == 0 or key == 0:
++        return
++    idx = TT_SIZE + np.int64(np.uint64(key) & np.uint64(MOVE_HINT_MASK))
++    if idx >= ttk.size or idx >= ttm.size:
++        return
++    ttk[idx] = np.uint64(key)
++    ttm[idx] = np.int32(move)
+ 
+ 
+ @njit(cache=False)
+@@ -1329,6 +1365,7 @@
+     cap_left,
+     has_pair,
+     hist_sig,
++    null_tree,
+     max_nodes,
+     allow_abort,
+     undos,
+@@ -1362,6 +1399,15 @@
+     if ply >= MAX_PLY:
+         return evaluate_nb(bb, st, adjudicate)
+ 
++    if np.int32(st[FIFTY]) == 0 or null_tree:
++        # A legal pawn move/capture makes every preceding board unreachable.
++        # Rebase into the unused suffix so a child cannot overwrite a parent's
++        # history. On return its caller retains the original view and length.
++        hist = hist[hlen:]
++        hlen = 0
++        has_pair = False
++        hist_sig = HIST_SEED
++
+     moves_buf = stacks[ply]
+     scratch = scratches[ply]
+     checked = in_check_nb(bb, st, np.int32(st[SIDE]))
+@@ -1384,10 +1430,10 @@
+     if insufficient_material_nb(bb):
+         return DRAW
+     orig_alpha = alpha
+-    child_hist_sig = history_append(hist_sig, st[KEY])
++    child_hist_sig = HIST_SEED if null_tree else history_append(hist_sig, st[KEY])
+     tt_key = score_tt_key(st[KEY], np.int32(st[FIFTY]), cap_left, child_hist_sig)
+-    hash_move = np.int32(0)
+-    if not adjudicate:
++    hash_move = move_hint_probe(st[KEY], ttk, ttm)
++    if not adjudicate and not null_tree:
+         hit, move, _d, flag, s = tt_probe(tt_key, ply, ttk, ttm, tts, ttd, ttg)
+         if hit:
+             hash_move = move
+@@ -1405,7 +1451,7 @@
+                 bb, mb, st, scratch, undos[ply]
+             ):
+                 return DRAW
+-            if not adjudicate:
++            if not adjudicate and not null_tree:
+                 tt_store(tt_key, 0, 0, LOWER, stand, ply, ttk, ttm, tts, ttd, ttg, tta)
+             return stand
+         if stand > alpha:
+@@ -1427,8 +1473,10 @@
+ 
+     sort_moves(mb, moves_buf, n, ply, hash_move, killers, histy)
+     best_move = np.int32(0)
+-    hist[hlen] = st[KEY]
+-    hlen2 = hlen + 1
++    hlen2 = hlen
++    if not null_tree:
++        hist[hlen] = st[KEY]
++        hlen2 += 1
+     for i in range(n):
+         move = moves_buf[i]
+         if not checked:
+@@ -1456,6 +1504,7 @@
+             cap_left - 1,
+             child_has_pair,
+             child_hist_sig,
++            null_tree,
+             max_nodes,
+             allow_abort,
+             undos,
+@@ -1482,13 +1531,14 @@
+             alpha = best
+         if alpha >= beta:
+             break
+-    if not adjudicate:
++    if not adjudicate and not null_tree:
+         flag = EXACT
+         if best <= orig_alpha:
+             flag = UPPER
+         elif best >= beta:
+             flag = LOWER
+         tt_store(tt_key, best_move, 0, flag, best, ply, ttk, ttm, tts, ttd, ttg, tta)
++        move_hint_store(st[KEY], best_move, ttk, ttm)
+     return best
+ 
+ 
+@@ -1507,6 +1557,7 @@
+     cap_left,
+     has_pair,
+     hist_sig,
++    null_tree,
+     max_nodes,
+     allow_abort,
+     undos,
+@@ -1537,6 +1588,12 @@
+ 
+     if ply >= MAX_PLY:
+         return evaluate_nb(bb, st, adjudicate)
++
++    if np.int32(st[FIFTY]) == 0 or null_tree:
++        hist = hist[hlen:]
++        hlen = 0
++        has_pair = False
++        hist_sig = HIST_SEED
+ 
+     checked = in_check_nb(bb, st, np.int32(st[SIDE]))
+     moves_buf = stacks[ply]
+@@ -1575,6 +1632,7 @@
+             cap_left,
+             has_pair,
+             hist_sig,
++            null_tree,
+             max_nodes,
+             allow_abort,
+             undos,
+@@ -1603,10 +1661,10 @@
+ 
+     is_pv = (beta - alpha) > 1
+     orig_alpha = alpha
+-    child_hist_sig = history_append(hist_sig, st[KEY])
++    child_hist_sig = HIST_SEED if null_tree else history_append(hist_sig, st[KEY])
+     tt_key = score_tt_key(st[KEY], np.int32(st[FIFTY]), cap_left, child_hist_sig)
+-    hash_move = np.int32(0)
+-    if not adjudicate:
++    hash_move = move_hint_probe(st[KEY], ttk, ttm)
++    if not adjudicate and not null_tree:
+         hit, move, tdepth, flag, s = tt_probe(tt_key, ply, ttk, ttm, tts, ttd, ttg)
+         if hit:
+             hash_move = move
+@@ -1660,6 +1718,7 @@
+                 cap_left,
+                 has_pair,
+                 hist_sig,
++                True,
+                 max_nodes,
+                 allow_abort,
+                 undos,
+@@ -1701,6 +1760,7 @@
+                         cap_left,
+                         has_pair,
+                         hist_sig,
++                        null_tree,
+                         max_nodes,
+                         allow_abort,
+                         undos,
+@@ -1735,8 +1795,10 @@
+         return DRAW
+ 
+     sort_moves(mb, moves_buf, n, ply, hash_move, killers, histy)
+-    hist[hlen] = st[KEY]
+-    hlen2 = hlen + 1
++    hlen2 = hlen
++    if not null_tree:
++        hist[hlen] = st[KEY]
++        hlen2 += 1
+     best = -INF
+     best_move = np.int32(0)
+     searched = 0
+@@ -1806,6 +1868,7 @@
+                 cap_left - 1,
+                 child_has_pair,
+                 child_hist_sig,
++                null_tree,
+                 max_nodes,
+                 allow_abort,
+                 undos,
+@@ -1837,6 +1900,7 @@
+                 cap_left - 1,
+                 child_has_pair,
+                 child_hist_sig,
++                null_tree,
+                 max_nodes,
+                 allow_abort,
+                 undos,
+@@ -1870,6 +1934,7 @@
+                     cap_left - 1,
+                     child_has_pair,
+                     child_hist_sig,
++                    null_tree,
+                     max_nodes,
+                     allow_abort,
+                     undos,
+@@ -1901,6 +1966,7 @@
+                     cap_left - 1,
+                     child_has_pair,
+                     child_hist_sig,
++                    null_tree,
+                     max_nodes,
+                     allow_abort,
+                     undos,
+@@ -1943,13 +2009,14 @@
+     # transposition-table score.
+     if best_move == 0:
+         return orig_alpha
+-    if not adjudicate:
++    if not adjudicate and not null_tree:
+         flag = EXACT
+         if best <= orig_alpha:
+             flag = UPPER
+         elif best >= beta:
+             flag = LOWER
+         tt_store(tt_key, best_move, depth, flag, best, ply, ttk, ttm, tts, ttd, ttg, tta)
++        move_hint_store(st[KEY], best_move, ttk, ttm)
+     return best
+ 
+ 
+@@ -2017,6 +2084,7 @@
+                 cap_left - 1,
+                 root_has_pair,
+                 root_hist_sig,
++                False,
+                 max_nodes,
+                 allow,
+                 undos,
+@@ -2048,6 +2116,7 @@
+                 cap_left - 1,
+                 root_has_pair,
+                 root_hist_sig,
++                False,
+                 max_nodes,
+                 allow,
+                 undos,
+@@ -2079,6 +2148,7 @@
+                     cap_left - 1,
+                     root_has_pair,
+                     root_hist_sig,
++                    False,
+                     max_nodes,
+                     allow,
+                     undos,
+@@ -2111,6 +2181,8 @@
+             alpha = score
+         if alpha >= beta:
+             break
++    if not aborted[0]:
++        move_hint_store(st[KEY], best_move, ttk, ttm)
+     return best_move, best_score
+ 
+ 
+@@ -2168,11 +2240,14 @@
+     """
+     global _LAST_NODES, _LAST_INFO
+     from storm_clock import SearchClock
++    from history import reversible_root_keys
+ 
+     start = time.perf_counter()
+     bb, mb, st = pack_pos(pos)
+     root = np.array(packed_root, dtype=np.int32)
+-    z = game_zkeys[:-1] if game_zkeys else []
++    # FEN supplies the number of reversible preceding legal plies even when
++    # the process began at a curated opening with no earlier history.
++    z = reversible_root_keys(game_zkeys, pos.fifty)
+     zkeys = np.array(z, dtype=np.uint64) if z else np.zeros(0, dtype=np.uint64)
+     nodes = np.zeros(2, dtype=np.int64)
+     nodes[1] = int((start + hard_ms / 1000.0) * 1_000_000_000)
+@@ -2198,7 +2273,8 @@
+     undos = np.zeros((MAX_PLY, 7), dtype=np.uint64)
+     stacks = np.zeros((MAX_PLY, MAX_MOVES), dtype=np.int32)
+     scratches = np.zeros((MAX_PLY, MAX_MOVES), dtype=np.int32)
+-    best = int(root[0])
++    hinted = int(move_hint_probe(st[KEY], TT_KEY, TT_MOVE))
++    best = hinted if hinted in packed_root else int(root[0])
+     prev = 0
+     adj = 0
+     nroot = len(packed_root)
+@@ -2391,11 +2467,8 @@
+ 
+ 
+ def probe_move(key: int) -> int:
+-    # A panic root has no reversible-history/cap context for an exact TT
+-    # identity.  Returning no hint is safer than treating a contextual score
+-    # entry as a position-only bound; the caller already owns a legal fallback.
+-    del key
+-    return 0
++    # The public caller validates this against its legal root list.
++    return int(move_hint_probe(np.uint64(key), TT_KEY, TT_MOVE))
+ 
+ 
+ def warmup() -> bool:
+--- odin/history.py
++++ odin_history_perf/history.py
+@@ -1,4 +1,4 @@
+-"""Full-game python-chess transposition keys and current-referee state.
++"""Reversible-window python-chess keys and current-referee state.
+ 
+ Do not infer opponent UCI from FEN deltas. Process lives one game; tests call reset().
+ """
+@@ -43,6 +43,13 @@
+     return _zkeys
+ 
+ 
++def reversible_root_keys(game_zkeys: list[int], fifty: int) -> list[int]:
++    """Prior served/played keys still reachable since the last zeroing move."""
++    prior = game_zkeys[:-1] if game_zkeys else []
++    length = min(len(prior), max(0, int(fifty)))
++    return list(prior[-length:]) if length else []
++
++
+ def use_adjudication_eval() -> bool:
+     """Storm's material-adjudication mode no longer exists under the live rule."""
+     return False
+@@ -52,6 +59,11 @@
+     global _absolute_ply, _started
+     _started = True
+     _absolute_ply = board.ply()
++    if board.halfmove_clock == 0:
++        # FEN says the opponent made a pawn move/capture; no UCI inference is
++        # required and no earlier board can occur again after this transition.
++        _seen.clear()
++        _zkeys.clear()
+     _seen[board._transposition_key()] += 1
+     _zkeys.append(from_fen(board.fen(en_passant="fen")).key)
+ 
+@@ -59,6 +71,9 @@
+ def observe_our_uci(board: chess.Board, uci: str) -> None:
+     pushed = board.copy(stack=False)
+     pushed.push_uci(uci)
++    if pushed.halfmove_clock == 0:
++        _seen.clear()
++        _zkeys.clear()
+     _seen[pushed._transposition_key()] += 1
+     pos = from_fen(board.fen(en_passant="fen"))
+     packed = None
+--- odin/search_nb.py
++++ odin_history_perf/search_nb.py
+@@ -253,6 +253,8 @@
+     if ply >= MAX_PLY:
+         return evaluate(pos, adjudicate=_adjudicate)
+ 
++    if pos.fifty == 0:
++        hist = []
+     checked = in_check(pos, pos.side)
+     legal_at_fifty: list[int] | None = None
+     repeated = _is_repeat(pos.key, hist)
+@@ -360,6 +362,8 @@
+     if ply >= MAX_PLY:
+         return evaluate(pos, adjudicate=_adjudicate)
+ 
++    if pos.fifty == 0:
++        hist = []
+     checked = in_check(pos, pos.side)
+     legal_at_fifty: list[int] | None = None
+     repeated = _is_repeat(pos.key, hist)
+@@ -503,7 +507,8 @@
+     _deadline = start + hard_ms / 1000.0
+     best = packed_root[0]
+     prev = 0
+-    hist_base = list(game_zkeys[:-1] if game_zkeys else [])
++    from history import reversible_root_keys
++    hist_base = reversible_root_keys(game_zkeys or [], pos.fifty)
+     cap_left = max(0, 600 - int(absolute_ply))
+ 
+     for depth in range(1, MAX_DEPTH + 1):

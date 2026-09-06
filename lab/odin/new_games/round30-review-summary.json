@@ -1,0 +1,197 @@
+[
+  {
+    "id": "site-r30-ply42",
+    "round": 30,
+    "ply": 42,
+    "absolute_ply": 56,
+    "fen": "3rr3/5pk1/5np1/1ppp4/8/2P1P1P1/1PB3P1/3RR1K1 w - - 0 29",
+    "played_san": "Kf2",
+    "played_uci": "g1f2",
+    "time_left_ms": 59881,
+    "selection_reason": "Top spaced non-mate own-move reference drop; finite screen, requires same-root confirmation.",
+    "best_san": "Rd2",
+    "best_stm_cp": -198,
+    "best_white_mate": null,
+    "storm_white_mate": null,
+    "storm_forced_stm_cp": -472,
+    "storm_reference_loss_cp": 274,
+    "odin": [
+      {
+        "mode": "adaptive",
+        "san": "Kf2",
+        "uci": "g1f2",
+        "depth": 14,
+        "actual_wall_ms": 3968.5592999994697,
+        "reference_stm_cp": -472,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 0
+      },
+      {
+        "mode": "fixed-3000ms",
+        "san": "Kf2",
+        "uci": "g1f2",
+        "depth": 13,
+        "actual_wall_ms": 2523.854699997173,
+        "reference_stm_cp": -472,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 0
+      }
+    ]
+  },
+  {
+    "id": "site-r30-ply34",
+    "round": 30,
+    "ply": 34,
+    "absolute_ply": 48,
+    "fen": "3rr1k1/5p1p/p4np1/1pppqP2/P7/2P1PQ2/1PB3PP/3RR1K1 w - - 1 25",
+    "played_san": "Qg3",
+    "played_uci": "f3g3",
+    "time_left_ms": 70696,
+    "selection_reason": "Top spaced non-mate own-move reference drop; finite screen, requires same-root confirmation.",
+    "best_san": "Qf4",
+    "best_stm_cp": -32,
+    "best_white_mate": null,
+    "storm_white_mate": null,
+    "storm_forced_stm_cp": -297,
+    "storm_reference_loss_cp": 265,
+    "odin": [
+      {
+        "mode": "adaptive",
+        "san": "axb5",
+        "uci": "a4b5",
+        "depth": 10,
+        "actual_wall_ms": 4518.47540000017,
+        "reference_stm_cp": -51,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 246
+      },
+      {
+        "mode": "fixed-3000ms",
+        "san": "Rf1",
+        "uci": "e1f1",
+        "depth": 9,
+        "actual_wall_ms": 2402.938900002482,
+        "reference_stm_cp": -258,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 39
+      }
+    ]
+  },
+  {
+    "id": "site-r30-ply26",
+    "round": 30,
+    "ply": 26,
+    "absolute_ply": 40,
+    "fen": "r3r1k1/1p2qppp/p4n2/2pp4/P4P2/2PbP3/1PB1Q1PP/3RR1K1 w - - 0 21",
+    "played_san": "Qxd3",
+    "played_uci": "e2d3",
+    "time_left_ms": 87017,
+    "selection_reason": "Top spaced non-mate own-move reference drop; finite screen, requires same-root confirmation.",
+    "best_san": "Bxd3",
+    "best_stm_cp": -40,
+    "best_white_mate": null,
+    "storm_white_mate": null,
+    "storm_forced_stm_cp": -40,
+    "storm_reference_loss_cp": 0,
+    "odin": [
+      {
+        "mode": "adaptive",
+        "san": "Qxd3",
+        "uci": "e2d3",
+        "depth": 11,
+        "actual_wall_ms": 2279.7740999994858,
+        "reference_stm_cp": -40,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 0
+      },
+      {
+        "mode": "fixed-3000ms",
+        "san": "Qxd3",
+        "uci": "e2d3",
+        "depth": 10,
+        "actual_wall_ms": 3001.0669000002963,
+        "reference_stm_cp": -40,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 0
+      }
+    ]
+  },
+  {
+    "id": "site-r30-ply16",
+    "round": 30,
+    "ply": 16,
+    "absolute_ply": 30,
+    "fen": "r4rk1/1p1b1ppp/p4n2/2ppq3/5N2/2P1P3/PPB1QPPP/R4RK1 w - - 0 16",
+    "played_san": "Rad1",
+    "played_uci": "a1d1",
+    "time_left_ms": 98488,
+    "selection_reason": "Top spaced non-mate own-move reference drop; finite screen, requires same-root confirmation.",
+    "best_san": "Qd2",
+    "best_stm_cp": -18,
+    "best_white_mate": null,
+    "storm_white_mate": null,
+    "storm_forced_stm_cp": -15,
+    "storm_reference_loss_cp": -3,
+    "odin": [
+      {
+        "mode": "adaptive",
+        "san": "Nd3",
+        "uci": "f4d3",
+        "depth": 10,
+        "actual_wall_ms": 6157.812200002809,
+        "reference_stm_cp": -19,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": -4
+      },
+      {
+        "mode": "fixed-3000ms",
+        "san": "Rad1",
+        "uci": "a1d1",
+        "depth": 8,
+        "actual_wall_ms": 2061.925300000439,
+        "reference_stm_cp": -15,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 0
+      }
+    ]
+  },
+  {
+    "id": "site-r30-ply2",
+    "round": 30,
+    "ply": 2,
+    "absolute_ply": 16,
+    "fen": "r1bq1rk1/pp3ppp/2n1pn2/1Bpp4/3P1b2/2P1PN1N/PP3PPP/R2QK2R w KQ - 0 9",
+    "played_san": "Nxf4",
+    "played_uci": "h3f4",
+    "time_left_ms": 116358,
+    "selection_reason": "Top spaced non-mate own-move reference drop; finite screen, requires same-root confirmation.",
+    "best_san": "Nxf4",
+    "best_stm_cp": -21,
+    "best_white_mate": null,
+    "storm_white_mate": null,
+    "storm_forced_stm_cp": -18,
+    "storm_reference_loss_cp": -3,
+    "odin": [
+      {
+        "mode": "adaptive",
+        "san": "Nxf4",
+        "uci": "h3f4",
+        "depth": 11,
+        "actual_wall_ms": 3896.3724999994156,
+        "reference_stm_cp": -18,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 0
+      },
+      {
+        "mode": "fixed-3000ms",
+        "san": "Nxf4",
+        "uci": "h3f4",
+        "depth": 10,
+        "actual_wall_ms": 1660.993999998027,
+        "reference_stm_cp": -18,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 0
+      }
+    ]
+  }
+]

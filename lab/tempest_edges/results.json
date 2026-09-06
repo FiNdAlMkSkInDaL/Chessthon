@@ -1,0 +1,221 @@
+{
+  "audit": "PASS",
+  "total_screen_games": 96,
+  "total_legal_plies": 13287,
+  "screens": {
+    "queen": {
+      "audit": "PASS",
+      "games": 16,
+      "wins": 3,
+      "draws": 8,
+      "losses": 5,
+      "score": 0.4375,
+      "legal_plies": 2255,
+      "cold_seconds": {
+        "baseline": 34.8298673350364,
+        "candidate": 34.10915290750563
+      },
+      "decision": "REJECT promotion testing",
+      "scope": "Used-family 16-game 500ms equal-wall addition screen; not full-clock or reliable Elo evidence.",
+      "plan_sha256": "c6e616e5e7738a27fe3a56226da0298ab2664d0a1e354056438041bd350b8155",
+      "log_sha256": "31f00229586295254a306be491891a4be0abc81492ae0864dc4e0ef3ea201010",
+      "candidate": "lab/tempest_edges/prototypes/queen",
+      "baseline": "lab/tempest_edges/prototypes/control",
+      "candidate_routes": {
+        "search": 1098,
+        "exact": 16,
+        "forced": 13
+      },
+      "four_piece_coverage_games": []
+    },
+    "graded": {
+      "audit": "PASS",
+      "games": 16,
+      "wins": 1,
+      "draws": 9,
+      "losses": 6,
+      "score": 0.34375,
+      "legal_plies": 2152,
+      "cold_seconds": {
+        "baseline": 33.68426919914782,
+        "candidate": 33.954774517565966
+      },
+      "decision": "REJECT promotion testing",
+      "scope": "Used-family 16-game 500ms equal-wall addition screen; not full-clock or reliable Elo evidence.",
+      "plan_sha256": "2ca9972b57c1363d48f2c632334028ce6ddfcd3c2aa0de139ef91d33811ae261",
+      "log_sha256": "d0766c047f5dd82deb622884c858e40fb4b0304a9c52d06536a6c2f47ea66f27",
+      "candidate": "lab/tempest_edges/prototypes/graded",
+      "baseline": "lab/tempest_edges/prototypes/control",
+      "candidate_routes": {
+        "search": 1060,
+        "forced": 8,
+        "exact": 8
+      },
+      "four_piece_coverage_games": []
+    },
+    "capture": {
+      "audit": "PASS",
+      "games": 16,
+      "wins": 5,
+      "draws": 8,
+      "losses": 3,
+      "score": 0.5625,
+      "legal_plies": 1660,
+      "cold_seconds": {
+        "baseline": 74.36113989999285,
+        "candidate": 74.33153820000007
+      },
+      "decision": "INCONCLUSIVE",
+      "scope": "Used-family 16-game 500ms equal-wall addition screen; not full-clock or reliable Elo evidence.",
+      "plan_sha256": "53e340ed4505d59675cae6420f901c909500734e4be433864f7f2e2d58a8b5fd",
+      "log_sha256": "82eee01323360feeec56d6bcf58874ecf091301422bba24f220ee78b188da979",
+      "candidate": "lab/tempest_edges/prototypes/capture",
+      "baseline": "lab/tempest_edges/prototypes/control",
+      "candidate_routes": {
+        "search": 813,
+        "forced": 8,
+        "exact": 10
+      },
+      "four_piece_coverage_games": []
+    },
+    "bucket": {
+      "audit": "PASS",
+      "games": 16,
+      "wins": 5,
+      "draws": 5,
+      "losses": 6,
+      "score": 0.46875,
+      "legal_plies": 2092,
+      "cold_seconds": {
+        "baseline": 88.00601579999784,
+        "candidate": 71.4352566999878
+      },
+      "decision": "REJECT promotion testing",
+      "scope": "Used-family 16-game 500ms equal-wall addition screen; not full-clock or reliable Elo evidence.",
+      "plan_sha256": "6f974cb9b6d44f26e819e6bfd1e9e196124606c75a205cfbee132e739a43cdbf",
+      "log_sha256": "126c4190a68b98a76bdbdb69adfe5e3fc8e552fbab883322cadb901cf41d4e6d",
+      "candidate": "lab/tempest_edges/prototypes/bucket",
+      "baseline": "lab/tempest_edges/prototypes/control",
+      "candidate_routes": {
+        "search": 1029,
+        "forced": 17
+      },
+      "four_piece_coverage_games": []
+    },
+    "bundle": {
+      "audit": "PASS",
+      "games": 16,
+      "wins": 3,
+      "draws": 7,
+      "losses": 6,
+      "score": 0.40625,
+      "legal_plies": 2585,
+      "cold_seconds": {
+        "baseline": 34.852553736418486,
+        "candidate": 35.51321822218597
+      },
+      "decision": "REJECT promotion testing",
+      "scope": "Used-family 16-game 500ms equal-wall addition screen; not full-clock or reliable Elo evidence.",
+      "plan_sha256": "f0afdfbbb89fcfac6f5b818a3b3042c5dc42e4d0ba3bb87bc83d69b612c3e5bd",
+      "log_sha256": "3795bc1f69d39669948495f2250c92940b19ec3e481df3ecda4bc5a9bf8d75b5",
+      "candidate": "lab/tempest_edges/prototypes/capture_tables",
+      "baseline": "lab/tempest_edges/prototypes/release",
+      "candidate_routes": {
+        "search": 1138,
+        "exact": 140,
+        "forced": 13
+      },
+      "four_piece_coverage_games": [
+        {
+          "opening": 0,
+          "colour": "white",
+          "points": 0.5,
+          "four_piece_calls": 6
+        },
+        {
+          "opening": 1,
+          "colour": "black",
+          "points": 0.5,
+          "four_piece_calls": 50
+        },
+        {
+          "opening": 2,
+          "colour": "white",
+          "points": 0.5,
+          "four_piece_calls": 10
+        },
+        {
+          "opening": 2,
+          "colour": "black",
+          "points": 0.0,
+          "four_piece_calls": 3
+        },
+        {
+          "opening": 3,
+          "colour": "white",
+          "points": 0.0,
+          "four_piece_calls": 11
+        },
+        {
+          "opening": 4,
+          "colour": "white",
+          "points": 1.0,
+          "four_piece_calls": 1
+        },
+        {
+          "opening": 5,
+          "colour": "white",
+          "points": 0.0,
+          "four_piece_calls": 2
+        },
+        {
+          "opening": 7,
+          "colour": "black",
+          "points": 0.0,
+          "four_piece_calls": 4
+        }
+      ]
+    },
+    "tables": {
+      "audit": "PASS",
+      "games": 16,
+      "wins": 4,
+      "draws": 8,
+      "losses": 4,
+      "score": 0.5,
+      "legal_plies": 2543,
+      "cold_seconds": {
+        "baseline": 34.892195511609316,
+        "candidate": 34.36913136020303
+      },
+      "decision": "INCONCLUSIVE",
+      "scope": "Used-family 16-game 500ms equal-wall addition screen; not full-clock or reliable Elo evidence.",
+      "plan_sha256": "b502af9c24371caa260b18a42e1bd9fa2e52a92dd3f431e91335718562ff3fa8",
+      "log_sha256": "f62f83af752a0e9508d7dd9975d33d05386fd9cad784f7bc752a4d5d1b707d41",
+      "candidate": "lab/tempest_edges/prototypes/tables_guard",
+      "baseline": "lab/tempest_edges/prototypes/release",
+      "candidate_routes": {
+        "search": 1230,
+        "exact": 28,
+        "forced": 13
+      },
+      "four_piece_coverage_games": [
+        {
+          "opening": 3,
+          "colour": "white",
+          "points": 0.5,
+          "four_piece_calls": 2
+        },
+        {
+          "opening": 6,
+          "colour": "white",
+          "points": 1.0,
+          "four_piece_calls": 1
+        }
+      ]
+    }
+  },
+  "independent_strength_confirmation_nominated": false,
+  "desktop_promoted": false,
+  "scope": "Six complete exploratory 16-game/500ms screens. Controls/platforms differ; do not pool wins or report a combined Elo. No candidate reached the predeclared 60% nomination threshold. Fresh confirmation families remain unused."
+}

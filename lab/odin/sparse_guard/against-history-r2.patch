@@ -1,0 +1,67 @@
+--- history-perf-r2/core_nb.py
++++ sparse-guard/core_nb.py
+@@ -1697,8 +1697,8 @@
+             and (ply == 0 or undos[ply - 1, U_CAP] != np.uint64(13))
+             and np.int32(st[FIFTY]) < 90
+             and has_nm_pieces(bb, np.int32(st[SIDE]))
++            and nmp_safe_nb(bb)
+         ):
+-            vulnerable_null = not nmp_safe_nb(bb)
+             r = 2 + depth // 5 + min(2, (static_eval - beta) // 200)
+             make_null(bb, mb, st, undos[ply])
+             # Legal make uses captured-piece IDs 0..11 or empty=12.
+@@ -1739,51 +1739,9 @@
+             if aborted[0]:
+                 return 0
+             if score >= beta:
+-                if vulnerable_null:
+-                    # In queenless sparse endings a pass can manufacture a
+-                    # zugzwang escape.  Recheck the fail-high from the real
+-                    # position with NMP and the other aggressive pruning
+-                    # gates disabled; the evaluator remains the same PeSTO
+-                    # score under the current live rules.  This path is only
+-                    # reached after a putative fail-high, not at every node.
+-                    verify = negamax_nb(
+-                        bb,
+-                        mb,
+-                        st,
+-                        depth - 1,
+-                        beta - 1,
+-                        beta,
+-                        ply,
+-                        hist,
+-                        hlen,
+-                        True,
+-                        cap_left,
+-                        has_pair,
+-                        hist_sig,
+-                        null_tree,
+-                        max_nodes,
+-                        allow_abort,
+-                        undos,
+-                        stacks,
+-                        scratches,
+-                        ttk,
+-                        ttm,
+-                        tts,
+-                        ttd,
+-                        ttg,
+-                        tta,
+-                        killers,
+-                        histy,
+-                        nodes,
+-                        aborted,
+-                    )
+-                    if aborted[0]:
+-                        return 0
+-                    score = verify
+-                if score >= beta:
+-                    if score >= MATE_WIN:
+-                        return beta
+-                    return score
++                if score >= MATE_WIN:
++                    return beta
++                return score
+ 
+     if hash_move == 0 and depth >= IIR_MIN_D and not checked and not adjudicate:
+         depth -= 1

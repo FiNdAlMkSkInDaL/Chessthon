@@ -1,0 +1,130 @@
+# Original Odin positional features; weights fitted offline on private labels.
+FEATURE_MG = np.array(__MG__, dtype=np.int32)
+FEATURE_EG = np.array(__EG__, dtype=np.int32)
+FEATURE_FILES = np.array([0x0101010101010101 << f for f in range(8)], dtype=np.uint64)
+FEATURE_PASSED = np.zeros((2,64), dtype=np.uint64)
+for _c in range(2):
+    for _s in range(64):
+        _mask = 0
+        for _f in range(max(0,(_s&7)-1), min(7,(_s&7)+1)+1):
+            for _r in (range((_s>>3)+1,8) if _c == 0 else range(_s>>3)):
+                _mask |= 1 << (_r*8+_f)
+        FEATURE_PASSED[_c,_s] = np.uint64(_mask)
+
+
+@njit(cache=False, inline='never')
+def positional_features_nb(bb, st):
+    features = np.zeros(24, dtype=np.int32)
+    occ = st[OCC]
+    for color in range(2):
+        base = color*6
+        enemy = (color^1)*6
+        sign = 1 if color == 0 else -1
+        pawns = bb[base]
+        enemy_pawns = bb[enemy]
+        king = lsb(bb[base+5])
+        enemy_king = lsb(bb[enemy+5])
+        own_att = np.uint64(0)
+        scan = pawns
+        while scan:
+            sq = lsb(scan)
+            scan &= scan-np.uint64(1)
+            own_att |= PAWN_A[color,sq]
+        enemy_att = np.uint64(0)
+        scan = enemy_pawns
+        while scan:
+            sq = lsb(scan)
+            scan &= scan-np.uint64(1)
+            enemy_att |= PAWN_A[color^1,sq]
+        for file in range(8):
+            count = popc(pawns & FEATURE_FILES[file])
+            if count > 1:
+                features[1] += sign*(count-1)
+            adjacent = np.uint64(0)
+            if file > 0:
+                adjacent |= FEATURE_FILES[file-1]
+            if file < 7:
+                adjacent |= FEATURE_FILES[file+1]
+            if count and not (pawns & adjacent):
+                features[0] += sign*count
+        features[2] += sign*popc(own_att & pawns)
+        scan = pawns
+        while scan:
+            sq = lsb(scan)
+            scan &= scan-np.uint64(1)
+            if not (enemy_pawns & FEATURE_PASSED[color,sq]):
+                advance = (sq>>3) if color == 0 else 7-(sq>>3)
+                features[3] += sign*advance
+                push = sq+8 if color == 0 else sq-8
+                if push < 0 or push >= 64 or (occ & bit(push)):
+                    features[4] += sign
+                features[5] += sign*max(abs((king&7)-(sq&7)),abs((king>>3)-(sq>>3)))
+                features[6] += sign*max(abs((enemy_king&7)-(sq&7)),abs((enemy_king>>3)-(sq>>3)))
+                features[17] += sign*max(0,advance-2)**2
+        scan = bb[base+3]
+        while scan:
+            sq = lsb(scan)
+            scan &= scan-np.uint64(1)
+            file_mask = FEATURE_FILES[sq&7]
+            if not (pawns & file_mask):
+                features[7 if not (enemy_pawns & file_mask) else 8] += sign
+            if (sq>>3) == (6 if color == 0 else 1):
+                features[18] += sign
+        for file in range(max(0,(king&7)-1),min(7,(king&7)+1)+1):
+            for distance in range(1,3):
+                rank = (king>>3)+(distance if color == 0 else -distance)
+                if 0 <= rank < 8 and (pawns & bit(rank*8+file)):
+                    features[9] += sign
+                    break
+        if not ((pawns | enemy_pawns) & FEATURE_FILES[king&7]):
+            features[10] += sign
+        if popc(bb[base+2]) >= 2:
+            features[11] += sign
+        safe = ~st[OCC_W if color == 0 else OCC_B] & ~enemy_att
+        zone = KING_A[enemy_king] | bit(enemy_king)
+        pressure = 0
+        attackers = 0
+        for pt in range(1,5):
+            scan = bb[base+pt]
+            while scan:
+                sq = lsb(scan)
+                scan &= scan-np.uint64(1)
+                if pt == 1:
+                    attacks = KNIGHT_A[sq]
+                elif pt == 2:
+                    attacks = bishop_att(sq,occ)
+                elif pt == 3:
+                    attacks = rook_att(sq,occ)
+                else:
+                    attacks = queen_att(sq,occ)
+                features[11+pt] += sign*popc(attacks & safe)
+                hits = popc(attacks & zone)
+                if hits:
+                    pressure += hits*(2 if pt <= 2 else (3 if pt == 3 else 5))
+                    attackers += 1
+        if bb[base+4]:
+            features[16] += sign*pressure*min(3,attackers)
+        for pt in range(5):
+            features[19+pt] += sign*popc(bb[base+pt])
+    return features
+
+
+@njit(cache=False, inline='never')
+def positional_correction_nb(bb, st):
+    features = positional_features_nb(bb,st)
+    mg = 0
+    eg = 0
+    for i in range(24):
+        mg += features[i]*FEATURE_MG[i]
+        eg += features[i]*FEATURE_EG[i]
+    phase = min(24,np.int64(st[PHASE_ACC]))
+    score = int(np.rint((mg*phase+eg*(24-phase))/24.0))
+    return max(-400,min(400,score))
+
+
+@njit(cache=False)
+def evaluate_nb(bb, st, adjudicate):
+    correction = positional_correction_nb(bb,st)
+    if st[SIDE] == 1:
+        correction = -correction
+    return np.int32(pesto_nb(bb,st,True)+correction)

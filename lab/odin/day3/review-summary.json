@@ -1,0 +1,416 @@
+{
+  "source_version_at_receipt": "Desktop agent.zip was verified as Odin v5 c7d8972e...e21102; user says these games came from that submission. Site exports do not independently embed an archive SHA.",
+  "day3_games": [
+    {
+      "round": 31,
+      "opponent": "xx",
+      "colour": "black",
+      "points": 1.0,
+      "result": "0-1",
+      "termination": "CHECKMATE",
+      "plies": 206,
+      "init_s": 46.0,
+      "final_clock_s": 4.025,
+      "min_clock_after_increment_s": 0.9,
+      "pgn_sha256": "a1e4238c245d892eb3504ded71b19ae496069962f2426b0d94e4becc3228a357",
+      "log_sha256": "4211ee6ffe236a0192a603921805cf3c3d45efd3a3b07a831b25c0e90be2c7d5"
+    },
+    {
+      "round": 32,
+      "opponent": "ms",
+      "colour": "white",
+      "points": 0.0,
+      "result": "0-1",
+      "termination": "CHECKMATE",
+      "plies": 96,
+      "init_s": 46.9,
+      "final_clock_s": 4.84,
+      "min_clock_after_increment_s": 2.497,
+      "pgn_sha256": "61197dbf9516e156d76767248a8e30d5f301d17c0bbc0fa5d7a6db0baa1f33b6",
+      "log_sha256": "9b270ed3e0892c0dfe5baa6477879bb02ee3a915474df214a454082895ac959c"
+    },
+    {
+      "round": 33,
+      "opponent": "AI Fellows",
+      "colour": "black",
+      "points": 0.0,
+      "result": "1-0",
+      "termination": "CHECKMATE",
+      "plies": 100,
+      "init_s": 43.9,
+      "final_clock_s": 8.629,
+      "min_clock_after_increment_s": 5.69,
+      "pgn_sha256": "5a72ebb41c3e985f9da9d1586f0acad8bf7c8b3fe2f8307f8024690cd5e2c7b2",
+      "log_sha256": "e89a7ae7261952e7d4ef5cff04cdcc554e72f47c95a033b5404f1cd76d208645"
+    },
+    {
+      "round": 34,
+      "opponent": "adashima",
+      "colour": "white",
+      "points": 0.0,
+      "result": "0-1",
+      "termination": "CHECKMATE",
+      "plies": 79,
+      "init_s": 58.8,
+      "final_clock_s": 8.332,
+      "min_clock_after_increment_s": 6.994,
+      "pgn_sha256": "95e49caad17e7b10818375dab54ff9a9ebc5e03b307288ee3cedaeaefa6a5a5b",
+      "log_sha256": "1fdd6dd0aa5155b4d6fa21e20d5ab02e2a8de7d96e3661e19bf346ac78e2eeb0"
+    }
+  ],
+  "wins": 1,
+  "draws": 0,
+  "losses": 3,
+  "reference_positions": 485,
+  "critical_comparisons": [
+    {
+      "id": "day3-r31-p81",
+      "round": 31,
+      "ply": 81,
+      "move_number": 48,
+      "played_san": "Ne6",
+      "best_own_cp": -112,
+      "played_own_cp": -120,
+      "loss_cp": 8,
+      "time_left_ms": 13460,
+      "reference_best_san": "Bg7",
+      "v5": {
+        "adaptive": {
+          "move": "Ne6",
+          "depth": 17,
+          "score": -24
+        },
+        "fixed-3000ms": {
+          "move": "Ne6",
+          "depth": 19,
+          "score": -12
+        }
+      },
+      "v6": {
+        "adaptive": {
+          "move": "Ne6",
+          "depth": 18,
+          "score": -17
+        },
+        "fixed-3000ms": {
+          "move": "Ne6",
+          "depth": 19,
+          "score": -12
+        }
+      }
+    },
+    {
+      "id": "day3-r32-p8",
+      "round": 32,
+      "ply": 8,
+      "move_number": 12,
+      "played_san": "Rae1",
+      "best_own_cp": 4,
+      "played_own_cp": -68,
+      "loss_cp": 72,
+      "time_left_ms": 107597,
+      "reference_best_san": "Nb3",
+      "v5": {
+        "adaptive": {
+          "move": "Rae1",
+          "depth": 12,
+          "score": -2
+        },
+        "fixed-3000ms": {
+          "move": "Rae1",
+          "depth": 11,
+          "score": 1
+        }
+      },
+      "v6": {
+        "adaptive": {
+          "move": "Rae1",
+          "depth": 12,
+          "score": -2
+        },
+        "fixed-3000ms": {
+          "move": "Rae1",
+          "depth": 12,
+          "score": -7
+        }
+      }
+    },
+    {
+      "id": "day3-r32-p18",
+      "round": 32,
+      "ply": 18,
+      "move_number": 17,
+      "played_san": "Qg4",
+      "best_own_cp": -237,
+      "played_own_cp": -446,
+      "loss_cp": 209,
+      "time_left_ms": 91735,
+      "reference_best_san": "Kh2",
+      "v5": {
+        "adaptive": {
+          "move": "Qg4",
+          "depth": 14,
+          "score": -87
+        },
+        "fixed-3000ms": {
+          "move": "Qg4",
+          "depth": 12,
+          "score": -70
+        }
+      },
+      "v6": {
+        "adaptive": {
+          "move": "Qg4",
+          "depth": 15,
+          "score": -87
+        },
+        "fixed-3000ms": {
+          "move": "Be3",
+          "depth": 13,
+          "score": -87
+        }
+      }
+    },
+    {
+      "id": "day3-r33-p4",
+      "round": 33,
+      "ply": 4,
+      "move_number": 9,
+      "played_san": "a4",
+      "best_own_cp": -74,
+      "played_own_cp": -72,
+      "loss_cp": -2,
+      "time_left_ms": 111493,
+      "reference_best_san": "h6",
+      "v5": {
+        "adaptive": {
+          "move": "Be6",
+          "depth": 13,
+          "score": -5
+        },
+        "fixed-3000ms": {
+          "move": "Be6",
+          "depth": 11,
+          "score": -6
+        }
+      },
+      "v6": {
+        "adaptive": {
+          "move": "Be6",
+          "depth": 14,
+          "score": -5
+        },
+        "fixed-3000ms": {
+          "move": "Be6",
+          "depth": 11,
+          "score": -6
+        }
+      }
+    },
+    {
+      "id": "day3-r33-p6",
+      "round": 33,
+      "ply": 6,
+      "move_number": 10,
+      "played_san": "Be6",
+      "best_own_cp": -41,
+      "played_own_cp": -193,
+      "loss_cp": 152,
+      "time_left_ms": 107468,
+      "reference_best_san": "Bd7",
+      "v5": {
+        "adaptive": {
+          "move": "Be6",
+          "depth": 13,
+          "score": -40
+        },
+        "fixed-3000ms": {
+          "move": "Be6",
+          "depth": 12,
+          "score": -32
+        }
+      },
+      "v6": {
+        "adaptive": {
+          "move": "Be6",
+          "depth": 13,
+          "score": -40
+        },
+        "fixed-3000ms": {
+          "move": "Be6",
+          "depth": 13,
+          "score": -35
+        }
+      }
+    },
+    {
+      "id": "day3-r33-p34",
+      "round": 33,
+      "ply": 34,
+      "move_number": 24,
+      "played_san": "Bxe4",
+      "best_own_cp": -430,
+      "played_own_cp": -603,
+      "loss_cp": 173,
+      "time_left_ms": 70065,
+      "reference_best_san": "Kh7",
+      "v5": {
+        "adaptive": {
+          "move": "Bxe4",
+          "depth": 14,
+          "score": -192
+        },
+        "fixed-3000ms": {
+          "move": "Bxe4",
+          "depth": 12,
+          "score": -184
+        }
+      },
+      "v6": {
+        "adaptive": {
+          "move": "Bxe4",
+          "depth": 14,
+          "score": -192
+        },
+        "fixed-3000ms": {
+          "move": "Bxe4",
+          "depth": 13,
+          "score": -174
+        }
+      }
+    },
+    {
+      "id": "day3-r34-p23",
+      "round": 34,
+      "ply": 23,
+      "move_number": 20,
+      "played_san": "exf5",
+      "best_own_cp": -34,
+      "played_own_cp": -214,
+      "loss_cp": 180,
+      "time_left_ms": 88672,
+      "reference_best_san": "c5",
+      "v5": {
+        "adaptive": {
+          "move": "exf5",
+          "depth": 15,
+          "score": -17
+        },
+        "fixed-3000ms": {
+          "move": "exf5",
+          "depth": 14,
+          "score": -21
+        }
+      },
+      "v6": {
+        "adaptive": {
+          "move": "exf5",
+          "depth": 16,
+          "score": -34
+        },
+        "fixed-3000ms": {
+          "move": "exf5",
+          "depth": 14,
+          "score": -21
+        }
+      }
+    },
+    {
+      "id": "day3-r34-p25",
+      "round": 34,
+      "ply": 25,
+      "move_number": 21,
+      "played_san": "e7",
+      "best_own_cp": -199,
+      "played_own_cp": -476,
+      "loss_cp": 277,
+      "time_left_ms": 87232,
+      "reference_best_san": "f6",
+      "v5": {
+        "adaptive": {
+          "move": "e7",
+          "depth": 16,
+          "score": -87
+        },
+        "fixed-3000ms": {
+          "move": "e7",
+          "depth": 14,
+          "score": -17
+        }
+      },
+      "v6": {
+        "adaptive": {
+          "move": "e7",
+          "depth": 17,
+          "score": -87
+        },
+        "fixed-3000ms": {
+          "move": "e7",
+          "depth": 14,
+          "score": -17
+        }
+      }
+    }
+  ],
+  "same_adaptive_choices": 8,
+  "probe_metadata": {
+    "5": {
+      "type": "metadata",
+      "source": "odin_submission",
+      "source_sha256": {
+        "agent.py": "d5c4d0791d32442941e8f0bba5c5e90ec65d31853796b4ff97cc8db94e5432bf",
+        "bitops_nb.py": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+        "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+        "core_nb.py": "0b65a547e3aa3b927d46d05060ab100e614575fe28f92f0b18869b12ab6f8681",
+        "eval_nb.py": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f",
+        "history.py": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e",
+        "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+        "search_nb.py": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6",
+        "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+        "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+        "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+        "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+      },
+      "cold_s": 34.05130007490516,
+      "native_ready": true,
+      "cpu": 0,
+      "python": "3.12.3",
+      "platform": "Linux-6.8.0-90-generic-x86_64-with-glibc2.39",
+      "machine": "x86_64",
+      "test_sha256": "5374a964f71cba654ac449092a0d53e5987ec402db2585f252107d0f0a26b2a1",
+      "selection_sha256": "2d11e8ed51c199c7e4b14b39a72a83d901a0ac7cce6dbd82eb5e6b670158f324",
+      "method": "Full PGN reconstructed. Agent history seeded only from historically served own turns and legal own moves, exactly the information available to its real process. Clean TT before each case/budget; no future-position leakage. Actual PGN clock for get_move; independent fixed 3 s root diagnostic also provided.",
+      "limitations": "Host hardware can differ from the competition. Historical TT absent. Selected errors are diagnostic, not unbiased strength evidence."
+    },
+    "6": {
+      "type": "metadata",
+      "source": "odin_v6",
+      "source_sha256": {
+        "agent.py": "5ddf79ad54a3d0d06a3f98761106d98c4a16531c8426e67f2a724109750b87da",
+        "bitops_nb.py": "34f606a1a6bd60d492a90072ff236f15d97c000e131a567c214b59f85baabb58",
+        "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+        "core_nb.py": "9fe2507404f6c92b60592b7766a5351a48dc53b3f337109bb0e593c85a079f2b",
+        "eval_nb.py": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f",
+        "history.py": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e",
+        "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+        "search_nb.py": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6",
+        "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+        "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+        "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+        "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+      },
+      "cold_s": 35.30394866503775,
+      "native_ready": true,
+      "cpu": 1,
+      "python": "3.12.3",
+      "platform": "Linux-6.8.0-90-generic-x86_64-with-glibc2.39",
+      "machine": "x86_64",
+      "test_sha256": "5374a964f71cba654ac449092a0d53e5987ec402db2585f252107d0f0a26b2a1",
+      "selection_sha256": "2d11e8ed51c199c7e4b14b39a72a83d901a0ac7cce6dbd82eb5e6b670158f324",
+      "method": "Full PGN reconstructed. Agent history seeded only from historically served own turns and legal own moves, exactly the information available to its real process. Clean TT before each case/budget; no future-position leakage. Actual PGN clock for get_move; independent fixed 3 s root diagnostic also provided.",
+      "limitations": "Host hardware can differ from the competition. Historical TT absent. Selected errors are diagnostic, not unbiased strength evidence."
+    }
+  },
+  "limitations": "Finite Stockfish reference, selected diagnostics, absent historical engine TT, signer hardware differs from site. Same historical served-position information reconstructed; no future moves exposed. Neither site records nor these probes enter the112-game strength estimate. Small opening-dependent Day3 sample cannot rank versions.",
+  "pipeline_note": "Initial generalized review run failed before writing metadata due to a relative-path conversion; empty initial files/error logs preserved. Corrected runs under reference/ completed all positions."
+}

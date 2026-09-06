@@ -1,0 +1,27 @@
+{
+  "audit": "PASS",
+  "games": 2,
+  "results": [
+    {
+      "candidate_colour": "white",
+      "points": 0.5,
+      "termination": "fifty_moves"
+    },
+    {
+      "candidate_colour": "black",
+      "points": 0.5,
+      "termination": "threefold_repetition"
+    }
+  ],
+  "operational_failures": 0,
+  "legal_plies": 246,
+  "candidate_cold_import_s": [
+    33.885,
+    32.934
+  ],
+  "min_candidate_request_headroom_ms": 494.20900000000006,
+  "fresh_processes": 4,
+  "log_sha256": "36da6db90fd744025c60a9e0c0766f7225f3d92d941d1a28062fa6022ff251ab",
+  "validation_function_sha256": "e471409d8be244920939a0555e57d2066dc9415dd0dabf134a01d78b1ac572e4",
+  "scope": "Two full 120+0.5 wall-clock smoke games, exact current referee, fresh processes, CPU/RAM/no-swap/source/clock audit; not a strength estimate."
+}

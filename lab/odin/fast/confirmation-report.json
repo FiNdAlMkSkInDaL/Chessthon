@@ -1,0 +1,80 @@
+{
+  "complete": true,
+  "exploratory_only": true,
+  "ranking": [
+    "iir_off",
+    "see_order",
+    "iir_late",
+    "combined_see_order_iir_late"
+  ],
+  "candidates": [
+    {
+      "name": "combined_see_order_iir_late",
+      "complete": true,
+      "games": 48,
+      "wins": 12,
+      "draws": 23,
+      "losses": 13,
+      "points": 23.5,
+      "score": 0.4895833333333333,
+      "replayed_plies": 5957,
+      "errors": [],
+      "parameters": 2,
+      "source": "odin_generation/combined_see_order_iir_late",
+      "lane": "confirm-b",
+      "seconds": 733.9628705866635,
+      "log_sha256": "4dc3f8c3d22a5a59ac0801614eda8e8e76835761b5e9f4be35d8c84dd881953b"
+    },
+    {
+      "name": "iir_late",
+      "complete": true,
+      "games": 48,
+      "wins": 13,
+      "draws": 21,
+      "losses": 14,
+      "points": 23.5,
+      "score": 0.4895833333333333,
+      "replayed_plies": 6313,
+      "errors": [],
+      "parameters": 1,
+      "source": "odin_generation/iir_late",
+      "lane": "confirm-b",
+      "seconds": 762.4406240321696,
+      "log_sha256": "d474d796dbee42fcb64cd74c05a6cf477ed55689241d2928d95fcf361410892e"
+    },
+    {
+      "name": "iir_off",
+      "complete": true,
+      "games": 48,
+      "wins": 15,
+      "draws": 20,
+      "losses": 13,
+      "points": 25.0,
+      "score": 0.5208333333333334,
+      "replayed_plies": 7397,
+      "errors": [],
+      "parameters": 1,
+      "source": "odin_generation/iir_off",
+      "lane": "confirm-a",
+      "seconds": 858.343081695959,
+      "log_sha256": "b30ae6bcf0bb7940419f108b166d93e4c8865875e1788ff83be79ce65a812da4"
+    },
+    {
+      "name": "see_order",
+      "complete": true,
+      "games": 48,
+      "wins": 10,
+      "draws": 28,
+      "losses": 10,
+      "points": 24.0,
+      "score": 0.5,
+      "replayed_plies": 5781,
+      "errors": [],
+      "parameters": 1,
+      "source": "odin_generation/see_order",
+      "lane": "confirm-a",
+      "seconds": 723.9154657684267,
+      "log_sha256": "69d3e68f3b7961e79e17ac481271d5eb2bfe92bacde2c4bf194f2c583fe5ed9a"
+    }
+  ]
+}

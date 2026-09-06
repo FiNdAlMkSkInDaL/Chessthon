@@ -1,0 +1,131 @@
+{
+  "complete": true,
+  "selected": "odin_v6_selective",
+  "exploratory_only": true,
+  "candidates": {
+    "odin_v6_aspiration": {
+      "games": 48,
+      "wins": 13,
+      "draws": 15,
+      "losses": 20,
+      "score": 0.4270833333333333,
+      "platforms": {
+        "linux": {
+          "games": 16,
+          "wins": 5,
+          "draws": 7,
+          "losses": 4,
+          "score": 0.53125
+        },
+        "windows": {
+          "games": 32,
+          "wins": 8,
+          "draws": 8,
+          "losses": 16,
+          "score": 0.375
+        }
+      },
+      "lanes": [
+        {
+          "name": "odin_v6_aspiration-linux-0.jsonl",
+          "games": 16,
+          "complete": true,
+          "sha256": "f4c26ef01c622652751fddd6a2c0e80478af021cfccd17beccccba76e447e48b"
+        },
+        {
+          "name": "odin_v6_aspiration-win-4.jsonl",
+          "games": 16,
+          "complete": true,
+          "sha256": "0271c59cb50c19996dbbc23477ace8d5ce54ef2c6baddba308e1460ff0f5aa91"
+        },
+        {
+          "name": "odin_v6_aspiration-win-5.jsonl",
+          "games": 16,
+          "complete": true,
+          "sha256": "8023dba0edfe39758f7b975618766106989c6b41b9375fe8ceea01f0a61d3bdc"
+        }
+      ],
+      "median_game_seconds": 18.96850000000086,
+      "cold_import_seconds": [
+        34.082466239109635,
+        32.9335718229413,
+        101.01959550000174,
+        102.23743699999977,
+        97.60017680000237,
+        95.06553530000019
+      ],
+      "reset_seconds": [
+        0.04850707948207855,
+        0.04759562946856022,
+        0.06891860000177985,
+        0.059588299998722505,
+        0.032299199996487005,
+        0.059876100000110455
+      ],
+      "baseline_cold_worker_agreement": true,
+      "replayed_plies": 5378
+    },
+    "odin_v6_selective": {
+      "games": 48,
+      "wins": 19,
+      "draws": 12,
+      "losses": 17,
+      "score": 0.5208333333333334,
+      "platforms": {
+        "linux": {
+          "games": 16,
+          "wins": 6,
+          "draws": 3,
+          "losses": 7,
+          "score": 0.46875
+        },
+        "windows": {
+          "games": 32,
+          "wins": 13,
+          "draws": 9,
+          "losses": 10,
+          "score": 0.546875
+        }
+      },
+      "lanes": [
+        {
+          "name": "odin_v6_selective-linux-1.jsonl",
+          "games": 16,
+          "complete": true,
+          "sha256": "7ddfbe2bc1665871e906ce598818e638bd0b97647f3a435c0bd15f289d9daf14"
+        },
+        {
+          "name": "odin_v6_selective-win-6.jsonl",
+          "games": 16,
+          "complete": true,
+          "sha256": "59ab1eb0d4683e2e9691873e58049beec3e620deb68c125a30c5367f784b3c39"
+        },
+        {
+          "name": "odin_v6_selective-win-7.jsonl",
+          "games": 16,
+          "complete": true,
+          "sha256": "f98a2bb8b1c23923d28886b023cb9a77513624cb53f1bf07c020a2704946bf17"
+        }
+      ],
+      "median_game_seconds": 21.82799999999952,
+      "cold_import_seconds": [
+        33.799823220819235,
+        33.1200388930738,
+        93.76364140000078,
+        93.54135310000129,
+        99.11529869999868,
+        98.8764157000005
+      ],
+      "reset_seconds": [
+        0.049200527369976044,
+        0.05122974142432213,
+        0.07805029999872204,
+        0.05292430000190507,
+        0.06744959999923594,
+        0.1091247000003932
+      ],
+      "baseline_cold_worker_agreement": true,
+      "replayed_plies": 5942
+    }
+  }
+}

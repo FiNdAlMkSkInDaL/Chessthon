@@ -1,0 +1,20 @@
+{
+  "scope": "Exact source/archive/native evidence only. Complete primary and guard match gates remain mandatory.",
+  "verdict": "PASS",
+  "native": {
+    "verdict": "PASS",
+    "candidate_sha256": "c7d8972e823eb821c016010445d4b02996daff954d870d63083c445850e21102",
+    "cold_import_s": {
+      "structural": 33.08847641199827,
+      "protocol": 35.05324353836477
+    },
+    "peak_memory_bytes": 455131136
+  },
+  "desktop": {
+    "Storm-v4.zip": "15db92a79feff24cf52f5b85974f55504753f981823d7e6d92881fb62812e85c",
+    "v3-agent.zip": "3397e7a8ca55696bb8d7586a9c73cbeabc0c8b6f51b26cdc8c26562a37c91408",
+    "agent.zip": "15db92a79feff24cf52f5b85974f55504753f981823d7e6d92881fb62812e85c"
+  },
+  "entries": 12,
+  "bytes": 37392
+}

@@ -1,0 +1,293 @@
+{
+  "engine": "C:\\Users\\finla\\OneDrive - University College London\\Desktop\\Chess TK\\storm",
+  "source_sha256": {
+    "agent.py": "8b35dfa0a13357fff7eec60abfa7b5347ceb0613ecd0aeb40f25cee7588bd13f",
+    "bitops_nb.py": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+    "board_nb.py": "fd3706ffa5ad1b818a7849ec210a61e348cc10ef4c9fbf3bcb786c63830db2ae",
+    "core_nb.py": "6d2b788aa3a59a665fb02a68de05a614e0bf993873a24842b9b4ea2b18d16307",
+    "eval_nb.py": "74a6be38dd11bc0745f6a5c5f6535245ee492bcf8aeb882a3fd00696a7d8c150",
+    "history.py": "fd796c86fb7992bcc595edfcceed79522f0e9da3fa2c4e7dfd51311e66415326",
+    "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+    "search_nb.py": "af2227ea46f31fa691c2928c0ddb478535e553eb5b61e0337ee1b2962f95e376",
+    "storm_clock.py": "6735ad63dc868930c870df8d45ccd5a879a0a54b80953a4c93ea5ac6b5cc5877",
+    "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+    "time_nb.py": "c37d7d2ff1d1220d9ccc3e0feb704ae04ff0e88ffbbf937e0bc777ae927b9f9d",
+    "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+  },
+  "cpu": 7,
+  "warmup_s": 88.83896749999258,
+  "depth": 5,
+  "positions": [
+    {
+      "fen": "r3r1k1/ppp3pp/2nq1n2/3p4/P2Pp3/B1P1P3/2B1QPPP/R4RK1 b - - 2 15",
+      "move": "d6d7",
+      "score": -75,
+      "nodes": 10637,
+      "seconds": 0.04758179999771528,
+      "aborted": false
+    },
+    {
+      "fen": "2rq1rk1/pp3pbp/3pbnp1/P1p1p3/2PnP3/2NP1NPP/1P3PB1/R1BQR1K1 b - - 0 14",
+      "move": "d8d7",
+      "score": 13,
+      "nodes": 28625,
+      "seconds": 0.10712470000726171,
+      "aborted": false
+    },
+    {
+      "fen": "r4rk1/pp1qBpb1/4p1pp/4P3/3P4/5P2/P2Q1PBP/2R1K2R b K - 0 17",
+      "move": "d7e7",
+      "score": 17,
+      "nodes": 4049,
+      "seconds": 0.010380599997006357,
+      "aborted": false
+    },
+    {
+      "fen": "r3qrk1/pp5p/3p2p1/2nP2B1/2P3P1/8/PbQ1BP2/R3K2R w KQ - 0 18",
+      "move": "a1d1",
+      "score": 14,
+      "nodes": 8795,
+      "seconds": 0.043567199987592176,
+      "aborted": false
+    },
+    {
+      "fen": "r1b2rk1/p1qn1p1p/2p1p1p1/2p4P/4N3/3P1Nb1/PPP5/R1BQ1K1R w - - 4 15",
+      "move": "f1g2",
+      "score": -227,
+      "nodes": 13166,
+      "seconds": 0.038933000003453344,
+      "aborted": false
+    },
+    {
+      "fen": "r4rk1/pp1q1ppp/2N5/2bp4/4n3/4BN1P/PPP2PP1/R2Q1RK1 b - - 0 13",
+      "move": "d7c6",
+      "score": 5,
+      "nodes": 4315,
+      "seconds": 0.01650490000611171,
+      "aborted": false
+    },
+    {
+      "fen": "3rkbnr/1p1q1ppp/p1bp4/3Np3/2B1P3/1Q6/PPP2PPP/R1B2RK1 b k - 9 13",
+      "move": "b7b5",
+      "score": -36,
+      "nodes": 15418,
+      "seconds": 0.05708739999681711,
+      "aborted": false
+    },
+    {
+      "fen": "2r2rk1/pp2nppp/3qpn2/1P1p4/3P2b1/P1PB1N2/2QN1PPP/R4RK1 b - - 2 15",
+      "move": "d6c7",
+      "score": 11,
+      "nodes": 19386,
+      "seconds": 0.0658627999946475,
+      "aborted": false
+    },
+    {
+      "fen": "1r1qr1k1/p1p2p2/P1np1n1p/1pb1p1p1/4P3/NBPPB1QP/1P3PP1/R4RK1 b - - 3 15",
+      "move": "f6h5",
+      "score": -43,
+      "nodes": 10445,
+      "seconds": 0.04671339999185875,
+      "aborted": false
+    },
+    {
+      "fen": "3q1rk1/2Nbppbp/p2p1np1/Q7/2Pp4/3P2P1/PP2PP1P/R1B2RK1 b - - 3 14",
+      "move": "f6e8",
+      "score": 113,
+      "nodes": 5102,
+      "seconds": 0.012143600004492328,
+      "aborted": false
+    },
+    {
+      "fen": "r1bq1rk1/5ppp/1bP2nn1/p7/P1BPp3/2P2N2/1B1N1PPP/R2Q1RK1 b - - 0 15",
+      "move": "e4f3",
+      "score": 85,
+      "nodes": 3870,
+      "seconds": 0.014065399998798966,
+      "aborted": false
+    },
+    {
+      "fen": "r4r2/pp1qbkpp/2n5/3pp3/6Q1/N1P4P/PBP2PP1/1R2K2R b K - 5 15",
+      "move": "a8d8",
+      "score": 25,
+      "nodes": 9913,
+      "seconds": 0.035618499998236075,
+      "aborted": false
+    },
+    {
+      "fen": "r2q1rk1/pp2bppp/5n2/3p3b/P2N4/2PB1P2/1P4PP/R1BQ1RK1 b - - 2 13",
+      "move": "h5g6",
+      "score": 27,
+      "nodes": 20560,
+      "seconds": 0.08064359999843873,
+      "aborted": false
+    },
+    {
+      "fen": "r4rk1/ppqb1ppp/2n1pn2/3pN3/3P1P2/1N6/PP2BPPP/2RQ1RK1 b - - 8 14",
+      "move": "a8c8",
+      "score": -23,
+      "nodes": 23122,
+      "seconds": 0.08077090000733733,
+      "aborted": false
+    },
+    {
+      "fen": "r4rk1/4bppp/pq2bn2/np2P3/P1p5/2P2N2/BP1N1PPP/R1BQR1K1 b - - 0 15",
+      "move": "f6g4",
+      "score": -72,
+      "nodes": 18805,
+      "seconds": 0.06434499999159016,
+      "aborted": false
+    },
+    {
+      "fen": "1r1r2k1/1pp3pp/2n1q3/p2R4/P1nPp3/BBP1P2P/4QPP1/4R1K1 b - - 0 27",
+      "move": "d8d5",
+      "score": -103,
+      "nodes": 3985,
+      "seconds": 0.0150236000190489,
+      "aborted": false
+    },
+    {
+      "fen": "2br2k1/p4pb1/6pp/2qPp3/2Pp2P1/3P3P/1B1Q1PB1/R5K1 b - - 2 26",
+      "move": "c8b7",
+      "score": 15,
+      "nodes": 14300,
+      "seconds": 0.04195640000398271,
+      "aborted": false
+    },
+    {
+      "fen": "6k1/pp3p2/4p1pb/4P2p/4BPq1/6Q1/P4PKP/8 b - - 3 29",
+      "move": "h6f4",
+      "score": 199,
+      "nodes": 2534,
+      "seconds": 0.007063400000333786,
+      "aborted": false
+    },
+    {
+      "fen": "8/pR5p/3p2p1/3P2k1/2P3P1/7R/r1r5/4K3 w - - 6 30",
+      "move": "e1d1",
+      "score": -177,
+      "nodes": 9325,
+      "seconds": 0.02904990001115948,
+      "aborted": false
+    },
+    {
+      "fen": "5r1k/p1b2p2/b1p5/2p3Qp/8/3P1N2/PPP5/4rK2 w - - 0 27",
+      "move": "f1e1",
+      "score": 180,
+      "nodes": 13092,
+      "seconds": 0.038832299993373454,
+      "aborted": false
+    },
+    {
+      "fen": "4r1k1/1p3p1p/3n2p1/3p4/8/pP3P1P/P1P1NKP1/3R4 b - - 1 25",
+      "move": "d6b5",
+      "score": 49,
+      "nodes": 12108,
+      "seconds": 0.03249589999904856,
+      "aborted": false
+    },
+    {
+      "fen": "1k3b1r/1p5p/p2p2p1/4p3/2Q1Pq2/8/PPP2PRP/3R3K b - - 3 25",
+      "move": "f8e7",
+      "score": -136,
+      "nodes": 20488,
+      "seconds": 0.0705706000153441,
+      "aborted": false
+    },
+    {
+      "fen": "2r3k1/ppr3pp/3qpp2/1P1p4/R2Pn1P1/P2N4/1Q3P1P/5RK1 b - - 5 27",
+      "move": "d6b6",
+      "score": 168,
+      "nodes": 22274,
+      "seconds": 0.06825859998934902,
+      "aborted": false
+    },
+    {
+      "fen": "q7/B1p1rpk1/P2p3p/4p1n1/2R1P1B1/b2PQ3/5PP1/5K2 b - - 3 27",
+      "move": "d6d5",
+      "score": -44,
+      "nodes": 12855,
+      "seconds": 0.04457949998322874,
+      "aborted": false
+    },
+    {
+      "fen": "r2q2k1/1Qn1p1bp/3pb1p1/1P3pP1/P1Pp1P2/3P4/3BP2P/R4RK1 b - - 0 26",
+      "move": "e6f7",
+      "score": 78,
+      "nodes": 9454,
+      "seconds": 0.02808970000478439,
+      "aborted": false
+    },
+    {
+      "fen": "3rr1k1/2q2p1p/2P5/pB1P1p2/PbPNbn2/4R3/5PPP/R1Q3K1 b - - 1 27",
+      "move": "b4d6",
+      "score": 170,
+      "nodes": 24991,
+      "seconds": 0.11050270000123419,
+      "aborted": false
+    },
+    {
+      "fen": "3r4/pp4pp/2n1k3/3p4/4p2P/2P1N3/P1P3P1/3R2K1 b - - 0 27",
+      "move": "d5d4",
+      "score": 111,
+      "nodes": 10305,
+      "seconds": 0.026109700003871694,
+      "aborted": false
+    },
+    {
+      "fen": "2r3k1/1q3pp1/pb3np1/3p4/1PrN4/R1PQ1PP1/3B2KP/4R3 b - - 1 25",
+      "move": "b6d4",
+      "score": 86,
+      "nodes": 22443,
+      "seconds": 0.09045059999334626,
+      "aborted": false
+    },
+    {
+      "fen": "3rr1k1/5pp1/1qQ1b2p/3p4/3P4/P4B1P/P4PP1/2R1R1K1 b - - 0 26",
+      "move": "b6d4",
+      "score": -150,
+      "nodes": 9889,
+      "seconds": 0.043832700001075864,
+      "aborted": false
+    },
+    {
+      "fen": "5r1k/4b1pp/p3b3/P2qPp2/QPp5/2P1R1P1/B2r1P1P/4R1K1 b - - 2 27",
+      "move": "e6d7",
+      "score": 235,
+      "nodes": 18207,
+      "seconds": 0.07081590002053417,
+      "aborted": false
+    },
+    {
+      "fen": "r5k1/pR2B1b1/2PP3p/5p2/3pp3/3P3q/4QP2/4K3 b - - 1 42",
+      "move": "h3h1",
+      "score": 39,
+      "nodes": 19206,
+      "seconds": 0.07679890000144951,
+      "aborted": false
+    },
+    {
+      "fen": "8/8/5k2/p2B1p2/P3p1p1/8/5PK1/4b3 b - - 1 45",
+      "move": "f6e5",
+      "score": 228,
+      "nodes": 3839,
+      "seconds": 0.008424200001172721,
+      "aborted": false
+    }
+  ],
+  "nodes": 425503,
+  "seconds": 1.524197400023695,
+  "evaluation_microbenchmark": {
+    "evaluations_per_sample": 32000,
+    "seconds": [
+      6.349998875521123e-05,
+      5.870001041330397e-05,
+      5.740000051446259e-05
+    ],
+    "median_ns_per_evaluation": 1.834375325415749,
+    "checksum": -1074000,
+    "note": "Cached-position microbenchmark. Whole-search wall time and matches remain the relevant gates."
+  },
+  "source_unchanged": true,
+  "note": "Windows local screen only. Evaluation corrections change search bounds and tree shape; no Elo claim."
+}

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "C:\Users\finla\OneDrive - University College London\Desktop\Chess TK\lab\odin\development_review\compare_sources.py", line 124, in <module>
+    main()
+  File "C:\Users\finla\OneDrive - University College London\Desktop\Chess TK\lab\odin\development_review\compare_sources.py", line 101, in main
+    worker(args)
+  File "C:\Users\finla\OneDrive - University College London\Desktop\Chess TK\lab\odin\development_review\compare_sources.py", line 44, in worker
+    assert core.root_search_nb.nopython_signatures
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

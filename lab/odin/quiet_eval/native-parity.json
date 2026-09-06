@@ -1,0 +1,9 @@
+{
+  "verdict": "PASS",
+  "feature_and_correction_cases": 11202,
+  "eval_nanoseconds_per_call": {
+    "False": 11.535999983607326,
+    "True": 494.8370000056457
+  },
+  "limitations": "Laptop timing diagnostic only; not search throughput or native signer readiness."
+}

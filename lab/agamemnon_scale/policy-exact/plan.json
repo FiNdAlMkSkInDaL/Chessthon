@@ -1,0 +1,3083 @@
+{
+  "roots": [
+    {
+      "fen": "8/4k3/p4p2/4pP2/4P3/1Pp4Q/P1N3K1/8 w - - 3 52",
+      "key": "36a4a90b7bc0eb31bc8ed5baa67a6223",
+      "record": 205891497,
+      "split": 0
+    },
+    {
+      "fen": "r1b1qrk1/ppb3pp/2p1pn2/2Pp1pB1/5P2/2NBP3/PPQ3PP/2KR3R w - - 1 14",
+      "key": "68aaa20b26d5dced523869874b3b067c",
+      "record": 205891498,
+      "split": 0
+    },
+    {
+      "fen": "r4rk1/5ppp/5b2/p3p3/1p4Q1/1q2B2P/N4PP1/R2R2K1 w - - 2 23",
+      "key": "5af3c59b701718c191064ba98e333d27",
+      "record": 205891499,
+      "split": 0
+    },
+    {
+      "fen": "r1bq1rk1/pp2bpp1/1n2pn1p/8/2pPP3/2N2NP1/PPQ2PBP/R1B2RK1 b - - 0 12",
+      "key": "5ef52d7986586dc22f73ebc4192ffbf0",
+      "record": 205891500,
+      "split": 0
+    },
+    {
+      "fen": "8/2K3p1/8/4P2p/3pk3/8/8/8 b - - 0 47",
+      "key": "fd80dbdfb30d81752fb71f67ae5b2375",
+      "record": 205891501,
+      "split": 0
+    },
+    {
+      "fen": "rn2kb1r/ppq2p1p/2p1pp2/8/2BP2b1/5N2/PPPB1PPP/R2QR1K1 w kq - 4 12",
+      "key": "ce701a89e07d5180c8a431362d711494",
+      "record": 205891502,
+      "split": 0
+    },
+    {
+      "fen": "rn5r/ppp3pp/3p2kn/3N2N1/4P3/8/Pq1B1PPP/R2bK2R w KQ - 0 13",
+      "key": "fdbbbf7e48f5b2c17a3b8b65fff31b88",
+      "record": 205891503,
+      "split": 0
+    },
+    {
+      "fen": "r4rk1/2pb1ppp/p2q1n2/4N3/8/4P3/3NBPPP/1R1Q1RK1 b - - 0 18",
+      "key": "6b7b8385fd182485fe532281d51cf19d",
+      "record": 205891504,
+      "split": 0
+    },
+    {
+      "fen": "r1b1k1nr/ppqnbp2/3p2pp/2pPp3/2P1P1P1/2N2N1P/PPQB1P2/R3KB1R b KQkq - 1 10",
+      "key": "95504ad6c05ec9aafabadbb4098e0989",
+      "record": 275726034,
+      "split": 0
+    },
+    {
+      "fen": "1r1q1rk1/p1nnbpp1/Pp1p3p/1NpP4/Q1P5/4BN2/1P3PPP/R3K2R w KQ - 3 17",
+      "key": "b623781029617fdd1709a4a0d7dd7f7a",
+      "record": 275726035,
+      "split": 0
+    },
+    {
+      "fen": "4rrk1/ppp2pp1/3q1n1p/8/P7/1P5P/2P2RP1/5RK1 w - - 1 24",
+      "key": "f68f8878a98474a6073068f0061667f4",
+      "record": 275726036,
+      "split": 0
+    },
+    {
+      "fen": "r6r/pp1k1pp1/1qpbpn1p/3p1b2/3P4/2N1P2P/PPPBBPP1/R2QK2R w KQ - 3 11",
+      "key": "2a1a54937a5bf88e995808bee4befc42",
+      "record": 275726037,
+      "split": 0
+    },
+    {
+      "fen": "8/8/4B3/2b5/1p6/1Pk5/5p2/5K2 b - - 23 65",
+      "key": "4f8147ee1e8945ed81b8781dcc40fc60",
+      "record": 275726038,
+      "split": 0
+    },
+    {
+      "fen": "r3r1k1/pp2qp2/3p3p/2pP4/1n4b1/4PN2/4BPPB/R2Q1RK1 w - - 0 22",
+      "key": "3f915d673a87212e9d7c463ddb642d6e",
+      "record": 275726039,
+      "split": 0
+    },
+    {
+      "fen": "3r1rk1/pp4p1/2b4p/4Rp2/3p1P2/P2p2P1/1P1B1K1P/4R3 b - - 1 22",
+      "key": "640e4c182005cc1c8ddbfed7ff6dca48",
+      "record": 275726040,
+      "split": 0
+    },
+    {
+      "fen": "r3k2r/pppq1ppp/2n1pn2/8/1bPP4/2N1PN2/5PPP/R1BQ1RK1 w kq - 2 11",
+      "key": "0468f82bcb6a199f9b1edffe55c343c6",
+      "record": 275726041,
+      "split": 0
+    },
+    {
+      "fen": "rn1q1rk1/p1pp1ppp/1p2pn2/8/3PbP2/2P2N2/P1P1B1PP/R1BQ1RK1 w - - 4 9",
+      "key": "87ffdb32523da078bd8524a5c28b73a1",
+      "record": 118847907,
+      "split": 0
+    },
+    {
+      "fen": "r3kb1r/pp1n1ppp/2p2n2/5p2/3P4/2N1BPP1/PPP3P1/2KR2NR w kq - 2 13",
+      "key": "d630a920ac28fa326d1408dad4587418",
+      "record": 118847908,
+      "split": 0
+    },
+    {
+      "fen": "6k1/8/7p/8/8/7P/P6K/8 w - - 0 59",
+      "key": "4650e793545cc27bc95f0b2fb762ec09",
+      "record": 118847909,
+      "split": 0
+    },
+    {
+      "fen": "1k1r3r/pp5p/8/3B4/2P3p1/2Q5/PP3PPP/6K1 w - - 3 31",
+      "key": "18011a1e55001b15543a882f61b44f8c",
+      "record": 118847910,
+      "split": 0
+    },
+    {
+      "fen": "r5k1/4p1bb/p6p/1pp1p1pP/8/Pr4N1/1Bp1KP1R/5R2 w - - 0 31",
+      "key": "944d57395fae9a1df855795ce16b0458",
+      "record": 118847912,
+      "split": 0
+    },
+    {
+      "fen": "6k1/p3qpbp/bpp2np1/4pP2/2N1P2N/1PP3P1/P2Q2BP/6K1 w - - 2 24",
+      "key": "c104f6c077a269464c9b7166795c49c4",
+      "record": 118847913,
+      "split": 0
+    },
+    {
+      "fen": "r3k2r/p1nqbppp/3p4/4p3/8/P1P2Q1P/1P1P1PP1/R1B1KB1R w KQkq - 3 15",
+      "key": "790097518d40d97d9035ea675c7ee831",
+      "record": 118847914,
+      "split": 0
+    },
+    {
+      "fen": "2kr3r/ppp2ppp/4p3/5nP1/NP3B2/P6P/2P1Nb2/3RK2R w - - 0 21",
+      "key": "a71d0fc9148ba3aae33b0993e4d1a7ff",
+      "record": 118847915,
+      "split": 0
+    },
+    {
+      "fen": "8/5pk1/8/p5P1/P4K2/b2BP3/8/8 b - - 20 59",
+      "key": "ca4272daa87524b078aa03d4112a09ae",
+      "record": 63981637,
+      "split": 0
+    },
+    {
+      "fen": "r1bqnrk1/pp2bpp1/7p/2p1PP2/3p4/2NBP3/PP4PP/R1BQ1RK1 w - - 0 13",
+      "key": "60fd529ee920cc16f38accca6ead7c1e",
+      "record": 63981638,
+      "split": 0
+    },
+    {
+      "fen": "1b4k1/1p2pp1p/p1p1b1p1/4n3/PPP5/4NB1P/5PP1/3R2K1 w - - 1 28",
+      "key": "05e08f8ed003808139b48d039e183723",
+      "record": 63981639,
+      "split": 0
+    },
+    {
+      "fen": "r1bq1rk1/pp2bppp/2p1p3/2Ppn2n/3P4/1P1BPN2/P2N1PPP/R2Q1RK1 w - - 0 12",
+      "key": "f684ca252e7ceb528a749602b81c7182",
+      "record": 63981640,
+      "split": 0
+    },
+    {
+      "fen": "8/2r2p2/8/R2pk3/8/4K3/P7/8 b - - 3 43",
+      "key": "397be2651088bb6cf2b2c3495b2fe60e",
+      "record": 63981642,
+      "split": 0
+    },
+    {
+      "fen": "3r2nr/2pk3p/5p2/3R4/6PP/2P5/PP2B3/5K1R b - - 0 24",
+      "key": "6c756c11257a4cdbb4e5f7500e0f38ee",
+      "record": 63981643,
+      "split": 0
+    },
+    {
+      "fen": "6r1/p7/8/8/5k2/3B3P/PPPP1nPK/R1B5 w - - 3 26",
+      "key": "2421b72b80c98ab4515b22735af6ee86",
+      "record": 63981644,
+      "split": 0
+    },
+    {
+      "fen": "r3k3/p2p4/1b6/1R4B1/2p5/8/4N1KP/8 b q - 0 37",
+      "key": "6484ef9a702b4732198a52c4b52d66cf",
+      "record": 63981645,
+      "split": 0
+    },
+    {
+      "fen": "r3k3/pbp1p3/1p3bp1/6n1/2P3B1/8/PP5P/R3K2R b - - 2 31",
+      "key": "1824fe32fc0d671c5779cbc0c0775ff5",
+      "record": 451757767,
+      "split": 0
+    },
+    {
+      "fen": "b7/8/4R2p/p4B2/P2k3P/2p5/2P5/2K5 w - - 0 37",
+      "key": "fd6b0cecda1987f3b12a7915ded3bd16",
+      "record": 451757768,
+      "split": 0
+    },
+    {
+      "fen": "2r2rk1/pp3pp1/2p2q1p/3p4/2nP4/PPN1P1BP/2P3P1/R2Q3K b - - 0 19",
+      "key": "47ca7ad9660e64d274ec6b548d55b0b3",
+      "record": 451757769,
+      "split": 0
+    },
+    {
+      "fen": "1r1q1r2/1b2bpkp/np1p2pN/p1p2P2/2P1P3/P1NQB1R1/1P4PP/3R2K1 b - - 0 23",
+      "key": "ea4ec14baafe834f6738c6ce7025b267",
+      "record": 451757770,
+      "split": 0
+    },
+    {
+      "fen": "rn1qkb1r/ppp2ppp/3p1nb1/8/3PPp2/2N2PP1/PPP1Q2P/2KR1BNR b kq - 0 8",
+      "key": "7fcccc3a492ae09b24c844162db2f62e",
+      "record": 451757771,
+      "split": 0
+    },
+    {
+      "fen": "rn1q1rk1/1p3ppp/2p1pn2/p4bB1/PbpP4/2N2NP1/1P2PPBP/R2Q1RK1 w - - 0 10",
+      "key": "5a3f9d151c53fa6d01a2c95acd2ff239",
+      "record": 451757772,
+      "split": 0
+    },
+    {
+      "fen": "5rk1/3qbp1p/1p2p1p1/r2pP3/2nP4/P2QPN2/1P3RPP/1B2R1K1 b - - 5 23",
+      "key": "7656991b1fa6ba60b9acaf39e1cdb1ac",
+      "record": 451757773,
+      "split": 0
+    },
+    {
+      "fen": "r1k2r2/p1p4N/1pp5/5bp1/1B1R4/1P2P3/P1PR1PPP/2K5 b - - 0 24",
+      "key": "a21669078a278ef7dcc9747f599bbe47",
+      "record": 451757774,
+      "split": 0
+    },
+    {
+      "fen": "rnb1kbnr/pp2qppp/2pp4/4p3/8/1P2P1P1/PBPPNP1P/RN1QKB1R b KQkq - 0 5",
+      "key": "61257defd48862894e4b6ce4affefd76",
+      "record": 425752281,
+      "split": 0
+    },
+    {
+      "fen": "8/p1p4p/1p3p1k/1P5r/P6R/5n1K/2P2P1P/8 b - - 5 34",
+      "key": "08f16d20721c9e6d6ace84a77249c87a",
+      "record": 425752282,
+      "split": 0
+    },
+    {
+      "fen": "r1qb1rk1/p5pp/1ppP1n2/5p2/2P4n/2N1BB1P/PP3PP1/R2Q1RK1 w - - 1 19",
+      "key": "8ffd389fa351145107d916c296273156",
+      "record": 425752283,
+      "split": 0
+    },
+    {
+      "fen": "8/6p1/P5k1/1R6/7p/3K2r1/7n/8 w - - 3 48",
+      "key": "5f0aa84798e5d86d8f6ff1d586426345",
+      "record": 425752284,
+      "split": 0
+    },
+    {
+      "fen": "r3nrk1/1p3pnp/pP1pp1p1/2pP4/P3P3/1PN2P2/3K2PP/1R3B1R w - - 0 20",
+      "key": "b6fee3666e43f856b712a08302fdb667",
+      "record": 425752285,
+      "split": 0
+    },
+    {
+      "fen": "rn3rk1/p5qp/1pp1p1pb/3nN3/3PNp2/1QP2R2/PP4PP/R1B3K1 b - - 7 16",
+      "key": "06b53528684c90081658e8d1746b75a7",
+      "record": 425752286,
+      "split": 0
+    },
+    {
+      "fen": "8/1pknbpp1/p3p1bp/2p1P2P/5B2/1PP1K1P1/P2NBP2/8 b - - 0 27",
+      "key": "92f2bc70996a6bf16c0d509bdf365a28",
+      "record": 425752287,
+      "split": 0
+    },
+    {
+      "fen": "6k1/8/8/4K3/5r2/r7/8/6n1 b - - 1 53",
+      "key": "b1eb738c502383d0eede73a921fab182",
+      "record": 425752288,
+      "split": 0
+    },
+    {
+      "fen": "q3k1n1/p3bp1p/3pp3/8/4b3/1P2P3/PBP2P1P/RN2K1R1 w Q - 0 16",
+      "key": "7fd13097b3c690437ba119c9c0c16027",
+      "record": 242204440,
+      "split": 0
+    },
+    {
+      "fen": "r1b1k1nr/pppp1p1p/2n1p1p1/6N1/1b1qPB2/5Q2/P2N1PPP/R4RK1 b kq - 1 12",
+      "key": "cd6931c21d339bd22610fc6f768d6ada",
+      "record": 242204441,
+      "split": 0
+    },
+    {
+      "fen": "r1b1k3/8/pppq2pn/4p1P1/7P/3P2R1/PPP5/RN2K1N1 w Qq - 0 22",
+      "key": "3ecc9be3064447a77fc6fe2eee71f9b4",
+      "record": 242204442,
+      "split": 0
+    },
+    {
+      "fen": "2R3R1/3r1p2/4pkp1/2ppn2p/8/5PKP/2r3P1/8 b - - 1 37",
+      "key": "469c8c6fc10c73fcd60c70be12ab53ea",
+      "record": 242204443,
+      "split": 0
+    },
+    {
+      "fen": "r5k1/pp4pp/2n1p2r/2q2p2/5P2/1P4P1/P2P2KP/R1BQ1R2 b - - 0 20",
+      "key": "d53ba70299e11f2d464fadb96883ee39",
+      "record": 242204444,
+      "split": 0
+    },
+    {
+      "fen": "r2qr1k1/ppp2pbp/5np1/4p3/P3P3/2P3B1/1P1NbPPP/R2QK2R w KQ - 0 13",
+      "key": "6846ca0a3511d957707430731b7de352",
+      "record": 242204445,
+      "split": 0
+    },
+    {
+      "fen": "rnb1k2r/pppp1ppp/8/4P3/8/1P2q3/P1P3PP/RN1QKB1R w KQkq - 0 11",
+      "key": "9b4740478f0401b328460f4fddcd64bb",
+      "record": 242204446,
+      "split": 0
+    },
+    {
+      "fen": "r1bq1rk1/ppp1p1bp/2n2np1/3p1p2/3P1B2/PBN1PN2/1PP2PPP/R2QK2R w KQ - 2 9",
+      "key": "90d78e5450310f908d6c7772e34f095a",
+      "record": 242204447,
+      "split": 0
+    },
+    {
+      "fen": "8/2p1k1p1/1pn1pb1p/8/1PP1K3/3NB3/5PPP/8 b - - 0 27",
+      "key": "c0d850f739cb255154af4472b4438938",
+      "record": 390671982,
+      "split": 0
+    },
+    {
+      "fen": "3Q4/6pk/7p/p7/8/8/P1q2PPP/3R2K1 b - - 4 28",
+      "key": "46f6ecd8db16f3b55a22b447b1ef6dde",
+      "record": 390671983,
+      "split": 0
+    },
+    {
+      "fen": "r1bb1rk1/pp1q1ppp/3p1n2/8/4P3/2NB4/PPK2PPP/R1BQR3 b - - 0 14",
+      "key": "0e1cb44082d774c64735aa4e7e7b053f",
+      "record": 390671984,
+      "split": 0
+    },
+    {
+      "fen": "r1b1kb1r/p3pnpp/2p1p3/1p6/P4PP1/8/1PP4P/RN1K2NR b kq - 0 13",
+      "key": "8368e0b335b5803512229e264e3bf576",
+      "record": 390671985,
+      "split": 0
+    },
+    {
+      "fen": "8/pp4pp/3k1p2/2pP4/2P2P2/P1P1K2P/6P1/8 b - - 0 29",
+      "key": "43450e78b5a62a00b3bbcfba558cc2a5",
+      "record": 390671986,
+      "split": 0
+    },
+    {
+      "fen": "8/8/5k2/4r2p/7P/2KB4/8/8 b - - 0 46",
+      "key": "88d891265c0e8b808228c426988fdff6",
+      "record": 390671987,
+      "split": 0
+    },
+    {
+      "fen": "7k/pppQ3p/3p2p1/2r3q1/3N4/2P5/P4PPP/3R2K1 w - - 1 23",
+      "key": "b323ae90c66235b76fa9f6f5593e09fc",
+      "record": 390671988,
+      "split": 0
+    },
+    {
+      "fen": "r5r1/1pp2p1k/pb1p1p2/n3pN1p/2P1P3/PP3N1P/4RPP1/1R4K1 w - - 1 23",
+      "key": "0a809f25ef7baddf69a7386a175eeb03",
+      "record": 390671989,
+      "split": 0
+    },
+    {
+      "fen": "8/pp4kp/5bp1/3q4/3P2P1/P3BP2/1P1Q2P1/6K1 w - - 2 36",
+      "key": "be7a45971323092d6c49450a04c2fcbb",
+      "record": 329150182,
+      "split": 0
+    },
+    {
+      "fen": "5rk1/1Rb3pp/5p2/1N6/1P6/P3P2P/5PP1/R5K1 b - - 4 30",
+      "key": "a2b5fd196721cc4a5c12f9f8209041c7",
+      "record": 329150183,
+      "split": 0
+    },
+    {
+      "fen": "r2q1rk1/pbp2ppp/2p1pn2/3p4/3P1B2/P1P1PN2/2P2PPP/R2QK2R w KQ - 1 10",
+      "key": "dd25a1402ed550bdfb8758d26efd392e",
+      "record": 329150184,
+      "split": 0
+    },
+    {
+      "fen": "r1b2rk1/1pqnbppp/p3pn2/2ppN3/3P4/1P1BP3/PBPN1PPP/R2Q1RK1 w - - 2 10",
+      "key": "8d33dbfcf2b45a8781c5d0a246453511",
+      "record": 329150185,
+      "split": 0
+    },
+    {
+      "fen": "r3k2r/2qn1pbp/b1pp1np1/1p2p3/p2PP3/2PBBPN1/PP1QN1PP/R4RK1 w kq - 4 15",
+      "key": "25f4ccb0cf8d06d374d37e1e83de3d5f",
+      "record": 329150187,
+      "split": 0
+    },
+    {
+      "fen": "5k2/1R3p2/R7/8/1P3P2/3P2pP/2K3B1/8 w - - 6 38",
+      "key": "475737d2ff6e7b11fa4be77fa89299c2",
+      "record": 329150188,
+      "split": 0
+    },
+    {
+      "fen": "r1bqk2r/ppp1ppbp/2np1np1/8/2PP4/3BBN1P/PP3PP1/RN1Q1RK1 b kq - 3 8",
+      "key": "09083d509d4a4a9f76f6d6e4aa0641c1",
+      "record": 329150189,
+      "split": 0
+    },
+    {
+      "fen": "5r1k/1p4pp/p1p5/4p3/P7/2N1P3/1PP4P/R2K4 b - - 0 31",
+      "key": "5f9805981c4ed9efe170795b4dbd233d",
+      "record": 329150190,
+      "split": 0
+    },
+    {
+      "fen": "r7/p2bk3/1p2p3/3pP3/1P3P2/2N1P3/PR1KQBrq/8 w - - 14 36",
+      "key": "4c1cd799c0cebc1e1003386a000c22d2",
+      "record": 337746286,
+      "split": 0
+    },
+    {
+      "fen": "r2q1rk1/pb2n1pp/1p1b4/2pPp2Q/2P5/3B4/PB3PPP/RN2R1K1 b - - 1 15",
+      "key": "ece5eaf1e9583dbfd723120d9b4d220a",
+      "record": 337746287,
+      "split": 0
+    },
+    {
+      "fen": "2r2rk1/p2qbpp1/3p1n1p/1pp5/4P3/1PN1Q2P/PBP2PP1/R3R1K1 w - - 0 15",
+      "key": "eabacc240902561dec5c3ebcde27e537",
+      "record": 337746288,
+      "split": 0
+    },
+    {
+      "fen": "2Q1r1k1/p4ppp/8/1q3P2/6P1/PP6/4P2P/2K2BR1 b - - 0 24",
+      "key": "6397b183ba9c5f153db893c7b8f80b75",
+      "record": 337746289,
+      "split": 0
+    },
+    {
+      "fen": "2rq1rk1/pp3pbp/2np1np1/4p3/2PP4/P1N1BB1P/1P3PP1/R2Q1RK1 w - - 0 14",
+      "key": "53e55d471725cc42a9fb40d2a214076c",
+      "record": 337746290,
+      "split": 0
+    },
+    {
+      "fen": "2kr4/pp3ppp/2n5/3p4/3P4/P1Q5/1P3PPq/2KRR3 w - - 0 22",
+      "key": "3dba90399085dc35775c43280524c1ec",
+      "record": 337746291,
+      "split": 0
+    },
+    {
+      "fen": "r6q/pp1b3p/1bnkp3/3p1p1Q/1P2P3/2PB4/P2B1PPP/R4RK1 b - - 0 17",
+      "key": "ec3b4a8d29084339d6b192d69bb9fa16",
+      "record": 337746292,
+      "split": 0
+    },
+    {
+      "fen": "N1bk3r/pp3pbp/2np2p1/2pPq1p1/8/8/P1PNBPPP/R2QK2R b KQ - 4 14",
+      "key": "c3bc316be299560add351c5b1caf6e3e",
+      "record": 337746293,
+      "split": 0
+    },
+    {
+      "fen": "r7/5kp1/2N4p/2ppp3/1p6/1b1PKP1P/1P4P1/7R b - - 3 30",
+      "key": "a333c3cf914d4d1f757579a8f9b06ac8",
+      "record": 510925108,
+      "split": 0
+    },
+    {
+      "fen": "r1b1k1nr/1p3ppp/pqnbp3/2p5/8/2NPBN2/PPP1BPPP/R2Q1RK1 w kq - 0 10",
+      "key": "ea059463974dc8f6c2045adf9d4320ce",
+      "record": 510925109,
+      "split": 0
+    },
+    {
+      "fen": "2kr1bnr/ppp1q2p/2b3p1/4Pp2/8/4PNQ1/PPP3PP/RNB1K2R b KQ - 2 11",
+      "key": "303de444f791f2be6b32f72556652568",
+      "record": 510925110,
+      "split": 0
+    },
+    {
+      "fen": "3Q1b2/p4pp1/6bk/2p3Np/2Pp3P/3P2P1/3K4/r7 b - - 9 40",
+      "key": "beb51a630b59ecbd3019a2f752e206a4",
+      "record": 510925111,
+      "split": 0
+    },
+    {
+      "fen": "rnb2rk1/ppq1ppbp/3p2p1/3n2B1/2PP3P/3B1N2/PP3PP1/RN1Q1RK1 w - - 1 11",
+      "key": "bf6bb99836ab566d3cfe2ce96ff328d2",
+      "record": 510925112,
+      "split": 0
+    },
+    {
+      "fen": "3rr1k1/pbq2ppp/1p6/3p4/8/2N1RN2/PP1Q1PPP/2K4R b - - 4 22",
+      "key": "9f2e07615ccda6ab7362d5dd8689796d",
+      "record": 510925113,
+      "split": 0
+    },
+    {
+      "fen": "2bq1rk1/1r2bppp/p7/8/2pPRB2/P4N2/3Q1PPP/2R3K1 b - - 2 20",
+      "key": "a7b2703069411675eff27ea98ecfcc6f",
+      "record": 510925114,
+      "split": 0
+    },
+    {
+      "fen": "rn1qkbnr/ppp2ppp/4b3/3pN3/3P4/8/PP2PPPP/RNBQKB1R b KQkq - 3 5",
+      "key": "5655715ae9fa1e401383604992b1a76c",
+      "record": 510925115,
+      "split": 0
+    },
+    {
+      "fen": "r1b1k1nr/2pq1p2/pp1pn2p/6p1/PPB1P3/2N4P/2Q2PP1/1RBR2K1 w kq - 1 19",
+      "key": "9a7462e53d5cd44f2d406e602b156361",
+      "record": 206318328,
+      "split": 0
+    },
+    {
+      "fen": "8/p1r2kp1/2p3r1/6Q1/4P3/2N5/PPP2P2/3R1RK1 w - - 3 23",
+      "key": "6979278fc74b666b9c22f6b16b45e126",
+      "record": 206318329,
+      "split": 0
+    },
+    {
+      "fen": "r1bqkb1r/ppp2ppp/8/3pQ3/1P6/2P2N2/P2P1PPP/RNn2RK1 b kq - 0 9",
+      "key": "3ec631b76417ff4561455fceb0318297",
+      "record": 206318330,
+      "split": 0
+    },
+    {
+      "fen": "r1bq1rk1/pp1pbppp/2p2n2/4p1P1/2B1P3/P1NP1Q1P/1PP2P2/R1B1K2R b KQ - 0 10",
+      "key": "efe191e04cfba02fbff9144b5e095a9c",
+      "record": 206318331,
+      "split": 0
+    },
+    {
+      "fen": "2k5/ppp4p/2n1p3/2Np2r1/3P2p1/1P2P3/P2n1K1P/R6R w - - 0 26",
+      "key": "edc31fccf93968ab4e3da1d183cd99a5",
+      "record": 206318332,
+      "split": 0
+    },
+    {
+      "fen": "r3k3/1bpnqNbp/1p3np1/1N1pp3/2B1P3/3P4/PPP2PPP/R1BQK2R w KQ - 0 13",
+      "key": "89296fe530541ddabbcd84ef741198a6",
+      "record": 206318333,
+      "split": 0
+    },
+    {
+      "fen": "rnbq1rk1/p4ppp/1ppbp3/4N3/P1BP1Q2/8/NPP2PPP/R3R1K1 b - - 4 14",
+      "key": "9a6c1dc8086fbaf81137561d09437539",
+      "record": 206318334,
+      "split": 0
+    },
+    {
+      "fen": "r1b1k2r/pppp1ppp/3b1n2/6B1/2B1P3/2N5/PPP2PPP/2KR3R b kq - 1 11",
+      "key": "a32d548c0466835c5637dc68c7b0764a",
+      "record": 206318335,
+      "split": 0
+    },
+    {
+      "fen": "7N/p5pp/1p3k2/2P1R3/1N5P/6P1/PPK5/8 b - - 0 28",
+      "key": "1497d27615bd67ece085cc799e42a0cd",
+      "record": 322590450,
+      "split": 0
+    },
+    {
+      "fen": "1r5k/6Rp/4NP2/3pP3/3P3P/2n5/6PK/8 w - - 3 32",
+      "key": "74e6914534eb2bca844f740949354564",
+      "record": 322590451,
+      "split": 0
+    },
+    {
+      "fen": "r1r3k1/1p1Q2b1/pP1p2qp/3Pp3/2N2p2/P1R4P/6PK/2R5 b - - 3 36",
+      "key": "bee14b2c068f97ab638dc30c720dc056",
+      "record": 322590452,
+      "split": 0
+    },
+    {
+      "fen": "r5k1/6pp/8/pNppb3/1PP1q3/8/1K6/RQR5 w - - 2 35",
+      "key": "e0b90d5a4c830c9c5500eda386f554b5",
+      "record": 322590453,
+      "split": 0
+    },
+    {
+      "fen": "r3r1k1/pp1nppbp/2p3p1/3q4/3P4/2PQ1N1P/PP3PP1/R1B2RK1 w - - 3 14",
+      "key": "a511ff8f15e5f3dc80d3233550c1f2a2",
+      "record": 322590454,
+      "split": 0
+    },
+    {
+      "fen": "7r/pp1k2pp/2n2n2/3p1p2/Q2P1B2/2q5/P2N1PPP/4R1K1 w - - 0 18",
+      "key": "9d5a5419a3b2735fc48729e072ff258c",
+      "record": 322590455,
+      "split": 0
+    },
+    {
+      "fen": "2r3k1/2r3p1/3npqp1/1p5p/p2P1PP1/P1PB1Q1R/1P4P1/1K5R b - - 0 29",
+      "key": "c488a7d7bf07bed473da5d977bbf0743",
+      "record": 322590456,
+      "split": 0
+    },
+    {
+      "fen": "8/p7/8/6Np/8/PK2q1k1/6P1/8 w - - 2 53",
+      "key": "c1f934aec0b9f663df1f6ccb8f9eb860",
+      "record": 322590457,
+      "split": 0
+    },
+    {
+      "fen": "q5k1/3K4/P7/8/8/6pp/8/8 w - - 0 47",
+      "key": "27182ebbb15adb0497a196bbd272296e",
+      "record": 164515788,
+      "split": 0
+    },
+    {
+      "fen": "r3k2r/pppqbbpp/3p4/4p3/3nP1PP/3P4/PPP2P2/RNBQK2R w KQkq - 3 13",
+      "key": "153045f9393566bc9f9488a6b94f6a1a",
+      "record": 164515789,
+      "split": 0
+    },
+    {
+      "fen": "r4r2/1p1q1pk1/p5p1/2pNp3/P2nP2b/3P2Pb/BPP2R1P/R4Q1K w - - 1 25",
+      "key": "d107e7177d1e5066db25dc0138aec043",
+      "record": 164515790,
+      "split": 0
+    },
+    {
+      "fen": "r2q1rk1/ppp1bppp/2np1n2/5bN1/1PP1p3/P1N1P3/1B1PBPPP/R2QK2R w KQ - 2 10",
+      "key": "2d939fd523bb9cb88168125aa5d98904",
+      "record": 164515791,
+      "split": 0
+    },
+    {
+      "fen": "r2qk2r/ppn1bppp/2p1pn2/8/3P1B2/2PQ1NN1/PP3PPP/R3R1K1 b kq - 2 12",
+      "key": "de1bb427aa883f1b3f7b2dc32e7c94b6",
+      "record": 164515792,
+      "split": 0
+    },
+    {
+      "fen": "r3k1nr/pp1nb3/2pp2q1/4pb1p/4N1p1/3PQ1PP/PPP2PBK/R1B2RN1 b kq - 1 14",
+      "key": "f6b1ce4d7ee734ac79b7cd57545a6d9f",
+      "record": 164515793,
+      "split": 0
+    },
+    {
+      "fen": "r1b2rk1/ppp1q1pp/3p1p2/2b5/2P1PB2/2PQ1N2/P4PPP/1R3RK1 b - - 1 13",
+      "key": "399966d7cd0d336de5e20214d0cf6ab2",
+      "record": 164515794,
+      "split": 0
+    },
+    {
+      "fen": "6k1/4r3/4b1pP/p5R1/2p5/2p1R3/P1P5/6K1 b - - 1 34",
+      "key": "8b7f88038ada3372dc23030bae43a275",
+      "record": 164515795,
+      "split": 0
+    },
+    {
+      "fen": "1r2k1r1/5p2/p2R4/3PpB1p/1p5b/1P4P1/P4P2/5RK1 w - - 0 29",
+      "key": "baaded5efb309706e5967821bbe876a2",
+      "record": 68876663,
+      "split": 0
+    },
+    {
+      "fen": "2kr1b1r/pppbpppp/5n2/4q3/2P5/1N6/PP2BPPP/RNBQK2R b KQ - 8 11",
+      "key": "4c5eafc40766474327314766918d7faa",
+      "record": 68876664,
+      "split": 0
+    },
+    {
+      "fen": "r3r1k1/6pp/p4p2/1pppP1q1/8/7P/PP2QPP1/2R1R1K1 b - - 1 21",
+      "key": "32211c33fe17221013dd3c55100f7a75",
+      "record": 68876665,
+      "split": 0
+    },
+    {
+      "fen": "r2qkb1r/ppp2ppp/5nb1/3Pp3/4P1P1/2N2P1N/PP1PK1BP/R1Q4R b kq - 2 11",
+      "key": "532f0e941dbb226a74b46c4acfa5180e",
+      "record": 68876666,
+      "split": 0
+    },
+    {
+      "fen": "2r2rk1/3nRp1p/p1p3b1/1pP3Q1/3P4/2N3BP/1P3PP1/4R1K1 w - - 1 32",
+      "key": "9f05268c34e2ee820f9852c31fc91806",
+      "record": 68876667,
+      "split": 0
+    },
+    {
+      "fen": "r4rk1/2p1n1pp/p7/1p1Pp3/1P2N3/4P3/P5PP/R4R1K b - - 0 20",
+      "key": "15c466b37efa751b073542d3da979272",
+      "record": 68876668,
+      "split": 0
+    },
+    {
+      "fen": "rnr3k1/2q1bpp1/p2p1n2/3Pp1N1/1Q6/2P4P/PP1B1PP1/2KR3R b - - 0 20",
+      "key": "ea7fbae1a6b1caa56c12dd1413ffe781",
+      "record": 68876669,
+      "split": 0
+    },
+    {
+      "fen": "r1b2rk1/pppp1pp1/2n2q1p/3Np3/1P1bP3/P2P1N2/2P2PPP/R2QKB1R b KQ - 2 9",
+      "key": "c9918a2a426a52010a4d0e1bb8d3f650",
+      "record": 68876670,
+      "split": 0
+    },
+    {
+      "fen": "r2q1rk1/pppb1pbp/2n2np1/3N2B1/3P4/3B1N2/PPP2PPP/R2QK2R w KQ - 1 10",
+      "key": "2bee29e668db3d37f77511212953869d",
+      "record": 260511063,
+      "split": 0
+    },
+    {
+      "fen": "r4k2/pp3ppp/1np5/2Pp4/8/8/PP2NPPP/4R1K1 b - - 0 20",
+      "key": "556b608494aedc9bb7c2ac811544151b",
+      "record": 260511064,
+      "split": 0
+    },
+    {
+      "fen": "4kbnr/4pppp/2pp4/1p6/4P3/1pKPNN2/q3BPPP/1R6 b k - 4 18",
+      "key": "e0659f23eef792c2125431098820bdd0",
+      "record": 260511065,
+      "split": 0
+    },
+    {
+      "fen": "r2q1rk1/ppp2ppp/2n2n2/2b1p3/N5b1/1P1P1N2/PBP1BPPP/R2Q1RK1 b - - 6 10",
+      "key": "8f18552d9a4baa37abad22e68321a705",
+      "record": 260511066,
+      "split": 0
+    },
+    {
+      "fen": "b1r5/p2pbnk1/1pq1p3/2p1Pp1r/2P2Pp1/2N3B1/PPP1Q1PP/R4RK1 w - - 2 22",
+      "key": "966076fbb08f4cf32cf0d639970a35f5",
+      "record": 260511067,
+      "split": 0
+    },
+    {
+      "fen": "r7/pp2ppk1/2b3p1/6pr/2p1P3/2N3P1/PPP1RPK1/3R4 w - - 4 29",
+      "key": "3a3998972ddbc30f32473605d2bdbfae",
+      "record": 260511068,
+      "split": 0
+    },
+    {
+      "fen": "2kr3r/ppp5/2nb1q2/4p1p1/4P2p/4B3/PPP1QPPP/3RRNK1 w - - 0 19",
+      "key": "7d0e047020b284dfb5e0911a910d9b27",
+      "record": 260511069,
+      "split": 0
+    },
+    {
+      "fen": "rnbqkb1r/pp3p1p/2p1pnp1/1B6/3PP3/2N2N2/PP3PPP/R1BQK2R w KQkq - 0 8",
+      "key": "88894f274a3d0aa9fa7a1bb4e05b9b70",
+      "record": 260511070,
+      "split": 0
+    },
+    {
+      "fen": "5R2/1kp5/p2pb1r1/Pp1P4/1P2P3/8/5K2/8 w - - 0 41",
+      "key": "89358d78669a413a16ee15b93daca7b6",
+      "record": 422825425,
+      "split": 0
+    },
+    {
+      "fen": "r1b1r1k1/ppp1nppp/8/3p4/2n5/P1P1P3/P1B2PPP/R1B1K1NR b KQ - 5 15",
+      "key": "afcd707b8108e5fedd04346a81c51c56",
+      "record": 422825426,
+      "split": 0
+    },
+    {
+      "fen": "1k2Q3/ppb5/2p4p/5B2/1P6/P4P1P/2Pr1P2/R4RK1 b - - 5 29",
+      "key": "17fc4aac1add307e49bdabb47c7a423e",
+      "record": 422825427,
+      "split": 0
+    },
+    {
+      "fen": "8/R7/P5p1/7p/4k3/7P/2K3P1/8 b - - 0 45",
+      "key": "03938b746ac2fb6687cd56f1c2a3de01",
+      "record": 422825428,
+      "split": 0
+    },
+    {
+      "fen": "5rk1/1pqr2b1/n1p1b2p/p7/2P1Pp1p/PPN4P/4NQBK/R3R3 w - - 0 23",
+      "key": "3acb285c5384ffaa991155075f3dd1e6",
+      "record": 422825429,
+      "split": 0
+    },
+    {
+      "fen": "2k5/p1p1q2r/1pQRn3/4P2P/6P1/P4P2/1P6/2K5 b - - 5 40",
+      "key": "cc39d7e0fad1122de2a6f20895a318c9",
+      "record": 422825430,
+      "split": 0
+    },
+    {
+      "fen": "6k1/ppp1qpbp/5np1/4N3/5B2/2N5/PPP2PPP/2KQ4 b - - 0 16",
+      "key": "5ea1c3f4f54ee97cde9966627c64a90f",
+      "record": 422825431,
+      "split": 0
+    },
+    {
+      "fen": "r1bqkb1r/pp2pp1p/2np1np1/8/5P2/3QPN2/PPP3PP/RNB1KB1R w KQkq - 0 7",
+      "key": "ea712d69e41a4b5a03abba63510c4156",
+      "record": 422825432,
+      "split": 0
+    },
+    {
+      "fen": "8/1pp5/2b5/p1P1p1k1/4P2p/4PB2/4P1K1/8 b - - 3 48",
+      "key": "d6a219d558cdd5bb7ebc02c9dafe099b",
+      "record": 207340872,
+      "split": 0
+    },
+    {
+      "fen": "8/2Q5/8/8/3K4/1k5N/8/8 w - - 12 68",
+      "key": "f5a2f9875d15aa642ce9fa8d3b100525",
+      "record": 207340873,
+      "split": 0
+    },
+    {
+      "fen": "6k1/R7/1p6/2p1r3/P5P1/2bP3P/8/7K w - - 0 34",
+      "key": "e88762407b7f478e29923adba78286ab",
+      "record": 207340874,
+      "split": 0
+    },
+    {
+      "fen": "8/1R6/5kp1/1p5p/7P/4b2K/8/8 w - - 2 39",
+      "key": "b7393cd25adf36e77f5bcb9ba427ecc3",
+      "record": 207340875,
+      "split": 0
+    },
+    {
+      "fen": "r1bk1b1r/pp4pp/4pn2/8/2pnP3/N4B2/PPP2PPP/R1B1K1NR w KQ - 0 10",
+      "key": "10557c82b5dadbff1eedc37a208bfb13",
+      "record": 207340877,
+      "split": 0
+    },
+    {
+      "fen": "4rr1k/ppp3bp/6p1/3BP3/6b1/1P4PP/PBP2P2/R3K2R b KQ - 0 17",
+      "key": "8c16e1cad5f86599bc9694d8626bd760",
+      "record": 207340878,
+      "split": 0
+    },
+    {
+      "fen": "3r2k1/pb3pbp/6p1/1p2p3/2pN1N2/2P1P3/P4PPP/2R3K1 w - - 0 22",
+      "key": "7bc59a24ea11c1ef085c3794b4482ae2",
+      "record": 207340879,
+      "split": 0
+    },
+    {
+      "fen": "r2q1rk1/pp2ppbp/5Bp1/3P1b2/2P1p3/2N5/PP2BPPP/R2Q1RK1 b - - 0 13",
+      "key": "d2c7e524f47e092872921675ff120525",
+      "record": 207340880,
+      "split": 0
+    },
+    {
+      "fen": "1k3rr1/pbp4p/1np5/8/2PqN2Q/1P3BP1/P4RK1/8 b - - 4 26",
+      "key": "80d20c50b5a8dda74f0167672bea1e19",
+      "record": 1119330,
+      "split": 0
+    },
+    {
+      "fen": "1k1r3r/p2n2pp/2RP1b2/1Q3b2/8/5N1P/q2N1PP1/5RK1 b - - 2 19",
+      "key": "684342a94424c5e1e3aba1da1a90d95e",
+      "record": 1119331,
+      "split": 0
+    },
+    {
+      "fen": "8/1P6/3p4/8/3K4/P7/2k5/1q6 b - - 2 75",
+      "key": "279e283500dd92acafde9a88e02510e7",
+      "record": 1119332,
+      "split": 0
+    },
+    {
+      "fen": "5rk1/5ppp/p2p1b2/1p3q2/8/2PpB2P/PP3PP1/2Q2RK1 w - - 0 24",
+      "key": "48159d7f5f84fa51da753588d97bf6ef",
+      "record": 1119333,
+      "split": 0
+    },
+    {
+      "fen": "8/5pk1/4p1pp/2RbP3/P4P2/1r1pK3/3B2PP/8 b - - 0 37",
+      "key": "f00d3dbd8a1a1c2f9901dfc7690969ba",
+      "record": 1119334,
+      "split": 0
+    },
+    {
+      "fen": "2r3k1/bp1q1p2/2p1r1pp/PR1pP3/3P1B2/3Q1N1P/5PP1/2R2K2 b - - 0 30",
+      "key": "b4fb7c25927bae4f081e287508b9a348",
+      "record": 1119335,
+      "split": 0
+    },
+    {
+      "fen": "r2qk2r/ppp2p2/2np1n1p/4p3/4P1pN/1PPP2B1/P4PPP/R2QK2R b KQkq - 1 12",
+      "key": "9027da6776c11d2121a2c0a88fda9832",
+      "record": 1119336,
+      "split": 0
+    },
+    {
+      "fen": "3r1rk1/4Rppp/8/p2P1Q2/1p6/6P1/q4PPK/8 w - - 2 29",
+      "key": "e04a2db09f560055918dc27013e533b1",
+      "record": 1119337,
+      "split": 0
+    },
+    {
+      "fen": "r1bqk1nr/pppp1ppp/3b4/4p1B1/2BnP3/P2P1N2/1PP2PPP/RN1QK2R b KQkq - 2 6",
+      "key": "f45afb44475bdfb8892dfa75ea8ab748",
+      "record": 180599320,
+      "split": 0
+    },
+    {
+      "fen": "r1b2k1r/pp5p/1b5p/2p1P3/2q5/5PQ1/PP1N2PP/R4RK1 b - - 1 18",
+      "key": "cdbdf306c8d5274f7cf997e6a263adaf",
+      "record": 180599321,
+      "split": 0
+    },
+    {
+      "fen": "6k1/5ppp/4p3/1q1p4/p1nP1B2/P1Q5/1P3PPP/K1N5 b - - 0 31",
+      "key": "bba322a7a1b257c9962435cbbf7f420f",
+      "record": 180599322,
+      "split": 0
+    },
+    {
+      "fen": "r2r2k1/5pp1/p6p/1p2P3/4nP2/2P1B2P/PP4P1/R4RK1 b - - 2 22",
+      "key": "b69bc83b97684ea676107daef14eb689",
+      "record": 180599323,
+      "split": 0
+    },
+    {
+      "fen": "1r4b1/8/r3pkp1/P1Pp1p1p/1P3P1P/1NP1K3/1R4P1/R7 w - - 5 36",
+      "key": "b4246f0c382acdcdaba1788918b298b2",
+      "record": 180599325,
+      "split": 0
+    },
+    {
+      "fen": "2rr2k1/p4ppp/3R1nb1/1P6/P7/8/1K1P4/8 b - - 0 33",
+      "key": "00cd7e0319a534dd1d146a20de1b8f4a",
+      "record": 180599326,
+      "split": 0
+    },
+    {
+      "fen": "2r1r1k1/pp3ppp/5n2/2Pppb2/8/P1B1P3/1PP2PPP/2KR3R w - - 2 16",
+      "key": "30fc6f86d5514581d612622a8a676ef1",
+      "record": 180599331,
+      "split": 0
+    },
+    {
+      "fen": "8/3R4/2B1kp2/1P4pp/3K4/8/P3r1PP/8 w - - 5 41",
+      "key": "7b36c70058732d1529e63191eed0f0f3",
+      "record": 180599332,
+      "split": 0
+    },
+    {
+      "fen": "2k2b1r/ppp2ppp/8/4p3/2PnP3/2N5/PPP2PPP/3K1B1R w - - 1 16",
+      "key": "9b19dbc83cedbbf584da801e2613081f",
+      "record": 65936184,
+      "split": 0
+    },
+    {
+      "fen": "1R6/8/8/8/8/2p3P1/1k4r1/4K3 b - - 8 58",
+      "key": "2f89aeac4fd52a5cdbfbb13d033f3a2e",
+      "record": 65936185,
+      "split": 0
+    },
+    {
+      "fen": "2rq1rk1/1b1n1ppp/p2bpn2/4N3/1pPP4/3B4/PB1NQPPP/2RR2K1 w - - 0 16",
+      "key": "7aa1b5147d762935499062f92e371572",
+      "record": 65936186,
+      "split": 0
+    },
+    {
+      "fen": "r2qkbnr/p2n1ppp/2p5/4Pb2/8/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 1 7",
+      "key": "790f7fc1d9d809a201ef95a5b1478f88",
+      "record": 65936187,
+      "split": 0
+    },
+    {
+      "fen": "8/pk4p1/1p2Q3/6p1/2KP4/2P5/2P5/5q2 w - - 5 36",
+      "key": "64b9c8eb3def3043a836ae5041854bf5",
+      "record": 65936188,
+      "split": 0
+    },
+    {
+      "fen": "8/4n3/8/pp3k2/r7/5P2/1K4PP/4R3 w - - 0 48",
+      "key": "1f0317a34b13b7126ebf71a0131ae707",
+      "record": 65936189,
+      "split": 0
+    },
+    {
+      "fen": "r1bqkb1r/1p3ppp/p1n1p3/1Q1p4/P2PnP2/4P3/1P4PP/RNB1KBNR w KQkq - 0 9",
+      "key": "798223539468f2eec6a06490374b418a",
+      "record": 65936190,
+      "split": 0
+    },
+    {
+      "fen": "r7/7p/6pk/p7/2R5/1B4bP/P5P1/6K1 w - - 10 34",
+      "key": "ffcee55efe0ae4dac1d4362c22377f2b",
+      "record": 65936191,
+      "split": 0
+    },
+    {
+      "fen": "r2qrbk1/1b1n1ppp/pp1ppn2/2p5/P2P4/2NBPN1P/1PP1QPPB/R4RK1 w - - 6 13",
+      "key": "a33b2048053ab5db07689a7f5efd7ac9",
+      "record": 498193976,
+      "split": 0
+    },
+    {
+      "fen": "8/3k4/3r1n2/8/2KP3P/2P3r1/8/R7 b - - 2 45",
+      "key": "12594ba3f1547daec66d9cf45bd6df06",
+      "record": 498193977,
+      "split": 0
+    },
+    {
+      "fen": "4rrk1/ppp3pp/2n2q2/3p4/3P4/P3pN2/1P1Q1PPP/2R1R1K1 w - - 0 20",
+      "key": "48c0ae24ba235797eb012f82ddf3659b",
+      "record": 498193978,
+      "split": 0
+    },
+    {
+      "fen": "r1k2r2/1pp4R/8/p5b1/2P5/5K2/P7/3R4 w - - 2 34",
+      "key": "60c216f8bd7f469b34ca524ff3d59ee8",
+      "record": 498193979,
+      "split": 0
+    },
+    {
+      "fen": "8/8/8/8/7k/7p/7K/8 w - - 14 61",
+      "key": "aee3158fddf38ae1f836e2de69edf373",
+      "record": 498193980,
+      "split": 0
+    },
+    {
+      "fen": "3r1rk1/bp4p1/p3pq1p/2Npn3/1P6/P3P1P1/5PBP/2RQ1RK1 b - - 5 23",
+      "key": "d4c223eef4083e7f11ae8aca8a3932de",
+      "record": 498193981,
+      "split": 0
+    },
+    {
+      "fen": "r5k1/pp3pbp/2p3p1/2Bp4/8/2P3P1/PP3P1P/5RK1 w - - 0 21",
+      "key": "0fd93afd607741a6f6829943644a9160",
+      "record": 498193982,
+      "split": 0
+    },
+    {
+      "fen": "r3k2r/2pnqp1p/pbp1b1p1/3pP1P1/3PP3/2P3Q1/PP5P/RNB1K1NR w KQkq - 1 15",
+      "key": "989c93171e9ae9c0e077af43107d0510",
+      "record": 498193983,
+      "split": 0
+    },
+    {
+      "fen": "2r1k2r/ppqnbpp1/2p1pn1p/4N2P/3P4/1Q2B1N1/PPP2PP1/2KRR3 b k - 9 15",
+      "key": "4891145ca8e9ad2ebc566ce838c2b908",
+      "record": 230757227,
+      "split": 0
+    },
+    {
+      "fen": "5r1k/p5pp/1b1q1p2/8/2Qnp3/6PP/Pr2BP1N/3RR1K1 w - - 2 26",
+      "key": "4592b1be46460843c0bdf2fbed52a826",
+      "record": 230757228,
+      "split": 0
+    },
+    {
+      "fen": "r2qkbnr/ppp3pp/2n2p2/1B2p3/4P3/2P1BQ2/PP3PPP/RN2K2R b KQkq - 3 8",
+      "key": "df49734ec87698c7706e7146741f890a",
+      "record": 230757229,
+      "split": 0
+    },
+    {
+      "fen": "rn3k1r/p4ppp/3q1n2/3p4/8/8/PPP1QPPP/R1B1K1NR w KQ - 0 13",
+      "key": "d766e2c601dedcdfe52c4edfd2df5a4d",
+      "record": 230757230,
+      "split": 0
+    },
+    {
+      "fen": "3q1r2/5pk1/4pnp1/2p1p2p/1p2P2P/1P1P1P2/2PQN1P1/r2K1R1R w - - 3 25",
+      "key": "275ba93611eed014f744f76398a3c6b4",
+      "record": 230757231,
+      "split": 0
+    },
+    {
+      "fen": "r2q1rk1/p4pp1/4pn1p/1p3b2/2nP4/1Q2PN1P/P3BPPB/2R2RK1 w - - 2 20",
+      "key": "5a8c0872f8c5b9771c2d9b108a1f9834",
+      "record": 230757232,
+      "split": 0
+    },
+    {
+      "fen": "6k1/1p3ppp/p3n3/2pn4/4P3/4PB2/PPP3PP/6K1 w - - 0 20",
+      "key": "936fad144e82b1ead456c371bf7d2a99",
+      "record": 230757233,
+      "split": 0
+    },
+    {
+      "fen": "8/5pp1/7k/R4P2/3n2KP/8/8/8 b - - 0 42",
+      "key": "30f02e67b23dc5259b1c4ff901a55bf7",
+      "record": 230757234,
+      "split": 0
+    },
+    {
+      "fen": "r2nrk2/pbppq1p1/1p1b1p2/3Pp3/1P2B3/P3PN2/1BQP1PPP/R3K2R w KQ - 0 14",
+      "key": "8fe04281ffe3e2bd012b02bdb8e7d39d",
+      "record": 417328443,
+      "split": 0
+    },
+    {
+      "fen": "2kr1b2/ppp5/2n3N1/3q1pp1/8/1P2PpP1/P2P4/R1BQRK1r w - - 2 22",
+      "key": "d1167855121cefcab988dd56e219f38f",
+      "record": 417328444,
+      "split": 0
+    },
+    {
+      "fen": "2r5/3kpp2/p3n3/q2p4/3P4/2NQB3/1PK5/5R2 w - - 0 35",
+      "key": "783379b9750d714ce3e8d50d896c0726",
+      "record": 417328445,
+      "split": 0
+    },
+    {
+      "fen": "rnbqkb1r/pp2pppp/8/2p5/2Ppn3/3P1N2/PP2NPPP/R1BQKB1R b KQkq - 0 6",
+      "key": "a6e1790158f19e8df10db4c6ff22d929",
+      "record": 417328446,
+      "split": 0
+    },
+    {
+      "fen": "2krr3/p4ppp/1p1p4/3Np3/8/4PQRP/PPP4K/R7 w - - 0 22",
+      "key": "c13b5ef2b5f4847eba13dd1e7a6bc027",
+      "record": 417328447,
+      "split": 0
+    },
+    {
+      "fen": "rnbqkb1r/ppp2ppp/3p4/8/6n1/5NP1/PPPPPP1P/RNBQKB1R w KQkq - 0 5",
+      "key": "0978ca3916eb60a439dfd72d6e702a27",
+      "record": 417328448,
+      "split": 0
+    },
+    {
+      "fen": "r3k2r/pp1q1ppp/4p3/3pn3/3P1P2/2PQ4/P4PPP/1R3RK1 w kq - 0 15",
+      "key": "28e0bc5997e9d6f83cd24ec2712309dc",
+      "record": 417328449,
+      "split": 0
+    },
+    {
+      "fen": "2r5/4Q3/1q2pPp1/3p4/3p1PP1/2rk3P/1p6/4RRK1 w - - 3 45",
+      "key": "a2dce392774f4fa06135e674a3193f2a",
+      "record": 417328450,
+      "split": 0
+    },
+    {
+      "fen": "r5k1/ppp1r1pp/3p4/3P1p2/PPPNp2R/6qP/6P1/R2Q1K2 w - - 2 23",
+      "key": "04d2720deb6bfa01ab43751b8ec4a0d4",
+      "record": 402069975,
+      "split": 0
+    },
+    {
+      "fen": "2n5/5pk1/K5p1/8/7p/8/8/8 w - - 0 44",
+      "key": "93846367e25f15fd240ebee7f86b7f5c",
+      "record": 402069977,
+      "split": 0
+    },
+    {
+      "fen": "rn2k2r/pp3ppp/4b2n/2bpN3/3P4/1BP5/PP3PPP/RNB1K2R b KQkq - 0 10",
+      "key": "8fef4314255dff0bdc9d82773dc0ab99",
+      "record": 402069978,
+      "split": 0
+    },
+    {
+      "fen": "3q2k1/5ppp/Q2p4/8/7b/2P2P2/P5KP/8 w - - 2 35",
+      "key": "d71784875621522c5e8038238131a00d",
+      "record": 402069979,
+      "split": 0
+    },
+    {
+      "fen": "6nr/ppkq3p/6p1/4pp2/P3P3/2b1Bb1P/2P2PP1/3R2K1 w - - 0 22",
+      "key": "875a984e35fbc3702e1faeafe031f81b",
+      "record": 402069980,
+      "split": 0
+    },
+    {
+      "fen": "1r3k2/5pp1/4p2p/p2pR2P/3P2P1/2P2P2/P1K5/8 w - - 3 40",
+      "key": "6013346e0c699c38b7c2b4ad4a30fe4c",
+      "record": 402069981,
+      "split": 0
+    },
+    {
+      "fen": "2rq1rk1/pp1b1ppp/3bp1n1/3p4/3P4/2PQ1N2/PP1B1PPP/R3RNK1 b - - 0 14",
+      "key": "b57a9ff004b0f625fc918c62e0eb50be",
+      "record": 402069982,
+      "split": 0
+    },
+    {
+      "fen": "8/ppp5/4p1k1/5p2/3b3P/P1N2PK1/1P6/8 w - - 3 39",
+      "key": "5de5e0434ea0f644e26fb19ef6b70c71",
+      "record": 402069983,
+      "split": 0
+    },
+    {
+      "fen": "1n1qk2r/3bppbp/2pp1np1/8/Q1PPP3/3B1N2/1P1BNPPP/5RK1 b k - 0 14",
+      "key": "0810763e4fd9d38dc9931ea56dfb7207",
+      "record": 97282611,
+      "split": 0
+    },
+    {
+      "fen": "r1br2k1/5p1p/p3pp2/1pn5/2B5/4PN2/PP3PPP/R4RK1 w - - 0 14",
+      "key": "2294438bef47b583c3bc3c4cad3a8dcf",
+      "record": 97282612,
+      "split": 0
+    },
+    {
+      "fen": "rn2k2r/pp2ppbp/1qp3p1/3pPn2/3P1B2/5Q1P/PPP1NPP1/R3KB1R w KQkq - 3 10",
+      "key": "631e90e10e9ff58fda6d74d9340ceed7",
+      "record": 97282613,
+      "split": 0
+    },
+    {
+      "fen": "3r4/1pk2ppp/p1p2n2/8/P7/2P2B1P/5PP1/4RK2 w - - 1 23",
+      "key": "bd657d6d715a1a6950d5f8ea78c70118",
+      "record": 97282614,
+      "split": 0
+    },
+    {
+      "fen": "6k1/2p4p/1rp5/2Kp2p1/PN1Pp2r/1P2P3/8/4R3 w - - 2 33",
+      "key": "a1399045304f657e059ff5208870d23b",
+      "record": 97282615,
+      "split": 0
+    },
+    {
+      "fen": "1r2r1k1/p4pp1/1p5p/2pB4/3p1n2/3P3P/PPP1R1P1/R5K1 w - - 2 25",
+      "key": "c4ffe27981ebb1a3d227ea5ee93777ae",
+      "record": 97282616,
+      "split": 0
+    },
+    {
+      "fen": "8/6p1/8/8/5nkp/8/8/6K1 b - - 1 57",
+      "key": "eab48a665136290ecb8a7178d13569aa",
+      "record": 97282617,
+      "split": 0
+    },
+    {
+      "fen": "r4rk1/1ppq1p1p/p1np1p2/4p3/2P1P3/P4N2/1PP2PPP/R2Q1RK1 w - - 0 13",
+      "key": "cc6b20987446195dcf6c172181e34dd3",
+      "record": 97282618,
+      "split": 0
+    },
+    {
+      "fen": "8/8/8/3K2p1/P7/2N5/3k4/5Q2 w - - 1 48",
+      "key": "0949e1d3044f431536da47edb566d61c",
+      "record": 358861238,
+      "split": 0
+    },
+    {
+      "fen": "r2qk2r/nbp1bppp/pp2pn2/4P3/3P4/2NBBN2/PPPQ2PP/R4RK1 b kq - 0 11",
+      "key": "0fb866033f883d9e1d6d60e0145ae794",
+      "record": 358861239,
+      "split": 0
+    },
+    {
+      "fen": "8/p4p1p/4k1p1/5b2/1BBP4/8/PR3PPP/K7 b - - 4 29",
+      "key": "effd6fbd72851be4a81985e9fa3d9927",
+      "record": 358861240,
+      "split": 0
+    },
+    {
+      "fen": "7k/6qp/b5p1/2p5/2PpN3/1P1P2P1/6BP/5Q1K b - - 2 31",
+      "key": "936c576eccc6e0b25029a0620a22a0f1",
+      "record": 358861241,
+      "split": 0
+    },
+    {
+      "fen": "8/8/3k4/5ppp/KP6/4P1P1/3B2BP/8 b - - 1 37",
+      "key": "613dce31170d01e1a7aa64b6894503f4",
+      "record": 358861242,
+      "split": 0
+    },
+    {
+      "fen": "r4rk1/6pp/ppnq4/3pp3/5P2/3Q2P1/PP2B2N/4K2R b - - 1 22",
+      "key": "520f934c9fa84fa5ebf770b581bbba92",
+      "record": 358861243,
+      "split": 0
+    },
+    {
+      "fen": "r2qk2r/1p1bbpp1/p1p4p/3pPp2/3P3P/2N3B1/PPP1Q3/2KR3R w kq - 0 18",
+      "key": "ad4015e60bb83b89917451e83000286a",
+      "record": 358861246,
+      "split": 0
+    },
+    {
+      "fen": "rn3rk1/5pbp/1qp1pnp1/1p1p4/pP4b1/P2P1NPP/NBPQPPB1/1K1R3R b - - 0 14",
+      "key": "0abf43294cd68f8431ba7ae6438d4421",
+      "record": 358861247,
+      "split": 0
+    },
+    {
+      "fen": "r2q1rk1/pp2npbp/3pp1p1/1b4B1/3NP3/2N4P/PP3PP1/R2QR1K1 w - - 0 13",
+      "key": "790ffc68bd38b883bfc81839e1e6d3f1",
+      "record": 164655354,
+      "split": 0
+    },
+    {
+      "fen": "r4rk1/p4pp1/3p4/2p4p/3N2b1/3P4/PPP2Q2/RN2KR2 w Q - 2 20",
+      "key": "2a4312391262594cddee16d976acb38c",
+      "record": 164655355,
+      "split": 0
+    },
+    {
+      "fen": "r4r2/1p3p1k/1p2q3/2p5/P2pPQ2/1P4R1/1P3PPP/3R2K1 b - - 10 25",
+      "key": "c7bd48b075773aa939f9f35438e88124",
+      "record": 164655356,
+      "split": 0
+    },
+    {
+      "fen": "8/8/8/1k4r1/1B1R4/P7/2r5/5K2 b - - 11 65",
+      "key": "4167ef9efcd56061732eaef490a29006",
+      "record": 164655357,
+      "split": 0
+    },
+    {
+      "fen": "7k/7p/3p4/1P1P4/8/2p2r2/2Kp4/3Rr3 w - - 1 66",
+      "key": "cc482ec3d6be5d997c545918a814fdb6",
+      "record": 164655358,
+      "split": 0
+    },
+    {
+      "fen": "r1bqk2r/ppp2ppp/5n2/8/3pP3/P2P1N2/2P2PPP/R2QKB1R w KQkq - 0 10",
+      "key": "fefdeeffbf8bc50fdc1d3dceb15cb4a9",
+      "record": 164655359,
+      "split": 0
+    },
+    {
+      "fen": "8/ppp3p1/8/1Pb1pk2/n1P1p1p1/8/4K3/4B3 b - - 1 32",
+      "key": "62556c9eb418ef739484521dfb3d8989",
+      "record": 164655360,
+      "split": 0
+    },
+    {
+      "fen": "4k2r/1ppn1ppp/2n5/4p3/1PN1P3/2P2P2/2K3PP/B5R1 b k - 0 16",
+      "key": "58a8234614edd8230d72ae02fb84db92",
+      "record": 164655361,
+      "split": 0
+    },
+    {
+      "fen": "r3kn1r/1pq3p1/1np1p1p1/p2pP1Pp/P2P3P/1QPB1P2/1P1N4/R3K2R b KQkq - 0 18",
+      "key": "1eb5b78b16efe52fda8da5a6c9b7676e",
+      "record": 441803189,
+      "split": 0
+    },
+    {
+      "fen": "2kr3r/1ppbqppp/p3pn2/3pN3/1P1P1P2/2PB4/P1Qn1PPP/R4RK1 w - - 0 14",
+      "key": "595f04e9a286b373135d41b293097419",
+      "record": 441803190,
+      "split": 0
+    },
+    {
+      "fen": "r1bqk2r/ppp3b1/2n3pn/3p4/4p3/1PN5/PBPPQPPP/2KR1BNR b kq - 3 10",
+      "key": "8571307bdde6c9e048fe8c293b30a170",
+      "record": 441803191,
+      "split": 0
+    },
+    {
+      "fen": "8/1pp2rk1/1p1p4/3P1ppp/8/PB6/1PP2PN1/5K2 w - - 0 30",
+      "key": "04b459a24f1d6a6d472813f0c28eb35a",
+      "record": 441803192,
+      "split": 0
+    },
+    {
+      "fen": "4B2k/6bp/5pp1/4p3/pB2P3/P4N1P/5rPK/1r6 w - - 0 31",
+      "key": "84de3e02a9dcb3c2e3b4df2c4b04bd40",
+      "record": 441803193,
+      "split": 0
+    },
+    {
+      "fen": "rn1qkb1r/pp3ppp/4p3/3p4/2pP4/P1N1P3/1P3PPP/R1BQ1RK1 b kq - 1 10",
+      "key": "807d810b1bbea5e9b95141150b3ba761",
+      "record": 441803194,
+      "split": 0
+    },
+    {
+      "fen": "8/8/8/8/8/1kr5/4K3/8 b - - 3 54",
+      "key": "a06ed351e47af58bd19699e7252c179f",
+      "record": 441803195,
+      "split": 0
+    },
+    {
+      "fen": "2kr3r/pp1nn3/2p1Qp2/8/3P2B1/6P1/PPP2KPq/R4R2 b - - 3 22",
+      "key": "8cd44ed1a7c345c8adbd8230411148d2",
+      "record": 441803196,
+      "split": 0
+    },
+    {
+      "fen": "2kr4/ppp5/5p1R/2np4/8/2P5/PPQ2rP1/2K3R1 b - - 0 26",
+      "key": "d249b948b1fe2305e1b8436df87aa456",
+      "record": 247749957,
+      "split": 0
+    },
+    {
+      "fen": "rnb1k2r/pp1pn1pp/2pb1p2/q3p3/2P5/1P2P1P1/PB1PNPBP/RN1QK2R w KQkq - 4 8",
+      "key": "85e554f57a1b6bf6ea7a49953bee1887",
+      "record": 247749958,
+      "split": 0
+    },
+    {
+      "fen": "3r4/pp3pk1/6p1/8/2Pp4/3K4/P4PP1/2R5 w - - 3 30",
+      "key": "333c27c85e14fbdf2829542806533067",
+      "record": 247749959,
+      "split": 0
+    },
+    {
+      "fen": "3k4/6R1/8/8/P4B2/8/P1P2PPK/8 b - - 0 47",
+      "key": "a8af7fd90f6c35997f23599c6f6c2066",
+      "record": 247749961,
+      "split": 0
+    },
+    {
+      "fen": "r1b2rk1/p1q2pp1/1p2p2p/2p1n3/8/3P1N1P/PPPQB1P1/2KR3R b - - 0 15",
+      "key": "f84cdeb09a147ac0eacae5935b51c153",
+      "record": 247749962,
+      "split": 0
+    },
+    {
+      "fen": "rn1qk2r/pbp2ppp/1p1bpn2/3p4/3P4/2NBPN2/PPP1QPPP/R1B1K2R w KQkq - 2 7",
+      "key": "50bb47d4ca27a3bd84930f4a11d4d71e",
+      "record": 247749963,
+      "split": 0
+    },
+    {
+      "fen": "3r4/p1pBnkp1/8/5pqp/4P3/1Q6/P4PPP/3R2K1 b - - 1 25",
+      "key": "52b852135edb34b39d9ec9b0fd93918f",
+      "record": 247749964,
+      "split": 0
+    },
+    {
+      "fen": "r4r2/pp4k1/6p1/3Rb3/2B1p3/2P2b1N/PP6/6KR b - - 3 23",
+      "key": "f3cee76f4f7772e7cd9d9f29753cf748",
+      "record": 247749965,
+      "split": 0
+    },
+    {
+      "fen": "6k1/pp3p1p/2p2Kp1/5n2/5P2/3N3P/PPP5/8 b - - 1 28",
+      "key": "1517ea9f52baf48999d1317021d07734",
+      "record": 456055719,
+      "split": 0
+    },
+    {
+      "fen": "r6r/3bkp1p/p2bpp2/npP5/8/2P2N2/PPBB1PPP/2K1R2R b - - 0 16",
+      "key": "86280b5c478ec2c0c43ca837574cfa61",
+      "record": 456055720,
+      "split": 0
+    },
+    {
+      "fen": "r2qkb1r/pp3ppp/2n1pn2/3p4/8/2NPQ3/PPPBNPPP/R3K2R b KQkq - 2 9",
+      "key": "5d43def59d10751fd49e40bee88daab2",
+      "record": 456055721,
+      "split": 0
+    },
+    {
+      "fen": "r4rk1/pp3pp1/2p4p/3p1p2/2PP2n1/1PN1P3/PB1Q1PP1/R2R1K1q w - - 5 19",
+      "key": "dcd5589a2b25a485c09779b7a03d9e24",
+      "record": 456055722,
+      "split": 0
+    },
+    {
+      "fen": "8/8/6K1/4Q1P1/8/2k5/8/8 b - - 6 63",
+      "key": "3e4364ff53ce439bbb9f36b2665c7d30",
+      "record": 456055723,
+      "split": 0
+    },
+    {
+      "fen": "r3k2r/pbppqpb1/1p2p1p1/4n3/3PPPp1/2PB4/PP2Q1P1/RNB1R1K1 w kq - 0 13",
+      "key": "534a0e104299410d3994762c36331531",
+      "record": 456055724,
+      "split": 0
+    },
+    {
+      "fen": "7r/6p1/5p1p/p1pkp3/8/1P2K3/P5PP/2R5 b - - 1 33",
+      "key": "cf8432f2a7a0a6584206f2a5ca8a7a14",
+      "record": 456055725,
+      "split": 0
+    },
+    {
+      "fen": "1r3rk1/3bbp1p/p1pp2p1/2p1p3/2N1P3/1PPP1P2/P2N2PP/R3K2R b KQ - 2 17",
+      "key": "90b18f2775b949a192bcd5c83a32b7e6",
+      "record": 456055726,
+      "split": 0
+    },
+    {
+      "fen": "rn2kb1r/pp2p1pp/2p2n2/q7/3P2b1/6N1/PPP1B1PP/R1BQK1NR w KQkq - 5 9",
+      "key": "4fcd234935f4c63c9f21d1c57a02b132",
+      "record": 239701387,
+      "split": 0
+    },
+    {
+      "fen": "2r2b1r/1N3p2/p3bNpp/1kppP3/8/2P1n3/PP3PP1/R3R1K1 w - - 0 23",
+      "key": "ec25d3546608e512c4ad6560b7dce812",
+      "record": 239701388,
+      "split": 0
+    },
+    {
+      "fen": "8/7p/8/1R6/6B1/2Pk4/P2r1PPP/2R3K1 w - - 1 29",
+      "key": "208b1fc377735facd49f323510fb9fd5",
+      "record": 239701389,
+      "split": 0
+    },
+    {
+      "fen": "rnb1kbnr/1pp2ppp/p7/3qp3/3P4/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 5",
+      "key": "4fbf03e6553e043d1c05dc31eecefc32",
+      "record": 239701390,
+      "split": 0
+    },
+    {
+      "fen": "r1bq1rk1/pp1n2b1/2p1N1p1/3pPp1p/3P3P/2PBQ3/PP1N1PP1/R3K2R b KQ - 0 13",
+      "key": "1cadbb02c9d71f56d045d272d1f76884",
+      "record": 239701391,
+      "split": 0
+    },
+    {
+      "fen": "r3k3/pbp1q1p1/1p1p3p/2bP1Bp1/8/2N5/PPQ2PPP/R4RK1 w - - 6 20",
+      "key": "6c8bae590bde5e735d2f7243a35c2220",
+      "record": 239701392,
+      "split": 0
+    },
+    {
+      "fen": "8/4k3/p3P1pp/np6/P7/2p1R3/5PPP/6K1 w - - 0 39",
+      "key": "0a1ca0594ff81cac4a0dfa09f98c727e",
+      "record": 239701393,
+      "split": 0
+    },
+    {
+      "fen": "1k6/p2qb3/2pp4/4p1p1/Q3P3/1P5P/1PP3P1/6K1 b - - 2 28",
+      "key": "92d4a77fc0428549eedc607ec4b3318b",
+      "record": 239701394,
+      "split": 0
+    },
+    {
+      "fen": "r2q1r1k/ppp4p/2Bp2p1/4p3/1P2P1Q1/B1Pn4/P2P1bPP/RN1K3R b - - 0 16",
+      "key": "4ea26d3b03aaf7eb8e16543c17f833d2",
+      "record": 389949942,
+      "split": 0
+    },
+    {
+      "fen": "r3k2r/3b4/3Rpn1p/p1p3p1/PqQ1P3/5NBP/1PP2PP1/4R1K1 w kq - 1 24",
+      "key": "fd279dfda85c0f448df6e21ded80580c",
+      "record": 389949943,
+      "split": 0
+    },
+    {
+      "fen": "r1b1k2r/ppqnbpp1/2pp1n1p/3Pp3/2P1P3/3B1N1P/PP3PP1/RNBQ1RK1 w kq - 0 9",
+      "key": "559fe92089a4af74da1bc303094ebff3",
+      "record": 389949944,
+      "split": 0
+    },
+    {
+      "fen": "8/B7/8/6k1/7p/1N5P/8/6K1 w - - 12 54",
+      "key": "e943e9f468c974d4fbdf4397a87414f9",
+      "record": 389949945,
+      "split": 0
+    },
+    {
+      "fen": "r4rk1/p1q2ppp/1pp1p3/4P3/2R5/1Q4P1/PP2PPKP/5R2 w - - 1 17",
+      "key": "3437321ab633ab218ce246620b56007c",
+      "record": 389949946,
+      "split": 0
+    },
+    {
+      "fen": "8/kn6/pp6/r7/8/KP2Q3/2r5/8 w - - 0 57",
+      "key": "f8ecffd10b32f15b3e66e5a62cc2b8ff",
+      "record": 389949947,
+      "split": 0
+    },
+    {
+      "fen": "8/p4k2/4r1pp/1p1pPp2/2pP4/2P5/PP4PP/5RK1 w - - 0 31",
+      "key": "1772140346e9f36d69281acd7dce8fdc",
+      "record": 389949948,
+      "split": 0
+    },
+    {
+      "fen": "rn5r/pp4pk/2p2n1p/2b4P/2B5/5QN1/P1bqRPP1/4R1K1 b - - 4 20",
+      "key": "38f959ed648d546b022e6e8649f629cb",
+      "record": 389949949,
+      "split": 0
+    },
+    {
+      "fen": "8/8/8/5K2/8/3B2k1/8/6N1 b - - 18 58",
+      "key": "effc094172c16e487a1dc959034d21d9",
+      "record": 398378679,
+      "split": 0
+    },
+    {
+      "fen": "r1b1kbnr/2qn1pp1/p1pp4/7p/2P5/2N2N2/PP3PPP/R1BQKB1R b KQkq - 1 9",
+      "key": "dfff74bb6b3e6fe66d0e151c318f1842",
+      "record": 398378680,
+      "split": 0
+    },
+    {
+      "fen": "6k1/p4ppp/8/1p3b2/2pB4/1P3P2/P1P2P1P/2K1rB1R w - - 1 21",
+      "key": "32c632adaa008bfa641c6f5c5d83eb90",
+      "record": 398378681,
+      "split": 0
+    },
+    {
+      "fen": "rnbqk2r/pp3pp1/4pb1p/2pP4/2P5/2N2N2/PP3PPP/R2QKB1R w KQkq - 0 10",
+      "key": "f69551ddea2cd65b23251aa1060fb3c1",
+      "record": 398378682,
+      "split": 0
+    },
+    {
+      "fen": "r7/6Bk/1K5P/1R6/1P6/8/8/8 b - - 6 74",
+      "key": "30a63fdfd56b09ae5ec61304d0be5a88",
+      "record": 398378683,
+      "split": 0
+    },
+    {
+      "fen": "8/p3krpQ/5pB1/2p5/8/2PP4/PP6/2KR4 w - - 6 33",
+      "key": "1b3ca3e31cfe6683717da494659fb15f",
+      "record": 398378684,
+      "split": 0
+    },
+    {
+      "fen": "8/8/8/P3R3/6R1/2K2p2/5k2/2r5 w - - 1 53",
+      "key": "5fb54b99073190725dee0e61fc6180bc",
+      "record": 398378685,
+      "split": 0
+    },
+    {
+      "fen": "1r1qk1nr/pb1pppbp/1pn3p1/8/3P1P2/2P2NP1/PP1N2BP/R1BQK2R b KQk - 0 9",
+      "key": "1842f48b2bd08f80833e4c0f93ec7fd3",
+      "record": 398378686,
+      "split": 0
+    },
+    {
+      "fen": "r1b1q1k1/p5pp/B1pb1p2/3n4/Q2P4/2N2N2/1P3PPP/R1B3K1 b - - 0 15",
+      "key": "eec84e1dd5d4518c0814148cdab88d35",
+      "record": 150780401,
+      "split": 0
+    },
+    {
+      "fen": "r2q1rk1/pb3ppp/1p1p1b2/2nP4/8/2N2N1P/PPB2PP1/R2Q1RK1 b - - 2 14",
+      "key": "ec088737599cf5a05d6bcfad75c03b95",
+      "record": 150780402,
+      "split": 0
+    },
+    {
+      "fen": "r1b2rk1/2q1bppp/p2pp3/1p5n/4PP2/2NPBNQ1/PP4PP/R4R1K w - - 1 15",
+      "key": "aaee286be7dee5af044e8f75551cc647",
+      "record": 150780403,
+      "split": 0
+    },
+    {
+      "fen": "2r3k1/5r1p/1b1p2p1/ppqPpB2/8/P1PQ2P1/1P2RPN1/3R2K1 b - - 0 29",
+      "key": "629da671fed72d86a1a713f5f0326e5c",
+      "record": 150780404,
+      "split": 0
+    },
+    {
+      "fen": "r4rk1/pp1nbppp/1qp2n2/3pN3/3P4/2N1B3/PPP1QPPP/R3R1K1 w - - 1 12",
+      "key": "0e158fe7654d926b2398e93f7c40eda9",
+      "record": 150780405,
+      "split": 0
+    },
+    {
+      "fen": "r2q1rk1/pbpn2pp/1p1ppn2/8/P3p2P/2P2PP1/2P5/R1BQKBNR w KQ - 0 12",
+      "key": "3fbc7743150bcf822ca9824951b6327d",
+      "record": 150780406,
+      "split": 0
+    },
+    {
+      "fen": "1k4r1/ppq5/2np3n/2p1p1r1/4P1b1/P2P3P/1PPQB3/R4RKN w - - 0 21",
+      "key": "14c1542f7abc195d6887c0eff153bd2e",
+      "record": 150780407,
+      "split": 0
+    },
+    {
+      "fen": "rnbqk2r/ppp1ppbp/5np1/8/2PP4/2N1p1N1/PP2BPPP/R1BQK2R b KQkq - 1 7",
+      "key": "9231cf4bbb4d68c8d9499761acb9ae65",
+      "record": 150780408,
+      "split": 0
+    },
+    {
+      "fen": "r1b1k2r/pp1pnpbp/1qn1p1p1/2p5/2B1P3/2NPBN2/PPP2PPP/R2Q1RK1 w kq - 5 8",
+      "key": "bbae4436b2b364f0f6d2c99fd78211aa",
+      "record": 245709518,
+      "split": 0
+    },
+    {
+      "fen": "r5k1/1p1n2pp/p2p2n1/2pP1P2/2Pb2N1/3Q3P/PP4PK/R1B1r3 b - - 0 22",
+      "key": "fcb222e62e8614db05090969c7695233",
+      "record": 245709519,
+      "split": 0
+    },
+    {
+      "fen": "r2q1rk1/1pp1npbp/2np2p1/4p3/2P1P3/p1NP2P1/3B1PBP/R2Q1RK1 b - - 1 13",
+      "key": "781ed87a2396deaed7d4ac9ef2a99f36",
+      "record": 245709520,
+      "split": 0
+    },
+    {
+      "fen": "5rk1/P5bp/4p1p1/1PpbP3/1n6/1P4BP/4BPP1/3RR1K1 b - - 0 33",
+      "key": "aab144c4f744b7446e526cf89b75f0e7",
+      "record": 245709521,
+      "split": 0
+    },
+    {
+      "fen": "r3k2r/pp1b1ppp/1q2p3/3pP3/3P4/2PBP3/P5PP/R2QK2R w KQkq - 1 14",
+      "key": "4c558602a0caf71a3a8603086c3f729e",
+      "record": 245709522,
+      "split": 0
+    },
+    {
+      "fen": "r4r1k/p5pp/1p6/1P1Q4/4PPq1/8/P3P2P/R6K b - - 0 26",
+      "key": "c4d675c8cdd224c547c4f690908552dc",
+      "record": 245709523,
+      "split": 0
+    },
+    {
+      "fen": "3rk3/pp2N2p/1Np2R1P/4n1p1/1P2P3/P7/2P5/2K5 b - - 0 31",
+      "key": "cc727f74f7067c25244d24c646cd948c",
+      "record": 245709524,
+      "split": 0
+    },
+    {
+      "fen": "8/1k2B3/p3b3/p3bp1p/P1P3pP/3KP1P1/5P2/8 b - - 3 54",
+      "key": "56c9cd40b17d0b967f79efe3474271a3",
+      "record": 245709525,
+      "split": 0
+    },
+    {
+      "fen": "r7/p2kr3/1p1b2p1/2p2p1p/2B5/BP2P3/P2R1PPP/3R2K1 b - - 1 21",
+      "key": "9940b8b67d5d1b909e4334d3373b9c36",
+      "record": 438879700,
+      "split": 0
+    },
+    {
+      "fen": "2k4r/2p5/pp1pp3/5nq1/2P5/5R1P/PP3RPK/8 b - - 6 28",
+      "key": "ad03f96b734c6406a5c8e791120099b8",
+      "record": 438879701,
+      "split": 0
+    },
+    {
+      "fen": "8/7p/p4k2/4b3/8/5qPP/1P1Q3K/8 w - - 3 49",
+      "key": "1f40a69537bf3995e8920418d2ef3f34",
+      "record": 438879702,
+      "split": 0
+    },
+    {
+      "fen": "8/5p2/5K2/P2p2P1/8/3k4/2p5/6R1 b - - 1 62",
+      "key": "928c19de43bf7ba30589a90b4eef1065",
+      "record": 438879703,
+      "split": 0
+    },
+    {
+      "fen": "5rk1/2q2p2/p3pb1p/1p1b2p1/2rB4/P1P2P2/1PN2QPP/3RR2K b - - 8 24",
+      "key": "621148b791e24876d8e138ff0b809c38",
+      "record": 438879704,
+      "split": 0
+    },
+    {
+      "fen": "rnbq1r2/pp4k1/2p2bpp/3ppp2/3P1N1P/2PBP3/PP1N1PP1/R2QK2R w KQ - 0 13",
+      "key": "ddd42dbd408d4cb8c51493caf7fe78c5",
+      "record": 438879705,
+      "split": 0
+    },
+    {
+      "fen": "r1b4r/pp2kppp/3b4/8/2Bp4/5N2/PP3PPP/R3K2R w KQ - 0 13",
+      "key": "49272325e51a344912523b42806fce5e",
+      "record": 438879706,
+      "split": 0
+    },
+    {
+      "fen": "r2qkbnr/pb1p1ppp/np1Pp3/2p5/2P2B2/P1N1PN2/1P3PPP/R2QKB1R w KQkq - 1 10",
+      "key": "c700d9d8d6f63c70de8e50fac734273d",
+      "record": 438879707,
+      "split": 0
+    },
+    {
+      "fen": "7R/8/1pp5/p1kp4/P7/1KP1r3/8/8 w - - 10 48",
+      "key": "09e85fb41c0f9bb29cb8e5496c344d47",
+      "record": 312258813,
+      "split": 0
+    },
+    {
+      "fen": "1r3r1k/p5pp/3p1p2/P2B1n2/8/1P6/2P2PPP/R4RK1 b - - 0 19",
+      "key": "46585bae578c3301c1932f9ccd722db4",
+      "record": 312258814,
+      "split": 0
+    },
+    {
+      "fen": "r3kb1r/pp3ppp/2n1p3/1q1pP3/3P4/2B2Q1P/PP3PP1/R3K2R b KQkq - 1 13",
+      "key": "f766c8c23a13b29da8e884e8ada5bd9e",
+      "record": 312258815,
+      "split": 0
+    },
+    {
+      "fen": "8/6P1/5K2/p7/8/k7/8/8 w - - 0 49",
+      "key": "3403e7b77270d8187d4a9663be603572",
+      "record": 312258816,
+      "split": 0
+    },
+    {
+      "fen": "3r1rk1/1p3ppp/p2qp3/2Nn4/1P1PQ3/P3P3/5PPP/R1R3K1 b - - 8 22",
+      "key": "d3ab5143ab0672c8d2d3d9af2ba1ffe7",
+      "record": 312258817,
+      "split": 0
+    },
+    {
+      "fen": "r1br4/pp5k/2p1p1p1/3pP1q1/PP1Q3p/2PR3P/2B2PP1/R5K1 w - - 4 29",
+      "key": "8f8baf7e6713e11df80abcb37b2798e8",
+      "record": 312258818,
+      "split": 0
+    },
+    {
+      "fen": "4qrbk/ppr1b1pp/8/4N3/3BpPQ1/2P1P1P1/P4R1P/3R2K1 b - - 5 25",
+      "key": "c23b21cc27cb838a9fbe62edb8fa279b",
+      "record": 312258819,
+      "split": 0
+    },
+    {
+      "fen": "r3k1r1/2pq1p2/p1b1pBp1/3pP1Pp/2pP3P/Q4N2/1PP2P2/2KR2R1 w q - 3 28",
+      "key": "e09c7345f12c294cdcadd6491efb065c",
+      "record": 312258820,
+      "split": 0
+    },
+    {
+      "fen": "2r4r/2qn1pk1/pp1p1np1/3Pp3/2P5/1P2NP2/P2QB1PP/3RR1K1 w - - 3 24",
+      "key": "c43168ecc66ad36f8b5897dcad7a2ef4",
+      "record": 326130513,
+      "split": 0
+    },
+    {
+      "fen": "r3r3/pp3p2/2p2n1k/3p3p/3Pp2P/2P1Q3/qP1K1PN1/1R5R b - - 0 28",
+      "key": "92322cfc419959fa3e5e6e6d3e384ea3",
+      "record": 326130514,
+      "split": 0
+    },
+    {
+      "fen": "rn1qk1nr/p2p1ppp/bpp1p3/3PP3/2P5/2P2NP1/P4PBP/R1BQK2R b KQkq - 0 10",
+      "key": "811056d23642408a994ef0ea0f9059d6",
+      "record": 326130515,
+      "split": 0
+    },
+    {
+      "fen": "3r2k1/1b1rnppp/pPp2q2/3P4/B7/2N5/1PQ2PPP/3R1RK1 b - - 0 22",
+      "key": "fbb289780775dd54b6d052ddda758d36",
+      "record": 326130516,
+      "split": 0
+    },
+    {
+      "fen": "r3r3/p5kp/5Bp1/3pPb2/3P4/5P2/PP4PP/2R1R1K1 b - - 0 23",
+      "key": "fd04c8ca534fc725dc42540915dc9beb",
+      "record": 326130517,
+      "split": 0
+    },
+    {
+      "fen": "2r3k1/p4ppp/8/3p1b2/5P2/4B3/PPr2P1P/R3R1K1 w - - 0 23",
+      "key": "eaef6140d58f1fc028dcaac9be03336f",
+      "record": 326130518,
+      "split": 0
+    },
+    {
+      "fen": "r4rk1/2qn1pb1/b1pp4/1p1P2Bp/2P1Pp1P/pPN4N/P2Q4/2K3RR w - - 0 20",
+      "key": "8d3bf1dceb3dcda8035effe31f84e7dd",
+      "record": 326130519,
+      "split": 0
+    },
+    {
+      "fen": "8/2Q5/p5k1/6Bp/1P1P2bK/P7/2P3PP/R7 b - - 0 28",
+      "key": "a003f024753fffcefd3f45ad7f70cb94",
+      "record": 326130520,
+      "split": 0
+    },
+    {
+      "fen": "2r5/p2nkpb1/6pp/P1pRpb2/B7/5N2/5PPP/2R3K1 b - - 4 28",
+      "key": "4cbff1fd3d34ebdedd5e498c6d37b1d3",
+      "record": 238814248,
+      "split": 0
+    },
+    {
+      "fen": "2r5/1b2Rpkp/p1p3p1/P2p4/1P1N4/3P2PP/2P2P2/6K1 w - - 3 29",
+      "key": "175e30ae1919a054cdae39d162580866",
+      "record": 238814249,
+      "split": 0
+    },
+    {
+      "fen": "rnq1r1k1/1p2bpp1/p2p1n1p/2pPp3/P1P1P3/2N1B2P/1P3PPN/R2Q1RK1 b - - 1 14",
+      "key": "a151a82e3549a7baf43a4934b269a2fd",
+      "record": 238814250,
+      "split": 0
+    },
+    {
+      "fen": "r2q1rk1/pp3ppp/1b1p4/2pPp1P1/2P1b2P/P1B1nN2/1P6/R2QKB1R w KQ - 0 19",
+      "key": "1c9b314a48168348377890f9b5d17fb8",
+      "record": 238814251,
+      "split": 0
+    },
+    {
+      "fen": "3r1rk1/1p1q1pb1/p2p2p1/2pNB2p/2P3bP/1P2P1P1/P2Q1PB1/R4RK1 b - - 0 19",
+      "key": "a39f0d5caadfeb58a4241dc112f9d720",
+      "record": 238814252,
+      "split": 0
+    },
+    {
+      "fen": "r3k2r/pp2pp1p/2np2pn/5P2/2B1P3/2q1BQ1P/P5P1/2R2RK1 b kq - 1 15",
+      "key": "2b7dba24caa173d5f05a7ced0ec4a791",
+      "record": 238814253,
+      "split": 0
+    },
+    {
+      "fen": "r1bq1rk1/pp2p1bp/2n1p1p1/1N1p4/6n1/5N2/PPP1BPPP/R1BQ1RK1 b - - 1 11",
+      "key": "997f016a9b0869a72b860a42b369f771",
+      "record": 238814255,
+      "split": 0
+    },
+    {
+      "fen": "8/pp2k3/3p3p/2pPp1pP/2P2rP1/1PK5/P7/6R1 w - - 6 33",
+      "key": "3ccfa8232bb532eabecf83eebb7e2575",
+      "record": 238814256,
+      "split": 0
+    },
+    {
+      "fen": "5R2/1p1k4/1K6/8/2P5/8/8/8 w - - 5 65",
+      "key": "37200730f726c70c9978b912841281cb",
+      "record": 191275526,
+      "split": 0
+    },
+    {
+      "fen": "r1b1k2r/1pp2ppp/p1n1pq1n/2Qp4/3PP2N/2B3P1/PP3PBP/R4RK1 b kq - 0 13",
+      "key": "b00edb0cfe754cbdf6daa3fbd82a4301",
+      "record": 191275527,
+      "split": 0
+    },
+    {
+      "fen": "r1b1r1k1/1p1nqpbp/p2p1np1/2pPp3/2P1P3/2NB1N1P/PPQ2PP1/R1B2RK1 w - - 0 12",
+      "key": "fd7d67cd2c19da447de4dd4e422a081f",
+      "record": 191275528,
+      "split": 0
+    },
+    {
+      "fen": "4r1k1/ppp2ppp/2nbr2Q/8/3p2b1/P2P1NPP/1PP2PBK/R4RN1 b - - 0 17",
+      "key": "146bd087567a3430e65d5c0afe6f12ff",
+      "record": 191275529,
+      "split": 0
+    },
+    {
+      "fen": "r1b1k2r/pp1nppb1/1qpp1n2/7p/3P2pP/1P1BP1B1/P1PNNPP1/R2QK2R w KQkq - 2 10",
+      "key": "76b57906d132829caccb9e27722bb949",
+      "record": 191275530,
+      "split": 0
+    },
+    {
+      "fen": "r2q1rk1/pp3pp1/2p2np1/3b4/3P4/2BB4/PP3PPP/R2QR1K1 w - - 0 15",
+      "key": "551f94ebacc30837a8dcd37fbba405cc",
+      "record": 191275531,
+      "split": 0
+    },
+    {
+      "fen": "8/2n5/3k4/p3pp2/1bB3p1/1P1K2N1/P5P1/8 b - - 1 46",
+      "key": "fc59ad7db8b191ae634172260527ff86",
+      "record": 191275532,
+      "split": 0
+    },
+    {
+      "fen": "2rq1rk1/p2nppbp/np4p1/4P3/3P4/2N3N1/PP4PP/R1BQ1RK1 b - - 0 14",
+      "key": "f5d1bb6b8060b9784fbc9caa58201bf1",
+      "record": 191275533,
+      "split": 0
+    },
+    {
+      "fen": "q5k1/5ppp/4p1b1/p2pb3/1B6/1Q3NP1/P4PBP/1n3RK1 b - - 0 24",
+      "key": "9f12a50a384743e04086e3c6e88ae713",
+      "record": 425907558,
+      "split": 0
+    },
+    {
+      "fen": "5rk1/1RNp2pp/8/1p3p2/3qn3/1P3P2/1P2Q1PP/5RK1 w - - 1 22",
+      "key": "8cdbeff735c59bb326fa79f1106bbe55",
+      "record": 425907559,
+      "split": 0
+    },
+    {
+      "fen": "r1bqk1r1/pp1p2pp/2p2p2/2b5/3pP3/2PQ4/PP1P1PPP/RNB1K2R b KQq - 2 9",
+      "key": "a8e5992c50959a7c2cdf83b9aca0b726",
+      "record": 425907561,
+      "split": 0
+    },
+    {
+      "fen": "2rq1rk1/pb2bppp/1pnp1n2/3P4/8/1N2BN2/PP2BPPP/R2Q1RK1 b - - 0 15",
+      "key": "09f18215d5f66ccb84341af9d29e5802",
+      "record": 425907563,
+      "split": 0
+    },
+    {
+      "fen": "3r1k1r/p1p3bp/1p4p1/8/2bp3q/3Q1P1P/PP1PN1P1/R1BK3R w - - 0 20",
+      "key": "352e8ef49c3dcfc2f0f5ea6ea08293f7",
+      "record": 425907564,
+      "split": 0
+    },
+    {
+      "fen": "6k1/bp4pb/7p/3Nn3/6P1/1PP2P2/1n2KBB1/2N5 b - - 2 33",
+      "key": "c104471a49e2eaafec3ad7ae3166e248",
+      "record": 425907565,
+      "split": 0
+    },
+    {
+      "fen": "r7/ppp1bkp1/3p3r/3P1q2/8/5P1P/PP4KP/4RR2 b - - 2 24",
+      "key": "00d43726b8bb712e423631bbf5c4dc02",
+      "record": 425907566,
+      "split": 0
+    },
+    {
+      "fen": "3rkbnr/ppp1nppp/8/4P3/2P5/5P2/PP2BP1P/RNB1K2R w KQk - 0 11",
+      "key": "85684bb5a4e3a796da9b481049f354e7",
+      "record": 425907567,
+      "split": 0
+    },
+    {
+      "fen": "8/p7/1p1K4/r1P4p/4Bp2/5Pk1/8/8 b - - 0 43",
+      "key": "302ccbb89e514e6b8c81b6743fb585c1",
+      "record": 364504111,
+      "split": 0
+    },
+    {
+      "fen": "1q2rnk1/4rpp1/7p/5Qn1/8/4P2P/5P2/6RK b - - 3 38",
+      "key": "dcf9b885fb70e02e6c358b362b478efc",
+      "record": 364504113,
+      "split": 0
+    },
+    {
+      "fen": "2n1k3/5p1p/P1K1p1p1/8/8/4P1P1/7P/8 w - - 7 43",
+      "key": "6794183b5485ba95ac144b42a3a84fcc",
+      "record": 364504114,
+      "split": 0
+    },
+    {
+      "fen": "8/8/8/2k1p3/PpP1P3/5B2/2K4p/4b3 w - - 2 43",
+      "key": "862574ed24c6268a24845626285c6779",
+      "record": 364504115,
+      "split": 0
+    },
+    {
+      "fen": "2kr2nr/pppn1ppp/8/2b1p3/P3PP2/2N5/1PP1N1PP/R1BK3R w - - 1 10",
+      "key": "a877dc1e1a9a6a2d2087d1099e65bd87",
+      "record": 364504116,
+      "split": 0
+    },
+    {
+      "fen": "4rr2/1pq3pk/p1n5/P2R1p2/1PQ1p3/2P5/4NPPP/3R2K1 b - - 1 26",
+      "key": "33693aad4356371f0e80dfdcdc51877b",
+      "record": 364504117,
+      "split": 0
+    },
+    {
+      "fen": "r3kb1r/p1pbpp1p/2p2p2/8/1P3P2/P5P1/3PQ2P/2R1K1NR w Kkq - 0 14",
+      "key": "327f00e0eb8fa1ce535a19edcfe0870a",
+      "record": 364504118,
+      "split": 0
+    },
+    {
+      "fen": "8/p3p1kp/6p1/8/6P1/1Br5/P1b1RR1P/1r4K1 w - - 7 26",
+      "key": "7d3fbbe3b4d6d30ff1d19867f9367ca1",
+      "record": 364504119,
+      "split": 0
+    },
+    {
+      "fen": "r1bqnrk1/ppp5/2np1Pp1/4p3/1bP1P3/2NP1Q2/PP5P/R1B1KBNR b KQ - 0 11",
+      "key": "22347e8a2672f267883902bad3b8596a",
+      "record": 133427045,
+      "split": 0
+    },
+    {
+      "fen": "6k1/7p/P4pp1/2R5/4P3/5PK1/2p3PP/2r5 w - - 0 39",
+      "key": "c0775a4012e8337beaf26a892d9761bd",
+      "record": 133427046,
+      "split": 0
+    },
+    {
+      "fen": "r1b1k2r/p1p2p1p/2Nb1q1p/3P4/4Q3/3P4/PPP2PPP/RN2K2R b KQ - 5 12",
+      "key": "ca09449e12197d7d02cdc475df77c8b8",
+      "record": 133427047,
+      "split": 0
+    },
+    {
+      "fen": "r5k1/p5bp/2p3p1/qp1P2P1/2n2P2/P1P4Q/1P5P/2KR3R w - - 1 24",
+      "key": "33a636bf08229b790d844562e79de748",
+      "record": 133427048,
+      "split": 0
+    },
+    {
+      "fen": "3k4/pp6/2pp4/4p2p/2P1P1b1/1P1P4/P4K2/8 w - - 2 42",
+      "key": "bbc588a1088d7343d0d848ea5e90f20e",
+      "record": 133427050,
+      "split": 0
+    },
+    {
+      "fen": "r7/2q1bpkp/2p3p1/2PpP3/1PpP2P1/1B2Q2P/5P2/4R1K1 w - - 0 28",
+      "key": "13dad34056877972af931f6a3f041676",
+      "record": 133427051,
+      "split": 0
+    },
+    {
+      "fen": "r2q1rk1/pp3ppp/2nb4/3B3b/3Np3/2P4P/PP1P1PP1/R1BQR1K1 b - - 1 13",
+      "key": "9d853c933bc52279382010993add6654",
+      "record": 133427052,
+      "split": 0
+    },
+    {
+      "fen": "6k1/7p/p3p3/3p2p1/bBrPp3/P2K1P1P/2p3P1/2R5 w - - 0 41",
+      "key": "4403bdac74274e29f68d85af57bf299f",
+      "record": 133427055,
+      "split": 0
+    },
+    {
+      "fen": "r1b1k2r/pp2ppbp/2n3p1/2p1P3/6n1/2P2N1P/PP2BPP1/RNBR2K1 b kq - 0 10",
+      "key": "d4d5f9ec6ec7f01ab4777b5588eb6d1a",
+      "record": 30348573,
+      "split": 0
+    },
+    {
+      "fen": "8/7p/8/3K4/6p1/5k2/8/8 w - - 0 53",
+      "key": "6ea0818903dbc51b7a446f749c0c030a",
+      "record": 30348574,
+      "split": 0
+    },
+    {
+      "fen": "8/2p5/5p2/3P4/p4PK1/P7/6k1/8 w - - 1 45",
+      "key": "ae270f8c194bd4e4a3901dc499ba3662",
+      "record": 30348575,
+      "split": 0
+    },
+    {
+      "fen": "rnb1kb1r/ppp2p2/3ppq1n/7p/3P2pN/3BP1B1/PPP2PPP/RN1Q1RK1 w kq - 2 9",
+      "key": "09ead05aa27fc4315925c33c125d1099",
+      "record": 30348576,
+      "split": 0
+    },
+    {
+      "fen": "7r/6bp/p1n1kpp1/4p3/2n5/1P3N2/P4PPP/3R1RK1 b - - 0 23",
+      "key": "752c0886088ddae2f858d6c7d2082cc5",
+      "record": 30348577,
+      "split": 0
+    },
+    {
+      "fen": "Q1bq1rk1/1p1p1p1p/n3p3/1N3R2/P1PR2p1/1P2P3/6PP/6K1 w - - 0 21",
+      "key": "94d7504417c5c2c7088178b93fa78b10",
+      "record": 30348578,
+      "split": 0
+    },
+    {
+      "fen": "r2q1rk1/1p1b2p1/p2p2np/1PPP1p2/1P1Pp3/1N5P/4BPP1/R2Q1RK1 b - - 0 20",
+      "key": "f8e4c5a4410f8904e8a5ec49a3eb370d",
+      "record": 30348579,
+      "split": 0
+    },
+    {
+      "fen": "3r1rk1/1pqn1pbp/p1bp2p1/4p3/2P1P3/4B1PP/PP1N1PB1/2RQR1K1 b - - 2 17",
+      "key": "8aaab68fd208ba208b59d4f56d572347",
+      "record": 30348580,
+      "split": 0
+    },
+    {
+      "fen": "r2k3r/p1pbn1pp/2p1Bp2/1pb5/4P3/8/PPP2PPP/RNBR2K1 b - - 5 11",
+      "key": "e8726ce1d49e4518e430a335615efe68",
+      "record": 219055122,
+      "split": 0
+    },
+    {
+      "fen": "6k1/p4p2/1p5p/2P3pN/8/P1bnP1P1/6BP/5K2 b - - 0 32",
+      "key": "9c9b5228cc961a427e2dcc50431dc255",
+      "record": 219055123,
+      "split": 0
+    },
+    {
+      "fen": "r1bqkb1r/ppp1np2/2n1p2p/1B1p2p1/3P4/4PNB1/PPP2PPP/RN1Q1RK1 b kq - 1 7",
+      "key": "bacdf6b1f3561b91f10fe826137ddc76",
+      "record": 219055124,
+      "split": 0
+    },
+    {
+      "fen": "r1bqk2r/p1p1npb1/1pnpp1pp/8/2PP1B2/P1N1PN2/1P2BPPP/R2Q1RK1 b kq - 0 9",
+      "key": "7f23eb922bde7806a61e634c5c2d0c59",
+      "record": 219055125,
+      "split": 0
+    },
+    {
+      "fen": "4kbQ1/5pp1/p3p2p/1p2P3/8/1P3qP1/PB5P/6K1 w - - 0 33",
+      "key": "407593efd62faef7e1728d453c8155eb",
+      "record": 219055126,
+      "split": 0
+    },
+    {
+      "fen": "2k3r1/p1pn4/1p2p3/3pP3/3P2q1/2P3r1/PP1Q2B1/5RK1 w - - 1 31",
+      "key": "68c04d00d581f91b3a6c111b2a770197",
+      "record": 219055127,
+      "split": 0
+    },
+    {
+      "fen": "r1bqk2r/pp1n1ppp/4pn2/3p4/1P1P1B2/2N2N2/1PP2PPP/R2QKB1R b KQkq - 0 8",
+      "key": "97d6a5ffeb4e013db0e923219d3b4613",
+      "record": 219055128,
+      "split": 0
+    },
+    {
+      "fen": "2k1r2r/ppp4p/2np1p2/2qb4/Q5P1/1P2PN1P/P1PR1PB1/2K4R b - - 2 17",
+      "key": "9a9710c4b59299164eb21c84b5294f07",
+      "record": 219055129,
+      "split": 0
+    },
+    {
+      "fen": "2r2rk1/p3bppp/2q1pn2/1p1p4/3P4/N1P3PP/PP3P2/R1BQ1RK1 w - - 0 15",
+      "key": "17ad32679a73113623c29127425dbf12",
+      "record": 315427092,
+      "split": 0
+    },
+    {
+      "fen": "8/8/8/K7/2P5/4k3/PP5p/7B b - - 0 38",
+      "key": "53da92b3bb41737f8711adcd483ebac8",
+      "record": 315427093,
+      "split": 0
+    },
+    {
+      "fen": "r1b3Q1/p1kp2pp/pqpb4/4N3/4PB2/2PP4/PP4PP/R2K4 w - - 0 21",
+      "key": "f7e5c3947d1a642abbb80364f05ffba8",
+      "record": 315427094,
+      "split": 0
+    },
+    {
+      "fen": "r5k1/ppp3r1/3pqp1p/6p1/2P1PP2/2P3R1/PP1Q1R1P/7K w - - 1 24",
+      "key": "879475503234b3e8677f41792b3c9619",
+      "record": 315427095,
+      "split": 0
+    },
+    {
+      "fen": "4r1k1/2pr2bp/1p4p1/p2P1p2/2q2P2/P1P1BQPP/1P2RK2/4R3 w - - 1 27",
+      "key": "2845bf942a0135859b459ffc5d10effd",
+      "record": 315427096,
+      "split": 0
+    },
+    {
+      "fen": "5k2/1pq2bpQ/p1p2p1p/4p3/2P5/1P1B3P/P4PP1/6K1 b - - 5 27",
+      "key": "9ff62ee60a2c5da884d7d723eb6a82b4",
+      "record": 315427097,
+      "split": 0
+    },
+    {
+      "fen": "r4rk1/pp3pp1/2p1pb2/3q3R/3P2P1/5N2/PPP3K1/R2Q4 b - - 0 20",
+      "key": "0d81e03dc77cccbb66a84c441067f4a5",
+      "record": 315427098,
+      "split": 0
+    },
+    {
+      "fen": "r1k4r/ppp4p/8/8/4P3/n7/PP1Q2PP/6K1 w - - 5 21",
+      "key": "e6e827ff7adabbb39a7151d866d91d29",
+      "record": 315427099,
+      "split": 0
+    },
+    {
+      "fen": "rnbqk2r/pp2nppp/2p1p3/8/3PN3/5N2/PPPQ1PPP/R3KB1R w KQkq - 1 8",
+      "key": "734a913a5398f2a3973e639c381f182e",
+      "record": 20667892,
+      "split": 0
+    },
+    {
+      "fen": "r1b2k1r/ppp1qp1N/3p3b/4PQp1/8/8/PPP1PP1P/R1B1KB1R b KQ - 0 12",
+      "key": "c3a54a35e209e9925602349762478992",
+      "record": 20667893,
+      "split": 0
+    },
+    {
+      "fen": "8/pkp5/1p6/2p1R2p/5np1/P1PP1r2/1P3N2/5K2 b - - 0 35",
+      "key": "942aaa839944f05c3795cbad56596bbb",
+      "record": 20667894,
+      "split": 0
+    },
+    {
+      "fen": "8/1k4pp/5p2/4p3/pp2P3/1P2KPPP/8/B7 w - - 10 45",
+      "key": "f496c63d804f1a2add815a524f4e3f15",
+      "record": 20667895,
+      "split": 0
+    },
+    {
+      "fen": "1r3r2/p2n1pkp/4p1p1/q1pnP3/P1Q2P2/1P1B3P/2P2P1R/2KR4 w - - 0 21",
+      "key": "0d1adb09508b45a87a0162a4aebc6105",
+      "record": 20667896,
+      "split": 0
+    },
+    {
+      "fen": "3r2k1/5ppp/1p6/8/1NP5/1P4P1/P4P1P/R2r2K1 w - - 4 31",
+      "key": "e5d8b6e15dfe4001030509a8a0b9acc2",
+      "record": 20667897,
+      "split": 0
+    },
+    {
+      "fen": "3q1rk1/p1pn1ppp/1b6/4p3/3P4/5PP1/PP1B3P/R2QR1K1 w - - 1 20",
+      "key": "014c906645dad29a444f741379fdb602",
+      "record": 20667898,
+      "split": 0
+    },
+    {
+      "fen": "6k1/p1p3pp/1p3p2/3q4/2P5/1P4P1/P5KP/8 w - - 0 32",
+      "key": "21ffd8501d0a9696b2fdc7c3d81e0313",
+      "record": 20667899,
+      "split": 0
+    },
+    {
+      "fen": "r1b5/pp4pp/2p5/b7/3P2nk/2P5/PP2K1R1/R7 b - - 1 34",
+      "key": "a5d51ab1a2e7f9a14de939f4d369fb4a",
+      "record": 196141730,
+      "split": 1
+    },
+    {
+      "fen": "r2qr1k1/2p1bppp/p2p1B2/1b6/1p1PP3/4QN1P/PP2NPP1/3RR1K1 b - - 0 16",
+      "key": "6dd24998435ef145efade32a9fa176c6",
+      "record": 196141731,
+      "split": 1
+    },
+    {
+      "fen": "2k4r/2p3pp/p4p2/5B2/3b4/P1r5/3n2KP/1RR5 b - - 3 29",
+      "key": "06824776ca67fc349c8f065ede5d0424",
+      "record": 196141732,
+      "split": 1
+    },
+    {
+      "fen": "2r1k2r/1p3ppp/p4p2/8/3Pp1P1/q1P1PP1P/n2Q3N/R4RK1 b k - 4 25",
+      "key": "9c36eb90a45cf9eccf0391b483ba7776",
+      "record": 196141733,
+      "split": 1
+    },
+    {
+      "fen": "8/2q2ppk/1p2p2p/8/r1PP3P/2R1B1P1/6PK/2R5 b - - 1 41",
+      "key": "af9cf5e79c2fa2030aadcc2081b78d81",
+      "record": 196141734,
+      "split": 1
+    },
+    {
+      "fen": "r3k1n1/2b2p1r/p1P1b2p/1p6/1P1Bp3/P3P3/4BPPP/3RK1NR b Kq - 2 17",
+      "key": "c0073d988d40000b24b956b4f14256c9",
+      "record": 196141735,
+      "split": 1
+    },
+    {
+      "fen": "rnbq1rk1/p1p1b1pp/4p3/1p2P3/2pPR3/P4N2/1P3PPP/RNBQ2K1 b - - 0 11",
+      "key": "03092731af39f389d1a151c80c2491bb",
+      "record": 196141736,
+      "split": 1
+    },
+    {
+      "fen": "7k/5R1P/7r/8/5K2/8/8/8 b - - 3 81",
+      "key": "78eb46ec223d28d9b7a5db14ed657d89",
+      "record": 196141737,
+      "split": 1
+    },
+    {
+      "fen": "r1br2k1/pp3pp1/1q2pb1p/4N3/1P1N4/P2B4/5PPP/R2Q1RK1 b - - 0 16",
+      "key": "e0e3b2ed48454fb93bdefeab59089767",
+      "record": 297143803,
+      "split": 1
+    },
+    {
+      "fen": "r2qr1k1/pp1nppbp/2pp1np1/8/2PP1B2/4PB1P/PP1N1PP1/R2QR1K1 b - - 2 11",
+      "key": "0b5796daf881dd448d232f9b484bea5e",
+      "record": 297143804,
+      "split": 1
+    },
+    {
+      "fen": "r2qkbnr/pbpn4/1p1pp3/6B1/2PPP2p/2N4P/PP1QBPP1/R3K2R b KQkq - 0 11",
+      "key": "282d0c7c986525d46dee53c727b6fa9c",
+      "record": 297143805,
+      "split": 1
+    },
+    {
+      "fen": "rnbqkbnr/p3pppp/1p6/2pP4/2p5/2N3P1/PP2PP1P/R1BQKBNR b KQkq - 0 5",
+      "key": "5c6fdcf8eafe7afb1c618fa7c2e23835",
+      "record": 297143806,
+      "split": 1
+    },
+    {
+      "fen": "r3k2r/pb1n4/1ppp1qpp/4p3/2P5/5NP1/PP1QPPBP/R4RK1 w kq - 2 15",
+      "key": "d05aa297681772b326511229af0f7ec3",
+      "record": 297143807,
+      "split": 1
+    },
+    {
+      "fen": "r1bqk2r/pp2b1pp/2p1p3/2PB1p2/1P1PpB2/PQ2P3/3N1PPP/R3K2R b KQkq - 0 14",
+      "key": "5d9cacadf0603ecfebee0f14fafde340",
+      "record": 297143808,
+      "split": 1
+    },
+    {
+      "fen": "r1bq1rk1/pp1nn2p/4pBpP/3p4/3N4/2N5/PPPQ1PP1/R3KB1R b KQ - 0 13",
+      "key": "8ac69972d556a607aef10a4cd05abf20",
+      "record": 297143809,
+      "split": 1
+    },
+    {
+      "fen": "2k5/p6p/2p1p3/8/2P3P1/b1B1P3/5P2/3K4 b - - 0 25",
+      "key": "8c76787e14fe95b17138802201ad2fa3",
+      "record": 297143810,
+      "split": 1
+    },
+    {
+      "fen": "8/p3kp2/2p4p/3p1Pb1/N2Pp3/8/PPP1K3/6R1 w - - 5 33",
+      "key": "044d76adbba1fcabfbb42a05b8657848",
+      "record": 415737333,
+      "split": 1
+    },
+    {
+      "fen": "rn2kbnr/pp4p1/2pp1p2/7p/4P3/2q1BB1P/P2N1PP1/R2QK2R w KQkq - 0 13",
+      "key": "74476034ae35e0287052e5458e5e22bf",
+      "record": 415737334,
+      "split": 1
+    },
+    {
+      "fen": "5bk1/1pq2pp1/3p2p1/2pPn1P1/2P2B2/rP1Q3P/1R1N1PK1/8 w - - 7 30",
+      "key": "fb63460f24e3a81239296edbf795c84f",
+      "record": 415737335,
+      "split": 1
+    },
+    {
+      "fen": "Q1nk3r/1pp5/4ppbp/3p4/6P1/5N1P/2qB1P2/5RK1 w - - 0 25",
+      "key": "f8c192c4041716f568b8e426524f035c",
+      "record": 415737336,
+      "split": 1
+    },
+    {
+      "fen": "1r6/8/P5k1/6P1/5P2/R4K2/8/8 w - - 1 52",
+      "key": "4e4893ecac446302b5cf56f7de5dda9d",
+      "record": 415737337,
+      "split": 1
+    },
+    {
+      "fen": "r1b2qk1/ppp2p1p/2n3p1/1N2p3/8/2P4P/PP2BKP1/R5b1 w - - 0 18",
+      "key": "9a462e03082af10129205861cf3e9c54",
+      "record": 415737338,
+      "split": 1
+    },
+    {
+      "fen": "r3kb1r/p1p2pp1/n2P4/3q3p/1p6/4B3/PPPN1PPP/R2Q1RK1 b kq - 0 14",
+      "key": "ff79eadd049980c9b9c4d9bb323ebac2",
+      "record": 415737339,
+      "split": 1
+    },
+    {
+      "fen": "5rk1/2r2ppp/1n3b2/1pp5/8/PN2P3/1P3PPP/R1BR2K1 w - - 2 26",
+      "key": "362461374adc1471dabfbe668fc78de6",
+      "record": 415737340,
+      "split": 1
+    },
+    {
+      "fen": "5k2/3R3p/6pb/2N2P2/1P6/P6P/5PKR/4r3 b - - 0 30",
+      "key": "cff5b73bd17b3a11bdbb40386178471b",
+      "record": 108936907,
+      "split": 1
+    },
+    {
+      "fen": "r1b2rk1/ppp2ppp/3b4/4P3/3P4/P7/1P5P/RN1K1B1R b - - 0 16",
+      "key": "5d3ca8ba40a3c5c52edf102c39f8985e",
+      "record": 108936908,
+      "split": 1
+    },
+    {
+      "fen": "r4r1k/1Rb2qp1/p2p2np/2pPp3/2P1Nn2/P3BPN1/3Q2PP/5RK1 b - - 1 24",
+      "key": "e554a5404f2b30bb50332cdd4b58a675",
+      "record": 108936909,
+      "split": 1
+    },
+    {
+      "fen": "r1bqkb1r/1pp1n2p/p2p1pp1/4p2Q/2BnP2N/2NP4/PPP2PPP/R1B2RK1 w kq - 0 9",
+      "key": "c1f4ca5f00085d358b2dfcf64a89d807",
+      "record": 108936910,
+      "split": 1
+    },
+    {
+      "fen": "r3k1nr/1q2p3/3p4/2pNbQ2/8/P3BPPp/1P2N2P/RR5K b kq - 0 24",
+      "key": "26c75c60be390b96bd13963d8aec0db3",
+      "record": 108936911,
+      "split": 1
+    },
+    {
+      "fen": "r2q1rk1/1p2b1pp/p3P3/3Pp3/P7/3QB3/1P4PP/R4RK1 w - - 0 22",
+      "key": "784e96d00876ff7ff2b6c65e5ffd0ade",
+      "record": 108936912,
+      "split": 1
+    },
+    {
+      "fen": "8/8/7k/3K3P/8/2p5/8/8 w - - 0 50",
+      "key": "8f6cbbfa639d21fc2e9d4791cb800bff",
+      "record": 108936913,
+      "split": 1
+    },
+    {
+      "fen": "8/pb4pk/1p6/4N3/3P4/8/P4P1P/4R1K1 b - - 0 36",
+      "key": "cceb2e9997754973ca8f7218e5f26a8e",
+      "record": 108936914,
+      "split": 1
+    },
+    {
+      "fen": "K5k1/1PR2pp1/7p/8/8/8/6qP/8 b - - 0 45",
+      "key": "820e3cd30f8a009d066d8c0223b8d429",
+      "record": 282303301,
+      "split": 1
+    },
+    {
+      "fen": "5k2/8/2p4p/1p6/1K5P/1P6/8/2q5 b - - 2 45",
+      "key": "c3829aef8ff31a2b4288b809282fafaf",
+      "record": 282303302,
+      "split": 1
+    },
+    {
+      "fen": "8/8/2p5/2P1N2p/1P1Pp1r1/p1k1B1P1/7K/5b2 b - - 1 51",
+      "key": "c3ce6e02d5412fa3794a0826f2ddb747",
+      "record": 282303303,
+      "split": 1
+    },
+    {
+      "fen": "3r2r1/pp1n1kPR/4qp2/2p5/2P1p3/4P3/PPQ1BP2/2K3R1 w - - 5 31",
+      "key": "41c3fcc5954d9f3619fb8e6bab3cc874",
+      "record": 282303304,
+      "split": 1
+    },
+    {
+      "fen": "4rrk1/ppqn1ppp/3b1nb1/2ppp3/3PP1PN/2PB3P/PP1N1P2/R1BQR1K1 w - - 3 13",
+      "key": "c6734e5a6debbd55fb83cc6dbf36fed1",
+      "record": 282303305,
+      "split": 1
+    },
+    {
+      "fen": "r2q1r2/pp1n1pkp/2pn2p1/4p3/3PP2P/2N2P2/PPPQ4/R3KB1R w KQ - 0 15",
+      "key": "6cc26cd6f67aea7a3e6a136d7827a23b",
+      "record": 282303306,
+      "split": 1
+    },
+    {
+      "fen": "r1bqr1k1/1pp2pbp/3p1np1/p7/3NPP2/1PNQ4/PBP3PP/2KR3R b - - 2 13",
+      "key": "77d1e85d5c25bd2df69a37463173b1b8",
+      "record": 282303307,
+      "split": 1
+    },
+    {
+      "fen": "7R/p7/1p2k3/5p1p/1n6/4KP2/P5PP/8 w - - 4 39",
+      "key": "1c23ffdef6364897c4ce01ad6a8d2d98",
+      "record": 282303308,
+      "split": 1
+    },
+    {
+      "fen": "r3kb1r/pp3ppp/2p1p3/2P1N3/8/4P3/PPP1K1PP/R6R b kq - 0 13",
+      "key": "4731e9d665aa96cfc67ba870287d64ff",
+      "record": 513305361,
+      "split": 1
+    },
+    {
+      "fen": "rnb2rk1/pp2npp1/2p1pq1p/b2p4/1P1P4/P1PBPNB1/5PPP/RN1Q1RK1 b - - 0 10",
+      "key": "ad4688d9451a3522aeb302f2b658a740",
+      "record": 513305362,
+      "split": 1
+    },
+    {
+      "fen": "r2q1rk1/ppp1nppp/5n2/4p3/P5P1/1BPp3P/1P2QP2/RNB1K2R w KQ - 0 14",
+      "key": "7ab9bcd46d13770c20e926e1cc365fa1",
+      "record": 513305363,
+      "split": 1
+    },
+    {
+      "fen": "2rq1rk1/1p2bpp1/p1n1bn1p/3p4/3N4/1PN1P1P1/PB3PBP/2RQ1RK1 w - - 4 14",
+      "key": "5f956c19a74f9b84802a68a4724b8c0a",
+      "record": 513305364,
+      "split": 1
+    },
+    {
+      "fen": "r2k4/pppn2pp/8/8/8/3R3P/P1q1K1P1/8 w - - 0 34",
+      "key": "919d2d6f2029cb13ddf6ea9a455a2c41",
+      "record": 513305365,
+      "split": 1
+    },
+    {
+      "fen": "r2k3r/ppp2ppp/8/4B3/1b4b1/1Pn2P2/P5PP/RN2KB1R w KQ - 0 12",
+      "key": "1caa46e7ce6924db85ed6879325c4a8c",
+      "record": 513305366,
+      "split": 1
+    },
+    {
+      "fen": "r4rk1/5ppp/2p1pb2/8/P3P3/4R1P1/1p2N2P/4K1NR w - - 0 27",
+      "key": "13a1f71c05d3c09dbd61bb8f858a83b2",
+      "record": 513305367,
+      "split": 1
+    },
+    {
+      "fen": "1kn2r1r/1bnqb1pp/1p1p4/1PpPpP2/8/2NBBP2/R1PQN1PP/R6K b - - 0 19",
+      "key": "a4a9b4b80a22bdcbed15d54c53dc3700",
+      "record": 513305368,
+      "split": 1
+    },
+    {
+      "fen": "rn1q3r/1p3kpp/p2bpn2/5bN1/3P1P2/2N5/PP4PP/R1BQ1RK1 b - - 1 11",
+      "key": "f46e73b8fbf621036c1d57f61689c246",
+      "record": 290742818,
+      "split": 1
+    },
+    {
+      "fen": "8/2q3k1/4p3/3p4/4p3/1P2NnP1/P4PKr/3R4 w - - 6 44",
+      "key": "147aa9e339b6d986ce49f55331d96473",
+      "record": 290742819,
+      "split": 1
+    },
+    {
+      "fen": "5rk1/1p2pp1p/p5b1/2Pp4/5P2/2Pq2Q1/P5PP/R4RK1 w - - 1 23",
+      "key": "380d146fb6cd2c5322c0492847760164",
+      "record": 290742820,
+      "split": 1
+    },
+    {
+      "fen": "r2qr1k1/pb2p1bp/5p2/1NpPp1p1/P3P3/3B4/2PQ1PPP/4RRK1 w - - 0 18",
+      "key": "717a864814e0b2c7a76fb6be9dcd0f05",
+      "record": 290742821,
+      "split": 1
+    },
+    {
+      "fen": "r1b1kb1r/pp3ppp/2p2n2/2p5/4q3/3PN3/PPP2PPP/RNBQK2R b KQkq - 0 8",
+      "key": "2de4034869ce0805450e57aa24f4585e",
+      "record": 290742822,
+      "split": 1
+    },
+    {
+      "fen": "3R4/8/6p1/5pk1/3P3P/5KP1/5P2/7r b - - 0 47",
+      "key": "29e5ff10075594b64df0b62c8b8daab1",
+      "record": 290742823,
+      "split": 1
+    },
+    {
+      "fen": "6k1/pp3pp1/7p/8/P7/4K2P/r7/8 b - - 3 36",
+      "key": "cb7ff12128c0af73d471ffc5cbc6ff6d",
+      "record": 290742824,
+      "split": 1
+    },
+    {
+      "fen": "1r5r/p2qRkpN/b2P4/1pb3Q1/8/8/PPP2PPP/RN4K1 b - - 2 20",
+      "key": "77ac11da1b914050d93db8057b443010",
+      "record": 290742825,
+      "split": 1
+    },
+    {
+      "fen": "8/5pkp/4p1p1/8/4P2r/4KP2/1R6/8 w - - 0 38",
+      "key": "c9726f7efe59f104b4cc4c9c29cdef3f",
+      "record": 227610516,
+      "split": 1
+    },
+    {
+      "fen": "4Rr1k/p1pb2p1/2pp3p/3n2q1/8/2PB4/PBPQ1PPP/3R2K1 b - - 0 23",
+      "key": "b35eeacbd0869f563ff0418659867965",
+      "record": 227610517,
+      "split": 1
+    },
+    {
+      "fen": "5rk1/ppp1bbpp/8/5P2/1P1rBPP1/P7/6KP/4R2R b - - 0 30",
+      "key": "1db830d81ba66cc39fbc734806946dc6",
+      "record": 227610518,
+      "split": 1
+    },
+    {
+      "fen": "r2q1rk1/1ppbbppp/p1np4/4p2n/4P3/2PB1N1P/PPQP1PP1/RNB1R1K1 w - - 6 10",
+      "key": "4381bc7353e36509697b8c534d0f1c27",
+      "record": 227610519,
+      "split": 1
+    },
+    {
+      "fen": "3rr1k1/2b2p2/p6p/1p1p1qp1/5P2/2P2QP1/PP4NP/R3R1K1 b - - 0 24",
+      "key": "2487ed072f09724c261bcfaef62efcb8",
+      "record": 227610520,
+      "split": 1
+    },
+    {
+      "fen": "rnb2rk1/pp2pp2/3p2p1/2pP3p/2q3n1/P3PNP1/3B1PBP/R2QK2R w KQ - 0 14",
+      "key": "2ecac8b2a251c53ff9dec3fc5ebfec7b",
+      "record": 227610521,
+      "split": 1
+    },
+    {
+      "fen": "2r3k1/1p3ppp/pq2p3/3pP3/2rP1P2/4B1P1/PP3K1P/R2Qb3 w - - 0 24",
+      "key": "5dc13726076585199eab4d00b4be09dc",
+      "record": 227610522,
+      "split": 1
+    },
+    {
+      "fen": "r4rk1/1p4pp/p1b1p3/Pn1pP1q1/3P4/8/1P2B1PP/R1RQ1NK1 b - - 6 22",
+      "key": "4efd35ed48c77c1a6cf6a67a9bdcabb5",
+      "record": 227610523,
+      "split": 1
+    },
+    {
+      "fen": "r4r2/pp3pkp/4b1p1/3qN3/3pP3/1P1P2P1/P4P1P/R1Q2RK1 b - e3 0 18",
+      "key": "5bba29a729121a3a69f4e42d9c952c80",
+      "record": 107314082,
+      "split": 1
+    },
+    {
+      "fen": "2krr3/1p1q1ppp/n4n2/2B4b/P7/5PP1/4N1BP/2RQ1RK1 b - - 0 22",
+      "key": "32f775ef231d3554e115cdbf0da7cee9",
+      "record": 107314083,
+      "split": 1
+    },
+    {
+      "fen": "8/8/6k1/p7/P2B2P1/5pK1/5P2/3b4 b - - 0 56",
+      "key": "e93e726b4f869d3386709a2e785dd518",
+      "record": 107314084,
+      "split": 1
+    },
+    {
+      "fen": "r3r1k1/ppqb2pp/2p5/3pNp2/3P1P2/1Q3PP1/PP5P/2R1R1K1 w - - 0 21",
+      "key": "c9a269227ac2560132f675d47efcff76",
+      "record": 107314085,
+      "split": 1
+    },
+    {
+      "fen": "2b1rrk1/6p1/2pq3p/2R4P/P2P1PP1/1P2B1Q1/2P5/3K4 w - - 1 36",
+      "key": "314044b93fca7841e886e570289b303a",
+      "record": 107314086,
+      "split": 1
+    },
+    {
+      "fen": "5Rk1/8/p2pq3/6pp/8/2P3P1/7P/5RK1 b - - 2 47",
+      "key": "f268a319551b00f950232b5afd85990e",
+      "record": 107314087,
+      "split": 1
+    },
+    {
+      "fen": "1rb2rk1/5ppp/2p5/4q3/1p6/1P4P1/P3NP1P/2RQ1RK1 w - - 0 19",
+      "key": "f42e1b54a1bcb0fd806c1af6f60b9c8c",
+      "record": 107314088,
+      "split": 1
+    },
+    {
+      "fen": "r1b1kb1r/pp1ppppp/5n2/qN6/1nP5/8/PP1BPPPP/R2QKBNR w KQkq - 9 8",
+      "key": "1a539408747aba1db584ca6fc7669260",
+      "record": 107314089,
+      "split": 1
+    },
+    {
+      "fen": "4q3/p1p2k2/1p2rpr1/4pN1p/4P2P/4Q3/P1P3P1/5R1K b - - 1 32",
+      "key": "96ce00109ed8e4e300e3c15a93dd7ce8",
+      "record": 482268921,
+      "split": 1
+    },
+    {
+      "fen": "r2qk2r/ppp3bp/3p1np1/3Ppp2/8/P2P4/1PPBBPPP/R1Q2RK1 w kq - 2 12",
+      "key": "57b823be1ae6cca3d142bd1e660a7898",
+      "record": 482268922,
+      "split": 1
+    },
+    {
+      "fen": "rn2kbnr/pp2pppp/8/q1p5/2B3b1/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 6",
+      "key": "db74e316aae1608520023a35ea0d0b24",
+      "record": 482268924,
+      "split": 1
+    },
+    {
+      "fen": "r3k2r/pbq2ppp/1pn2n2/2bp4/8/1PN1PN2/PB2BPPP/R2Q1RK1 b kq - 1 11",
+      "key": "8fb9799139acbacbedfd4bee311002cb",
+      "record": 482268925,
+      "split": 1
+    },
+    {
+      "fen": "R7/1p4pk/p4p1p/2p5/4q3/1B6/PP3PPP/3R2K1 w - - 0 30",
+      "key": "811bf2175ec028a0e389478de56794b8",
+      "record": 482268927,
+      "split": 1
+    },
+    {
+      "fen": "2r5/3R1pkp/2p1n3/p2N2p1/P7/5PK1/1PP2P1P/8 w - - 0 31",
+      "key": "d643ffad45be5a20f09e02703d119e1d",
+      "record": 482268928,
+      "split": 1
+    },
+    {
+      "fen": "R7/4P3/8/7N/1p1p4/3k4/6K1/8 b - - 0 63",
+      "key": "55a4e92b131ae6fa5201dc15df25f8ba",
+      "record": 482268929,
+      "split": 1
+    },
+    {
+      "fen": "3r2k1/1p3ppp/2rNp3/3pP3/1B4P1/P7/5P1P/R3R1K1 w - - 5 27",
+      "key": "cfedd334deb15ff4d3c44b6d93210cdc",
+      "record": 482268930,
+      "split": 1
+    },
+    {
+      "fen": "1r2r1k1/pp3ppp/2n2q2/1B1R4/4p3/8/PPP1QPPP/4R1K1 w - - 1 20",
+      "key": "855de5fd72adb57341e9aea1e8b3da4d",
+      "record": 100382247,
+      "split": 1
+    },
+    {
+      "fen": "r2qk2r/ppp2pp1/2np1n1p/1N2p3/2P1P3/4P1P1/PPP1Q2P/2KR3R w kq - 1 14",
+      "key": "7471d593429cc4bc33ac5cd451bd1b80",
+      "record": 100382248,
+      "split": 1
+    },
+    {
+      "fen": "5rk1/1pp2pp1/7p/4N3/1p3K2/7P/P7/1q6 b - - 3 31",
+      "key": "03b42e7fa68f80a9467f1b7cd740117d",
+      "record": 100382249,
+      "split": 1
+    },
+    {
+      "fen": "r2q1rk1/pppnn1b1/3p4/3Pp1pp/4Pp2/5P2/PPPBN1PP/R2BQRK1 w - - 0 16",
+      "key": "2b90428c77ad912b3dcb87f9e23bb346",
+      "record": 100382251,
+      "split": 1
+    },
+    {
+      "fen": "r1bq1rk1/pp3pp1/2nbpn1p/3p4/8/1B2QN2/PPPP1PPP/RNB2RK1 b - - 5 10",
+      "key": "145ef488169efe1fd494cdf3ea8b1f5a",
+      "record": 100382252,
+      "split": 1
+    },
+    {
+      "fen": "r1bq1rk1/2p3b1/pp1p1p1p/3NnPp1/2P5/3BBP2/PP1Q2PP/3RR1K1 w - - 2 17",
+      "key": "1a00a060e49b09959a292735f2ed0762",
+      "record": 100382253,
+      "split": 1
+    },
+    {
+      "fen": "rn4k1/3bbppp/1q1p4/pN1N2P1/Ppr2B1P/5Q2/1P3P2/2KR1B1R w - - 0 20",
+      "key": "b60afc73c632c64d771d4a400c19b926",
+      "record": 100382255,
+      "split": 1
+    },
+    {
+      "fen": "2krq2r/pp2p1b1/5p1n/2pp1P1P/5Qp1/1P1PP3/PBP4P/RN3RK1 w - - 2 17",
+      "key": "c11ab2d693650a397a689930036fef2e",
+      "record": 100382256,
+      "split": 1
+    },
+    {
+      "fen": "r1bq2k1/1pp1brpp/5n2/p7/PnBP4/8/1P3PPP/RNBQR1K1 w - - 0 13",
+      "key": "94a1ed3a11b841223f95619a18e1d167",
+      "record": 238488720,
+      "split": 1
+    },
+    {
+      "fen": "5rk1/ppp3p1/2np2qp/3Np3/8/1PP1BP1P/1P1Q3K/R7 b - - 0 23",
+      "key": "0b3ca2be5c7afd88eec84e2c7000e5b3",
+      "record": 238488721,
+      "split": 1
+    },
+    {
+      "fen": "4R3/p2p1pk1/7p/6pP/3P4/3b1PK1/r6P/8 w - - 2 29",
+      "key": "4eac69b0612c5838c273a51c64655b5f",
+      "record": 238488722,
+      "split": 1
+    },
+    {
+      "fen": "8/5Kpp/8/5k2/8/8/8/8 b - - 0 49",
+      "key": "434dcb115d68a9f31495abebee0d2fc6",
+      "record": 238488723,
+      "split": 1
+    },
+    {
+      "fen": "3r2k1/p5pp/8/1p6/1P3P1P/P5P1/3pK3/2bR4 b - - 0 34",
+      "key": "2590dd0de7091d56b4818e7262d55438",
+      "record": 238488724,
+      "split": 1
+    },
+    {
+      "fen": "r1bqkbnr/p2p1ppp/2p5/1p1Bp3/3nPP2/8/PPPP2PP/RNBQK1NR w KQkq - 0 6",
+      "key": "7f3f412dd2913490b398e89e99251f4f",
+      "record": 238488726,
+      "split": 1
+    },
+    {
+      "fen": "rn1q1r2/p2p3B/1p1k1p2/2pb4/6QN/6P1/PPP3PP/4RRK1 w - - 3 18",
+      "key": "dadbf0ad026bde56e98d274f553a7d1e",
+      "record": 238488727,
+      "split": 1
+    },
+    {
+      "fen": "r2qkb1r/pp3ppp/2n1pn2/1B1p4/6b1/3P1N2/PPPN1PPP/R1BQR1K1 b kq - 1 8",
+      "key": "3845d530b8d4d53bea07154d4da22576",
+      "record": 238488728,
+      "split": 1
+    },
+    {
+      "fen": "r1b1k2r/pp3ppp/8/2pq4/3p3b/3P1PNP/PPP1Q1P1/R3KB1R b KQkq - 2 13",
+      "key": "20e5498d34192ce35a0165d2c7749754",
+      "record": 326234151,
+      "split": 1
+    },
+    {
+      "fen": "2kr2nr/pppn1p1p/6p1/4p3/P3N3/5N2/1PP2PPP/R2K3R b - - 0 13",
+      "key": "8e20f33b0a91bfd1c8ffa6225ac44e4b",
+      "record": 326234152,
+      "split": 1
+    },
+    {
+      "fen": "rn2kbnr/ppp2ppp/8/3P4/4q3/1P6/PBPPQPPP/RN2K2R b KQkq - 1 9",
+      "key": "97118ccb89dd43e7c06d1fba2f8c8b20",
+      "record": 326234153,
+      "split": 1
+    },
+    {
+      "fen": "r1b2rk1/pp3pp1/5n1p/n6P/3Np3/2B2P2/qP2Q1P1/2KR1B1R w - - 1 17",
+      "key": "4421f09a184aa9809746704403dbdc83",
+      "record": 326234154,
+      "split": 1
+    },
+    {
+      "fen": "r5qk/pQ2R2p/6p1/2pp4/3b4/P2B3P/1PP3P1/7K w - - 4 28",
+      "key": "7fd57b079e6076f90e0dab18cec09404",
+      "record": 326234155,
+      "split": 1
+    },
+    {
+      "fen": "2kr3r/pppq2p1/2n4p/3npp2/P7/1P1PPNNP/1P2Q1P1/R4RK1 w - - 0 17",
+      "key": "b44742f6a2371f689e235a02955ebf5a",
+      "record": 326234156,
+      "split": 1
+    },
+    {
+      "fen": "3r1b2/6k1/5rp1/4Qpq1/3P4/4P1P1/PP4BP/R1R3K1 w - - 3 37",
+      "key": "3b73b1fb2ba83a78950d745cce95f6b2",
+      "record": 326234157,
+      "split": 1
+    },
+    {
+      "fen": "5rk1/pR3pp1/3p3p/8/8/1P1P1KP1/P3r2P/1R6 b - - 2 29",
+      "key": "924969672629921f367087444fcd3210",
+      "record": 326234158,
+      "split": 1
+    },
+    {
+      "fen": "r4r2/2p1q1k1/p5p1/1b4N1/2pPP1nP/8/P4PP1/1QR1R1K1 w - - 1 24",
+      "key": "cb12ef460e8d137881b23d8ab40f3231",
+      "record": 481046302,
+      "split": 1
+    },
+    {
+      "fen": "2r3k1/1p3pp1/pqr1p2p/3pP3/2P5/1P1Q3P/P1R2PP1/4R1K1 b - - 2 25",
+      "key": "ada32aed7da5ed25638060cc1df3a983",
+      "record": 481046303,
+      "split": 1
+    },
+    {
+      "fen": "r1b1kb1r/pppq1ppp/2n2n2/3pN3/3P4/2P5/PP3PPP/RNBQKB1R w KQkq - 5 7",
+      "key": "4ae87c717e5d28e6fc69e9a694324f1a",
+      "record": 481046304,
+      "split": 1
+    },
+    {
+      "fen": "r5nr/ppk3b1/n1p1b2p/4ppp1/2P5/P1N2NP1/1P1BPPBP/R3K2R w KQ - 1 13",
+      "key": "2a8456bb7d172ee85305e4eb81c7e18a",
+      "record": 481046305,
+      "split": 1
+    },
+    {
+      "fen": "r2q1rk1/pp2bppp/2pp1n2/1B2n3/4P3/1Q5P/PP3PP1/RNB1R1K1 w - - 0 14",
+      "key": "526a1d9e321a5a876caee968f4474975",
+      "record": 481046306,
+      "split": 1
+    },
+    {
+      "fen": "1r3rk1/3q1pbp/p2ppnp1/P7/R1PP4/1P1Q1N2/5PPP/2BR2K1 w - - 2 21",
+      "key": "d7196f69bc6610a55c00069d1f895b37",
+      "record": 481046307,
+      "split": 1
+    },
+    {
+      "fen": "r4rk1/2q2pbp/4p1p1/p2p4/P1nP4/N2QB2P/2P1KP2/1R4R1 w - - 7 26",
+      "key": "a1829a59d7f55da5dfb05d0cc593b129",
+      "record": 481046308,
+      "split": 1
+    },
+    {
+      "fen": "1nk2b1r/p2rpp2/1pp1q2p/P5p1/3PP3/2N1B3/1P2QPPP/R4RK1 b - - 0 18",
+      "key": "38173dc7eb33cd5d07c9fc7684d0ae8d",
+      "record": 481046309,
+      "split": 1
+    },
+    {
+      "fen": "4Q3/1p3pk1/p1p3n1/P2p1q2/8/5bP1/6KP/7B w - - 4 37",
+      "key": "8e7aaf51e382adb2ea02c9d90c5748b7",
+      "record": 303333165,
+      "split": 1
+    },
+    {
+      "fen": "r1bq1rk1/pp1n2pp/2pbp3/3n4/3P4/1Q3N2/PPP1BPPP/RNB1K2R w KQ - 2 10",
+      "key": "95b7c6ecb12e37d90a2c1e3682bbff7d",
+      "record": 303333166,
+      "split": 1
+    },
+    {
+      "fen": "3rrk2/5pbQ/8/qp1PP1pp/8/8/1B4PP/5RK1 w - - 0 32",
+      "key": "2aba20d0d606cfec1bfee11463b33b42",
+      "record": 303333167,
+      "split": 1
+    },
+    {
+      "fen": "2nr4/5p1k/1r1p1PP1/p3p1p1/4N1P1/2P2P2/PP1R4/2KR4 b - - 0 33",
+      "key": "9631a93b12e837d4a02321983d6d157f",
+      "record": 303333168,
+      "split": 1
+    },
+    {
+      "fen": "2kr3r/ppp3pp/3b1p2/4p3/3nP3/1R1P1NB1/q1P1Q1PP/5RK1 w - - 4 18",
+      "key": "16a13eee92c65fc49006e3f793db7d04",
+      "record": 303333169,
+      "split": 1
+    },
+    {
+      "fen": "rnb1kb1r/pppp1ppp/4q2n/3Np3/3PP3/8/PPP2PPP/R1BQKBNR w KQkq - 3 5",
+      "key": "f16dc45cadf48f4c5f616b1b58ade0bb",
+      "record": 303333170,
+      "split": 1
+    },
+    {
+      "fen": "8/7P/1p1p2P1/1P1P4/4R3/1k4K1/5r2/8 b - - 2 50",
+      "key": "3d033378bec728b8166783cf7c0fe905",
+      "record": 303333171,
+      "split": 1
+    },
+    {
+      "fen": "8/6qk/3p4/2p3Q1/1p3PK1/8/3B4/8 w - - 0 44",
+      "key": "e6c58f7267c25872e65a0cd4462cbf98",
+      "record": 303333172,
+      "split": 1
+    },
+    {
+      "fen": "r2qk2r/pppnbp1p/3np1p1/3p4/3P1B2/2N1PP1P/PPP1BP2/R2QK1R1 w Qkq - 2 12",
+      "key": "392dea28d798ee70906bad73b31c67b4",
+      "record": 6387684,
+      "split": 1
+    },
+    {
+      "fen": "rn1q1rk1/pp3p2/2pn2p1/3p1bNp/7Q/8/PPB2PPP/3R1RK1 w - - 0 24",
+      "key": "8fe19c0a19092d3a114feb12184a6dd5",
+      "record": 6387685,
+      "split": 1
+    },
+    {
+      "fen": "r3kb1r/pppqppp1/2n2n2/3p3p/3P4/4PNP1/PPP2PK1/RNBQ1R2 w kq - 0 9",
+      "key": "2ed7108222e87a1b63ab7efb0039d798",
+      "record": 6387686,
+      "split": 1
+    },
+    {
+      "fen": "r6r/p2k1p2/2p4p/3p2p1/R7/4P1BP/3K1PP1/7R w - - 0 26",
+      "key": "682a51b472dbb942aed2d20cbe8c9899",
+      "record": 6387687,
+      "split": 1
+    },
+    {
+      "fen": "r1bqkb1r/pppn1p2/3pp1np/6pN/8/2PPP3/PP2BPPP/RNBQ1RK1 b kq - 3 8",
+      "key": "eb265c46d9d8db02d5aa7b9c6253d608",
+      "record": 6387688,
+      "split": 1
+    },
+    {
+      "fen": "3r1k2/p2P1pp1/1p5p/8/5Q2/P2RR3/5PPP/1q2B1K1 b - - 0 36",
+      "key": "9bb99f364bd2d97722d9a62d4f0cc06d",
+      "record": 6387689,
+      "split": 1
+    },
+    {
+      "fen": "8/8/kp3Q2/2r2r2/8/5K2/6P1/8 w - - 1 54",
+      "key": "cad7ba706b67df419c584a254d0efd6e",
+      "record": 6387690,
+      "split": 1
+    },
+    {
+      "fen": "2kr3r/pbppq3/1pn5/4p1p1/4P1n1/3P3P/PPP1BPPN/R2QK2R w KQ - 0 16",
+      "key": "5ae1d84ce168e792cd5fe45e80991c3a",
+      "record": 6387691,
+      "split": 1
+    }
+  ],
+  "teacher_sha256": "3b5881df3d6f92817cf6664a6a18a473b50d424c71a1247fe4268090db281413",
+  "nodes": 16000,
+  "forced": true,
+  "exact_iterations": true,
+  "threads": 1,
+  "scope": "512 public training-object roots. Whole-root train/development partition fixed before label acquisition. Finite teacher evidence, not exact minimax. Forced mode spends16k nodes independently per move with cleared hash; original mode shares64k across MultiPV. Exact_iterations retains latest fresh unbounded score-bearing PV; does not inherit stale bound flags from aggregated analysis dictionaries. All alternatives required.",
+  "script_sha256": "4b1887387aaf79195900970fe4f754ea22c4e3e6e5b3618c5110fe13af018248"
+}

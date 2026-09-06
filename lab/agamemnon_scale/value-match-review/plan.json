@@ -1,0 +1,12 @@
+{
+  "plies": [
+    12,
+    24,
+    48,
+    72
+  ],
+  "nodes": 64000,
+  "script_sha256": "1d1849e9df22df84284ec18ed1eba14a1bd16788ab90cf472b941a6f0735b6ee",
+  "teacher_sha256": "3b5881df3d6f92817cf6664a6a18a473b50d424c71a1247fe4268090db281413",
+  "scope": "Finite-reference diagnostics, not exact minimax. Both players sampled at nearest next turn to each fixed game-relative ply. Not selected by reference outcome. These match families are already development."
+}

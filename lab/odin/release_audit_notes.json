@@ -1,0 +1,185 @@
+{
+  "reviewed_at_utc": "2026-09-05T18:40:25.742502+00:00",
+  "scope": "Initial source audit followed by authorized bounded repairs and lightweight local tests; no native release approval.",
+  "snapshot_zip": "lab/odin/odin-rules-search-source.zip",
+  "snapshot_sha256": "64b9084d58e0f292ee7c61a6f09c2bcae31a2a2cc8bca544f18131018ce22dc6",
+  "original_storm_zip": "dist/agent-storm-v4-linux-x86.zip",
+  "original_storm_sha256": "15db92a79feff24cf52f5b85974f55504753f981823d7e6d92881fb62812e85c",
+  "module_comparison": [
+    {
+      "file": "agent.py",
+      "odin_sha256": "f8df2dbd7dde24c50d74fd13d8d7f31e9f380bab0302bc662f9e6828b9b88fde",
+      "control_sha256": "5c18135791153d34b2806621b21e31ade36f81b96c700e66cfe5ea88903e4291",
+      "text_equal": false
+    },
+    {
+      "file": "bitops_nb.py",
+      "odin_sha256": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+      "control_sha256": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+      "text_equal": true
+    },
+    {
+      "file": "board_nb.py",
+      "odin_sha256": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+      "control_sha256": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+      "text_equal": true
+    },
+    {
+      "file": "core_nb.py",
+      "odin_sha256": "a043897954d0f2477aa58f40c629328da2686ebe6d4b559b7a2380717ca09fc2",
+      "control_sha256": "3456ca17d3330b0b611a49611890f16abe74463cb05f0b567ce6715e65672a3e",
+      "text_equal": false
+    },
+    {
+      "file": "eval_nb.py",
+      "odin_sha256": "607d3d8c9094a24ebfeff4088f6354b5acc320aa98e681be179f333c4e003ca7",
+      "control_sha256": "4f500b8f6fd5e73b439360d964edb2b98327902ec2a6ffe1ca199273430c1892",
+      "text_equal": false
+    },
+    {
+      "file": "history.py",
+      "odin_sha256": "7f23e9aace3c41d9c22d1b289b7a2c5d70436f67a4e0df727ce61959ecb5be5c",
+      "control_sha256": "7f23e9aace3c41d9c22d1b289b7a2c5d70436f67a4e0df727ce61959ecb5be5c",
+      "text_equal": true
+    },
+    {
+      "file": "movegen_nb.py",
+      "odin_sha256": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+      "control_sha256": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+      "text_equal": true
+    },
+    {
+      "file": "search_nb.py",
+      "odin_sha256": "e805af83deda434630023cd2f30880c4da8c3c16579debd4b656bc78089fce71",
+      "control_sha256": "e805af83deda434630023cd2f30880c4da8c3c16579debd4b656bc78089fce71",
+      "text_equal": true
+    },
+    {
+      "file": "storm_clock.py",
+      "odin_sha256": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+      "control_sha256": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+      "text_equal": true
+    },
+    {
+      "file": "tables_nb.py",
+      "odin_sha256": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+      "control_sha256": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+      "text_equal": true
+    },
+    {
+      "file": "time_nb.py",
+      "odin_sha256": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+      "control_sha256": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+      "text_equal": true
+    },
+    {
+      "file": "tt_nb.py",
+      "odin_sha256": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a",
+      "control_sha256": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a",
+      "text_equal": true
+    }
+  ],
+  "findings": [
+    {
+      "id": "A1",
+      "priority": "P1",
+      "file": "odin/core_nb.py",
+      "line_at_review": 1681,
+      "summary": "Sparse null verification uses the null-child window after restoring the original side.",
+      "required_repair": "Use beta-1,beta for the real-position verification, or disable sparse null pruning. Test a verification branch with positive and negative beta and confirm board restoration.",
+      "status": "repaired_same_side_window; lightweight actual-function-branch tests passed"
+    },
+    {
+      "id": "A2",
+      "priority": "retracted_initial_concern",
+      "file": "odin/search_nb.py",
+      "line_at_review": 516,
+      "summary": "Initial disabled-fallback-deadline claim was incorrect: _root_search already enables it per child. Outer assignment is now explicitly True for clarity; actual fallback260ms regression passes.",
+      "required_repair": "No confirmed deadline defect; preserve passing real fallback/undo regression."
+    },
+    {
+      "id": "A3",
+      "priority": "experiment_design",
+      "summary": "storm_rules600_control includes almost all Odin rules/search changes, beyond the required minimal cap/buffer repair.",
+      "required_repair": "Do not describe a match against this directory as full Odin versus minimally rules-corrected Storm. Construct an explicit minimal control from exact Storm archive or revise the experiment claim honestly before declaring holdout.",
+      "status": "new minimal storm_rules600_release_control built from exact Storm; old control preserved"
+    },
+    {
+      "id": "A4",
+      "priority": "performance",
+      "file": "odin/core_nb.py",
+      "summary": "Full order-sensitive game history keys score and move-ordering TT entries; history never resets after irreversible moves. Pair flag triggers all-legal prospective claim scans forever after any pair.",
+      "required_repair": "Measure representative long-history native roots. If material slowdown, separate safe position-only ordering hints from contextual scores and retain only a rigorously bounded reversible history. Do not relax score-context validity casually."
+    },
+    {
+      "id": "A5",
+      "priority": "maintenance",
+      "file": "odin/core_nb.py",
+      "summary": "Unreachable fitted feature helpers reference undefined FILE_M, FEAT_MG and FEAT_EG; eval_nb.USE_FITTED_EVAL is True despite both actual evaluators remaining vanilla PeSTO.",
+      "required_repair": "Keep experiment disabled; remove dead native helpers and misleading flag from release candidate or document clearly. Do not accidentally compile them in a gate."
+    }
+  ],
+  "positive_observations": [
+    "Legal exchange trial bitboards account for king safety and absolute pins; special promotion and EP occupancy updates are explicit.",
+    "Real game history capacity is dynamic with MAX_PLY slack.",
+    "Current FEN absolute ply is separate from search depth and cap decreases only on real legal edges.",
+    "Current score TT includes halfmove/cap/history context; normal legal-path score reuse is conservative.",
+    "Warmup and runtime packing use the same uint64 history signature and int64 two-slot deadline array.",
+    "Actual native and fallback evaluate functions both return vanilla PeSTO; positional fit is not active."
+  ],
+  "updates": [
+    {
+      "id": "A6",
+      "summary": "False rule50 claims below99 when called dueoldhistorypair; both native/fallback guards repaired.",
+      "tests": "Reference0/5/98/99/100 + actual repeatedhistory afterzeroing."
+    },
+    {
+      "id": "A7",
+      "summary": "Cap terminal precedence moved beforeMAX_PLY with rare local native scratch arrays.",
+      "tests": "Validmate/draw atply96, functionbody indexsafety and fallback terminalchecks."
+    }
+  ],
+  "lightweight_tests": {
+    "odin_release_repairs": 7,
+    "minimal_control": 5,
+    "passed": true,
+    "native_compilation": false
+  },
+  "repair_hashes": {
+    "odin\\core_nb.py": "693ab5e4ec1e126381e11beffce35d023be6cc132b1e4223712c0c163450e69f",
+    "odin\\search_nb.py": "70c67fd50f855d495a88fb32b02e5642f8ae3e1eb8dbeaf9ad831bd4237dd894"
+  },
+  "updated_at_utc": "2026-09-05T18:56:02.321372+00:00",
+  "null_history_fixture": {
+    "initial_fen": "3q3k/8/8/8/8/8/8/K2Q4 b - - 0 1",
+    "moves": [
+      "h8g8",
+      "a1b1",
+      "g8g7",
+      "b1a1",
+      "g7h8",
+      "a1b1",
+      "h8g8",
+      "b1b2",
+      "g8h8",
+      "b2a1",
+      "h8h7",
+      "a1a2",
+      "h7g8",
+      "a2a1",
+      "g8h8"
+    ],
+    "real_positions_valid_nonterminal": 16,
+    "final_fen": "3q3k/8/8/8/8/8/8/K2Q4 w - - 15 9",
+    "final_can_claim_threefold": false,
+    "final_can_claim_fifty": false,
+    "prior_null_key_occurrence_plies": [
+      0,
+      10
+    ],
+    "prior_real_root_key_occurrence_plies": [
+      5
+    ],
+    "conclusion": "Passing to opposite side reproduces a twice-seen real board key, so a null subtree must not claim repetition against the pre-null real history. No losing selected move is asserted."
+  }
+}

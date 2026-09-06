@@ -1,0 +1,224 @@
+{
+  "status": "COMPLETE",
+  "created_utc": "2026-09-05T19:48:35.798846+00:00",
+  "selection_sha256": "61e937f02511278f7024b47465973515cbb36b069e226165c91db0771cdb4187",
+  "fit_plan_sha256": "6b59ff71bd1c09352237872eaf4d28d4e0886ffbe2ab92d86331f6daa655a81e",
+  "label_file_sha256": {
+    "labels-cpu5.jsonl": "4185e25a218f79442727b83ffe8cafdb42d596e739ec1e1cf42a5527bdd3698c",
+    "labels-cpu6.jsonl": "c19b3f94314bc047ed15250e21bf0e5bbc3129875f2afcdf09c00277faa7bb7f",
+    "labels-cpu7.jsonl": "dd94562bcfdebe8c76457b0f29bf06b89e5dadddf6e66b63228f6d1aab363c35",
+    "labels-cpu8.jsonl": "d7c6f523833835652e055ee7e1946609bded94aa6c753fa7ea3b1dcfa73ba4ea"
+  },
+  "screen_status": {
+    "accepted": 5668,
+    "unstable_exact_iterations": 174,
+    "mate_or_extreme": 29,
+    "still_forcing_after_resolution": 115,
+    "forcing_resolution_limit_or_terminal": 12,
+    "incomplete_reference": 2
+  },
+  "accepted_before_dedup": 5668,
+  "cross_partition_position_keys_excluded": 0,
+  "deduplicated_rows": 5601,
+  "train_rows": 4247,
+  "validation_rows": 1354,
+  "inner_train_rows": 3687,
+  "inner_holdout_rows": 560,
+  "validation_families": 373,
+  "reference": "Stockfish19,100k fixed-node exact streaming/stable quiet-leaf labels",
+  "fit_choice": [
+    {
+      "ridge": 10.0,
+      "mae_cp": 95.60259613119534,
+      "rmse_cp": 150.97225068328123,
+      "median_abs_cp": 52.51333202646451,
+      "p90_abs_cp": 254.35109881442673
+    },
+    {
+      "ridge": 100.0,
+      "mae_cp": 95.53927561018881,
+      "rmse_cp": 150.97083799296644,
+      "median_abs_cp": 51.27110936750937,
+      "p90_abs_cp": 253.76709920834404
+    },
+    {
+      "ridge": 1000.0,
+      "mae_cp": 95.44102605050723,
+      "rmse_cp": 150.91265976557318,
+      "median_abs_cp": 49.74167543351483,
+      "p90_abs_cp": 254.5411641111991
+    }
+  ],
+  "selected_ridge": 1000.0,
+  "features": [
+    "pawn_isolated",
+    "pawn_doubled",
+    "pawn_supported",
+    "passed_advance",
+    "passed_blocked",
+    "passer_friendly_king_distance",
+    "passer_enemy_king_distance",
+    "rook_open_file",
+    "rook_semi_open_file",
+    "king_shelter",
+    "king_file_open"
+  ],
+  "coefficients_mg": {
+    "pawn_isolated": -5.056399547046438,
+    "pawn_doubled": -13.68966708980483,
+    "pawn_supported": 0.0,
+    "passed_advance": 2.6589894494396256,
+    "passed_blocked": -16.861822569874644,
+    "passer_friendly_king_distance": -1.8703075273495453,
+    "passer_enemy_king_distance": 0.0,
+    "rook_open_file": 11.064824711108912,
+    "rook_semi_open_file": 4.713975854905967,
+    "king_shelter": 0.0,
+    "king_file_open": -37.511761027941525
+  },
+  "coefficients_eg": {
+    "pawn_isolated": -7.496056883333597,
+    "pawn_doubled": -6.659865711103969,
+    "pawn_supported": 6.060536250965973,
+    "passed_advance": 4.130394168689571,
+    "passed_blocked": -17.82154533131456,
+    "passer_friendly_king_distance": 0.0,
+    "passer_enemy_king_distance": 1.0320279818624538,
+    "rook_open_file": 16.894875096690573,
+    "rook_semi_open_file": 7.610767905227463,
+    "king_shelter": 0.0,
+    "king_file_open": -9.613610100023866
+  },
+  "integer_mg": {
+    "pawn_isolated": -5,
+    "pawn_doubled": -14,
+    "pawn_supported": 0,
+    "passed_advance": 3,
+    "passed_blocked": -17,
+    "passer_friendly_king_distance": -2,
+    "passer_enemy_king_distance": 0,
+    "rook_open_file": 11,
+    "rook_semi_open_file": 5,
+    "king_shelter": 0,
+    "king_file_open": -38
+  },
+  "integer_eg": {
+    "pawn_isolated": -7,
+    "pawn_doubled": -7,
+    "pawn_supported": 6,
+    "passed_advance": 4,
+    "passed_blocked": -18,
+    "passer_friendly_king_distance": 0,
+    "passer_enemy_king_distance": 1,
+    "rook_open_file": 17,
+    "rook_semi_open_file": 8,
+    "king_shelter": 0,
+    "king_file_open": -10
+  },
+  "performance": {
+    "train": {
+      "baseline": {
+        "mae_cp": 99.66705910054156,
+        "rmse_cp": 158.0803311598243,
+        "median_abs_cp": 53.0,
+        "p90_abs_cp": 276.0
+      },
+      "corrected": {
+        "mae_cp": 98.48552514931495,
+        "rmse_cp": 155.64690838002747,
+        "median_abs_cp": 52.98276468851964,
+        "p90_abs_cp": 273.71257324953245
+      },
+      "integer_coefficients": {
+        "mae_cp": 98.483635507417,
+        "rmse_cp": 155.65533701613268,
+        "median_abs_cp": 53.0,
+        "p90_abs_cp": 273.0
+      }
+    },
+    "validation": {
+      "baseline": {
+        "mae_cp": 99.46676514032497,
+        "rmse_cp": 158.0088577065763,
+        "median_abs_cp": 52.0,
+        "p90_abs_cp": 269.70000000000005
+      },
+      "corrected": {
+        "mae_cp": 98.27011711433484,
+        "rmse_cp": 155.21329332457742,
+        "median_abs_cp": 51.48943915451322,
+        "p90_abs_cp": 271.4734947031244
+      },
+      "integer_coefficients": {
+        "mae_cp": 98.26514032496307,
+        "rmse_cp": 155.22074384737292,
+        "median_abs_cp": 51.0,
+        "p90_abs_cp": 272.10000000000014
+      }
+    }
+  },
+  "validation_by_bucket": {
+    "middlegame": {
+      "rows": 480,
+      "baseline": {
+        "mae_cp": 122.01666666666667,
+        "rmse_cp": 187.07495155685595,
+        "median_abs_cp": 63.5,
+        "p90_abs_cp": 343.1
+      },
+      "integer_coefficients": {
+        "mae_cp": 119.97916666666667,
+        "rmse_cp": 184.60681190031966,
+        "median_abs_cp": 63.5,
+        "p90_abs_cp": 332.1
+      }
+    },
+    "attack": {
+      "rows": 447,
+      "baseline": {
+        "mae_cp": 57.98881431767338,
+        "rmse_cp": 95.2603520653541,
+        "median_abs_cp": 39.0,
+        "p90_abs_cp": 113.40000000000003
+      },
+      "integer_coefficients": {
+        "mae_cp": 57.79642058165548,
+        "rmse_cp": 92.34900003576792,
+        "median_abs_cp": 39.0,
+        "p90_abs_cp": 116.40000000000003
+      }
+    },
+    "ending": {
+      "rows": 427,
+      "baseline": {
+        "mae_cp": 117.53864168618267,
+        "rmse_cp": 174.14999994957105,
+        "median_abs_cp": 65.0,
+        "p90_abs_cp": 312.40000000000003
+      },
+      "integer_coefficients": {
+        "mae_cp": 116.22014051522248,
+        "rmse_cp": 170.76875362054602,
+        "median_abs_cp": 67.0,
+        "p90_abs_cp": 294.40000000000003
+      }
+    }
+  },
+  "validation_mae_improvement_cp": 1.201624815361896,
+  "validation_mae_improvement_percent": 1.2080666478563737,
+  "validation_family_bootstrap_95_cp": [
+    0.4116607790599209,
+    1.9318067621967343
+  ],
+  "correction_range_cp": [
+    -98.25279346098733,
+    92.71664869134429
+  ],
+  "fraction_corrections_clipped": 0.0,
+  "resolved_forcing_rows": 2658,
+  "source_hashes": {
+    "features_ref.py": "1b15830b96d1fe14294150f3d48449b8f17f046590ba11b4fb996e7b63bef543",
+    "eval_nb.py": "607d3d8c9094a24ebfeff4088f6354b5acc320aa98e681be179f333c4e003ca7"
+  },
+  "limitations": "Offline error reduction only. No native implementation/cost/game test or playing-strength claim. Feature model remains the same limited11 counts; labels are finite-budget and the training corpus shares established chess structures with broader play."
+}

@@ -1,0 +1,73 @@
+AI CHESSATHON MATCH LOG
+=======================
+
+MATCH
+  Round          Rated 19
+  Team           Finlay Phillips
+  Colour         White
+  Opponent       The big H
+  Opening        Caro-Kann Exchange
+  Start FEN      r3kb1r/pp1qpppp/2n2n2/3p4/3P1Bb1/1QPB3P/PP3PP1/RN2K1NR b KQkq - 0 8
+  You moved      Second
+  Machine        w-fe39e1
+  Finished       2026-09-05 10:09:43 UTC
+  Match ID       4b0a0d25-ff9e-434c-b1b1-b2019f4c097f
+
+INIT
+  Ready in       45.4 s
+  Budget         90.0 s
+  Used           50 percent
+
+CLOCK
+  Base           120.0 s plus 0.5 s per move
+  Moves          16
+  Time used      57.8 s
+  Slowest        9.9 s on move 11
+  Fastest        0.0 s on move 15
+  Average        3.6 s
+  Left at end    70.2 s
+
+RESULT
+  Won by checkmate
+  Game lasted 139.3 s
+
+MOVES
+    #  move          time     clock left
+    1  Bh2           4.8 s      115.7 s
+    2  Nf3           3.8 s      112.4 s
+    3  O-O           4.7 s      108.2 s
+    4  Nbd2          4.0 s      104.7 s
+    5  Bb5           2.3 s      102.9 s
+    6  Ne5           2.6 s      100.8 s
+    7  Bxc6          9.3 s       91.9 s
+    8  Qd1           8.3 s       84.2 s
+    9  Bxf4          2.1 s       82.6 s
+   10  Bg3           3.7 s       79.4 s
+   11  Nd3           9.9 s       70.1 s
+   12  Nc5           2.3 s       68.3 s
+   13  Qb3           0.1 s       68.7 s
+   14  Qb7+          0.0 s       69.2 s
+   15  Nxe6+         0.0 s       69.7 s
+   16  Qc7#          0.0 s       70.2 s
+
+OUTPUT
+  564 bytes on stderr
+
+  S4 p0 d15 n3007182 s47 t4778 b3302
+  S4 p2 d14 n2302987 s34 t3833 b2859
+  S4 p4 d14 n2821679 s101 t4645 b4102
+  S4 p6 d14 n2548514 s108 t4027 b4563
+  S4 p8 d15 n1400554 s147 t2298 b2828
+  S4 p10 d15 n1658394 s162 t2623 b2471
+  S4 p12 d17 n5571211 s420 t9311 b5600
+  S4 p14 d16 n4702239 s420 t8246 b4498
+  S4 p16 d16 n1218947 s446 t2059 b2325
+  S4 p18 d16 n2152622 s501 t3697 b2259
+  S4 p20 d15 n5891752 s799 t9862 b4887
+  S4 p22 d15 n1376655 s850 t2299 b2001
+  S4 p24 d8 n28143 s31993 t78 b5970
+  S4 p26 d1 n110 s31995 t0 b2959
+  S4 p28 d1 n111 s31997 t0 b3010
+  S4 p30 d1 n113 s31999 t0 b3188
+
+Email hello@aichessathon.com with this file if anything here is unclear.

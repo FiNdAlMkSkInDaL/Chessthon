@@ -1,0 +1,157 @@
+{
+  "checked_utc": "2026-09-05T16:45:15.099533+00:00",
+  "checks": [
+    {
+      "path": "lab\\odin\\reference-screen.jsonl",
+      "snapshot_sha256": "b4aa3f4c1ee326964ba3311ca7b0507234fcc1412cc96d168fa7fa538bfd4538",
+      "snapshot_bytes": 8284884,
+      "positions": 6221,
+      "games": 50,
+      "complete_summary": {
+        "type": "summary",
+        "positions": 6221,
+        "elapsed_s": 816.4179867999999,
+        "finished_utc": "2026-09-05T16:38:24.648783+00:00"
+      },
+      "partial_last_line_ignored": false,
+      "counts": {
+        "site-r16": 108,
+        "site-r17": 165,
+        "site-r18": 142,
+        "site-r19": 33,
+        "site-r20": 94,
+        "site-r21": 108,
+        "site-r22": 156,
+        "site-r23": 132,
+        "site-r24": 121,
+        "site-r25": 94,
+        "holdout-a-g1-o160": 110,
+        "holdout-a-g2-o160": 107,
+        "holdout-a-g3-o161": 100,
+        "holdout-a-g4-o161": 83,
+        "holdout-a-g5-o162": 54,
+        "holdout-a-g6-o162": 117,
+        "holdout-a-g7-o163": 112,
+        "holdout-a-g8-o163": 119,
+        "holdout-a-g9-o164": 162,
+        "holdout-a-g10-o164": 177,
+        "holdout-a-g11-o165": 25,
+        "holdout-a-g12-o165": 206,
+        "holdout-a-g13-o166": 106,
+        "holdout-a-g14-o166": 122,
+        "holdout-a-g15-o167": 96,
+        "holdout-a-g16-o167": 130,
+        "holdout-a-g17-o168": 123,
+        "holdout-a-g18-o168": 109,
+        "holdout-a-g19-o169": 140,
+        "holdout-a-g20-o169": 92,
+        "holdout-b-g1-o170": 107,
+        "holdout-b-g2-o170": 158,
+        "holdout-b-g3-o171": 165,
+        "holdout-b-g4-o171": 100,
+        "holdout-b-g5-o172": 229,
+        "holdout-b-g6-o172": 64,
+        "holdout-b-g7-o173": 125,
+        "holdout-b-g8-o173": 152,
+        "holdout-b-g9-o174": 131,
+        "holdout-b-g10-o174": 42,
+        "holdout-b-g11-o175": 52,
+        "holdout-b-g12-o175": 121,
+        "holdout-b-g13-o176": 111,
+        "holdout-b-g14-o176": 153,
+        "holdout-b-g15-o177": 185,
+        "holdout-b-g16-o177": 145,
+        "holdout-b-g17-o178": 278,
+        "holdout-b-g18-o178": 259,
+        "holdout-b-g19-o179": 115,
+        "holdout-b-g20-o179": 86
+      },
+      "actual_node_ratio_min": 0.00491,
+      "actual_node_ratio_max": 1.00232,
+      "forced_move_scored_better_than_unrestricted": [],
+      "restricted_root_mismatches": [],
+      "pvs_continuing_past_referee_claim": [],
+      "result": "Source, colour, history, board, played move and legal PV replay pass; restricted-root mismatches, when present, invalidate those specific restricted analyses. Numeric reference scores are not certified."
+    },
+    {
+      "path": "lab\\odin\\reference-deep.jsonl",
+      "snapshot_sha256": "19c506d40858174bb2ca34bafafa8f9cc9371cd6c862ec084f6873ef9e35211c",
+      "snapshot_bytes": 59453,
+      "positions": 34,
+      "games": 9,
+      "complete_summary": {
+        "type": "summary",
+        "positions": 34,
+        "elapsed_s": 301.81794349999996,
+        "finished_utc": "2026-09-05T16:34:44.830196+00:00"
+      },
+      "partial_last_line_ignored": false,
+      "counts": {
+        "site-r16": 4,
+        "site-r17": 7,
+        "site-r18": 3,
+        "site-r20": 1,
+        "site-r21": 3,
+        "site-r22": 4,
+        "site-r23": 5,
+        "site-r24": 1,
+        "holdout-a-g12-o165": 6
+      },
+      "actual_node_ratio_min": 1.000002,
+      "actual_node_ratio_max": 1.000361,
+      "forced_move_scored_better_than_unrestricted": [
+        {
+          "game_id": "holdout-a-g12-o165",
+          "ply": 87,
+          "best_cp": -415,
+          "forced_cp": -433,
+          "mover_gap": -18,
+          "unrestricted_pv": [
+            "c4a4"
+          ],
+          "played": "c4a4"
+        },
+        {
+          "game_id": "holdout-a-g12-o165",
+          "ply": 111,
+          "best_cp": -2,
+          "forced_cp": -4,
+          "mover_gap": -2,
+          "unrestricted_pv": [
+            "f8e7"
+          ],
+          "played": "f8e7"
+        },
+        {
+          "game_id": "holdout-a-g12-o165",
+          "ply": 125,
+          "best_cp": -7,
+          "forced_cp": -14,
+          "mover_gap": -7,
+          "unrestricted_pv": [
+            "d5c6"
+          ],
+          "played": "d5c6"
+        }
+      ],
+      "restricted_root_mismatches": [
+        {
+          "game_id": "holdout-a-g12-o165",
+          "ply": 111,
+          "kind": "f8g8",
+          "expected": "f8g8",
+          "actual": "f8e7"
+        }
+      ],
+      "pvs_continuing_past_referee_claim": [],
+      "result": "Source, colour, history, board, played move and legal PV replay pass; restricted-root mismatches, when present, invalidate those specific restricted analyses. Numeric reference scores are not certified."
+    }
+  ],
+  "limitations": [
+    "Reference helper drops UCI lowerbound/upperbound flags.",
+    "python-chess analyse returns aggregated info, not one atomic last-score event.",
+    "Forced-root and unrestricted fixed-node searches distribute effort differently.",
+    "Stockfish's internal optional draw/cap model is not the exact competition referee.",
+    "SF WDL is its model estimate, not this tournament's win probability."
+  ]
+}

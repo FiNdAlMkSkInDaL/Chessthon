@@ -1,0 +1,21 @@
+{
+  "primary_seed": 260916,
+  "replication_seed": 260917,
+  "objectives": [
+    "pair",
+    "static",
+    "mixed",
+    "replay"
+  ],
+  "deep_objectives": [
+    "pair",
+    "static"
+  ],
+  "mixes": [
+    0.25,
+    0.5
+  ],
+  "screen_roots": 110,
+  "screening": "Predeclared: >=5cp improvement in equal-wall clipped regret versus repeated Tempest, no extra >200cp errors, and no fixed-node regression. Compare objectives against replay and same-mix baselines. Nominees play paired games; no Elo claim from this screen.",
+  "scope": "Existing110 exposed development roots, not the sealed320 Lichess roots or fresh competition confirmation openings."
+}

@@ -1,0 +1,41 @@
+{
+  "snapshot_utc": "2026-09-05T19:12:46.782606+00:00",
+  "kind": "Local experimental source snapshot; native gates and strength unmeasured",
+  "source": "odin_history_compact",
+  "base": "odin_history_perf",
+  "source_sha256": {
+    "agent.py": "f8df2dbd7dde24c50d74fd13d8d7f31e9f380bab0302bc662f9e6828b9b88fde",
+    "bitops_nb.py": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+    "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+    "core_nb.py": "87f19a3fe21af436c22d1bbaf05c14f7f991c086881fade2dfe60d472007a989",
+    "eval_nb.py": "607d3d8c9094a24ebfeff4088f6354b5acc320aa98e681be179f333c4e003ca7",
+    "history.py": "9db4161f08b09e9ac2f1c6b65eb42ae43278ccf9b134b3b0d9d3c4ff0c5db62d",
+    "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+    "search_nb.py": "9f91df7eb4c28097f82edef4f5f7325884bd949c81f6b91e79b574039b0d623d",
+    "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+    "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+    "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+    "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+  },
+  "base_sha256": {
+    "agent.py": "f8df2dbd7dde24c50d74fd13d8d7f31e9f380bab0302bc662f9e6828b9b88fde",
+    "bitops_nb.py": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+    "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+    "core_nb.py": "cf177dbd148984f2d0a601691a8ce9322922084cea951909f4cc34d50e5b8df8",
+    "eval_nb.py": "607d3d8c9094a24ebfeff4088f6354b5acc320aa98e681be179f333c4e003ca7",
+    "history.py": "9db4161f08b09e9ac2f1c6b65eb42ae43278ccf9b134b3b0d9d3c4ff0c5db62d",
+    "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+    "search_nb.py": "9f91df7eb4c28097f82edef4f5f7325884bd949c81f6b91e79b574039b0d623d",
+    "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+    "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+    "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+    "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+  },
+  "changed_files": [
+    "core_nb.py"
+  ],
+  "archive": "odin-history-compact-source.zip",
+  "archive_sha256": "a02feaaf455add40e2dcf78e72c0da078414d5275efbe5081be42b2f559b79b1",
+  "source_modules": 12,
+  "uncompressed_bytes": 153519
+}

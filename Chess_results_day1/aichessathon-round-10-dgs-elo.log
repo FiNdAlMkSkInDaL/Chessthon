@@ -1,0 +1,97 @@
+AI CHESSATHON MATCH LOG
+=======================
+
+MATCH
+  Round          Rated 10
+  Team           Finlay Phillips
+  Colour         Black
+  Opponent       DGS ELO
+  Opening        English Symmetrical
+  Start FEN      r1bqk2r/pp1pppbp/2n2np1/2p5/Q1P5/2N2NP1/PP1PPPBP/R1B1K2R b KQkq - 5 6
+  You moved      First
+  Machine        w-1af86c
+  Finished       2026-09-04 16:14:47 UTC
+  Match ID       bf6bd718-87d3-44ea-8fb1-171004ea2789
+
+INIT
+  Ready in       35.1 s
+  Budget         90.0 s
+  Used           39 percent
+
+CLOCK
+  Base           120.0 s plus 0.5 s per move
+  Moves          57
+  Time used      120.7 s
+  Slowest        4.3 s on move 2
+  Fastest        1.0 s on move 50
+  Average        2.1 s
+  Left at end    27.8 s
+
+RESULT
+  Drawn by threefold repetition
+  Game lasted 246.4 s
+
+MOVES
+    #  move          time     clock left
+    1  O-O           3.4 s      117.1 s
+    2  d6            4.3 s      113.3 s
+    3  Nd4           4.0 s      109.7 s
+    4  Rb8           3.7 s      106.5 s
+    5  e5            2.7 s      104.3 s
+    6  Bf5           3.6 s      101.2 s
+    7  Be6           3.3 s       98.4 s
+    8  Rc8           3.3 s       95.6 s
+    9  h6            3.1 s       93.0 s
+   10  Rb8           2.5 s       91.0 s
+   11  Rxb7          2.7 s       88.9 s
+   12  Bc8           3.1 s       86.3 s
+   13  cxd4          2.6 s       84.2 s
+   14  Nxd5          2.2 s       82.5 s
+   15  Rxb2          2.7 s       80.4 s
+   16  Qxd6          2.3 s       78.6 s
+   17  Rd8           3.4 s       75.7 s
+   18  Qc5           2.0 s       74.2 s
+   19  Bf5           2.0 s       72.7 s
+   20  Bc8           2.0 s       71.2 s
+   21  Qe7           2.2 s       69.5 s
+   22  f5            2.8 s       67.3 s
+   23  Qb7           2.6 s       65.2 s
+   24  Qa6           1.9 s       63.8 s
+   25  Re8           2.6 s       61.7 s
+   26  Qb6           2.1 s       60.2 s
+   27  Be6           1.9 s       58.8 s
+   28  Qa6           2.1 s       57.1 s
+   29  Qc8           2.1 s       55.5 s
+   30  gxf5          1.9 s       54.1 s
+   31  Qxe6          1.7 s       53.0 s
+   32  Ra8           1.8 s       51.6 s
+   33  e4            1.7 s       50.4 s
+   34  Qg6+          1.8 s       49.2 s
+   35  Qh5           1.9 s       47.8 s
+   36  Qxh3+         1.6 s       46.7 s
+   37  e3            2.1 s       45.1 s
+   38  Kh7           2.1 s       43.5 s
+   39  exf2+         1.2 s       42.8 s
+   40  Qe3+          1.3 s       42.0 s
+   41  Qxd3+         1.5 s       40.9 s
+   42  Re8           1.5 s       39.9 s
+   43  Qe3+          1.1 s       39.3 s
+   44  Qd3+          1.1 s       38.7 s
+   45  Qe3+          1.5 s       37.6 s
+   46  Qh3+          1.6 s       36.5 s
+   47  Qd3+          1.1 s       35.9 s
+   48  Qh3+          1.3 s       35.0 s
+   49  Qd3+          1.1 s       34.4 s
+   50  Qd1+          1.0 s       33.9 s
+   51  Qg4+          1.3 s       33.1 s
+   52  Be5           1.0 s       32.6 s
+   53  Qf4+          1.3 s       31.8 s
+   54  Qd2+          2.1 s       30.2 s
+   55  Qc1+          1.3 s       29.4 s
+   56  Qd2+          1.4 s       28.5 s
+   57  Qc1+          1.2 s       27.8 s
+
+OUTPUT
+  Nothing written to stderr
+
+Email hello@aichessathon.com with this file if anything here is unclear.

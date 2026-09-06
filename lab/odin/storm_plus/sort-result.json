@@ -1,0 +1,9 @@
+{
+  "identical_legal_position_orderings": 1000,
+  "seconds_per_500000_sorts": {
+    "False": 3.191402799999196,
+    "True": 3.017567999999301
+  },
+  "relative_time": 0.9455302853027707,
+  "scope": "Laptop microbenchmark only. Does not establish search throughput, cold Linux cost or Elo."
+}

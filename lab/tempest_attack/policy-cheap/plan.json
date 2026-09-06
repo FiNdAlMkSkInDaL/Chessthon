@@ -1,0 +1,35 @@
+{
+  "kept_features": [
+    "pawn",
+    "knight",
+    "bishop",
+    "rook",
+    "queen",
+    "king",
+    "pesto_delta",
+    "from_enemy_pawn",
+    "to_enemy_pawn",
+    "to_own_pawn",
+    "castle",
+    "advance_pawn",
+    "towards_enemy_king",
+    "towards_own_king",
+    "king_file",
+    "near_enemy_king_pawn",
+    "open_rook_file",
+    "center_gain"
+  ],
+  "removed": [
+    "escape_attack",
+    "destination_attacked",
+    "gives_check",
+    "king_zone_gain"
+  ],
+  "ridges": [
+    0.001,
+    0.01
+  ],
+  "epochs": 100,
+  "scope": "Reused-family development cost ablation. No independent validation or Elo claim.",
+  "native_use": "Only break zero-history quiet-move ties; hash moves, captures, killers and nonzero history dominate. Original search/evaluation unchanged."
+}

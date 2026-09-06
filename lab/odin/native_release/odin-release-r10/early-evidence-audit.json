@@ -1,0 +1,27 @@
+{
+  "scope": "Only completed early games checked for evidence quality. No complete-sample or strength claim.",
+  "verdict": "PASS",
+  "errors": [],
+  "games": 2,
+  "plies": 263,
+  "replays": [
+    {
+      "plies": 145,
+      "units": [
+        "chesstk-20260905T204127Z-9886f3dd-1-white.service",
+        "chesstk-20260905T204127Z-9886f3dd-1-black.service"
+      ],
+      "min_clock_residual_ms": -0.7960000000002765,
+      "max_clock_residual_ms": 0.8720000000030268
+    },
+    {
+      "plies": 118,
+      "units": [
+        "chesstk-20260905T204413Z-9fb484f9-1-white.service",
+        "chesstk-20260905T204413Z-9fb484f9-1-black.service"
+      ],
+      "min_clock_residual_ms": -0.838000000003376,
+      "max_clock_residual_ms": 0.9089999999996508
+    }
+  ]
+}

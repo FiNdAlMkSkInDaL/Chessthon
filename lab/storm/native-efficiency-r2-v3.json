@@ -1,0 +1,634 @@
+{
+  "mode": "native fixed-depth efficiency",
+  "cpu": 1,
+  "method": "Two fresh exact-agent imports, sequential processes; identical ordered roots; TT/history/killers cleared per root; depth 1 through 5 with full windows.",
+  "limitations": [
+    "Same nominal depth does not mean equal selective search or playing strength.",
+    "Per-node times compare different engine node mixes; they are not a pure evaluation microbenchmark.",
+    "Fixed-depth work uses no live deadline or adaptive time allocation.",
+    "One sequential sample per archive; same signer CPU, not the organiser CPU.",
+    "Historical site roots are diagnostics, not holdout games."
+  ],
+  "archives": {
+    "r2": "15db92a79feff24cf52f5b85974f55504753f981823d7e6d92881fb62812e85c",
+    "v3": "3397e7a8ca55696bb8d7586a9c73cbeabc0c8b6f51b26cdc8c26562a37c91408"
+  },
+  "provenance": {
+    "lab/storm/native_efficiency.py": "97879b953d946ce58dfa8b9922d6c7126c01251ac38428af1ba48c568ff17f54",
+    "lab/storm/test_selectivity.py": "ba81ac29bac08dfe785ce05f39501720cf27e02d4471fc5856b7908775764e7e",
+    "lab/release_audit.py": "ecfd901d3868dc6e293172051aa83d64fe658486e40f1b16b31cf4d0e8b838c2",
+    "lab/storm/storm_r2_fixed_depth5.json": "05bb309986a615b19e74f1366f0866e073951a3f1c7f3de6039c50f54312b11b",
+    "lab/storm/v3_fixed_depth5.json": "0f87cddca04e1c17163b08756713b26c5b214b3a642ef574e650ce088fea8c22"
+  },
+  "runtime": {
+    "platform": "Linux-6.8.0-90-generic-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "python": "3.12.3",
+    "packages": {
+      "chess": "1.11.2",
+      "numpy": "2.5.2",
+      "numba": "0.67.0",
+      "llvmlite": "0.49.0"
+    },
+    "affinity": [
+      1
+    ],
+    "cpu_models": [
+      "AMD EPYC-Genoa Processor"
+    ]
+  },
+  "engines": {
+    "r2": {
+      "role": "r2",
+      "archive_sha256": "15db92a79feff24cf52f5b85974f55504753f981823d7e6d92881fb62812e85c",
+      "runtime": {
+        "platform": "Linux-6.8.0-90-generic-x86_64-with-glibc2.39",
+        "machine": "x86_64",
+        "python": "3.12.3",
+        "packages": {
+          "chess": "1.11.2",
+          "numpy": "2.5.2",
+          "numba": "0.67.0",
+          "llvmlite": "0.49.0"
+        },
+        "affinity": [
+          1
+        ],
+        "cpu_models": [
+          "AMD EPYC-Genoa Processor"
+        ]
+      },
+      "count": 32,
+      "depth": 5,
+      "cold_agent_import_s": 28.1690973341465,
+      "warmup_s": 27.907226592302322,
+      "original_numba_ready": true,
+      "root_nopython_signatures": [
+        "(Array(uint64, 1, 'C', False, aligned=True), Array(int8, 1, 'C', False, aligned=True), Array(uint64, 1, 'C', False, aligned=True), Array(int32, 1, 'C', False, aligned=True), int64, int64, Array(uint64, 1, 'C', False, aligned=True), int64, int64, int64, int64, int64, int64, Array(uint64, 2, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(uint64, 1, 'C', False, aligned=True), Array(int32, 1, 'C', False, aligned=True), Array(int16, 1, 'C', False, aligned=True), Array(uint8, 1, 'C', False, aligned=True), Array(uint8, 1, 'C', False, aligned=True), Array(int32, 1, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(int64, 1, 'C', False, aligned=True), Array(int32, 1, 'C', False, aligned=True)) -> Tuple(int32, int64)"
+      ],
+      "nodes": 425503,
+      "seconds": 0.4617440905421972,
+      "nodes_per_second": 921512.6056087874,
+      "nanoseconds_per_node": 1085.172350235362,
+      "positions": [
+        {
+          "fen": "r3r1k1/ppp3pp/2nq1n2/3p4/P2Pp3/B1P1P3/2B1QPPP/R4RK1 b - - 2 15",
+          "move": "d6d7",
+          "score": -75,
+          "nodes": 10637,
+          "seconds": 0.010612793266773224,
+          "aborted": false
+        },
+        {
+          "fen": "2rq1rk1/pp3pbp/3pbnp1/P1p1p3/2PnP3/2NP1NPP/1P3PB1/R1BQR1K1 b - - 0 14",
+          "move": "d8d7",
+          "score": 13,
+          "nodes": 28625,
+          "seconds": 0.03258877247571945,
+          "aborted": false
+        },
+        {
+          "fen": "r4rk1/pp1qBpb1/4p1pp/4P3/3P4/5P2/P2Q1PBP/2R1K2R b K - 0 17",
+          "move": "d7e7",
+          "score": 17,
+          "nodes": 4049,
+          "seconds": 0.003025609999895096,
+          "aborted": false
+        },
+        {
+          "fen": "r3qrk1/pp5p/3p2p1/2nP2B1/2P3P1/8/PbQ1BP2/R3K2R w KQ - 0 18",
+          "move": "a1d1",
+          "score": 14,
+          "nodes": 8795,
+          "seconds": 0.012666288763284683,
+          "aborted": false
+        },
+        {
+          "fen": "r1b2rk1/p1qn1p1p/2p1p1p1/2p4P/4N3/3P1Nb1/PPP5/R1BQ1K1R w - - 4 15",
+          "move": "f1g2",
+          "score": -227,
+          "nodes": 13166,
+          "seconds": 0.011776460334658623,
+          "aborted": false
+        },
+        {
+          "fen": "r4rk1/pp1q1ppp/2N5/2bp4/4n3/4BN1P/PPP2PP1/R2Q1RK1 b - - 0 13",
+          "move": "d7c6",
+          "score": 5,
+          "nodes": 4315,
+          "seconds": 0.004844171926379204,
+          "aborted": false
+        },
+        {
+          "fen": "3rkbnr/1p1q1ppp/p1bp4/3Np3/2B1P3/1Q6/PPP2PPP/R1B2RK1 b k - 9 13",
+          "move": "b7b5",
+          "score": -36,
+          "nodes": 15418,
+          "seconds": 0.016437195241451263,
+          "aborted": false
+        },
+        {
+          "fen": "2r2rk1/pp2nppp/3qpn2/1P1p4/3P2b1/P1PB1N2/2QN1PPP/R4RK1 b - - 2 15",
+          "move": "d6c7",
+          "score": 11,
+          "nodes": 19386,
+          "seconds": 0.019856996834278107,
+          "aborted": false
+        },
+        {
+          "fen": "1r1qr1k1/p1p2p2/P1np1n1p/1pb1p1p1/4P3/NBPPB1QP/1P3PP1/R4RK1 b - - 3 15",
+          "move": "f6h5",
+          "score": -43,
+          "nodes": 10445,
+          "seconds": 0.013334564864635468,
+          "aborted": false
+        },
+        {
+          "fen": "3q1rk1/2Nbppbp/p2p1np1/Q7/2Pp4/3P2P1/PP2PP1P/R1B2RK1 b - - 3 14",
+          "move": "f6e8",
+          "score": 113,
+          "nodes": 5102,
+          "seconds": 0.0038592256605625153,
+          "aborted": false
+        },
+        {
+          "fen": "r1bq1rk1/5ppp/1bP2nn1/p7/P1BPp3/2P2N2/1B1N1PPP/R2Q1RK1 b - - 0 15",
+          "move": "e4f3",
+          "score": 85,
+          "nodes": 3870,
+          "seconds": 0.00443606823682785,
+          "aborted": false
+        },
+        {
+          "fen": "r4r2/pp1qbkpp/2n5/3pp3/6Q1/N1P4P/PBP2PP1/1R2K2R b K - 5 15",
+          "move": "a8d8",
+          "score": 25,
+          "nodes": 9913,
+          "seconds": 0.01123739406466484,
+          "aborted": false
+        },
+        {
+          "fen": "r2q1rk1/pp2bppp/5n2/3p3b/P2N4/2PB1P2/1P4PP/R1BQ1RK1 b - - 2 13",
+          "move": "h5g6",
+          "score": 27,
+          "nodes": 20560,
+          "seconds": 0.025226876139640808,
+          "aborted": false
+        },
+        {
+          "fen": "r4rk1/ppqb1ppp/2n1pn2/3pN3/3P1P2/1N6/PP2BPPP/2RQ1RK1 b - - 8 14",
+          "move": "a8c8",
+          "score": -23,
+          "nodes": 23122,
+          "seconds": 0.02512645721435547,
+          "aborted": false
+        },
+        {
+          "fen": "r4rk1/4bppp/pq2bn2/np2P3/P1p5/2P2N2/BP1N1PPP/R1BQR1K1 b - - 0 15",
+          "move": "f6g4",
+          "score": -72,
+          "nodes": 18805,
+          "seconds": 0.020125364884734154,
+          "aborted": false
+        },
+        {
+          "fen": "1r1r2k1/1pp3pp/2n1q3/p2R4/P1nPp3/BBP1P2P/4QPP1/4R1K1 b - - 0 27",
+          "move": "d8d5",
+          "score": -103,
+          "nodes": 3985,
+          "seconds": 0.004513656720519066,
+          "aborted": false
+        },
+        {
+          "fen": "2br2k1/p4pb1/6pp/2qPp3/2Pp2P1/3P3P/1B1Q1PB1/R5K1 b - - 2 26",
+          "move": "c8b7",
+          "score": 15,
+          "nodes": 14300,
+          "seconds": 0.013479584828019142,
+          "aborted": false
+        },
+        {
+          "fen": "6k1/pp3p2/4p1pb/4P2p/4BPq1/6Q1/P4PKP/8 b - - 3 29",
+          "move": "h6f4",
+          "score": 199,
+          "nodes": 2534,
+          "seconds": 0.002192644402384758,
+          "aborted": false
+        },
+        {
+          "fen": "8/pR5p/3p2p1/3P2k1/2P3P1/7R/r1r5/4K3 w - - 6 30",
+          "move": "e1d1",
+          "score": -177,
+          "nodes": 9325,
+          "seconds": 0.009508559480309486,
+          "aborted": false
+        },
+        {
+          "fen": "5r1k/p1b2p2/b1p5/2p3Qp/8/3P1N2/PPP5/4rK2 w - - 0 27",
+          "move": "f1e1",
+          "score": 180,
+          "nodes": 13092,
+          "seconds": 0.01406240463256836,
+          "aborted": false
+        },
+        {
+          "fen": "4r1k1/1p3p1p/3n2p1/3p4/8/pP3P1P/P1P1NKP1/3R4 b - - 1 25",
+          "move": "d6b5",
+          "score": 49,
+          "nodes": 12108,
+          "seconds": 0.010679464787244797,
+          "aborted": false
+        },
+        {
+          "fen": "1k3b1r/1p5p/p2p2p1/4p3/2Q1Pq2/8/PPP2PRP/3R3K b - - 3 25",
+          "move": "f8e7",
+          "score": -136,
+          "nodes": 20488,
+          "seconds": 0.022661345079541206,
+          "aborted": false
+        },
+        {
+          "fen": "2r3k1/ppr3pp/3qpp2/1P1p4/R2Pn1P1/P2N4/1Q3P1P/5RK1 b - - 5 27",
+          "move": "d6b6",
+          "score": 168,
+          "nodes": 22274,
+          "seconds": 0.02326517179608345,
+          "aborted": false
+        },
+        {
+          "fen": "q7/B1p1rpk1/P2p3p/4p1n1/2R1P1B1/b2PQ3/5PP1/5K2 b - - 3 27",
+          "move": "d6d5",
+          "score": -44,
+          "nodes": 12855,
+          "seconds": 0.01480541005730629,
+          "aborted": false
+        },
+        {
+          "fen": "r2q2k1/1Qn1p1bp/3pb1p1/1P3pP1/P1Pp1P2/3P4/3BP2P/R4RK1 b - - 0 26",
+          "move": "e6f7",
+          "score": 78,
+          "nodes": 9454,
+          "seconds": 0.010475674644112587,
+          "aborted": false
+        },
+        {
+          "fen": "3rr1k1/2q2p1p/2P5/pB1P1p2/PbPNbn2/4R3/5PPP/R1Q3K1 b - - 1 27",
+          "move": "b4d6",
+          "score": 170,
+          "nodes": 24991,
+          "seconds": 0.0330934002995491,
+          "aborted": false
+        },
+        {
+          "fen": "3r4/pp4pp/2n1k3/3p4/4p2P/2P1N3/P1P3P1/3R2K1 b - - 0 27",
+          "move": "d5d4",
+          "score": 111,
+          "nodes": 10305,
+          "seconds": 0.008166911080479622,
+          "aborted": false
+        },
+        {
+          "fen": "2r3k1/1q3pp1/pb3np1/3p4/1PrN4/R1PQ1PP1/3B2KP/4R3 b - - 1 25",
+          "move": "b6d4",
+          "score": 86,
+          "nodes": 22443,
+          "seconds": 0.025519995018839836,
+          "aborted": false
+        },
+        {
+          "fen": "3rr1k1/5pp1/1qQ1b2p/3p4/3P4/P4B1P/P4PP1/2R1R1K1 b - - 0 26",
+          "move": "b6d4",
+          "score": -150,
+          "nodes": 9889,
+          "seconds": 0.011581271886825562,
+          "aborted": false
+        },
+        {
+          "fen": "5r1k/4b1pp/p3b3/P2qPp2/QPp5/2P1R1P1/B2r1P1P/4R1K1 b - - 2 27",
+          "move": "e6d7",
+          "score": 235,
+          "nodes": 18207,
+          "seconds": 0.019747644662857056,
+          "aborted": false
+        },
+        {
+          "fen": "r5k1/pR2B1b1/2PP3p/5p2/3pp3/3P3q/4QP2/4K3 b - - 1 42",
+          "move": "h3h1",
+          "score": 39,
+          "nodes": 19206,
+          "seconds": 0.020138883963227272,
+          "aborted": false
+        },
+        {
+          "fen": "8/8/5k2/p2B1p2/P3p1p1/8/5PK1/4b3 b - - 1 45",
+          "move": "f6e5",
+          "score": 228,
+          "nodes": 3839,
+          "seconds": 0.0026978272944688797,
+          "aborted": false
+        }
+      ],
+      "reference_sha256": "05bb309986a615b19e74f1366f0866e073951a3f1c7f3de6039c50f54312b11b",
+      "reference_mismatches": []
+    },
+    "v3": {
+      "role": "v3",
+      "archive_sha256": "3397e7a8ca55696bb8d7586a9c73cbeabc0c8b6f51b26cdc8c26562a37c91408",
+      "runtime": {
+        "platform": "Linux-6.8.0-90-generic-x86_64-with-glibc2.39",
+        "machine": "x86_64",
+        "python": "3.12.3",
+        "packages": {
+          "chess": "1.11.2",
+          "numpy": "2.5.2",
+          "numba": "0.67.0",
+          "llvmlite": "0.49.0"
+        },
+        "affinity": [
+          1
+        ],
+        "cpu_models": [
+          "AMD EPYC-Genoa Processor"
+        ]
+      },
+      "count": 32,
+      "depth": 5,
+      "cold_agent_import_s": 24.288030344992876,
+      "warmup_s": 24.068908425047994,
+      "original_numba_ready": true,
+      "root_nopython_signatures": [
+        "(Array(uint64, 1, 'C', False, aligned=True), Array(int8, 1, 'C', False, aligned=True), Array(uint64, 1, 'C', False, aligned=True), Array(int32, 1, 'C', False, aligned=True), int64, int64, Array(uint64, 1, 'C', False, aligned=True), int64, int64, int64, int64, int64, int64, Array(uint64, 2, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(uint64, 1, 'C', False, aligned=True), Array(int32, 1, 'C', False, aligned=True), Array(int16, 1, 'C', False, aligned=True), Array(uint8, 1, 'C', False, aligned=True), Array(uint8, 1, 'C', False, aligned=True), Array(int32, 1, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(int64, 1, 'C', False, aligned=True), Array(int32, 1, 'C', False, aligned=True)) -> Tuple(int32, int64)"
+      ],
+      "nodes": 727795,
+      "seconds": 0.7397769801318645,
+      "nodes_per_second": 983803.2536106642,
+      "nanoseconds_per_node": 1016.463399902259,
+      "positions": [
+        {
+          "fen": "r3r1k1/ppp3pp/2nq1n2/3p4/P2Pp3/B1P1P3/2B1QPPP/R4RK1 b - - 2 15",
+          "move": "d6d7",
+          "score": -68,
+          "nodes": 18667,
+          "seconds": 0.016784684732556343,
+          "aborted": false
+        },
+        {
+          "fen": "2rq1rk1/pp3pbp/3pbnp1/P1p1p3/2PnP3/2NP1NPP/1P3PB1/R1BQR1K1 b - - 0 14",
+          "move": "d8d7",
+          "score": 13,
+          "nodes": 32501,
+          "seconds": 0.03784807585179806,
+          "aborted": false
+        },
+        {
+          "fen": "r4rk1/pp1qBpb1/4p1pp/4P3/3P4/5P2/P2Q1PBP/2R1K2R b K - 0 17",
+          "move": "d7e7",
+          "score": 17,
+          "nodes": 5967,
+          "seconds": 0.004053568467497826,
+          "aborted": false
+        },
+        {
+          "fen": "r3qrk1/pp5p/3p2p1/2nP2B1/2P3P1/8/PbQ1BP2/R3K2R w KQ - 0 18",
+          "move": "a1d1",
+          "score": 14,
+          "nodes": 11167,
+          "seconds": 0.016567232087254524,
+          "aborted": false
+        },
+        {
+          "fen": "r1b2rk1/p1qn1p1p/2p1p1p1/2p4P/4N3/3P1Nb1/PPP5/R1BQ1K1R w - - 4 15",
+          "move": "f1g2",
+          "score": -227,
+          "nodes": 22668,
+          "seconds": 0.019026195630431175,
+          "aborted": false
+        },
+        {
+          "fen": "r4rk1/pp1q1ppp/2N5/2bp4/4n3/4BN1P/PPP2PP1/R2Q1RK1 b - - 0 13",
+          "move": "d7c6",
+          "score": 5,
+          "nodes": 6093,
+          "seconds": 0.007855873554944992,
+          "aborted": false
+        },
+        {
+          "fen": "3rkbnr/1p1q1ppp/p1bp4/3Np3/2B1P3/1Q6/PPP2PPP/R1B2RK1 b k - 9 13",
+          "move": "b7b5",
+          "score": -36,
+          "nodes": 22686,
+          "seconds": 0.022603735327720642,
+          "aborted": false
+        },
+        {
+          "fen": "2r2rk1/pp2nppp/3qpn2/1P1p4/3P2b1/P1PB1N2/2QN1PPP/R4RK1 b - - 2 15",
+          "move": "a7a6",
+          "score": 4,
+          "nodes": 26859,
+          "seconds": 0.028390605002641678,
+          "aborted": false
+        },
+        {
+          "fen": "1r1qr1k1/p1p2p2/P1np1n1p/1pb1p1p1/4P3/NBPPB1QP/1P3PP1/R4RK1 b - - 3 15",
+          "move": "f6h5",
+          "score": -43,
+          "nodes": 12794,
+          "seconds": 0.015354899689555168,
+          "aborted": false
+        },
+        {
+          "fen": "3q1rk1/2Nbppbp/p2p1np1/Q7/2Pp4/3P2P1/PP2PP1P/R1B2RK1 b - - 3 14",
+          "move": "f6e8",
+          "score": 113,
+          "nodes": 7391,
+          "seconds": 0.007331356406211853,
+          "aborted": false
+        },
+        {
+          "fen": "r1bq1rk1/5ppp/1bP2nn1/p7/P1BPp3/2P2N2/1B1N1PPP/R2Q1RK1 b - - 0 15",
+          "move": "e4f3",
+          "score": 85,
+          "nodes": 6333,
+          "seconds": 0.006553469225764275,
+          "aborted": false
+        },
+        {
+          "fen": "r4r2/pp1qbkpp/2n5/3pp3/6Q1/N1P4P/PBP2PP1/1R2K2R b K - 5 15",
+          "move": "a8d8",
+          "score": 25,
+          "nodes": 21897,
+          "seconds": 0.022037528455257416,
+          "aborted": false
+        },
+        {
+          "fen": "r2q1rk1/pp2bppp/5n2/3p3b/P2N4/2PB1P2/1P4PP/R1BQ1RK1 b - - 2 13",
+          "move": "h5g6",
+          "score": 27,
+          "nodes": 39192,
+          "seconds": 0.040763914585113525,
+          "aborted": false
+        },
+        {
+          "fen": "r4rk1/ppqb1ppp/2n1pn2/3pN3/3P1P2/1N6/PP2BPPP/2RQ1RK1 b - - 8 14",
+          "move": "a8c8",
+          "score": -23,
+          "nodes": 24878,
+          "seconds": 0.029662087559700012,
+          "aborted": false
+        },
+        {
+          "fen": "r4rk1/4bppp/pq2bn2/np2P3/P1p5/2P2N2/BP1N1PPP/R1BQR1K1 b - - 0 15",
+          "move": "f6g4",
+          "score": -74,
+          "nodes": 39335,
+          "seconds": 0.047013115137815475,
+          "aborted": false
+        },
+        {
+          "fen": "1r1r2k1/1pp3pp/2n1q3/p2R4/P1nPp3/BBP1P2P/4QPP1/4R1K1 b - - 0 27",
+          "move": "d8d5",
+          "score": -103,
+          "nodes": 4265,
+          "seconds": 0.005015261471271515,
+          "aborted": false
+        },
+        {
+          "fen": "2br2k1/p4pb1/6pp/2qPp3/2Pp2P1/3P3P/1B1Q1PB1/R5K1 b - - 2 26",
+          "move": "c5e7",
+          "score": 10,
+          "nodes": 40146,
+          "seconds": 0.031754884868860245,
+          "aborted": false
+        },
+        {
+          "fen": "6k1/pp3p2/4p1pb/4P2p/4BPq1/6Q1/P4PKP/8 b - - 3 29",
+          "move": "h6f4",
+          "score": 199,
+          "nodes": 2655,
+          "seconds": 0.0022654030472040176,
+          "aborted": false
+        },
+        {
+          "fen": "8/pR5p/3p2p1/3P2k1/2P3P1/7R/r1r5/4K3 w - - 6 30",
+          "move": "b7b1",
+          "score": -228,
+          "nodes": 15652,
+          "seconds": 0.014842348173260689,
+          "aborted": false
+        },
+        {
+          "fen": "5r1k/p1b2p2/b1p5/2p3Qp/8/3P1N2/PPP5/4rK2 w - - 0 27",
+          "move": "f1e1",
+          "score": 181,
+          "nodes": 27826,
+          "seconds": 0.024335337802767754,
+          "aborted": false
+        },
+        {
+          "fen": "4r1k1/1p3p1p/3n2p1/3p4/8/pP3P1P/P1P1NKP1/3R4 b - - 1 25",
+          "move": "d6b5",
+          "score": 49,
+          "nodes": 18955,
+          "seconds": 0.015479568392038345,
+          "aborted": false
+        },
+        {
+          "fen": "1k3b1r/1p5p/p2p2p1/4p3/2Q1Pq2/8/PPP2PRP/3R3K b - - 3 25",
+          "move": "f8e7",
+          "score": -136,
+          "nodes": 32785,
+          "seconds": 0.03249865025281906,
+          "aborted": false
+        },
+        {
+          "fen": "2r3k1/ppr3pp/3qpp2/1P1p4/R2Pn1P1/P2N4/1Q3P1P/5RK1 b - - 5 27",
+          "move": "d6b6",
+          "score": 168,
+          "nodes": 37566,
+          "seconds": 0.03719315491616726,
+          "aborted": false
+        },
+        {
+          "fen": "q7/B1p1rpk1/P2p3p/4p1n1/2R1P1B1/b2PQ3/5PP1/5K2 b - - 3 27",
+          "move": "d6d5",
+          "score": -44,
+          "nodes": 21332,
+          "seconds": 0.023121384903788567,
+          "aborted": false
+        },
+        {
+          "fen": "r2q2k1/1Qn1p1bp/3pb1p1/1P3pP1/P1Pp1P2/3P4/3BP2P/R4RK1 b - - 0 26",
+          "move": "e6f7",
+          "score": 78,
+          "nodes": 16482,
+          "seconds": 0.01580507680773735,
+          "aborted": false
+        },
+        {
+          "fen": "3rr1k1/2q2p1p/2P5/pB1P1p2/PbPNbn2/4R3/5PPP/R1Q3K1 b - - 1 27",
+          "move": "b4d6",
+          "score": 152,
+          "nodes": 63445,
+          "seconds": 0.0778596568852663,
+          "aborted": false
+        },
+        {
+          "fen": "3r4/pp4pp/2n1k3/3p4/4p2P/2P1N3/P1P3P1/3R2K1 b - - 0 27",
+          "move": "d5d4",
+          "score": 111,
+          "nodes": 23750,
+          "seconds": 0.015577219426631927,
+          "aborted": false
+        },
+        {
+          "fen": "2r3k1/1q3pp1/pb3np1/3p4/1PrN4/R1PQ1PP1/3B2KP/4R3 b - - 1 25",
+          "move": "b6d4",
+          "score": 86,
+          "nodes": 49759,
+          "seconds": 0.04485386982560158,
+          "aborted": false
+        },
+        {
+          "fen": "3rr1k1/5pp1/1qQ1b2p/3p4/3P4/P4B1P/P4PP1/2R1R1K1 b - - 0 26",
+          "move": "b6d4",
+          "score": -150,
+          "nodes": 23829,
+          "seconds": 0.025613974779844284,
+          "aborted": false
+        },
+        {
+          "fen": "5r1k/4b1pp/p3b3/P2qPp2/QPp5/2P1R1P1/B2r1P1P/4R1K1 b - - 2 27",
+          "move": "e6d7",
+          "score": 235,
+          "nodes": 23706,
+          "seconds": 0.023900941014289856,
+          "aborted": false
+        },
+        {
+          "fen": "r5k1/pR2B1b1/2PP3p/5p2/3pp3/3P3q/4QP2/4K3 b - - 1 42",
+          "move": "h3h1",
+          "score": 39,
+          "nodes": 22887,
+          "seconds": 0.024990946054458618,
+          "aborted": false
+        },
+        {
+          "fen": "8/8/5k2/p2B1p2/P3p1p1/8/5PK1/4b3 b - - 1 45",
+          "move": "f6e5",
+          "score": 228,
+          "nodes": 4327,
+          "seconds": 0.0028229597955942154,
+          "aborted": false
+        }
+      ],
+      "reference_sha256": "0f87cddca04e1c17163b08756713b26c5b214b3a642ef574e650ce088fea8c22",
+      "reference_mismatches": []
+    }
+  },
+  "total_job_s": 55.19521273300052,
+  "search_time_speedup_v3_over_r2": 1.6021363246104368,
+  "node_count_ratio_v3_over_r2": 1.71043447402251,
+  "node_throughput_ratio_r2_over_v3": 0.9366838361498975,
+  "same_selected_move_count": 29,
+  "reference_parity": true
+}

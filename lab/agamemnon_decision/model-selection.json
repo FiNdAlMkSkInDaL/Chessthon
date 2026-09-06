@@ -1,0 +1,80 @@
+[
+  {
+    "fit": "mixed-260916-soft-snapshots",
+    "action": "stage fixed64 checkpoint for fresh-search test",
+    "selected_epoch": 64,
+    "metrics": {
+      "epoch": 64,
+      "regret": 28.946428571428573,
+      "mae": 131.71719360351562,
+      "groups": 56,
+      "bad_200": 2,
+      "old_mae": 228.44992065429688
+    }
+  },
+  {
+    "fit": "pair-260916-deep-soft-snapshots",
+    "action": "stage fixed64 checkpoint for fresh-search test",
+    "selected_epoch": 64,
+    "metrics": {
+      "epoch": 64,
+      "regret": 27.589285714285715,
+      "mae": 140.13461303710938,
+      "groups": 56,
+      "bad_200": 2,
+      "old_mae": 226.85621643066406
+    }
+  },
+  {
+    "fit": "pair-260916-soft-snapshots",
+    "action": "stage fixed64 checkpoint for fresh-search test",
+    "selected_epoch": 64,
+    "metrics": {
+      "epoch": 64,
+      "regret": 27.178571428571427,
+      "mae": 140.733642578125,
+      "groups": 56,
+      "bad_200": 2,
+      "old_mae": 223.98133850097656
+    }
+  },
+  {
+    "fit": "replay-260916-soft-snapshots",
+    "action": "stage fixed64 checkpoint for fresh-search test",
+    "selected_epoch": 64,
+    "metrics": {
+      "epoch": 64,
+      "regret": 18.464285714285715,
+      "mae": 139.41641235351562,
+      "groups": 56,
+      "bad_200": 1,
+      "old_mae": 222.70469665527344
+    }
+  },
+  {
+    "fit": "static-260916-deep-soft-snapshots",
+    "action": "stage fixed64 checkpoint for fresh-search test",
+    "selected_epoch": 64,
+    "metrics": {
+      "epoch": 64,
+      "regret": 29.642857142857142,
+      "mae": 132.1565704345703,
+      "groups": 56,
+      "bad_200": 2,
+      "old_mae": 236.54257202148438
+    }
+  },
+  {
+    "fit": "static-260916-soft-snapshots",
+    "action": "stage fixed64 checkpoint for fresh-search test",
+    "selected_epoch": 64,
+    "metrics": {
+      "epoch": 64,
+      "regret": 26.714285714285715,
+      "mae": 133.0638427734375,
+      "groups": 56,
+      "bad_200": 2,
+      "old_mae": 230.38128662109375
+    }
+  }
+]

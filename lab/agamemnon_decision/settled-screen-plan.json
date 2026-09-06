@@ -1,0 +1,9 @@
+{
+  "checkpoint": "lab\\agamemnon_decision\\fits-settled\\pair-260916-soft-snapshots\\model.npz",
+  "primary_seed": 260916,
+  "selection": "Primary pair fit, selected on307 reused-development groups by the original checkpoint rule. Replication seed260917 also improves the conditional surrogate; fresh-search and games still decide.",
+  "variants": [
+    "settled-pair25",
+    "settled-pair50"
+  ]
+}

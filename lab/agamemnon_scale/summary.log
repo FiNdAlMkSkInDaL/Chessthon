@@ -1,0 +1,109 @@
+{
+  "training_fits": 64,
+  "matches": [
+    {
+      "name": "match-advisor-4m-one",
+      "wins": 2,
+      "draws": 7,
+      "losses": 7,
+      "score": 0.34375,
+      "paired_bootstrap95": [
+        0.1875,
+        0.5
+      ],
+      "legal_plies": 2257,
+      "source_sha256": {
+        "lane1.jsonl": "6cfb66a19d7376cd65a8ebf4cd28f4c80c879d4ab9f2b41701925e35e07c8453"
+      },
+      "scope": "Used-development500ms paired screen; small family sample and no full-clock or independent Elo claim."
+    },
+    {
+      "name": "match-advisor-control-r1",
+      "wins": 5,
+      "draws": 6,
+      "losses": 5,
+      "score": 0.5,
+      "paired_bootstrap95": [
+        0.28125,
+        0.71875
+      ],
+      "legal_plies": 1787,
+      "source_sha256": {
+        "lane0.jsonl": "161f2418794697e1a6cd58248f31b0a6cd9f32f4190bb70905316638d762d07e",
+        "lane1.jsonl": "92d16b57420cec4cd6cd256e91309bffb46b8c330ea67ce1df449b2b39761f27"
+      },
+      "scope": "Used-development500ms paired screen; small family sample and no full-clock or independent Elo claim."
+    },
+    {
+      "name": "match-allocation-r1",
+      "wins": 6,
+      "draws": 5,
+      "losses": 5,
+      "score": 0.53125,
+      "paired_bootstrap95": [
+        0.28125,
+        0.75
+      ],
+      "legal_plies": 1918,
+      "source_sha256": {
+        "lane0.jsonl": "8fd1e85d6430e2689f16813e8a0e16df8d5b829c06a9877e489c18557ebae253",
+        "lane1.jsonl": "881a2d8a89d96731e60c94182856856a7e89e75042ed9b022c05e84e1ffe41e3"
+      },
+      "scope": "Used-development500ms paired screen; small family sample and no full-clock or independent Elo claim."
+    },
+    {
+      "name": "match-turn-r1",
+      "wins": 3,
+      "draws": 7,
+      "losses": 6,
+      "score": 0.40625,
+      "paired_bootstrap95": [
+        0.25,
+        0.53125
+      ],
+      "legal_plies": 2408,
+      "source_sha256": {
+        "lane0.jsonl": "849e74345f1409ec724b73350121a467748455e86d8b1ac52950238b6f348c16",
+        "lane1.jsonl": "605744597327ad9d142498946005fc3582b2fb6d9f93f51e931cd2b93a83b58c"
+      },
+      "scope": "Used-development500ms paired screen; small family sample and no full-clock or independent Elo claim."
+    },
+    {
+      "name": "match-value-r1",
+      "wins": 5,
+      "draws": 1,
+      "losses": 10,
+      "score": 0.34375,
+      "paired_bootstrap95": [
+        0.125,
+        0.59375
+      ],
+      "legal_plies": 2137,
+      "source_sha256": {
+        "lane0.jsonl": "3d38afc9169749b2591a7b632cdabf38091c134d497f9566f84eae1264f36653",
+        "lane1.jsonl": "65eed0077129092a05ad152e564fc8fdd184950c1d28a689aba0f6c3ab294c9c"
+      },
+      "scope": "Used-development500ms paired screen; small family sample and no full-clock or independent Elo claim."
+    },
+    {
+      "name": "match-value-scaling-4m-one",
+      "wins": 5,
+      "draws": 8,
+      "losses": 3,
+      "score": 0.5625,
+      "paired_bootstrap95": [
+        0.4375,
+        0.65625
+      ],
+      "legal_plies": 2273,
+      "source_sha256": {
+        "lane0.jsonl": "6861a9b9b080cb832ad547e48f218aeea948908ad8c57a094218a4df52313ea2"
+      },
+      "scope": "Used-development500ms paired screen; small family sample and no full-clock or independent Elo claim."
+    }
+  ],
+  "data": {
+    "data": 1065323,
+    "data-r2": 4106090
+  }
+}

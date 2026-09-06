@@ -1,0 +1,218 @@
+{
+  "prepared_utc": "2026-09-05T18:41:51.775703+00:00",
+  "seed": "odin-release-openings-20260905-v1",
+  "quotas": {
+    "development": {
+      "e4": 3,
+      "d4": 3,
+      "flank": 2
+    },
+    "holdout": {
+      "e4": 16,
+      "d4": 16,
+      "flank": 8
+    }
+  },
+  "source_files": [
+    {
+      "file": "Aronian.pgn",
+      "pgn_sha256": "fac0122d3c55f8a2b09cb79dc00b1e9a906a059267fe6f5dafa0a7416898c430",
+      "zip_sha256": "d9fa17c7a3dab9c76627e93d00bf0c6f70dbe6deb12289b71a4c34ec4601fcc5",
+      "url": "https://www.pgnmentor.com/players/Aronian.zip"
+    },
+    {
+      "file": "Ding.pgn",
+      "pgn_sha256": "1000edfab23ac9d9c0eb00701fbde599340de974f6ec5077b3a05b695fb2dba4",
+      "zip_sha256": "366d2b84e4a37f83ae518cca55ac62b10fb5a3db404c620f66928520c0eca4dd",
+      "url": "https://www.pgnmentor.com/players/Ding.zip"
+    },
+    {
+      "file": "Giri.pgn",
+      "pgn_sha256": "dd5146c08ab583693e13104ec271aae69ae73ef8f53b0fe3b1f6d84ff2ac8a6b",
+      "zip_sha256": "a0649419c055a45849d000baec27f4008dda69194d99c3524426466dd100aa63",
+      "url": "https://www.pgnmentor.com/players/Giri.zip"
+    },
+    {
+      "file": "So.pgn",
+      "pgn_sha256": "09977c96474f144db2d496b2d99e78b0628460a60656a4c99ab860d239520d85",
+      "zip_sha256": "82aeecf48ecacb07cdb44f95cb6dd07badfa2e177f7a0693d67a7a5b3fd224aa",
+      "url": "https://www.pgnmentor.com/players/So.zip"
+    }
+  ],
+  "training_corpus_sha256": "4a954d9ee11db19db81f412c54e34f571388f38fc6c3eabd75b62d13e3833790",
+  "excluded_training_prefixes": 3727,
+  "excluded_training_prefix_positions": 2489,
+  "known_position_count": 9770,
+  "known_files": [
+    {
+      "path": "Chess_results_day1\\aichessathon-round-1-brownies.pgn",
+      "sha256": "dd568d7a82c92478802c2f9140a65aa6b78c7b85762e9435a6dfe82003b948db"
+    },
+    {
+      "path": "Chess_results_day1\\aichessathon-round-10-dgs-elo.pgn",
+      "sha256": "c59369684594a37081ec7b238bcf0a715d46a9e1acaf114369aaa8f262576f13"
+    },
+    {
+      "path": "Chess_results_day1\\aichessathon-round-11-triggerfish.pgn",
+      "sha256": "6877a9244f0879f5b041e04d52ee4aa71723c21e5251480714484de74a4c4973"
+    },
+    {
+      "path": "Chess_results_day1\\aichessathon-round-12-keresight.pgn",
+      "sha256": "08a89a2a9bd6804c8540769b38ce7b2de05209829fef29698375f7f53885188a"
+    },
+    {
+      "path": "Chess_results_day1\\aichessathon-round-13-desai.pgn",
+      "sha256": "ac010710bb16523aa2404a76b2ca88a54c36dfcc662a907ee307de6bb4bb6d21"
+    },
+    {
+      "path": "Chess_results_day1\\aichessathon-round-14-sillycats.pgn",
+      "sha256": "ae00732552e12481eb59b5fe5331e80e5d437d5506372fbac74f10d9157e4cda"
+    },
+    {
+      "path": "Chess_results_day1\\aichessathon-round-15-bitter1.pgn",
+      "sha256": "4dcb860c89b93e0c8998cc8afe800f642c221d20bb1fc8ed5f7f369289ada6ac"
+    },
+    {
+      "path": "Chess_results_day1\\aichessathon-round-2-omega3-fish.pgn",
+      "sha256": "6e4a582bae6f00527eae01bdbd820686c860a1d0e265d10d63cdc416034c5484"
+    },
+    {
+      "path": "Chess_results_day1\\aichessathon-round-3-fork-72.pgn",
+      "sha256": "91131791580d15bbd1d294aa0e6394a96b167648bd74781da428be33033b8b96"
+    },
+    {
+      "path": "Chess_results_day1\\aichessathon-round-4-therook.pgn",
+      "sha256": "57b6ada8d0ad7f584c6e6dd7a608841cf78fcac0f75cc1868e080061883b7bbf"
+    },
+    {
+      "path": "Chess_results_day1\\aichessathon-round-5-baryon.pgn",
+      "sha256": "0e7cc496e72466bc7eecdeb63f7c80af96647d275b1b7cbd21ac9fbb9403684a"
+    },
+    {
+      "path": "Chess_results_day1\\aichessathon-round-6-stonkfish.pgn",
+      "sha256": "f7ffe71b51e5147dc20c63ab22e1a3b7504e21e3697ea9a8d5c950d00864ef79"
+    },
+    {
+      "path": "Chess_results_day1\\aichessathon-round-7-lehmanbro.pgn",
+      "sha256": "48c78647eb5cd6aab42b3810c7a5b3e6b7e3220f4862491b2455a0de161fae83"
+    },
+    {
+      "path": "Chess_results_day1\\aichessathon-round-8-lefischer.pgn",
+      "sha256": "ca7e2d18e80b0f1f6a6ea6db9e438d9ae7bc46f6a7f119689bda4fba7e18d348"
+    },
+    {
+      "path": "Chess_results_day1\\aichessathon-round-9-tobias-carlsen.pgn",
+      "sha256": "96f1910fa7c54870b9049e879544ab7014b8307b8ebea93f29c711d0874ca8ea"
+    },
+    {
+      "path": "chess_results_day2\\aichessathon-round-16-meshpotato.pgn",
+      "sha256": "e5c92cea773bc8eacc98908fe36400706ebf5ca787cd7b812f5d4b36c6863474"
+    },
+    {
+      "path": "chess_results_day2\\aichessathon-round-17-chessnotcheckers.pgn",
+      "sha256": "7fc5a0226fb42c327d596e0423c38b16455c72ae082270c5266c5d330764f01b"
+    },
+    {
+      "path": "chess_results_day2\\aichessathon-round-18-french-carlsen.pgn",
+      "sha256": "81eb655cf87819f41be14ff04eccf190fe0982ad43afb046292bea3a477e2e5f"
+    },
+    {
+      "path": "chess_results_day2\\aichessathon-round-19-the-big-h.pgn",
+      "sha256": "c157048b3c88682a6361f06e69eb78d7edaf6a9db86178b1ce1155026f0f4166"
+    },
+    {
+      "path": "chess_results_day2\\aichessathon-round-20-saucybeans.pgn",
+      "sha256": "0aafc277fdde114c3648276edd540d2a7b95e3e826b68621f9dd508bc0d0a6b7"
+    },
+    {
+      "path": "chess_results_day2\\aichessathon-round-21-the-castle-gambit.pgn",
+      "sha256": "c759a6abfe17242923351b3be550311c53111619edd302846b20d4f27e32ceae"
+    },
+    {
+      "path": "chess_results_day2\\aichessathon-round-22-checkmategpt.pgn",
+      "sha256": "84d2decdbd366c46bea1ef9ec0b3060a595601f0b6b6a0ae87f85b03ec5562b2"
+    },
+    {
+      "path": "chess_results_day2\\aichessathon-round-23-omi.pgn",
+      "sha256": "6668739f51ef8cdaeddc1fb3af4fcbff2beccd98dbe5270a6ee2e63e31083164"
+    },
+    {
+      "path": "chess_results_day2\\aichessathon-round-24-the-huxley-knights.pgn",
+      "sha256": "3f788fcd43776ba641d8532da6b5ebd10d891be1725f65d4adee72360872fa30"
+    },
+    {
+      "path": "chess_results_day2\\aichessathon-round-25-keep-kann-and-caro-on.pgn",
+      "sha256": "01990b421894894e5e65bd19db2e77f93faaa11793b97eec3ea48f059e3db188"
+    },
+    {
+      "path": "chess_results_day2\\aichessathon-round-26-chessml.pgn",
+      "sha256": "c263d79d1e0fb4a11f8fdc00181a645580c39cdeeab70d30bcc38d4cb93805c7"
+    },
+    {
+      "path": "chess_results_day2\\aichessathon-round-27-jsp.pgn",
+      "sha256": "33237f6d912e713576462acd84f587c44a007ad0bcaba9951350813e7fb279bb"
+    },
+    {
+      "path": "lab\\storm\\r2-loss-165.pgn",
+      "sha256": "965fe016a1cc61bf1f59070657eb5e580469c3422438b21fe2860a3126cc0ded"
+    },
+    {
+      "path": "lab\\storm\\screen-r2-games.pgn",
+      "sha256": "be3a23a7ccad99213beaede421643bf19e571838fe5865a39de2422ae6621471"
+    },
+    {
+      "path": "lab\\storm\\site_stress_r2_vs_v3.pgn",
+      "sha256": "c8c169e502dbb9ac5c39327c415cfaf2fbd6182cf574be0b526ac8f8016af404"
+    },
+    {
+      "path": "lab\\storm\\soberjackson_round_13.pgn",
+      "sha256": "bdd428e6939ef06ffe3b9fb0adcfe83ad32e0fde4b9a51450d727c388b81e59e"
+    },
+    {
+      "path": "lab\\storm\\soberjackson_round_14.pgn",
+      "sha256": "8d245964386deba080ed1d373a80d33366a4265f6ee07f3b5656ae17a243309a"
+    },
+    {
+      "path": "lab\\storm\\soberjackson_round_15.pgn",
+      "sha256": "d33b9d7070d43f4730d9277a4b645d82ed41c5d72f457ef55def32288c9bb861"
+    },
+    {
+      "path": "lab\\storm\\Storm-v4-vs-v3-games.pgn",
+      "sha256": "696a918e707431bb488f72ebad08fd002554e2b140687330c7f31c0291a8f033"
+    },
+    {
+      "path": "lab\\openings.fen",
+      "sha256": "9b7d75f13d4b376743ac2fe000b9665147b582beb6dc541e5f91453a7192f0eb"
+    }
+  ],
+  "pool_sha256": "037c81bca32bb751ab02d11e3a4f72efd28a0dfbcf1e4c827dee9e4ca4d3abe1",
+  "candidate_pool_count": 787,
+  "counts": {
+    "games": 17527,
+    "known_training_prefix_games": 15729
+  },
+  "pool_counts": {
+    "development:flank": 75,
+    "holdout:d4": 176,
+    "holdout:flank": 260,
+    "holdout:e4": 183,
+    "development:e4": 58,
+    "development:d4": 35
+  },
+  "selection": "Split hash first-eight-ply board key before independent analysis; one hash-chosen 16/18/20-ply start per family; no candidate engine queried. Reject all exact first-eight-ply training prefixes and their transpositions; reject all known game/diagnostic positions and training positions.",
+  "screen": {
+    "nodes": 200000,
+    "max_abs_white_cp": 70,
+    "threads": 1,
+    "hash_mb": 32,
+    "clear_hash_each_position": true,
+    "cpu": 4,
+    "selection_order": "Opposite-castled prefixes first, then fixed hash order within each split/group; minimum geometry requirements applied before screening.",
+    "exact_score": "Last exact completed iteration in streaming UCI info; report total nodes and exact-score nodes separately."
+  },
+  "limitations": "A first-eight-ply board key is narrower than an ECO family; established chess structures can resemble training despite exact-prefix/transposition disjointness. Public database collections overlap players but excluded opening prefixes prevent reused training games. The agent starts from FEN with empty game history as on the site.",
+  "screen_revision": {
+    "utc": "2026-09-05T18:44:36.515282+00:00",
+    "reason": "Draft v1 audit rejected retained bound flags from aggregate UCI info and found no opposite-castling coverage. Revised independently before any candidate games; draft-v1 preserved."
+  }
+}

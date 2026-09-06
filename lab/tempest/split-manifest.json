@@ -1,0 +1,458 @@
+[
+  {
+    "game_id": "36a3c43d-69fb-4885-958a-94b1b8518966",
+    "family": "King&#x27;s Indian Classical",
+    "split": "discovery",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "35",
+      "White": "ms",
+      "Black": "Ransom",
+      "Result": "1-0",
+      "FEN": "r1b1qrk1/ppp2pbp/n2p2p1/4p1B1/2PPP1n1/2NQ1N2/PP2BPPP/R3K2R w KQ - 6 10",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 93,
+    "clocks": 93
+  },
+  {
+    "game_id": "32f805a3-6190-4249-b270-48c42eda2c38",
+    "family": "Petroff Defence",
+    "split": "confirmation",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "34",
+      "White": "FuzzyBot",
+      "Black": "ms",
+      "Result": "1-0",
+      "FEN": "rnbqkb1r/pp3ppp/2p5/1B1p4/3Pn3/5N2/PPP2PPP/RNBQK2R w KQkq - 0 7",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 153,
+    "clocks": 153
+  },
+  {
+    "game_id": "feaeb422-7d92-47a0-a5fe-f65a2564d15f",
+    "family": "Caro-Kann Exchange",
+    "split": "discovery",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "32",
+      "White": "Finlay Phillips",
+      "Black": "ms",
+      "Result": "0-1",
+      "FEN": "r1bqkb1r/pp3ppp/5n2/3pn3/8/2PB4/PP2NPPP/RNBQK2R w KQkq - 0 8",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 96,
+    "clocks": 96
+  },
+  {
+    "game_id": "0c7ddcbb-4de3-44b6-998f-371c4524d597",
+    "family": "Petroff Defence",
+    "split": "confirmation",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "33",
+      "White": "ms",
+      "Black": "Cornelius",
+      "Result": "1/2-1/2",
+      "FEN": "rnbqk2r/ppp2ppp/3b4/3p4/3Pn3/2P2N1P/PP3PP1/RNBQKB1R w KQkq - 1 8",
+      "SetUp": "1",
+      "Termination": "insufficient_material"
+    },
+    "plies": 115,
+    "clocks": 115
+  },
+  {
+    "game_id": "d6794542-6a47-45f1-a6be-8f7983e7932f",
+    "family": "English Symmetrical",
+    "split": "confirmation",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.05",
+      "Round": "26",
+      "White": "ms",
+      "Black": "adashima",
+      "Result": "0-1",
+      "FEN": "r1bqk2r/pp1pppbp/2n2np1/2p5/2P5/2NP1NP1/PP2PPBP/R1BQK2R b KQkq - 0 6",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 139,
+    "clocks": 139
+  },
+  {
+    "game_id": "64e7bca1-e8eb-427a-89e0-8bae0bc4b068",
+    "family": "Sicilian Dragon",
+    "split": "confirmation",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "34",
+      "White": "AI Fellows",
+      "Black": "Make_no_mistakes",
+      "Result": "1-0",
+      "FEN": "rnbqkb1r/pp2pp1p/3p1np1/8/3NP3/2N4P/PPP2PP1/R1BQKB1R b KQkq - 0 6",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 148,
+    "clocks": 148
+  },
+  {
+    "game_id": "69d277c2-15ce-4c99-8339-22ca7c2f9693",
+    "family": "Two Knights Defence",
+    "split": "discovery",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "35",
+      "White": "checkers",
+      "Black": "AI Fellows",
+      "Result": "1/2-1/2",
+      "FEN": "r1bqk2r/ppp1bppp/2n5/3np3/P1B5/3P1N2/1PP2PPP/RNBQ1RK1 b kq - 1 7",
+      "SetUp": "1",
+      "Termination": "threefold_repetition"
+    },
+    "plies": 165,
+    "clocks": 165
+  },
+  {
+    "game_id": "6b1357ac-e475-49d6-b29b-d0f88ae33807",
+    "family": "Italian Game",
+    "split": "discovery",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "33",
+      "White": "AI Fellows",
+      "Black": "Finlay Phillips",
+      "Result": "1-0",
+      "FEN": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP1N1PPP/R1BQ1RK1 b - - 3 7",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 100,
+    "clocks": 100
+  },
+  {
+    "game_id": "f2d38be3-81f7-4491-bf65-a6b683f64363",
+    "family": "Caro-Kann Exchange",
+    "split": "discovery",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.05",
+      "Round": "24",
+      "White": "Emile Andrieu",
+      "Black": "AI Fellows",
+      "Result": "1/2-1/2",
+      "FEN": "r3kb1r/pp1qpppp/2n2n2/3p4/3P1Bb1/1QPB3P/PP3PP1/RN2K1NR b KQkq - 0 8",
+      "SetUp": "1",
+      "Termination": "insufficient_material"
+    },
+    "plies": 525,
+    "clocks": 525
+  },
+  {
+    "game_id": "452de142-52f4-4d7c-a376-4a73b3890825",
+    "family": "Pirc Defence",
+    "split": "discovery",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.05",
+      "Round": "26",
+      "White": "AI Fellows",
+      "Black": "Make_no_mistakes",
+      "Result": "0-1",
+      "FEN": "rnbq1rk1/ppp1ppbp/3p1np1/6B1/3PP3/2N2N2/PPP1BPPP/R2QK2R b KQ - 5 6",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 163,
+    "clocks": 163
+  },
+  {
+    "game_id": "5e599ffe-c29c-4d81-8b28-8a10b2ccb097",
+    "family": "Petroff Defence",
+    "split": "confirmation",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "34",
+      "White": "Emile Andrieu",
+      "Black": "THE ROOOOOKKK!!!!",
+      "Result": "1-0",
+      "FEN": "rnbqkb1r/ppp2ppp/8/3p4/3Pn3/4BN2/PPP2PPP/RN1QKB1R b KQkq - 1 6",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 202,
+    "clocks": 202
+  },
+  {
+    "game_id": "4d1c6a55-334b-4160-8027-4aedb2904b07",
+    "family": "Pirc Defence",
+    "split": "discovery",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "35",
+      "White": "Lubina",
+      "Black": "Emile Andrieu",
+      "Result": "0-1",
+      "FEN": "r1bq1rk1/ppp2pbp/2np1np1/P2Pp3/4P3/2N2N2/1PP1BPPP/R1BQK2R b KQ - 0 8",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 103,
+    "clocks": 103
+  },
+  {
+    "game_id": "c64cf058-a891-4884-b68a-b2dc32bf8951",
+    "family": "Semi-Slav Defence",
+    "split": "discovery",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "33",
+      "White": "Emile Andrieu",
+      "Black": "LeetBeaters",
+      "Result": "1-0",
+      "FEN": "r1bqkb1r/pp1n1ppp/2p1pn2/3p4/2PP4/2N1PN2/PP2BPPP/R1BQK2R b KQkq - 2 6",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 104,
+    "clocks": 104
+  },
+  {
+    "game_id": "3121cf00-a8d0-43d5-b61d-052b8f95ee85",
+    "family": "Reti Opening",
+    "split": "discovery",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.04",
+      "Round": "10",
+      "White": "darKnight",
+      "Black": "Emile Andrieu",
+      "Result": "1-0",
+      "FEN": "rnbqk2r/ppp1bppp/4pn2/3p4/2P5/1P3NP1/P2PPPBP/RNBQK2R b KQkq - 0 5",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 102,
+    "clocks": 102
+  },
+  {
+    "game_id": "287fa830-5ca2-47f0-a4b6-1114e5801a8d",
+    "family": "Dutch Stonewall",
+    "split": "discovery",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "35",
+      "White": "THE ROOOOOKKK!!!!",
+      "Black": "Sobriety",
+      "Result": "1/2-1/2",
+      "FEN": "rnbqk2r/ppp3pp/4pn2/3p1p2/1b1P4/1PP2NP1/P3PPBP/RNBQK2R b KQkq - 0 6",
+      "SetUp": "1",
+      "Termination": "stalemate"
+    },
+    "plies": 88,
+    "clocks": 88
+  },
+  {
+    "game_id": "3358dd3a-1175-4fa3-893e-89b5a63618d5",
+    "family": "Sicilian Dragon",
+    "split": "confirmation",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "33",
+      "White": "THE ROOOOOKKK!!!!",
+      "Black": "zak",
+      "Result": "1-0",
+      "FEN": "rn1qkb1r/pp1bpp1p/3p1np1/8/3NP3/2N5/PPP1BPPP/R1BQK2R b KQkq - 3 7",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 180,
+    "clocks": 180
+  },
+  {
+    "game_id": "e509abe9-a4fc-4782-8bdf-43044caf5bf9",
+    "family": "French Classical",
+    "split": "discovery",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.04",
+      "Round": "14",
+      "White": "Mate in One",
+      "Black": "THE ROOOOOKKK!!!!",
+      "Result": "1-0",
+      "FEN": "rnbqkb1r/pp1n1ppp/4p3/2ppP3/3P1P2/2NB4/PPP3PP/R1BQK1NR b KQkq - 1 6",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 74,
+    "clocks": 74
+  },
+  {
+    "game_id": "6c63b304-bf04-4c9d-8f89-938de65fe0bd",
+    "family": "Sicilian Closed",
+    "split": "confirmation",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "35",
+      "White": "pheanup",
+      "Black": "FuzzyBot",
+      "Result": "1/2-1/2",
+      "FEN": "r1bqk2r/pp2ppbp/2np1np1/2p5/4P2P/2NP2P1/PPP2PB1/R1BQK1NR w KQkq - 1 7",
+      "SetUp": "1",
+      "Termination": "threefold_repetition"
+    },
+    "plies": 152,
+    "clocks": 152
+  },
+  {
+    "game_id": "4aa22bb6-c6f6-42fd-b6d7-818a51f52c2d",
+    "family": "Petroff Defence",
+    "split": "confirmation",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "32",
+      "White": "adashima",
+      "Black": "FuzzyBot",
+      "Result": "0-1",
+      "FEN": "rnbqkb1r/ppp2ppp/8/3p4/3Pn3/P4N2/1PP2PPP/RNBQKB1R b KQkq - 0 6",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 219,
+    "clocks": 219
+  },
+  {
+    "game_id": "7f9278f0-e094-496e-9678-c21c12f2e08c",
+    "family": "French Tarrasch",
+    "split": "confirmation",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.05",
+      "Round": "19",
+      "White": "checkers",
+      "Black": "FuzzyBot",
+      "Result": "1/2-1/2",
+      "FEN": "rn2kb1r/pp1q1ppp/5n2/2pp4/3P4/7P/PPPN1PP1/R1BQK1NR w KQkq - 0 8",
+      "SetUp": "1",
+      "Termination": "insufficient_material"
+    },
+    "plies": 195,
+    "clocks": 195
+  },
+  {
+    "game_id": "0ce8dc9a-7491-4178-8053-67d82240ce72",
+    "family": "London System",
+    "split": "discovery",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "31",
+      "White": "FuzzyBot",
+      "Black": "Danya's Disciple",
+      "Result": "0-1",
+      "FEN": "r1b1k2r/pp3ppp/2nqpn2/2pp4/3P4/2P1P2P/PP1N1PP1/R2QKBNR w KQkq - 0 8",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 224,
+    "clocks": 224
+  },
+  {
+    "game_id": "bd31b3fa-8921-4a0b-b3d9-666060bded2e",
+    "family": "Caro-Kann Exchange",
+    "split": "discovery",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "35",
+      "White": "adashima",
+      "Black": "BitsEntangled",
+      "Result": "1-0",
+      "FEN": "r1bqkb1r/pp2pppp/2n2n2/3p4/3P1B2/2PB4/PP3PPP/RN1QK1NR b KQkq - 2 6",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 114,
+    "clocks": 114
+  },
+  {
+    "game_id": "2f5963df-5dd4-46fe-acac-805671e734a5",
+    "family": "King&#x27;s Indian Classical",
+    "split": "discovery",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "34",
+      "White": "Finlay Phillips",
+      "Black": "adashima",
+      "Result": "0-1",
+      "FEN": "r1bq1rk1/ppp2pbp/2np1np1/3Pp3/2P1P3/P1N2N2/1P2BPPP/R1BQK2R b KQ - 0 8",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 79,
+    "clocks": 79
+  },
+  {
+    "game_id": "9f8245b5-1851-49a3-a801-577412047baa",
+    "family": "Sicilian Najdorf",
+    "split": "confirmation",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "33",
+      "White": "slopfish",
+      "Black": "adashima",
+      "Result": "1-0",
+      "FEN": "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B2P/PPP2PP1/R2QKB1R b KQkq - 3 8",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "plies": 154,
+    "clocks": 154
+  }
+]

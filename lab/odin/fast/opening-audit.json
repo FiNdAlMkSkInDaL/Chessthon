@@ -1,0 +1,32 @@
+{
+  "pass": true,
+  "previous_families_excluded": 48,
+  "known_positions": 10398,
+  "new_splits": {
+    "screen": {
+      "positions": 24,
+      "all_unique_families": true,
+      "prefix_replay": true,
+      "known_position_overlap": 0,
+      "hashes": {
+        "manifest.json": "397d0f50baf33f5489474ca56036b4bd9ca7a5c5c601915a667b783472dfca22",
+        "openings.fen": "25c79be39b21f98f27a7e22d9c9388f4b5eaa5462251ee204c7a6553e25d9a85",
+        "openings.jsonl": "77ad6161931506e4248e8dadce0b9bd613602841fc217bafa60221db4ee45488",
+        "reference.jsonl": "cbafd83c2f8152a2aec827671baf02be0ee940c51962dfdd3aca4dbc30eca5ad"
+      }
+    },
+    "overnight": {
+      "positions": 56,
+      "all_unique_families": true,
+      "prefix_replay": true,
+      "known_position_overlap": 0,
+      "hashes": {
+        "manifest.json": "844064ccad08093c3d16d6c447d7c136d0594d4d6f78994576eb8b52e6ddb6a0",
+        "openings.fen": "a2a8f62cadf481adacbb101f87c34a6e7c7125569f49d1bfe672e2bbfe6fea67",
+        "openings.jsonl": "66382f9128083d4ab68af784e06db296be34e76f17396ee5f03cec2bc60856cd",
+        "reference.jsonl": "3178c5a9714d63fdddff47eeb3b0f74435bc69d53ac819192ad2ee0cdab2e0bb"
+      }
+    }
+  },
+  "training_exclusions": "Inherited from audited candidate pool; all80 selected openings additionally replayed and checked against current known site positions."
+}

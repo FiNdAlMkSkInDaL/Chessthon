@@ -1,0 +1,8 @@
+{
+  "candidates": [
+    "bounded50",
+    "pruning50"
+  ],
+  "screen": "Same frozen110 development roots and original5cp equal-wall gate. bounded50 caps disagreement correction at100cp; pruning50 keeps Tempest static score for RFP/NMP/futility while hybrid remains at leaves.",
+  "scope": "Architectural integration ablations, not a new holdout or a changed acceptance threshold."
+}

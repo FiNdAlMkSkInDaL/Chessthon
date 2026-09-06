@@ -1,0 +1,22 @@
+{
+  "data_sha256": "7c4ea89cc476b9f0a593fa9dde04898e4191c1e693443849466cf7f0fd1b4ed1",
+  "architecture": "768 shared piece-square inputs; two color/rank perspectives; clipped ReLU; antisymmetric tapered MG/EG heads; int16 embedding scale256, int16 output scale256; residual cap400cp",
+  "grid": {
+    "width": [
+      16,
+      32,
+      64
+    ],
+    "ridge": [
+      0.0002,
+      0.002
+    ],
+    "baseline": [
+      "pesto",
+      "odin"
+    ]
+  },
+  "selection": "Lowest MAE on original training-family inner split; duration selected there, retrain on all original train. Reused validation descriptive only; final56 opening families untouched.",
+  "seed": 20260906,
+  "steps_max": 400
+}

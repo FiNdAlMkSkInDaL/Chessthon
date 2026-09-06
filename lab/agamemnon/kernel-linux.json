@@ -1,0 +1,588 @@
+{
+  "platform": "Linux-6.8.0-90-generic-x86_64-with-glibc2.39",
+  "affinity": [
+    0
+  ],
+  "checks": 10791,
+  "elapsed_seconds": 85.06095281243324,
+  "script_sha256": "7cf623579e5e49cec58a8f56f7ee4e6b3ad58ea5454315fb87f8d2c7a5052271",
+  "results": [
+    {
+      "representation": "piece",
+      "width": 32,
+      "mode": "nn",
+      "embedding_bytes": 49152,
+      "runs": [
+        {
+          "incremental": false,
+          "seconds": 0.2796803005039692,
+          "ns_per_transition_and_value": 1166.3065075228074,
+          "checksum": 14255.94825502485
+        },
+        {
+          "incremental": true,
+          "seconds": 0.08415813557803631,
+          "ns_per_transition_and_value": 350.95135770657345,
+          "checksum": 14255.94825502485
+        },
+        {
+          "incremental": true,
+          "seconds": 0.07908284291625023,
+          "ns_per_transition_and_value": 329.7866677074655,
+          "checksum": 14255.94825502485
+        },
+        {
+          "incremental": false,
+          "seconds": 0.28065184503793716,
+          "ns_per_transition_and_value": 1170.3579859797212,
+          "checksum": 14255.94825502485
+        }
+      ]
+    },
+    {
+      "representation": "piece",
+      "width": 32,
+      "mode": "pair",
+      "embedding_bytes": 49152,
+      "runs": [
+        {
+          "incremental": false,
+          "seconds": 0.26912372931838036,
+          "ns_per_transition_and_value": 1122.2841089173494,
+          "checksum": 2132.757857069737
+        },
+        {
+          "incremental": true,
+          "seconds": 0.08086673729121685,
+          "ns_per_transition_and_value": 337.2257601802204,
+          "checksum": 2132.757857069737
+        },
+        {
+          "incremental": true,
+          "seconds": 0.0911328885704279,
+          "ns_per_transition_and_value": 380.0370665989487,
+          "checksum": 2132.757857069737
+        },
+        {
+          "incremental": false,
+          "seconds": 0.2639537379145622,
+          "ns_per_transition_and_value": 1100.7245117371235,
+          "checksum": 2132.757857069737
+        }
+      ]
+    },
+    {
+      "representation": "piece",
+      "width": 128,
+      "mode": "nn",
+      "embedding_bytes": 196608,
+      "runs": [
+        {
+          "incremental": false,
+          "seconds": 1.0166028682142496,
+          "ns_per_transition_and_value": 4239.378099308798,
+          "checksum": 149440.71505219612
+        },
+        {
+          "incremental": true,
+          "seconds": 0.2688682172447443,
+          "ns_per_transition_and_value": 1121.2185873425533,
+          "checksum": 149440.71505219612
+        },
+        {
+          "incremental": true,
+          "seconds": 0.2789636719971895,
+          "ns_per_transition_and_value": 1163.3180650424918,
+          "checksum": 149440.71505219612
+        },
+        {
+          "incremental": false,
+          "seconds": 0.9998091980814934,
+          "ns_per_transition_and_value": 4169.346113767696,
+          "checksum": 149440.71505219612
+        }
+      ]
+    },
+    {
+      "representation": "piece",
+      "width": 128,
+      "mode": "pair",
+      "embedding_bytes": 196608,
+      "runs": [
+        {
+          "incremental": false,
+          "seconds": 1.0173954460769892,
+          "ns_per_transition_and_value": 4242.683261371932,
+          "checksum": 9974.728288097256
+        },
+        {
+          "incremental": true,
+          "seconds": 0.3097071722149849,
+          "ns_per_transition_and_value": 1291.522819912364,
+          "checksum": 9974.728288097256
+        },
+        {
+          "incremental": true,
+          "seconds": 0.26315739937126637,
+          "ns_per_transition_and_value": 1097.4036671028623,
+          "checksum": 9974.728288097256
+        },
+        {
+          "incremental": false,
+          "seconds": 1.0304220486432314,
+          "ns_per_transition_and_value": 4297.006041047671,
+          "checksum": 9974.728288097256
+        }
+      ]
+    },
+    {
+      "representation": "piece",
+      "width": 256,
+      "mode": "nn",
+      "embedding_bytes": 393216,
+      "runs": [
+        {
+          "incremental": false,
+          "seconds": 2.061339795589447,
+          "ns_per_transition_and_value": 8596.07921430128,
+          "checksum": 84994.4885172532
+        },
+        {
+          "incremental": true,
+          "seconds": 0.495491212233901,
+          "ns_per_transition_and_value": 2066.268608148044,
+          "checksum": 84994.4885172532
+        },
+        {
+          "incremental": true,
+          "seconds": 0.5434023458510637,
+          "ns_per_transition_and_value": 2266.0648284031013,
+          "checksum": 84994.4885172532
+        },
+        {
+          "incremental": false,
+          "seconds": 2.0509996339678764,
+          "ns_per_transition_and_value": 8552.95927426137,
+          "checksum": 84994.4885172532
+        }
+      ]
+    },
+    {
+      "representation": "piece",
+      "width": 256,
+      "mode": "pair",
+      "embedding_bytes": 393216,
+      "runs": [
+        {
+          "incremental": false,
+          "seconds": 2.0436015482991934,
+          "ns_per_transition_and_value": 8522.10820808671,
+          "checksum": 12101.366491410836
+        },
+        {
+          "incremental": true,
+          "seconds": 0.489317512139678,
+          "ns_per_transition_and_value": 2040.5234034181735,
+          "checksum": 12101.366491410836
+        },
+        {
+          "incremental": true,
+          "seconds": 0.4949090536683798,
+          "ns_per_transition_and_value": 2063.840924388573,
+          "checksum": 12101.366491410836
+        },
+        {
+          "incremental": false,
+          "seconds": 2.05924997292459,
+          "ns_per_transition_and_value": 8587.364357483695,
+          "checksum": 12101.366491410836
+        }
+      ]
+    },
+    {
+      "representation": "bucket",
+      "width": 32,
+      "mode": "nn",
+      "embedding_bytes": 442368,
+      "runs": [
+        {
+          "incremental": false,
+          "seconds": 0.5300047677010298,
+          "ns_per_transition_and_value": 2210.1950279442444,
+          "checksum": 79757.56696830504
+        },
+        {
+          "incremental": true,
+          "seconds": 0.14317573234438896,
+          "ns_per_transition_and_value": 597.0631040216387,
+          "checksum": 79757.56696830504
+        },
+        {
+          "incremental": true,
+          "seconds": 0.15017869882285595,
+          "ns_per_transition_and_value": 626.2664671511925,
+          "checksum": 79757.56696830504
+        },
+        {
+          "incremental": false,
+          "seconds": 0.5135559234768152,
+          "ns_per_transition_and_value": 2141.6010153328407,
+          "checksum": 79757.56696830504
+        }
+      ]
+    },
+    {
+      "representation": "bucket",
+      "width": 32,
+      "mode": "pair",
+      "embedding_bytes": 442368,
+      "runs": [
+        {
+          "incremental": false,
+          "seconds": 0.5347381681203842,
+          "ns_per_transition_and_value": 2229.933978817282,
+          "checksum": -9614.243534280144
+        },
+        {
+          "incremental": true,
+          "seconds": 0.1354223620146513,
+          "ns_per_transition_and_value": 564.7304504364107,
+          "checksum": -9614.243534280144
+        },
+        {
+          "incremental": true,
+          "seconds": 0.13451788388192654,
+          "ns_per_transition_and_value": 560.9586483816786,
+          "checksum": -9614.243534280144
+        },
+        {
+          "incremental": false,
+          "seconds": 0.5117554999887943,
+          "ns_per_transition_and_value": 2134.092994115072,
+          "checksum": -9614.243534280144
+        }
+      ]
+    },
+    {
+      "representation": "bucket",
+      "width": 128,
+      "mode": "nn",
+      "embedding_bytes": 1769472,
+      "runs": [
+        {
+          "incremental": false,
+          "seconds": 2.0714788008481264,
+          "ns_per_transition_and_value": 8638.360303787016,
+          "checksum": 281119.89067403815
+        },
+        {
+          "incremental": true,
+          "seconds": 0.5131826661527157,
+          "ns_per_transition_and_value": 2140.044479369123,
+          "checksum": 281119.89067403815
+        },
+        {
+          "incremental": true,
+          "seconds": 0.527039336040616,
+          "ns_per_transition_and_value": 2197.8287574671226,
+          "checksum": 281119.89067403815
+        },
+        {
+          "incremental": false,
+          "seconds": 1.9905510488897562,
+          "ns_per_transition_and_value": 8300.880103793812,
+          "checksum": 281119.89067403815
+        }
+      ]
+    },
+    {
+      "representation": "bucket",
+      "width": 128,
+      "mode": "pair",
+      "embedding_bytes": 1769472,
+      "runs": [
+        {
+          "incremental": false,
+          "seconds": 2.009826550260186,
+          "ns_per_transition_and_value": 8381.26167748201,
+          "checksum": -3208.4555826726746
+        },
+        {
+          "incremental": true,
+          "seconds": 0.4987826570868492,
+          "ns_per_transition_and_value": 2079.9943998617564,
+          "checksum": -3208.4555826726746
+        },
+        {
+          "incremental": true,
+          "seconds": 0.4964596852660179,
+          "ns_per_transition_and_value": 2070.307278006747,
+          "checksum": -3208.4555826726746
+        },
+        {
+          "incremental": false,
+          "seconds": 1.9733080435544252,
+          "ns_per_transition_and_value": 8228.974326749063,
+          "checksum": -3208.4555826726746
+        }
+      ]
+    },
+    {
+      "representation": "bucket",
+      "width": 256,
+      "mode": "nn",
+      "embedding_bytes": 3538944,
+      "runs": [
+        {
+          "incremental": false,
+          "seconds": 3.9534614477306604,
+          "ns_per_transition_and_value": 16486.4947778593,
+          "checksum": 111920.27268181555
+        },
+        {
+          "incremental": true,
+          "seconds": 0.9733381550759077,
+          "ns_per_transition_and_value": 4058.9581112423175,
+          "checksum": 111920.27268181555
+        },
+        {
+          "incremental": true,
+          "seconds": 1.2038142252713442,
+          "ns_per_transition_and_value": 5020.076001965572,
+          "checksum": 111920.27268181555
+        },
+        {
+          "incremental": false,
+          "seconds": 4.089241998270154,
+          "ns_per_transition_and_value": 17052.71892523,
+          "checksum": 111920.27268181555
+        }
+      ]
+    },
+    {
+      "representation": "bucket",
+      "width": 256,
+      "mode": "pair",
+      "embedding_bytes": 3538944,
+      "runs": [
+        {
+          "incremental": false,
+          "seconds": 3.9450622275471687,
+          "ns_per_transition_and_value": 16451.468838812212,
+          "checksum": 51690.16484037086
+        },
+        {
+          "incremental": true,
+          "seconds": 1.008864663541317,
+          "ns_per_transition_and_value": 4207.108688662706,
+          "checksum": 51690.16484037086
+        },
+        {
+          "incremental": true,
+          "seconds": 1.0042329616844654,
+          "ns_per_transition_and_value": 4187.793835214618,
+          "checksum": 51690.16484037086
+        },
+        {
+          "incremental": false,
+          "seconds": 3.909531194716692,
+          "ns_per_transition_and_value": 16303.299394148007,
+          "checksum": 51690.16484037086
+        }
+      ]
+    },
+    {
+      "representation": "relative",
+      "width": 32,
+      "mode": "nn",
+      "embedding_bytes": 221952,
+      "runs": [
+        {
+          "incremental": false,
+          "seconds": 0.4975285716354847,
+          "ns_per_transition_and_value": 2074.764685719286,
+          "checksum": -16839.57705810899
+        },
+        {
+          "incremental": true,
+          "seconds": 0.15256856009364128,
+          "ns_per_transition_and_value": 636.232527496419,
+          "checksum": -16839.57705810899
+        },
+        {
+          "incremental": true,
+          "seconds": 0.15469342097640038,
+          "ns_per_transition_and_value": 645.0934986505437,
+          "checksum": -16839.57705810899
+        },
+        {
+          "incremental": false,
+          "seconds": 0.5241079293191433,
+          "ns_per_transition_and_value": 2185.6043758096052,
+          "checksum": -16839.57705810899
+        }
+      ]
+    },
+    {
+      "representation": "relative",
+      "width": 32,
+      "mode": "pair",
+      "embedding_bytes": 221952,
+      "runs": [
+        {
+          "incremental": false,
+          "seconds": 0.5081236157566309,
+          "ns_per_transition_and_value": 2118.947521920896,
+          "checksum": 5466.641479092923
+        },
+        {
+          "incremental": true,
+          "seconds": 0.15703747421503067,
+          "ns_per_transition_and_value": 654.8685330068001,
+          "checksum": 5466.641479092923
+        },
+        {
+          "incremental": true,
+          "seconds": 0.16722711734473705,
+          "ns_per_transition_and_value": 697.3607895943998,
+          "checksum": 5466.641479092923
+        },
+        {
+          "incremental": false,
+          "seconds": 0.5135254338383675,
+          "ns_per_transition_and_value": 2141.4738692175456,
+          "checksum": 5466.641479092923
+        }
+      ]
+    },
+    {
+      "representation": "relative",
+      "width": 128,
+      "mode": "nn",
+      "embedding_bytes": 887808,
+      "runs": [
+        {
+          "incremental": false,
+          "seconds": 2.030919272452593,
+          "ns_per_transition_and_value": 8469.22131965218,
+          "checksum": -30205.296143342275
+        },
+        {
+          "incremental": true,
+          "seconds": 0.5856638718396425,
+          "ns_per_transition_and_value": 2442.301383818359,
+          "checksum": -30205.296143342275
+        },
+        {
+          "incremental": true,
+          "seconds": 0.5438271965831518,
+          "ns_per_transition_and_value": 2267.836516193294,
+          "checksum": -30205.296143342275
+        },
+        {
+          "incremental": false,
+          "seconds": 1.9698988627642393,
+          "ns_per_transition_and_value": 8214.7575594839,
+          "checksum": -30205.296143342275
+        }
+      ]
+    },
+    {
+      "representation": "relative",
+      "width": 128,
+      "mode": "pair",
+      "embedding_bytes": 887808,
+      "runs": [
+        {
+          "incremental": false,
+          "seconds": 2.025372851639986,
+          "ns_per_transition_and_value": 8446.09195846533,
+          "checksum": 13539.558072841373
+        },
+        {
+          "incremental": true,
+          "seconds": 0.5587917119264603,
+          "ns_per_transition_and_value": 2330.2406669160146,
+          "checksum": 13539.558072841373
+        },
+        {
+          "incremental": true,
+          "seconds": 0.557064039632678,
+          "ns_per_transition_and_value": 2323.0360284932362,
+          "checksum": 13539.558072841373
+        },
+        {
+          "incremental": false,
+          "seconds": 1.9660186246037483,
+          "ns_per_transition_and_value": 8198.576416195781,
+          "checksum": 13539.558072841373
+        }
+      ]
+    },
+    {
+      "representation": "relative",
+      "width": 256,
+      "mode": "nn",
+      "embedding_bytes": 1775616,
+      "runs": [
+        {
+          "incremental": false,
+          "seconds": 4.017750144004822,
+          "ns_per_transition_and_value": 16754.587756483827,
+          "checksum": -241869.2416342058
+        },
+        {
+          "incremental": true,
+          "seconds": 1.1263536717742682,
+          "ns_per_transition_and_value": 4697.054511152078,
+          "checksum": -241869.2416342058
+        },
+        {
+          "incremental": true,
+          "seconds": 1.2127394080162048,
+          "ns_per_transition_and_value": 5057.295279467076,
+          "checksum": -241869.2416342058
+        },
+        {
+          "incremental": false,
+          "seconds": 4.020159071311355,
+          "ns_per_transition_and_value": 16764.633324901395,
+          "checksum": -241869.2416342058
+        }
+      ]
+    },
+    {
+      "representation": "relative",
+      "width": 256,
+      "mode": "pair",
+      "embedding_bytes": 1775616,
+      "runs": [
+        {
+          "incremental": false,
+          "seconds": 4.00316247344017,
+          "ns_per_transition_and_value": 16693.755101918974,
+          "checksum": 30594.84925467347
+        },
+        {
+          "incremental": true,
+          "seconds": 1.112542498856783,
+          "ns_per_transition_and_value": 4639.459961871488,
+          "checksum": 30594.84925467347
+        },
+        {
+          "incremental": true,
+          "seconds": 1.065889399498701,
+          "ns_per_transition_and_value": 4444.90992284696,
+          "checksum": 30594.84925467347
+        },
+        {
+          "incremental": false,
+          "seconds": 3.9969229958951473,
+          "ns_per_transition_and_value": 16667.735595893024,
+          "checksum": 30594.84925467347
+        }
+      ]
+    }
+  ],
+  "scope": "Original random-weight int16 kernels; sum and square state exact. No engine integration, learned quantization accuracy, full agent import or strength claim. Includes allocation/copy, excludes feature extraction and Python calls per node. Both modes maintain square sums: conservative NN cost."
+}

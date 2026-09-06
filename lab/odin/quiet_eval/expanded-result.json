@@ -1,0 +1,145 @@
+{
+  "status": "COMPLETE",
+  "plan_sha256": "3262ede52704da1b552b4847eea9c923d1519862313ff86eb0b095424810d91c",
+  "features": [
+    "pawn_isolated",
+    "pawn_doubled",
+    "pawn_supported",
+    "passed_advance",
+    "passed_blocked",
+    "passer_friendly_king_distance",
+    "passer_enemy_king_distance",
+    "rook_open_file",
+    "rook_semi_open_file",
+    "king_shelter",
+    "king_file_open",
+    "bishop_pair",
+    "knight_mobility",
+    "bishop_mobility",
+    "rook_mobility",
+    "queen_mobility",
+    "king_pressure",
+    "passed_quadratic",
+    "rook_seventh",
+    "pawn_count",
+    "knight_count",
+    "bishop_count",
+    "rook_count",
+    "queen_count"
+  ],
+  "choices": [
+    {
+      "ridge": 10.0,
+      "mae_cp": 94.25742102542138,
+      "rmse_cp": 146.15155066601602,
+      "median_abs_cp": 52.68463419863373,
+      "p90_abs_cp": 237.27997565066133
+    },
+    {
+      "ridge": 100.0,
+      "mae_cp": 94.22717024371879,
+      "rmse_cp": 146.33972506590786,
+      "median_abs_cp": 52.9958809055058,
+      "p90_abs_cp": 235.6030054466183
+    },
+    {
+      "ridge": 1000.0,
+      "mae_cp": 94.37472490437537,
+      "rmse_cp": 147.1723625745227,
+      "median_abs_cp": 53.74993436506973,
+      "p90_abs_cp": 241.4264381102582
+    },
+    {
+      "ridge": 10000.0,
+      "mae_cp": 95.34248351646245,
+      "rmse_cp": 149.65682835290028,
+      "median_abs_cp": 53.804404537158966,
+      "p90_abs_cp": 255.20431456202647
+    }
+  ],
+  "ridge": 100.0,
+  "mg": [
+    -6,
+    -14,
+    0,
+    6,
+    -17,
+    -4,
+    0,
+    6,
+    1,
+    0,
+    -59,
+    0,
+    0,
+    4,
+    1,
+    2,
+    2,
+    0,
+    0,
+    -19,
+    -15,
+    -40,
+    -9,
+    50
+  ],
+  "eg": [
+    -12,
+    -6,
+    8,
+    8,
+    -38,
+    -5,
+    5,
+    13,
+    11,
+    0,
+    -7,
+    72,
+    3,
+    5,
+    4,
+    5,
+    2,
+    3,
+    10,
+    12,
+    40,
+    24,
+    50,
+    50
+  ],
+  "metrics": {
+    "train": {
+      "rows": 4247,
+      "baseline": {
+        "mae_cp": 99.66705910054156,
+        "rmse_cp": 158.0803311598243,
+        "median_abs_cp": 53.0,
+        "p90_abs_cp": 276.0
+      },
+      "fitted": {
+        "mae_cp": 95.74994113491877,
+        "rmse_cp": 149.3339170775813,
+        "median_abs_cp": 55.0,
+        "p90_abs_cp": 253.4000000000001
+      }
+    },
+    "reused_validation": {
+      "rows": 1354,
+      "baseline": {
+        "mae_cp": 99.46676514032497,
+        "rmse_cp": 158.0088577065763,
+        "median_abs_cp": 52.0,
+        "p90_abs_cp": 269.70000000000005
+      },
+      "fitted": {
+        "mae_cp": 97.24372230428361,
+        "rmse_cp": 151.16281927793347,
+        "median_abs_cp": 56.0,
+        "p90_abs_cp": 249.70000000000005
+      }
+    }
+  }
+}

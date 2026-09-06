@@ -1,0 +1,22 @@
+{
+  "audit": "PASS",
+  "games": 12,
+  "pairs": 6,
+  "wins": 5,
+  "draws": 4,
+  "losses": 3,
+  "score": 0.5833333333333334,
+  "legal_plies": 1441,
+  "routes": {
+    "search": 1418,
+    "forced": 20,
+    "exact": 3
+  },
+  "smoke_score_guard_pass": true,
+  "plan_sha256": "0f0776c16bcf85de47795a669fe8893bb8189f793daf8121cd0000e312da6c56",
+  "lanes": {
+    "a": "80e13f1e93f8b4680fb061d7bf81e63ad5d60cd821a4bae19ec193d5f1288c30",
+    "b": "474c34e26885463e0b26b332809d0c1dbb3966bd784735645027e61307023b93"
+  },
+  "scope": "100ms per search on two Linux CPU-pinned lanes. No full-game-clock or reliable Elo claim. No failed games excluded; initial attempt failed worker reset before any game."
+}

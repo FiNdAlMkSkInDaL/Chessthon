@@ -1,0 +1,229 @@
+{
+  "metadata": [
+    {
+      "source": "contract",
+      "url": "https://aichessathon.com/docs/agent-contract.md",
+      "retrieved_utc": "2026-09-05T16:33:30.752073+00:00",
+      "server_date": "Sat, 05 Sep 2026 16:33:37 GMT",
+      "sha256": "6c1166856794f306cd32b7dca4a33a91f1690e3e9f5283471ff5e7074441f938",
+      "path": "lab\\odin\\current-contract.md"
+    },
+    {
+      "source": "rules",
+      "url": "https://aichessathon.com/docs/rules.md",
+      "retrieved_utc": "2026-09-05T16:33:30.831213+00:00",
+      "server_date": "Sat, 05 Sep 2026 16:33:37 GMT",
+      "sha256": "d5e0739b551b9ef9adf9cbc271e8581923ccbe122d7250d6e0a8709329ca7a75",
+      "path": "lab\\odin\\current-rules.md"
+    },
+    {
+      "source": "leaderboard",
+      "url": "https://aichessathon.com/leaderboard",
+      "retrieved_utc": "2026-09-05T16:33:31.916292+00:00",
+      "server_date": "Sat, 05 Sep 2026 16:33:38 GMT",
+      "sha256": "57159ec4fc401f1dd35374632b57310e23e3ac73fddf16410c6220d726f1ba49",
+      "path": "lab\\odin\\current-leaderboard.html"
+    },
+    {
+      "source": "official_starter_main",
+      "commit": "91f70e54be07e1bf56311962044a08b822c3af50",
+      "url": "https://github.com/advitrocks9/aichessathon-starter/commit/91f70e54be07e1bf56311962044a08b822c3af50",
+      "retrieved_utc": "2026-09-05T16:33:32.201113+00:00"
+    }
+  ],
+  "top5": [
+    {
+      "rank": 1,
+      "bot": "AlphaFish",
+      "team": "Emile Andrieu",
+      "rating": 2168,
+      "games": 16,
+      "wdl": "12-3-1"
+    },
+    {
+      "rank": 2,
+      "bot": "Capablanca",
+      "team": "THE ROOOOOKKK!!!!",
+      "rating": 2144,
+      "games": 24,
+      "wdl": "16-5-3"
+    },
+    {
+      "rank": 3,
+      "bot": "Mate in One",
+      "team": "Mate in One",
+      "rating": 2123,
+      "games": 24,
+      "wdl": "15-7-2"
+    },
+    {
+      "rank": 4,
+      "bot": "SoberJackson",
+      "team": "Sobriety",
+      "rating": 2091,
+      "games": 24,
+      "wdl": "15-5-4"
+    },
+    {
+      "rank": 5,
+      "bot": "Patzer 1.2",
+      "team": "Gijs Smit",
+      "rating": 2067,
+      "games": 24,
+      "wdl": "14-6-4"
+    }
+  ],
+  "samson": [
+    {
+      "rank": 52,
+      "bot": "Samson",
+      "team": "Finlay Phillips",
+      "rating": 1752,
+      "games": 24,
+      "wdl": "13-3-8"
+    }
+  ],
+  "opponents": [
+    {
+      "round": 16,
+      "opponent": "MeshPotato",
+      "current_snapshot": [
+        {
+          "rank": 63,
+          "bot": "Mesh Potato",
+          "team": "MeshPotato",
+          "rating": 1703,
+          "games": 24,
+          "wdl": "10-5-9"
+        }
+      ]
+    },
+    {
+      "round": 17,
+      "opponent": "ChessNotCheckers",
+      "current_snapshot": [
+        {
+          "rank": 50,
+          "bot": "ChittyChittyBangBang",
+          "team": "ChessNotCheckers",
+          "rating": 1754,
+          "games": 24,
+          "wdl": "14-3-7"
+        }
+      ]
+    },
+    {
+      "round": 18,
+      "opponent": "French Carlsen",
+      "current_snapshot": [
+        {
+          "rank": 56,
+          "bot": "Le StockFish",
+          "team": "French Carlsen",
+          "rating": 1722,
+          "games": 24,
+          "wdl": "9-8-7"
+        }
+      ]
+    },
+    {
+      "round": 19,
+      "opponent": "The big H",
+      "current_snapshot": [
+        {
+          "rank": 145,
+          "bot": "Huntsville",
+          "team": "The big H",
+          "rating": 1486,
+          "games": 12,
+          "wdl": "3-3-6"
+        }
+      ]
+    },
+    {
+      "round": 20,
+      "opponent": "SaucyBeans",
+      "current_snapshot": [
+        {
+          "rank": 68,
+          "bot": "SaucyBeans",
+          "team": "SaucyBeans",
+          "rating": 1688,
+          "games": 24,
+          "wdl": "8-8-8"
+        }
+      ]
+    },
+    {
+      "round": 21,
+      "opponent": "The Castle Gambit",
+      "current_snapshot": [
+        {
+          "rank": 57,
+          "bot": "The Castle Gambit",
+          "team": "The Castle Gambit",
+          "rating": 1721,
+          "games": 24,
+          "wdl": "14-0-10"
+        }
+      ]
+    },
+    {
+      "round": 22,
+      "opponent": "CheckmateGPT",
+      "current_snapshot": [
+        {
+          "rank": 48,
+          "bot": "MateX",
+          "team": "CheckmateGPT",
+          "rating": 1755,
+          "games": 15,
+          "wdl": "7-4-4"
+        }
+      ]
+    },
+    {
+      "round": 23,
+      "opponent": "OMI",
+      "current_snapshot": [
+        {
+          "rank": 49,
+          "bot": "pro4",
+          "team": "OMI",
+          "rating": 1754,
+          "games": 18,
+          "wdl": "11-1-6"
+        }
+      ]
+    },
+    {
+      "round": 24,
+      "opponent": "The Huxley Knights",
+      "current_snapshot": [
+        {
+          "rank": 65,
+          "bot": "Clore Bot VI",
+          "team": "The Huxley Knights",
+          "rating": 1694,
+          "games": 21,
+          "wdl": "10-5-6"
+        }
+      ]
+    },
+    {
+      "round": 25,
+      "opponent": "keep kann and caro on",
+      "current_snapshot": [
+        {
+          "rank": 54,
+          "bot": "keep_kann_and_caro_on",
+          "team": "keep kann and caro on",
+          "rating": 1737,
+          "games": 24,
+          "wdl": "8-7-9"
+        }
+      ]
+    }
+  ],
+  "note": "Snapshot ranks are not pregame ratings; all25 cumulative results includev1 andStorm."
+}

@@ -1,0 +1,13 @@
+Signer home name redacted; initial setup failure retained.
+Started chesstk-tempest-edges-native-r1.service - /bin/bash /home/<signer-user>/chess-sign-odin-20260905/edges-native-launch.sh.
+{"name": "tables_guard", "sha256": "6282db3d2f8add9fb9c5636c0b6f3117e05aa6b89400cba9d5ae0fa341b4e2c1", "bytes": 5295632}
+Traceback (most recent call last):
+  File "/home/<signer-user>/chess-sign-odin-20260905/tempest-edges-native-r1/lab/odin/release/native_gate.py", line 243, in <module>
+    main()
+  File "/home/<signer-user>/chess-sign-odin-20260905/tempest-edges-native-r1/lab/odin/release/native_gate.py", line 239, in main
+    run(args)
+  File "/home/<signer-user>/chess-sign-odin-20260905/tempest-edges-native-r1/lab/odin/release/native_gate.py", line 124, in run
+    from lab.odin.release import linux_match as match
+ModuleNotFoundError: No module named 'lab'
+chesstk-tempest-edges-native-r1.service: Main process exited, code=exited, status=1/FAILURE
+chesstk-tempest-edges-native-r1.service: Failed with result 'exit-code'.

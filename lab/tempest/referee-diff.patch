@@ -1,0 +1,17 @@
+--- 91f70e54/harness/referee.py
++++ 284724ab56cecb2a1a9a4e5769b4748adab4ed90/harness/referee.py
+@@ -55,9 +55,13 @@
+     clock = {chess.WHITE: float(base_ms), chess.BLACK: float(base_ms)}
+ 
+     while True:
+-        finish = board.outcome(claim_draw=True)
++        finish = board.outcome()
+         if finish is not None:
+             return _outcome(board, _decide(finish), finish.termination.name.lower())
++        if board.is_repetition(3):
++            return _outcome(board, "draw", "threefold_repetition")
++        if board.is_fifty_moves():
++            return _outcome(board, "draw", "fifty_moves")
+         if board.ply() >= ply_cap:
+             return _outcome(board, "draw", "ply_cap")
+ 

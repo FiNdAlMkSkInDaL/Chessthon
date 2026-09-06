@@ -1,0 +1,17 @@
+{
+  "audit": "PASS",
+  "games": 16,
+  "wins": 4,
+  "draws": 8,
+  "losses": 4,
+  "score": 0.5,
+  "legal_plies": 2543,
+  "cold_seconds": {
+    "baseline": 34.892195511609316,
+    "candidate": 34.36913136020303
+  },
+  "decision": "INCONCLUSIVE",
+  "scope": "Used-family 16-game 500ms equal-wall addition screen; not full-clock or reliable Elo evidence.",
+  "plan_sha256": "b502af9c24371caa260b18a42e1bd9fa2e52a92dd3f431e91335718562ff3fa8",
+  "log_sha256": "f62f83af752a0e9508d7dd9975d33d05386fd9cad784f7bc752a4d5d1b707d41"
+}

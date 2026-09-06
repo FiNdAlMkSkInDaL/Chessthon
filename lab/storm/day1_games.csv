@@ -1,0 +1,16 @@
+round,opponent,our_colour,outcome,termination,our_moves,remaining_s,opponent_remaining_s,elapsed_s,our_first20_s,opponent_first20_s,final_material_ours
+1,Brownies,white,win,checkmate,35,53.584,35.211,83.916,58.254,72.66,11
+2,omega3 fish,white,loss,checkmate,66,26.656,5.628,126.344,59.476,89.72,-22
+3,Fork 72,black,win,checkmate,40,47.884,33.797,92.116,58.86,70.358,11
+4,TheROOK,black,loss,checkmate,73,24.872,8.935,131.628,57.728,57.123,-17
+5,Baryon,black,win,checkmate,55,30.865,43.834,116.635,58.753,46.743,8
+6,Stonkfish,white,loss,checkmate,59,31.613,40.829,117.887,58.026,53.915,-8
+7,LehmanBro,black,win,checkmate,58,31.285,3.048,117.715,60.107,97.025,11
+8,lefischer,white,win,checkmate,60,29.521,18.622,120.479,59.199,70.101,6
+9,Tobias Carlsen,white,loss,checkmate,42,46.432,60.492,94.568,57.268,31.063,-7
+10,DGS ELO,black,draw,threefold_repetition,57,27.803,22.8,120.697,58.797,63.862,2
+11,TriggerFish,black,win,checkmate,65,26.716,14.491,125.784,57.989,84.379,12
+12,Keresight,white,loss,checkmate,75,22.976,7.366,134.524,58.951,88.811,-24
+13,Desai,black,win,checkmate,77,23.73,4.235,134.77,60.031,87.228,9
+14,Sillycats,white,win,checkmate,61,28.458,27.567,122.042,57.334,62.19,10
+15,bitter1,black,draw,threefold_repetition,34,50.63,57.538,86.37,57.586,53.777,-2

@@ -1,0 +1,132 @@
+{
+  "seed": 260915,
+  "pairs": 8241,
+  "strength": 0.0,
+  "selected_epoch": 7,
+  "curve": [
+    {
+      "epoch": 1,
+      "regret": {
+        "mean": 325.7,
+        "p90": 986.3000000000004,
+        "bad_200": 0.41818181818181815,
+        "groups": 110
+      },
+      "transfer_mae": 214.8457489013672
+    },
+    {
+      "epoch": 2,
+      "regret": {
+        "mean": 311.1272727272727,
+        "p90": 972.8000000000006,
+        "bad_200": 0.4,
+        "groups": 110
+      },
+      "transfer_mae": 214.6393585205078
+    },
+    {
+      "epoch": 3,
+      "regret": {
+        "mean": 311.0272727272727,
+        "p90": 972.8000000000006,
+        "bad_200": 0.4,
+        "groups": 110
+      },
+      "transfer_mae": 214.63352966308594
+    },
+    {
+      "epoch": 4,
+      "regret": {
+        "mean": 311.1272727272727,
+        "p90": 972.8000000000006,
+        "bad_200": 0.4,
+        "groups": 110
+      },
+      "transfer_mae": 215.1291046142578
+    },
+    {
+      "epoch": 5,
+      "regret": {
+        "mean": 311.1272727272727,
+        "p90": 972.8000000000006,
+        "bad_200": 0.4,
+        "groups": 110
+      },
+      "transfer_mae": 215.29367065429688
+    },
+    {
+      "epoch": 6,
+      "regret": {
+        "mean": 310.1818181818182,
+        "p90": 972.8000000000006,
+        "bad_200": 0.4,
+        "groups": 110
+      },
+      "transfer_mae": 215.3486785888672
+    },
+    {
+      "epoch": 7,
+      "regret": {
+        "mean": 307.8272727272727,
+        "p90": 972.8000000000006,
+        "bad_200": 0.39090909090909093,
+        "groups": 110
+      },
+      "transfer_mae": 215.923095703125
+    },
+    {
+      "epoch": 8,
+      "regret": {
+        "mean": 313.5181818181818,
+        "p90": 972.8000000000006,
+        "bad_200": 0.4,
+        "groups": 110
+      },
+      "transfer_mae": 215.97254943847656
+    },
+    {
+      "epoch": 9,
+      "regret": {
+        "mean": 315.74545454545455,
+        "p90": 972.8000000000006,
+        "bad_200": 0.4,
+        "groups": 110
+      },
+      "transfer_mae": 215.91610717773438
+    },
+    {
+      "epoch": 10,
+      "regret": {
+        "mean": 319.7181818181818,
+        "p90": 972.8000000000006,
+        "bad_200": 0.4,
+        "groups": 110
+      },
+      "transfer_mae": 216.4111785888672
+    },
+    {
+      "epoch": 11,
+      "regret": {
+        "mean": 325.3636363636364,
+        "p90": 1036.1000000000001,
+        "bad_200": 0.4,
+        "groups": 110
+      },
+      "transfer_mae": 216.5489044189453
+    },
+    {
+      "epoch": 12,
+      "regret": {
+        "mean": 313.93636363636364,
+        "p90": 972.8000000000006,
+        "bad_200": 0.39090909090909093,
+        "groups": 110
+      },
+      "transfer_mae": 216.54209899902344
+    }
+  ],
+  "gradient_checks": 15,
+  "source_sha256": "2077cb3690feedb8d9fa2424aa13636bc1ee5597aa3bb3ed3c00326f90ad0de9",
+  "script_sha256": "2024fd801bf4eb18a72b279066846f5ac7294729f5fcc94896f885088c3b74f1",
+  "scope": "Finite teacher child-move preference fit with search-state replay; development-root selection; tactical child labels may mismatch static use. Search tests decide."
+}

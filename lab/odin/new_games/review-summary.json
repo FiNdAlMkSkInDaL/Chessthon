@@ -1,0 +1,587 @@
+[
+  {
+    "id": "site-r26-ply28",
+    "round": 26,
+    "ply": 28,
+    "absolute_ply": 41,
+    "fen": "2rq2k1/pp3pb1/3p1n1p/P1p1r1p1/3nP1P1/2NPB2P/1PPQ1RB1/5R1K b - - 5 21",
+    "played_san": "Nc6",
+    "played_uci": "d4c6",
+    "time_left_ms": 80637,
+    "selection_reason": "Top spaced non-mate own-move reference drop; finite screen, requires same-root confirmation.",
+    "best_san": "Rc7",
+    "best_stm_cp": -37,
+    "best_white_mate": null,
+    "storm_white_mate": null,
+    "storm_forced_stm_cp": -182,
+    "storm_reference_loss_cp": 145,
+    "odin": [
+      {
+        "mode": "adaptive",
+        "san": "a6",
+        "uci": "a7a6",
+        "depth": 9,
+        "actual_wall_ms": 2519.48000000084,
+        "reference_stm_cp": -130,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 52
+      },
+      {
+        "mode": "fixed-3000ms",
+        "san": "a6",
+        "uci": "a7a6",
+        "depth": 9,
+        "actual_wall_ms": 3003.959899999245,
+        "reference_stm_cp": -130,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 52
+      }
+    ]
+  },
+  {
+    "id": "site-r26-ply136",
+    "round": 26,
+    "ply": 136,
+    "absolute_ply": 149,
+    "fen": "8/8/5pK1/2r5/3b4/3k4/2p5/4R3 b - - 3 75",
+    "played_san": "Rg5+",
+    "played_uci": "c5g5",
+    "time_left_ms": 4157,
+    "selection_reason": "Top spaced non-mate own-move reference drop; finite screen, requires same-root confirmation.",
+    "best_san": "c1=Q",
+    "best_stm_cp": 31988,
+    "best_white_mate": -12,
+    "storm_white_mate": null,
+    "storm_forced_stm_cp": 1537,
+    "storm_reference_loss_cp": 30451,
+    "odin": [
+      {
+        "mode": "adaptive",
+        "san": "c1=Q",
+        "uci": "c2c1q",
+        "depth": 10,
+        "actual_wall_ms": 1136.0996999992494,
+        "reference_stm_cp": 31990,
+        "white_mate": -10,
+        "improvement_over_recorded_storm_cp": null
+      },
+      {
+        "mode": "fixed-3000ms",
+        "san": "c1=Q",
+        "uci": "c2c1q",
+        "depth": 10,
+        "actual_wall_ms": 1203.3081000008679,
+        "reference_stm_cp": 31990,
+        "white_mate": -10,
+        "improvement_over_recorded_storm_cp": null
+      }
+    ]
+  },
+  {
+    "id": "site-r26-ply44",
+    "round": 26,
+    "ply": 44,
+    "absolute_ply": 57,
+    "fen": "1r1q2k1/pp3pb1/3p2r1/P1pNn1R1/4P3/3PQ2B/1PP5/6RK b - - 0 29",
+    "played_san": "a6",
+    "played_uci": "a7a6",
+    "time_left_ms": 60276,
+    "selection_reason": "Top spaced non-mate own-move reference drop; finite screen, requires same-root confirmation.",
+    "best_san": "Kf8",
+    "best_stm_cp": -294,
+    "best_white_mate": null,
+    "storm_white_mate": null,
+    "storm_forced_stm_cp": -427,
+    "storm_reference_loss_cp": 133,
+    "odin": [
+      {
+        "mode": "adaptive",
+        "san": "Rxg5",
+        "uci": "g6g5",
+        "depth": 10,
+        "actual_wall_ms": 6651.369100000011,
+        "reference_stm_cp": -299,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 128
+      },
+      {
+        "mode": "fixed-3000ms",
+        "san": "a6",
+        "uci": "a7a6",
+        "depth": 8,
+        "actual_wall_ms": 3010.0132999996276,
+        "reference_stm_cp": -427,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 0
+      }
+    ]
+  },
+  {
+    "id": "site-r27-ply32",
+    "round": 27,
+    "ply": 32,
+    "absolute_ply": 47,
+    "fen": "3q1rk1/5pbp/R2pb1p1/3Np3/2P1P3/4PQ1P/1rB2RP1/6K1 b - - 0 24",
+    "played_san": "h6",
+    "played_uci": "h7h6",
+    "time_left_ms": 75004,
+    "selection_reason": "Top spaced non-mate own-move reference drop; finite screen, requires same-root confirmation.",
+    "best_san": "Bxd5",
+    "best_stm_cp": 110,
+    "best_white_mate": null,
+    "storm_white_mate": null,
+    "storm_forced_stm_cp": 19,
+    "storm_reference_loss_cp": 91,
+    "odin": [
+      {
+        "mode": "adaptive",
+        "san": "Re8",
+        "uci": "f8e8",
+        "depth": 9,
+        "actual_wall_ms": 3278.0031000002054,
+        "reference_stm_cp": 31,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 12
+      },
+      {
+        "mode": "fixed-3000ms",
+        "san": "Re8",
+        "uci": "f8e8",
+        "depth": 8,
+        "actual_wall_ms": 3005.925899999056,
+        "reference_stm_cp": 31,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 12
+      }
+    ]
+  },
+  {
+    "id": "site-r27-ply74",
+    "round": 27,
+    "ply": 74,
+    "absolute_ply": 89,
+    "fen": "6r1/R3Q1bk/3P1ppp/8/6P1/4P1KP/1R6/3q3r b - - 6 45",
+    "played_san": "Rg1+",
+    "played_uci": "h1g1",
+    "time_left_ms": 32717,
+    "selection_reason": "Top spaced non-mate own-move reference drop; finite screen, requires same-root confirmation.",
+    "best_san": "Qe1+",
+    "best_stm_cp": 31988,
+    "best_white_mate": -12,
+    "storm_white_mate": -10,
+    "storm_forced_stm_cp": 31990,
+    "storm_reference_loss_cp": -2,
+    "odin": [
+      {
+        "mode": "adaptive",
+        "san": "Rg1+",
+        "uci": "h1g1",
+        "depth": 8,
+        "actual_wall_ms": 3667.5842000004195,
+        "reference_stm_cp": 31990,
+        "white_mate": -10,
+        "improvement_over_recorded_storm_cp": null
+      },
+      {
+        "mode": "fixed-3000ms",
+        "san": "Rg1+",
+        "uci": "h1g1",
+        "depth": 7,
+        "actual_wall_ms": 3000.6047999995644,
+        "reference_stm_cp": 31990,
+        "white_mate": -10,
+        "improvement_over_recorded_storm_cp": null
+      }
+    ]
+  },
+  {
+    "id": "site-r27-ply48",
+    "round": 27,
+    "ply": 48,
+    "absolute_ply": 63,
+    "fen": "6k1/1r3pb1/R3b1pp/3Np1q1/2r1P1P1/4PQ1P/2B3R1/7K b - - 1 32",
+    "played_san": "Rb2",
+    "played_uci": "b7b2",
+    "time_left_ms": 58852,
+    "selection_reason": "Top spaced non-mate own-move reference drop; finite screen, requires same-root confirmation.",
+    "best_san": "Bxd5",
+    "best_stm_cp": 246,
+    "best_white_mate": null,
+    "storm_white_mate": null,
+    "storm_forced_stm_cp": 205,
+    "storm_reference_loss_cp": 41,
+    "odin": [
+      {
+        "mode": "adaptive",
+        "san": "Qd8",
+        "uci": "g5d8",
+        "depth": 8,
+        "actual_wall_ms": 1883.4949000010965,
+        "reference_stm_cp": 95,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": -110
+      },
+      {
+        "mode": "fixed-3000ms",
+        "san": "Qd8",
+        "uci": "g5d8",
+        "depth": 7,
+        "actual_wall_ms": 1648.1831000000966,
+        "reference_stm_cp": 95,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": -110
+      }
+    ]
+  },
+  {
+    "id": "site-r28-ply97",
+    "round": 28,
+    "ply": 97,
+    "absolute_ply": 112,
+    "fen": "8/8/PK6/3Q4/2N1n1pk/2P1P3/1P4qp/3R2b1 w - - 0 57",
+    "played_san": "a7",
+    "played_uci": "a6a7",
+    "time_left_ms": 11389,
+    "selection_reason": "Top spaced non-mate own-move reference drop; finite screen, requires same-root confirmation.",
+    "best_san": "a7",
+    "best_stm_cp": 856,
+    "best_white_mate": null,
+    "storm_white_mate": null,
+    "storm_forced_stm_cp": 848,
+    "storm_reference_loss_cp": 8,
+    "odin": [
+      {
+        "mode": "adaptive",
+        "san": "a7",
+        "uci": "a6a7",
+        "depth": 9,
+        "actual_wall_ms": 1725.1566999984789,
+        "reference_stm_cp": 848,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 0
+      },
+      {
+        "mode": "fixed-3000ms",
+        "san": "a7",
+        "uci": "a6a7",
+        "depth": 9,
+        "actual_wall_ms": 1735.1104999997915,
+        "reference_stm_cp": 848,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 0
+      }
+    ]
+  },
+  {
+    "id": "site-r28-ply35",
+    "round": 28,
+    "ply": 35,
+    "absolute_ply": 50,
+    "fen": "4r1k1/p4pp1/2p1r2p/8/2NP2qn/P1PQB3/1P3P1b/3RRK1B w - - 0 26",
+    "played_san": "Rc1",
+    "played_uci": "d1c1",
+    "time_left_ms": 68857,
+    "selection_reason": "Top spaced non-mate own-move reference drop; finite screen, requires same-root confirmation.",
+    "best_san": "Ne5",
+    "best_stm_cp": 500,
+    "best_white_mate": null,
+    "storm_white_mate": null,
+    "storm_forced_stm_cp": -5,
+    "storm_reference_loss_cp": 505,
+    "odin": [
+      {
+        "mode": "adaptive",
+        "san": "Ne5",
+        "uci": "c4e5",
+        "depth": 8,
+        "actual_wall_ms": 2650.66090000073,
+        "reference_stm_cp": 496,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 501
+      },
+      {
+        "mode": "fixed-3000ms",
+        "san": "Ne5",
+        "uci": "c4e5",
+        "depth": 8,
+        "actual_wall_ms": 1471.1898000005021,
+        "reference_stm_cp": 496,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 501
+      }
+    ]
+  },
+  {
+    "id": "site-r28-ply75",
+    "round": 28,
+    "ply": 75,
+    "absolute_ply": 90,
+    "fen": "8/8/6pk/8/P1N1Q3/2PKP1np/1P4qb/2R5 w - - 1 46",
+    "played_san": "Qf4+",
+    "played_uci": "e4f4",
+    "time_left_ms": 23635,
+    "selection_reason": "Top spaced non-mate own-move reference drop; finite screen, requires same-root confirmation.",
+    "best_san": "Qxg2",
+    "best_stm_cp": 755,
+    "best_white_mate": null,
+    "storm_white_mate": null,
+    "storm_forced_stm_cp": 317,
+    "storm_reference_loss_cp": 438,
+    "odin": [
+      {
+        "mode": "adaptive",
+        "san": "Qh4+",
+        "uci": "e4h4",
+        "depth": 9,
+        "actual_wall_ms": 2520.4343999994308,
+        "reference_stm_cp": 485,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 168
+      },
+      {
+        "mode": "fixed-3000ms",
+        "san": "Qh4+",
+        "uci": "e4h4",
+        "depth": 9,
+        "actual_wall_ms": 2455.867099999523,
+        "reference_stm_cp": 485,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 168
+      }
+    ]
+  },
+  {
+    "id": "site-r29-ply72",
+    "round": 29,
+    "ply": 72,
+    "absolute_ply": 85,
+    "fen": "2r5/4pk2/3np1p1/6P1/p6P/8/2pB2B1/R6K b - - 1 43",
+    "played_san": "Rc4",
+    "played_uci": "c8c4",
+    "time_left_ms": 36200,
+    "selection_reason": "Top spaced non-mate own-move reference drop; finite screen, requires same-root confirmation.",
+    "best_san": "Nf5",
+    "best_stm_cp": 345,
+    "best_white_mate": null,
+    "storm_white_mate": null,
+    "storm_forced_stm_cp": 125,
+    "storm_reference_loss_cp": 220,
+    "odin": [
+      {
+        "mode": "adaptive",
+        "san": "Rc4",
+        "uci": "c8c4",
+        "depth": 11,
+        "actual_wall_ms": 4261.270699998931,
+        "reference_stm_cp": 125,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 0
+      },
+      {
+        "mode": "fixed-3000ms",
+        "san": "Rc4",
+        "uci": "c8c4",
+        "depth": 10,
+        "actual_wall_ms": 3004.682999999204,
+        "reference_stm_cp": 125,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 0
+      }
+    ]
+  },
+  {
+    "id": "site-r29-ply64",
+    "round": 29,
+    "ply": 64,
+    "absolute_ply": 77,
+    "fen": "8/2r1pk2/3np1p1/p5P1/p1p4P/2b5/R4BB1/R6K b - - 1 39",
+    "played_san": "Bxa1",
+    "played_uci": "c3a1",
+    "time_left_ms": 44261,
+    "selection_reason": "Top spaced non-mate own-move reference drop; finite screen, requires same-root confirmation.",
+    "best_san": "Bxa1",
+    "best_stm_cp": 243,
+    "best_white_mate": null,
+    "storm_white_mate": null,
+    "storm_forced_stm_cp": 263,
+    "storm_reference_loss_cp": -20,
+    "odin": [
+      {
+        "mode": "adaptive",
+        "san": "Bxa1",
+        "uci": "c3a1",
+        "depth": 14,
+        "actual_wall_ms": 2684.118400000443,
+        "reference_stm_cp": 263,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 0
+      },
+      {
+        "mode": "fixed-3000ms",
+        "san": "Bxa1",
+        "uci": "c3a1",
+        "depth": 13,
+        "actual_wall_ms": 2129.3029000007664,
+        "reference_stm_cp": 263,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 0
+      }
+    ]
+  },
+  {
+    "id": "site-r29-ply22",
+    "round": 29,
+    "ply": 22,
+    "absolute_ply": 35,
+    "fen": "2rq1rk1/1p2ppb1/2npbnpp/p7/P1N1PP1B/2N4P/1PP1B1P1/R2Q1R1K b - - 4 18",
+    "played_san": "Nxe4",
+    "played_uci": "f6e4",
+    "time_left_ms": 93829,
+    "selection_reason": "Top spaced non-mate own-move reference drop; finite screen, requires same-root confirmation.",
+    "best_san": "Kh7",
+    "best_stm_cp": -51,
+    "best_white_mate": null,
+    "storm_white_mate": null,
+    "storm_forced_stm_cp": -113,
+    "storm_reference_loss_cp": 62,
+    "odin": [
+      {
+        "mode": "adaptive",
+        "san": "Nb4",
+        "uci": "c6b4",
+        "depth": 10,
+        "actual_wall_ms": 3053.2641999998305,
+        "reference_stm_cp": -73,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 40
+      },
+      {
+        "mode": "fixed-3000ms",
+        "san": "Nb4",
+        "uci": "c6b4",
+        "depth": 9,
+        "actual_wall_ms": 3006.4674999994168,
+        "reference_stm_cp": -73,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 40
+      }
+    ]
+  },
+  {
+    "id": "site-r29-ply276",
+    "round": 29,
+    "ply": 276,
+    "absolute_ply": 289,
+    "fen": "7r/8/8/2k5/3R4/8/pK6/B7 b - - 0 145",
+    "played_san": "Kxd4",
+    "played_uci": "c5d4",
+    "time_left_ms": 1668,
+    "selection_reason": "Long game / obsolete 300-ply adjudication / late fifty-clock diagnostic.",
+    "best_san": "Rb8+",
+    "best_stm_cp": 0,
+    "best_white_mate": null,
+    "storm_white_mate": null,
+    "storm_forced_stm_cp": 0,
+    "storm_reference_loss_cp": 0,
+    "odin": [
+      {
+        "mode": "adaptive",
+        "san": "Kxd4",
+        "uci": "c5d4",
+        "depth": 16,
+        "actual_wall_ms": 339.28450000166777,
+        "reference_stm_cp": 0,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 0
+      },
+      {
+        "mode": "fixed-3000ms",
+        "san": "Kxd4",
+        "uci": "c5d4",
+        "depth": 26,
+        "actual_wall_ms": 2074.942999999621,
+        "reference_stm_cp": 0,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 0
+      }
+    ]
+  },
+  {
+    "id": "site-r29-ply288",
+    "round": 29,
+    "ply": 288,
+    "absolute_ply": 301,
+    "fen": "6r1/8/8/K2k4/8/8/1B6/8 b - - 10 151",
+    "played_san": "Rg2",
+    "played_uci": "g8g2",
+    "time_left_ms": 2495,
+    "selection_reason": "Long game / obsolete 300-ply adjudication / late fifty-clock diagnostic.",
+    "best_san": "Kc4",
+    "best_stm_cp": 10,
+    "best_white_mate": null,
+    "storm_white_mate": null,
+    "storm_forced_stm_cp": 6,
+    "storm_reference_loss_cp": 4,
+    "odin": [
+      {
+        "mode": "adaptive",
+        "san": "Ra8+",
+        "uci": "g8a8",
+        "depth": 8,
+        "actual_wall_ms": 432.85439999817754,
+        "reference_stm_cp": 32,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 26
+      },
+      {
+        "mode": "fixed-3000ms",
+        "san": "Rg2",
+        "uci": "g8g2",
+        "depth": 11,
+        "actual_wall_ms": 1987.438000000111,
+        "reference_stm_cp": 6,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 0
+      }
+    ]
+  },
+  {
+    "id": "site-r29-ply376",
+    "round": 29,
+    "ply": 376,
+    "absolute_ply": 389,
+    "fen": "1K6/7k/5B2/8/2r5/8/8/8 b - - 98 195",
+    "played_san": "Kg8",
+    "played_uci": "h7g8",
+    "time_left_ms": 1741,
+    "selection_reason": "Long game / obsolete 300-ply adjudication / late fifty-clock diagnostic.",
+    "best_san": "Kg6",
+    "best_stm_cp": 0,
+    "best_white_mate": null,
+    "storm_white_mate": null,
+    "storm_forced_stm_cp": 0,
+    "storm_reference_loss_cp": 0,
+    "odin": [
+      {
+        "mode": "adaptive",
+        "san": "Kg8",
+        "uci": "h7g8",
+        "depth": 64,
+        "actual_wall_ms": 19.3583000000217,
+        "reference_stm_cp": 0,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 0
+      },
+      {
+        "mode": "fixed-3000ms",
+        "san": "Rc1",
+        "uci": "c4c1",
+        "depth": 64,
+        "actual_wall_ms": 15.773699997225776,
+        "reference_stm_cp": 0,
+        "white_mate": null,
+        "improvement_over_recorded_storm_cp": 0
+      }
+    ]
+  }
+]

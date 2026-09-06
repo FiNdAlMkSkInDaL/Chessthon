@@ -1,0 +1,10 @@
+{"event": "WARM_WORKER_READY", "role": "baseline", "cpu": 1, "cold_s": 33.85516204498708, "reset_s": 0.05703631974756718}
+{"event": "WARM_WORKER_READY", "role": "candidate", "cpu": 1, "cold_s": 33.907652443274856, "reset_s": 0.047701604664325714}
+{"game": 1, "index": 4, "points": 0.5, "seconds": 42.07, "plies": 141}
+{"game": 2, "index": 4, "points": 0.0, "seconds": 26.47, "plies": 97}
+{"game": 3, "index": 5, "points": 1.0, "seconds": 30.97, "plies": 105}
+{"game": 4, "index": 5, "points": 0.5, "seconds": 46.91, "plies": 156}
+{"game": 5, "index": 6, "points": 0.5, "seconds": 26.05, "plies": 84}
+{"game": 6, "index": 6, "points": 0.0, "seconds": 35.49, "plies": 127}
+{"game": 7, "index": 7, "points": 0.5, "seconds": 48.78, "plies": 155}
+{"game": 8, "index": 7, "points": 1.0, "seconds": 46.82, "plies": 150}

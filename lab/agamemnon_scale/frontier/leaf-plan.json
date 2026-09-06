@@ -1,0 +1,9 @@
+{
+  "candidates": [
+    "leaf25",
+    "leaf50",
+    "leaf"
+  ],
+  "checkpoint": "lab\\agamemnon_scale\\frontier\\leaf-260914\\adapted.npz",
+  "selection": "Lowest mined-state development MAE with prior-state MAE<240cp; mixing factors fixed before root tests. Same110 roots, node/time allowances and5cp nomination gate. No new test-set claim."
+}

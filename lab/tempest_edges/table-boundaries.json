@@ -1,0 +1,8 @@
+{
+  "audit": "PASS",
+  "opponent_known_draw_reply": true,
+  "mate_before_fifty_repetition_cap": true,
+  "clock_guard_route_preserves_original_dtm": true,
+  "stalemate_avoiding_underpromotion": true,
+  "script_sha256": "094bea1d5c45ef70cef85e354e9a5332d9a942b33499022c728cc82069246a63"
+}

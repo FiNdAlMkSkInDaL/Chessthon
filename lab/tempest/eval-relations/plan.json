@@ -1,0 +1,26 @@
+{
+  "features": [
+    "blocked_passer_advance",
+    "safe_passer_path",
+    "connected_passer_advance",
+    "supported_passer_advance",
+    "enemy_king_passer_distance",
+    "own_king_passer_distance",
+    "undefended_minor_rook",
+    "attacked_undefended",
+    "restricted_minor",
+    "king_open_files",
+    "pawn_contact",
+    "safe_knight_outpost"
+  ],
+  "split": "Same original opening-family inner split; previously used outer validation remains descriptive.",
+  "labels_sha256": "7c4ea89cc476b9f0a593fa9dde04898e4191c1e693443849466cf7f0fd1b4ed1",
+  "ridges": [
+    10,
+    100,
+    1000,
+    10000
+  ],
+  "clip_cp": 200,
+  "selection": "Minimum inner MAE, tie larger ridge; rounded int32 coefficients after refit; no diagnostic-root fitting."
+}

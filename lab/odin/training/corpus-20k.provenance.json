@@ -1,0 +1,43 @@
+{
+  "corpus": "corpus-20k.jsonl",
+  "seed": 20260905,
+  "positions": 20000,
+  "games_scanned": 21044,
+  "bucket_counts": {
+    "middlegame": 6982,
+    "attack": 7112,
+    "ending": 5906
+  },
+  "split_counts": {
+    "train": 15124,
+    "validation": 4876
+  },
+  "split_rule": "Opening-key hash: no first-eight-ply opening family crosses train/validation.",
+  "sources": {
+    "Carlsen": {
+      "url": "https://www.pgnmentor.com/players/Carlsen.zip",
+      "pgn_sha256": "ba4591237a43c27fa19a9b3539ba5ce136ea93b65a9800418865b1d0a8090853"
+    },
+    "Kasparov": {
+      "url": "https://www.pgnmentor.com/players/Kasparov.zip",
+      "pgn_sha256": "02d021df5ea2b2896f89ec752eb0f9db8af61f2726a6d4e75a7bb1ced9aa9a80"
+    },
+    "Anand": {
+      "url": "https://www.pgnmentor.com/players/Anand.zip",
+      "pgn_sha256": "3f2aa841ebdfffb33ba81f3a46ab97987efb06d29b8b4cda635f35a2240c7f9a"
+    },
+    "Karpov": {
+      "url": "https://www.pgnmentor.com/players/Karpov.zip",
+      "pgn_sha256": "57586ab136c38ac02bf9b745a037533ffbad0aa252e4f667632a3e7b3bc91a13"
+    },
+    "Tal": {
+      "url": "https://www.pgnmentor.com/players/Tal.zip",
+      "pgn_sha256": "da7d473f53ac933c3a14ca4aff872bc50fe64385234f3635094cc500c0b0ad59"
+    },
+    "Fischer": {
+      "url": "https://www.pgnmentor.com/players/Fischer.zip",
+      "pgn_sha256": "1d8afba5a95ed42588e3714af173f8dcf2cd56e06c9814373aa773064e53edf3"
+    }
+  },
+  "exclusions": "Platform games, Odin diagnostics, prior reference roots and final match holdouts are not corpus inputs."
+}

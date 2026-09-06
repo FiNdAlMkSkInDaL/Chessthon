@@ -1,0 +1,100 @@
+AI CHESSATHON MATCH LOG
+=======================
+
+MATCH
+  Round          Rated 7
+  Team           Finlay Phillips
+  Colour         Black
+  Opponent       LehmanBro
+  Opening        French Tarrasch
+  Start FEN      rnbqkbnr/pp3ppp/8/2pp4/P2P4/8/1PPN1PPP/R1BQKBNR b KQkq - 0 5
+  You moved      First
+  Machine        w-2b4afc
+  Finished       2026-09-04 13:27:05 UTC
+  Match ID       d2ab5919-4fc5-435e-8a9e-6ff5b8c25f52
+
+INIT
+  Ready in       NA
+  Budget         90.0 s
+  Used           NA
+
+CLOCK
+  Base           120.0 s plus 0.5 s per move
+  Moves          58
+  Time used      117.7 s
+  Slowest        4.8 s on move 5
+  Fastest        0.0 s on move 58
+  Average        2.0 s
+  Left at end    31.3 s
+
+RESULT
+  Won by checkmate
+  Game lasted 263.2 s
+
+MOVES
+    #  move          time     clock left
+    1  Nc6           4.0 s      116.5 s
+    2  Nf6           3.3 s      113.7 s
+    3  Be7           3.5 s      110.7 s
+    4  O-O           4.2 s      107.0 s
+    5  cxd4          4.8 s      102.6 s
+    6  Nxd4          2.5 s      100.6 s
+    7  Bg4           3.8 s       97.3 s
+    8  Bh5           3.5 s       94.3 s
+    9  Bg6           2.7 s       92.1 s
+   10  Bc5           3.0 s       89.6 s
+   11  Qb6           2.9 s       87.2 s
+   12  Qxb7          2.5 s       85.2 s
+   13  Bb6           2.9 s       82.7 s
+   14  Rfe8          2.5 s       80.7 s
+   15  hxg6          2.7 s       78.5 s
+   16  Rec8          2.2 s       76.8 s
+   17  Rc4           2.3 s       75.0 s
+   18  Rd8           2.4 s       73.0 s
+   19  Rdc8          2.2 s       71.3 s
+   20  a6            1.9 s       69.9 s
+   21  Qa7           2.0 s       68.4 s
+   22  Qc7           1.9 s       66.9 s
+   23  Qd8           1.9 s       65.5 s
+   24  a5            1.8 s       64.3 s
+   25  Bxd4          1.8 s       63.0 s
+   26  Qb6           2.4 s       61.1 s
+   27  Qxb5          1.9 s       59.7 s
+   28  Qb6           1.7 s       58.5 s
+   29  Ne8           1.9 s       57.1 s
+   30  Nd6           1.9 s       55.7 s
+   31  Qb3           1.5 s       54.7 s
+   32  Qa3           1.6 s       53.6 s
+   33  Rxc3          1.8 s       52.4 s
+   34  Rxc3          2.1 s       50.7 s
+   35  Qb3           1.8 s       49.4 s
+   36  Rd3           1.4 s       48.5 s
+   37  Qc3           1.9 s       47.2 s
+   38  Kf8           1.4 s       46.2 s
+   39  Ke7           1.5 s       45.2 s
+   40  Kd7           1.4 s       44.3 s
+   41  Nc4           1.3 s       43.5 s
+   42  Rd2           1.2 s       42.8 s
+   43  Kc6           1.4 s       41.9 s
+   44  Ne3+          1.6 s       40.8 s
+   45  Rxe2+         1.1 s       40.1 s
+   46  Qb2+          1.8 s       38.8 s
+   47  Qa3+          1.8 s       37.5 s
+   48  Qxe7          1.5 s       36.5 s
+   49  Qd6+          1.6 s       35.3 s
+   50  Qe6+          1.3 s       34.5 s
+   51  Qxh3          1.2 s       33.8 s
+   52  Qg2           1.2 s       33.1 s
+   53  Qe4+          1.4 s       32.2 s
+   54  Qxf4+         1.5 s       31.2 s
+   55  Kb5           1.0 s       30.7 s
+   56  Kc4           0.9 s       30.3 s
+   57  Kd3           0.0 s       30.8 s
+   58  Qd2#          0.0 s       31.3 s
+
+OUTPUT
+  NA. This game was played before agent logs were kept, so the output
+  and the init time were never recorded. Everything above comes from
+  the clocks in the game itself.
+
+Email hello@aichessathon.com with this file if anything here is unclear.

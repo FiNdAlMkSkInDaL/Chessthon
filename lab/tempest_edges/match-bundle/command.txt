@@ -1,0 +1,1 @@
+lab/tempest_edges/match-bundle/clock_match.py --candidate lab/tempest_edges/prototypes/capture_tables --baseline lab/tempest_edges/prototypes/release --cpu 0 --think-ms 500 --indices 0,1,2,3,4,5,6,7 --openings lab/odin/fast/generation-openings/screen.fen --output lab/tempest_edges/match-bundle/lane.jsonl

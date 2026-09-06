@@ -1,0 +1,6 @@
+{"source": "odin_compact_guard", "cold_s": 33.53572730000087, "warmup_s": 32.81430389999878, "original_numba_ready": true, "root_signature_present_after_import": false}
+{"source": "odin_compact_guard", "off_clock_diagnostic_compile_s": 77.64005990000078}
+{"id": "fixed-r1-development-g1-ply42", "hard_ms": 1000, "actual_wall_ms": 500.78389999907813, "san": "a4", "depth": 8, "score": -57, "nodes": 51011}
+{"id": "fixed-r1-development-g1-ply42", "hard_ms": 3000, "actual_wall_ms": 1934.2102000009618, "san": "a4", "depth": 10, "score": -65, "nodes": 202029}
+{"id": "fixed-r1-development-g1-ply44", "hard_ms": 1000, "actual_wall_ms": 516.1318999998912, "san": "a5", "depth": 7, "score": -68, "nodes": 56535}
+{"id": "fixed-r1-development-g1-ply44", "hard_ms": 3000, "actual_wall_ms": 2035.1976000001741, "san": "Be5", "depth": 9, "score": -69, "nodes": 217987}

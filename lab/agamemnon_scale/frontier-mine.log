@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "C:\Users\finla\OneDrive - University College London\Desktop\Chess TK\lab\agamemnon_scale\search_states.py", line 119, in <module>
+    globals()[a.mode](a)
+  File "C:\Users\finla\OneDrive - University College London\Desktop\Chess TK\lab\agamemnon_scale\search_states.py", line 62, in collect
+    assert b.is_valid(),(b.fen(),b.status(),row.tolist())
+           ^^^^^^^^^^^^
+  File "C:\Users\finla\AppData\Local\ChessTK\venv312\Lib\site-packages\chess\__init__.py", line 3616, in is_valid
+    return self.status() == STATUS_VALID
+           ^^^^^^^^^^^^^
+  File "C:\Users\finla\AppData\Local\ChessTK\venv312\Lib\site-packages\chess\__init__.py", line 3554, in status
+    if self.was_into_check():
+       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\finla\AppData\Local\ChessTK\venv312\Lib\site-packages\chess\__init__.py", line 1947, in was_into_check
+    return king is not None and self.is_attacked_by(self.turn, king)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\finla\AppData\Local\ChessTK\venv312\Lib\site-packages\chess\__init__.py", line 939, in is_attacked_by
+    return bool(self.attackers_mask(color, square, None if occupied is None else SquareSet(occupied).mask))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\finla\AppData\Local\ChessTK\venv312\Lib\site-packages\chess\__init__.py", line 923, in attackers_mask
+    return attackers & self.occupied_co[color]
+                       ~~~~~~~~~~~~~~~~^^^^^^^
+TypeError: list indices must be integers or slices, not numpy.bool

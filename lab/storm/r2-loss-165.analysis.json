@@ -1,0 +1,8367 @@
+{
+  "source_log": "holdout-r2-lane-a.jsonl",
+  "run_id": "20260904T225631Z-b66b297d",
+  "game": 12,
+  "pair": 6,
+  "opening_index": 165,
+  "source_game_line_sha256": "683a9909afd85afed3c17d3da0dc5a1f8e40d5647083aaf3a91557229bdede20",
+  "source_game_line_hash_definition": "Exact source JSON line bytes, excluding line ending",
+  "pgn_sha256": "acdfaea0d3ba966f62ca39c18231ae37ad5533b84a77a449573ec6916f49949b",
+  "candidate_sha256": "15db92a79feff24cf52f5b85974f55504753f981823d7e6d92881fb62812e85c",
+  "baseline_sha256": "3397e7a8ca55696bb8d7586a9c73cbeabc0c8b6f51b26cdc8c26562a37c91408",
+  "result": "white",
+  "termination": "checkmate",
+  "plies": 205,
+  "validation_errors": [],
+  "sides": {
+    "white": {
+      "role": "baseline",
+      "move_count": 103,
+      "init_s": 25.622,
+      "memory_peak_bytes": 414531584,
+      "first20_spent_ms": 71133.417,
+      "total_spent_ms": 162949.601,
+      "estimated_final_clock_ms": 8545.08,
+      "telemetry_records": 0
+    },
+    "black": {
+      "role": "candidate",
+      "move_count": 102,
+      "init_s": 30.079,
+      "memory_peak_bytes": 433729536,
+      "first20_spent_ms": 62982.51,
+      "total_spent_ms": 166763.45,
+      "estimated_final_clock_ms": 4231.624,
+      "telemetry_records": 98
+    }
+  },
+  "telemetry_mapping": "p = 2 * (own request number - 1), from each agent first served FEN; missing telemetry remains null",
+  "clock_note": "Final reserves estimated from integer incoming clock minus wrapper elapsed plus increment",
+  "trace": [
+    {
+      "ply": 1,
+      "fullmove": 6,
+      "colour": "white",
+      "san": "Bd2",
+      "uci": "c1d2",
+      "fen_before": "rnb1kb1r/pp2nppp/2pp4/q3p3/3NP3/3P4/PPP2PPP/R1BQKBNR w KQkq - 2 6",
+      "legal_move_count": 5,
+      "in_check": true,
+      "request": 1,
+      "time_left_ms": 120000,
+      "elapsed_ms": 5968.307,
+      "estimated_after_ms": 114531.693,
+      "telemetry": null,
+      "fen_after": "rnb1kb1r/pp2nppp/2pp4/q3p3/3NP3/3P4/PPPB1PPP/R2QKBNR b KQkq - 3 6",
+      "material_after": {
+        "white": {
+          "points": 39,
+          "pawns": [
+            "a2",
+            "b2",
+            "c2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "e4"
+          ],
+          "king": "e1"
+        },
+        "black": {
+          "points": 39,
+          "pawns": [
+            "e5",
+            "c6",
+            "d6",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "e8"
+        }
+      }
+    },
+    {
+      "ply": 2,
+      "fullmove": 6,
+      "colour": "black",
+      "san": "Qd8",
+      "uci": "a5d8",
+      "fen_before": "rnb1kb1r/pp2nppp/2pp4/q3p3/3NP3/3P4/PPPB1PPP/R2QKBNR b KQkq - 3 6",
+      "legal_move_count": 39,
+      "in_check": false,
+      "request": 1,
+      "time_left_ms": 120000,
+      "elapsed_ms": 3866.035,
+      "estimated_after_ms": 116633.965,
+      "telemetry": {
+        "depth": 15,
+        "elapsed_ms": 3864,
+        "game_ply": 0,
+        "nodes": 3960318,
+        "score": 2,
+        "target_ms": 3302
+      },
+      "fen_after": "rnbqkb1r/pp2nppp/2pp4/4p3/3NP3/3P4/PPPB1PPP/R2QKBNR w KQkq - 4 7",
+      "material_after": {
+        "white": {
+          "points": 39,
+          "pawns": [
+            "a2",
+            "b2",
+            "c2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "e4"
+          ],
+          "king": "e1"
+        },
+        "black": {
+          "points": 39,
+          "pawns": [
+            "e5",
+            "c6",
+            "d6",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "e8"
+        }
+      }
+    },
+    {
+      "ply": 3,
+      "fullmove": 7,
+      "colour": "white",
+      "san": "Ndf3",
+      "uci": "d4f3",
+      "fen_before": "rnbqkb1r/pp2nppp/2pp4/4p3/3NP3/3P4/PPPB1PPP/R2QKBNR w KQkq - 4 7",
+      "legal_move_count": 40,
+      "in_check": false,
+      "request": 2,
+      "time_left_ms": 114531,
+      "elapsed_ms": 5621.707,
+      "estimated_after_ms": 109409.293,
+      "telemetry": null,
+      "fen_after": "rnbqkb1r/pp2nppp/2pp4/4p3/4P3/3P1N2/PPPB1PPP/R2QKBNR b KQkq - 5 7",
+      "material_after": {
+        "white": {
+          "points": 39,
+          "pawns": [
+            "a2",
+            "b2",
+            "c2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "e4"
+          ],
+          "king": "e1"
+        },
+        "black": {
+          "points": 39,
+          "pawns": [
+            "e5",
+            "c6",
+            "d6",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "e8"
+        }
+      }
+    },
+    {
+      "ply": 4,
+      "fullmove": 7,
+      "colour": "black",
+      "san": "Ng6",
+      "uci": "e7g6",
+      "fen_before": "rnbqkb1r/pp2nppp/2pp4/4p3/4P3/3P1N2/PPPB1PPP/R2QKBNR b KQkq - 5 7",
+      "legal_move_count": 29,
+      "in_check": false,
+      "request": 2,
+      "time_left_ms": 116633,
+      "elapsed_ms": 3094.397,
+      "estimated_after_ms": 114038.603,
+      "telemetry": {
+        "depth": 15,
+        "elapsed_ms": 3092,
+        "game_ply": 2,
+        "nodes": 3112005,
+        "score": 2,
+        "target_ms": 2663
+      },
+      "fen_after": "rnbqkb1r/pp3ppp/2pp2n1/4p3/4P3/3P1N2/PPPB1PPP/R2QKBNR w KQkq - 6 8",
+      "material_after": {
+        "white": {
+          "points": 39,
+          "pawns": [
+            "a2",
+            "b2",
+            "c2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "e4"
+          ],
+          "king": "e1"
+        },
+        "black": {
+          "points": 39,
+          "pawns": [
+            "e5",
+            "c6",
+            "d6",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "e8"
+        }
+      }
+    },
+    {
+      "ply": 5,
+      "fullmove": 8,
+      "colour": "white",
+      "san": "Ne2",
+      "uci": "g1e2",
+      "fen_before": "rnbqkb1r/pp3ppp/2pp2n1/4p3/4P3/3P1N2/PPPB1PPP/R2QKBNR w KQkq - 6 8",
+      "legal_move_count": 32,
+      "in_check": false,
+      "request": 3,
+      "time_left_ms": 109409,
+      "elapsed_ms": 4280.44,
+      "estimated_after_ms": 105628.56,
+      "telemetry": null,
+      "fen_after": "rnbqkb1r/pp3ppp/2pp2n1/4p3/4P3/3P1N2/PPPBNPPP/R2QKB1R b KQkq - 7 8",
+      "material_after": {
+        "white": {
+          "points": 39,
+          "pawns": [
+            "a2",
+            "b2",
+            "c2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "e4"
+          ],
+          "king": "e1"
+        },
+        "black": {
+          "points": 39,
+          "pawns": [
+            "e5",
+            "c6",
+            "d6",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "e8"
+        }
+      }
+    },
+    {
+      "ply": 6,
+      "fullmove": 8,
+      "colour": "black",
+      "san": "Be7",
+      "uci": "f8e7",
+      "fen_before": "rnbqkb1r/pp3ppp/2pp2n1/4p3/4P3/3P1N2/PPPBNPPP/R2QKB1R b KQkq - 7 8",
+      "legal_move_count": 32,
+      "in_check": false,
+      "request": 3,
+      "time_left_ms": 114039,
+      "elapsed_ms": 3299.671,
+      "estimated_after_ms": 111239.329,
+      "telemetry": {
+        "depth": 15,
+        "elapsed_ms": 3298,
+        "game_ply": 4,
+        "nodes": 3241365,
+        "score": 2,
+        "target_ms": 2634
+      },
+      "fen_after": "rnbqk2r/pp2bppp/2pp2n1/4p3/4P3/3P1N2/PPPBNPPP/R2QKB1R w KQkq - 8 9",
+      "material_after": {
+        "white": {
+          "points": 39,
+          "pawns": [
+            "a2",
+            "b2",
+            "c2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "e4"
+          ],
+          "king": "e1"
+        },
+        "black": {
+          "points": 39,
+          "pawns": [
+            "e5",
+            "c6",
+            "d6",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "e8"
+        }
+      }
+    },
+    {
+      "ply": 7,
+      "fullmove": 9,
+      "colour": "white",
+      "san": "Ng3",
+      "uci": "e2g3",
+      "fen_before": "rnbqk2r/pp2bppp/2pp2n1/4p3/4P3/3P1N2/PPPBNPPP/R2QKB1R w KQkq - 8 9",
+      "legal_move_count": 35,
+      "in_check": false,
+      "request": 4,
+      "time_left_ms": 105629,
+      "elapsed_ms": 3287.97,
+      "estimated_after_ms": 102841.03,
+      "telemetry": null,
+      "fen_after": "rnbqk2r/pp2bppp/2pp2n1/4p3/4P3/3P1NN1/PPPB1PPP/R2QKB1R b KQkq - 9 9",
+      "material_after": {
+        "white": {
+          "points": 39,
+          "pawns": [
+            "a2",
+            "b2",
+            "c2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "e4"
+          ],
+          "king": "e1"
+        },
+        "black": {
+          "points": 39,
+          "pawns": [
+            "e5",
+            "c6",
+            "d6",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "e8"
+        }
+      }
+    },
+    {
+      "ply": 8,
+      "fullmove": 9,
+      "colour": "black",
+      "san": "c5",
+      "uci": "c6c5",
+      "fen_before": "rnbqk2r/pp2bppp/2pp2n1/4p3/4P3/3P1NN1/PPPB1PPP/R2QKB1R b KQkq - 9 9",
+      "legal_move_count": 33,
+      "in_check": false,
+      "request": 4,
+      "time_left_ms": 111239,
+      "elapsed_ms": 6186.32,
+      "estimated_after_ms": 105552.68,
+      "telemetry": {
+        "depth": 16,
+        "elapsed_ms": 6184,
+        "game_ply": 6,
+        "nodes": 5940729,
+        "score": 5,
+        "target_ms": 4678
+      },
+      "fen_after": "rnbqk2r/pp2bppp/3p2n1/2p1p3/4P3/3P1NN1/PPPB1PPP/R2QKB1R w KQkq - 0 10",
+      "material_after": {
+        "white": {
+          "points": 39,
+          "pawns": [
+            "a2",
+            "b2",
+            "c2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "e4"
+          ],
+          "king": "e1"
+        },
+        "black": {
+          "points": 39,
+          "pawns": [
+            "c5",
+            "e5",
+            "d6",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "e8"
+        }
+      }
+    },
+    {
+      "ply": 9,
+      "fullmove": 10,
+      "colour": "white",
+      "san": "Be2",
+      "uci": "f1e2",
+      "fen_before": "rnbqk2r/pp2bppp/3p2n1/2p1p3/4P3/3P1NN1/PPPB1PPP/R2QKB1R w KQkq - 0 10",
+      "legal_move_count": 33,
+      "in_check": false,
+      "request": 5,
+      "time_left_ms": 102841,
+      "elapsed_ms": 3125.77,
+      "estimated_after_ms": 100215.23,
+      "telemetry": null,
+      "fen_after": "rnbqk2r/pp2bppp/3p2n1/2p1p3/4P3/3P1NN1/PPPBBPPP/R2QK2R b KQkq - 1 10",
+      "material_after": {
+        "white": {
+          "points": 39,
+          "pawns": [
+            "a2",
+            "b2",
+            "c2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "e4"
+          ],
+          "king": "e1"
+        },
+        "black": {
+          "points": 39,
+          "pawns": [
+            "c5",
+            "e5",
+            "d6",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "e8"
+        }
+      }
+    },
+    {
+      "ply": 10,
+      "fullmove": 10,
+      "colour": "black",
+      "san": "Nc6",
+      "uci": "b8c6",
+      "fen_before": "rnbqk2r/pp2bppp/3p2n1/2p1p3/4P3/3P1NN1/PPPBBPPP/R2QK2R b KQkq - 1 10",
+      "legal_move_count": 34,
+      "in_check": false,
+      "request": 5,
+      "time_left_ms": 105553,
+      "elapsed_ms": 3080.848,
+      "estimated_after_ms": 102972.152,
+      "telemetry": {
+        "depth": 15,
+        "elapsed_ms": 3079,
+        "game_ply": 8,
+        "nodes": 2818781,
+        "score": 3,
+        "target_ms": 2535
+      },
+      "fen_after": "r1bqk2r/pp2bppp/2np2n1/2p1p3/4P3/3P1NN1/PPPBBPPP/R2QK2R w KQkq - 2 11",
+      "material_after": {
+        "white": {
+          "points": 39,
+          "pawns": [
+            "a2",
+            "b2",
+            "c2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "e4"
+          ],
+          "king": "e1"
+        },
+        "black": {
+          "points": 39,
+          "pawns": [
+            "c5",
+            "e5",
+            "d6",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "e8"
+        }
+      }
+    },
+    {
+      "ply": 11,
+      "fullmove": 11,
+      "colour": "white",
+      "san": "O-O",
+      "uci": "e1g1",
+      "fen_before": "r1bqk2r/pp2bppp/2np2n1/2p1p3/4P3/3P1NN1/PPPBBPPP/R2QK2R w KQkq - 2 11",
+      "legal_move_count": 34,
+      "in_check": false,
+      "request": 6,
+      "time_left_ms": 100215,
+      "elapsed_ms": 5122.003,
+      "estimated_after_ms": 95592.997,
+      "telemetry": null,
+      "fen_after": "r1bqk2r/pp2bppp/2np2n1/2p1p3/4P3/3P1NN1/PPPBBPPP/R2Q1RK1 b kq - 3 11",
+      "material_after": {
+        "white": {
+          "points": 39,
+          "pawns": [
+            "a2",
+            "b2",
+            "c2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "e4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 39,
+          "pawns": [
+            "c5",
+            "e5",
+            "d6",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "e8"
+        }
+      }
+    },
+    {
+      "ply": 12,
+      "fullmove": 11,
+      "colour": "black",
+      "san": "O-O",
+      "uci": "e8g8",
+      "fen_before": "r1bqk2r/pp2bppp/2np2n1/2p1p3/4P3/3P1NN1/PPPBBPPP/R2Q1RK1 b kq - 3 11",
+      "legal_move_count": 36,
+      "in_check": false,
+      "request": 6,
+      "time_left_ms": 102972,
+      "elapsed_ms": 2729.501,
+      "estimated_after_ms": 100742.499,
+      "telemetry": {
+        "depth": 15,
+        "elapsed_ms": 2727,
+        "game_ply": 10,
+        "nodes": 2745203,
+        "score": 4,
+        "target_ms": 2479
+      },
+      "fen_after": "r1bq1rk1/pp2bppp/2np2n1/2p1p3/4P3/3P1NN1/PPPBBPPP/R2Q1RK1 w - - 4 12",
+      "material_after": {
+        "white": {
+          "points": 39,
+          "pawns": [
+            "a2",
+            "b2",
+            "c2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "e4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 39,
+          "pawns": [
+            "c5",
+            "e5",
+            "d6",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 13,
+      "fullmove": 12,
+      "colour": "white",
+      "san": "c3",
+      "uci": "c2c3",
+      "fen_before": "r1bq1rk1/pp2bppp/2np2n1/2p1p3/4P3/3P1NN1/PPPBBPPP/R2Q1RK1 w - - 4 12",
+      "legal_move_count": 33,
+      "in_check": false,
+      "request": 7,
+      "time_left_ms": 95593,
+      "elapsed_ms": 3240.389,
+      "estimated_after_ms": 92852.611,
+      "telemetry": null,
+      "fen_after": "r1bq1rk1/pp2bppp/2np2n1/2p1p3/4P3/2PP1NN1/PP1BBPPP/R2Q1RK1 b - - 0 12",
+      "material_after": {
+        "white": {
+          "points": 39,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "h2",
+            "c3",
+            "d3",
+            "e4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 39,
+          "pawns": [
+            "c5",
+            "e5",
+            "d6",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 14,
+      "fullmove": 12,
+      "colour": "black",
+      "san": "Be6",
+      "uci": "c8e6",
+      "fen_before": "r1bq1rk1/pp2bppp/2np2n1/2p1p3/4P3/2PP1NN1/PP1BBPPP/R2Q1RK1 b - - 0 12",
+      "legal_move_count": 33,
+      "in_check": false,
+      "request": 7,
+      "time_left_ms": 100742,
+      "elapsed_ms": 2602.622,
+      "estimated_after_ms": 98639.378,
+      "telemetry": {
+        "depth": 15,
+        "elapsed_ms": 2601,
+        "game_ply": 12,
+        "nodes": 2542063,
+        "score": 5,
+        "target_ms": 2454
+      },
+      "fen_after": "r2q1rk1/pp2bppp/2npb1n1/2p1p3/4P3/2PP1NN1/PP1BBPPP/R2Q1RK1 w - - 1 13",
+      "material_after": {
+        "white": {
+          "points": 39,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "h2",
+            "c3",
+            "d3",
+            "e4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 39,
+          "pawns": [
+            "c5",
+            "e5",
+            "d6",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 15,
+      "fullmove": 13,
+      "colour": "white",
+      "san": "Be3",
+      "uci": "d2e3",
+      "fen_before": "r2q1rk1/pp2bppp/2npb1n1/2p1p3/4P3/2PP1NN1/PP1BBPPP/R2Q1RK1 w - - 1 13",
+      "legal_move_count": 32,
+      "in_check": false,
+      "request": 8,
+      "time_left_ms": 92852,
+      "elapsed_ms": 4657.952,
+      "estimated_after_ms": 88694.048,
+      "telemetry": null,
+      "fen_after": "r2q1rk1/pp2bppp/2npb1n1/2p1p3/4P3/2PPBNN1/PP2BPPP/R2Q1RK1 b - - 2 13",
+      "material_after": {
+        "white": {
+          "points": 39,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "h2",
+            "c3",
+            "d3",
+            "e4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 39,
+          "pawns": [
+            "c5",
+            "e5",
+            "d6",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 16,
+      "fullmove": 13,
+      "colour": "black",
+      "san": "d5",
+      "uci": "d6d5",
+      "fen_before": "r2q1rk1/pp2bppp/2npb1n1/2p1p3/4P3/2PPBNN1/PP2BPPP/R2Q1RK1 b - - 2 13",
+      "legal_move_count": 40,
+      "in_check": false,
+      "request": 8,
+      "time_left_ms": 98640,
+      "elapsed_ms": 2035.501,
+      "estimated_after_ms": 97104.499,
+      "telemetry": {
+        "depth": 13,
+        "elapsed_ms": 2034,
+        "game_ply": 14,
+        "nodes": 1950240,
+        "score": 11,
+        "target_ms": 2487
+      },
+      "fen_after": "r2q1rk1/pp2bppp/2n1b1n1/2ppp3/4P3/2PPBNN1/PP2BPPP/R2Q1RK1 w - - 0 14",
+      "material_after": {
+        "white": {
+          "points": 39,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "h2",
+            "c3",
+            "d3",
+            "e4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 39,
+          "pawns": [
+            "c5",
+            "d5",
+            "e5",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 17,
+      "fullmove": 14,
+      "colour": "white",
+      "san": "exd5",
+      "uci": "e4d5",
+      "fen_before": "r2q1rk1/pp2bppp/2n1b1n1/2ppp3/4P3/2PPBNN1/PP2BPPP/R2Q1RK1 w - - 0 14",
+      "legal_move_count": 36,
+      "in_check": false,
+      "request": 9,
+      "time_left_ms": 88694,
+      "elapsed_ms": 4357.887,
+      "estimated_after_ms": 84836.113,
+      "telemetry": null,
+      "fen_after": "r2q1rk1/pp2bppp/2n1b1n1/2pPp3/8/2PPBNN1/PP2BPPP/R2Q1RK1 b - - 0 14",
+      "material_after": {
+        "white": {
+          "points": 39,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "h2",
+            "c3",
+            "d3",
+            "d5"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 38,
+          "pawns": [
+            "c5",
+            "e5",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 18,
+      "fullmove": 14,
+      "colour": "black",
+      "san": "Bxd5",
+      "uci": "e6d5",
+      "fen_before": "r2q1rk1/pp2bppp/2n1b1n1/2pPp3/8/2PPBNN1/PP2BPPP/R2Q1RK1 b - - 0 14",
+      "legal_move_count": 40,
+      "in_check": false,
+      "request": 9,
+      "time_left_ms": 97104,
+      "elapsed_ms": 3719.525,
+      "estimated_after_ms": 93884.475,
+      "telemetry": {
+        "depth": 15,
+        "elapsed_ms": 3718,
+        "game_ply": 16,
+        "nodes": 3249720,
+        "score": 4,
+        "target_ms": 3684
+      },
+      "fen_after": "r2q1rk1/pp2bppp/2n3n1/2pbp3/8/2PPBNN1/PP2BPPP/R2Q1RK1 w - - 0 15",
+      "material_after": {
+        "white": {
+          "points": 38,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "h2",
+            "c3",
+            "d3"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 38,
+          "pawns": [
+            "c5",
+            "e5",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 19,
+      "fullmove": 15,
+      "colour": "white",
+      "san": "Nf5",
+      "uci": "g3f5",
+      "fen_before": "r2q1rk1/pp2bppp/2n3n1/2pbp3/8/2PPBNN1/PP2BPPP/R2Q1RK1 w - - 0 15",
+      "legal_move_count": 36,
+      "in_check": false,
+      "request": 10,
+      "time_left_ms": 84837,
+      "elapsed_ms": 2704.251,
+      "estimated_after_ms": 82632.749,
+      "telemetry": null,
+      "fen_after": "r2q1rk1/pp2bppp/2n3n1/2pbpN2/8/2PPBN2/PP2BPPP/R2Q1RK1 b - - 1 15",
+      "material_after": {
+        "white": {
+          "points": 38,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "h2",
+            "c3",
+            "d3"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 38,
+          "pawns": [
+            "c5",
+            "e5",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 20,
+      "fullmove": 15,
+      "colour": "black",
+      "san": "Qd7",
+      "uci": "d8d7",
+      "fen_before": "r2q1rk1/pp2bppp/2n3n1/2pbpN2/8/2PPBN2/PP2BPPP/R2Q1RK1 b - - 1 15",
+      "legal_move_count": 38,
+      "in_check": false,
+      "request": 10,
+      "time_left_ms": 93885,
+      "elapsed_ms": 4113.515,
+      "estimated_after_ms": 90271.485,
+      "telemetry": {
+        "depth": 15,
+        "elapsed_ms": 4112,
+        "game_ply": 18,
+        "nodes": 3638391,
+        "score": 25,
+        "target_ms": 2960
+      },
+      "fen_after": "r4rk1/pp1qbppp/2n3n1/2pbpN2/8/2PPBN2/PP2BPPP/R2Q1RK1 w - - 2 16",
+      "material_after": {
+        "white": {
+          "points": 38,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "h2",
+            "c3",
+            "d3"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 38,
+          "pawns": [
+            "c5",
+            "e5",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 21,
+      "fullmove": 16,
+      "colour": "white",
+      "san": "Nxe7+",
+      "uci": "f5e7",
+      "fen_before": "r4rk1/pp1qbppp/2n3n1/2pbpN2/8/2PPBN2/PP2BPPP/R2Q1RK1 w - - 2 16",
+      "legal_move_count": 41,
+      "in_check": false,
+      "request": 11,
+      "time_left_ms": 82632,
+      "elapsed_ms": 3882.144,
+      "estimated_after_ms": 79249.856,
+      "telemetry": null,
+      "fen_after": "r4rk1/pp1qNppp/2n3n1/2pbp3/8/2PPBN2/PP2BPPP/R2Q1RK1 b - - 0 16",
+      "material_after": {
+        "white": {
+          "points": 38,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "h2",
+            "c3",
+            "d3"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 35,
+          "pawns": [
+            "c5",
+            "e5",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 22,
+      "fullmove": 16,
+      "colour": "black",
+      "san": "Qxe7",
+      "uci": "d7e7",
+      "fen_before": "r4rk1/pp1qNppp/2n3n1/2pbp3/8/2PPBN2/PP2BPPP/R2Q1RK1 b - - 0 16",
+      "legal_move_count": 4,
+      "in_check": true,
+      "request": 11,
+      "time_left_ms": 90271,
+      "elapsed_ms": 2080.718,
+      "estimated_after_ms": 88690.282,
+      "telemetry": {
+        "depth": 16,
+        "elapsed_ms": 2079,
+        "game_ply": 20,
+        "nodes": 1870427,
+        "score": 19,
+        "target_ms": 2540
+      },
+      "fen_after": "r4rk1/pp2qppp/2n3n1/2pbp3/8/2PPBN2/PP2BPPP/R2Q1RK1 w - - 0 17",
+      "material_after": {
+        "white": {
+          "points": 35,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "h2",
+            "c3",
+            "d3"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 35,
+          "pawns": [
+            "c5",
+            "e5",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 23,
+      "fullmove": 17,
+      "colour": "white",
+      "san": "c4",
+      "uci": "c3c4",
+      "fen_before": "r4rk1/pp2qppp/2n3n1/2pbp3/8/2PPBN2/PP2BPPP/R2Q1RK1 w - - 0 17",
+      "legal_move_count": 34,
+      "in_check": false,
+      "request": 12,
+      "time_left_ms": 79250,
+      "elapsed_ms": 2627.08,
+      "estimated_after_ms": 77122.92,
+      "telemetry": null,
+      "fen_after": "r4rk1/pp2qppp/2n3n1/2pbp3/2P5/3PBN2/PP2BPPP/R2Q1RK1 b - - 0 17",
+      "material_after": {
+        "white": {
+          "points": 35,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 35,
+          "pawns": [
+            "c5",
+            "e5",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 24,
+      "fullmove": 17,
+      "colour": "black",
+      "san": "Be6",
+      "uci": "d5e6",
+      "fen_before": "r4rk1/pp2qppp/2n3n1/2pbp3/2P5/3PBN2/PP2BPPP/R2Q1RK1 b - - 0 17",
+      "legal_move_count": 39,
+      "in_check": false,
+      "request": 12,
+      "time_left_ms": 88690,
+      "elapsed_ms": 2021.146,
+      "estimated_after_ms": 87168.854,
+      "telemetry": {
+        "depth": 16,
+        "elapsed_ms": 2019,
+        "game_ply": 22,
+        "nodes": 2004242,
+        "score": 24,
+        "target_ms": 2384
+      },
+      "fen_after": "r4rk1/pp2qppp/2n1b1n1/2p1p3/2P5/3PBN2/PP2BPPP/R2Q1RK1 w - - 1 18",
+      "material_after": {
+        "white": {
+          "points": 35,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 35,
+          "pawns": [
+            "c5",
+            "e5",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 25,
+      "fullmove": 18,
+      "colour": "white",
+      "san": "Ng5",
+      "uci": "f3g5",
+      "fen_before": "r4rk1/pp2qppp/2n1b1n1/2p1p3/2P5/3PBN2/PP2BPPP/R2Q1RK1 w - - 1 18",
+      "legal_move_count": 33,
+      "in_check": false,
+      "request": 13,
+      "time_left_ms": 77123,
+      "elapsed_ms": 2168.468,
+      "estimated_after_ms": 75454.532,
+      "telemetry": null,
+      "fen_after": "r4rk1/pp2qppp/2n1b1n1/2p1p1N1/2P5/3PB3/PP2BPPP/R2Q1RK1 b - - 2 18",
+      "material_after": {
+        "white": {
+          "points": 35,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 35,
+          "pawns": [
+            "c5",
+            "e5",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 26,
+      "fullmove": 18,
+      "colour": "black",
+      "san": "Bf5",
+      "uci": "e6f5",
+      "fen_before": "r4rk1/pp2qppp/2n1b1n1/2p1p1N1/2P5/3PB3/PP2BPPP/R2Q1RK1 b - - 2 18",
+      "legal_move_count": 40,
+      "in_check": false,
+      "request": 13,
+      "time_left_ms": 87169,
+      "elapsed_ms": 2062.563,
+      "estimated_after_ms": 85606.437,
+      "telemetry": {
+        "depth": 15,
+        "elapsed_ms": 2061,
+        "game_ply": 24,
+        "nodes": 1836308,
+        "score": 24,
+        "target_ms": 2373
+      },
+      "fen_after": "r4rk1/pp2qppp/2n3n1/2p1pbN1/2P5/3PB3/PP2BPPP/R2Q1RK1 w - - 3 19",
+      "material_after": {
+        "white": {
+          "points": 35,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 35,
+          "pawns": [
+            "c5",
+            "e5",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 27,
+      "fullmove": 19,
+      "colour": "white",
+      "san": "Bg4",
+      "uci": "e2g4",
+      "fen_before": "r4rk1/pp2qppp/2n3n1/2p1pbN1/2P5/3PB3/PP2BPPP/R2Q1RK1 w - - 3 19",
+      "legal_move_count": 36,
+      "in_check": false,
+      "request": 14,
+      "time_left_ms": 75454,
+      "elapsed_ms": 2142.993,
+      "estimated_after_ms": 73811.007,
+      "telemetry": null,
+      "fen_after": "r4rk1/pp2qppp/2n3n1/2p1pbN1/2P3B1/3PB3/PP3PPP/R2Q1RK1 b - - 4 19",
+      "material_after": {
+        "white": {
+          "points": 35,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 35,
+          "pawns": [
+            "c5",
+            "e5",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 28,
+      "fullmove": 19,
+      "colour": "black",
+      "san": "Bxg4",
+      "uci": "f5g4",
+      "fen_before": "r4rk1/pp2qppp/2n3n1/2p1pbN1/2P3B1/3PB3/PP3PPP/R2Q1RK1 b - - 4 19",
+      "legal_move_count": 39,
+      "in_check": false,
+      "request": 14,
+      "time_left_ms": 85606,
+      "elapsed_ms": 2334.244,
+      "estimated_after_ms": 83771.756,
+      "telemetry": {
+        "depth": 16,
+        "elapsed_ms": 2332,
+        "game_ply": 26,
+        "nodes": 2175603,
+        "score": 21,
+        "target_ms": 2360
+      },
+      "fen_after": "r4rk1/pp2qppp/2n3n1/2p1p1N1/2P3b1/3PB3/PP3PPP/R2Q1RK1 w - - 0 20",
+      "material_after": {
+        "white": {
+          "points": 32,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 35,
+          "pawns": [
+            "c5",
+            "e5",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 29,
+      "fullmove": 20,
+      "colour": "white",
+      "san": "Qxg4",
+      "uci": "d1g4",
+      "fen_before": "r4rk1/pp2qppp/2n3n1/2p1p1N1/2P3b1/3PB3/PP3PPP/R2Q1RK1 w - - 0 20",
+      "legal_move_count": 35,
+      "in_check": false,
+      "request": 15,
+      "time_left_ms": 73811,
+      "elapsed_ms": 2782.408,
+      "estimated_after_ms": 71528.592,
+      "telemetry": null,
+      "fen_after": "r4rk1/pp2qppp/2n3n1/2p1p1N1/2P3Q1/3PB3/PP3PPP/R4RK1 b - - 0 20",
+      "material_after": {
+        "white": {
+          "points": 32,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 32,
+          "pawns": [
+            "c5",
+            "e5",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 30,
+      "fullmove": 20,
+      "colour": "black",
+      "san": "Nd4",
+      "uci": "c6d4",
+      "fen_before": "r4rk1/pp2qppp/2n3n1/2p1p1N1/2P3Q1/3PB3/PP3PPP/R4RK1 b - - 0 20",
+      "legal_move_count": 34,
+      "in_check": false,
+      "request": 15,
+      "time_left_ms": 83772,
+      "elapsed_ms": 4368.165,
+      "estimated_after_ms": 79903.835,
+      "telemetry": {
+        "depth": 16,
+        "elapsed_ms": 4366,
+        "game_ply": 28,
+        "nodes": 4043813,
+        "score": 23,
+        "target_ms": 2452
+      },
+      "fen_after": "r4rk1/pp2qppp/6n1/2p1p1N1/2Pn2Q1/3PB3/PP3PPP/R4RK1 w - - 1 21",
+      "material_after": {
+        "white": {
+          "points": 32,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 32,
+          "pawns": [
+            "c5",
+            "e5",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 31,
+      "fullmove": 21,
+      "colour": "white",
+      "san": "Rad1",
+      "uci": "a1d1",
+      "fen_before": "r4rk1/pp2qppp/6n1/2p1p1N1/2Pn2Q1/3PB3/PP3PPP/R4RK1 w - - 1 21",
+      "legal_move_count": 42,
+      "in_check": false,
+      "request": 16,
+      "time_left_ms": 71529,
+      "elapsed_ms": 3745.177,
+      "estimated_after_ms": 68283.823,
+      "telemetry": null,
+      "fen_after": "r4rk1/pp2qppp/6n1/2p1p1N1/2Pn2Q1/3PB3/PP3PPP/3R1RK1 b - - 2 21",
+      "material_after": {
+        "white": {
+          "points": 32,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 32,
+          "pawns": [
+            "c5",
+            "e5",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 32,
+      "fullmove": 21,
+      "colour": "black",
+      "san": "Rad8",
+      "uci": "a8d8",
+      "fen_before": "r4rk1/pp2qppp/6n1/2p1p1N1/2Pn2Q1/3PB3/PP3PPP/3R1RK1 b - - 2 21",
+      "legal_move_count": 37,
+      "in_check": false,
+      "request": 16,
+      "time_left_ms": 79904,
+      "elapsed_ms": 2099.898,
+      "estimated_after_ms": 78304.102,
+      "telemetry": {
+        "depth": 16,
+        "elapsed_ms": 2098,
+        "game_ply": 30,
+        "nodes": 1934111,
+        "score": 25,
+        "target_ms": 2363
+      },
+      "fen_after": "3r1rk1/pp2qppp/6n1/2p1p1N1/2Pn2Q1/3PB3/PP3PPP/3R1RK1 w - - 3 22",
+      "material_after": {
+        "white": {
+          "points": 32,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 32,
+          "pawns": [
+            "c5",
+            "e5",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 33,
+      "fullmove": 22,
+      "colour": "white",
+      "san": "Qh5",
+      "uci": "g4h5",
+      "fen_before": "3r1rk1/pp2qppp/6n1/2p1p1N1/2Pn2Q1/3PB3/PP3PPP/3R1RK1 w - - 3 22",
+      "legal_move_count": 39,
+      "in_check": false,
+      "request": 17,
+      "time_left_ms": 68284,
+      "elapsed_ms": 2708.866,
+      "estimated_after_ms": 66075.134,
+      "telemetry": null,
+      "fen_after": "3r1rk1/pp2qppp/6n1/2p1p1NQ/2Pn4/3PB3/PP3PPP/3R1RK1 b - - 4 22",
+      "material_after": {
+        "white": {
+          "points": 32,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 32,
+          "pawns": [
+            "c5",
+            "e5",
+            "a7",
+            "b7",
+            "f7",
+            "g7",
+            "h7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 34,
+      "fullmove": 22,
+      "colour": "black",
+      "san": "h6",
+      "uci": "h7h6",
+      "fen_before": "3r1rk1/pp2qppp/6n1/2p1p1NQ/2Pn4/3PB3/PP3PPP/3R1RK1 b - - 4 22",
+      "legal_move_count": 35,
+      "in_check": false,
+      "request": 17,
+      "time_left_ms": 78304,
+      "elapsed_ms": 2669.65,
+      "estimated_after_ms": 76134.35,
+      "telemetry": {
+        "depth": 17,
+        "elapsed_ms": 2668,
+        "game_ply": 32,
+        "nodes": 2491210,
+        "score": 22,
+        "target_ms": 2349
+      },
+      "fen_after": "3r1rk1/pp2qpp1/6np/2p1p1NQ/2Pn4/3PB3/PP3PPP/3R1RK1 w - - 0 23",
+      "material_after": {
+        "white": {
+          "points": 32,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 32,
+          "pawns": [
+            "c5",
+            "e5",
+            "h6",
+            "a7",
+            "b7",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 35,
+      "fullmove": 23,
+      "colour": "white",
+      "san": "Ne4",
+      "uci": "g5e4",
+      "fen_before": "3r1rk1/pp2qpp1/6np/2p1p1NQ/2Pn4/3PB3/PP3PPP/3R1RK1 w - - 0 23",
+      "legal_move_count": 34,
+      "in_check": false,
+      "request": 18,
+      "time_left_ms": 66075,
+      "elapsed_ms": 3390.446,
+      "estimated_after_ms": 63184.554000000004,
+      "telemetry": null,
+      "fen_after": "3r1rk1/pp2qpp1/6np/2p1p2Q/2PnN3/3PB3/PP3PPP/3R1RK1 b - - 1 23",
+      "material_after": {
+        "white": {
+          "points": 32,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 32,
+          "pawns": [
+            "c5",
+            "e5",
+            "h6",
+            "a7",
+            "b7",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 36,
+      "fullmove": 23,
+      "colour": "black",
+      "san": "Rfe8",
+      "uci": "f8e8",
+      "fen_before": "3r1rk1/pp2qpp1/6np/2p1p2Q/2PnN3/3PB3/PP3PPP/3R1RK1 b - - 1 23",
+      "legal_move_count": 35,
+      "in_check": false,
+      "request": 18,
+      "time_left_ms": 76134,
+      "elapsed_ms": 2178.022,
+      "estimated_after_ms": 74455.978,
+      "telemetry": {
+        "depth": 16,
+        "elapsed_ms": 2176,
+        "game_ply": 34,
+        "nodes": 1951804,
+        "score": 28,
+        "target_ms": 2353
+      },
+      "fen_after": "3rr1k1/pp2qpp1/6np/2p1p2Q/2PnN3/3PB3/PP3PPP/3R1RK1 w - - 2 24",
+      "material_after": {
+        "white": {
+          "points": 32,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "h2",
+            "d3",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 32,
+          "pawns": [
+            "c5",
+            "e5",
+            "h6",
+            "a7",
+            "b7",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 37,
+      "fullmove": 24,
+      "colour": "white",
+      "san": "h3",
+      "uci": "h2h3",
+      "fen_before": "3rr1k1/pp2qpp1/6np/2p1p2Q/2PnN3/3PB3/PP3PPP/3R1RK1 w - - 2 24",
+      "legal_move_count": 40,
+      "in_check": false,
+      "request": 19,
+      "time_left_ms": 63184,
+      "elapsed_ms": 2188.336,
+      "estimated_after_ms": 61495.664,
+      "telemetry": null,
+      "fen_after": "3rr1k1/pp2qpp1/6np/2p1p2Q/2PnN3/3PB2P/PP3PP1/3R1RK1 b - - 0 24",
+      "material_after": {
+        "white": {
+          "points": 32,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 32,
+          "pawns": [
+            "c5",
+            "e5",
+            "h6",
+            "a7",
+            "b7",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 38,
+      "fullmove": 24,
+      "colour": "black",
+      "san": "a5",
+      "uci": "a7a5",
+      "fen_before": "3rr1k1/pp2qpp1/6np/2p1p2Q/2PnN3/3PB2P/PP3PP1/3R1RK1 b - - 0 24",
+      "legal_move_count": 36,
+      "in_check": false,
+      "request": 19,
+      "time_left_ms": 74456,
+      "elapsed_ms": 5782.096,
+      "estimated_after_ms": 69173.904,
+      "telemetry": {
+        "depth": 15,
+        "elapsed_ms": 5780,
+        "game_ply": 36,
+        "nodes": 5037103,
+        "score": 22,
+        "target_ms": 6831
+      },
+      "fen_after": "3rr1k1/1p2qpp1/6np/p1p1p2Q/2PnN3/3PB2P/PP3PP1/3R1RK1 w - - 0 25",
+      "material_after": {
+        "white": {
+          "points": 32,
+          "pawns": [
+            "a2",
+            "b2",
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 32,
+          "pawns": [
+            "a5",
+            "c5",
+            "e5",
+            "h6",
+            "b7",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 39,
+      "fullmove": 25,
+      "colour": "white",
+      "san": "a4",
+      "uci": "a2a4",
+      "fen_before": "3rr1k1/1p2qpp1/6np/p1p1p2Q/2PnN3/3PB2P/PP3PP1/3R1RK1 w - - 0 25",
+      "legal_move_count": 39,
+      "in_check": false,
+      "request": 20,
+      "time_left_ms": 61496,
+      "elapsed_ms": 3130.823,
+      "estimated_after_ms": 58865.177,
+      "telemetry": null,
+      "fen_after": "3rr1k1/1p2qpp1/6np/p1p1p2Q/P1PnN3/3PB2P/1P3PP1/3R1RK1 b - - 0 25",
+      "material_after": {
+        "white": {
+          "points": 32,
+          "pawns": [
+            "b2",
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "a4",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 32,
+          "pawns": [
+            "a5",
+            "c5",
+            "e5",
+            "h6",
+            "b7",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 40,
+      "fullmove": 25,
+      "colour": "black",
+      "san": "Qc7",
+      "uci": "e7c7",
+      "fen_before": "3rr1k1/1p2qpp1/6np/p1p1p2Q/P1PnN3/3PB2P/1P3PP1/3R1RK1 b - - 0 25",
+      "legal_move_count": 34,
+      "in_check": false,
+      "request": 20,
+      "time_left_ms": 69174,
+      "elapsed_ms": 2658.073,
+      "estimated_after_ms": 67015.927,
+      "telemetry": {
+        "depth": 15,
+        "elapsed_ms": 2656,
+        "game_ply": 38,
+        "nodes": 2388085,
+        "score": 31,
+        "target_ms": 2222
+      },
+      "fen_after": "3rr1k1/1pq2pp1/6np/p1p1p2Q/P1PnN3/3PB2P/1P3PP1/3R1RK1 w - - 1 26",
+      "material_after": {
+        "white": {
+          "points": 32,
+          "pawns": [
+            "b2",
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "a4",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 32,
+          "pawns": [
+            "a5",
+            "c5",
+            "e5",
+            "h6",
+            "b7",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 41,
+      "fullmove": 26,
+      "colour": "white",
+      "san": "Rfe1",
+      "uci": "f1e1",
+      "fen_before": "3rr1k1/1pq2pp1/6np/p1p1p2Q/P1PnN3/3PB2P/1P3PP1/3R1RK1 w - - 1 26",
+      "legal_move_count": 37,
+      "in_check": false,
+      "request": 21,
+      "time_left_ms": 58865,
+      "elapsed_ms": 2103.167,
+      "estimated_after_ms": 57261.833,
+      "telemetry": null,
+      "fen_after": "3rr1k1/1pq2pp1/6np/p1p1p2Q/P1PnN3/3PB2P/1P3PP1/3RR1K1 b - - 2 26",
+      "material_after": {
+        "white": {
+          "points": 32,
+          "pawns": [
+            "b2",
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "a4",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 32,
+          "pawns": [
+            "a5",
+            "c5",
+            "e5",
+            "h6",
+            "b7",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 42,
+      "fullmove": 26,
+      "colour": "black",
+      "san": "Qb6",
+      "uci": "c7b6",
+      "fen_before": "3rr1k1/1pq2pp1/6np/p1p1p2Q/P1PnN3/3PB2P/1P3PP1/3RR1K1 b - - 2 26",
+      "legal_move_count": 36,
+      "in_check": false,
+      "request": 21,
+      "time_left_ms": 67016,
+      "elapsed_ms": 2071.044,
+      "estimated_after_ms": 65444.956,
+      "telemetry": {
+        "depth": 14,
+        "elapsed_ms": 2069,
+        "game_ply": 40,
+        "nodes": 1800092,
+        "score": 38,
+        "target_ms": 2195
+      },
+      "fen_after": "3rr1k1/1p3pp1/1q4np/p1p1p2Q/P1PnN3/3PB2P/1P3PP1/3RR1K1 w - - 3 27",
+      "material_after": {
+        "white": {
+          "points": 32,
+          "pawns": [
+            "b2",
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "a4",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 32,
+          "pawns": [
+            "a5",
+            "c5",
+            "e5",
+            "h6",
+            "b7",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 43,
+      "fullmove": 27,
+      "colour": "white",
+      "san": "Rb1",
+      "uci": "d1b1",
+      "fen_before": "3rr1k1/1p3pp1/1q4np/p1p1p2Q/P1PnN3/3PB2P/1P3PP1/3RR1K1 w - - 3 27",
+      "legal_move_count": 38,
+      "in_check": false,
+      "request": 22,
+      "time_left_ms": 57262,
+      "elapsed_ms": 2328.468,
+      "estimated_after_ms": 55433.532,
+      "telemetry": null,
+      "fen_after": "3rr1k1/1p3pp1/1q4np/p1p1p2Q/P1PnN3/3PB2P/1P3PP1/1R2R1K1 b - - 4 27",
+      "material_after": {
+        "white": {
+          "points": 32,
+          "pawns": [
+            "b2",
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "a4",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 32,
+          "pawns": [
+            "a5",
+            "c5",
+            "e5",
+            "h6",
+            "b7",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 44,
+      "fullmove": 27,
+      "colour": "black",
+      "san": "Ne6",
+      "uci": "d4e6",
+      "fen_before": "3rr1k1/1p3pp1/1q4np/p1p1p2Q/P1PnN3/3PB2P/1P3PP1/1R2R1K1 b - - 4 27",
+      "legal_move_count": 38,
+      "in_check": false,
+      "request": 22,
+      "time_left_ms": 65445,
+      "elapsed_ms": 3153.586,
+      "estimated_after_ms": 62791.414,
+      "telemetry": {
+        "depth": 15,
+        "elapsed_ms": 3152,
+        "game_ply": 42,
+        "nodes": 2535160,
+        "score": 67,
+        "target_ms": 4154
+      },
+      "fen_after": "3rr1k1/1p3pp1/1q2n1np/p1p1p2Q/P1P1N3/3PB2P/1P3PP1/1R2R1K1 w - - 5 28",
+      "material_after": {
+        "white": {
+          "points": 32,
+          "pawns": [
+            "b2",
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "a4",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 32,
+          "pawns": [
+            "a5",
+            "c5",
+            "e5",
+            "h6",
+            "b7",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 45,
+      "fullmove": 28,
+      "colour": "white",
+      "san": "Rbd1",
+      "uci": "b1d1",
+      "fen_before": "3rr1k1/1p3pp1/1q2n1np/p1p1p2Q/P1P1N3/3PB2P/1P3PP1/1R2R1K1 w - - 5 28",
+      "legal_move_count": 42,
+      "in_check": false,
+      "request": 23,
+      "time_left_ms": 55433,
+      "elapsed_ms": 2390.389,
+      "estimated_after_ms": 53542.611,
+      "telemetry": null,
+      "fen_after": "3rr1k1/1p3pp1/1q2n1np/p1p1p2Q/P1P1N3/3PB2P/1P3PP1/3RR1K1 b - - 6 28",
+      "material_after": {
+        "white": {
+          "points": 32,
+          "pawns": [
+            "b2",
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "a4",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 32,
+          "pawns": [
+            "a5",
+            "c5",
+            "e5",
+            "h6",
+            "b7",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 46,
+      "fullmove": 28,
+      "colour": "black",
+      "san": "Nef4",
+      "uci": "e6f4",
+      "fen_before": "3rr1k1/1p3pp1/1q2n1np/p1p1p2Q/P1P1N3/3PB2P/1P3PP1/3RR1K1 b - - 6 28",
+      "legal_move_count": 34,
+      "in_check": false,
+      "request": 23,
+      "time_left_ms": 62791,
+      "elapsed_ms": 2009.29,
+      "estimated_after_ms": 61281.71,
+      "telemetry": {
+        "depth": 16,
+        "elapsed_ms": 2007,
+        "game_ply": 44,
+        "nodes": 1683437,
+        "score": 67,
+        "target_ms": 2079
+      },
+      "fen_after": "3rr1k1/1p3pp1/1q4np/p1p1p2Q/P1P1Nn2/3PB2P/1P3PP1/3RR1K1 w - - 7 29",
+      "material_after": {
+        "white": {
+          "points": 32,
+          "pawns": [
+            "b2",
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "a4",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 32,
+          "pawns": [
+            "a5",
+            "c5",
+            "e5",
+            "h6",
+            "b7",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 47,
+      "fullmove": 29,
+      "colour": "white",
+      "san": "Bxf4",
+      "uci": "e3f4",
+      "fen_before": "3rr1k1/1p3pp1/1q4np/p1p1p2Q/P1P1Nn2/3PB2P/1P3PP1/3RR1K1 w - - 7 29",
+      "legal_move_count": 37,
+      "in_check": false,
+      "request": 24,
+      "time_left_ms": 53543,
+      "elapsed_ms": 1743.132,
+      "estimated_after_ms": 52299.868,
+      "telemetry": null,
+      "fen_after": "3rr1k1/1p3pp1/1q4np/p1p1p2Q/P1P1NB2/3P3P/1P3PP1/3RR1K1 b - - 0 29",
+      "material_after": {
+        "white": {
+          "points": 32,
+          "pawns": [
+            "b2",
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "a4",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 29,
+          "pawns": [
+            "a5",
+            "c5",
+            "e5",
+            "h6",
+            "b7",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 48,
+      "fullmove": 29,
+      "colour": "black",
+      "san": "Nxf4",
+      "uci": "g6f4",
+      "fen_before": "3rr1k1/1p3pp1/1q4np/p1p1p2Q/P1P1NB2/3P3P/1P3PP1/3RR1K1 b - - 0 29",
+      "legal_move_count": 33,
+      "in_check": false,
+      "request": 24,
+      "time_left_ms": 61282,
+      "elapsed_ms": 2444.112,
+      "estimated_after_ms": 59337.888,
+      "telemetry": {
+        "depth": 17,
+        "elapsed_ms": 2442,
+        "game_ply": 46,
+        "nodes": 2017509,
+        "score": 72,
+        "target_ms": 2149
+      },
+      "fen_after": "3rr1k1/1p3pp1/1q5p/p1p1p2Q/P1P1Nn2/3P3P/1P3PP1/3RR1K1 w - - 0 30",
+      "material_after": {
+        "white": {
+          "points": 29,
+          "pawns": [
+            "b2",
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "a4",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 29,
+          "pawns": [
+            "a5",
+            "c5",
+            "e5",
+            "h6",
+            "b7",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 49,
+      "fullmove": 30,
+      "colour": "white",
+      "san": "Qf3",
+      "uci": "h5f3",
+      "fen_before": "3rr1k1/1p3pp1/1q5p/p1p1p2Q/P1P1Nn2/3P3P/1P3PP1/3RR1K1 w - - 0 30",
+      "legal_move_count": 34,
+      "in_check": false,
+      "request": 25,
+      "time_left_ms": 52300,
+      "elapsed_ms": 2791.749,
+      "estimated_after_ms": 50008.251000000004,
+      "telemetry": null,
+      "fen_after": "3rr1k1/1p3pp1/1q5p/p1p1p3/P1P1Nn2/3P1Q1P/1P3PP1/3RR1K1 b - - 1 30",
+      "material_after": {
+        "white": {
+          "points": 29,
+          "pawns": [
+            "b2",
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "a4",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 29,
+          "pawns": [
+            "a5",
+            "c5",
+            "e5",
+            "h6",
+            "b7",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 50,
+      "fullmove": 30,
+      "colour": "black",
+      "san": "Qxb2",
+      "uci": "b6b2",
+      "fen_before": "3rr1k1/1p3pp1/1q5p/p1p1p3/P1P1Nn2/3P1Q1P/1P3PP1/3RR1K1 b - - 1 30",
+      "legal_move_count": 39,
+      "in_check": false,
+      "request": 25,
+      "time_left_ms": 59338,
+      "elapsed_ms": 1647.275,
+      "estimated_after_ms": 58190.725,
+      "telemetry": {
+        "depth": 15,
+        "elapsed_ms": 1645,
+        "game_ply": 48,
+        "nodes": 1364354,
+        "score": 72,
+        "target_ms": 2129
+      },
+      "fen_after": "3rr1k1/1p3pp1/7p/p1p1p3/P1P1Nn2/3P1Q1P/1q3PP1/3RR1K1 w - - 0 31",
+      "material_after": {
+        "white": {
+          "points": 28,
+          "pawns": [
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "a4",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 29,
+          "pawns": [
+            "a5",
+            "c5",
+            "e5",
+            "h6",
+            "b7",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 51,
+      "fullmove": 31,
+      "colour": "white",
+      "san": "Nxc5",
+      "uci": "e4c5",
+      "fen_before": "3rr1k1/1p3pp1/7p/p1p1p3/P1P1Nn2/3P1Q1P/1q3PP1/3RR1K1 w - - 0 31",
+      "legal_move_count": 27,
+      "in_check": false,
+      "request": 26,
+      "time_left_ms": 50008,
+      "elapsed_ms": 2618.217,
+      "estimated_after_ms": 47889.783,
+      "telemetry": null,
+      "fen_after": "3rr1k1/1p3pp1/7p/p1N1p3/P1P2n2/3P1Q1P/1q3PP1/3RR1K1 b - - 0 31",
+      "material_after": {
+        "white": {
+          "points": 28,
+          "pawns": [
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "a4",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 28,
+          "pawns": [
+            "a5",
+            "e5",
+            "h6",
+            "b7",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 52,
+      "fullmove": 31,
+      "colour": "black",
+      "san": "b6",
+      "uci": "b7b6",
+      "fen_before": "3rr1k1/1p3pp1/7p/p1N1p3/P1P2n2/3P1Q1P/1q3PP1/3RR1K1 b - - 0 31",
+      "legal_move_count": 45,
+      "in_check": false,
+      "request": 26,
+      "time_left_ms": 58190,
+      "elapsed_ms": 3572.915,
+      "estimated_after_ms": 55117.085,
+      "telemetry": {
+        "depth": 16,
+        "elapsed_ms": 3571,
+        "game_ply": 50,
+        "nodes": 2886697,
+        "score": 71,
+        "target_ms": 3268
+      },
+      "fen_after": "3rr1k1/5pp1/1p5p/p1N1p3/P1P2n2/3P1Q1P/1q3PP1/3RR1K1 w - - 0 32",
+      "material_after": {
+        "white": {
+          "points": 28,
+          "pawns": [
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "a4",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 28,
+          "pawns": [
+            "a5",
+            "e5",
+            "b6",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 53,
+      "fullmove": 32,
+      "colour": "white",
+      "san": "Nb7",
+      "uci": "c5b7",
+      "fen_before": "3rr1k1/5pp1/1p5p/p1N1p3/P1P2n2/3P1Q1P/1q3PP1/3RR1K1 w - - 0 32",
+      "legal_move_count": 33,
+      "in_check": false,
+      "request": 27,
+      "time_left_ms": 47890,
+      "elapsed_ms": 1967.882,
+      "estimated_after_ms": 46422.118,
+      "telemetry": null,
+      "fen_after": "3rr1k1/1N3pp1/1p5p/p3p3/P1P2n2/3P1Q1P/1q3PP1/3RR1K1 b - - 1 32",
+      "material_after": {
+        "white": {
+          "points": 28,
+          "pawns": [
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "a4",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 28,
+          "pawns": [
+            "a5",
+            "e5",
+            "b6",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 54,
+      "fullmove": 32,
+      "colour": "black",
+      "san": "Rd4",
+      "uci": "d8d4",
+      "fen_before": "3rr1k1/1N3pp1/1p5p/p3p3/P1P2n2/3P1Q1P/1q3PP1/3RR1K1 b - - 1 32",
+      "legal_move_count": 43,
+      "in_check": false,
+      "request": 27,
+      "time_left_ms": 55117,
+      "elapsed_ms": 2471.045,
+      "estimated_after_ms": 53145.955,
+      "telemetry": {
+        "depth": 16,
+        "elapsed_ms": 2469,
+        "game_ply": 52,
+        "nodes": 1986160,
+        "score": 78,
+        "target_ms": 2082
+      },
+      "fen_after": "4r1k1/1N3pp1/1p5p/p3p3/P1Pr1n2/3P1Q1P/1q3PP1/3RR1K1 w - - 2 33",
+      "material_after": {
+        "white": {
+          "points": 28,
+          "pawns": [
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "a4",
+            "c4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 28,
+          "pawns": [
+            "a5",
+            "e5",
+            "b6",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 55,
+      "fullmove": 33,
+      "colour": "white",
+      "san": "c5",
+      "uci": "c4c5",
+      "fen_before": "4r1k1/1N3pp1/1p5p/p3p3/P1Pr1n2/3P1Q1P/1q3PP1/3RR1K1 w - - 2 33",
+      "legal_move_count": 29,
+      "in_check": false,
+      "request": 28,
+      "time_left_ms": 46422,
+      "elapsed_ms": 1966.762,
+      "estimated_after_ms": 44955.238,
+      "telemetry": null,
+      "fen_after": "4r1k1/1N3pp1/1p5p/p1P1p3/P2r1n2/3P1Q1P/1q3PP1/3RR1K1 b - - 0 33",
+      "material_after": {
+        "white": {
+          "points": 28,
+          "pawns": [
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "a4",
+            "c5"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 28,
+          "pawns": [
+            "a5",
+            "e5",
+            "b6",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 56,
+      "fullmove": 33,
+      "colour": "black",
+      "san": "bxc5",
+      "uci": "b6c5",
+      "fen_before": "4r1k1/1N3pp1/1p5p/p1P1p3/P2r1n2/3P1Q1P/1q3PP1/3RR1K1 b - - 0 33",
+      "legal_move_count": 48,
+      "in_check": false,
+      "request": 28,
+      "time_left_ms": 53146,
+      "elapsed_ms": 1462.482,
+      "estimated_after_ms": 52183.518,
+      "telemetry": {
+        "depth": 14,
+        "elapsed_ms": 1460,
+        "game_ply": 54,
+        "nodes": 1110313,
+        "score": 78,
+        "target_ms": 2016
+      },
+      "fen_after": "4r1k1/1N3pp1/7p/p1p1p3/P2r1n2/3P1Q1P/1q3PP1/3RR1K1 w - - 0 34",
+      "material_after": {
+        "white": {
+          "points": 27,
+          "pawns": [
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "a4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 28,
+          "pawns": [
+            "a5",
+            "c5",
+            "e5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 57,
+      "fullmove": 34,
+      "colour": "white",
+      "san": "Nxc5",
+      "uci": "b7c5",
+      "fen_before": "4r1k1/1N3pp1/7p/p1p1p3/P2r1n2/3P1Q1P/1q3PP1/3RR1K1 w - - 0 34",
+      "legal_move_count": 28,
+      "in_check": false,
+      "request": 29,
+      "time_left_ms": 44955,
+      "elapsed_ms": 2451.418,
+      "estimated_after_ms": 43003.582,
+      "telemetry": null,
+      "fen_after": "4r1k1/5pp1/7p/p1N1p3/P2r1n2/3P1Q1P/1q3PP1/3RR1K1 b - - 0 34",
+      "material_after": {
+        "white": {
+          "points": 27,
+          "pawns": [
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "a4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 27,
+          "pawns": [
+            "a5",
+            "e5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 58,
+      "fullmove": 34,
+      "colour": "black",
+      "san": "Qb6",
+      "uci": "b2b6",
+      "fen_before": "4r1k1/5pp1/7p/p1N1p3/P2r1n2/3P1Q1P/1q3PP1/3RR1K1 b - - 0 34",
+      "legal_move_count": 49,
+      "in_check": false,
+      "request": 29,
+      "time_left_ms": 52184,
+      "elapsed_ms": 1548.551,
+      "estimated_after_ms": 51135.449,
+      "telemetry": {
+        "depth": 14,
+        "elapsed_ms": 1547,
+        "game_ply": 56,
+        "nodes": 1241790,
+        "score": 95,
+        "target_ms": 2099
+      },
+      "fen_after": "4r1k1/5pp1/1q5p/p1N1p3/P2r1n2/3P1Q1P/5PP1/3RR1K1 w - - 1 35",
+      "material_after": {
+        "white": {
+          "points": 27,
+          "pawns": [
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "a4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 27,
+          "pawns": [
+            "a5",
+            "e5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 59,
+      "fullmove": 35,
+      "colour": "white",
+      "san": "Rc1",
+      "uci": "d1c1",
+      "fen_before": "4r1k1/5pp1/1q5p/p1N1p3/P2r1n2/3P1Q1P/5PP1/3RR1K1 w - - 1 35",
+      "legal_move_count": 32,
+      "in_check": false,
+      "request": 30,
+      "time_left_ms": 43003,
+      "elapsed_ms": 2531.473,
+      "estimated_after_ms": 40971.527,
+      "telemetry": null,
+      "fen_after": "4r1k1/5pp1/1q5p/p1N1p3/P2r1n2/3P1Q1P/5PP1/2R1R1K1 b - - 2 35",
+      "material_after": {
+        "white": {
+          "points": 27,
+          "pawns": [
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "a4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 27,
+          "pawns": [
+            "a5",
+            "e5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 60,
+      "fullmove": 35,
+      "colour": "black",
+      "san": "Rd5",
+      "uci": "d4d5",
+      "fen_before": "4r1k1/5pp1/1q5p/p1N1p3/P2r1n2/3P1Q1P/5PP1/2R1R1K1 b - - 2 35",
+      "legal_move_count": 50,
+      "in_check": false,
+      "request": 30,
+      "time_left_ms": 51135,
+      "elapsed_ms": 2411.019,
+      "estimated_after_ms": 49223.981,
+      "telemetry": {
+        "depth": 16,
+        "elapsed_ms": 2409,
+        "game_ply": 58,
+        "nodes": 2183529,
+        "score": 89,
+        "target_ms": 2133
+      },
+      "fen_after": "4r1k1/5pp1/1q5p/p1Nrp3/P4n2/3P1Q1P/5PP1/2R1R1K1 w - - 3 36",
+      "material_after": {
+        "white": {
+          "points": 27,
+          "pawns": [
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "a4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 27,
+          "pawns": [
+            "a5",
+            "e5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 61,
+      "fullmove": 36,
+      "colour": "white",
+      "san": "Rc4",
+      "uci": "c1c4",
+      "fen_before": "4r1k1/5pp1/1q5p/p1Nrp3/P4n2/3P1Q1P/5PP1/2R1R1K1 w - - 3 36",
+      "legal_move_count": 34,
+      "in_check": false,
+      "request": 31,
+      "time_left_ms": 40972,
+      "elapsed_ms": 2376.159,
+      "estimated_after_ms": 39095.841,
+      "telemetry": null,
+      "fen_after": "4r1k1/5pp1/1q5p/p1Nrp3/P1R2n2/3P1Q1P/5PP1/4R1K1 b - - 4 36",
+      "material_after": {
+        "white": {
+          "points": 27,
+          "pawns": [
+            "f2",
+            "g2",
+            "d3",
+            "h3",
+            "a4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 27,
+          "pawns": [
+            "a5",
+            "e5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 62,
+      "fullmove": 36,
+      "colour": "black",
+      "san": "Nxg2",
+      "uci": "f4g2",
+      "fen_before": "4r1k1/5pp1/1q5p/p1Nrp3/P1R2n2/3P1Q1P/5PP1/4R1K1 b - - 4 36",
+      "legal_move_count": 46,
+      "in_check": false,
+      "request": 31,
+      "time_left_ms": 49224,
+      "elapsed_ms": 2194.433,
+      "estimated_after_ms": 47529.567,
+      "telemetry": {
+        "depth": 15,
+        "elapsed_ms": 2192,
+        "game_ply": 60,
+        "nodes": 1895992,
+        "score": 78,
+        "target_ms": 2106
+      },
+      "fen_after": "4r1k1/5pp1/1q5p/p1Nrp3/P1R5/3P1Q1P/5Pn1/4R1K1 w - - 0 37",
+      "material_after": {
+        "white": {
+          "points": 26,
+          "pawns": [
+            "f2",
+            "d3",
+            "h3",
+            "a4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 27,
+          "pawns": [
+            "a5",
+            "e5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 63,
+      "fullmove": 37,
+      "colour": "white",
+      "san": "Qxg2",
+      "uci": "f3g2",
+      "fen_before": "4r1k1/5pp1/1q5p/p1Nrp3/P1R5/3P1Q1P/5Pn1/4R1K1 w - - 0 37",
+      "legal_move_count": 43,
+      "in_check": false,
+      "request": 32,
+      "time_left_ms": 39096,
+      "elapsed_ms": 1275.215,
+      "estimated_after_ms": 38320.785,
+      "telemetry": null,
+      "fen_after": "4r1k1/5pp1/1q5p/p1Nrp3/P1R5/3P3P/5PQ1/4R1K1 b - - 0 37",
+      "material_after": {
+        "white": {
+          "points": 26,
+          "pawns": [
+            "f2",
+            "d3",
+            "h3",
+            "a4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 24,
+          "pawns": [
+            "a5",
+            "e5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 64,
+      "fullmove": 37,
+      "colour": "black",
+      "san": "Rxc5",
+      "uci": "d5c5",
+      "fen_before": "4r1k1/5pp1/1q5p/p1Nrp3/P1R5/3P3P/5PQ1/4R1K1 b - - 0 37",
+      "legal_move_count": 39,
+      "in_check": false,
+      "request": 32,
+      "time_left_ms": 47530,
+      "elapsed_ms": 2893.105,
+      "estimated_after_ms": 45136.895,
+      "telemetry": {
+        "depth": 17,
+        "elapsed_ms": 2891,
+        "game_ply": 62,
+        "nodes": 2490298,
+        "score": 94,
+        "target_ms": 1964
+      },
+      "fen_after": "4r1k1/5pp1/1q5p/p1r1p3/P1R5/3P3P/5PQ1/4R1K1 w - - 0 38",
+      "material_after": {
+        "white": {
+          "points": 23,
+          "pawns": [
+            "f2",
+            "d3",
+            "h3",
+            "a4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 24,
+          "pawns": [
+            "a5",
+            "e5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 65,
+      "fullmove": 38,
+      "colour": "white",
+      "san": "Rg4",
+      "uci": "c4g4",
+      "fen_before": "4r1k1/5pp1/1q5p/p1r1p3/P1R5/3P3P/5PQ1/4R1K1 w - - 0 38",
+      "legal_move_count": 40,
+      "in_check": false,
+      "request": 33,
+      "time_left_ms": 38320,
+      "elapsed_ms": 1322.29,
+      "estimated_after_ms": 37497.71,
+      "telemetry": null,
+      "fen_after": "4r1k1/5pp1/1q5p/p1r1p3/P5R1/3P3P/5PQ1/4R1K1 b - - 1 38",
+      "material_after": {
+        "white": {
+          "points": 23,
+          "pawns": [
+            "f2",
+            "d3",
+            "h3",
+            "a4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 24,
+          "pawns": [
+            "a5",
+            "e5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 66,
+      "fullmove": 38,
+      "colour": "black",
+      "san": "Qf6",
+      "uci": "b6f6",
+      "fen_before": "4r1k1/5pp1/1q5p/p1r1p3/P5R1/3P3P/5PQ1/4R1K1 b - - 1 38",
+      "legal_move_count": 41,
+      "in_check": false,
+      "request": 33,
+      "time_left_ms": 45136,
+      "elapsed_ms": 2345.785,
+      "estimated_after_ms": 43290.215,
+      "telemetry": {
+        "depth": 16,
+        "elapsed_ms": 2343,
+        "game_ply": 64,
+        "nodes": 2042324,
+        "score": 77,
+        "target_ms": 2171
+      },
+      "fen_after": "4r1k1/5pp1/5q1p/p1r1p3/P5R1/3P3P/5PQ1/4R1K1 w - - 2 39",
+      "material_after": {
+        "white": {
+          "points": 23,
+          "pawns": [
+            "f2",
+            "d3",
+            "h3",
+            "a4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 24,
+          "pawns": [
+            "a5",
+            "e5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 67,
+      "fullmove": 39,
+      "colour": "white",
+      "san": "d4",
+      "uci": "d3d4",
+      "fen_before": "4r1k1/5pp1/5q1p/p1r1p3/P5R1/3P3P/5PQ1/4R1K1 w - - 2 39",
+      "legal_move_count": 36,
+      "in_check": false,
+      "request": 34,
+      "time_left_ms": 37498,
+      "elapsed_ms": 2067.939,
+      "estimated_after_ms": 35930.061,
+      "telemetry": null,
+      "fen_after": "4r1k1/5pp1/5q1p/p1r1p3/P2P2R1/7P/5PQ1/4R1K1 b - - 0 39",
+      "material_after": {
+        "white": {
+          "points": 23,
+          "pawns": [
+            "f2",
+            "h3",
+            "a4",
+            "d4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 24,
+          "pawns": [
+            "a5",
+            "e5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 68,
+      "fullmove": 39,
+      "colour": "black",
+      "san": "Rc4",
+      "uci": "c5c4",
+      "fen_before": "4r1k1/5pp1/5q1p/p1r1p3/P2P2R1/7P/5PQ1/4R1K1 b - - 0 39",
+      "legal_move_count": 38,
+      "in_check": false,
+      "request": 34,
+      "time_left_ms": 43291,
+      "elapsed_ms": 1914.99,
+      "estimated_after_ms": 41876.01,
+      "telemetry": {
+        "depth": 16,
+        "elapsed_ms": 1913,
+        "game_ply": 66,
+        "nodes": 1545511,
+        "score": 64,
+        "target_ms": 2092
+      },
+      "fen_after": "4r1k1/5pp1/5q1p/p3p3/P1rP2R1/7P/5PQ1/4R1K1 w - - 1 40",
+      "material_after": {
+        "white": {
+          "points": 23,
+          "pawns": [
+            "f2",
+            "h3",
+            "a4",
+            "d4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 24,
+          "pawns": [
+            "a5",
+            "e5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 69,
+      "fullmove": 40,
+      "colour": "white",
+      "san": "Qd5",
+      "uci": "g2d5",
+      "fen_before": "4r1k1/5pp1/5q1p/p3p3/P1rP2R1/7P/5PQ1/4R1K1 w - - 1 40",
+      "legal_move_count": 34,
+      "in_check": false,
+      "request": 35,
+      "time_left_ms": 35930,
+      "elapsed_ms": 1266.092,
+      "estimated_after_ms": 35163.908,
+      "telemetry": null,
+      "fen_after": "4r1k1/5pp1/5q1p/p2Qp3/P1rP2R1/7P/5P2/4R1K1 b - - 2 40",
+      "material_after": {
+        "white": {
+          "points": 23,
+          "pawns": [
+            "f2",
+            "h3",
+            "a4",
+            "d4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 24,
+          "pawns": [
+            "a5",
+            "e5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 70,
+      "fullmove": 40,
+      "colour": "black",
+      "san": "Rc2",
+      "uci": "c4c2",
+      "fen_before": "4r1k1/5pp1/5q1p/p2Qp3/P1rP2R1/7P/5P2/4R1K1 b - - 2 40",
+      "legal_move_count": 39,
+      "in_check": false,
+      "request": 35,
+      "time_left_ms": 41876,
+      "elapsed_ms": 2508.518,
+      "estimated_after_ms": 39867.482,
+      "telemetry": {
+        "depth": 16,
+        "elapsed_ms": 2506,
+        "game_ply": 68,
+        "nodes": 2199737,
+        "score": 106,
+        "target_ms": 3126
+      },
+      "fen_after": "4r1k1/5pp1/5q1p/p2Qp3/P2P2R1/7P/2r2P2/4R1K1 w - - 3 41",
+      "material_after": {
+        "white": {
+          "points": 23,
+          "pawns": [
+            "f2",
+            "h3",
+            "a4",
+            "d4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 24,
+          "pawns": [
+            "a5",
+            "e5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 71,
+      "fullmove": 41,
+      "colour": "white",
+      "san": "Rg2",
+      "uci": "g4g2",
+      "fen_before": "4r1k1/5pp1/5q1p/p2Qp3/P2P2R1/7P/2r2P2/4R1K1 w - - 3 41",
+      "legal_move_count": 44,
+      "in_check": false,
+      "request": 36,
+      "time_left_ms": 35164,
+      "elapsed_ms": 1902.904,
+      "estimated_after_ms": 33761.096,
+      "telemetry": null,
+      "fen_after": "4r1k1/5pp1/5q1p/p2Qp3/P2P4/7P/2r2PR1/4R1K1 b - - 4 41",
+      "material_after": {
+        "white": {
+          "points": 23,
+          "pawns": [
+            "f2",
+            "h3",
+            "a4",
+            "d4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 24,
+          "pawns": [
+            "a5",
+            "e5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 72,
+      "fullmove": 41,
+      "colour": "black",
+      "san": "e4",
+      "uci": "e5e4",
+      "fen_before": "4r1k1/5pp1/5q1p/p2Qp3/P2P4/7P/2r2PR1/4R1K1 b - - 4 41",
+      "legal_move_count": 41,
+      "in_check": false,
+      "request": 36,
+      "time_left_ms": 39867,
+      "elapsed_ms": 1270.123,
+      "estimated_after_ms": 39096.877,
+      "telemetry": {
+        "depth": 15,
+        "elapsed_ms": 1268,
+        "game_ply": 70,
+        "nodes": 1117657,
+        "score": 115,
+        "target_ms": 1752
+      },
+      "fen_after": "4r1k1/5pp1/5q1p/p2Q4/P2Pp3/7P/2r2PR1/4R1K1 w - - 0 42",
+      "material_after": {
+        "white": {
+          "points": 23,
+          "pawns": [
+            "f2",
+            "h3",
+            "a4",
+            "d4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 24,
+          "pawns": [
+            "e4",
+            "a5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 73,
+      "fullmove": 42,
+      "colour": "white",
+      "san": "Rxe4",
+      "uci": "e1e4",
+      "fen_before": "4r1k1/5pp1/5q1p/p2Q4/P2Pp3/7P/2r2PR1/4R1K1 w - - 0 42",
+      "legal_move_count": 39,
+      "in_check": false,
+      "request": 37,
+      "time_left_ms": 33761,
+      "elapsed_ms": 1204.501,
+      "estimated_after_ms": 33056.498999999996,
+      "telemetry": null,
+      "fen_after": "4r1k1/5pp1/5q1p/p2Q4/P2PR3/7P/2r2PR1/6K1 b - - 0 42",
+      "material_after": {
+        "white": {
+          "points": 23,
+          "pawns": [
+            "f2",
+            "h3",
+            "a4",
+            "d4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 23,
+          "pawns": [
+            "a5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 74,
+      "fullmove": 42,
+      "colour": "black",
+      "san": "Rxe4",
+      "uci": "e8e4",
+      "fen_before": "4r1k1/5pp1/5q1p/p2Q4/P2PR3/7P/2r2PR1/6K1 b - - 0 42",
+      "legal_move_count": 43,
+      "in_check": false,
+      "request": 37,
+      "time_left_ms": 39097,
+      "elapsed_ms": 1543.965,
+      "estimated_after_ms": 38053.035,
+      "telemetry": {
+        "depth": 16,
+        "elapsed_ms": 1541,
+        "game_ply": 72,
+        "nodes": 1368682,
+        "score": 123,
+        "target_ms": 1701
+      },
+      "fen_after": "6k1/5pp1/5q1p/p2Q4/P2Pr3/7P/2r2PR1/6K1 w - - 0 43",
+      "material_after": {
+        "white": {
+          "points": 18,
+          "pawns": [
+            "f2",
+            "h3",
+            "a4",
+            "d4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 23,
+          "pawns": [
+            "a5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 75,
+      "fullmove": 43,
+      "colour": "white",
+      "san": "Qa8+",
+      "uci": "d5a8",
+      "fen_before": "6k1/5pp1/5q1p/p2Q4/P2Pr3/7P/2r2PR1/6K1 w - - 0 43",
+      "legal_move_count": 31,
+      "in_check": false,
+      "request": 38,
+      "time_left_ms": 33056,
+      "elapsed_ms": 1244.582,
+      "estimated_after_ms": 32311.418,
+      "telemetry": null,
+      "fen_after": "Q5k1/5pp1/5q1p/p7/P2Pr3/7P/2r2PR1/6K1 b - - 1 43",
+      "material_after": {
+        "white": {
+          "points": 18,
+          "pawns": [
+            "f2",
+            "h3",
+            "a4",
+            "d4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 23,
+          "pawns": [
+            "a5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 76,
+      "fullmove": 43,
+      "colour": "black",
+      "san": "Rc8",
+      "uci": "c2c8",
+      "fen_before": "Q5k1/5pp1/5q1p/p7/P2Pr3/7P/2r2PR1/6K1 b - - 1 43",
+      "legal_move_count": 4,
+      "in_check": true,
+      "request": 38,
+      "time_left_ms": 38053,
+      "elapsed_ms": 2150.971,
+      "estimated_after_ms": 36402.029,
+      "telemetry": {
+        "depth": 18,
+        "elapsed_ms": 2149,
+        "game_ply": 74,
+        "nodes": 1940924,
+        "score": 120,
+        "target_ms": 1974
+      },
+      "fen_after": "Q1r3k1/5pp1/5q1p/p7/P2Pr3/7P/5PR1/6K1 w - - 2 44",
+      "material_after": {
+        "white": {
+          "points": 18,
+          "pawns": [
+            "f2",
+            "h3",
+            "a4",
+            "d4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 23,
+          "pawns": [
+            "a5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 77,
+      "fullmove": 44,
+      "colour": "white",
+      "san": "Qxe4",
+      "uci": "a8e4",
+      "fen_before": "Q1r3k1/5pp1/5q1p/p7/P2Pr3/7P/5PR1/6K1 w - - 2 44",
+      "legal_move_count": 22,
+      "in_check": false,
+      "request": 39,
+      "time_left_ms": 32312,
+      "elapsed_ms": 1768.867,
+      "estimated_after_ms": 31043.133,
+      "telemetry": null,
+      "fen_after": "2r3k1/5pp1/5q1p/p7/P2PQ3/7P/5PR1/6K1 b - - 0 44",
+      "material_after": {
+        "white": {
+          "points": 18,
+          "pawns": [
+            "f2",
+            "h3",
+            "a4",
+            "d4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 18,
+          "pawns": [
+            "a5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 78,
+      "fullmove": 44,
+      "colour": "black",
+      "san": "Rc1+",
+      "uci": "c8c1",
+      "fen_before": "2r3k1/5pp1/5q1p/p7/P2PQ3/7P/5PR1/6K1 b - - 0 44",
+      "legal_move_count": 33,
+      "in_check": false,
+      "request": 39,
+      "time_left_ms": 36402,
+      "elapsed_ms": 1627.578,
+      "estimated_after_ms": 35274.422,
+      "telemetry": {
+        "depth": 18,
+        "elapsed_ms": 1626,
+        "game_ply": 76,
+        "nodes": 1461660,
+        "score": 125,
+        "target_ms": 1805
+      },
+      "fen_after": "6k1/5pp1/5q1p/p7/P2PQ3/7P/5PR1/2r3K1 w - - 1 45",
+      "material_after": {
+        "white": {
+          "points": 18,
+          "pawns": [
+            "f2",
+            "h3",
+            "a4",
+            "d4"
+          ],
+          "king": "g1"
+        },
+        "black": {
+          "points": 18,
+          "pawns": [
+            "a5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 79,
+      "fullmove": 45,
+      "colour": "white",
+      "san": "Kh2",
+      "uci": "g1h2",
+      "fen_before": "6k1/5pp1/5q1p/p7/P2PQ3/7P/5PR1/2r3K1 w - - 1 45",
+      "legal_move_count": 2,
+      "in_check": true,
+      "request": 40,
+      "time_left_ms": 31043,
+      "elapsed_ms": 1885.303,
+      "estimated_after_ms": 29657.697,
+      "telemetry": null,
+      "fen_after": "6k1/5pp1/5q1p/p7/P2PQ3/7P/5PRK/2r5 b - - 2 45",
+      "material_after": {
+        "white": {
+          "points": 18,
+          "pawns": [
+            "f2",
+            "h3",
+            "a4",
+            "d4"
+          ],
+          "king": "h2"
+        },
+        "black": {
+          "points": 18,
+          "pawns": [
+            "a5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 80,
+      "fullmove": 45,
+      "colour": "black",
+      "san": "Rc4",
+      "uci": "c1c4",
+      "fen_before": "6k1/5pp1/5q1p/p7/P2PQ3/7P/5PRK/2r5 b - - 2 45",
+      "legal_move_count": 35,
+      "in_check": false,
+      "request": 40,
+      "time_left_ms": 35274,
+      "elapsed_ms": 1704.171,
+      "estimated_after_ms": 34069.829,
+      "telemetry": {
+        "depth": 18,
+        "elapsed_ms": 1702,
+        "game_ply": 78,
+        "nodes": 1527482,
+        "score": 119,
+        "target_ms": 1821
+      },
+      "fen_after": "6k1/5pp1/5q1p/p7/P1rPQ3/7P/5PRK/8 w - - 3 46",
+      "material_after": {
+        "white": {
+          "points": 18,
+          "pawns": [
+            "f2",
+            "h3",
+            "a4",
+            "d4"
+          ],
+          "king": "h2"
+        },
+        "black": {
+          "points": 18,
+          "pawns": [
+            "a5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 81,
+      "fullmove": 46,
+      "colour": "white",
+      "san": "Qa8+",
+      "uci": "e4a8",
+      "fen_before": "6k1/5pp1/5q1p/p7/P1rPQ3/7P/5PRK/8 w - - 3 46",
+      "legal_move_count": 34,
+      "in_check": false,
+      "request": 41,
+      "time_left_ms": 29658,
+      "elapsed_ms": 1007.623,
+      "estimated_after_ms": 29150.377,
+      "telemetry": null,
+      "fen_after": "Q5k1/5pp1/5q1p/p7/P1rP4/7P/5PRK/8 b - - 4 46",
+      "material_after": {
+        "white": {
+          "points": 18,
+          "pawns": [
+            "f2",
+            "h3",
+            "a4",
+            "d4"
+          ],
+          "king": "h2"
+        },
+        "black": {
+          "points": 18,
+          "pawns": [
+            "a5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 82,
+      "fullmove": 46,
+      "colour": "black",
+      "san": "Kh7",
+      "uci": "g8h7",
+      "fen_before": "Q5k1/5pp1/5q1p/p7/P1rP4/7P/5PRK/8 b - - 4 46",
+      "legal_move_count": 3,
+      "in_check": true,
+      "request": 41,
+      "time_left_ms": 34070,
+      "elapsed_ms": 3253.222,
+      "estimated_after_ms": 31316.778,
+      "telemetry": {
+        "depth": 19,
+        "elapsed_ms": 3251,
+        "game_ply": 80,
+        "nodes": 3052835,
+        "score": 153,
+        "target_ms": 3547
+      },
+      "fen_after": "Q7/5ppk/5q1p/p7/P1rP4/7P/5PRK/8 w - - 5 47",
+      "material_after": {
+        "white": {
+          "points": 18,
+          "pawns": [
+            "f2",
+            "h3",
+            "a4",
+            "d4"
+          ],
+          "king": "h2"
+        },
+        "black": {
+          "points": 18,
+          "pawns": [
+            "a5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "h7"
+        }
+      }
+    },
+    {
+      "ply": 83,
+      "fullmove": 47,
+      "colour": "white",
+      "san": "Qe4+",
+      "uci": "a8e4",
+      "fen_before": "Q7/5ppk/5q1p/p7/P1rP4/7P/5PRK/8 w - - 5 47",
+      "legal_move_count": 28,
+      "in_check": false,
+      "request": 42,
+      "time_left_ms": 29150,
+      "elapsed_ms": 1698.767,
+      "estimated_after_ms": 27951.233,
+      "telemetry": null,
+      "fen_after": "8/5ppk/5q1p/p7/P1rPQ3/7P/5PRK/8 b - - 6 47",
+      "material_after": {
+        "white": {
+          "points": 18,
+          "pawns": [
+            "f2",
+            "h3",
+            "a4",
+            "d4"
+          ],
+          "king": "h2"
+        },
+        "black": {
+          "points": 18,
+          "pawns": [
+            "a5",
+            "h6",
+            "f7",
+            "g7"
+          ],
+          "king": "h7"
+        }
+      }
+    },
+    {
+      "ply": 84,
+      "fullmove": 47,
+      "colour": "black",
+      "san": "g6",
+      "uci": "g7g6",
+      "fen_before": "8/5ppk/5q1p/p7/P1rPQ3/7P/5PRK/8 b - - 6 47",
+      "legal_move_count": 5,
+      "in_check": true,
+      "request": 42,
+      "time_left_ms": 31317,
+      "elapsed_ms": 5549.361,
+      "estimated_after_ms": 26267.639,
+      "telemetry": {
+        "depth": 20,
+        "elapsed_ms": 5548,
+        "game_ply": 82,
+        "nodes": 6013854,
+        "score": 198,
+        "target_ms": 3550
+      },
+      "fen_after": "8/5p1k/5qpp/p7/P1rPQ3/7P/5PRK/8 w - - 0 48",
+      "material_after": {
+        "white": {
+          "points": 18,
+          "pawns": [
+            "f2",
+            "h3",
+            "a4",
+            "d4"
+          ],
+          "king": "h2"
+        },
+        "black": {
+          "points": 18,
+          "pawns": [
+            "a5",
+            "g6",
+            "h6",
+            "f7"
+          ],
+          "king": "h7"
+        }
+      }
+    },
+    {
+      "ply": 85,
+      "fullmove": 48,
+      "colour": "white",
+      "san": "Qe5",
+      "uci": "e4e5",
+      "fen_before": "8/5p1k/5qpp/p7/P1rPQ3/7P/5PRK/8 w - - 0 48",
+      "legal_move_count": 32,
+      "in_check": false,
+      "request": 43,
+      "time_left_ms": 27951,
+      "elapsed_ms": 1127.545,
+      "estimated_after_ms": 27323.455,
+      "telemetry": null,
+      "fen_after": "8/5p1k/5qpp/p3Q3/P1rP4/7P/5PRK/8 b - - 1 48",
+      "material_after": {
+        "white": {
+          "points": 18,
+          "pawns": [
+            "f2",
+            "h3",
+            "a4",
+            "d4"
+          ],
+          "king": "h2"
+        },
+        "black": {
+          "points": 18,
+          "pawns": [
+            "a5",
+            "g6",
+            "h6",
+            "f7"
+          ],
+          "king": "h7"
+        }
+      }
+    },
+    {
+      "ply": 86,
+      "fullmove": 48,
+      "colour": "black",
+      "san": "Qxe5+",
+      "uci": "f6e5",
+      "fen_before": "8/5p1k/5qpp/p3Q3/P1rP4/7P/5PRK/8 b - - 1 48",
+      "legal_move_count": 31,
+      "in_check": false,
+      "request": 43,
+      "time_left_ms": 26267,
+      "elapsed_ms": 1599.334,
+      "estimated_after_ms": 25167.666,
+      "telemetry": {
+        "depth": 20,
+        "elapsed_ms": 1598,
+        "game_ply": 84,
+        "nodes": 1902794,
+        "score": 199,
+        "target_ms": 1361
+      },
+      "fen_after": "8/5p1k/6pp/p3q3/P1rP4/7P/5PRK/8 w - - 0 49",
+      "material_after": {
+        "white": {
+          "points": 9,
+          "pawns": [
+            "f2",
+            "h3",
+            "a4",
+            "d4"
+          ],
+          "king": "h2"
+        },
+        "black": {
+          "points": 18,
+          "pawns": [
+            "a5",
+            "g6",
+            "h6",
+            "f7"
+          ],
+          "king": "h7"
+        }
+      }
+    },
+    {
+      "ply": 87,
+      "fullmove": 49,
+      "colour": "white",
+      "san": "dxe5",
+      "uci": "d4e5",
+      "fen_before": "8/5p1k/6pp/p3q3/P1rP4/7P/5PRK/8 w - - 0 49",
+      "legal_move_count": 5,
+      "in_check": true,
+      "request": 44,
+      "time_left_ms": 27323,
+      "elapsed_ms": 926.924,
+      "estimated_after_ms": 26896.076,
+      "telemetry": null,
+      "fen_after": "8/5p1k/6pp/p3P3/P1r5/7P/5PRK/8 b - - 0 49",
+      "material_after": {
+        "white": {
+          "points": 9,
+          "pawns": [
+            "f2",
+            "h3",
+            "a4",
+            "e5"
+          ],
+          "king": "h2"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a5",
+            "g6",
+            "h6",
+            "f7"
+          ],
+          "king": "h7"
+        }
+      }
+    },
+    {
+      "ply": 88,
+      "fullmove": 49,
+      "colour": "black",
+      "san": "Rxa4",
+      "uci": "c4a4",
+      "fen_before": "8/5p1k/6pp/p3P3/P1r5/7P/5PRK/8 b - - 0 49",
+      "legal_move_count": 21,
+      "in_check": false,
+      "request": 44,
+      "time_left_ms": 25168,
+      "elapsed_ms": 1182.605,
+      "estimated_after_ms": 24485.395,
+      "telemetry": {
+        "depth": 20,
+        "elapsed_ms": 1181,
+        "game_ply": 86,
+        "nodes": 1520900,
+        "score": 200,
+        "target_ms": 1785
+      },
+      "fen_after": "8/5p1k/6pp/p3P3/r7/7P/5PRK/8 w - - 0 50",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f2",
+            "h3",
+            "e5"
+          ],
+          "king": "h2"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a5",
+            "g6",
+            "h6",
+            "f7"
+          ],
+          "king": "h7"
+        }
+      }
+    },
+    {
+      "ply": 89,
+      "fullmove": 50,
+      "colour": "white",
+      "san": "f3",
+      "uci": "f2f3",
+      "fen_before": "8/5p1k/6pp/p3P3/r7/7P/5PRK/8 w - - 0 50",
+      "legal_move_count": 12,
+      "in_check": false,
+      "request": 45,
+      "time_left_ms": 26896,
+      "elapsed_ms": 903.17,
+      "estimated_after_ms": 26492.83,
+      "telemetry": null,
+      "fen_after": "8/5p1k/6pp/p3P3/r7/5P1P/6RK/8 b - - 0 50",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h3",
+            "e5"
+          ],
+          "king": "h2"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a5",
+            "g6",
+            "h6",
+            "f7"
+          ],
+          "king": "h7"
+        }
+      }
+    },
+    {
+      "ply": 90,
+      "fullmove": 50,
+      "colour": "black",
+      "san": "Ra1",
+      "uci": "a4a1",
+      "fen_before": "8/5p1k/6pp/p3P3/r7/5P1P/6RK/8 b - - 0 50",
+      "legal_move_count": 17,
+      "in_check": false,
+      "request": 45,
+      "time_left_ms": 24485,
+      "elapsed_ms": 2030.239,
+      "estimated_after_ms": 22954.761,
+      "telemetry": {
+        "depth": 21,
+        "elapsed_ms": 2028,
+        "game_ply": 88,
+        "nodes": 2816995,
+        "score": 230,
+        "target_ms": 1846
+      },
+      "fen_after": "8/5p1k/6pp/p3P3/8/5P1P/6RK/r7 w - - 1 51",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h3",
+            "e5"
+          ],
+          "king": "h2"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a5",
+            "g6",
+            "h6",
+            "f7"
+          ],
+          "king": "h7"
+        }
+      }
+    },
+    {
+      "ply": 91,
+      "fullmove": 51,
+      "colour": "white",
+      "san": "Rc2",
+      "uci": "g2c2",
+      "fen_before": "8/5p1k/6pp/p3P3/8/5P1P/6RK/r7 w - - 1 51",
+      "legal_move_count": 15,
+      "in_check": false,
+      "request": 46,
+      "time_left_ms": 26493,
+      "elapsed_ms": 1158.671,
+      "estimated_after_ms": 25834.329,
+      "telemetry": null,
+      "fen_after": "8/5p1k/6pp/p3P3/8/5P1P/2R4K/r7 b - - 2 51",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h3",
+            "e5"
+          ],
+          "king": "h2"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a5",
+            "g6",
+            "h6",
+            "f7"
+          ],
+          "king": "h7"
+        }
+      }
+    },
+    {
+      "ply": 92,
+      "fullmove": 51,
+      "colour": "black",
+      "san": "a4",
+      "uci": "a5a4",
+      "fen_before": "8/5p1k/6pp/p3P3/8/5P1P/2R4K/r7 b - - 2 51",
+      "legal_move_count": 18,
+      "in_check": false,
+      "request": 46,
+      "time_left_ms": 22955,
+      "elapsed_ms": 3639.407,
+      "estimated_after_ms": 19815.593,
+      "telemetry": {
+        "depth": 22,
+        "elapsed_ms": 3638,
+        "game_ply": 90,
+        "nodes": 4628709,
+        "score": 247,
+        "target_ms": 1710
+      },
+      "fen_after": "8/5p1k/6pp/4P3/p7/5P1P/2R4K/r7 w - - 0 52",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h3",
+            "e5"
+          ],
+          "king": "h2"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a4",
+            "g6",
+            "h6",
+            "f7"
+          ],
+          "king": "h7"
+        }
+      }
+    },
+    {
+      "ply": 93,
+      "fullmove": 52,
+      "colour": "white",
+      "san": "Rc7",
+      "uci": "c2c7",
+      "fen_before": "8/5p1k/6pp/4P3/p7/5P1P/2R4K/r7 w - - 0 52",
+      "legal_move_count": 18,
+      "in_check": false,
+      "request": 47,
+      "time_left_ms": 25835,
+      "elapsed_ms": 1095.051,
+      "estimated_after_ms": 25239.949,
+      "telemetry": null,
+      "fen_after": "8/2R2p1k/6pp/4P3/p7/5P1P/7K/r7 b - - 1 52",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h3",
+            "e5"
+          ],
+          "king": "h2"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a4",
+            "g6",
+            "h6",
+            "f7"
+          ],
+          "king": "h7"
+        }
+      }
+    },
+    {
+      "ply": 94,
+      "fullmove": 52,
+      "colour": "black",
+      "san": "Kg8",
+      "uci": "h7g8",
+      "fen_before": "8/2R2p1k/6pp/4P3/p7/5P1P/7K/r7 b - - 1 52",
+      "legal_move_count": 15,
+      "in_check": false,
+      "request": 47,
+      "time_left_ms": 19816,
+      "elapsed_ms": 7143.051,
+      "estimated_after_ms": 13172.949,
+      "telemetry": {
+        "depth": 20,
+        "elapsed_ms": 7141,
+        "game_ply": 92,
+        "nodes": 8654848,
+        "score": 247,
+        "target_ms": 1441
+      },
+      "fen_after": "6k1/2R2p2/6pp/4P3/p7/5P1P/7K/r7 w - - 2 53",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h3",
+            "e5"
+          ],
+          "king": "h2"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a4",
+            "g6",
+            "h6",
+            "f7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 95,
+      "fullmove": 53,
+      "colour": "white",
+      "san": "Rc8+",
+      "uci": "c7c8",
+      "fen_before": "6k1/2R2p2/6pp/4P3/p7/5P1P/7K/r7 w - - 2 53",
+      "legal_move_count": 17,
+      "in_check": false,
+      "request": 48,
+      "time_left_ms": 25239,
+      "elapsed_ms": 908.104,
+      "estimated_after_ms": 24830.896,
+      "telemetry": null,
+      "fen_after": "2R3k1/5p2/6pp/4P3/p7/5P1P/7K/r7 b - - 3 53",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h3",
+            "e5"
+          ],
+          "king": "h2"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a4",
+            "g6",
+            "h6",
+            "f7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 96,
+      "fullmove": 53,
+      "colour": "black",
+      "san": "Kg7",
+      "uci": "g8g7",
+      "fen_before": "2R3k1/5p2/6pp/4P3/p7/5P1P/7K/r7 b - - 3 53",
+      "legal_move_count": 2,
+      "in_check": true,
+      "request": 48,
+      "time_left_ms": 13173,
+      "elapsed_ms": 850.714,
+      "estimated_after_ms": 12822.286,
+      "telemetry": {
+        "depth": 20,
+        "elapsed_ms": 849,
+        "game_ply": 94,
+        "nodes": 1044129,
+        "score": 221,
+        "target_ms": 1101
+      },
+      "fen_after": "2R5/5pk1/6pp/4P3/p7/5P1P/7K/r7 w - - 4 54",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h3",
+            "e5"
+          ],
+          "king": "h2"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a4",
+            "g6",
+            "h6",
+            "f7"
+          ],
+          "king": "g7"
+        }
+      }
+    },
+    {
+      "ply": 97,
+      "fullmove": 54,
+      "colour": "white",
+      "san": "Kg3",
+      "uci": "h2g3",
+      "fen_before": "2R5/5pk1/6pp/4P3/p7/5P1P/7K/r7 w - - 4 54",
+      "legal_move_count": 19,
+      "in_check": false,
+      "request": 49,
+      "time_left_ms": 24831,
+      "elapsed_ms": 1619.495,
+      "estimated_after_ms": 23711.505,
+      "telemetry": null,
+      "fen_after": "2R5/5pk1/6pp/4P3/p7/5PKP/8/r7 b - - 5 54",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h3",
+            "e5"
+          ],
+          "king": "g3"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a4",
+            "g6",
+            "h6",
+            "f7"
+          ],
+          "king": "g7"
+        }
+      }
+    },
+    {
+      "ply": 98,
+      "fullmove": 54,
+      "colour": "black",
+      "san": "a3",
+      "uci": "a4a3",
+      "fen_before": "2R5/5pk1/6pp/4P3/p7/5PKP/8/r7 b - - 5 54",
+      "legal_move_count": 15,
+      "in_check": false,
+      "request": 49,
+      "time_left_ms": 12822,
+      "elapsed_ms": 947.543,
+      "estimated_after_ms": 12374.457,
+      "telemetry": {
+        "depth": 19,
+        "elapsed_ms": 946,
+        "game_ply": 96,
+        "nodes": 1087613,
+        "score": 250,
+        "target_ms": 997
+      },
+      "fen_after": "2R5/5pk1/6pp/4P3/8/p4PKP/8/r7 w - - 0 55",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h3",
+            "e5"
+          ],
+          "king": "g3"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a3",
+            "g6",
+            "h6",
+            "f7"
+          ],
+          "king": "g7"
+        }
+      }
+    },
+    {
+      "ply": 99,
+      "fullmove": 55,
+      "colour": "white",
+      "san": "Ra8",
+      "uci": "c8a8",
+      "fen_before": "2R5/5pk1/6pp/4P3/8/p4PKP/8/r7 w - - 0 55",
+      "legal_move_count": 23,
+      "in_check": false,
+      "request": 50,
+      "time_left_ms": 23712,
+      "elapsed_ms": 1005.617,
+      "estimated_after_ms": 23206.383,
+      "telemetry": null,
+      "fen_after": "R7/5pk1/6pp/4P3/8/p4PKP/8/r7 b - - 1 55",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h3",
+            "e5"
+          ],
+          "king": "g3"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a3",
+            "g6",
+            "h6",
+            "f7"
+          ],
+          "king": "g7"
+        }
+      }
+    },
+    {
+      "ply": 100,
+      "fullmove": 55,
+      "colour": "black",
+      "san": "a2",
+      "uci": "a3a2",
+      "fen_before": "R7/5pk1/6pp/4P3/8/p4PKP/8/r7 b - - 1 55",
+      "legal_move_count": 14,
+      "in_check": false,
+      "request": 50,
+      "time_left_ms": 12374,
+      "elapsed_ms": 1628.4,
+      "estimated_after_ms": 11245.6,
+      "telemetry": {
+        "depth": 17,
+        "elapsed_ms": 1627,
+        "game_ply": 98,
+        "nodes": 1942446,
+        "score": 210,
+        "target_ms": 2298
+      },
+      "fen_after": "R7/5pk1/6pp/4P3/8/5PKP/p7/r7 w - - 0 56",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h3",
+            "e5"
+          ],
+          "king": "g3"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "g6",
+            "h6",
+            "f7"
+          ],
+          "king": "g7"
+        }
+      }
+    },
+    {
+      "ply": 101,
+      "fullmove": 56,
+      "colour": "white",
+      "san": "Kf4",
+      "uci": "g3f4",
+      "fen_before": "R7/5pk1/6pp/4P3/8/5PKP/p7/r7 w - - 0 56",
+      "legal_move_count": 22,
+      "in_check": false,
+      "request": 51,
+      "time_left_ms": 23206,
+      "elapsed_ms": 809.264,
+      "estimated_after_ms": 22896.736,
+      "telemetry": null,
+      "fen_after": "R7/5pk1/6pp/4P3/5K2/5P1P/p7/r7 b - - 1 56",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h3",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "g6",
+            "h6",
+            "f7"
+          ],
+          "king": "g7"
+        }
+      }
+    },
+    {
+      "ply": 102,
+      "fullmove": 56,
+      "colour": "black",
+      "san": "Kh7",
+      "uci": "g7h7",
+      "fen_before": "R7/5pk1/6pp/4P3/5K2/5P1P/p7/r7 b - - 1 56",
+      "legal_move_count": 12,
+      "in_check": false,
+      "request": 51,
+      "time_left_ms": 11246,
+      "elapsed_ms": 1491.802,
+      "estimated_after_ms": 10254.198,
+      "telemetry": {
+        "depth": 18,
+        "elapsed_ms": 1490,
+        "game_ply": 100,
+        "nodes": 1813962,
+        "score": 256,
+        "target_ms": 1566
+      },
+      "fen_after": "R7/5p1k/6pp/4P3/5K2/5P1P/p7/r7 w - - 2 57",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h3",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "g6",
+            "h6",
+            "f7"
+          ],
+          "king": "h7"
+        }
+      }
+    },
+    {
+      "ply": 103,
+      "fullmove": 57,
+      "colour": "white",
+      "san": "Ra7",
+      "uci": "a8a7",
+      "fen_before": "R7/5p1k/6pp/4P3/5K2/5P1P/p7/r7 w - - 2 57",
+      "legal_move_count": 19,
+      "in_check": false,
+      "request": 52,
+      "time_left_ms": 22897,
+      "elapsed_ms": 880.616,
+      "estimated_after_ms": 22516.384,
+      "telemetry": null,
+      "fen_after": "8/R4p1k/6pp/4P3/5K2/5P1P/p7/r7 b - - 3 57",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h3",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "g6",
+            "h6",
+            "f7"
+          ],
+          "king": "h7"
+        }
+      }
+    },
+    {
+      "ply": 104,
+      "fullmove": 57,
+      "colour": "black",
+      "san": "Kg8",
+      "uci": "h7g8",
+      "fen_before": "8/R4p1k/6pp/4P3/5K2/5P1P/p7/r7 b - - 3 57",
+      "legal_move_count": 12,
+      "in_check": false,
+      "request": 52,
+      "time_left_ms": 10254,
+      "elapsed_ms": 1456.257,
+      "estimated_after_ms": 9297.743,
+      "telemetry": {
+        "depth": 19,
+        "elapsed_ms": 1455,
+        "game_ply": 102,
+        "nodes": 1685944,
+        "score": 255,
+        "target_ms": 839
+      },
+      "fen_after": "6k1/R4p2/6pp/4P3/5K2/5P1P/p7/r7 w - - 4 58",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h3",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "g6",
+            "h6",
+            "f7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 105,
+      "fullmove": 58,
+      "colour": "white",
+      "san": "h4",
+      "uci": "h3h4",
+      "fen_before": "6k1/R4p2/6pp/4P3/5K2/5P1P/p7/r7 w - - 4 58",
+      "legal_move_count": 17,
+      "in_check": false,
+      "request": 53,
+      "time_left_ms": 22516,
+      "elapsed_ms": 836.128,
+      "estimated_after_ms": 22179.872,
+      "telemetry": null,
+      "fen_after": "6k1/R4p2/6pp/4P3/5K1P/5P2/p7/r7 b - - 0 58",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "g6",
+            "h6",
+            "f7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 106,
+      "fullmove": 58,
+      "colour": "black",
+      "san": "h5",
+      "uci": "h6h5",
+      "fen_before": "6k1/R4p2/6pp/4P3/5K1P/5P2/p7/r7 b - - 0 58",
+      "legal_move_count": 15,
+      "in_check": false,
+      "request": 53,
+      "time_left_ms": 9298,
+      "elapsed_ms": 1197.197,
+      "estimated_after_ms": 8600.803,
+      "telemetry": {
+        "depth": 16,
+        "elapsed_ms": 1195,
+        "game_ply": 104,
+        "nodes": 1341134,
+        "score": 255,
+        "target_ms": 943
+      },
+      "fen_after": "6k1/R4p2/6p1/4P2p/5K1P/5P2/p7/r7 w - - 0 59",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 107,
+      "fullmove": 59,
+      "colour": "white",
+      "san": "Ra8+",
+      "uci": "a7a8",
+      "fen_before": "6k1/R4p2/6p1/4P2p/5K1P/5P2/p7/r7 w - - 0 59",
+      "legal_move_count": 16,
+      "in_check": false,
+      "request": 54,
+      "time_left_ms": 22180,
+      "elapsed_ms": 1281.456,
+      "estimated_after_ms": 21398.544,
+      "telemetry": null,
+      "fen_after": "R5k1/5p2/6p1/4P2p/5K1P/5P2/p7/r7 b - - 1 59",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 108,
+      "fullmove": 59,
+      "colour": "black",
+      "san": "Kg7",
+      "uci": "g8g7",
+      "fen_before": "R5k1/5p2/6p1/4P2p/5K1P/5P2/p7/r7 b - - 1 59",
+      "legal_move_count": 2,
+      "in_check": true,
+      "request": 54,
+      "time_left_ms": 8600,
+      "elapsed_ms": 570.386,
+      "estimated_after_ms": 8529.614,
+      "telemetry": {
+        "depth": 19,
+        "elapsed_ms": 569,
+        "game_ply": 106,
+        "nodes": 534966,
+        "score": 255,
+        "target_ms": 787
+      },
+      "fen_after": "R7/5pk1/6p1/4P2p/5K1P/5P2/p7/r7 w - - 2 60",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "g7"
+        }
+      }
+    },
+    {
+      "ply": 109,
+      "fullmove": 60,
+      "colour": "white",
+      "san": "Ra7",
+      "uci": "a8a7",
+      "fen_before": "R7/5pk1/6p1/4P2p/5K1P/5P2/p7/r7 w - - 2 60",
+      "legal_move_count": 18,
+      "in_check": false,
+      "request": 55,
+      "time_left_ms": 21399,
+      "elapsed_ms": 1054.109,
+      "estimated_after_ms": 20844.891,
+      "telemetry": null,
+      "fen_after": "8/R4pk1/6p1/4P2p/5K1P/5P2/p7/r7 b - - 3 60",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "g7"
+        }
+      }
+    },
+    {
+      "ply": 110,
+      "fullmove": 60,
+      "colour": "black",
+      "san": "Kf8",
+      "uci": "g7f8",
+      "fen_before": "8/R4pk1/6p1/4P2p/5K1P/5P2/p7/r7 b - - 3 60",
+      "legal_move_count": 13,
+      "in_check": false,
+      "request": 55,
+      "time_left_ms": 8530,
+      "elapsed_ms": 478.048,
+      "estimated_after_ms": 8551.952000000001,
+      "telemetry": {
+        "depth": 20,
+        "elapsed_ms": 476,
+        "game_ply": 108,
+        "nodes": 511975,
+        "score": 255,
+        "target_ms": 725
+      },
+      "fen_after": "5k2/R4p2/6p1/4P2p/5K1P/5P2/p7/r7 w - - 4 61",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "f8"
+        }
+      }
+    },
+    {
+      "ply": 111,
+      "fullmove": 61,
+      "colour": "white",
+      "san": "Ra8+",
+      "uci": "a7a8",
+      "fen_before": "5k2/R4p2/6p1/4P2p/5K1P/5P2/p7/r7 w - - 4 61",
+      "legal_move_count": 16,
+      "in_check": false,
+      "request": 56,
+      "time_left_ms": 20844,
+      "elapsed_ms": 1332.258,
+      "estimated_after_ms": 20011.742,
+      "telemetry": null,
+      "fen_after": "R4k2/5p2/6p1/4P2p/5K1P/5P2/p7/r7 b - - 5 61",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "f8"
+        }
+      }
+    },
+    {
+      "ply": 112,
+      "fullmove": 61,
+      "colour": "black",
+      "san": "Ke7",
+      "uci": "f8e7",
+      "fen_before": "R4k2/5p2/6p1/4P2p/5K1P/5P2/p7/r7 b - - 5 61",
+      "legal_move_count": 2,
+      "in_check": true,
+      "request": 56,
+      "time_left_ms": 8552,
+      "elapsed_ms": 0.799,
+      "estimated_after_ms": 9051.201,
+      "telemetry": null,
+      "fen_after": "R7/4kp2/6p1/4P2p/5K1P/5P2/p7/r7 w - - 6 62",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "e7"
+        }
+      }
+    },
+    {
+      "ply": 113,
+      "fullmove": 62,
+      "colour": "white",
+      "san": "Ra6",
+      "uci": "a8a6",
+      "fen_before": "R7/4kp2/6p1/4P2p/5K1P/5P2/p7/r7 w - - 6 62",
+      "legal_move_count": 18,
+      "in_check": false,
+      "request": 57,
+      "time_left_ms": 20012,
+      "elapsed_ms": 1247.704,
+      "estimated_after_ms": 19264.296,
+      "telemetry": null,
+      "fen_after": "8/4kp2/R5p1/4P2p/5K1P/5P2/p7/r7 b - - 7 62",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "e7"
+        }
+      }
+    },
+    {
+      "ply": 114,
+      "fullmove": 62,
+      "colour": "black",
+      "san": "Kd7",
+      "uci": "e7d7",
+      "fen_before": "8/4kp2/R5p1/4P2p/5K1P/5P2/p7/r7 b - - 7 62",
+      "legal_move_count": 14,
+      "in_check": false,
+      "request": 57,
+      "time_left_ms": 9051,
+      "elapsed_ms": 1496.52,
+      "estimated_after_ms": 8054.48,
+      "telemetry": {
+        "depth": 20,
+        "elapsed_ms": 1495,
+        "game_ply": 112,
+        "nodes": 1621802,
+        "score": 256,
+        "target_ms": 759
+      },
+      "fen_after": "8/3k1p2/R5p1/4P2p/5K1P/5P2/p7/r7 w - - 8 63",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "d7"
+        }
+      }
+    },
+    {
+      "ply": 115,
+      "fullmove": 63,
+      "colour": "white",
+      "san": "Ra3",
+      "uci": "a6a3",
+      "fen_before": "8/3k1p2/R5p1/4P2p/5K1P/5P2/p7/r7 w - - 8 63",
+      "legal_move_count": 17,
+      "in_check": false,
+      "request": 58,
+      "time_left_ms": 19264,
+      "elapsed_ms": 1216.486,
+      "estimated_after_ms": 18547.514,
+      "telemetry": null,
+      "fen_after": "8/3k1p2/6p1/4P2p/5K1P/R4P2/p7/r7 b - - 9 63",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "d7"
+        }
+      }
+    },
+    {
+      "ply": 116,
+      "fullmove": 63,
+      "colour": "black",
+      "san": "Kc7",
+      "uci": "d7c7",
+      "fen_before": "8/3k1p2/6p1/4P2p/5K1P/R4P2/p7/r7 b - - 9 63",
+      "legal_move_count": 17,
+      "in_check": false,
+      "request": 58,
+      "time_left_ms": 8055,
+      "elapsed_ms": 579.056,
+      "estimated_after_ms": 7975.9439999999995,
+      "telemetry": {
+        "depth": 19,
+        "elapsed_ms": 577,
+        "game_ply": 114,
+        "nodes": 616672,
+        "score": 256,
+        "target_ms": 694
+      },
+      "fen_after": "8/2k2p2/6p1/4P2p/5K1P/R4P2/p7/r7 w - - 10 64",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "c7"
+        }
+      }
+    },
+    {
+      "ply": 117,
+      "fullmove": 64,
+      "colour": "white",
+      "san": "Ra4",
+      "uci": "a3a4",
+      "fen_before": "8/2k2p2/6p1/4P2p/5K1P/R4P2/p7/r7 w - - 10 64",
+      "legal_move_count": 15,
+      "in_check": false,
+      "request": 59,
+      "time_left_ms": 18548,
+      "elapsed_ms": 1182.884,
+      "estimated_after_ms": 17865.116,
+      "telemetry": null,
+      "fen_after": "8/2k2p2/6p1/4P2p/R4K1P/5P2/p7/r7 b - - 11 64",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "c7"
+        }
+      }
+    },
+    {
+      "ply": 118,
+      "fullmove": 64,
+      "colour": "black",
+      "san": "Kb6",
+      "uci": "c7b6",
+      "fen_before": "8/2k2p2/6p1/4P2p/R4K1P/5P2/p7/r7 b - - 11 64",
+      "legal_move_count": 17,
+      "in_check": false,
+      "request": 59,
+      "time_left_ms": 7975,
+      "elapsed_ms": 699.75,
+      "estimated_after_ms": 7775.25,
+      "telemetry": {
+        "depth": 20,
+        "elapsed_ms": 698,
+        "game_ply": 116,
+        "nodes": 758175,
+        "score": 256,
+        "target_ms": 689
+      },
+      "fen_after": "8/5p2/1k4p1/4P2p/R4K1P/5P2/p7/r7 w - - 12 65",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "b6"
+        }
+      }
+    },
+    {
+      "ply": 119,
+      "fullmove": 65,
+      "colour": "white",
+      "san": "Ra3",
+      "uci": "a4a3",
+      "fen_before": "8/5p2/1k4p1/4P2p/R4K1P/5P2/p7/r7 w - - 12 65",
+      "legal_move_count": 15,
+      "in_check": false,
+      "request": 60,
+      "time_left_ms": 17865,
+      "elapsed_ms": 1108.317,
+      "estimated_after_ms": 17256.683,
+      "telemetry": null,
+      "fen_after": "8/5p2/1k4p1/4P2p/5K1P/R4P2/p7/r7 b - - 13 65",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "b6"
+        }
+      }
+    },
+    {
+      "ply": 120,
+      "fullmove": 65,
+      "colour": "black",
+      "san": "Kc5",
+      "uci": "b6c5",
+      "fen_before": "8/5p2/1k4p1/4P2p/5K1P/R4P2/p7/r7 b - - 13 65",
+      "legal_move_count": 15,
+      "in_check": false,
+      "request": 60,
+      "time_left_ms": 7776,
+      "elapsed_ms": 876.99,
+      "estimated_after_ms": 7399.01,
+      "telemetry": {
+        "depth": 20,
+        "elapsed_ms": 875,
+        "game_ply": 118,
+        "nodes": 821145,
+        "score": 256,
+        "target_ms": 677
+      },
+      "fen_after": "8/5p2/6p1/2k1P2p/5K1P/R4P2/p7/r7 w - - 14 66",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "c5"
+        }
+      }
+    },
+    {
+      "ply": 121,
+      "fullmove": 66,
+      "colour": "white",
+      "san": "Ra5+",
+      "uci": "a3a5",
+      "fen_before": "8/5p2/6p1/2k1P2p/5K1P/R4P2/p7/r7 w - - 14 66",
+      "legal_move_count": 15,
+      "in_check": false,
+      "request": 61,
+      "time_left_ms": 17257,
+      "elapsed_ms": 1815.343,
+      "estimated_after_ms": 15941.657,
+      "telemetry": null,
+      "fen_after": "8/5p2/6p1/R1k1P2p/5K1P/5P2/p7/r7 b - - 15 66",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "c5"
+        }
+      }
+    },
+    {
+      "ply": 122,
+      "fullmove": 66,
+      "colour": "black",
+      "san": "Kc4",
+      "uci": "c5c4",
+      "fen_before": "8/5p2/6p1/R1k1P2p/5K1P/5P2/p7/r7 b - - 15 66",
+      "legal_move_count": 5,
+      "in_check": true,
+      "request": 61,
+      "time_left_ms": 7399,
+      "elapsed_ms": 832.355,
+      "estimated_after_ms": 7066.645,
+      "telemetry": {
+        "depth": 20,
+        "elapsed_ms": 831,
+        "game_ply": 120,
+        "nodes": 827765,
+        "score": 256,
+        "target_ms": 705
+      },
+      "fen_after": "8/5p2/6p1/R3P2p/2k2K1P/5P2/p7/r7 w - - 16 67",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "c4"
+        }
+      }
+    },
+    {
+      "ply": 123,
+      "fullmove": 67,
+      "colour": "white",
+      "san": "Ra7",
+      "uci": "a5a7",
+      "fen_before": "8/5p2/6p1/R3P2p/2k2K1P/5P2/p7/r7 w - - 16 67",
+      "legal_move_count": 14,
+      "in_check": false,
+      "request": 62,
+      "time_left_ms": 15941,
+      "elapsed_ms": 1153.614,
+      "estimated_after_ms": 15287.386,
+      "telemetry": null,
+      "fen_after": "8/R4p2/6p1/4P2p/2k2K1P/5P2/p7/r7 b - - 17 67",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "c4"
+        }
+      }
+    },
+    {
+      "ply": 124,
+      "fullmove": 67,
+      "colour": "black",
+      "san": "Kd5",
+      "uci": "c4d5",
+      "fen_before": "8/R4p2/6p1/4P2p/2k2K1P/5P2/p7/r7 b - - 17 67",
+      "legal_move_count": 18,
+      "in_check": false,
+      "request": 62,
+      "time_left_ms": 7066,
+      "elapsed_ms": 580.879,
+      "estimated_after_ms": 6985.121,
+      "telemetry": {
+        "depth": 17,
+        "elapsed_ms": 579,
+        "game_ply": 122,
+        "nodes": 459431,
+        "score": 256,
+        "target_ms": 632
+      },
+      "fen_after": "8/R4p2/6p1/3kP2p/5K1P/5P2/p7/r7 w - - 18 68",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "d5"
+        }
+      }
+    },
+    {
+      "ply": 125,
+      "fullmove": 68,
+      "colour": "white",
+      "san": "Ra4",
+      "uci": "a7a4",
+      "fen_before": "8/R4p2/6p1/3kP2p/5K1P/5P2/p7/r7 w - - 18 68",
+      "legal_move_count": 15,
+      "in_check": false,
+      "request": 63,
+      "time_left_ms": 15287,
+      "elapsed_ms": 864.963,
+      "estimated_after_ms": 14922.037,
+      "telemetry": null,
+      "fen_after": "8/5p2/6p1/3kP2p/R4K1P/5P2/p7/r7 b - - 19 68",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "d5"
+        }
+      }
+    },
+    {
+      "ply": 126,
+      "fullmove": 68,
+      "colour": "black",
+      "san": "Kc6",
+      "uci": "d5c6",
+      "fen_before": "8/5p2/6p1/3kP2p/R4K1P/5P2/p7/r7 b - - 19 68",
+      "legal_move_count": 13,
+      "in_check": false,
+      "request": 63,
+      "time_left_ms": 6985,
+      "elapsed_ms": 1164.419,
+      "estimated_after_ms": 6320.581,
+      "telemetry": {
+        "depth": 18,
+        "elapsed_ms": 1162,
+        "game_ply": 124,
+        "nodes": 1024880,
+        "score": 256,
+        "target_ms": 626
+      },
+      "fen_after": "8/5p2/2k3p1/4P2p/R4K1P/5P2/p7/r7 w - - 20 69",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "c6"
+        }
+      }
+    },
+    {
+      "ply": 127,
+      "fullmove": 69,
+      "colour": "white",
+      "san": "Ra5",
+      "uci": "a4a5",
+      "fen_before": "8/5p2/2k3p1/4P2p/R4K1P/5P2/p7/r7 w - - 20 69",
+      "legal_move_count": 15,
+      "in_check": false,
+      "request": 64,
+      "time_left_ms": 14922,
+      "elapsed_ms": 1175.032,
+      "estimated_after_ms": 14246.968,
+      "telemetry": null,
+      "fen_after": "8/5p2/2k3p1/R3P2p/5K1P/5P2/p7/r7 b - - 21 69",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "c6"
+        }
+      }
+    },
+    {
+      "ply": 128,
+      "fullmove": 69,
+      "colour": "black",
+      "san": "Kb7",
+      "uci": "c6b7",
+      "fen_before": "8/5p2/2k3p1/R3P2p/5K1P/5P2/p7/r7 b - - 21 69",
+      "legal_move_count": 14,
+      "in_check": false,
+      "request": 64,
+      "time_left_ms": 6321,
+      "elapsed_ms": 568.128,
+      "estimated_after_ms": 6252.872,
+      "telemetry": {
+        "depth": 15,
+        "elapsed_ms": 566,
+        "game_ply": 126,
+        "nodes": 637238,
+        "score": 164,
+        "target_ms": 617
+      },
+      "fen_after": "8/1k3p2/6p1/R3P2p/5K1P/5P2/p7/r7 w - - 22 70",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "b7"
+        }
+      }
+    },
+    {
+      "ply": 129,
+      "fullmove": 70,
+      "colour": "white",
+      "san": "Ra4",
+      "uci": "a5a4",
+      "fen_before": "8/1k3p2/6p1/R3P2p/5K1P/5P2/p7/r7 w - - 22 70",
+      "legal_move_count": 14,
+      "in_check": false,
+      "request": 65,
+      "time_left_ms": 14247,
+      "elapsed_ms": 1067.946,
+      "estimated_after_ms": 13679.054,
+      "telemetry": null,
+      "fen_after": "8/1k3p2/6p1/4P2p/R4K1P/5P2/p7/r7 b - - 23 70",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "b7"
+        }
+      }
+    },
+    {
+      "ply": 130,
+      "fullmove": 70,
+      "colour": "black",
+      "san": "Kc7",
+      "uci": "b7c7",
+      "fen_before": "8/1k3p2/6p1/4P2p/R4K1P/5P2/p7/r7 b - - 23 70",
+      "legal_move_count": 15,
+      "in_check": false,
+      "request": 65,
+      "time_left_ms": 6253,
+      "elapsed_ms": 952.433,
+      "estimated_after_ms": 5800.567,
+      "telemetry": {
+        "depth": 15,
+        "elapsed_ms": 950,
+        "game_ply": 128,
+        "nodes": 1030151,
+        "score": 115,
+        "target_ms": 1404
+      },
+      "fen_after": "8/2k2p2/6p1/4P2p/R4K1P/5P2/p7/r7 w - - 24 71",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "c7"
+        }
+      }
+    },
+    {
+      "ply": 131,
+      "fullmove": 71,
+      "colour": "white",
+      "san": "Ra7+",
+      "uci": "a4a7",
+      "fen_before": "8/2k2p2/6p1/4P2p/R4K1P/5P2/p7/r7 w - - 24 71",
+      "legal_move_count": 15,
+      "in_check": false,
+      "request": 66,
+      "time_left_ms": 13679,
+      "elapsed_ms": 567.827,
+      "estimated_after_ms": 13611.173,
+      "telemetry": null,
+      "fen_after": "8/R1k2p2/6p1/4P2p/5K1P/5P2/p7/r7 b - - 25 71",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "c7"
+        }
+      }
+    },
+    {
+      "ply": 132,
+      "fullmove": 71,
+      "colour": "black",
+      "san": "Kb8",
+      "uci": "c7b8",
+      "fen_before": "8/R1k2p2/6p1/4P2p/5K1P/5P2/p7/r7 b - - 25 71",
+      "legal_move_count": 5,
+      "in_check": true,
+      "request": 66,
+      "time_left_ms": 5800,
+      "elapsed_ms": 1129.445,
+      "estimated_after_ms": 5170.555,
+      "telemetry": {
+        "depth": 19,
+        "elapsed_ms": 1128,
+        "game_ply": 130,
+        "nodes": 1249837,
+        "score": 67,
+        "target_ms": 1004
+      },
+      "fen_after": "1k6/R4p2/6p1/4P2p/5K1P/5P2/p7/r7 w - - 26 72",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "b8"
+        }
+      }
+    },
+    {
+      "ply": 133,
+      "fullmove": 72,
+      "colour": "white",
+      "san": "Ra5",
+      "uci": "a7a5",
+      "fen_before": "1k6/R4p2/6p1/4P2p/5K1P/5P2/p7/r7 w - - 26 72",
+      "legal_move_count": 16,
+      "in_check": false,
+      "request": 67,
+      "time_left_ms": 13611,
+      "elapsed_ms": 886.341,
+      "estimated_after_ms": 13224.659,
+      "telemetry": null,
+      "fen_after": "1k6/5p2/6p1/R3P2p/5K1P/5P2/p7/r7 b - - 27 72",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "h5",
+            "g6",
+            "f7"
+          ],
+          "king": "b8"
+        }
+      }
+    },
+    {
+      "ply": 134,
+      "fullmove": 72,
+      "colour": "black",
+      "san": "g5+",
+      "uci": "g6g5",
+      "fen_before": "1k6/5p2/6p1/R3P2p/5K1P/5P2/p7/r7 b - - 27 72",
+      "legal_move_count": 13,
+      "in_check": false,
+      "request": 67,
+      "time_left_ms": 5171,
+      "elapsed_ms": 387.472,
+      "estimated_after_ms": 5283.528,
+      "telemetry": {
+        "depth": 15,
+        "elapsed_ms": 386,
+        "game_ply": 132,
+        "nodes": 444552,
+        "score": 56,
+        "target_ms": 518
+      },
+      "fen_after": "1k6/5p2/8/R3P1pp/5K1P/5P2/p7/r7 w - - 0 73",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "h4",
+            "e5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 9,
+          "pawns": [
+            "a2",
+            "g5",
+            "h5",
+            "f7"
+          ],
+          "king": "b8"
+        }
+      }
+    },
+    {
+      "ply": 135,
+      "fullmove": 73,
+      "colour": "white",
+      "san": "hxg5",
+      "uci": "h4g5",
+      "fen_before": "1k6/5p2/8/R3P1pp/5K1P/5P2/p7/r7 w - - 0 73",
+      "legal_move_count": 6,
+      "in_check": true,
+      "request": 68,
+      "time_left_ms": 13225,
+      "elapsed_ms": 1020.786,
+      "estimated_after_ms": 12704.214,
+      "telemetry": null,
+      "fen_after": "1k6/5p2/8/R3P1Pp/5K2/5P2/p7/r7 b - - 0 73",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "e5",
+            "g5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 8,
+          "pawns": [
+            "a2",
+            "h5",
+            "f7"
+          ],
+          "king": "b8"
+        }
+      }
+    },
+    {
+      "ply": 136,
+      "fullmove": 73,
+      "colour": "black",
+      "san": "h4",
+      "uci": "h5h4",
+      "fen_before": "1k6/5p2/8/R3P1Pp/5K2/5P2/p7/r7 b - - 0 73",
+      "legal_move_count": 13,
+      "in_check": false,
+      "request": 68,
+      "time_left_ms": 5283,
+      "elapsed_ms": 1025.313,
+      "estimated_after_ms": 4757.687,
+      "telemetry": {
+        "depth": 16,
+        "elapsed_ms": 1024,
+        "game_ply": 134,
+        "nodes": 1094818,
+        "score": 112,
+        "target_ms": 1534
+      },
+      "fen_after": "1k6/5p2/8/R3P1P1/5K1p/5P2/p7/r7 w - - 0 74",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "e5",
+            "g5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 8,
+          "pawns": [
+            "a2",
+            "h4",
+            "f7"
+          ],
+          "king": "b8"
+        }
+      }
+    },
+    {
+      "ply": 137,
+      "fullmove": 74,
+      "colour": "white",
+      "san": "e6",
+      "uci": "e5e6",
+      "fen_before": "1k6/5p2/8/R3P1P1/5K1p/5P2/p7/r7 w - - 0 74",
+      "legal_move_count": 15,
+      "in_check": false,
+      "request": 69,
+      "time_left_ms": 12704,
+      "elapsed_ms": 628.318,
+      "estimated_after_ms": 12575.682,
+      "telemetry": null,
+      "fen_after": "1k6/5p2/4P3/R5P1/5K1p/5P2/p7/r7 b - - 0 74",
+      "material_after": {
+        "white": {
+          "points": 8,
+          "pawns": [
+            "f3",
+            "g5",
+            "e6"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 8,
+          "pawns": [
+            "a2",
+            "h4",
+            "f7"
+          ],
+          "king": "b8"
+        }
+      }
+    },
+    {
+      "ply": 138,
+      "fullmove": 74,
+      "colour": "black",
+      "san": "fxe6",
+      "uci": "f7e6",
+      "fen_before": "1k6/5p2/4P3/R5P1/5K1p/5P2/p7/r7 b - - 0 74",
+      "legal_move_count": 14,
+      "in_check": false,
+      "request": 69,
+      "time_left_ms": 4758,
+      "elapsed_ms": 1087.888,
+      "estimated_after_ms": 4170.112,
+      "telemetry": {
+        "depth": 16,
+        "elapsed_ms": 1086,
+        "game_ply": 136,
+        "nodes": 1057827,
+        "score": 44,
+        "target_ms": 821
+      },
+      "fen_after": "1k6/8/4p3/R5P1/5K1p/5P2/p7/r7 w - - 0 75",
+      "material_after": {
+        "white": {
+          "points": 7,
+          "pawns": [
+            "f3",
+            "g5"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 8,
+          "pawns": [
+            "a2",
+            "h4",
+            "e6"
+          ],
+          "king": "b8"
+        }
+      }
+    },
+    {
+      "ply": 139,
+      "fullmove": 75,
+      "colour": "white",
+      "san": "g6",
+      "uci": "g5g6",
+      "fen_before": "1k6/8/4p3/R5P1/5K1p/5P2/p7/r7 w - - 0 75",
+      "legal_move_count": 16,
+      "in_check": false,
+      "request": 70,
+      "time_left_ms": 12576,
+      "elapsed_ms": 980.407,
+      "estimated_after_ms": 12095.593,
+      "telemetry": null,
+      "fen_after": "1k6/8/4p1P1/R7/5K1p/5P2/p7/r7 b - - 0 75",
+      "material_after": {
+        "white": {
+          "points": 7,
+          "pawns": [
+            "f3",
+            "g6"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 8,
+          "pawns": [
+            "a2",
+            "h4",
+            "e6"
+          ],
+          "king": "b8"
+        }
+      }
+    },
+    {
+      "ply": 140,
+      "fullmove": 75,
+      "colour": "black",
+      "san": "e5+",
+      "uci": "e6e5",
+      "fen_before": "1k6/8/4p1P1/R7/5K1p/5P2/p7/r7 b - - 0 75",
+      "legal_move_count": 12,
+      "in_check": false,
+      "request": 70,
+      "time_left_ms": 4170,
+      "elapsed_ms": 935.833,
+      "estimated_after_ms": 3734.167,
+      "telemetry": {
+        "depth": 15,
+        "elapsed_ms": 934,
+        "game_ply": 138,
+        "nodes": 868816,
+        "score": 41,
+        "target_ms": 456
+      },
+      "fen_after": "1k6/8/6P1/R3p3/5K1p/5P2/p7/r7 w - - 0 76",
+      "material_after": {
+        "white": {
+          "points": 7,
+          "pawns": [
+            "f3",
+            "g6"
+          ],
+          "king": "f4"
+        },
+        "black": {
+          "points": 8,
+          "pawns": [
+            "a2",
+            "h4",
+            "e5"
+          ],
+          "king": "b8"
+        }
+      }
+    },
+    {
+      "ply": 141,
+      "fullmove": 76,
+      "colour": "white",
+      "san": "Kf5",
+      "uci": "f4f5",
+      "fen_before": "1k6/8/6P1/R3p3/5K1p/5P2/p7/r7 w - - 0 76",
+      "legal_move_count": 7,
+      "in_check": true,
+      "request": 71,
+      "time_left_ms": 12095,
+      "elapsed_ms": 934.531,
+      "estimated_after_ms": 11660.469000000001,
+      "telemetry": null,
+      "fen_after": "1k6/8/6P1/R3pK2/7p/5P2/p7/r7 b - - 1 76",
+      "material_after": {
+        "white": {
+          "points": 7,
+          "pawns": [
+            "f3",
+            "g6"
+          ],
+          "king": "f5"
+        },
+        "black": {
+          "points": 8,
+          "pawns": [
+            "a2",
+            "h4",
+            "e5"
+          ],
+          "king": "b8"
+        }
+      }
+    },
+    {
+      "ply": 142,
+      "fullmove": 76,
+      "colour": "black",
+      "san": "h3",
+      "uci": "h4h3",
+      "fen_before": "1k6/8/6P1/R3pK2/7p/5P2/p7/r7 b - - 1 76",
+      "legal_move_count": 12,
+      "in_check": false,
+      "request": 71,
+      "time_left_ms": 3734,
+      "elapsed_ms": 408.345,
+      "estimated_after_ms": 3825.6549999999997,
+      "telemetry": {
+        "depth": 15,
+        "elapsed_ms": 407,
+        "game_ply": 140,
+        "nodes": 393390,
+        "score": 50,
+        "target_ms": 430
+      },
+      "fen_after": "1k6/8/6P1/R3pK2/8/5P1p/p7/r7 w - - 0 77",
+      "material_after": {
+        "white": {
+          "points": 7,
+          "pawns": [
+            "f3",
+            "g6"
+          ],
+          "king": "f5"
+        },
+        "black": {
+          "points": 8,
+          "pawns": [
+            "a2",
+            "h3",
+            "e5"
+          ],
+          "king": "b8"
+        }
+      }
+    },
+    {
+      "ply": 143,
+      "fullmove": 77,
+      "colour": "white",
+      "san": "Rb5+",
+      "uci": "a5b5",
+      "fen_before": "1k6/8/6P1/R3pK2/8/5P1p/p7/r7 w - - 0 77",
+      "legal_move_count": 18,
+      "in_check": false,
+      "request": 72,
+      "time_left_ms": 11661,
+      "elapsed_ms": 870.949,
+      "estimated_after_ms": 11290.051,
+      "telemetry": null,
+      "fen_after": "1k6/8/6P1/1R2pK2/8/5P1p/p7/r7 b - - 1 77",
+      "material_after": {
+        "white": {
+          "points": 7,
+          "pawns": [
+            "f3",
+            "g6"
+          ],
+          "king": "f5"
+        },
+        "black": {
+          "points": 8,
+          "pawns": [
+            "a2",
+            "h3",
+            "e5"
+          ],
+          "king": "b8"
+        }
+      }
+    },
+    {
+      "ply": 144,
+      "fullmove": 77,
+      "colour": "black",
+      "san": "Kc8",
+      "uci": "b8c8",
+      "fen_before": "1k6/8/6P1/1R2pK2/8/5P1p/p7/r7 b - - 1 77",
+      "legal_move_count": 4,
+      "in_check": true,
+      "request": 72,
+      "time_left_ms": 3826,
+      "elapsed_ms": 825.621,
+      "estimated_after_ms": 3500.379,
+      "telemetry": {
+        "depth": 15,
+        "elapsed_ms": 824,
+        "game_ply": 142,
+        "nodes": 759296,
+        "score": 0,
+        "target_ms": 1096
+      },
+      "fen_after": "2k5/8/6P1/1R2pK2/8/5P1p/p7/r7 w - - 2 78",
+      "material_after": {
+        "white": {
+          "points": 7,
+          "pawns": [
+            "f3",
+            "g6"
+          ],
+          "king": "f5"
+        },
+        "black": {
+          "points": 8,
+          "pawns": [
+            "a2",
+            "h3",
+            "e5"
+          ],
+          "king": "c8"
+        }
+      }
+    },
+    {
+      "ply": 145,
+      "fullmove": 78,
+      "colour": "white",
+      "san": "Rb2",
+      "uci": "b5b2",
+      "fen_before": "2k5/8/6P1/1R2pK2/8/5P1p/p7/r7 w - - 2 78",
+      "legal_move_count": 19,
+      "in_check": false,
+      "request": 73,
+      "time_left_ms": 11290,
+      "elapsed_ms": 714.908,
+      "estimated_after_ms": 11075.092,
+      "telemetry": null,
+      "fen_after": "2k5/8/6P1/4pK2/8/5P1p/pR6/r7 b - - 3 78",
+      "material_after": {
+        "white": {
+          "points": 7,
+          "pawns": [
+            "f3",
+            "g6"
+          ],
+          "king": "f5"
+        },
+        "black": {
+          "points": 8,
+          "pawns": [
+            "a2",
+            "h3",
+            "e5"
+          ],
+          "king": "c8"
+        }
+      }
+    },
+    {
+      "ply": 146,
+      "fullmove": 78,
+      "colour": "black",
+      "san": "e4",
+      "uci": "e5e4",
+      "fen_before": "2k5/8/6P1/4pK2/8/5P1p/pR6/r7 b - - 3 78",
+      "legal_move_count": 12,
+      "in_check": false,
+      "request": 73,
+      "time_left_ms": 3500,
+      "elapsed_ms": 388.956,
+      "estimated_after_ms": 3611.044,
+      "telemetry": {
+        "depth": 14,
+        "elapsed_ms": 387,
+        "game_ply": 144,
+        "nodes": 352889,
+        "score": 0,
+        "target_ms": 405
+      },
+      "fen_after": "2k5/8/6P1/5K2/4p3/5P1p/pR6/r7 w - - 0 79",
+      "material_after": {
+        "white": {
+          "points": 7,
+          "pawns": [
+            "f3",
+            "g6"
+          ],
+          "king": "f5"
+        },
+        "black": {
+          "points": 8,
+          "pawns": [
+            "a2",
+            "h3",
+            "e4"
+          ],
+          "king": "c8"
+        }
+      }
+    },
+    {
+      "ply": 147,
+      "fullmove": 79,
+      "colour": "white",
+      "san": "Kf6",
+      "uci": "f5f6",
+      "fen_before": "2k5/8/6P1/5K2/4p3/5P1p/pR6/r7 w - - 0 79",
+      "legal_move_count": 24,
+      "in_check": false,
+      "request": 74,
+      "time_left_ms": 11075,
+      "elapsed_ms": 649.229,
+      "estimated_after_ms": 10925.771,
+      "telemetry": null,
+      "fen_after": "2k5/8/5KP1/8/4p3/5P1p/pR6/r7 b - - 1 79",
+      "material_after": {
+        "white": {
+          "points": 7,
+          "pawns": [
+            "f3",
+            "g6"
+          ],
+          "king": "f6"
+        },
+        "black": {
+          "points": 8,
+          "pawns": [
+            "a2",
+            "h3",
+            "e4"
+          ],
+          "king": "c8"
+        }
+      }
+    },
+    {
+      "ply": 148,
+      "fullmove": 79,
+      "colour": "black",
+      "san": "Rf1",
+      "uci": "a1f1",
+      "fen_before": "2k5/8/5KP1/8/4p3/5P1p/pR6/r7 b - - 1 79",
+      "legal_move_count": 13,
+      "in_check": false,
+      "request": 74,
+      "time_left_ms": 3611,
+      "elapsed_ms": 435.43,
+      "estimated_after_ms": 3675.57,
+      "telemetry": {
+        "depth": 13,
+        "elapsed_ms": 434,
+        "game_ply": 146,
+        "nodes": 404685,
+        "score": 0,
+        "target_ms": 412
+      },
+      "fen_after": "2k5/8/5KP1/8/4p3/5P1p/pR6/5r2 w - - 2 80",
+      "material_after": {
+        "white": {
+          "points": 7,
+          "pawns": [
+            "f3",
+            "g6"
+          ],
+          "king": "f6"
+        },
+        "black": {
+          "points": 8,
+          "pawns": [
+            "a2",
+            "h3",
+            "e4"
+          ],
+          "king": "c8"
+        }
+      }
+    },
+    {
+      "ply": 149,
+      "fullmove": 80,
+      "colour": "white",
+      "san": "Rxa2",
+      "uci": "b2a2",
+      "fen_before": "2k5/8/5KP1/8/4p3/5P1p/pR6/5r2 w - - 2 80",
+      "legal_move_count": 23,
+      "in_check": false,
+      "request": 75,
+      "time_left_ms": 10926,
+      "elapsed_ms": 616.823,
+      "estimated_after_ms": 10809.177,
+      "telemetry": null,
+      "fen_after": "2k5/8/5KP1/8/4p3/5P1p/R7/5r2 b - - 0 80",
+      "material_after": {
+        "white": {
+          "points": 7,
+          "pawns": [
+            "f3",
+            "g6"
+          ],
+          "king": "f6"
+        },
+        "black": {
+          "points": 7,
+          "pawns": [
+            "h3",
+            "e4"
+          ],
+          "king": "c8"
+        }
+      }
+    },
+    {
+      "ply": 150,
+      "fullmove": 80,
+      "colour": "black",
+      "san": "Rxf3+",
+      "uci": "f1f3",
+      "fen_before": "2k5/8/5KP1/8/4p3/5P1p/R7/5r2 b - - 0 80",
+      "legal_move_count": 17,
+      "in_check": false,
+      "request": 75,
+      "time_left_ms": 3676,
+      "elapsed_ms": 392.372,
+      "estimated_after_ms": 3783.628,
+      "telemetry": {
+        "depth": 14,
+        "elapsed_ms": 391,
+        "game_ply": 148,
+        "nodes": 412523,
+        "score": 0,
+        "target_ms": 416
+      },
+      "fen_after": "2k5/8/5KP1/8/4p3/5r1p/R7/8 w - - 0 81",
+      "material_after": {
+        "white": {
+          "points": 6,
+          "pawns": [
+            "g6"
+          ],
+          "king": "f6"
+        },
+        "black": {
+          "points": 7,
+          "pawns": [
+            "h3",
+            "e4"
+          ],
+          "king": "c8"
+        }
+      }
+    },
+    {
+      "ply": 151,
+      "fullmove": 81,
+      "colour": "white",
+      "san": "Ke7",
+      "uci": "f6e7",
+      "fen_before": "2k5/8/5KP1/8/4p3/5r1p/R7/8 w - - 0 81",
+      "legal_move_count": 5,
+      "in_check": true,
+      "request": 76,
+      "time_left_ms": 10809,
+      "elapsed_ms": 851.128,
+      "estimated_after_ms": 10457.872,
+      "telemetry": null,
+      "fen_after": "2k5/4K3/6P1/8/4p3/5r1p/R7/8 b - - 1 81",
+      "material_after": {
+        "white": {
+          "points": 6,
+          "pawns": [
+            "g6"
+          ],
+          "king": "e7"
+        },
+        "black": {
+          "points": 7,
+          "pawns": [
+            "h3",
+            "e4"
+          ],
+          "king": "c8"
+        }
+      }
+    },
+    {
+      "ply": 152,
+      "fullmove": 81,
+      "colour": "black",
+      "san": "Rg3",
+      "uci": "f3g3",
+      "fen_before": "2k5/4K3/6P1/8/4p3/5r1p/R7/8 b - - 1 81",
+      "legal_move_count": 18,
+      "in_check": false,
+      "request": 76,
+      "time_left_ms": 3783,
+      "elapsed_ms": 308.913,
+      "estimated_after_ms": 3974.087,
+      "telemetry": {
+        "depth": 15,
+        "elapsed_ms": 307,
+        "game_ply": 150,
+        "nodes": 317048,
+        "score": 0,
+        "target_ms": 423
+      },
+      "fen_after": "2k5/4K3/6P1/8/4p3/6rp/R7/8 w - - 2 82",
+      "material_after": {
+        "white": {
+          "points": 6,
+          "pawns": [
+            "g6"
+          ],
+          "king": "e7"
+        },
+        "black": {
+          "points": 7,
+          "pawns": [
+            "h3",
+            "e4"
+          ],
+          "king": "c8"
+        }
+      }
+    },
+    {
+      "ply": 153,
+      "fullmove": 82,
+      "colour": "white",
+      "san": "Kf6",
+      "uci": "e7f6",
+      "fen_before": "2k5/4K3/6P1/8/4p3/6rp/R7/8 w - - 2 82",
+      "legal_move_count": 21,
+      "in_check": false,
+      "request": 77,
+      "time_left_ms": 10458,
+      "elapsed_ms": 740.745,
+      "estimated_after_ms": 10217.255,
+      "telemetry": null,
+      "fen_after": "2k5/8/5KP1/8/4p3/6rp/R7/8 b - - 3 82",
+      "material_after": {
+        "white": {
+          "points": 6,
+          "pawns": [
+            "g6"
+          ],
+          "king": "f6"
+        },
+        "black": {
+          "points": 7,
+          "pawns": [
+            "h3",
+            "e4"
+          ],
+          "king": "c8"
+        }
+      }
+    },
+    {
+      "ply": 154,
+      "fullmove": 82,
+      "colour": "black",
+      "san": "Rf3+",
+      "uci": "g3f3",
+      "fen_before": "2k5/8/5KP1/8/4p3/6rp/R7/8 b - - 3 82",
+      "legal_move_count": 18,
+      "in_check": false,
+      "request": 77,
+      "time_left_ms": 3974,
+      "elapsed_ms": 364.381,
+      "estimated_after_ms": 4109.619000000001,
+      "telemetry": {
+        "depth": 15,
+        "elapsed_ms": 363,
+        "game_ply": 152,
+        "nodes": 346994,
+        "score": 0,
+        "target_ms": 435
+      },
+      "fen_after": "2k5/8/5KP1/8/4p3/5r1p/R7/8 w - - 4 83",
+      "material_after": {
+        "white": {
+          "points": 6,
+          "pawns": [
+            "g6"
+          ],
+          "king": "f6"
+        },
+        "black": {
+          "points": 7,
+          "pawns": [
+            "h3",
+            "e4"
+          ],
+          "king": "c8"
+        }
+      }
+    },
+    {
+      "ply": 155,
+      "fullmove": 83,
+      "colour": "white",
+      "san": "Ke7",
+      "uci": "f6e7",
+      "fen_before": "2k5/8/5KP1/8/4p3/5r1p/R7/8 w - - 4 83",
+      "legal_move_count": 5,
+      "in_check": true,
+      "request": 78,
+      "time_left_ms": 10217,
+      "elapsed_ms": 1247.073,
+      "estimated_after_ms": 9469.927,
+      "telemetry": null,
+      "fen_after": "2k5/4K3/6P1/8/4p3/5r1p/R7/8 b - - 5 83",
+      "material_after": {
+        "white": {
+          "points": 6,
+          "pawns": [
+            "g6"
+          ],
+          "king": "e7"
+        },
+        "black": {
+          "points": 7,
+          "pawns": [
+            "h3",
+            "e4"
+          ],
+          "king": "c8"
+        }
+      }
+    },
+    {
+      "ply": 156,
+      "fullmove": 83,
+      "colour": "black",
+      "san": "Rf4",
+      "uci": "f3f4",
+      "fen_before": "2k5/4K3/6P1/8/4p3/5r1p/R7/8 b - - 5 83",
+      "legal_move_count": 18,
+      "in_check": false,
+      "request": 78,
+      "time_left_ms": 4110,
+      "elapsed_ms": 1173.523,
+      "estimated_after_ms": 3436.477,
+      "telemetry": {
+        "depth": 16,
+        "elapsed_ms": 1151,
+        "game_ply": 154,
+        "nodes": 1178694,
+        "score": -125,
+        "target_ms": 758
+      },
+      "fen_after": "2k5/4K3/6P1/8/4pr2/7p/R7/8 w - - 6 84",
+      "material_after": {
+        "white": {
+          "points": 6,
+          "pawns": [
+            "g6"
+          ],
+          "king": "e7"
+        },
+        "black": {
+          "points": 7,
+          "pawns": [
+            "h3",
+            "e4"
+          ],
+          "king": "c8"
+        }
+      }
+    },
+    {
+      "ply": 157,
+      "fullmove": 84,
+      "colour": "white",
+      "san": "g7",
+      "uci": "g6g7",
+      "fen_before": "2k5/4K3/6P1/8/4pr2/7p/R7/8 w - - 6 84",
+      "legal_move_count": 18,
+      "in_check": false,
+      "request": 79,
+      "time_left_ms": 9470,
+      "elapsed_ms": 818.199,
+      "estimated_after_ms": 9151.801,
+      "telemetry": null,
+      "fen_after": "2k5/4K1P1/8/8/4pr2/7p/R7/8 b - - 0 84",
+      "material_after": {
+        "white": {
+          "points": 6,
+          "pawns": [
+            "g7"
+          ],
+          "king": "e7"
+        },
+        "black": {
+          "points": 7,
+          "pawns": [
+            "h3",
+            "e4"
+          ],
+          "king": "c8"
+        }
+      }
+    },
+    {
+      "ply": 158,
+      "fullmove": 84,
+      "colour": "black",
+      "san": "Rg4",
+      "uci": "f4g4",
+      "fen_before": "2k5/4K1P1/8/8/4pr2/7p/R7/8 b - - 0 84",
+      "legal_move_count": 14,
+      "in_check": false,
+      "request": 79,
+      "time_left_ms": 3436,
+      "elapsed_ms": 910.684,
+      "estimated_after_ms": 3025.316,
+      "telemetry": {
+        "depth": 16,
+        "elapsed_ms": 909,
+        "game_ply": 156,
+        "nodes": 904977,
+        "score": -93,
+        "target_ms": 423
+      },
+      "fen_after": "2k5/4K1P1/8/8/4p1r1/7p/R7/8 w - - 1 85",
+      "material_after": {
+        "white": {
+          "points": 6,
+          "pawns": [
+            "g7"
+          ],
+          "king": "e7"
+        },
+        "black": {
+          "points": 7,
+          "pawns": [
+            "h3",
+            "e4"
+          ],
+          "king": "c8"
+        }
+      }
+    },
+    {
+      "ply": 159,
+      "fullmove": 85,
+      "colour": "white",
+      "san": "Kf7",
+      "uci": "e7f7",
+      "fen_before": "2k5/4K1P1/8/8/4p1r1/7p/R7/8 w - - 1 85",
+      "legal_move_count": 24,
+      "in_check": false,
+      "request": 80,
+      "time_left_ms": 9152,
+      "elapsed_ms": 805.489,
+      "estimated_after_ms": 8846.511,
+      "telemetry": null,
+      "fen_after": "2k5/5KP1/8/8/4p1r1/7p/R7/8 b - - 2 85",
+      "material_after": {
+        "white": {
+          "points": 6,
+          "pawns": [
+            "g7"
+          ],
+          "king": "f7"
+        },
+        "black": {
+          "points": 7,
+          "pawns": [
+            "h3",
+            "e4"
+          ],
+          "king": "c8"
+        }
+      }
+    },
+    {
+      "ply": 160,
+      "fullmove": 85,
+      "colour": "black",
+      "san": "Rf4+",
+      "uci": "g4f4",
+      "fen_before": "2k5/5KP1/8/8/4p1r1/7p/R7/8 b - - 2 85",
+      "legal_move_count": 15,
+      "in_check": false,
+      "request": 80,
+      "time_left_ms": 3025,
+      "elapsed_ms": 787.974,
+      "estimated_after_ms": 2737.026,
+      "telemetry": {
+        "depth": 17,
+        "elapsed_ms": 786,
+        "game_ply": 158,
+        "nodes": 820455,
+        "score": -249,
+        "target_ms": 901
+      },
+      "fen_after": "2k5/5KP1/8/8/4pr2/7p/R7/8 w - - 3 86",
+      "material_after": {
+        "white": {
+          "points": 6,
+          "pawns": [
+            "g7"
+          ],
+          "king": "f7"
+        },
+        "black": {
+          "points": 7,
+          "pawns": [
+            "h3",
+            "e4"
+          ],
+          "king": "c8"
+        }
+      }
+    },
+    {
+      "ply": 161,
+      "fullmove": 86,
+      "colour": "white",
+      "san": "Ke6",
+      "uci": "f7e6",
+      "fen_before": "2k5/5KP1/8/8/4pr2/7p/R7/8 w - - 3 86",
+      "legal_move_count": 5,
+      "in_check": true,
+      "request": 81,
+      "time_left_ms": 8846,
+      "elapsed_ms": 803.554,
+      "estimated_after_ms": 8542.446,
+      "telemetry": null,
+      "fen_after": "2k5/6P1/4K3/8/4pr2/7p/R7/8 b - - 4 86",
+      "material_after": {
+        "white": {
+          "points": 6,
+          "pawns": [
+            "g7"
+          ],
+          "king": "e6"
+        },
+        "black": {
+          "points": 7,
+          "pawns": [
+            "h3",
+            "e4"
+          ],
+          "king": "c8"
+        }
+      }
+    },
+    {
+      "ply": 162,
+      "fullmove": 86,
+      "colour": "black",
+      "san": "Rg4",
+      "uci": "f4g4",
+      "fen_before": "2k5/6P1/4K3/8/4pr2/7p/R7/8 b - - 4 86",
+      "legal_move_count": 15,
+      "in_check": false,
+      "request": 81,
+      "time_left_ms": 2737,
+      "elapsed_ms": 576.5,
+      "estimated_after_ms": 2660.5,
+      "telemetry": {
+        "depth": 18,
+        "elapsed_ms": 575,
+        "game_ply": 160,
+        "nodes": 586226,
+        "score": -469,
+        "target_ms": 1007
+      },
+      "fen_after": "2k5/6P1/4K3/8/4p1r1/7p/R7/8 w - - 5 87",
+      "material_after": {
+        "white": {
+          "points": 6,
+          "pawns": [
+            "g7"
+          ],
+          "king": "e6"
+        },
+        "black": {
+          "points": 7,
+          "pawns": [
+            "h3",
+            "e4"
+          ],
+          "king": "c8"
+        }
+      }
+    },
+    {
+      "ply": 163,
+      "fullmove": 87,
+      "colour": "white",
+      "san": "Ra8+",
+      "uci": "a2a8",
+      "fen_before": "2k5/6P1/4K3/8/4p1r1/7p/R7/8 w - - 5 87",
+      "legal_move_count": 25,
+      "in_check": false,
+      "request": 82,
+      "time_left_ms": 8542,
+      "elapsed_ms": 462.825,
+      "estimated_after_ms": 8579.175,
+      "telemetry": null,
+      "fen_after": "R1k5/6P1/4K3/8/4p1r1/7p/8/8 b - - 6 87",
+      "material_after": {
+        "white": {
+          "points": 6,
+          "pawns": [
+            "g7"
+          ],
+          "king": "e6"
+        },
+        "black": {
+          "points": 7,
+          "pawns": [
+            "h3",
+            "e4"
+          ],
+          "king": "c8"
+        }
+      }
+    },
+    {
+      "ply": 164,
+      "fullmove": 87,
+      "colour": "black",
+      "san": "Kc7",
+      "uci": "c8c7",
+      "fen_before": "R1k5/6P1/4K3/8/4p1r1/7p/8/8 b - - 6 87",
+      "legal_move_count": 2,
+      "in_check": true,
+      "request": 82,
+      "time_left_ms": 2661,
+      "elapsed_ms": 309.616,
+      "estimated_after_ms": 2851.384,
+      "telemetry": {
+        "depth": 17,
+        "elapsed_ms": 308,
+        "game_ply": 162,
+        "nodes": 214023,
+        "score": -469,
+        "target_ms": 380
+      },
+      "fen_after": "R7/2k3P1/4K3/8/4p1r1/7p/8/8 w - - 7 88",
+      "material_after": {
+        "white": {
+          "points": 6,
+          "pawns": [
+            "g7"
+          ],
+          "king": "e6"
+        },
+        "black": {
+          "points": 7,
+          "pawns": [
+            "h3",
+            "e4"
+          ],
+          "king": "c7"
+        }
+      }
+    },
+    {
+      "ply": 165,
+      "fullmove": 88,
+      "colour": "white",
+      "san": "Kf5",
+      "uci": "e6f5",
+      "fen_before": "R7/2k3P1/4K3/8/4p1r1/7p/8/8 w - - 7 88",
+      "legal_move_count": 24,
+      "in_check": false,
+      "request": 83,
+      "time_left_ms": 8580,
+      "elapsed_ms": 853.859,
+      "estimated_after_ms": 8226.141,
+      "telemetry": null,
+      "fen_after": "R7/2k3P1/8/5K2/4p1r1/7p/8/8 b - - 8 88",
+      "material_after": {
+        "white": {
+          "points": 6,
+          "pawns": [
+            "g7"
+          ],
+          "king": "f5"
+        },
+        "black": {
+          "points": 7,
+          "pawns": [
+            "h3",
+            "e4"
+          ],
+          "king": "c7"
+        }
+      }
+    },
+    {
+      "ply": 166,
+      "fullmove": 88,
+      "colour": "black",
+      "san": "Rxg7",
+      "uci": "g4g7",
+      "fen_before": "R7/2k3P1/8/5K2/4p1r1/7p/8/8 b - - 8 88",
+      "legal_move_count": 15,
+      "in_check": false,
+      "request": 83,
+      "time_left_ms": 2851,
+      "elapsed_ms": 640.977,
+      "estimated_after_ms": 2710.023,
+      "telemetry": {
+        "depth": 14,
+        "elapsed_ms": 639,
+        "game_ply": 164,
+        "nodes": 538076,
+        "score": -224,
+        "target_ms": 613
+      },
+      "fen_after": "R7/2k3r1/8/5K2/4p3/7p/8/8 w - - 0 89",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f5"
+        },
+        "black": {
+          "points": 7,
+          "pawns": [
+            "h3",
+            "e4"
+          ],
+          "king": "c7"
+        }
+      }
+    },
+    {
+      "ply": 167,
+      "fullmove": 89,
+      "colour": "white",
+      "san": "Ra7+",
+      "uci": "a8a7",
+      "fen_before": "R7/2k3r1/8/5K2/4p3/7p/8/8 w - - 0 89",
+      "legal_move_count": 19,
+      "in_check": false,
+      "request": 84,
+      "time_left_ms": 8226,
+      "elapsed_ms": 585.341,
+      "estimated_after_ms": 8140.659,
+      "telemetry": null,
+      "fen_after": "8/R1k3r1/8/5K2/4p3/7p/8/8 b - - 1 89",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f5"
+        },
+        "black": {
+          "points": 7,
+          "pawns": [
+            "h3",
+            "e4"
+          ],
+          "king": "c7"
+        }
+      }
+    },
+    {
+      "ply": 168,
+      "fullmove": 89,
+      "colour": "black",
+      "san": "Kd6",
+      "uci": "c7d6",
+      "fen_before": "8/R1k3r1/8/5K2/4p3/7p/8/8 b - - 1 89",
+      "legal_move_count": 6,
+      "in_check": true,
+      "request": 84,
+      "time_left_ms": 2710,
+      "elapsed_ms": 876.085,
+      "estimated_after_ms": 2333.915,
+      "telemetry": {
+        "depth": 18,
+        "elapsed_ms": 864,
+        "game_ply": 166,
+        "nodes": 984521,
+        "score": -500,
+        "target_ms": 814
+      },
+      "fen_after": "8/R5r1/3k4/5K2/4p3/7p/8/8 w - - 2 90",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f5"
+        },
+        "black": {
+          "points": 7,
+          "pawns": [
+            "h3",
+            "e4"
+          ],
+          "king": "d6"
+        }
+      }
+    },
+    {
+      "ply": 169,
+      "fullmove": 90,
+      "colour": "white",
+      "san": "Rxg7",
+      "uci": "a7g7",
+      "fen_before": "8/R5r1/3k4/5K2/4p3/7p/8/8 w - - 2 90",
+      "legal_move_count": 16,
+      "in_check": false,
+      "request": 85,
+      "time_left_ms": 8140,
+      "elapsed_ms": 717.345,
+      "estimated_after_ms": 7922.655,
+      "telemetry": null,
+      "fen_after": "8/6R1/3k4/5K2/4p3/7p/8/8 b - - 0 90",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f5"
+        },
+        "black": {
+          "points": 2,
+          "pawns": [
+            "h3",
+            "e4"
+          ],
+          "king": "d6"
+        }
+      }
+    },
+    {
+      "ply": 170,
+      "fullmove": 90,
+      "colour": "black",
+      "san": "e3",
+      "uci": "e4e3",
+      "fen_before": "8/6R1/3k4/5K2/4p3/7p/8/8 b - - 0 90",
+      "legal_move_count": 5,
+      "in_check": false,
+      "request": 85,
+      "time_left_ms": 2334,
+      "elapsed_ms": 355.035,
+      "estimated_after_ms": 2478.965,
+      "telemetry": {
+        "depth": 18,
+        "elapsed_ms": 354,
+        "game_ply": 168,
+        "nodes": 431489,
+        "score": -519,
+        "target_ms": 365
+      },
+      "fen_after": "8/6R1/3k4/5K2/8/4p2p/8/8 w - - 0 91",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f5"
+        },
+        "black": {
+          "points": 2,
+          "pawns": [
+            "e3",
+            "h3"
+          ],
+          "king": "d6"
+        }
+      }
+    },
+    {
+      "ply": 171,
+      "fullmove": 91,
+      "colour": "white",
+      "san": "Rg1",
+      "uci": "g7g1",
+      "fen_before": "8/6R1/3k4/5K2/8/4p2p/8/8 w - - 0 91",
+      "legal_move_count": 20,
+      "in_check": false,
+      "request": 86,
+      "time_left_ms": 7923,
+      "elapsed_ms": 490.325,
+      "estimated_after_ms": 7932.675,
+      "telemetry": null,
+      "fen_after": "8/8/3k4/5K2/8/4p2p/8/6R1 b - - 1 91",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f5"
+        },
+        "black": {
+          "points": 2,
+          "pawns": [
+            "e3",
+            "h3"
+          ],
+          "king": "d6"
+        }
+      }
+    },
+    {
+      "ply": 172,
+      "fullmove": 91,
+      "colour": "black",
+      "san": "h2",
+      "uci": "h3h2",
+      "fen_before": "8/8/3k4/5K2/8/4p2p/8/6R1 b - - 1 91",
+      "legal_move_count": 8,
+      "in_check": false,
+      "request": 86,
+      "time_left_ms": 2479,
+      "elapsed_ms": 306.895,
+      "estimated_after_ms": 2672.105,
+      "telemetry": {
+        "depth": 17,
+        "elapsed_ms": 305,
+        "game_ply": 170,
+        "nodes": 356721,
+        "score": -523,
+        "target_ms": 357
+      },
+      "fen_after": "8/8/3k4/5K2/8/4p3/7p/6R1 w - - 0 92",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f5"
+        },
+        "black": {
+          "points": 2,
+          "pawns": [
+            "h2",
+            "e3"
+          ],
+          "king": "d6"
+        }
+      }
+    },
+    {
+      "ply": 173,
+      "fullmove": 92,
+      "colour": "white",
+      "san": "Rh1",
+      "uci": "g1h1",
+      "fen_before": "8/8/3k4/5K2/8/4p3/7p/6R1 w - - 0 92",
+      "legal_move_count": 20,
+      "in_check": false,
+      "request": 87,
+      "time_left_ms": 7932,
+      "elapsed_ms": 674.805,
+      "estimated_after_ms": 7757.195,
+      "telemetry": null,
+      "fen_after": "8/8/3k4/5K2/8/4p3/7p/7R b - - 1 92",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f5"
+        },
+        "black": {
+          "points": 2,
+          "pawns": [
+            "h2",
+            "e3"
+          ],
+          "king": "d6"
+        }
+      }
+    },
+    {
+      "ply": 174,
+      "fullmove": 92,
+      "colour": "black",
+      "san": "e2",
+      "uci": "e3e2",
+      "fen_before": "8/8/3k4/5K2/8/4p3/7p/7R b - - 1 92",
+      "legal_move_count": 7,
+      "in_check": false,
+      "request": 87,
+      "time_left_ms": 2672,
+      "elapsed_ms": 323.303,
+      "estimated_after_ms": 2848.697,
+      "telemetry": {
+        "depth": 17,
+        "elapsed_ms": 322,
+        "game_ply": 172,
+        "nodes": 418752,
+        "score": -527,
+        "target_ms": 371
+      },
+      "fen_after": "8/8/3k4/5K2/8/8/4p2p/7R w - - 0 93",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f5"
+        },
+        "black": {
+          "points": 2,
+          "pawns": [
+            "e2",
+            "h2"
+          ],
+          "king": "d6"
+        }
+      }
+    },
+    {
+      "ply": 175,
+      "fullmove": 93,
+      "colour": "white",
+      "san": "Kf4",
+      "uci": "f5f4",
+      "fen_before": "8/8/3k4/5K2/8/8/4p2p/7R w - - 0 93",
+      "legal_move_count": 14,
+      "in_check": false,
+      "request": 88,
+      "time_left_ms": 7758,
+      "elapsed_ms": 724.801,
+      "estimated_after_ms": 7533.199,
+      "telemetry": null,
+      "fen_after": "8/8/3k4/8/5K2/8/4p2p/7R b - - 1 93",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f4"
+        },
+        "black": {
+          "points": 2,
+          "pawns": [
+            "e2",
+            "h2"
+          ],
+          "king": "d6"
+        }
+      }
+    },
+    {
+      "ply": 176,
+      "fullmove": 93,
+      "colour": "black",
+      "san": "Ke6",
+      "uci": "d6e6",
+      "fen_before": "8/8/3k4/8/5K2/8/4p2p/7R b - - 1 93",
+      "legal_move_count": 11,
+      "in_check": false,
+      "request": 88,
+      "time_left_ms": 2849,
+      "elapsed_ms": 351.625,
+      "estimated_after_ms": 2997.375,
+      "telemetry": {
+        "depth": 17,
+        "elapsed_ms": 350,
+        "game_ply": 174,
+        "nodes": 473819,
+        "score": -535,
+        "target_ms": 375
+      },
+      "fen_after": "8/8/4k3/8/5K2/8/4p2p/7R w - - 2 94",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f4"
+        },
+        "black": {
+          "points": 2,
+          "pawns": [
+            "e2",
+            "h2"
+          ],
+          "king": "e6"
+        }
+      }
+    },
+    {
+      "ply": 177,
+      "fullmove": 94,
+      "colour": "white",
+      "san": "Kf3",
+      "uci": "f4f3",
+      "fen_before": "8/8/4k3/8/5K2/8/4p2p/7R w - - 2 94",
+      "legal_move_count": 14,
+      "in_check": false,
+      "request": 89,
+      "time_left_ms": 7533,
+      "elapsed_ms": 555.0,
+      "estimated_after_ms": 7478.0,
+      "telemetry": null,
+      "fen_after": "8/8/4k3/8/8/5K2/4p2p/7R b - - 3 94",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f3"
+        },
+        "black": {
+          "points": 2,
+          "pawns": [
+            "e2",
+            "h2"
+          ],
+          "king": "e6"
+        }
+      }
+    },
+    {
+      "ply": 178,
+      "fullmove": 94,
+      "colour": "black",
+      "san": "Kf5",
+      "uci": "e6f5",
+      "fen_before": "8/8/4k3/8/8/5K2/4p2p/7R b - - 3 94",
+      "legal_move_count": 12,
+      "in_check": false,
+      "request": 89,
+      "time_left_ms": 2997,
+      "elapsed_ms": 404.664,
+      "estimated_after_ms": 3092.3360000000002,
+      "telemetry": {
+        "depth": 17,
+        "elapsed_ms": 403,
+        "game_ply": 176,
+        "nodes": 512354,
+        "score": -544,
+        "target_ms": 405
+      },
+      "fen_after": "8/8/8/5k2/8/5K2/4p2p/7R w - - 4 95",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f3"
+        },
+        "black": {
+          "points": 2,
+          "pawns": [
+            "e2",
+            "h2"
+          ],
+          "king": "f5"
+        }
+      }
+    },
+    {
+      "ply": 179,
+      "fullmove": 95,
+      "colour": "white",
+      "san": "Kxe2",
+      "uci": "f3e2",
+      "fen_before": "8/8/8/5k2/8/5K2/4p2p/7R w - - 4 95",
+      "legal_move_count": 13,
+      "in_check": false,
+      "request": 90,
+      "time_left_ms": 7478,
+      "elapsed_ms": 669.609,
+      "estimated_after_ms": 7308.391,
+      "telemetry": null,
+      "fen_after": "8/8/8/5k2/8/8/4K2p/7R b - - 0 95",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "e2"
+        },
+        "black": {
+          "points": 1,
+          "pawns": [
+            "h2"
+          ],
+          "king": "f5"
+        }
+      }
+    },
+    {
+      "ply": 180,
+      "fullmove": 95,
+      "colour": "black",
+      "san": "Ke4",
+      "uci": "f5e4",
+      "fen_before": "8/8/8/5k2/8/8/4K2p/7R b - - 0 95",
+      "legal_move_count": 8,
+      "in_check": false,
+      "request": 90,
+      "time_left_ms": 3092,
+      "elapsed_ms": 428.445,
+      "estimated_after_ms": 3163.555,
+      "telemetry": {
+        "depth": 17,
+        "elapsed_ms": 427,
+        "game_ply": 178,
+        "nodes": 672731,
+        "score": -549,
+        "target_ms": 400
+      },
+      "fen_after": "8/8/8/8/4k3/8/4K2p/7R w - - 1 96",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "e2"
+        },
+        "black": {
+          "points": 1,
+          "pawns": [
+            "h2"
+          ],
+          "king": "e4"
+        }
+      }
+    },
+    {
+      "ply": 181,
+      "fullmove": 96,
+      "colour": "white",
+      "san": "Rxh2",
+      "uci": "h1h2",
+      "fen_before": "8/8/8/8/4k3/8/4K2p/7R w - - 1 96",
+      "legal_move_count": 13,
+      "in_check": false,
+      "request": 91,
+      "time_left_ms": 7308,
+      "elapsed_ms": 727.765,
+      "estimated_after_ms": 7080.235,
+      "telemetry": null,
+      "fen_after": "8/8/8/8/4k3/8/4K2R/8 b - - 0 96",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "e2"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "e4"
+        }
+      }
+    },
+    {
+      "ply": 182,
+      "fullmove": 96,
+      "colour": "black",
+      "san": "Kf4",
+      "uci": "e4f4",
+      "fen_before": "8/8/8/8/4k3/8/4K2R/8 b - - 0 96",
+      "legal_move_count": 5,
+      "in_check": false,
+      "request": 91,
+      "time_left_ms": 3164,
+      "elapsed_ms": 574.474,
+      "estimated_after_ms": 3089.526,
+      "telemetry": {
+        "depth": 16,
+        "elapsed_ms": 573,
+        "game_ply": 180,
+        "nodes": 891076,
+        "score": -557,
+        "target_ms": 509
+      },
+      "fen_after": "8/8/8/8/5k2/8/4K2R/8 w - - 1 97",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "e2"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "f4"
+        }
+      }
+    },
+    {
+      "ply": 183,
+      "fullmove": 97,
+      "colour": "white",
+      "san": "Rh4+",
+      "uci": "h2h4",
+      "fen_before": "8/8/8/8/5k2/8/4K2R/8 w - - 1 97",
+      "legal_move_count": 15,
+      "in_check": false,
+      "request": 92,
+      "time_left_ms": 7080,
+      "elapsed_ms": 658.997,
+      "estimated_after_ms": 6921.003,
+      "telemetry": null,
+      "fen_after": "8/8/8/8/5k1R/8/4K3/8 b - - 2 97",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "e2"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "f4"
+        }
+      }
+    },
+    {
+      "ply": 184,
+      "fullmove": 97,
+      "colour": "black",
+      "san": "Kg5",
+      "uci": "f4g5",
+      "fen_before": "8/8/8/8/5k1R/8/4K3/8 b - - 2 97",
+      "legal_move_count": 4,
+      "in_check": true,
+      "request": 92,
+      "time_left_ms": 3089,
+      "elapsed_ms": 1078.334,
+      "estimated_after_ms": 2510.666,
+      "telemetry": {
+        "depth": 17,
+        "elapsed_ms": 1077,
+        "game_ply": 182,
+        "nodes": 1691924,
+        "score": -566,
+        "target_ms": 445
+      },
+      "fen_after": "8/8/8/6k1/7R/8/4K3/8 w - - 3 98",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "e2"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "g5"
+        }
+      }
+    },
+    {
+      "ply": 185,
+      "fullmove": 98,
+      "colour": "white",
+      "san": "Re4",
+      "uci": "h4e4",
+      "fen_before": "8/8/8/6k1/7R/8/4K3/8 w - - 3 98",
+      "legal_move_count": 22,
+      "in_check": false,
+      "request": 93,
+      "time_left_ms": 6921,
+      "elapsed_ms": 720.239,
+      "estimated_after_ms": 6700.761,
+      "telemetry": null,
+      "fen_after": "8/8/8/6k1/4R3/8/4K3/8 b - - 4 98",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "e2"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "g5"
+        }
+      }
+    },
+    {
+      "ply": 186,
+      "fullmove": 98,
+      "colour": "black",
+      "san": "Kf6",
+      "uci": "g5f6",
+      "fen_before": "8/8/8/6k1/4R3/8/4K3/8 b - - 4 98",
+      "legal_move_count": 5,
+      "in_check": false,
+      "request": 93,
+      "time_left_ms": 2511,
+      "elapsed_ms": 1740.685,
+      "estimated_after_ms": 1270.315,
+      "telemetry": {
+        "depth": 17,
+        "elapsed_ms": 1739,
+        "game_ply": 184,
+        "nodes": 2570240,
+        "score": -598,
+        "target_ms": 468
+      },
+      "fen_after": "8/8/5k2/8/4R3/8/4K3/8 w - - 5 99",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "e2"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "f6"
+        }
+      }
+    },
+    {
+      "ply": 187,
+      "fullmove": 99,
+      "colour": "white",
+      "san": "Ke3",
+      "uci": "e2e3",
+      "fen_before": "8/8/5k2/8/4R3/8/4K3/8 w - - 5 99",
+      "legal_move_count": 20,
+      "in_check": false,
+      "request": 94,
+      "time_left_ms": 6701,
+      "elapsed_ms": 462.798,
+      "estimated_after_ms": 6738.202,
+      "telemetry": null,
+      "fen_after": "8/8/5k2/8/4R3/4K3/8/8 b - - 6 99",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "e3"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "f6"
+        }
+      }
+    },
+    {
+      "ply": 188,
+      "fullmove": 99,
+      "colour": "black",
+      "san": "Kf5",
+      "uci": "f6f5",
+      "fen_before": "8/8/5k2/8/4R3/4K3/8/8 b - - 6 99",
+      "legal_move_count": 5,
+      "in_check": false,
+      "request": 94,
+      "time_left_ms": 1270,
+      "elapsed_ms": 353.091,
+      "estimated_after_ms": 1416.909,
+      "telemetry": {
+        "depth": 19,
+        "elapsed_ms": 352,
+        "game_ply": 186,
+        "nodes": 408236,
+        "score": -31976,
+        "target_ms": 278
+      },
+      "fen_after": "8/8/8/5k2/4R3/4K3/8/8 w - - 7 100",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "e3"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "f5"
+        }
+      }
+    },
+    {
+      "ply": 189,
+      "fullmove": 100,
+      "colour": "white",
+      "san": "Kf3",
+      "uci": "e3f3",
+      "fen_before": "8/8/8/5k2/4R3/4K3/8/8 w - - 7 100",
+      "legal_move_count": 17,
+      "in_check": false,
+      "request": 95,
+      "time_left_ms": 6738,
+      "elapsed_ms": 634.991,
+      "estimated_after_ms": 6603.009,
+      "telemetry": null,
+      "fen_after": "8/8/8/5k2/4R3/5K2/8/8 b - - 8 100",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f3"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "f5"
+        }
+      }
+    },
+    {
+      "ply": 190,
+      "fullmove": 100,
+      "colour": "black",
+      "san": "Kg5",
+      "uci": "f5g5",
+      "fen_before": "8/8/8/5k2/4R3/5K2/8/8 b - - 8 100",
+      "legal_move_count": 3,
+      "in_check": false,
+      "request": 95,
+      "time_left_ms": 1417,
+      "elapsed_ms": 356.044,
+      "estimated_after_ms": 1560.9560000000001,
+      "telemetry": {
+        "depth": 18,
+        "elapsed_ms": 355,
+        "game_ply": 188,
+        "nodes": 409059,
+        "score": -31982,
+        "target_ms": 285
+      },
+      "fen_after": "8/8/8/6k1/4R3/5K2/8/8 w - - 9 101",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f3"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "g5"
+        }
+      }
+    },
+    {
+      "ply": 191,
+      "fullmove": 101,
+      "colour": "white",
+      "san": "Rf4",
+      "uci": "e4f4",
+      "fen_before": "8/8/8/6k1/4R3/5K2/8/8 w - - 9 101",
+      "legal_move_count": 19,
+      "in_check": false,
+      "request": 96,
+      "time_left_ms": 6603,
+      "elapsed_ms": 536.25,
+      "estimated_after_ms": 6566.75,
+      "telemetry": null,
+      "fen_after": "8/8/8/6k1/5R2/5K2/8/8 b - - 10 101",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f3"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "g5"
+        }
+      }
+    },
+    {
+      "ply": 192,
+      "fullmove": 101,
+      "colour": "black",
+      "san": "Kh5",
+      "uci": "g5h5",
+      "fen_before": "8/8/8/6k1/5R2/5K2/8/8 b - - 10 101",
+      "legal_move_count": 3,
+      "in_check": false,
+      "request": 96,
+      "time_left_ms": 1561,
+      "elapsed_ms": 323.979,
+      "estimated_after_ms": 1737.021,
+      "telemetry": {
+        "depth": 20,
+        "elapsed_ms": 323,
+        "game_ply": 190,
+        "nodes": 430419,
+        "score": -31986,
+        "target_ms": 283
+      },
+      "fen_after": "8/8/8/7k/5R2/5K2/8/8 w - - 11 102",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f3"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "h5"
+        }
+      }
+    },
+    {
+      "ply": 193,
+      "fullmove": 102,
+      "colour": "white",
+      "san": "Rg4",
+      "uci": "f4g4",
+      "fen_before": "8/8/8/7k/5R2/5K2/8/8 w - - 11 102",
+      "legal_move_count": 17,
+      "in_check": false,
+      "request": 97,
+      "time_left_ms": 6567,
+      "elapsed_ms": 429.498,
+      "estimated_after_ms": 6637.502,
+      "telemetry": null,
+      "fen_after": "8/8/8/7k/6R1/5K2/8/8 b - - 12 102",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f3"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "h5"
+        }
+      }
+    },
+    {
+      "ply": 194,
+      "fullmove": 102,
+      "colour": "black",
+      "san": "Kh6",
+      "uci": "h5h6",
+      "fen_before": "8/8/8/7k/6R1/5K2/8/8 b - - 12 102",
+      "legal_move_count": 1,
+      "in_check": false,
+      "request": 97,
+      "time_left_ms": 1737,
+      "elapsed_ms": 0.535,
+      "estimated_after_ms": 2236.465,
+      "telemetry": null,
+      "fen_after": "8/8/7k/8/6R1/5K2/8/8 w - - 13 103",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f3"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "h6"
+        }
+      }
+    },
+    {
+      "ply": 195,
+      "fullmove": 103,
+      "colour": "white",
+      "san": "Ke4",
+      "uci": "f3e4",
+      "fen_before": "8/8/7k/8/6R1/5K2/8/8 w - - 13 103",
+      "legal_move_count": 21,
+      "in_check": false,
+      "request": 98,
+      "time_left_ms": 6637,
+      "elapsed_ms": 472.695,
+      "estimated_after_ms": 6664.305,
+      "telemetry": null,
+      "fen_after": "8/8/7k/8/4K1R1/8/8/8 b - - 14 103",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "e4"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "h6"
+        }
+      }
+    },
+    {
+      "ply": 196,
+      "fullmove": 103,
+      "colour": "black",
+      "san": "Kh7",
+      "uci": "h6h7",
+      "fen_before": "8/8/7k/8/4K1R1/8/8/8 b - - 14 103",
+      "legal_move_count": 2,
+      "in_check": false,
+      "request": 98,
+      "time_left_ms": 2236,
+      "elapsed_ms": 350.262,
+      "estimated_after_ms": 2385.7380000000003,
+      "telemetry": {
+        "depth": 32,
+        "elapsed_ms": 349,
+        "game_ply": 194,
+        "nodes": 486705,
+        "score": -31990,
+        "target_ms": 331
+      },
+      "fen_after": "8/7k/8/8/4K1R1/8/8/8 w - - 15 104",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "e4"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "h7"
+        }
+      }
+    },
+    {
+      "ply": 197,
+      "fullmove": 104,
+      "colour": "white",
+      "san": "Kf5",
+      "uci": "e4f5",
+      "fen_before": "8/7k/8/8/4K1R1/8/8/8 w - - 15 104",
+      "legal_move_count": 17,
+      "in_check": false,
+      "request": 99,
+      "time_left_ms": 6665,
+      "elapsed_ms": 414.375,
+      "estimated_after_ms": 6750.625,
+      "telemetry": null,
+      "fen_after": "8/7k/8/5K2/6R1/8/8/8 b - - 16 104",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f5"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "h7"
+        }
+      }
+    },
+    {
+      "ply": 198,
+      "fullmove": 104,
+      "colour": "black",
+      "san": "Kh6",
+      "uci": "h7h6",
+      "fen_before": "8/7k/8/5K2/6R1/8/8/8 b - - 16 104",
+      "legal_move_count": 2,
+      "in_check": false,
+      "request": 99,
+      "time_left_ms": 2386,
+      "elapsed_ms": 150.935,
+      "estimated_after_ms": 2735.065,
+      "telemetry": {
+        "depth": 64,
+        "elapsed_ms": 150,
+        "game_ply": 196,
+        "nodes": 183878,
+        "score": -31992,
+        "target_ms": 342
+      },
+      "fen_after": "8/8/7k/5K2/6R1/8/8/8 w - - 17 105",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f5"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "h6"
+        }
+      }
+    },
+    {
+      "ply": 199,
+      "fullmove": 105,
+      "colour": "white",
+      "san": "Kf6",
+      "uci": "f5f6",
+      "fen_before": "8/8/7k/5K2/6R1/8/8/8 w - - 17 105",
+      "legal_move_count": 19,
+      "in_check": false,
+      "request": 100,
+      "time_left_ms": 6750,
+      "elapsed_ms": 172.753,
+      "estimated_after_ms": 7077.247,
+      "telemetry": null,
+      "fen_after": "8/8/5K1k/8/6R1/8/8/8 b - - 18 105",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f6"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "h6"
+        }
+      }
+    },
+    {
+      "ply": 200,
+      "fullmove": 105,
+      "colour": "black",
+      "san": "Kh7",
+      "uci": "h6h7",
+      "fen_before": "8/8/5K1k/8/6R1/8/8/8 b - - 18 105",
+      "legal_move_count": 2,
+      "in_check": false,
+      "request": 100,
+      "time_left_ms": 2735,
+      "elapsed_ms": 2.671,
+      "estimated_after_ms": 3232.329,
+      "telemetry": {
+        "depth": 64,
+        "elapsed_ms": 2,
+        "game_ply": 198,
+        "nodes": 1311,
+        "score": -31994,
+        "target_ms": 367
+      },
+      "fen_after": "8/7k/5K2/8/6R1/8/8/8 w - - 19 106",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f6"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "h7"
+        }
+      }
+    },
+    {
+      "ply": 201,
+      "fullmove": 106,
+      "colour": "white",
+      "san": "Rh4+",
+      "uci": "g4h4",
+      "fen_before": "8/7k/5K2/8/6R1/8/8/8 w - - 19 106",
+      "legal_move_count": 20,
+      "in_check": false,
+      "request": 101,
+      "time_left_ms": 7077,
+      "elapsed_ms": 7.969,
+      "estimated_after_ms": 7569.031,
+      "telemetry": null,
+      "fen_after": "8/7k/5K2/8/7R/8/8/8 b - - 20 106",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f6"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "h7"
+        }
+      }
+    },
+    {
+      "ply": 202,
+      "fullmove": 106,
+      "colour": "black",
+      "san": "Kg8",
+      "uci": "h7g8",
+      "fen_before": "8/7k/5K2/8/7R/8/8/8 b - - 20 106",
+      "legal_move_count": 1,
+      "in_check": true,
+      "request": 101,
+      "time_left_ms": 3232,
+      "elapsed_ms": 0.406,
+      "estimated_after_ms": 3731.594,
+      "telemetry": null,
+      "fen_after": "6k1/8/5K2/8/7R/8/8/8 w - - 21 107",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f6"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 203,
+      "fullmove": 107,
+      "colour": "white",
+      "san": "Rh1",
+      "uci": "h4h1",
+      "fen_before": "6k1/8/5K2/8/7R/8/8/8 w - - 21 107",
+      "legal_move_count": 20,
+      "in_check": false,
+      "request": 102,
+      "time_left_ms": 7569,
+      "elapsed_ms": 7.121,
+      "estimated_after_ms": 8061.879,
+      "telemetry": null,
+      "fen_after": "6k1/8/5K2/8/8/8/8/7R b - - 22 107",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f6"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "g8"
+        }
+      }
+    },
+    {
+      "ply": 204,
+      "fullmove": 107,
+      "colour": "black",
+      "san": "Kf8",
+      "uci": "g8f8",
+      "fen_before": "6k1/8/5K2/8/8/8/8/7R b - - 22 107",
+      "legal_move_count": 1,
+      "in_check": false,
+      "request": 102,
+      "time_left_ms": 3732,
+      "elapsed_ms": 0.376,
+      "estimated_after_ms": 4231.624,
+      "telemetry": null,
+      "fen_after": "5k2/8/5K2/8/8/8/8/7R w - - 23 108",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f6"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "f8"
+        }
+      }
+    },
+    {
+      "ply": 205,
+      "fullmove": 108,
+      "colour": "white",
+      "san": "Rh8#",
+      "uci": "h1h8",
+      "fen_before": "5k2/8/5K2/8/8/8/8/7R w - - 23 108",
+      "legal_move_count": 19,
+      "in_check": false,
+      "request": 103,
+      "time_left_ms": 8062,
+      "elapsed_ms": 16.92,
+      "estimated_after_ms": 8545.08,
+      "telemetry": null,
+      "fen_after": "5k1R/8/5K2/8/8/8/8/8 b - - 24 108",
+      "material_after": {
+        "white": {
+          "points": 5,
+          "pawns": [],
+          "king": "f6"
+        },
+        "black": {
+          "points": 0,
+          "pawns": [],
+          "king": "f8"
+        }
+      }
+    }
+  ]
+}

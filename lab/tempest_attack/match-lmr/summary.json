@@ -1,0 +1,20 @@
+{
+  "audit": "PASS",
+  "games": 16,
+  "wins": 5,
+  "draws": 7,
+  "losses": 4,
+  "score": 0.53125,
+  "legal_plies": 1983,
+  "candidate_cold_imports": [
+    35.1489421967417,
+    33.97645076923072
+  ],
+  "decision": "INCONCLUSIVE; no promotion",
+  "scope": "16 development games at equal 500ms search allowance; complete pairs, source/reset/legal audit. Not full-clock or reliable Elo evidence.",
+  "plan_sha256": "e4c9c69d7bd7a2199f656f3d8c030ce47084280d9155e36287a499c30ee3edef",
+  "logs": {
+    "a": "da9206e84acb33e518618f42f0ecc29556ce2408a4ace1daa092681c2ad65a8c",
+    "b": "f4e2e3ffd4ea8c45aa3b2ad65b576783d18b695967ff436c44a2aba59d147c96"
+  }
+}

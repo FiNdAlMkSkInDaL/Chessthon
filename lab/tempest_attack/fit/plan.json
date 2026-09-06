@@ -1,0 +1,38 @@
+{
+  "features": [
+    "weak_ring",
+    "double_ring",
+    "queen_contact",
+    "knight_checks",
+    "bishop_checks",
+    "rook_checks",
+    "queen_checks",
+    "coordinated_ring",
+    "pressure_squared",
+    "restricted_flights",
+    "pawn_storm",
+    "pawn_levers",
+    "open_king_files",
+    "queen_proximity"
+  ],
+  "folds": 5,
+  "ridges": [
+    10,
+    100,
+    1000
+  ],
+  "phase_powers": [
+    1,
+    2
+  ],
+  "clip_cp": 600,
+  "selection": "minimum mean absolute error across family-blocked development folds",
+  "scope": "Prior pilot train/validation/test are all used development data; fresh independent confirmation required.",
+  "gates": [
+    "at least 5cp development OOF gain",
+    "phase and quiet p90 no worse by more than 5cp",
+    "native reference identity and speed",
+    "independent decision ranking and paired matches before promotion"
+  ],
+  "coefficient_constraint": "nonnegative attack-benefit weights, Huber IRLS ridge, no intercept"
+}

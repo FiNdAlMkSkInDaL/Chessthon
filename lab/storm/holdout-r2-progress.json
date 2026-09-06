@@ -1,0 +1,116 @@
+{
+  "games": 20,
+  "wins": 18,
+  "draws": 2,
+  "losses": 0,
+  "score": 0.95,
+  "candidate_failures": 0,
+  "baseline_failures": 0,
+  "candidate_hashes": [
+    "15db92a79feff24cf52f5b85974f55504753f981823d7e6d92881fb62812e85c"
+  ],
+  "baseline_hashes": [
+    "3397e7a8ca55696bb8d7586a9c73cbeabc0c8b6f51b26cdc8c26562a37c91408"
+  ],
+  "opening_indices": [
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    170,
+    171,
+    172,
+    173,
+    174
+  ],
+  "candidate": {
+    "mean_clock_left_s": 18.43081105,
+    "mean_thinking_s": 131.39110925,
+    "first20_mean_s": 62.05216836842105,
+    "first20_stddev_s": 6.733239019066258,
+    "mean_completed_depth": 13.724747474747474,
+    "max_move_s": 14.025245,
+    "max_init_s": 29.923,
+    "max_memory_mib": 413.8203125,
+    "phase_thinking_s": {
+      "high_material": {
+        "moves": 360,
+        "mean_s": 2.984912947222222
+      },
+      "middle_material": {
+        "moves": 355,
+        "mean_s": 2.579358625352113
+      },
+      "low_material": {
+        "moves": 478,
+        "mean_s": 1.3338519079497908
+      }
+    },
+    "decision_thinking_s": {
+      "1-20": {
+        "moves": 392,
+        "mean_s": 3.093590586734694
+      },
+      "21-40": {
+        "moves": 359,
+        "mean_s": 2.9636711977715877
+      },
+      "41-60": {
+        "moves": 275,
+        "mean_s": 1.0823413418181818
+      },
+      "61+": {
+        "moves": 167,
+        "mean_s": 0.32055596407185627
+      }
+    },
+    "forced_reply_count": 5,
+    "forced_reply_total_s": 0.004898
+  },
+  "baseline": {
+    "mean_clock_left_s": 25.16134175,
+    "mean_thinking_s": 124.43539395,
+    "first20_mean_s": 73.09683584210526,
+    "first20_stddev_s": 2.1379914920380974,
+    "mean_completed_depth": null,
+    "max_move_s": 6.3228729999999995,
+    "max_init_s": 26.026,
+    "max_memory_mib": 395.74609375,
+    "phase_thinking_s": {
+      "high_material": {
+        "moves": 360,
+        "mean_s": 3.630323861111111
+      },
+      "middle_material": {
+        "moves": 358,
+        "mean_s": 1.875150245810056
+      },
+      "low_material": {
+        "moves": 466,
+        "mean_s": 1.0954667403433476
+      }
+    },
+    "decision_thinking_s": {
+      "1-20": {
+        "moves": 392,
+        "mean_s": 3.6604478443877553
+      },
+      "21-40": {
+        "moves": 357,
+        "mean_s": 1.8728595854341736
+      },
+      "41-60": {
+        "moves": 271,
+        "mean_s": 1.0643834354243542
+      },
+      "61+": {
+        "moves": 164,
+        "mean_s": 0.5899606158536586
+      }
+    },
+    "forced_reply_count": 45,
+    "forced_reply_total_s": 35.614655
+  }
+}

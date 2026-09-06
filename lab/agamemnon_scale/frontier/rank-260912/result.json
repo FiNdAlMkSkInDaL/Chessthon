@@ -1,0 +1,132 @@
+{
+  "seed": 260912,
+  "pairs": 8241,
+  "strength": 1.0,
+  "selected_epoch": 6,
+  "curve": [
+    {
+      "epoch": 1,
+      "regret": {
+        "mean": 316.2,
+        "p90": 972.8000000000006,
+        "bad_200": 0.4,
+        "groups": 110
+      },
+      "transfer_mae": 214.7384490966797
+    },
+    {
+      "epoch": 2,
+      "regret": {
+        "mean": 315.25454545454545,
+        "p90": 972.8000000000006,
+        "bad_200": 0.39090909090909093,
+        "groups": 110
+      },
+      "transfer_mae": 214.74769592285156
+    },
+    {
+      "epoch": 3,
+      "regret": {
+        "mean": 313.53636363636366,
+        "p90": 972.8000000000006,
+        "bad_200": 0.39090909090909093,
+        "groups": 110
+      },
+      "transfer_mae": 215.0203094482422
+    },
+    {
+      "epoch": 4,
+      "regret": {
+        "mean": 303.8363636363636,
+        "p90": 972.8000000000006,
+        "bad_200": 0.37272727272727274,
+        "groups": 110
+      },
+      "transfer_mae": 215.28042602539062
+    },
+    {
+      "epoch": 5,
+      "regret": {
+        "mean": 303.8363636363636,
+        "p90": 972.8000000000006,
+        "bad_200": 0.37272727272727274,
+        "groups": 110
+      },
+      "transfer_mae": 215.5347442626953
+    },
+    {
+      "epoch": 6,
+      "regret": {
+        "mean": 303.58181818181816,
+        "p90": 972.8000000000006,
+        "bad_200": 0.37272727272727274,
+        "groups": 110
+      },
+      "transfer_mae": 216.16281127929688
+    },
+    {
+      "epoch": 7,
+      "regret": {
+        "mean": 317.74545454545455,
+        "p90": 972.8000000000006,
+        "bad_200": 0.39090909090909093,
+        "groups": 110
+      },
+      "transfer_mae": 216.92604064941406
+    },
+    {
+      "epoch": 8,
+      "regret": {
+        "mean": 317.1272727272727,
+        "p90": 972.8000000000006,
+        "bad_200": 0.39090909090909093,
+        "groups": 110
+      },
+      "transfer_mae": 217.0951690673828
+    },
+    {
+      "epoch": 9,
+      "regret": {
+        "mean": 322.4,
+        "p90": 972.8000000000006,
+        "bad_200": 0.4,
+        "groups": 110
+      },
+      "transfer_mae": 217.38400268554688
+    },
+    {
+      "epoch": 10,
+      "regret": {
+        "mean": 315.6545454545454,
+        "p90": 972.8000000000006,
+        "bad_200": 0.39090909090909093,
+        "groups": 110
+      },
+      "transfer_mae": 217.9188232421875
+    },
+    {
+      "epoch": 11,
+      "regret": {
+        "mean": 316.8272727272727,
+        "p90": 972.8000000000006,
+        "bad_200": 0.39090909090909093,
+        "groups": 110
+      },
+      "transfer_mae": 218.27224731445312
+    },
+    {
+      "epoch": 12,
+      "regret": {
+        "mean": 311.0090909090909,
+        "p90": 954.3000000000001,
+        "bad_200": 0.39090909090909093,
+        "groups": 110
+      },
+      "transfer_mae": 218.74298095703125
+    }
+  ],
+  "gradient_checks": 15,
+  "source_sha256": "2077cb3690feedb8d9fa2424aa13636bc1ee5597aa3bb3ed3c00326f90ad0de9",
+  "script_sha256": "3ef3cee81969db35d1e2f2e9419c872e4ef9effbed35affdd7cd7b957133f85e",
+  "scope": "Finite teacher child-move preference fit with search-state replay; development-root selection; tactical child labels may mismatch static use. Search tests decide."
+}

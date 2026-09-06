@@ -1,0 +1,6 @@
+{"source": "odin_history_perf", "cold_s": 29.012433599998985, "warmup_s": 27.229829900001278, "original_numba_ready": true, "root_signature_present_after_import": false}
+{"source": "odin_history_perf", "off_clock_diagnostic_compile_s": 133.30291899999975}
+{"id": "fixed-r1-development-g1-ply42", "hard_ms": 1000, "actual_wall_ms": 856.6097000002628, "san": "a4", "depth": 8, "score": -57, "nodes": 74025}
+{"id": "fixed-r1-development-g1-ply42", "hard_ms": 3000, "actual_wall_ms": 3012.8208000005543, "san": "a4", "depth": 8, "score": -57, "nodes": 287744}
+{"id": "fixed-r1-development-g1-ply44", "hard_ms": 1000, "actual_wall_ms": 1001.2461999995139, "san": "a5", "depth": 6, "score": -57, "nodes": 101376}
+{"id": "fixed-r1-development-g1-ply44", "hard_ms": 3000, "actual_wall_ms": 3010.2671999993618, "san": "a5", "depth": 7, "score": -68, "nodes": 278528}

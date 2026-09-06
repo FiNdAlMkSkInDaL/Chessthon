@@ -1,0 +1,1 @@
+["lab/agamemnon_scale/match-advisor-4m-one/clock_match.py --candidate lab/agamemnon_scale/native-advisor-4m/allocate --baseline tempest_exact --cpu 1 --think-ms 500 --indices 0,1,2,3,4,5,6,7 --openings lab/odin/fast/generation-openings/screen.fen --output lab/agamemnon_scale/match-advisor-4m-one/lane1.jsonl"]

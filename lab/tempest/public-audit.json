@@ -1,0 +1,1090 @@
+[
+  {
+    "game_id": "36a3c43d-69fb-4885-958a-94b1b8518966",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "35",
+      "White": "ms",
+      "Black": "Ransom",
+      "Result": "1-0",
+      "FEN": "r1b1qrk1/ppp2pbp/n2p2p1/4p1B1/2PPP1n1/2NQ1N2/PP2BPPP/R3K2R w KQ - 6 10",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "rated_at_retrieval": true,
+    "recheck": [
+      {
+        "team": "ms",
+        "text": "Rated 35 view the game White Ransom Win King's Indian Classical"
+      }
+    ],
+    "void": false,
+    "first_current_referee_terminal_before_recorded_end": null,
+    "timing": {
+      "white": {
+        "player": "ms",
+        "moves": 47,
+        "final_clock": 14.464,
+        "median_seconds": 2.4239999999999995,
+        "negative_elapsed": 0,
+        "early_median": 3.9369999999999976,
+        "late_median": 0.0030000000000001137
+      },
+      "black": {
+        "player": "Ransom",
+        "moves": 46,
+        "final_clock": 14.186,
+        "median_seconds": 2.763499999999997,
+        "negative_elapsed": 0,
+        "early_median": 4.323999999999998,
+        "late_median": 0.004999999999999893
+      }
+    }
+  },
+  {
+    "game_id": "32f805a3-6190-4249-b270-48c42eda2c38",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "34",
+      "White": "FuzzyBot",
+      "Black": "ms",
+      "Result": "1-0",
+      "FEN": "rnbqkb1r/pp3ppp/2p5/1B1p4/3Pn3/5N2/PPP2PPP/RNBQK2R w KQkq - 0 7",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "rated_at_retrieval": true,
+    "recheck": [
+      {
+        "team": "ms",
+        "text": "Rated 34 view the game Black FuzzyBot Loss Petroff Defence"
+      },
+      {
+        "team": "FuzzyBot",
+        "text": "Rated 34 view the game White ms Win Petroff Defence"
+      }
+    ],
+    "void": false,
+    "first_current_referee_terminal_before_recorded_end": null,
+    "timing": {
+      "white": {
+        "player": "FuzzyBot",
+        "moves": 77,
+        "final_clock": 4.448,
+        "median_seconds": 1.6229999999999905,
+        "negative_elapsed": 0,
+        "early_median": 3.095500000000005,
+        "late_median": 0.6989999999999998
+      },
+      "black": {
+        "player": "ms",
+        "moves": 76,
+        "final_clock": 7.467,
+        "median_seconds": 1.1385000000000005,
+        "negative_elapsed": 0,
+        "early_median": 3.0760000000000005,
+        "late_median": 0.6824999999999997
+      }
+    }
+  },
+  {
+    "game_id": "feaeb422-7d92-47a0-a5fe-f65a2564d15f",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "32",
+      "White": "Finlay Phillips",
+      "Black": "ms",
+      "Result": "0-1",
+      "FEN": "r1bqkb1r/pp3ppp/5n2/3pn3/8/2PB4/PP2NPPP/RNBQK2R w KQkq - 0 8",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "rated_at_retrieval": true,
+    "recheck": [
+      {
+        "team": "ms",
+        "text": "Rated 32 view the game Black Finlay Phillips Win Caro-Kann Exchange"
+      }
+    ],
+    "void": false,
+    "first_current_referee_terminal_before_recorded_end": null,
+    "timing": {
+      "white": {
+        "player": "Finlay Phillips",
+        "moves": 48,
+        "final_clock": 4.84,
+        "median_seconds": 2.514499999999998,
+        "negative_elapsed": 0,
+        "early_median": 3.8294999999999995,
+        "late_median": 0.1904999999999999
+      },
+      "black": {
+        "player": "ms",
+        "moves": 48,
+        "final_clock": 22.77,
+        "median_seconds": 2.3285,
+        "negative_elapsed": 0,
+        "early_median": 3.6910000000000025,
+        "late_median": 0.002000000000000668
+      }
+    }
+  },
+  {
+    "game_id": "0c7ddcbb-4de3-44b6-998f-371c4524d597",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "33",
+      "White": "ms",
+      "Black": "Cornelius",
+      "Result": "1/2-1/2",
+      "FEN": "rnbqk2r/ppp2ppp/3b4/3p4/3Pn3/2P2N1P/PP3PP1/RNBQKB1R w KQkq - 1 8",
+      "SetUp": "1",
+      "Termination": "insufficient_material"
+    },
+    "rated_at_retrieval": true,
+    "recheck": [
+      {
+        "team": "ms",
+        "text": "Rated 33 view the game White Cornelius Draw Petroff Defence"
+      }
+    ],
+    "void": false,
+    "first_current_referee_terminal_before_recorded_end": null,
+    "timing": {
+      "white": {
+        "player": "ms",
+        "moves": 58,
+        "final_clock": 6.193,
+        "median_seconds": 2.1735000000000007,
+        "negative_elapsed": 0,
+        "early_median": 3.798500000000004,
+        "late_median": 0.658500000000001
+      },
+      "black": {
+        "player": "Cornelius",
+        "moves": 57,
+        "final_clock": 21.106,
+        "median_seconds": 1.5300000000000011,
+        "negative_elapsed": 0,
+        "early_median": 2.9140000000000086,
+        "late_median": 1.1660000000000004
+      }
+    }
+  },
+  {
+    "game_id": "d6794542-6a47-45f1-a6be-8f7983e7932f",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.05",
+      "Round": "26",
+      "White": "ms",
+      "Black": "adashima",
+      "Result": "0-1",
+      "FEN": "r1bqk2r/pp1pppbp/2n2np1/2p5/2P5/2NP1NP1/PP2PPBP/R1BQK2R b KQkq - 0 6",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "rated_at_retrieval": true,
+    "recheck": [
+      {
+        "team": "ms",
+        "text": "Rated 26 view the game White adashima Loss English Symmetrical"
+      },
+      {
+        "team": "adashima",
+        "text": "Rated 26 view the game Black ms Win English Symmetrical"
+      }
+    ],
+    "void": false,
+    "first_current_referee_terminal_before_recorded_end": null,
+    "timing": {
+      "white": {
+        "player": "ms",
+        "moves": 69,
+        "final_clock": 7.285,
+        "median_seconds": 1.4820000000000029,
+        "negative_elapsed": 0,
+        "early_median": 4.031500000000005,
+        "late_median": 0.702
+      },
+      "black": {
+        "player": "adashima",
+        "moves": 70,
+        "final_clock": 20.45,
+        "median_seconds": 1.6280000000000001,
+        "negative_elapsed": 0,
+        "early_median": 2.9450000000000003,
+        "late_median": 0.8574999999999982
+      }
+    }
+  },
+  {
+    "game_id": "64e7bca1-e8eb-427a-89e0-8bae0bc4b068",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "34",
+      "White": "AI Fellows",
+      "Black": "Make_no_mistakes",
+      "Result": "1-0",
+      "FEN": "rnbqkb1r/pp2pp1p/3p1np1/8/3NP3/2N4P/PPP2PP1/R1BQKB1R b KQkq - 0 6",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "rated_at_retrieval": true,
+    "recheck": [
+      {
+        "team": "AI Fellows",
+        "text": "Rated 34 view the game White Make_no_mistakes Win Sicilian Dragon"
+      }
+    ],
+    "void": false,
+    "first_current_referee_terminal_before_recorded_end": {
+      "ply": 65,
+      "absolute": 76,
+      "outcome": "Outcome(termination=<Termination.THREEFOLD_REPETITION: 7>, winner=None)"
+    },
+    "timing": {
+      "white": {
+        "player": "AI Fellows",
+        "moves": 74,
+        "final_clock": 1.67,
+        "median_seconds": 1.0289999999999992,
+        "negative_elapsed": 0,
+        "early_median": 5.319000000000003,
+        "late_median": 0.7479999999999997
+      },
+      "black": {
+        "player": "Make_no_mistakes",
+        "moves": 74,
+        "final_clock": 17.162,
+        "median_seconds": 1.6209999999999987,
+        "negative_elapsed": 0,
+        "early_median": 3.0790000000000006,
+        "late_median": 0.947000000000001
+      }
+    }
+  },
+  {
+    "game_id": "69d277c2-15ce-4c99-8339-22ca7c2f9693",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "35",
+      "White": "checkers",
+      "Black": "AI Fellows",
+      "Result": "1/2-1/2",
+      "FEN": "r1bqk2r/ppp1bppp/2n5/3np3/P1B5/3P1N2/1PP2PPP/RNBQ1RK1 b kq - 1 7",
+      "SetUp": "1",
+      "Termination": "threefold_repetition"
+    },
+    "rated_at_retrieval": true,
+    "recheck": [
+      {
+        "team": "AI Fellows",
+        "text": "Rated 35 view the game Black checkers Draw Two Knights Defence"
+      }
+    ],
+    "void": false,
+    "first_current_referee_terminal_before_recorded_end": {
+      "ply": 122,
+      "absolute": 135,
+      "outcome": "Outcome(termination=<Termination.THREEFOLD_REPETITION: 7>, winner=None)"
+    },
+    "timing": {
+      "white": {
+        "player": "checkers",
+        "moves": 82,
+        "final_clock": 12.503,
+        "median_seconds": 1.5169999999999995,
+        "negative_elapsed": 0,
+        "early_median": 2.7094999999999985,
+        "late_median": 0.9484999999999992
+      },
+      "black": {
+        "player": "AI Fellows",
+        "moves": 83,
+        "final_clock": 3.153,
+        "median_seconds": 0.9170000000000003,
+        "negative_elapsed": 0,
+        "early_median": 5.220500000000005,
+        "late_median": 0.5940000000000003
+      }
+    }
+  },
+  {
+    "game_id": "6b1357ac-e475-49d6-b29b-d0f88ae33807",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "33",
+      "White": "AI Fellows",
+      "Black": "Finlay Phillips",
+      "Result": "1-0",
+      "FEN": "r1bq1rk1/ppp2ppp/2np1n2/2b1p3/2B1P3/2PP1N2/PP1N1PPP/R1BQ1RK1 b - - 3 7",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "rated_at_retrieval": true,
+    "recheck": [
+      {
+        "team": "AI Fellows",
+        "text": "Rated 33 view the game White Finlay Phillips Win Italian Game"
+      }
+    ],
+    "void": false,
+    "first_current_referee_terminal_before_recorded_end": null,
+    "timing": {
+      "white": {
+        "player": "AI Fellows",
+        "moves": 50,
+        "final_clock": 10.164,
+        "median_seconds": 1.8840000000000003,
+        "negative_elapsed": 0,
+        "early_median": 4.395499999999995,
+        "late_median": 0.0035000000000007248
+      },
+      "black": {
+        "player": "Finlay Phillips",
+        "moves": 50,
+        "final_clock": 8.629,
+        "median_seconds": 2.5334999999999965,
+        "negative_elapsed": 0,
+        "early_median": 2.9195000000000064,
+        "late_median": 0.08800000000000008
+      }
+    }
+  },
+  {
+    "game_id": "f2d38be3-81f7-4491-bf65-a6b683f64363",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.05",
+      "Round": "24",
+      "White": "Emile Andrieu",
+      "Black": "AI Fellows",
+      "Result": "1/2-1/2",
+      "FEN": "r3kb1r/pp1qpppp/2n2n2/3p4/3P1Bb1/1QPB3P/PP3PP1/RN2K1NR b KQkq - 0 8",
+      "SetUp": "1",
+      "Termination": "insufficient_material"
+    },
+    "rated_at_retrieval": true,
+    "recheck": [
+      {
+        "team": "AI Fellows",
+        "text": "Rated 24 view the game Black Emile Andrieu Draw Caro-Kann Exchange"
+      },
+      {
+        "team": "AlphaFish",
+        "text": "Rated 24 view the game White AI Fellows Draw Caro-Kann Exchange"
+      }
+    ],
+    "void": false,
+    "first_current_referee_terminal_before_recorded_end": null,
+    "timing": {
+      "white": {
+        "player": "Emile Andrieu",
+        "moves": 262,
+        "final_clock": 5.597,
+        "median_seconds": 0.5774999999999997,
+        "negative_elapsed": 0,
+        "early_median": 3.1400000000000006,
+        "late_median": 0.5569999999999999
+      },
+      "black": {
+        "player": "AI Fellows",
+        "moves": 263,
+        "final_clock": 1.297,
+        "median_seconds": 0.5369999999999999,
+        "negative_elapsed": 0,
+        "early_median": 4.4254999999999995,
+        "late_median": 0.5050000000000001
+      }
+    }
+  },
+  {
+    "game_id": "452de142-52f4-4d7c-a376-4a73b3890825",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.05",
+      "Round": "26",
+      "White": "AI Fellows",
+      "Black": "Make_no_mistakes",
+      "Result": "0-1",
+      "FEN": "rnbq1rk1/ppp1ppbp/3p1np1/6B1/3PP3/2N2N2/PPP1BPPP/R2QK2R b KQ - 5 6",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "rated_at_retrieval": true,
+    "recheck": [
+      {
+        "team": "AI Fellows",
+        "text": "Rated 26 view the game White Make_no_mistakes Loss Pirc Defence"
+      }
+    ],
+    "void": false,
+    "first_current_referee_terminal_before_recorded_end": null,
+    "timing": {
+      "white": {
+        "player": "AI Fellows",
+        "moves": 81,
+        "final_clock": 2.304,
+        "median_seconds": 1.0129999999999995,
+        "negative_elapsed": 0,
+        "early_median": 4.2955000000000005,
+        "late_median": 0.6359999999999997
+      },
+      "black": {
+        "player": "Make_no_mistakes",
+        "moves": 82,
+        "final_clock": 18.13,
+        "median_seconds": 1.459500000000002,
+        "negative_elapsed": 0,
+        "early_median": 2.282499999999999,
+        "late_median": 1.0155000000000012
+      }
+    }
+  },
+  {
+    "game_id": "5e599ffe-c29c-4d81-8b28-8a10b2ccb097",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "34",
+      "White": "Emile Andrieu",
+      "Black": "THE ROOOOOKKK!!!!",
+      "Result": "1-0",
+      "FEN": "rnbqkb1r/ppp2ppp/8/3p4/3Pn3/4BN2/PPP2PPP/RN1QKB1R b KQkq - 1 6",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "rated_at_retrieval": true,
+    "recheck": [
+      {
+        "team": "AlphaFish",
+        "text": "Rated 34 view the game White THE ROOOOOKKK!!!! Win Petroff Defence"
+      },
+      {
+        "team": "Capablanca",
+        "text": "Rated 34 view the game Black Emile Andrieu Loss Petroff Defence"
+      }
+    ],
+    "void": false,
+    "first_current_referee_terminal_before_recorded_end": null,
+    "timing": {
+      "white": {
+        "player": "Emile Andrieu",
+        "moves": 101,
+        "final_clock": 13.825,
+        "median_seconds": 1.2479999999999976,
+        "negative_elapsed": 0,
+        "early_median": 3.0075000000000074,
+        "late_median": 0.9199999999999999
+      },
+      "black": {
+        "player": "THE ROOOOOKKK!!!!",
+        "moves": 101,
+        "final_clock": 16.303,
+        "median_seconds": 1.2100000000000009,
+        "negative_elapsed": 0,
+        "early_median": 2.3654999999999973,
+        "late_median": 0.9849999999999994
+      }
+    }
+  },
+  {
+    "game_id": "4d1c6a55-334b-4160-8027-4aedb2904b07",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "35",
+      "White": "Lubina",
+      "Black": "Emile Andrieu",
+      "Result": "0-1",
+      "FEN": "r1bq1rk1/ppp2pbp/2np1np1/P2Pp3/4P3/2N2N2/1PP1BPPP/R1BQK2R b KQ - 0 8",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "rated_at_retrieval": true,
+    "recheck": [
+      {
+        "team": "AlphaFish",
+        "text": "Rated 35 view the game Black Lubina Win Pirc Defence"
+      }
+    ],
+    "void": false,
+    "first_current_referee_terminal_before_recorded_end": null,
+    "timing": {
+      "white": {
+        "player": "Lubina",
+        "moves": 51,
+        "final_clock": 47.26,
+        "median_seconds": 1.9730000000000132,
+        "negative_elapsed": 0,
+        "early_median": 2.593499999999999,
+        "late_median": 0.8400000000000034
+      },
+      "black": {
+        "player": "Emile Andrieu",
+        "moves": 52,
+        "final_clock": 32.665,
+        "median_seconds": 2.100999999999999,
+        "negative_elapsed": 0,
+        "early_median": 3.068000000000005,
+        "late_median": 1.4745000000000008
+      }
+    }
+  },
+  {
+    "game_id": "c64cf058-a891-4884-b68a-b2dc32bf8951",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "33",
+      "White": "Emile Andrieu",
+      "Black": "LeetBeaters",
+      "Result": "1-0",
+      "FEN": "r1bqkb1r/pp1n1ppp/2p1pn2/3p4/2PP4/2N1PN2/PP2BPPP/R1BQK2R b KQkq - 2 6",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "rated_at_retrieval": true,
+    "recheck": [
+      {
+        "team": "AlphaFish",
+        "text": "Rated 33 view the game White LeetBeaters Win Semi-Slav Defence"
+      }
+    ],
+    "void": false,
+    "first_current_referee_terminal_before_recorded_end": null,
+    "timing": {
+      "white": {
+        "player": "Emile Andrieu",
+        "moves": 52,
+        "final_clock": 32.85,
+        "median_seconds": 2.0894999999999975,
+        "negative_elapsed": 0,
+        "early_median": 3.1744999999999948,
+        "late_median": 1.3295000000000012
+      },
+      "black": {
+        "player": "LeetBeaters",
+        "moves": 52,
+        "final_clock": 8.859,
+        "median_seconds": 2.386,
+        "negative_elapsed": 0,
+        "early_median": 3.410499999999999,
+        "late_median": 0.7875000000000001
+      }
+    }
+  },
+  {
+    "game_id": "3121cf00-a8d0-43d5-b61d-052b8f95ee85",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.04",
+      "Round": "10",
+      "White": "darKnight",
+      "Black": "Emile Andrieu",
+      "Result": "1-0",
+      "FEN": "rnbqk2r/ppp1bppp/4pn2/3p4/2P5/1P3NP1/P2PPPBP/RNBQK2R b KQkq - 0 5",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "rated_at_retrieval": true,
+    "recheck": [
+      {
+        "team": "AlphaFish",
+        "text": "Rated 10 view the game Black darKnight Loss Reti Opening"
+      }
+    ],
+    "void": false,
+    "first_current_referee_terminal_before_recorded_end": null,
+    "timing": {
+      "white": {
+        "player": "darKnight",
+        "moves": 51,
+        "final_clock": 34.159,
+        "median_seconds": 1.926000000000002,
+        "negative_elapsed": 0,
+        "early_median": 3.2450000000000045,
+        "late_median": 1.0
+      },
+      "black": {
+        "player": "Emile Andrieu",
+        "moves": 51,
+        "final_clock": 31.797,
+        "median_seconds": 2.161999999999999,
+        "negative_elapsed": 0,
+        "early_median": 3.3100000000000023,
+        "late_median": 0.1410000000000018
+      }
+    }
+  },
+  {
+    "game_id": "287fa830-5ca2-47f0-a4b6-1114e5801a8d",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "35",
+      "White": "THE ROOOOOKKK!!!!",
+      "Black": "Sobriety",
+      "Result": "1/2-1/2",
+      "FEN": "rnbqk2r/ppp3pp/4pn2/3p1p2/1b1P4/1PP2NP1/P3PPBP/RNBQK2R b KQkq - 0 6",
+      "SetUp": "1",
+      "Termination": "stalemate"
+    },
+    "rated_at_retrieval": true,
+    "recheck": [
+      {
+        "team": "Capablanca",
+        "text": "Rated 35 view the game White Sobriety Draw Dutch Stonewall"
+      }
+    ],
+    "void": false,
+    "first_current_referee_terminal_before_recorded_end": null,
+    "timing": {
+      "white": {
+        "player": "THE ROOOOOKKK!!!!",
+        "moves": 44,
+        "final_clock": 45.562,
+        "median_seconds": 1.841000000000001,
+        "negative_elapsed": 0,
+        "early_median": 2.5564999999999998,
+        "late_median": 0.49150000000000205
+      },
+      "black": {
+        "player": "Sobriety",
+        "moves": 44,
+        "final_clock": 35.744,
+        "median_seconds": 2.136000000000003,
+        "negative_elapsed": 0,
+        "early_median": 3.2405000000000044,
+        "late_median": 0.002500000000001279
+      }
+    }
+  },
+  {
+    "game_id": "3358dd3a-1175-4fa3-893e-89b5a63618d5",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "33",
+      "White": "THE ROOOOOKKK!!!!",
+      "Black": "zak",
+      "Result": "1-0",
+      "FEN": "rn1qkb1r/pp1bpp1p/3p1np1/8/3NP3/2N5/PPP1BPPP/R1BQK2R b KQkq - 3 7",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "rated_at_retrieval": true,
+    "recheck": [
+      {
+        "team": "Capablanca",
+        "text": "Rated 33 view the game White zak Win Sicilian Dragon"
+      }
+    ],
+    "void": false,
+    "first_current_referee_terminal_before_recorded_end": null,
+    "timing": {
+      "white": {
+        "player": "THE ROOOOOKKK!!!!",
+        "moves": 90,
+        "final_clock": 15.462,
+        "median_seconds": 1.421999999999997,
+        "negative_elapsed": 0,
+        "early_median": 2.5020000000000024,
+        "late_median": 0.9485000000000028
+      },
+      "black": {
+        "player": "zak",
+        "moves": 90,
+        "final_clock": 5.919,
+        "median_seconds": 1.2759999999999998,
+        "negative_elapsed": 0,
+        "early_median": 3.288500000000006,
+        "late_median": 0.8425000000000002
+      }
+    }
+  },
+  {
+    "game_id": "e509abe9-a4fc-4782-8bdf-43044caf5bf9",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.04",
+      "Round": "14",
+      "White": "Mate in One",
+      "Black": "THE ROOOOOKKK!!!!",
+      "Result": "1-0",
+      "FEN": "rnbqkb1r/pp1n1ppp/4p3/2ppP3/3P1P2/2NB4/PPP3PP/R1BQK1NR b KQkq - 1 6",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "rated_at_retrieval": true,
+    "recheck": [
+      {
+        "team": "Capablanca",
+        "text": "Rated 14 view the game Black Mate in One Loss French Classical"
+      }
+    ],
+    "void": false,
+    "first_current_referee_terminal_before_recorded_end": null,
+    "timing": {
+      "white": {
+        "player": "Mate in One",
+        "moves": 37,
+        "final_clock": 38.121,
+        "median_seconds": 2.8559999999999945,
+        "negative_elapsed": 0,
+        "early_median": 3.4815000000000005,
+        "late_median": null
+      },
+      "black": {
+        "player": "THE ROOOOOKKK!!!!",
+        "moves": 37,
+        "final_clock": 52.95,
+        "median_seconds": 2.0889999999999986,
+        "negative_elapsed": 0,
+        "early_median": 2.3825000000000074,
+        "late_median": null
+      }
+    }
+  },
+  {
+    "game_id": "6c63b304-bf04-4c9d-8f89-938de65fe0bd",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "35",
+      "White": "pheanup",
+      "Black": "FuzzyBot",
+      "Result": "1/2-1/2",
+      "FEN": "r1bqk2r/pp2ppbp/2np1np1/2p5/4P2P/2NP2P1/PPP2PB1/R1BQK1NR w KQkq - 1 7",
+      "SetUp": "1",
+      "Termination": "threefold_repetition"
+    },
+    "rated_at_retrieval": true,
+    "recheck": [
+      {
+        "team": "FuzzyBot",
+        "text": "Rated 35 view the game Black pheanup Draw Sicilian Closed"
+      }
+    ],
+    "void": false,
+    "first_current_referee_terminal_before_recorded_end": {
+      "ply": 151,
+      "absolute": 163,
+      "outcome": "Outcome(termination=<Termination.THREEFOLD_REPETITION: 7>, winner=None)"
+    },
+    "timing": {
+      "white": {
+        "player": "pheanup",
+        "moves": 76,
+        "final_clock": 1.612,
+        "median_seconds": 1.4139999999999997,
+        "negative_elapsed": 0,
+        "early_median": 3.9450000000000003,
+        "late_median": 0.7304999999999996
+      },
+      "black": {
+        "player": "FuzzyBot",
+        "moves": 76,
+        "final_clock": 2.988,
+        "median_seconds": 1.5079999999999973,
+        "negative_elapsed": 0,
+        "early_median": 3.3515000000000015,
+        "late_median": 0.7895000000000003
+      }
+    }
+  },
+  {
+    "game_id": "4aa22bb6-c6f6-42fd-b6d7-818a51f52c2d",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "32",
+      "White": "adashima",
+      "Black": "FuzzyBot",
+      "Result": "0-1",
+      "FEN": "rnbqkb1r/ppp2ppp/8/3p4/3Pn3/P4N2/1PP2PPP/RNBQKB1R b KQkq - 0 6",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "rated_at_retrieval": true,
+    "recheck": [
+      {
+        "team": "FuzzyBot",
+        "text": "Rated 32 view the game Black adashima Win Petroff Defence"
+      },
+      {
+        "team": "adashima",
+        "text": "Rated 32 view the game White FuzzyBot Loss Petroff Defence"
+      }
+    ],
+    "void": false,
+    "first_current_referee_terminal_before_recorded_end": null,
+    "timing": {
+      "white": {
+        "player": "adashima",
+        "moves": 109,
+        "final_clock": 10.502,
+        "median_seconds": 1.0350000000000001,
+        "negative_elapsed": 0,
+        "early_median": 3.167999999999985,
+        "late_median": 0.6989999999999998
+      },
+      "black": {
+        "player": "FuzzyBot",
+        "moves": 110,
+        "final_clock": 2.807,
+        "median_seconds": 1.3745000000000003,
+        "negative_elapsed": 0,
+        "early_median": 2.8034999999999997,
+        "late_median": 0.6394999999999997
+      }
+    }
+  },
+  {
+    "game_id": "7f9278f0-e094-496e-9678-c21c12f2e08c",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.05",
+      "Round": "19",
+      "White": "checkers",
+      "Black": "FuzzyBot",
+      "Result": "1/2-1/2",
+      "FEN": "rn2kb1r/pp1q1ppp/5n2/2pp4/3P4/7P/PPPN1PP1/R1BQK1NR w KQkq - 0 8",
+      "SetUp": "1",
+      "Termination": "insufficient_material"
+    },
+    "rated_at_retrieval": true,
+    "recheck": [
+      {
+        "team": "FuzzyBot",
+        "text": "Rated 19 view the game Black checkers Draw French Tarrasch"
+      }
+    ],
+    "void": false,
+    "first_current_referee_terminal_before_recorded_end": null,
+    "timing": {
+      "white": {
+        "player": "checkers",
+        "moves": 98,
+        "final_clock": 26.229,
+        "median_seconds": 0.8934999999999977,
+        "negative_elapsed": 0,
+        "early_median": 2.2069999999999936,
+        "late_median": 0.7424999999999997
+      },
+      "black": {
+        "player": "FuzzyBot",
+        "moves": 97,
+        "final_clock": 32.247,
+        "median_seconds": 1.0759999999999987,
+        "negative_elapsed": 0,
+        "early_median": 3.4564999999999984,
+        "late_median": 0.008000000000002672
+      }
+    }
+  },
+  {
+    "game_id": "0ce8dc9a-7491-4178-8053-67d82240ce72",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "31",
+      "White": "FuzzyBot",
+      "Black": "Danya's Disciple",
+      "Result": "0-1",
+      "FEN": "r1b1k2r/pp3ppp/2nqpn2/2pp4/3P4/2P1P2P/PP1N1PP1/R2QKBNR w KQkq - 0 8",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "rated_at_retrieval": true,
+    "recheck": [
+      {
+        "team": "FuzzyBot",
+        "text": "Rated 31 view the game White Danya's Disciple Loss London System"
+      }
+    ],
+    "void": false,
+    "first_current_referee_terminal_before_recorded_end": null,
+    "timing": {
+      "white": {
+        "player": "FuzzyBot",
+        "moves": 112,
+        "final_clock": 9.237,
+        "median_seconds": 0.6730000000000003,
+        "negative_elapsed": 0,
+        "early_median": 3.0829999999999984,
+        "late_median": 0.46999999999999986
+      },
+      "black": {
+        "player": "Danya's Disciple",
+        "moves": 112,
+        "final_clock": 14.758,
+        "median_seconds": 1.0145,
+        "negative_elapsed": 0,
+        "early_median": 3.5515000000000043,
+        "late_median": 0.7345000000000006
+      }
+    }
+  },
+  {
+    "game_id": "bd31b3fa-8921-4a0b-b3d9-666060bded2e",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "35",
+      "White": "adashima",
+      "Black": "BitsEntangled",
+      "Result": "1-0",
+      "FEN": "r1bqkb1r/pp2pppp/2n2n2/3p4/3P1B2/2PB4/PP3PPP/RN1QK1NR b KQkq - 2 6",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "rated_at_retrieval": true,
+    "recheck": [
+      {
+        "team": "adashima",
+        "text": "Rated 35 view the game White BitsEntangled Win Caro-Kann Exchange"
+      }
+    ],
+    "void": false,
+    "first_current_referee_terminal_before_recorded_end": null,
+    "timing": {
+      "white": {
+        "player": "adashima",
+        "moves": 57,
+        "final_clock": 21.011,
+        "median_seconds": 1.9140000000000015,
+        "negative_elapsed": 0,
+        "early_median": 3.0145000000000053,
+        "late_median": 1.011999999999997
+      },
+      "black": {
+        "player": "BitsEntangled",
+        "moves": 57,
+        "final_clock": 12.203,
+        "median_seconds": 2.075000000000003,
+        "negative_elapsed": 0,
+        "early_median": 2.2745000000000104,
+        "late_median": 0.7759999999999998
+      }
+    }
+  },
+  {
+    "game_id": "2f5963df-5dd4-46fe-acac-805671e734a5",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "34",
+      "White": "Finlay Phillips",
+      "Black": "adashima",
+      "Result": "0-1",
+      "FEN": "r1bq1rk1/ppp2pbp/2np1np1/3Pp3/2P1P3/P1N2N2/1P2BPPP/R1BQK2R b KQ - 0 8",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "rated_at_retrieval": true,
+    "recheck": [
+      {
+        "team": "adashima",
+        "text": "Rated 34 view the game Black Finlay Phillips Win King's Indian Classical"
+      }
+    ],
+    "void": false,
+    "first_current_referee_terminal_before_recorded_end": null,
+    "timing": {
+      "white": {
+        "player": "Finlay Phillips",
+        "moves": 39,
+        "final_clock": 8.332,
+        "median_seconds": 3.3230000000000075,
+        "negative_elapsed": 0,
+        "early_median": 3.457500000000003,
+        "late_median": null
+      },
+      "black": {
+        "player": "adashima",
+        "moves": 40,
+        "final_clock": 37.639,
+        "median_seconds": 2.272000000000002,
+        "negative_elapsed": 0,
+        "early_median": 2.9854999999999947,
+        "late_median": null
+      }
+    }
+  },
+  {
+    "game_id": "9f8245b5-1851-49a3-a801-577412047baa",
+    "headers": {
+      "Event": "AI Chessathon Rated",
+      "Site": "aichessathon.com",
+      "Date": "2026.09.06",
+      "Round": "33",
+      "White": "slopfish",
+      "Black": "adashima",
+      "Result": "1-0",
+      "FEN": "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B2P/PPP2PP1/R2QKB1R b KQkq - 3 8",
+      "SetUp": "1",
+      "Termination": "checkmate"
+    },
+    "rated_at_retrieval": true,
+    "recheck": [
+      {
+        "team": "adashima",
+        "text": "Rated 33 view the game Black slopfish Loss Sicilian Najdorf"
+      }
+    ],
+    "void": false,
+    "first_current_referee_terminal_before_recorded_end": null,
+    "timing": {
+      "white": {
+        "player": "slopfish",
+        "moves": 77,
+        "final_clock": 9.849,
+        "median_seconds": 1.850999999999999,
+        "negative_elapsed": 0,
+        "early_median": 3.005499999999998,
+        "late_median": 1.3099999999999952
+      },
+      "black": {
+        "player": "adashima",
+        "moves": 77,
+        "final_clock": 11.895,
+        "median_seconds": 1.5229999999999997,
+        "negative_elapsed": 0,
+        "early_median": 3.424500000000002,
+        "late_median": 0.8590000000000018
+      }
+    }
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "frozen_utc": "2026-09-05T18:45:03.701221+00:00",
+  "engine": {
+    "name": "Stockfish 19",
+    "path": "C:\\Users\\finla\\AppData\\Local\\ChessTK\\analysis-tools\\stockfish-19\\stockfish\\stockfish-windows-arm64-universal.exe",
+    "sha256": "3b5881df3d6f92817cf6664a6a18a473b50d424c71a1247fe4268090db281413",
+    "purpose": "Offline independent starting-position balance only; never submission code."
+  },
+  "screen_nodes": 200000,
+  "screened": 60,
+  "selected": 48,
+  "counts": {
+    "development": {
+      "flank": 2,
+      "e4": 3,
+      "d4": 3
+    },
+    "holdout": {
+      "flank": 8,
+      "e4": 16,
+      "d4": 16
+    }
+  },
+  "geometry": {
+    "development": {
+      "one": 7,
+      "same": 1
+    },
+    "holdout": {
+      "opposite": 3,
+      "same": 21,
+      "one": 16
+    }
+  },
+  "guard_holdout_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    18,
+    19,
+    20
+  ],
+  "files": {
+    "candidate-pool.jsonl": "037c81bca32bb751ab02d11e3a4f72efd28a0dfbcf1e4c827dee9e4ca4d3abe1",
+    "development.jsonl": "a79884e7a48d5bee22cfe0aea2439fa9a241dc3b59207729608d5deba9dc19c1",
+    "holdout.jsonl": "f2297b902f5a1be536f70eff2e4affdbf00a283a5d4326825cecf3f38c1d39b3",
+    "independent-screen.jsonl": "5bb6371fdc7b4be24569869e1de359f743f065ba6ffcaa9bdcf6b397f152fcf1"
+  },
+  "fen_files": {
+    "development.fen": "0ac8e4afff0f96b9185c496c492e84a1e36817e1a2d8370c4f8e96a4192ef4e7",
+    "holdout.fen": "21263a9007839774d18b0364a4a06410459399dd5794f2e5af225b20350d9cf1"
+  },
+  "pre_screen_sha256": "f26fb62ebcc879255a3e931e2a23429da51220834436e98cb821a2d7ccdb1c0c",
+  "independence": "No candidate or control engine was imported or played during construction. Final positions remain excluded from development tuning. Guard reuses predeclared holdout subset and is reported separately.",
+  "tool_source_hashes": {
+    "build.py": "99d67cf3df41629698d7b55357f6f1fcabdccdb08976f83b13636ae2519d8dbf",
+    "audit.py": "0f3cb87821aa5b56044e8661bfda4692cd49e8e2748bb41b65c233122c611057"
+  }
+}

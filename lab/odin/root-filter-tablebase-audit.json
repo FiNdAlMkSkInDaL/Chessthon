@@ -1,0 +1,190 @@
+{
+  "fen": "2k5/4K3/6P1/8/4p3/5r1p/R7/8 b - - 5 83",
+  "filter": {
+    "corpus": "native40",
+    "path": "lab\\storm\\Storm-v4-vs-v3-games.pgn",
+    "game_index": 12,
+    "headers": {
+      "Event": "Storm v4 (revision r2) versus v3 native validation",
+      "Site": "Local Linux validation",
+      "Date": "2026.09.04",
+      "Round": "165.2",
+      "White": "v3",
+      "Black": "Storm v4",
+      "Result": "1-0",
+      "FEN": "rnb1kb1r/pp2nppp/2pp4/q3p3/3NP3/3P4/PPP2PPP/R1BQKBNR w KQkq - 2 6",
+      "SetUp": "1",
+      "Termination": "checkmate",
+      "StormSHA256": "15db92a79feff24cf52f5b85974f55504753f981823d7e6d92881fb62812e85c",
+      "V3SHA256": "3397e7a8ca55696bb8d7586a9c73cbeabc0c8b6f51b26cdc8c26562a37c91408",
+      "Evidence": "holdout-r2-lane-a.jsonl; 20260904T225631Z-b66b297d; game 12"
+    },
+    "played_ply": 155,
+    "fullmove": 83,
+    "turn": "black",
+    "fen": "2k5/4K3/6P1/8/4p3/5r1p/R7/8 b - - 5 83",
+    "halfmove": 5,
+    "pesto_score": 88,
+    "winning": true,
+    "legal_count": 18,
+    "kept_count": 12,
+    "removed": [
+      "f3g3",
+      "f3e3",
+      "f3d3",
+      "f3c3",
+      "f3b3",
+      "f3a3"
+    ],
+    "kept": [
+      "c8b8",
+      "c8c7",
+      "c8b7",
+      "f3f8",
+      "f3f7",
+      "f3f6",
+      "f3f5",
+      "f3f4",
+      "f3f2",
+      "f3f1",
+      "e4e3",
+      "h3h2"
+    ],
+    "played": "f3f4",
+    "san": "Rf4",
+    "reasons": {
+      "any_previous_occurrence": 1,
+      "auto_claim_lookahead": 5
+    },
+    "scan_ms": 33.79460000007839
+  },
+  "tablebase_comparison": [
+    {
+      "uci": "h3h2",
+      "san": "h2",
+      "tablebase_child_category": "draw",
+      "filter_kept": true,
+      "claim_after_move": "None"
+    },
+    {
+      "uci": "e4e3",
+      "san": "e3",
+      "tablebase_child_category": "draw",
+      "filter_kept": true,
+      "claim_after_move": "None"
+    },
+    {
+      "uci": "f3g3",
+      "san": "Rg3",
+      "tablebase_child_category": "draw",
+      "filter_kept": false,
+      "claim_after_move": "None"
+    },
+    {
+      "uci": "c8b7",
+      "san": "Kb7",
+      "tablebase_child_category": "draw",
+      "filter_kept": true,
+      "claim_after_move": "None"
+    },
+    {
+      "uci": "c8c7",
+      "san": "Kc7",
+      "tablebase_child_category": "draw",
+      "filter_kept": true,
+      "claim_after_move": "None"
+    },
+    {
+      "uci": "f3f1",
+      "san": "Rf1",
+      "tablebase_child_category": "win",
+      "filter_kept": true,
+      "claim_after_move": "None"
+    },
+    {
+      "uci": "f3f2",
+      "san": "Rf2",
+      "tablebase_child_category": "win",
+      "filter_kept": true,
+      "claim_after_move": "None"
+    },
+    {
+      "uci": "f3a3",
+      "san": "Ra3",
+      "tablebase_child_category": "win",
+      "filter_kept": false,
+      "claim_after_move": "None"
+    },
+    {
+      "uci": "f3b3",
+      "san": "Rb3",
+      "tablebase_child_category": "win",
+      "filter_kept": false,
+      "claim_after_move": "None"
+    },
+    {
+      "uci": "f3c3",
+      "san": "Rc3",
+      "tablebase_child_category": "win",
+      "filter_kept": false,
+      "claim_after_move": "None"
+    },
+    {
+      "uci": "f3d3",
+      "san": "Rd3",
+      "tablebase_child_category": "win",
+      "filter_kept": false,
+      "claim_after_move": "None"
+    },
+    {
+      "uci": "f3e3",
+      "san": "Re3",
+      "tablebase_child_category": "win",
+      "filter_kept": false,
+      "claim_after_move": "None"
+    },
+    {
+      "uci": "f3f4",
+      "san": "Rf4",
+      "tablebase_child_category": "win",
+      "filter_kept": true,
+      "claim_after_move": "None"
+    },
+    {
+      "uci": "f3f5",
+      "san": "Rf5",
+      "tablebase_child_category": "win",
+      "filter_kept": true,
+      "claim_after_move": "None"
+    },
+    {
+      "uci": "f3f6",
+      "san": "Rf6",
+      "tablebase_child_category": "win",
+      "filter_kept": true,
+      "claim_after_move": "None"
+    },
+    {
+      "uci": "f3f7",
+      "san": "Rf7+",
+      "tablebase_child_category": "win",
+      "filter_kept": true,
+      "claim_after_move": "None"
+    },
+    {
+      "uci": "f3f8",
+      "san": "Rf8",
+      "tablebase_child_category": "win",
+      "filter_kept": true,
+      "claim_after_move": "None"
+    },
+    {
+      "uci": "c8b8",
+      "san": "Kb8",
+      "tablebase_child_category": "win",
+      "filter_kept": true,
+      "claim_after_move": "None"
+    }
+  ],
+  "note": "Tablebase categories are child-side-to-move perspective. Root Black draw; child win means Black losing. Tablebase does not encode PGN repetition history, which is checked separately."
+}

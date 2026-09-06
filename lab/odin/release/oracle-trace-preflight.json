@@ -1,0 +1,9 @@
+{
+  "traces": 66,
+  "positions": 3857,
+  "claimable_positions": 8,
+  "diagnostic_endpoints_verified": 37,
+  "note": "Some traces deliberately continue past an auto-claim to test predicate boundaries; they are legal-position histories, not complete competition games.",
+  "status": "PASS",
+  "mode": "oracle-only; no engine imported"
+}

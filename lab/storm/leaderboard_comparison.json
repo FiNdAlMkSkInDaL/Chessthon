@@ -1,0 +1,258 @@
+{
+  "metadata": {
+    "url": "https://aichessathon.com/leaderboard",
+    "retrieved_utc": "2026-09-04T22:37:22.988946+00:00",
+    "server_date": "Fri, 04 Sep 2026 22:37:21 GMT",
+    "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+    "sha256": "56039a6d918a1655dc4859d6a56339ba6eb29363759ee8f086b3a39e3643c568"
+  },
+  "teams_in_snapshot": 243,
+  "top5": [
+    {
+      "rank": 1,
+      "bot": "SoberJackson",
+      "team": "Sobriety",
+      "university": "Mixed",
+      "rating": 2164,
+      "games": 15,
+      "record_wdl": "12-1-2",
+      "url": "https://aichessathon.com/team/258a9828-7442-4bea-97cb-eed1845ad2cc?from=lb"
+    },
+    {
+      "rank": 2,
+      "bot": "ms",
+      "team": "ms",
+      "university": "Imperial",
+      "rating": 2132,
+      "games": 15,
+      "record_wdl": "11-2-2",
+      "url": "https://aichessathon.com/team/c3e1bc09-3d21-4279-ace0-16bb3742f5da?from=lb"
+    },
+    {
+      "rank": 3,
+      "bot": "Mate in One",
+      "team": "Mate in One",
+      "university": "Manchester",
+      "rating": 2125,
+      "games": 15,
+      "record_wdl": "10-4-1",
+      "url": "https://aichessathon.com/team/3be637a8-e78d-4da4-8016-d13e00170433?from=lb"
+    },
+    {
+      "rank": 4,
+      "bot": "Patzer 1.2",
+      "team": "Gijs Smit",
+      "university": "International",
+      "rating": 2080,
+      "games": 15,
+      "record_wdl": "11-1-3",
+      "url": "https://aichessathon.com/team/3f0e0e44-cdce-485f-b5b6-3691e34f9f44?from=lb"
+    },
+    {
+      "rank": 5,
+      "bot": "checkers",
+      "team": "checkers",
+      "university": "Imperial",
+      "rating": 2026,
+      "games": 15,
+      "record_wdl": "9-3-3",
+      "url": "https://aichessathon.com/team/9e5e613a-ca80-4fd9-aa68-76f184ef7bac?from=lb"
+    }
+  ],
+  "samson": {
+    "rank": 60,
+    "bot": "Samson",
+    "team": "Finlay Phillips",
+    "university": "UCL",
+    "rating": 1685,
+    "games": 15,
+    "record_wdl": "8-2-5",
+    "url": "https://aichessathon.com/team/1a7f24af-0e65-4f49-b084-a7fd513ddb14?from=lb"
+  },
+  "day1_opponents": [
+    {
+      "rank": 168,
+      "bot": "Blunderbus",
+      "team": "Brownies",
+      "university": "Mixed",
+      "rating": 1361,
+      "games": 15,
+      "record_wdl": "5-5-5",
+      "url": "https://aichessathon.com/team/1d4fc121-d317-4aa2-a35d-f3d9a1bbaaa9?from=lb",
+      "round": 1,
+      "our_result": "win"
+    },
+    {
+      "rank": 27,
+      "bot": "KingofImperial",
+      "team": "omega3 fish",
+      "university": "Imperial",
+      "rating": 1813,
+      "games": 15,
+      "record_wdl": "7-2-6",
+      "url": "https://aichessathon.com/team/1daad2c3-adda-4ae6-945c-e82c4015ee72?from=lb",
+      "round": 2,
+      "our_result": "loss"
+    },
+    {
+      "rank": 88,
+      "bot": "Pawn Street",
+      "team": "Fork 72",
+      "university": "International",
+      "rating": 1586,
+      "games": 15,
+      "record_wdl": "7-2-6",
+      "url": "https://aichessathon.com/team/20847793-5055-429f-bf31-027877f796af?from=lb",
+      "round": 3,
+      "our_result": "win"
+    },
+    {
+      "rank": 26,
+      "bot": "TheROOK",
+      "team": "TheROOK",
+      "university": "UCL",
+      "rating": 1818,
+      "games": 15,
+      "record_wdl": "8-4-3",
+      "url": "https://aichessathon.com/team/13367195-d3ed-4c05-bba6-25ee8f416520?from=lb",
+      "round": 4,
+      "our_result": "loss"
+    },
+    {
+      "rank": 79,
+      "bot": "Brrrrrr",
+      "team": "Baryon",
+      "university": "UCL",
+      "rating": 1610,
+      "games": 15,
+      "record_wdl": "8-2-5",
+      "url": "https://aichessathon.com/team/5cd0612a-399e-4aff-9aa7-a52e02991202?from=lb",
+      "round": 5,
+      "our_result": "win"
+    },
+    {
+      "rank": 56,
+      "bot": "stonkfish",
+      "team": "Stonkfish",
+      "university": "Warwick",
+      "rating": 1696,
+      "games": 15,
+      "record_wdl": "8-1-6",
+      "url": "https://aichessathon.com/team/385a6db2-1c05-46db-ae91-7218700f83b3?from=lb",
+      "round": 6,
+      "our_result": "loss"
+    },
+    {
+      "rank": 54,
+      "bot": "no1",
+      "team": "LehmanBro",
+      "university": "LSE",
+      "rating": 1702,
+      "games": 12,
+      "record_wdl": "6-3-3",
+      "url": "https://aichessathon.com/team/8d98448c-f28c-4552-b82d-cb657b33175d?from=lb",
+      "round": 7,
+      "our_result": "win"
+    },
+    {
+      "rank": 132,
+      "bot": "Steinitz",
+      "team": "lefischer",
+      "university": "International",
+      "rating": 1468,
+      "games": 15,
+      "record_wdl": "4-4-7",
+      "url": "https://aichessathon.com/team/0900c279-5ede-4155-a850-436c28af6ea9?from=lb",
+      "round": 8,
+      "our_result": "win"
+    },
+    {
+      "rank": 102,
+      "bot": "Tobias Carlsen",
+      "team": "Tobias Carlsen",
+      "university": "Imperial",
+      "rating": 1538,
+      "games": 15,
+      "record_wdl": "5-2-8",
+      "url": "https://aichessathon.com/team/903d9bc9-e89a-4c0d-bd2f-61ed92481fad?from=lb",
+      "round": 9,
+      "our_result": "loss"
+    },
+    {
+      "rank": 91,
+      "bot": "Ultron",
+      "team": "DGS ELO",
+      "university": "Mixed",
+      "rating": 1582,
+      "games": 15,
+      "record_wdl": "4-6-5",
+      "url": "https://aichessathon.com/team/5f8a69d7-73a8-4498-b322-861b557dffbd?from=lb",
+      "round": 10,
+      "our_result": "draw"
+    },
+    {
+      "rank": 89,
+      "bot": "TriggerFish",
+      "team": "TriggerFish",
+      "university": "International",
+      "rating": 1584,
+      "games": 15,
+      "record_wdl": "7-4-4",
+      "url": "https://aichessathon.com/team/8cffadc3-2135-45a6-8f80-9e0bdf7cef1f?from=lb",
+      "round": 11,
+      "our_result": "win"
+    },
+    {
+      "rank": 76,
+      "bot": "Keresight",
+      "team": "Keresight",
+      "university": "Imperial",
+      "rating": 1635,
+      "games": 15,
+      "record_wdl": "8-1-6",
+      "url": "https://aichessathon.com/team/3fcdf539-0b45-4b69-a4b1-4fdc59fcbe06?from=lb",
+      "round": 12,
+      "our_result": "loss"
+    },
+    {
+      "rank": 62,
+      "bot": "silly silly silly chess",
+      "team": "Desai",
+      "university": "UCL",
+      "rating": 1680,
+      "games": 11,
+      "record_wdl": "6-1-4",
+      "url": "https://aichessathon.com/team/8aa0c5f7-4af1-48d7-8dde-3b26f9b7459d?from=lb",
+      "round": 13,
+      "our_result": "win"
+    },
+    {
+      "rank": 74,
+      "bot": "CHINA MACHINE",
+      "team": "Sillycats",
+      "university": "International",
+      "rating": 1647,
+      "games": 15,
+      "record_wdl": "7-1-7",
+      "url": "https://aichessathon.com/team/17719f6d-f1dc-4078-8606-2fe63a632ea0?from=lb",
+      "round": 14,
+      "our_result": "win"
+    },
+    {
+      "rank": 57,
+      "bot": "bitterbot",
+      "team": "bitter1",
+      "university": "Warwick",
+      "rating": 1694,
+      "games": 15,
+      "record_wdl": "7-3-5",
+      "url": "https://aichessathon.com/team/24469206-03ee-4e33-b311-9456c084f632?from=lb",
+      "round": 15,
+      "our_result": "draw"
+    }
+  ],
+  "limitations": [
+    "Ratings are at snapshot time, not pre-game ratings.",
+    "Leaderboard outcomes do not identify opponents' algorithms or prove opponent schedules."
+  ]
+}

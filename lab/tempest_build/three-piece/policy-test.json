@@ -1,0 +1,90 @@
+{
+  "pass_all": true,
+  "complete_conversions": 640,
+  "total_plies": 10580,
+  "max_policy_ms": 4.759999996167608,
+  "seconds": 4.565190200009965,
+  "boundaries": [
+    [
+      5,
+      1,
+      "fifty_mate"
+    ],
+    [
+      5,
+      1,
+      "absolute_cap_mate"
+    ],
+    [
+      5,
+      3,
+      "fifty_mate"
+    ],
+    [
+      5,
+      3,
+      "absolute_cap_mate"
+    ],
+    [
+      5,
+      5,
+      "fifty_mate"
+    ],
+    [
+      5,
+      5,
+      "absolute_cap_mate"
+    ],
+    [
+      5,
+      9,
+      "fifty_mate"
+    ],
+    [
+      5,
+      9,
+      "absolute_cap_mate"
+    ],
+    [
+      4,
+      1,
+      "fifty_mate"
+    ],
+    [
+      4,
+      1,
+      "absolute_cap_mate"
+    ],
+    [
+      4,
+      3,
+      "fifty_mate"
+    ],
+    [
+      4,
+      3,
+      "absolute_cap_mate"
+    ],
+    [
+      4,
+      5,
+      "fifty_mate"
+    ],
+    [
+      4,
+      5,
+      "absolute_cap_mate"
+    ],
+    [
+      4,
+      9,
+      "fifty_mate"
+    ],
+    [
+      4,
+      9,
+      "absolute_cap_mate"
+    ]
+  ],
+  "scope": "640 independently started exact-policy-versus-exact-policy conversions; not strength games against v6."
+}

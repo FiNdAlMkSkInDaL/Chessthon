@@ -1,0 +1,143 @@
+{
+  "verdict": "PASS",
+  "evidence_valid": true,
+  "failure_reasons": [],
+  "candidate_sha256": "15db92a79feff24cf52f5b85974f55504753f981823d7e6d92881fb62812e85c",
+  "baseline_sha256": "3397e7a8ca55696bb8d7586a9c73cbeabc0c8b6f51b26cdc8c26562a37c91408",
+  "logs": [
+    "holdout-r2-lane-a.jsonl",
+    "holdout-r2-lane-b.jsonl"
+  ],
+  "required_opening_indices": [
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179
+  ],
+  "opening_indices_observed": [
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179
+  ],
+  "games_replayed": 40,
+  "plies_replayed": 5028,
+  "run_summaries": [
+    {
+      "run_id": "20260904T225631Z-b66b297d",
+      "games_completed": 20,
+      "pairs_completed": 10,
+      "planned_games": 20,
+      "protocol_failures": 0
+    },
+    {
+      "run_id": "20260904T230211Z-0cd42739",
+      "games_completed": 20,
+      "pairs_completed": 10,
+      "planned_games": 20,
+      "protocol_failures": 0
+    }
+  ],
+  "source_provenance": {
+    "harness/referee.py": "0a05b3cf959123110a1d2bfec78354bb6bd5e1660810fbb5baa3fc46ccb5e732",
+    "harness/rules.py": "4fbaa1ac5010066287055bdd847c59a1d57341cdd721728891307d5761f702da",
+    "harness/runner.py": "31e6478905576d56e22b675217fd582dce554fbaf3850afc55d8aab2b3f55f4e",
+    "harness/sandbox.py": "2124822815728cbab7c9b1b61f3bff23fbb1ab340658d2ba58c7c2d99bff1f2c",
+    "lab/storm/linux_match.py": "0b20a9a6e67e03c6d98fff05334adb8ec6a4ba4d971d16e3dc7b86e518165e6f",
+    "lab/laptop_match.py": "bdaa949ee65c13cd586bfc17537818fdb3e389e3acf40b8a694e35217b58f7e8",
+    "lab/laptop_runner.py": "57f3c62d7a5070436ebbb056c65e7394d292b692309a263139298767a5e7c61e",
+    "lab/release_audit.py": "ecfd901d3868dc6e293172051aa83d64fe658486e40f1b16b31cf4d0e8b838c2",
+    "lab/paired_match_stats.py": "8ce432d0d23404af5d8b0c5785bc2fca8f976e8fc601b38c5828672b90e257ef"
+  },
+  "openings_sha256": "9b7d75f13d4b376743ac2fe000b9665147b582beb6dc541e5f91453a7192f0eb",
+  "clock_recurrence_residual_ms": {
+    "min": -0.9400000000023283,
+    "max": 1.0559999999968568,
+    "note": "Diagnostic only: incoming clocks are integers; wrapper timing excludes a little referee overhead."
+  },
+  "statistics": {
+    "verdict": "PASS",
+    "reasons": [],
+    "validation_errors": [],
+    "game_rows": 40,
+    "pair_groups": 20,
+    "complete_pairs": 20,
+    "included_pairs": 20,
+    "excluded_failure_pairs": 0,
+    "wins": 31,
+    "draws": 4,
+    "losses": 5,
+    "score": 0.825,
+    "pentanomial": {
+      "LL": 0,
+      "LD": 1,
+      "DD": 4,
+      "WD": 3,
+      "WW": 12
+    },
+    "bootstrap": {
+      "method": "paired percentile bootstrap",
+      "samples": 20000,
+      "seed": 20260904,
+      "confidence": 0.95,
+      "standard_error": 0.05374871787715033,
+      "score_ci": [
+        0.7125,
+        0.925
+      ]
+    },
+    "elo": {
+      "estimate": 269.3663599454522,
+      "ci": [
+        157.65880786195942,
+        436.4321877389331
+      ]
+    },
+    "candidate_failures": {},
+    "opponent_failures": {},
+    "identities": {
+      "candidate": [
+        "15db92a79feff24cf52f5b85974f55504753f981823d7e6d92881fb62812e85c"
+      ],
+      "opponent": [
+        "3397e7a8ca55696bb8d7586a9c73cbeabc0c8b6f51b26cdc8c26562a37c91408"
+      ]
+    },
+    "gate": {
+      "threshold": 0.5,
+      "min_pairs": 20
+    }
+  }
+}

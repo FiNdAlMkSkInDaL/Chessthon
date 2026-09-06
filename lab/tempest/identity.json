@@ -1,0 +1,61 @@
+{
+  "archive_sha256": "cd3ed778f75ded38dd4371a56c285f6f66c1311464a093707d473d8a9d0c8647",
+  "odin_v6_source_sha256": {
+    "agent.py": "5ddf79ad54a3d0d06a3f98761106d98c4a16531c8426e67f2a724109750b87da",
+    "bitops_nb.py": "34f606a1a6bd60d492a90072ff236f15d97c000e131a567c214b59f85baabb58",
+    "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+    "core_nb.py": "9fe2507404f6c92b60592b7766a5351a48dc53b3f337109bb0e593c85a079f2b",
+    "eval_nb.py": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f",
+    "history.py": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e",
+    "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+    "search_nb.py": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6",
+    "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+    "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+    "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+    "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+  },
+  "prototype_baseline_ast_identical": true,
+  "baseline_core_line_ending_normalization": true,
+  "own_game_inventory": {
+    "Chess_results_day1": [
+      "aichessathon-round-1-brownies.pgn",
+      "aichessathon-round-10-dgs-elo.pgn",
+      "aichessathon-round-11-triggerfish.pgn",
+      "aichessathon-round-12-keresight.pgn",
+      "aichessathon-round-13-desai.pgn",
+      "aichessathon-round-14-sillycats.pgn",
+      "aichessathon-round-15-bitter1.pgn",
+      "aichessathon-round-2-omega3-fish.pgn",
+      "aichessathon-round-3-fork-72.pgn",
+      "aichessathon-round-4-therook.pgn",
+      "aichessathon-round-5-baryon.pgn",
+      "aichessathon-round-6-stonkfish.pgn",
+      "aichessathon-round-7-lehmanbro.pgn",
+      "aichessathon-round-8-lefischer.pgn",
+      "aichessathon-round-9-tobias-carlsen.pgn"
+    ],
+    "chess_results_day2": [
+      "aichessathon-round-16-meshpotato.pgn",
+      "aichessathon-round-17-chessnotcheckers.pgn",
+      "aichessathon-round-18-french-carlsen.pgn",
+      "aichessathon-round-19-the-big-h.pgn",
+      "aichessathon-round-20-saucybeans.pgn",
+      "aichessathon-round-21-the-castle-gambit.pgn",
+      "aichessathon-round-22-checkmategpt.pgn",
+      "aichessathon-round-23-omi.pgn",
+      "aichessathon-round-24-the-huxley-knights.pgn",
+      "aichessathon-round-25-keep-kann-and-caro-on.pgn",
+      "aichessathon-round-26-chessml.pgn",
+      "aichessathon-round-27-jsp.pgn",
+      "aichessathon-round-28-neural-gambit.pgn",
+      "aichessathon-round-29-fuzzybot.pgn",
+      "aichessathon-round-30-team1.pgn"
+    ],
+    "Chess_results_day3": [
+      "aichessathon-round-31-xx.pgn",
+      "aichessathon-round-32-ms.pgn",
+      "aichessathon-round-33-ai-fellows.pgn",
+      "aichessathon-round-34-adashima.pgn"
+    ]
+  }
+}

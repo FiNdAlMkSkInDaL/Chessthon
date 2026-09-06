@@ -1,0 +1,682 @@
+{
+  "completed_utc": "2026-09-06T14:51:26.365390+00:00",
+  "desktop_release_unchanged": "0ed607e21235046d239c05d5bcb735e48b919e3d6d83cd74fe543c134addf6e4",
+  "promotion_performed": false,
+  "matches": {
+    "match": {
+      "audit": "PASS",
+      "games": 16,
+      "wins": 3,
+      "draws": 8,
+      "losses": 5,
+      "score": 0.4375,
+      "legal_plies": 2735,
+      "candidate_cold_imports": [
+        35.040467927232385,
+        34.702944710850716
+      ],
+      "decision": "REJECT promotion testing",
+      "scope": "16 development games at equal 100ms search allowance; complete pairs, source/reset/legal audit. Not full-clock or reliable Elo evidence.",
+      "plan_sha256": "a5e761df03ec79e2ad386be339337153a8b66b01f293a83c37f34f30f6340a70",
+      "logs": {
+        "a": "fa2178280c51b1f3245c78f1025a9f3d3f47139206f4271ce0090b5591fa15e9",
+        "b": "90851e3e48558895b20fd0a7718f40a079b784d0695301d7ee21e6535d6f01e6"
+      }
+    },
+    "match-lmr": {
+      "audit": "PASS",
+      "games": 16,
+      "wins": 5,
+      "draws": 7,
+      "losses": 4,
+      "score": 0.53125,
+      "legal_plies": 1983,
+      "candidate_cold_imports": [
+        35.1489421967417,
+        33.97645076923072
+      ],
+      "decision": "INCONCLUSIVE; no promotion",
+      "scope": "16 development games at equal 500ms search allowance; complete pairs, source/reset/legal audit. Not full-clock or reliable Elo evidence.",
+      "plan_sha256": "e4c9c69d7bd7a2199f656f3d8c030ce47084280d9155e36287a499c30ee3edef",
+      "logs": {
+        "a": "da9206e84acb33e518618f42f0ecc29556ce2408a4ace1daa092681c2ad65a8c",
+        "b": "f4e2e3ffd4ea8c45aa3b2ad65b576783d18b695967ff436c44a2aba59d147c96"
+      }
+    },
+    "match-policy": {
+      "audit": "PASS",
+      "games": 16,
+      "wins": 2,
+      "draws": 11,
+      "losses": 3,
+      "score": 0.46875,
+      "legal_plies": 1862,
+      "candidate_cold_imports": [
+        33.55830366909504,
+        33.907652443274856
+      ],
+      "decision": "REJECT promotion testing",
+      "scope": "16 development games at equal 500ms search allowance; complete pairs, source/reset/legal audit. Not full-clock or reliable Elo evidence.",
+      "plan_sha256": "2ec37d016f6bf0e96e130315bc8e0bada49deda5cba41fb7c1191fcb49c60993",
+      "logs": {
+        "a": "75dc92baab27995a0d1b5823d39ad4149283cd33c99471c498fa5b79e4352674",
+        "b": "92dfb97ac68f15f051f7f43d94122e20dadc858009fb34e518f6cd5240fecc67"
+      }
+    }
+  },
+  "attack_fit": {
+    "plan": {
+      "features": [
+        "weak_ring",
+        "double_ring",
+        "queen_contact",
+        "knight_checks",
+        "bishop_checks",
+        "rook_checks",
+        "queen_checks",
+        "coordinated_ring",
+        "pressure_squared",
+        "restricted_flights",
+        "pawn_storm",
+        "pawn_levers",
+        "open_king_files",
+        "queen_proximity"
+      ],
+      "folds": 5,
+      "ridges": [
+        10,
+        100,
+        1000
+      ],
+      "phase_powers": [
+        1,
+        2
+      ],
+      "clip_cp": 600,
+      "selection": "minimum mean absolute error across family-blocked development folds",
+      "scope": "Prior pilot train/validation/test are all used development data; fresh independent confirmation required.",
+      "gates": [
+        "at least 5cp development OOF gain",
+        "phase and quiet p90 no worse by more than 5cp",
+        "native reference identity and speed",
+        "independent decision ranking and paired matches before promotion"
+      ],
+      "coefficient_constraint": "nonnegative attack-benefit weights, Huber IRLS ridge, no intercept"
+    },
+    "trials": [
+      {
+        "power": 1,
+        "ridge": 10,
+        "n": 5288,
+        "mae": 272.37101924939014,
+        "p90": 632.3000000000002
+      },
+      {
+        "power": 1,
+        "ridge": 100,
+        "n": 5288,
+        "mae": 272.3638990032196,
+        "p90": 631.0
+      },
+      {
+        "power": 1,
+        "ridge": 1000,
+        "n": 5288,
+        "mae": 272.70781144292295,
+        "p90": 633.0
+      },
+      {
+        "power": 2,
+        "ridge": 10,
+        "n": 5288,
+        "mae": 272.0184116473123,
+        "p90": 633.0528437994801
+      },
+      {
+        "power": 2,
+        "ridge": 100,
+        "n": 5288,
+        "mae": 271.9784790791849,
+        "p90": 632.7977024444232
+      },
+      {
+        "power": 2,
+        "ridge": 1000,
+        "n": 5288,
+        "mae": 272.4371946285441,
+        "p90": 629.5628238949004
+      }
+    ],
+    "chosen": {
+      "power": 2,
+      "ridge": 100,
+      "n": 5288,
+      "mae": 271.9784790791849,
+      "p90": 632.7977024444232
+    },
+    "baseline": {
+      "n": 5288,
+      "mae": 273.929084720121,
+      "p90": 640.3000000000002
+    },
+    "slices": {
+      "endgame": {
+        "baseline": {
+          "n": 1539,
+          "mae": 234.28200129954516,
+          "p90": 547.0
+        },
+        "candidate": {
+          "n": 1539,
+          "mae": 234.31565113597665,
+          "p90": 546.3601545446217
+        }
+      },
+      "middle": {
+        "baseline": {
+          "n": 2259,
+          "mae": 277.6781761841523,
+          "p90": 606.0000000000002
+        },
+        "candidate": {
+          "n": 2259,
+          "mae": 277.3924824636944,
+          "p90": 602.1291313355848
+        }
+      },
+      "high": {
+        "baseline": {
+          "n": 1490,
+          "mae": 309.19597315436243,
+          "p90": 756.1000000000001
+        },
+        "candidate": {
+          "n": 1490,
+          "mae": 302.6716727429371,
+          "p90": 736.2847219446597
+        }
+      },
+      "quiet": {
+        "baseline": {
+          "n": 3173,
+          "mae": 203.04664355499528,
+          "p90": 417.0
+        },
+        "candidate": {
+          "n": 3173,
+          "mae": 202.19567493728601,
+          "p90": 414.2267450071408
+        }
+      }
+    },
+    "coefficients": [
+      221.91582124795042,
+      0.0,
+      0.0,
+      215.07919851361868,
+      80.07427757663966,
+      372.43204433863565,
+      22.42571349879245,
+      0.0,
+      0.0,
+      0.0,
+      48.126883686442525,
+      313.2138830879743,
+      20.801776029603726,
+      0.0
+    ],
+    "features": [
+      "weak_ring",
+      "double_ring",
+      "queen_contact",
+      "knight_checks",
+      "bishop_checks",
+      "rook_checks",
+      "queen_checks",
+      "coordinated_ring",
+      "pressure_squared",
+      "restricted_flights",
+      "pawn_storm",
+      "pawn_levers",
+      "open_king_files",
+      "queen_proximity"
+    ],
+    "seconds": 1.3780948000057833,
+    "development_gate_pass": false,
+    "source_hashes": {
+      "lab\\tempest_attack\\fit.py": "5f892f53f36485fd841410107988e3907cde258afedce4cf76cd4217f08dd7d6",
+      "lab\\tempest_attack\\features.py": "e3b06e73d8fcdb860871417c03e177059d0520ed31988a87c27facc490836e1c",
+      "lab\\tempest_build\\data\\states.jsonl": "117169e50116083d254a62a9a7438b83aac6cc40631e6160ebe11338e0dbfdc2",
+      "lab\\tempest_build\\data\\labels-0.jsonl": "1f51d2053c1b3ebc69452ad181793ceefb75eb138525d101e6193707bf91d84e",
+      "lab\\tempest_build\\data\\labels-1.jsonl": "1db19b3f827a81049cf12f20f2f99265f9da5f0e3840af759dd8f907e5144ebe",
+      "lab\\tempest_build\\data\\labels-2.jsonl": "1c78d1324cbe9dc0e408a533af8c83bed1c53880a0e75d7e7312c26e8922cb98",
+      "lab\\tempest_build\\data\\labels-3.jsonl": "81ffdabac0966f47505d459a64afd80ad954d9d8a230b31b264b545f070794ef"
+    }
+  },
+  "policy_fit": {
+    "plan": {
+      "features": [
+        "pawn",
+        "knight",
+        "bishop",
+        "rook",
+        "queen",
+        "king",
+        "pesto_delta",
+        "from_enemy_pawn",
+        "to_enemy_pawn",
+        "to_own_pawn",
+        "escape_attack",
+        "destination_attacked",
+        "gives_check",
+        "castle",
+        "advance_pawn",
+        "towards_enemy_king",
+        "towards_own_king",
+        "king_file",
+        "near_enemy_king_pawn",
+        "king_zone_gain",
+        "open_rook_file",
+        "center_gain"
+      ],
+      "models": [
+        "linear",
+        "piece_conditioned"
+      ],
+      "ridges": [
+        0.001,
+        0.01
+      ],
+      "folds": 5,
+      "epochs": 100,
+      "selection": "Highest out-of-fold mean reciprocal rank across used development families; retain all trials.",
+      "gates": "At least 0.03 MRR gain and 5 percentage points top-three gain over the original PeSTO-delta control before native integration; independent equal-wall games still required.",
+      "scope": "All prior pilot splits are USED data. Labels nominate one teacher quiet move, not a forced preference margin. This is an ordering proxy, not an evaluation/strength claim."
+    },
+    "trials": [
+      {
+        "model": "linear",
+        "ridge": 0.001,
+        "top1": 0.19586614173228348,
+        "top3": 0.3887795275590551,
+        "mrr": 0.35092125780375655,
+        "mean_rank": 7.921382874015748,
+        "groups": 4064
+      },
+      {
+        "model": "linear",
+        "ridge": 0.01,
+        "top1": 0.19635826771653545,
+        "top3": 0.38951771653543305,
+        "mrr": 0.3512785535371148,
+        "mean_rank": 7.910063976377953,
+        "groups": 4064
+      },
+      {
+        "model": "piece_conditioned",
+        "ridge": 0.001,
+        "top1": 0.21136811023622049,
+        "top3": 0.41904527559055116,
+        "mrr": 0.3723365163456651,
+        "mean_rank": 7.048843503937008,
+        "groups": 4064
+      },
+      {
+        "model": "piece_conditioned",
+        "ridge": 0.01,
+        "top1": 0.21161417322834647,
+        "top3": 0.4195374015748031,
+        "mrr": 0.37255281676159807,
+        "mean_rank": 7.046628937007874,
+        "groups": 4064
+      }
+    ],
+    "chosen": {
+      "model": "piece_conditioned",
+      "ridge": 0.01,
+      "top1": 0.21161417322834647,
+      "top3": 0.4195374015748031,
+      "mrr": 0.37255281676159807,
+      "mean_rank": 7.046628937007874,
+      "groups": 4064
+    },
+    "pesto_control": {
+      "top1": 0.1156496062992126,
+      "top3": 0.2672244094488189,
+      "mrr": 0.2615012354380228,
+      "mean_rank": 10.063976377952756,
+      "groups": 4064
+    },
+    "coefficients": [
+      0.015198897414690977,
+      0.5017302338612749,
+      0.1855242112834647,
+      -0.32972165595142783,
+      -0.10593341056027086,
+      0.03713375760589643,
+      0.8125964621092217,
+      1.218458021141629,
+      -0.8525957952469067,
+      0.22555937892729747,
+      0.39619585600147633,
+      -0.44220063120803427,
+      0.6927102967103319,
+      0.9268305190248485,
+      0.05994676814218171,
+      0.03905064608549726,
+      0.037866361022214905,
+      0.16643494109699694,
+      0.19961753719948847,
+      0.019963606560949615,
+      0.4000232854218492,
+      -0.004800098833686257,
+      0.4500843361615011,
+      -0.3045011402084023,
+      0.7071796408714277,
+      0.056984600503441944,
+      -0.06215388343697518,
+      0.6144113130624895,
+      -0.3032280222509239,
+      0.0,
+      0.05994676814218171,
+      0.12729733578185665,
+      -0.08196851352633444,
+      0.0,
+      0.19961753719948847,
+      -0.21281962971495824,
+      0.0,
+      -0.8506913896941576,
+      1.0275378255663674,
+      1.2474934664675503,
+      -1.6001431545521512,
+      0.6781495664970872,
+      0.3132288198649635,
+      -0.9017291220014056,
+      0.6538422631137156,
+      0.0,
+      0.0,
+      0.0717913541152232,
+      0.06123120400040023,
+      0.0,
+      0.0,
+      0.07845715507214973,
+      0.0,
+      0.26870224877481563,
+      1.419283500789746,
+      2.695589499262095,
+      -2.2983754751037906,
+      0.18563115181032017,
+      0.7635532001492162,
+      -0.5481266252332359,
+      0.9418155780499154,
+      0.0,
+      0.0,
+      0.06000998212790872,
+      0.08136733176328405,
+      0.0,
+      0.0,
+      -0.025877862707010486,
+      0.0,
+      0.14542088263482833,
+      0.3069687845083092,
+      0.8490371032334759,
+      -1.9101018854808927,
+      0.33161298260577393,
+      1.4875753157293876,
+      -0.7329138004655696,
+      0.7567116752546765,
+      0.0,
+      0.0,
+      -0.06698644144277627,
+      0.015284404395131757,
+      0.24173738449270876,
+      0.0,
+      0.03891303309684915,
+      0.4000232854218492,
+      -0.05531728863678931,
+      -0.16117174744848822,
+      3.6931992218452345,
+      -1.8076042644400356,
+      0.425799222351831,
+      2.3568880283458733,
+      -1.6110566929682408,
+      1.4956208709230814,
+      0.0,
+      0.0,
+      0.09684087370125176,
+      0.09376508168076178,
+      0.059763575206149964,
+      0.0,
+      -0.004009237509644125,
+      0.0,
+      0.27255543344770383,
+      3.9627691436307133,
+      0.0,
+      0.0,
+      0.03114402971196557,
+      0.0,
+      0.0,
+      0.36384771368564517,
+      0.9268305190248485,
+      0.0,
+      0.03260113200221218,
+      0.0,
+      0.0,
+      0.0,
+      0.11911195825168859,
+      0.0,
+      0.34188158825730525
+    ],
+    "family_count": 564,
+    "legal_quiet_moves": 102683,
+    "seconds": 21.83994299999904,
+    "development_gate_pass": true,
+    "source_hashes": {
+      "lab\\tempest_attack\\policy_prior.py": "ad8c0528e5ffd5ff28c733bdcb2b88996366d6b213602363a5e45d17630cd17d",
+      "lab\\tempest_build\\data\\states.jsonl": "117169e50116083d254a62a9a7438b83aac6cc40631e6160ebe11338e0dbfdc2",
+      "lab\\tempest_build\\data\\labels-0.jsonl": "1f51d2053c1b3ebc69452ad181793ceefb75eb138525d101e6193707bf91d84e",
+      "lab\\tempest_build\\data\\labels-1.jsonl": "1db19b3f827a81049cf12f20f2f99265f9da5f0e3840af759dd8f907e5144ebe",
+      "lab\\tempest_build\\data\\labels-2.jsonl": "1c78d1324cbe9dc0e408a533af8c83bed1c53880a0e75d7e7312c26e8922cb98",
+      "lab\\tempest_build\\data\\labels-3.jsonl": "81ffdabac0966f47505d459a64afd80ad954d9d8a230b31b264b545f070794ef"
+    }
+  },
+  "policy_cheap_fit": {
+    "plan": {
+      "kept_features": [
+        "pawn",
+        "knight",
+        "bishop",
+        "rook",
+        "queen",
+        "king",
+        "pesto_delta",
+        "from_enemy_pawn",
+        "to_enemy_pawn",
+        "to_own_pawn",
+        "castle",
+        "advance_pawn",
+        "towards_enemy_king",
+        "towards_own_king",
+        "king_file",
+        "near_enemy_king_pawn",
+        "open_rook_file",
+        "center_gain"
+      ],
+      "removed": [
+        "escape_attack",
+        "destination_attacked",
+        "gives_check",
+        "king_zone_gain"
+      ],
+      "ridges": [
+        0.001,
+        0.01
+      ],
+      "epochs": 100,
+      "scope": "Reused-family development cost ablation. No independent validation or Elo claim.",
+      "native_use": "Only break zero-history quiet-move ties; hash moves, captures, killers and nonzero history dominate. Original search/evaluation unchanged."
+    },
+    "trials": [
+      {
+        "ridge": 0.001,
+        "top1": 0.15723425196850394,
+        "top3": 0.3361220472440945,
+        "mrr": 0.31167732532284487,
+        "mean_rank": 8.348056102362206,
+        "groups": 4064
+      },
+      {
+        "ridge": 0.01,
+        "top1": 0.15674212598425197,
+        "top3": 0.3373523622047244,
+        "mrr": 0.3116825242373779,
+        "mean_rank": 8.33673720472441,
+        "groups": 4064
+      }
+    ],
+    "chosen": {
+      "ridge": 0.01,
+      "top1": 0.15674212598425197,
+      "top3": 0.3373523622047244,
+      "mrr": 0.3116825242373779,
+      "mean_rank": 8.33673720472441,
+      "groups": 4064
+    },
+    "pesto_control": {
+      "top1": 0.1156496062992126,
+      "top3": 0.2672244094488189,
+      "mrr": 0.2615012354380228,
+      "mean_rank": 10.063976377952756,
+      "groups": 4064
+    },
+    "collapsed_coefficients": [
+      [
+        0.1431743103068118,
+        1.1956899403780694,
+        1.2156879451717741,
+        -0.026430684596588705,
+        0.26395859409019135,
+        0.9212682516532873,
+        0.1584325367424122,
+        0.16731256061324323,
+        -0.05452971235082493,
+        0.3398688243218583,
+        0.36083486778176915,
+        0.3968730541592053,
+        -0.9607116296287165
+      ],
+      [
+        0.4221001570343672,
+        1.9152821322480509,
+        2.7326270223896767,
+        -3.0018343944568313,
+        0.8406818852431892,
+        0.9212682516532873,
+        0.0792162683712061,
+        0.05726084061060621,
+        0.12067741093514289,
+        0.3398688243218583,
+        0.18041743389088458,
+        0.3968730541592053,
+        0.14861652294914793
+      ],
+      [
+        0.17881558197251493,
+        2.3905087236950884,
+        4.777896272333191,
+        -3.7437457191630883,
+        0.40503419589881196,
+        0.9212682516532873,
+        0.0792162683712061,
+        0.07551974934625856,
+        0.14817013304467064,
+        0.3398688243218583,
+        0.18041743389088458,
+        0.3968730541592053,
+        0.05804242605431585
+      ],
+      [
+        -0.35908899028087016,
+        1.3508190883850046,
+        3.5875955278860037,
+        -3.386075198914742,
+        0.5969378944509123,
+        0.9212682516532873,
+        0.0792162683712061,
+        -0.05738371812641595,
+        0.06273962017401495,
+        0.8209487796566773,
+        0.18041743389088458,
+        0.7937461083184106,
+        -0.1297961650292061
+      ],
+      [
+        -0.14812152796649913,
+        0.4917954779551239,
+        6.980794077316707,
+        -3.880831639104877,
+        0.6022750405345642,
+        0.9212682516532873,
+        0.0792162683712061,
+        0.16207288632631472,
+        0.14854496293658004,
+        0.4493900739720622,
+        0.18041743389088458,
+        0.3968730541592053,
+        0.11584127741717695
+      ],
+      [
+        -0.008592339594022027,
+        4.792131438202031,
+        1.464936832224049,
+        -1.040842179541413,
+        0.23526988072112484,
+        1.8425365033065746,
+        0.0792162683712061,
+        0.10445539808534376,
+        0.045646701958977784,
+        0.3398688243218583,
+        0.18041743389088458,
+        0.3968730541592053,
+        0.3057715993639181
+      ]
+    ],
+    "development_gate_pass": true,
+    "seconds": 9.162215500007733,
+    "script_sha256": "5d52aaa2bc7703752bc8500f22a574a2d9d628cc45b01e58ba5949cf4d919195",
+    "matrix_sha256": "500c00c13c37381dc37b09346dbfea54221ff2c2c5ac2f6bc00eae9bf1e13c44"
+  },
+  "policy_native_verification": {
+    "pass_all": true,
+    "positions": 313,
+    "quiet_moves": 7847,
+    "max_logit_error": 1.4091242395153358e-07,
+    "cold_seconds": 81.03642489999766,
+    "perft_positions": 6,
+    "source_hashes": {
+      "agent.py": "18d398d1135bec4c402962f20b66a96b395edd61ff1a2e0d38058bd9ad8f0708",
+      "bitops_nb.py": "34f606a1a6bd60d492a90072ff236f15d97c000e131a567c214b59f85baabb58",
+      "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+      "core_nb.py": "175df5e037e280a688925cd45b4c8eb26a4326be2121807a8a8bbb2410e8c6ad",
+      "endgame_exact.py": "631868dc108ca451133cdbbd4f4888ff4e9e6208b80d17595e5afa70b326543e",
+      "eval_nb.py": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f",
+      "history.py": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e",
+      "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+      "search_nb.py": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6",
+      "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+      "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+      "three_piece_dtm.npz": "8a5d9742eed9c7e40b2001b5b37d30c22513d54659da69d4e93caa088e77014f",
+      "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+      "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+    },
+    "scope": "ARM native/reference parity and ordering/perft; independent Linux deployment and equal-wall strength remain separate."
+  },
+  "round38": {
+    "version": "unverified upload archive",
+    "five_piece_positions": 101,
+    "all_tablebase_drawn": true,
+    "screened_positions": 192,
+    "deep_comparisons": 4
+  },
+  "fresh_confirmation_used": false
+}

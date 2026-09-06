@@ -1,0 +1,51 @@
+{
+  "purpose": "Supplementary opening-distribution stress test, separate from native holdout confidence interval.",
+  "selection": "Chosen before these games: site index 8 (day-one round 9, both kings castled) and index 10 (day-one round 12, most developed start). Historical games were already inspected; these are not fresh holdout positions.",
+  "reason": "Local synthetic starts are all uncastled with a mean of 1.52 developed minor pieces; the 14 observed site starts average 4.21, and four positions already include castling. Check the frozen candidate on two substantially more developed starts.",
+  "source": "lab/storm/site_openings.fen",
+  "source_sha256": "12599f2ddc7eed2d264a874872c1878d440d7fc037ba2733ed39f193933fb662",
+  "chosen_file": "lab/storm/site_stress_openings.fen",
+  "chosen_sha256": "bfe0501f35d869b2d11c1bbdb845c3e35c52740f1df01b7499e89ccfcc9b58a0",
+  "positions": [
+    {
+      "stress_index": 0,
+      "site_index": 8,
+      "day1_round": 9,
+      "fen": "r1bq1rk1/ppp1bppp/2np1n2/4p3/P1B1P3/2PP1N2/1P3PPP/RNBQ1RK1 b - - 0 7"
+    },
+    {
+      "stress_index": 1,
+      "site_index": 10,
+      "day1_round": 12,
+      "fen": "r1b1qrk1/ppp2pbp/n2p2p1/4p1B1/2PPP1n1/2NQ1N2/PP2BPPP/R3K2R w KQ - 6 10"
+    }
+  ],
+  "candidate": {
+    "archive": "dist/storm-r2-linux-x86.zip",
+    "sha256": "15db92a79feff24cf52f5b85974f55504753f981823d7e6d92881fb62812e85c"
+  },
+  "baseline": {
+    "archive": "dist/agent-v3-linux-x86.zip",
+    "sha256": "3397e7a8ca55696bb8d7586a9c73cbeabc0c8b6f51b26cdc8c26562a37c91408"
+  },
+  "plan": {
+    "pairs": 2,
+    "games": 4,
+    "base_ms": 120000,
+    "increment_ms": 500,
+    "ply_cap": 300,
+    "cpu_pair": [
+      8,
+      9
+    ],
+    "memory_limit_bytes_per_agent": 2147483648
+  },
+  "execution": "lab.laptop_match; unchanged official referee and laptop runner shim. Record actual original/effective NUMBA_READY and every readiness override.",
+  "limitations": [
+    "Windows ARM host running x64 Python 3.12, not native Linux or the platform CPU.",
+    "Writable private source snapshots, no network namespace or aggregate 256 MiB temporary filesystem quota.",
+    "The existing runner limitation describing the openings as held-out local positions is stale for this run: these are the two historical site starts identified here.",
+    "Four games are stress evidence only; no Elo or leaderboard claim. Never pool them into the native holdout confidence interval."
+  ],
+  "cpu_coordination": "Launched only after storm_search confirmed its evaluation screen and children had released CPUs 8 and 9."
+}

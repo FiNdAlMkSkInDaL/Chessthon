@@ -1,0 +1,33 @@
+{"type": "metadata", "cold_seconds": 98.65110459999414, "source_hashes": {"agent.py": "5ddf79ad54a3d0d06a3f98761106d98c4a16531c8426e67f2a724109750b87da", "bitops_nb.py": "34f606a1a6bd60d492a90072ff236f15d97c000e131a567c214b59f85baabb58", "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d", "core_nb.py": "9ff2ae924f4da91b934e78080483a46e81c618efb7e955b5530aa5434f4770e1", "eval_nb.py": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f", "history.py": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e", "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c", "search_nb.py": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6", "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8", "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007", "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8", "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"}, "driver_sha256": "8e3f55c4fa94855928fc518aa471a77f61ce208b29b4eba31c1af7875be8279e", "roots_sha256": "6bb97238e472a23b6fd8908a6adbe5fffd89d711f483165ba5b409c85b1ae5d7", "nodes": 20000, "roots": 30}
+{"type": "isolation", "pass_ABA": true}
+{"type": "root", "id": "00013f7927b69f43ad45", "uci": "d2f2", "score": 41, "depth": 5, "nodes": 20000, "samples": []}
+{"type": "root", "id": "000669c1be0b91be1d4f", "uci": "f1e2", "score": 17, "depth": 4, "nodes": 20000, "samples": []}
+{"type": "root", "id": "0013117fe3a45832a7ca", "uci": "d1f3", "score": 279, "depth": 5, "nodes": 20000, "samples": []}
+{"type": "root", "id": "001b95eed87f4498e982", "uci": "d3c5", "score": 41, "depth": 6, "nodes": 20000, "samples": []}
+{"type": "root", "id": "002f672c73204b15aaab", "uci": "d4c6", "score": 111, "depth": 6, "nodes": 20000, "samples": []}
+{"type": "root", "id": "00383c1b54748c2e64cf", "uci": "b3b4", "score": 22, "depth": 5, "nodes": 20000, "samples": []}
+{"type": "root", "id": "003c8a479b4cd10f318b", "uci": "c3d1", "score": 20, "depth": 7, "nodes": 20000, "samples": []}
+{"type": "root", "id": "004f064dbbdcbd0bbbf7", "uci": "a2a3", "score": 237, "depth": 6, "nodes": 20000, "samples": []}
+{"type": "root", "id": "004f4d1e9144d5d31a4c", "uci": "e1f1", "score": -184, "depth": 5, "nodes": 20000, "samples": []}
+{"type": "root", "id": "00562f97e309edfa4dbb", "uci": "e8e7", "score": 191, "depth": 6, "nodes": 20000, "samples": []}
+{"type": "root", "id": "006080de576be6f4ce66", "uci": "d1c2", "score": 17, "depth": 5, "nodes": 20000, "samples": []}
+{"type": "root", "id": "006d70d73beb7a76ab38", "uci": "g1e2", "score": -6, "depth": 5, "nodes": 20000, "samples": []}
+{"type": "root", "id": "0072296b5653a89765f1", "uci": "a3c4", "score": 68, "depth": 5, "nodes": 20000, "samples": []}
+{"type": "root", "id": "0085ba019ad0a3e5bbdb", "uci": "b7c8", "score": 364, "depth": 8, "nodes": 20000, "samples": []}
+{"type": "root", "id": "00863807d3e7db4c650f", "uci": "f1e1", "score": -6, "depth": 5, "nodes": 20000, "samples": []}
+{"type": "root", "id": "0088c7e4908526f9fd06", "uci": "a4a3", "score": -79, "depth": 5, "nodes": 20000, "samples": []}
+{"type": "root", "id": "00925d9c629e812e6bec", "uci": "e3a7", "score": 301, "depth": 7, "nodes": 20000, "samples": []}
+{"type": "root", "id": "00aa47168b95848d1323", "uci": "e3h6", "score": 90, "depth": 6, "nodes": 20000, "samples": []}
+{"type": "root", "id": "00ac582774992d49e324", "uci": "d3d4", "score": 128, "depth": 4, "nodes": 20000, "samples": []}
+{"type": "root", "id": "00bd43dc978eaa02edc1", "uci": "e1g1", "score": 31, "depth": 5, "nodes": 20000, "samples": []}
+{"type": "root", "id": "00c73dc63f199c488d41", "uci": "a3a4", "score": -27, "depth": 6, "nodes": 20000, "samples": []}
+{"type": "root", "id": "00d105a73b3983d753c7", "uci": "f4f5", "score": 150, "depth": 5, "nodes": 20000, "samples": []}
+{"type": "root", "id": "00e73b3ee0dd3355328d", "uci": "c2c4", "score": 86, "depth": 5, "nodes": 20000, "samples": []}
+{"type": "root", "id": "0101d03c08f9b1e428a2", "uci": "a2b1", "score": -254, "depth": 12, "nodes": 20000, "samples": []}
+{"type": "root", "id": "010b82c8c4bd6a698ae7", "uci": "g2g4", "score": 375, "depth": 4, "nodes": 20000, "samples": []}
+{"type": "root", "id": "0110a41b4da845c37d55", "uci": "d8b7", "score": 423, "depth": 8, "nodes": 20000, "samples": []}
+{"type": "root", "id": "011b18b58aa765055713", "uci": "c1c8", "score": 160, "depth": 7, "nodes": 20000, "samples": []}
+{"type": "root", "id": "012646ad4970d9ff4733", "uci": "f2g3", "score": 0, "depth": 10, "nodes": 20000, "samples": []}
+{"type": "root", "id": "012cf2ceccdcc0055d6b", "uci": "c3d5", "score": 43, "depth": 7, "nodes": 20000, "samples": []}
+{"type": "root", "id": "0134623e54464747832b", "uci": "e3c3", "score": -104, "depth": 6, "nodes": 20000, "samples": []}
+{"type": "complete", "roots": 30, "seconds": 101.62281529999746}

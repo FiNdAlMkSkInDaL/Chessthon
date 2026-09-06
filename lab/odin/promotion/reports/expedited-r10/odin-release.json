@@ -1,0 +1,234 @@
+{
+  "verdict": "PASS",
+  "mode": "applied",
+  "name": "Odin v5",
+  "validated_utc": "2026-09-05T21:36:25.624082+00:00",
+  "decision_kind": "User-authorized expedited practical release; not a passed predeclared confidence gate",
+  "policy_change": "User rejected5\u20136 more hours and the112-game gate after14 games were observed. Finish the current color pairs, audit all16 games, retain cold Linux reliability gates, and decide without claiming statistical proof.",
+  "original_112_game_plan_completed": false,
+  "original_storm_32_game_guard_completed": false,
+  "confidence_gate_claimed": false,
+  "candidate": {
+    "sha256": "c7d8972e823eb821c016010445d4b02996daff954d870d63083c445850e21102",
+    "zip_bytes": 37392,
+    "uncompressed_bytes": 139566,
+    "entry_count": 12,
+    "entries": [
+      {
+        "name": "agent.py",
+        "sha256": "d5c4d0791d32442941e8f0bba5c5e90ec65d31853796b4ff97cc8db94e5432bf",
+        "compressed_bytes": 1398,
+        "uncompressed_bytes": 3846
+      },
+      {
+        "name": "bitops_nb.py",
+        "sha256": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+        "compressed_bytes": 783,
+        "uncompressed_bytes": 1699
+      },
+      {
+        "name": "board_nb.py",
+        "sha256": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+        "compressed_bytes": 3513,
+        "uncompressed_bytes": 13207
+      },
+      {
+        "name": "core_nb.py",
+        "sha256": "0b65a547e3aa3b927d46d05060ab100e614575fe28f92f0b18869b12ab6f8681",
+        "compressed_bytes": 13962,
+        "uncompressed_bytes": 67244
+      },
+      {
+        "name": "eval_nb.py",
+        "sha256": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f",
+        "compressed_bytes": 2792,
+        "uncompressed_bytes": 8267
+      },
+      {
+        "name": "history.py",
+        "sha256": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e",
+        "compressed_bytes": 1791,
+        "uncompressed_bytes": 5082
+      },
+      {
+        "name": "movegen_nb.py",
+        "sha256": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+        "compressed_bytes": 2004,
+        "uncompressed_bytes": 8581
+      },
+      {
+        "name": "search_nb.py",
+        "sha256": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6",
+        "compressed_bytes": 3986,
+        "uncompressed_bytes": 15989
+      },
+      {
+        "name": "storm_clock.py",
+        "sha256": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+        "compressed_bytes": 3298,
+        "uncompressed_bytes": 8845
+      },
+      {
+        "name": "tables_nb.py",
+        "sha256": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+        "compressed_bytes": 1361,
+        "uncompressed_bytes": 3561
+      },
+      {
+        "name": "time_nb.py",
+        "sha256": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+        "compressed_bytes": 461,
+        "uncompressed_bytes": 899
+      },
+      {
+        "name": "tt_nb.py",
+        "sha256": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a",
+        "compressed_bytes": 849,
+        "uncompressed_bytes": 2346
+      }
+    ]
+  },
+  "canonical_source": "C:\\Users\\finla\\OneDrive - University College London\\Desktop\\Chess TK\\odin_submission",
+  "original_plan_sha256": "26551be568a8e2fc7eaeb60530fd2c3934c86c8056021c7db840e7414c686734",
+  "operational": {
+    "verdict": "PASS",
+    "candidate_sha256": "c7d8972e823eb821c016010445d4b02996daff954d870d63083c445850e21102",
+    "cold_import_s": {
+      "structural": 33.08847641199827,
+      "protocol": 35.05324353836477
+    },
+    "peak_memory_bytes": 455131136
+  },
+  "supplemental": {
+    "scope": "Supplemental SEE/EP/all-root/warmup checks",
+    "cases": [
+      {
+        "see": "g1g7",
+        "expected": 100
+      },
+      {
+        "see": "c5d6",
+        "expected": 100
+      },
+      {
+        "see": "e5d6",
+        "expected": 100
+      },
+      {
+        "ep": "4k3/8/8/3pP3/8/8/8/4K3 w - d6 0 1",
+        "legal": true
+      },
+      {
+        "ep": "4k3/8/8/r4pPK/8/8/8/8 w - f6 0 1",
+        "legal": false
+      },
+      {
+        "ep": "4k3/8/8/3p4/8/8/8/4K3 w - d6 0 1",
+        "legal": false
+      }
+    ],
+    "test_sha256": "a87ac8c714a2c5ea2fa8d2967674c77e5d7e7a8a510d29eab3d04c022fc6dea1",
+    "cold_s": 32.21879259683192,
+    "total_fifty_cases": 15,
+    "first_live_ms": 149.18510429561138,
+    "verdict": "PASS"
+  },
+  "state_gate": {
+    "status": "PASS",
+    "positions": 3857,
+    "native_make_undo_edges": 9503,
+    "oracle_preflight": {
+      "traces": 66,
+      "positions": 3857,
+      "claimable_positions": 8,
+      "diagnostic_endpoints_verified": 37,
+      "note": "Some traces deliberately continue past an auto-claim to test predicate boundaries; they are legal-position histories, not complete competition games."
+    },
+    "claimable_positions": 6,
+    "traces": 66,
+    "seconds": 34.67170616425574,
+    "oracle": "python-chess 1.11.2 legal moves, can_claim_fifty_moves, independent FEN pack",
+    "scope": "Development correctness; no playing-strength inference.",
+    "exact_threefold_predicates_tested": false,
+    "total_fifty_helper_tested": true
+  },
+  "complete_pairs": 8,
+  "games_replayed": 16,
+  "plies_replayed": 2273,
+  "statistics_descriptive_only": {
+    "verdict": "FAIL",
+    "reasons": [
+      "lower confidence bound 0.3750 is not above threshold 0.5000"
+    ],
+    "validation_errors": [],
+    "game_rows": 16,
+    "pair_groups": 8,
+    "complete_pairs": 8,
+    "included_pairs": 8,
+    "excluded_failure_pairs": 0,
+    "wins": 9,
+    "draws": 2,
+    "losses": 5,
+    "score": 0.625,
+    "pentanomial": {
+      "LL": 1,
+      "LD": 1,
+      "DD": 2,
+      "WD": 1,
+      "WW": 3
+    },
+    "bootstrap": {
+      "method": "paired percentile bootstrap",
+      "samples": 10000,
+      "seed": 20260904,
+      "confidence": 0.95,
+      "standard_error": 0.12617780171838616,
+      "score_ci": [
+        0.375,
+        0.875
+      ]
+    },
+    "elo": {
+      "estimate": 88.73949984654256,
+      "ci": [
+        -88.73949984654256,
+        338.0392160057027
+      ]
+    },
+    "candidate_failures": {},
+    "opponent_failures": {},
+    "identities": {
+      "candidate": [
+        "c7d8972e823eb821c016010445d4b02996daff954d870d63083c445850e21102"
+      ],
+      "opponent": [
+        "35c6a33fed2e81acead145de53639ce516b1d24a6701a89a8c5fff81a582baf1"
+      ]
+    },
+    "gate": {
+      "threshold": 0.5,
+      "min_pairs": 8
+    }
+  },
+  "match_log_sha256": {
+    "primary-a.jsonl": "8e5c8b9b4cbb96f8441805779832ac1aa7c85037bff934a995644fe07f579d18",
+    "primary-b.jsonl": "3091c14d9190e6a1992c55da73d542b7d69e373643348b35ad6a77498e27ad58"
+  },
+  "baseline": "Minimal current-rules Storm control; original Storm is preserved, but its planned separate guard was cancelled.",
+  "preserved_desktop_hashes": {
+    "Storm-v4.zip": "15db92a79feff24cf52f5b85974f55504753f981823d7e6d92881fb62812e85c",
+    "v3-agent.zip": "3397e7a8ca55696bb8d7586a9c73cbeabc0c8b6f51b26cdc8c26562a37c91408",
+    "agent.zip": "c7d8972e823eb821c016010445d4b02996daff954d870d63083c445850e21102",
+    "Odin-v5.zip": "c7d8972e823eb821c016010445d4b02996daff954d870d63083c445850e21102"
+  },
+  "promotion_tool_sha256": "deb892371975096d445a8f7f706f69a600c1d60f03cf92ad3e8c85fc4cb4ae95",
+  "applied_outputs": {
+    "Odin-v5.zip": "c7d8972e823eb821c016010445d4b02996daff954d870d63083c445850e21102",
+    "agent.zip": "c7d8972e823eb821c016010445d4b02996daff954d870d63083c445850e21102"
+  },
+  "applied_utc": "2026-09-05T21:36:25.715384+00:00",
+  "desktop_outputs": {
+    "Odin-v5.zip": "c7d8972e823eb821c016010445d4b02996daff954d870d63083c445850e21102",
+    "agent.zip": "c7d8972e823eb821c016010445d4b02996daff954d870d63083c445850e21102"
+  }
+}

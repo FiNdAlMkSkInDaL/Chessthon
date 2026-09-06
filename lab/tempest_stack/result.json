@@ -1,0 +1,55 @@
+{
+  "audit": "PASS",
+  "search_identity_runs": 192,
+  "unique_roots": 12,
+  "ordering_checks": 768,
+  "perft_checks": 48,
+  "cold_seconds": [
+    34.680463179945946,
+    35.12041475996375,
+    35.01349934004247,
+    35.07232697121799,
+    34.45078563131392,
+    34.84567793831229,
+    34.80303182452917,
+    35.307734904810786
+  ],
+  "effects": {
+    "lazy": {
+      "speed_ratio_by_lane": {
+        "a": 1.0256152944116406,
+        "b": 1.0181998249939255
+      },
+      "geometric_speed_ratio": 1.0219008333889477,
+      "positive_both_lanes": true
+    },
+    "packed": {
+      "speed_ratio_by_lane": {
+        "a": 1.0185338409333804,
+        "b": 1.0132125352773498
+      },
+      "geometric_speed_ratio": 1.0158697038685065,
+      "positive_both_lanes": true
+    },
+    "both": {
+      "speed_ratio_by_lane": {
+        "a": 1.0248352718950786,
+        "b": 1.013685473341302
+      },
+      "geometric_speed_ratio": 1.0192451263988584,
+      "positive_both_lanes": true
+    }
+  },
+  "limits": "Twelve selected development roots at 200k nodes, two repeats per lane. Search identity includes completed iteration results and work, not just final move. Mirrored two-core Linux timing is not independent playing-strength evidence or the untouched referee gate. No release promotion.",
+  "evidence": {
+    "both-a.jsonl": "b924758a4feb354cc0cf1aad09204afe88b17c69f7a299055e2817dd0604ddc4",
+    "both-b.jsonl": "ee9ab53220748a078aadeac67823db437aa2492c58cf3f424c80c38800c101b7",
+    "lazy-a.jsonl": "801a636f6ae580ed8dad8080d6794473973db6705ebb4194f7d1ac1f3a0abbb6",
+    "lazy-b.jsonl": "d190a7dd5051b5cf6e3e176157939b4f15b6e5d3a7b197d5aff6c6f775a6fefa",
+    "narrow-a.jsonl": "980b4dc2a11979e7942fac629b5363e947c35c6f9b415c597b751ff2a84fe8a6",
+    "narrow-b.jsonl": "26e47d46753992ea7837548d4b211aa845c8e6f4731679a00f07f12d7584f4ae",
+    "packed-a.jsonl": "74de3948769ed97b93e54aa3cc31f949ee137a44a4aa8ceaf70bba0c636ca353",
+    "packed-b.jsonl": "889a8784d6cee672cefde706dfbd425ebcc3eee7e508419dec72456f131593fe"
+  },
+  "plan_sha256": "93c8be7b614bde960512ded0f669ec25e0655c9162eb5dd52527b503a0446e7a"
+}

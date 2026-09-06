@@ -1,0 +1,151 @@
+{
+  "kind": "replay",
+  "seed": 260916,
+  "deep": false,
+  "deep_checks": null,
+  "pairs": 453,
+  "baseline": {
+    "regret": 15.267857142857142,
+    "mae": 139.5069580078125,
+    "groups": 56,
+    "bad_200": 1
+  },
+  "selected_epoch": 0,
+  "selected_regret": 15.267857142857142,
+  "curve": [
+    {
+      "epoch": 1,
+      "regret": 15.267857142857142,
+      "mae": 139.47311401367188,
+      "groups": 56,
+      "bad_200": 1,
+      "old_mae": 214.7036590576172
+    },
+    {
+      "epoch": 2,
+      "regret": 15.267857142857142,
+      "mae": 139.4933319091797,
+      "groups": 56,
+      "bad_200": 1,
+      "old_mae": 214.6595916748047
+    },
+    {
+      "epoch": 3,
+      "regret": 15.267857142857142,
+      "mae": 139.53892517089844,
+      "groups": 56,
+      "bad_200": 1,
+      "old_mae": 214.63836669921875
+    },
+    {
+      "epoch": 4,
+      "regret": 15.857142857142858,
+      "mae": 139.54833984375,
+      "groups": 56,
+      "bad_200": 1,
+      "old_mae": 214.62872314453125
+    },
+    {
+      "epoch": 5,
+      "regret": 15.857142857142858,
+      "mae": 139.4928436279297,
+      "groups": 56,
+      "bad_200": 1,
+      "old_mae": 214.62179565429688
+    },
+    {
+      "epoch": 6,
+      "regret": 16.285714285714285,
+      "mae": 139.4447021484375,
+      "groups": 56,
+      "bad_200": 1,
+      "old_mae": 214.58966064453125
+    },
+    {
+      "epoch": 7,
+      "regret": 16.285714285714285,
+      "mae": 139.38677978515625,
+      "groups": 56,
+      "bad_200": 1,
+      "old_mae": 214.56661987304688
+    },
+    {
+      "epoch": 8,
+      "regret": 16.285714285714285,
+      "mae": 139.3038787841797,
+      "groups": 56,
+      "bad_200": 1,
+      "old_mae": 214.5655975341797
+    },
+    {
+      "epoch": 9,
+      "regret": 16.285714285714285,
+      "mae": 139.2215576171875,
+      "groups": 56,
+      "bad_200": 1,
+      "old_mae": 214.5536346435547
+    },
+    {
+      "epoch": 10,
+      "regret": 16.285714285714285,
+      "mae": 139.11683654785156,
+      "groups": 56,
+      "bad_200": 1,
+      "old_mae": 214.58555603027344
+    },
+    {
+      "epoch": 11,
+      "regret": 15.696428571428571,
+      "mae": 139.03445434570312,
+      "groups": 56,
+      "bad_200": 1,
+      "old_mae": 214.62173461914062
+    },
+    {
+      "epoch": 12,
+      "regret": 15.696428571428571,
+      "mae": 138.9796600341797,
+      "groups": 56,
+      "bad_200": 1,
+      "old_mae": 214.61143493652344
+    },
+    {
+      "epoch": 13,
+      "regret": 15.696428571428571,
+      "mae": 138.9193115234375,
+      "groups": 56,
+      "bad_200": 1,
+      "old_mae": 214.631591796875
+    },
+    {
+      "epoch": 14,
+      "regret": 15.696428571428571,
+      "mae": 138.86114501953125,
+      "groups": 56,
+      "bad_200": 1,
+      "old_mae": 214.66688537597656
+    },
+    {
+      "epoch": 15,
+      "regret": 15.696428571428571,
+      "mae": 138.82972717285156,
+      "groups": 56,
+      "bad_200": 1,
+      "old_mae": 214.68060302734375
+    },
+    {
+      "epoch": 16,
+      "regret": 15.696428571428571,
+      "mae": 138.86175537109375,
+      "groups": 56,
+      "bad_200": 1,
+      "old_mae": 214.69358825683594
+    }
+  ],
+  "gradient_checks": 24,
+  "updates": 64,
+  "source_sha256": "2077cb3690feedb8d9fa2424aa13636bc1ee5597aa3bb3ed3c00326f90ad0de9",
+  "dataset_sha256": "67f6bce03a8f0f68c61ed9b98c576c41ccedd3ef145418f88a3daeadabcb823a",
+  "script_sha256": "ed9db66d0cf86b266d821e47f789d9e2621502cf354b11458f5261c24aae8762",
+  "scope": "Same fixed pairs, update count, replay draws, initialization and seeds across objectives; identical development checkpoint selection and old-state guard. Semi-gradient on frozen own-search PV leaves, not differentiation through a changed tree."
+}

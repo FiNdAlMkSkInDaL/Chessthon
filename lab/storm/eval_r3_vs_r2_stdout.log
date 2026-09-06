@@ -1,0 +1,7 @@
+game 1/8 pair 1: candidate white 1.0 (white, checkmate) 130.7s
+game 2/8 pair 1: candidate black 1.0 (black, checkmate) 129.7s
+game 3/8 pair 2: candidate white 1.0 (white, checkmate) 122.6s
+game 4/8 pair 2: candidate black 0.0 (white, checkmate) 147.9s
+game 5/8 pair 3: candidate white 0.0 (black, init) 154.8s
+stopping after candidate protocol/time failure
+candidate +3 =0 -2, score 60.0%; candidate failures 1; log C:\Users\finla\OneDrive - University College London\Desktop\Chess TK\lab\storm\eval_r3_vs_r2_screen.jsonl

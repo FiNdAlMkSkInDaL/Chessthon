@@ -1,0 +1,189 @@
+{
+  "plan": {
+    "features": [
+      "weak_ring",
+      "double_ring",
+      "queen_contact",
+      "knight_checks",
+      "bishop_checks",
+      "rook_checks",
+      "queen_checks",
+      "coordinated_ring",
+      "pressure_squared",
+      "restricted_flights",
+      "pawn_storm",
+      "pawn_levers",
+      "open_king_files",
+      "queen_proximity"
+    ],
+    "folds": 5,
+    "ridges": [
+      10,
+      100,
+      1000
+    ],
+    "phase_powers": [
+      1,
+      2
+    ],
+    "clip_cp": 600,
+    "selection": "minimum mean absolute error across family-blocked development folds",
+    "scope": "Prior pilot train/validation/test are all used development data; fresh independent confirmation required.",
+    "gates": [
+      "at least 5cp development OOF gain",
+      "phase and quiet p90 no worse by more than 5cp",
+      "native reference identity and speed",
+      "independent decision ranking and paired matches before promotion"
+    ],
+    "coefficient_constraint": "nonnegative attack-benefit weights, Huber IRLS ridge, no intercept"
+  },
+  "trials": [
+    {
+      "power": 1,
+      "ridge": 10,
+      "n": 5288,
+      "mae": 272.37101924939014,
+      "p90": 632.3000000000002
+    },
+    {
+      "power": 1,
+      "ridge": 100,
+      "n": 5288,
+      "mae": 272.3638990032196,
+      "p90": 631.0
+    },
+    {
+      "power": 1,
+      "ridge": 1000,
+      "n": 5288,
+      "mae": 272.70781144292295,
+      "p90": 633.0
+    },
+    {
+      "power": 2,
+      "ridge": 10,
+      "n": 5288,
+      "mae": 272.0184116473123,
+      "p90": 633.0528437994801
+    },
+    {
+      "power": 2,
+      "ridge": 100,
+      "n": 5288,
+      "mae": 271.9784790791849,
+      "p90": 632.7977024444232
+    },
+    {
+      "power": 2,
+      "ridge": 1000,
+      "n": 5288,
+      "mae": 272.4371946285441,
+      "p90": 629.5628238949004
+    }
+  ],
+  "chosen": {
+    "power": 2,
+    "ridge": 100,
+    "n": 5288,
+    "mae": 271.9784790791849,
+    "p90": 632.7977024444232
+  },
+  "baseline": {
+    "n": 5288,
+    "mae": 273.929084720121,
+    "p90": 640.3000000000002
+  },
+  "slices": {
+    "endgame": {
+      "baseline": {
+        "n": 1539,
+        "mae": 234.28200129954516,
+        "p90": 547.0
+      },
+      "candidate": {
+        "n": 1539,
+        "mae": 234.31565113597665,
+        "p90": 546.3601545446217
+      }
+    },
+    "middle": {
+      "baseline": {
+        "n": 2259,
+        "mae": 277.6781761841523,
+        "p90": 606.0000000000002
+      },
+      "candidate": {
+        "n": 2259,
+        "mae": 277.3924824636944,
+        "p90": 602.1291313355848
+      }
+    },
+    "high": {
+      "baseline": {
+        "n": 1490,
+        "mae": 309.19597315436243,
+        "p90": 756.1000000000001
+      },
+      "candidate": {
+        "n": 1490,
+        "mae": 302.6716727429371,
+        "p90": 736.2847219446597
+      }
+    },
+    "quiet": {
+      "baseline": {
+        "n": 3173,
+        "mae": 203.04664355499528,
+        "p90": 417.0
+      },
+      "candidate": {
+        "n": 3173,
+        "mae": 202.19567493728601,
+        "p90": 414.2267450071408
+      }
+    }
+  },
+  "coefficients": [
+    221.91582124795042,
+    0.0,
+    0.0,
+    215.07919851361868,
+    80.07427757663966,
+    372.43204433863565,
+    22.42571349879245,
+    0.0,
+    0.0,
+    0.0,
+    48.126883686442525,
+    313.2138830879743,
+    20.801776029603726,
+    0.0
+  ],
+  "features": [
+    "weak_ring",
+    "double_ring",
+    "queen_contact",
+    "knight_checks",
+    "bishop_checks",
+    "rook_checks",
+    "queen_checks",
+    "coordinated_ring",
+    "pressure_squared",
+    "restricted_flights",
+    "pawn_storm",
+    "pawn_levers",
+    "open_king_files",
+    "queen_proximity"
+  ],
+  "seconds": 1.3780948000057833,
+  "development_gate_pass": false,
+  "source_hashes": {
+    "lab\\tempest_attack\\fit.py": "5f892f53f36485fd841410107988e3907cde258afedce4cf76cd4217f08dd7d6",
+    "lab\\tempest_attack\\features.py": "e3b06e73d8fcdb860871417c03e177059d0520ed31988a87c27facc490836e1c",
+    "lab\\tempest_build\\data\\states.jsonl": "117169e50116083d254a62a9a7438b83aac6cc40631e6160ebe11338e0dbfdc2",
+    "lab\\tempest_build\\data\\labels-0.jsonl": "1f51d2053c1b3ebc69452ad181793ceefb75eb138525d101e6193707bf91d84e",
+    "lab\\tempest_build\\data\\labels-1.jsonl": "1db19b3f827a81049cf12f20f2f99265f9da5f0e3840af759dd8f907e5144ebe",
+    "lab\\tempest_build\\data\\labels-2.jsonl": "1c78d1324cbe9dc0e408a533af8c83bed1c53880a0e75d7e7312c26e8922cb98",
+    "lab\\tempest_build\\data\\labels-3.jsonl": "81ffdabac0966f47505d459a64afd80ad954d9d8a230b31b264b545f070794ef"
+  }
+}

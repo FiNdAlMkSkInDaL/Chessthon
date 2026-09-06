@@ -1,0 +1,39 @@
+{
+  "features": [
+    "pawn",
+    "knight",
+    "bishop",
+    "rook",
+    "queen",
+    "king",
+    "pesto_delta",
+    "from_enemy_pawn",
+    "to_enemy_pawn",
+    "to_own_pawn",
+    "escape_attack",
+    "destination_attacked",
+    "gives_check",
+    "castle",
+    "advance_pawn",
+    "towards_enemy_king",
+    "towards_own_king",
+    "king_file",
+    "near_enemy_king_pawn",
+    "king_zone_gain",
+    "open_rook_file",
+    "center_gain"
+  ],
+  "models": [
+    "linear",
+    "piece_conditioned"
+  ],
+  "ridges": [
+    0.001,
+    0.01
+  ],
+  "folds": 5,
+  "epochs": 100,
+  "selection": "Highest out-of-fold mean reciprocal rank across used development families; retain all trials.",
+  "gates": "At least 0.03 MRR gain and 5 percentage points top-three gain over the original PeSTO-delta control before native integration; independent equal-wall games still required.",
+  "scope": "All prior pilot splits are USED data. Labels nominate one teacher quiet move, not a forced preference margin. This is an ordering proxy, not an evaluation/strength claim."
+}

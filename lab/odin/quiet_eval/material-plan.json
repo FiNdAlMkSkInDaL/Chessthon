@@ -1,0 +1,70 @@
+{
+  "features": [
+    "bishop_pair",
+    "pawn_count",
+    "knight_count",
+    "bishop_count",
+    "rook_count",
+    "queen_count"
+  ],
+  "mg_bounds": [
+    [
+      0,
+      80
+    ],
+    [
+      -50,
+      50
+    ],
+    [
+      -50,
+      50
+    ],
+    [
+      -50,
+      50
+    ],
+    [
+      -50,
+      50
+    ],
+    [
+      -50,
+      50
+    ]
+  ],
+  "eg_bounds": [
+    [
+      0,
+      100
+    ],
+    [
+      -50,
+      50
+    ],
+    [
+      -50,
+      50
+    ],
+    [
+      -50,
+      50
+    ],
+    [
+      -50,
+      50
+    ],
+    [
+      -50,
+      50
+    ]
+  ],
+  "ridges": [
+    10,
+    100,
+    1000,
+    10000
+  ],
+  "choice": "Original train family inner split only; reused validation descriptive.",
+  "purpose": "Bake material weights into exact make/unmake accumulators; only pair popcounts added per eval."
+}

@@ -1,0 +1,64 @@
+{
+  "released_utc": "2026-09-06T13:39:33.720080+00:00",
+  "name": "Tempest r1",
+  "source": "tempest_exact",
+  "archive_sha256": "0ed607e21235046d239c05d5bcb735e48b919e3d6d83cd74fe543c134addf6e4",
+  "previous_v6_sha256": "cd3ed778f75ded38dd4371a56c285f6f66c1311464a093707d473d8a9d0c8647",
+  "preserved": "Desktop/Odin-v6.zip",
+  "desktop_files": [
+    "agent.zip",
+    "Tempest-r1.zip"
+  ],
+  "site_upload_performed": false,
+  "scope": "Conservative referee and exact KQK/KRK improvement. No neural evaluator or general Elo claim. Native deployment gates, exact-state proof, 12 short smoke games and two separate full-clock smoke games passed.",
+  "smoke": {
+    "audit": "PASS",
+    "games": 12,
+    "pairs": 6,
+    "wins": 5,
+    "draws": 4,
+    "losses": 3,
+    "score": 0.5833333333333334,
+    "legal_plies": 1441,
+    "routes": {
+      "search": 1418,
+      "forced": 20,
+      "exact": 3
+    },
+    "smoke_score_guard_pass": true,
+    "plan_sha256": "0f0776c16bcf85de47795a669fe8893bb8189f793daf8121cd0000e312da6c56",
+    "lanes": {
+      "a": "80e13f1e93f8b4680fb061d7bf81e63ad5d60cd821a4bae19ec193d5f1288c30",
+      "b": "474c34e26885463e0b26b332809d0c1dbb3966bd784735645027e61307023b93"
+    },
+    "scope": "100ms per search on two Linux CPU-pinned lanes. No full-game-clock or reliable Elo claim. No failed games excluded; initial attempt failed worker reset before any game."
+  },
+  "post_staging_fullclock_audit": {
+    "audit": "PASS",
+    "games": 2,
+    "results": [
+      {
+        "candidate_colour": "white",
+        "points": 0.5,
+        "termination": "fifty_moves"
+      },
+      {
+        "candidate_colour": "black",
+        "points": 0.5,
+        "termination": "threefold_repetition"
+      }
+    ],
+    "operational_failures": 0,
+    "legal_plies": 246,
+    "candidate_cold_import_s": [
+      33.885,
+      32.934
+    ],
+    "min_candidate_request_headroom_ms": 494.20900000000006,
+    "fresh_processes": 4,
+    "log_sha256": "36da6db90fd744025c60a9e0c0766f7225f3d92d941d1a28062fa6022ff251ab",
+    "validation_function_sha256": "e471409d8be244920939a0555e57d2066dc9415dd0dabf134a01d78b1ac572e4",
+    "scope": "Two full 120+0.5 wall-clock smoke games, exact current referee, fresh processes, CPU/RAM/no-swap/source/clock audit; not a strength estimate."
+  },
+  "final_integrity_verified_utc": "2026-09-06T13:59:25.314905+00:00"
+}

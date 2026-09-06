@@ -1,0 +1,6 @@
+{
+  "utc": "2026-09-06T04:53:03.335701+00:00",
+  "audit_exit_code": 1,
+  "automatic_promotion": false,
+  "note": "Read final-audit.json and review operational evidence before changing Desktop agent.zip."
+}

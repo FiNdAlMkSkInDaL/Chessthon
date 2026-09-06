@@ -1,0 +1,11 @@
+{
+  "kind": "relative",
+  "seed": 260909,
+  "checkpoint_sha256": "7714e14b69f7c2328d9d26813ca544817169580c61e452b9cd1de6450f72e864",
+  "script_sha256": "3177397c9ea6fe2a33551bde5363d5d664d5147af32fb60d59c10dd2226538e7",
+  "rows": 512000,
+  "epochs": 4,
+  "rate": 0.0003,
+  "adapt_epochs": 45,
+  "scope": "Matched rows/updates/rate; relative arm adds zero-initialized king-relative piece embeddings. Existing development only. Original weights/features. No Elo inference."
+}

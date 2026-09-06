@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "positions": 3857,
+  "native_make_undo_edges": 9503,
+  "claimable_positions": 8,
+  "traces": 66,
+  "seconds": 47.17830563895404,
+  "oracle": "python-chess 1.11.2 legal moves, can_claim_threefold_repetition, can_claim_fifty_moves, independent FEN pack",
+  "scope": "Development correctness; no playing-strength inference."
+}

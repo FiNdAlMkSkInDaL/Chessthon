@@ -1,0 +1,45 @@
+{
+  "baseline_failures": {},
+  "baseline_sha256": "15db92a79feff24cf52f5b85974f55504753f981823d7e6d92881fb62812e85c",
+  "candidate_failures": {
+    "init": 1
+  },
+  "candidate_sha256": "6c5773cdd7493b9d64330d3046cf2ba50f42061099619d725d7a2ae65d7784ef",
+  "configuration_problems": [],
+  "draws": 0,
+  "fidelity": "competition-clocked Windows laptop simulation; not platform proof",
+  "games_completed": 5,
+  "interrupted": false,
+  "losses": 2,
+  "pairs_completed": 2,
+  "promotional_evidence": false,
+  "run_id": "20260904T230825Z-1a98d611",
+  "score": 0.6,
+  "scored_games": 5,
+  "terminations": {
+    "checkmate": 4,
+    "init": 1
+  },
+  "ts": "2026-09-04T23:19:53Z",
+  "type": "run_summary",
+  "void_games": 0,
+  "wall_s": 688.875,
+  "wins": 3,
+  "status": "Stopped at candidate initialization failure; experimental, not accepted for promotion.",
+  "played_chess_results": {
+    "wins": 3,
+    "draws": 0,
+    "losses": 1
+  },
+  "failure_detail": {
+    "game": 5,
+    "cpu": 8,
+    "init_allowance_s": 90,
+    "reported_import_s": 92.816999,
+    "warmup_s": 87.84170410002116,
+    "compiled": true,
+    "original_ready": true,
+    "override_applied": false
+  },
+  "note": "Keep the initialization loss in the raw record. Only two paired openings completed. Windows timing is not a native Linux measurement."
+}

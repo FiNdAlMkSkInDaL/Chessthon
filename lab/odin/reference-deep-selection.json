@@ -1,0 +1,212 @@
+[
+  {
+    "game_id": "site-r16",
+    "ply": 32,
+    "move_label": "24.Qe2",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r16",
+    "ply": 40,
+    "move_label": "28.Qe1",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r16",
+    "ply": 44,
+    "move_label": "30.Qd1",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r16",
+    "ply": 48,
+    "move_label": "32.Re2",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r17",
+    "ply": 22,
+    "move_label": "18...b6",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r17",
+    "ply": 62,
+    "move_label": "38...e6",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r17",
+    "ply": 78,
+    "move_label": "46...Kf7",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r17",
+    "ply": 104,
+    "move_label": "59...Bf8",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r17",
+    "ply": 110,
+    "move_label": "62...Be7",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r17",
+    "ply": 114,
+    "move_label": "64...Be7",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r17",
+    "ply": 120,
+    "move_label": "67...e4",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r18",
+    "ply": 31,
+    "move_label": "21.Qd1",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r18",
+    "ply": 45,
+    "move_label": "28.Re1",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r18",
+    "ply": 49,
+    "move_label": "30.Qd2",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r20",
+    "ply": 64,
+    "move_label": "38...f5",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r21",
+    "ply": 32,
+    "move_label": "23...a6",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r21",
+    "ply": 44,
+    "move_label": "29...h6",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r21",
+    "ply": 52,
+    "move_label": "33...Rc3",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r22",
+    "ply": 31,
+    "move_label": "23.Rc1",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r22",
+    "ply": 39,
+    "move_label": "27.Qd2",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r22",
+    "ply": 55,
+    "move_label": "35.Qd2",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r22",
+    "ply": 129,
+    "move_label": "72.Rh8",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r23",
+    "ply": 39,
+    "move_label": "28.Qe2",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r23",
+    "ply": 43,
+    "move_label": "30.h4",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r23",
+    "ply": 45,
+    "move_label": "31.hxg5",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r23",
+    "ply": 47,
+    "move_label": "32.Bf2",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r23",
+    "ply": 51,
+    "move_label": "34.Qf3",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "site-r24",
+    "ply": 41,
+    "move_label": "29.Be2",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "holdout-a-g12-o165",
+    "ply": 87,
+    "move_label": "49...Rxa4",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "holdout-a-g12-o165",
+    "ply": 93,
+    "move_label": "52...Kg8",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "holdout-a-g12-o165",
+    "ply": 111,
+    "move_label": "61...Ke7",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout",
+    "alternatives": [
+      "f8g8"
+    ]
+  },
+  {
+    "game_id": "holdout-a-g12-o165",
+    "ply": 125,
+    "move_label": "68...Kc6",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "holdout-a-g12-o165",
+    "ply": 133,
+    "move_label": "72...g5+",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout"
+  },
+  {
+    "game_id": "holdout-a-g12-o165",
+    "ply": 155,
+    "move_label": "83...Rf4",
+    "selection_reason": "Diagnostic selected from full-game replay and low-node reference screen; not fresh holdout",
+    "alternatives": [
+      "f3g3"
+    ]
+  }
+]

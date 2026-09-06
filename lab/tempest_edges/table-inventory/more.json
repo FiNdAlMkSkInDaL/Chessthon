@@ -1,0 +1,16 @@
+[
+  {
+    "name": "sesse-http",
+    "url": "http://tablebase.sesse.net/syzygy/3-4-5/",
+    "status": 200,
+    "bytes": 59714,
+    "sha256": "99a12f2ef43ed850435377cc4af1513b3d17f1648c494210c40d5af51e6fbe7f"
+  },
+  {
+    "name": "lichess-root",
+    "url": "https://tablebase.lichess.ovh/tables/",
+    "status": 200,
+    "bytes": 490,
+    "sha256": "5ea87d1902eeb05d2f041c816c98984a47535030bf6fbd2b779498f6556a529f"
+  }
+]

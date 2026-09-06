@@ -1,0 +1,25 @@
+{
+  "verdict": "PASS",
+  "cold_agent_import_s": 36.2203519102186,
+  "original_numba_ready": true,
+  "root_signatures": [
+    "(Array(uint64, 1, 'C', False, aligned=True), Array(int8, 1, 'C', False, aligned=True), Array(uint64, 1, 'C', False, aligned=True), Array(int32, 1, 'C', False, aligned=True), int64, int64, Array(uint64, 1, 'C', False, aligned=True), int64, int64, int64, int64, int64, int64, bool, uint64, int64, Array(uint64, 2, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(uint64, 1, 'C', False, aligned=True), Array(int32, 1, 'C', False, aligned=True), Array(int16, 1, 'C', False, aligned=True), Array(uint8, 1, 'C', False, aligned=True), Array(uint8, 1, 'C', False, aligned=True), Array(int32, 1, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(int64, 1, 'C', False, aligned=True), Array(int64, 1, 'C', False, aligned=True), Array(int32, 1, 'C', False, aligned=True)) -> Tuple(int32, int64)"
+  ],
+  "clock_signatures": [
+    "(Array(int64, 1, 'C', False, aligned=True), int64, bool, Array(int32, 1, 'C', False, aligned=True)) -> bool",
+    "(Array(int64, 1, 'C', False, aligned=True), int64, Literal[bool](True), Array(int32, 1, 'C', False, aligned=True)) -> bool"
+  ],
+  "live_calls": [
+    {
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "move": "e2e4",
+      "elapsed_ms": 139.85690660774708
+    },
+    {
+      "fen": "8/8/8/8/8/k7/2q5/K7 b - - 0 300",
+      "move": "c2c1",
+      "elapsed_ms": 0.15288032591342926
+    }
+  ],
+  "no_post_import_root_or_clock_specialization": true
+}

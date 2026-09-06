@@ -1,0 +1,2264 @@
+{
+  "purpose": "Supplementary opening-distribution stress test, separate from native holdout confidence interval.",
+  "selection": "Chosen before these games: site index 8 (day-one round 9, both kings castled) and index 10 (day-one round 12, most developed start). Historical games were already inspected; these are not fresh holdout positions.",
+  "candidate": {
+    "archive": "dist/storm-r2-linux-x86.zip",
+    "sha256": "15db92a79feff24cf52f5b85974f55504753f981823d7e6d92881fb62812e85c"
+  },
+  "baseline": {
+    "archive": "dist/agent-v3-linux-x86.zip",
+    "sha256": "3397e7a8ca55696bb8d7586a9c73cbeabc0c8b6f51b26cdc8c26562a37c91408"
+  },
+  "games_completed": 4,
+  "games_planned": 4,
+  "complete": true,
+  "limitations": [
+    "Windows ARM host running x64 Python 3.12, not native Linux or the platform CPU.",
+    "Writable private source snapshots, no network namespace or aggregate 256 MiB temporary filesystem quota.",
+    "The existing runner limitation describing the openings as held-out local positions is stale for this run: these are the two historical site starts identified here.",
+    "Four games are stress evidence only; no Elo or leaderboard claim. Never pool them into the native holdout confidence interval.",
+    "The lab runner shim is used; actual readiness states and overrides appear below.",
+    "memory_observed samples the Windows venv launcher, so its RSS is not reported as engine memory.",
+    "S4 telemetry measures native search only; complete move time comes from referee-facing timing."
+  ],
+  "games": [
+    {
+      "game": 1,
+      "pair": 1,
+      "source_site_index": 8,
+      "source_day1_round": 9,
+      "candidate_colour": "white",
+      "result": "draw",
+      "termination": "fifty_moves",
+      "candidate_points": 0.5,
+      "candidate_failure": false,
+      "baseline_failure": false,
+      "post_game_archive_files_unchanged": true,
+      "post_game_extraction_problems": {
+        "black": [],
+        "white": []
+      },
+      "game_wall_s": 453.75,
+      "candidate": {
+        "colour": "white",
+        "cpu": 8,
+        "moves": 146,
+        "init_s": 39.547,
+        "clock_left_s": 1.831,
+        "thinking_s": 191.136,
+        "first20_s": 69.253,
+        "max_move_s": 7.672,
+        "original_ready": true,
+        "effective_ready": true,
+        "override_applied": false,
+        "compiled": true,
+        "envelope": {
+          "affinity": {
+            "applied": true,
+            "effective_mask": 256,
+            "requested_cpu": 8,
+            "requested_mask": 256,
+            "system_mask": 1023
+          },
+          "memory_job": {
+            "applied": true,
+            "kill_on_job_close": true,
+            "limit_bytes": 2147483648,
+            "limit_kind": "process_and_job_commit"
+          }
+        },
+        "telemetry_searches": 115,
+        "mean_completed_depth": 10.495652173913044,
+        "telemetry": [
+          {
+            "game_ply": 62,
+            "depth": 13,
+            "nodes": 726658,
+            "score": 113,
+            "search_ms": 3584,
+            "soft_ms": 2030
+          },
+          {
+            "game_ply": 64,
+            "depth": 13,
+            "nodes": 509505,
+            "score": 109,
+            "search_ms": 2469,
+            "soft_ms": 1806
+          },
+          {
+            "game_ply": 66,
+            "depth": 12,
+            "nodes": 208852,
+            "score": 109,
+            "search_ms": 1133,
+            "soft_ms": 1659
+          },
+          {
+            "game_ply": 68,
+            "depth": 13,
+            "nodes": 410794,
+            "score": 104,
+            "search_ms": 1865,
+            "soft_ms": 1626
+          },
+          {
+            "game_ply": 70,
+            "depth": 15,
+            "nodes": 1467694,
+            "score": 144,
+            "search_ms": 6533,
+            "soft_ms": 3427
+          },
+          {
+            "game_ply": 72,
+            "depth": 15,
+            "nodes": 1009651,
+            "score": 158,
+            "search_ms": 4496,
+            "soft_ms": 1446
+          },
+          {
+            "game_ply": 74,
+            "depth": 14,
+            "nodes": 277059,
+            "score": 158,
+            "search_ms": 1293,
+            "soft_ms": 1157
+          },
+          {
+            "game_ply": 76,
+            "depth": 14,
+            "nodes": 1165288,
+            "score": 184,
+            "search_ms": 5303,
+            "soft_ms": 2221
+          },
+          {
+            "game_ply": 78,
+            "depth": 13,
+            "nodes": 349507,
+            "score": 189,
+            "search_ms": 1606,
+            "soft_ms": 829
+          },
+          {
+            "game_ply": 80,
+            "depth": 12,
+            "nodes": 283772,
+            "score": 189,
+            "search_ms": 1423,
+            "soft_ms": 752
+          },
+          {
+            "game_ply": 82,
+            "depth": 10,
+            "nodes": 187184,
+            "score": 200,
+            "search_ms": 766,
+            "soft_ms": 716
+          },
+          {
+            "game_ply": 84,
+            "depth": 12,
+            "nodes": 297571,
+            "score": 215,
+            "search_ms": 1139,
+            "soft_ms": 1144
+          },
+          {
+            "game_ply": 86,
+            "depth": 12,
+            "nodes": 181126,
+            "score": 204,
+            "search_ms": 687,
+            "soft_ms": 693
+          },
+          {
+            "game_ply": 88,
+            "depth": 13,
+            "nodes": 194229,
+            "score": 201,
+            "search_ms": 760,
+            "soft_ms": 633
+          },
+          {
+            "game_ply": 90,
+            "depth": 14,
+            "nodes": 323350,
+            "score": 197,
+            "search_ms": 1312,
+            "soft_ms": 704
+          },
+          {
+            "game_ply": 92,
+            "depth": 14,
+            "nodes": 191345,
+            "score": 202,
+            "search_ms": 711,
+            "soft_ms": 617
+          },
+          {
+            "game_ply": 94,
+            "depth": 14,
+            "nodes": 190747,
+            "score": 197,
+            "search_ms": 761,
+            "soft_ms": 613
+          },
+          {
+            "game_ply": 96,
+            "depth": 14,
+            "nodes": 707617,
+            "score": 191,
+            "search_ms": 2686,
+            "soft_ms": 599
+          },
+          {
+            "game_ply": 98,
+            "depth": 14,
+            "nodes": 384919,
+            "score": 194,
+            "search_ms": 1474,
+            "soft_ms": 439
+          },
+          {
+            "game_ply": 100,
+            "depth": 11,
+            "nodes": 145739,
+            "score": 194,
+            "search_ms": 455,
+            "soft_ms": 421
+          },
+          {
+            "game_ply": 102,
+            "depth": 9,
+            "nodes": 85074,
+            "score": 193,
+            "search_ms": 266,
+            "soft_ms": 358
+          },
+          {
+            "game_ply": 104,
+            "depth": 10,
+            "nodes": 171279,
+            "score": 199,
+            "search_ms": 671,
+            "soft_ms": 395
+          },
+          {
+            "game_ply": 106,
+            "depth": 10,
+            "nodes": 78865,
+            "score": 199,
+            "search_ms": 322,
+            "soft_ms": 351
+          },
+          {
+            "game_ply": 108,
+            "depth": 12,
+            "nodes": 92905,
+            "score": 199,
+            "search_ms": 344,
+            "soft_ms": 390
+          },
+          {
+            "game_ply": 110,
+            "depth": 10,
+            "nodes": 88598,
+            "score": 199,
+            "search_ms": 350,
+            "soft_ms": 371
+          },
+          {
+            "game_ply": 112,
+            "depth": 11,
+            "nodes": 77279,
+            "score": 200,
+            "search_ms": 281,
+            "soft_ms": 410
+          },
+          {
+            "game_ply": 114,
+            "depth": 11,
+            "nodes": 82900,
+            "score": 194,
+            "search_ms": 340,
+            "soft_ms": 440
+          },
+          {
+            "game_ply": 116,
+            "depth": 10,
+            "nodes": 102925,
+            "score": 194,
+            "search_ms": 333,
+            "soft_ms": 402
+          },
+          {
+            "game_ply": 118,
+            "depth": 9,
+            "nodes": 169600,
+            "score": 184,
+            "search_ms": 604,
+            "soft_ms": 421
+          },
+          {
+            "game_ply": 120,
+            "depth": 10,
+            "nodes": 110520,
+            "score": 183,
+            "search_ms": 451,
+            "soft_ms": 440
+          },
+          {
+            "game_ply": 122,
+            "depth": 9,
+            "nodes": 173253,
+            "score": 175,
+            "search_ms": 647,
+            "soft_ms": 525
+          },
+          {
+            "game_ply": 124,
+            "depth": 9,
+            "nodes": 180110,
+            "score": 167,
+            "search_ms": 659,
+            "soft_ms": 610
+          },
+          {
+            "game_ply": 126,
+            "depth": 10,
+            "nodes": 139783,
+            "score": 168,
+            "search_ms": 571,
+            "soft_ms": 400
+          },
+          {
+            "game_ply": 128,
+            "depth": 9,
+            "nodes": 110311,
+            "score": 172,
+            "search_ms": 435,
+            "soft_ms": 387
+          },
+          {
+            "game_ply": 130,
+            "depth": 9,
+            "nodes": 85501,
+            "score": 168,
+            "search_ms": 369,
+            "soft_ms": 393
+          },
+          {
+            "game_ply": 132,
+            "depth": 10,
+            "nodes": 132363,
+            "score": 172,
+            "search_ms": 495,
+            "soft_ms": 401
+          },
+          {
+            "game_ply": 134,
+            "depth": 10,
+            "nodes": 121645,
+            "score": 168,
+            "search_ms": 464,
+            "soft_ms": 403
+          },
+          {
+            "game_ply": 136,
+            "depth": 10,
+            "nodes": 229095,
+            "score": 169,
+            "search_ms": 916,
+            "soft_ms": 396
+          },
+          {
+            "game_ply": 138,
+            "depth": 9,
+            "nodes": 96601,
+            "score": 162,
+            "search_ms": 368,
+            "soft_ms": 386
+          },
+          {
+            "game_ply": 140,
+            "depth": 11,
+            "nodes": 105385,
+            "score": 172,
+            "search_ms": 389,
+            "soft_ms": 380
+          },
+          {
+            "game_ply": 142,
+            "depth": 10,
+            "nodes": 78775,
+            "score": 166,
+            "search_ms": 336,
+            "soft_ms": 398
+          },
+          {
+            "game_ply": 144,
+            "depth": 10,
+            "nodes": 157859,
+            "score": 164,
+            "search_ms": 622,
+            "soft_ms": 600
+          },
+          {
+            "game_ply": 146,
+            "depth": 11,
+            "nodes": 109256,
+            "score": 171,
+            "search_ms": 424,
+            "soft_ms": 390
+          },
+          {
+            "game_ply": 148,
+            "depth": 10,
+            "nodes": 83294,
+            "score": 171,
+            "search_ms": 364,
+            "soft_ms": 389
+          },
+          {
+            "game_ply": 150,
+            "depth": 10,
+            "nodes": 446555,
+            "score": 164,
+            "search_ms": 1713,
+            "soft_ms": 970
+          },
+          {
+            "game_ply": 152,
+            "depth": 10,
+            "nodes": 330004,
+            "score": 164,
+            "search_ms": 1287,
+            "soft_ms": 506
+          },
+          {
+            "game_ply": 154,
+            "depth": 11,
+            "nodes": 79275,
+            "score": 164,
+            "search_ms": 303,
+            "soft_ms": 278
+          },
+          {
+            "game_ply": 156,
+            "depth": 8,
+            "nodes": 79694,
+            "score": 176,
+            "search_ms": 349,
+            "soft_ms": 441
+          },
+          {
+            "game_ply": 158,
+            "depth": 9,
+            "nodes": 90932,
+            "score": 172,
+            "search_ms": 384,
+            "soft_ms": 493
+          },
+          {
+            "game_ply": 160,
+            "depth": 10,
+            "nodes": 153645,
+            "score": 174,
+            "search_ms": 648,
+            "soft_ms": 303
+          },
+          {
+            "game_ply": 162,
+            "depth": 10,
+            "nodes": 97897,
+            "score": 164,
+            "search_ms": 446,
+            "soft_ms": 336
+          },
+          {
+            "game_ply": 164,
+            "depth": 12,
+            "nodes": 77501,
+            "score": 185,
+            "search_ms": 287,
+            "soft_ms": 327
+          },
+          {
+            "game_ply": 166,
+            "depth": 11,
+            "nodes": 108195,
+            "score": 171,
+            "search_ms": 422,
+            "soft_ms": 336
+          },
+          {
+            "game_ply": 168,
+            "depth": 11,
+            "nodes": 119115,
+            "score": 185,
+            "search_ms": 467,
+            "soft_ms": 322
+          },
+          {
+            "game_ply": 170,
+            "depth": 10,
+            "nodes": 111871,
+            "score": 182,
+            "search_ms": 455,
+            "soft_ms": 750
+          },
+          {
+            "game_ply": 172,
+            "depth": 10,
+            "nodes": 53269,
+            "score": 181,
+            "search_ms": 213,
+            "soft_ms": 317
+          },
+          {
+            "game_ply": 174,
+            "depth": 10,
+            "nodes": 109237,
+            "score": 176,
+            "search_ms": 421,
+            "soft_ms": 336
+          },
+          {
+            "game_ply": 176,
+            "depth": 10,
+            "nodes": 111854,
+            "score": 197,
+            "search_ms": 396,
+            "soft_ms": 339
+          },
+          {
+            "game_ply": 178,
+            "depth": 10,
+            "nodes": 73502,
+            "score": 193,
+            "search_ms": 302,
+            "soft_ms": 349
+          },
+          {
+            "game_ply": 180,
+            "depth": 12,
+            "nodes": 246905,
+            "score": 208,
+            "search_ms": 878,
+            "soft_ms": 951
+          },
+          {
+            "game_ply": 182,
+            "depth": 12,
+            "nodes": 279704,
+            "score": 306,
+            "search_ms": 1028,
+            "soft_ms": 754
+          },
+          {
+            "game_ply": 184,
+            "depth": 11,
+            "nodes": 64765,
+            "score": 304,
+            "search_ms": 206,
+            "soft_ms": 315
+          },
+          {
+            "game_ply": 186,
+            "depth": 11,
+            "nodes": 69225,
+            "score": 314,
+            "search_ms": 277,
+            "soft_ms": 323
+          },
+          {
+            "game_ply": 188,
+            "depth": 11,
+            "nodes": 79061,
+            "score": 317,
+            "search_ms": 263,
+            "soft_ms": 332
+          },
+          {
+            "game_ply": 190,
+            "depth": 10,
+            "nodes": 145969,
+            "score": 320,
+            "search_ms": 538,
+            "soft_ms": 348
+          },
+          {
+            "game_ply": 192,
+            "depth": 9,
+            "nodes": 56002,
+            "score": 326,
+            "search_ms": 252,
+            "soft_ms": 340
+          },
+          {
+            "game_ply": 194,
+            "depth": 9,
+            "nodes": 104582,
+            "score": 328,
+            "search_ms": 418,
+            "soft_ms": 355
+          },
+          {
+            "game_ply": 196,
+            "depth": 8,
+            "nodes": 73205,
+            "score": 327,
+            "search_ms": 301,
+            "soft_ms": 366
+          },
+          {
+            "game_ply": 198,
+            "depth": 9,
+            "nodes": 122067,
+            "score": 328,
+            "search_ms": 504,
+            "soft_ms": 368
+          },
+          {
+            "game_ply": 200,
+            "depth": 9,
+            "nodes": 71878,
+            "score": 329,
+            "search_ms": 307,
+            "soft_ms": 367
+          },
+          {
+            "game_ply": 202,
+            "depth": 10,
+            "nodes": 144360,
+            "score": 331,
+            "search_ms": 570,
+            "soft_ms": 577
+          },
+          {
+            "game_ply": 204,
+            "depth": 9,
+            "nodes": 201303,
+            "score": 331,
+            "search_ms": 783,
+            "soft_ms": 883
+          },
+          {
+            "game_ply": 206,
+            "depth": 10,
+            "nodes": 139876,
+            "score": 332,
+            "search_ms": 547,
+            "soft_ms": 544
+          },
+          {
+            "game_ply": 208,
+            "depth": 9,
+            "nodes": 105169,
+            "score": 333,
+            "search_ms": 437,
+            "soft_ms": 436
+          },
+          {
+            "game_ply": 210,
+            "depth": 8,
+            "nodes": 78614,
+            "score": 337,
+            "search_ms": 344,
+            "soft_ms": 358
+          },
+          {
+            "game_ply": 212,
+            "depth": 8,
+            "nodes": 52762,
+            "score": 336,
+            "search_ms": 248,
+            "soft_ms": 367
+          },
+          {
+            "game_ply": 214,
+            "depth": 10,
+            "nodes": 118326,
+            "score": 333,
+            "search_ms": 460,
+            "soft_ms": 417
+          },
+          {
+            "game_ply": 216,
+            "depth": 7,
+            "nodes": 173293,
+            "score": 327,
+            "search_ms": 648,
+            "soft_ms": 1016
+          },
+          {
+            "game_ply": 218,
+            "depth": 8,
+            "nodes": 108990,
+            "score": 326,
+            "search_ms": 435,
+            "soft_ms": 459
+          },
+          {
+            "game_ply": 220,
+            "depth": 9,
+            "nodes": 255533,
+            "score": 326,
+            "search_ms": 995,
+            "soft_ms": 466
+          },
+          {
+            "game_ply": 222,
+            "depth": 10,
+            "nodes": 58562,
+            "score": 337,
+            "search_ms": 255,
+            "soft_ms": 352
+          },
+          {
+            "game_ply": 224,
+            "depth": 11,
+            "nodes": 87900,
+            "score": 337,
+            "search_ms": 346,
+            "soft_ms": 389
+          },
+          {
+            "game_ply": 226,
+            "depth": 11,
+            "nodes": 97379,
+            "score": 343,
+            "search_ms": 419,
+            "soft_ms": 374
+          },
+          {
+            "game_ply": 228,
+            "depth": 12,
+            "nodes": 94566,
+            "score": 340,
+            "search_ms": 330,
+            "soft_ms": 372
+          },
+          {
+            "game_ply": 230,
+            "depth": 12,
+            "nodes": 227110,
+            "score": 341,
+            "search_ms": 845,
+            "soft_ms": 384
+          },
+          {
+            "game_ply": 232,
+            "depth": 12,
+            "nodes": 73509,
+            "score": 341,
+            "search_ms": 275,
+            "soft_ms": 390
+          },
+          {
+            "game_ply": 234,
+            "depth": 12,
+            "nodes": 85932,
+            "score": 340,
+            "search_ms": 345,
+            "soft_ms": 377
+          },
+          {
+            "game_ply": 236,
+            "depth": 9,
+            "nodes": 71995,
+            "score": 346,
+            "search_ms": 301,
+            "soft_ms": 384
+          },
+          {
+            "game_ply": 238,
+            "depth": 10,
+            "nodes": 115392,
+            "score": 340,
+            "search_ms": 451,
+            "soft_ms": 395
+          },
+          {
+            "game_ply": 240,
+            "depth": 12,
+            "nodes": 107880,
+            "score": 340,
+            "search_ms": 427,
+            "soft_ms": 430
+          },
+          {
+            "game_ply": 242,
+            "depth": 11,
+            "nodes": 174231,
+            "score": 345,
+            "search_ms": 680,
+            "soft_ms": 407
+          },
+          {
+            "game_ply": 244,
+            "depth": 12,
+            "nodes": 90395,
+            "score": 344,
+            "search_ms": 346,
+            "soft_ms": 422
+          },
+          {
+            "game_ply": 246,
+            "depth": 11,
+            "nodes": 110757,
+            "score": 344,
+            "search_ms": 376,
+            "soft_ms": 399
+          },
+          {
+            "game_ply": 248,
+            "depth": 11,
+            "nodes": 220900,
+            "score": 344,
+            "search_ms": 764,
+            "soft_ms": 618
+          },
+          {
+            "game_ply": 250,
+            "depth": 11,
+            "nodes": 332892,
+            "score": 339,
+            "search_ms": 1242,
+            "soft_ms": 401
+          },
+          {
+            "game_ply": 252,
+            "depth": 11,
+            "nodes": 267314,
+            "score": 339,
+            "search_ms": 927,
+            "soft_ms": 349
+          },
+          {
+            "game_ply": 254,
+            "depth": 11,
+            "nodes": 62850,
+            "score": 335,
+            "search_ms": 230,
+            "soft_ms": 326
+          },
+          {
+            "game_ply": 256,
+            "depth": 10,
+            "nodes": 102223,
+            "score": 340,
+            "search_ms": 338,
+            "soft_ms": 412
+          },
+          {
+            "game_ply": 258,
+            "depth": 10,
+            "nodes": 153026,
+            "score": 338,
+            "search_ms": 538,
+            "soft_ms": 345
+          },
+          {
+            "game_ply": 260,
+            "depth": 10,
+            "nodes": 122156,
+            "score": 352,
+            "search_ms": 443,
+            "soft_ms": 348
+          },
+          {
+            "game_ply": 262,
+            "depth": 12,
+            "nodes": 131701,
+            "score": 349,
+            "search_ms": 449,
+            "soft_ms": 344
+          },
+          {
+            "game_ply": 264,
+            "depth": 12,
+            "nodes": 116590,
+            "score": 351,
+            "search_ms": 388,
+            "soft_ms": 349
+          },
+          {
+            "game_ply": 266,
+            "depth": 11,
+            "nodes": 70751,
+            "score": 349,
+            "search_ms": 271,
+            "soft_ms": 358
+          },
+          {
+            "game_ply": 268,
+            "depth": 9,
+            "nodes": 80691,
+            "score": 351,
+            "search_ms": 297,
+            "soft_ms": 369
+          },
+          {
+            "game_ply": 270,
+            "depth": 9,
+            "nodes": 120746,
+            "score": 343,
+            "search_ms": 455,
+            "soft_ms": 383
+          },
+          {
+            "game_ply": 272,
+            "depth": 11,
+            "nodes": 102776,
+            "score": 352,
+            "search_ms": 516,
+            "soft_ms": 411
+          },
+          {
+            "game_ply": 274,
+            "depth": 9,
+            "nodes": 105731,
+            "score": 351,
+            "search_ms": 444,
+            "soft_ms": 380
+          },
+          {
+            "game_ply": 276,
+            "depth": 9,
+            "nodes": 72471,
+            "score": 352,
+            "search_ms": 279,
+            "soft_ms": 381
+          },
+          {
+            "game_ply": 278,
+            "depth": 9,
+            "nodes": 73928,
+            "score": 350,
+            "search_ms": 293,
+            "soft_ms": 398
+          },
+          {
+            "game_ply": 280,
+            "depth": 9,
+            "nodes": 75144,
+            "score": 349,
+            "search_ms": 309,
+            "soft_ms": 427
+          },
+          {
+            "game_ply": 282,
+            "depth": 8,
+            "nodes": 386048,
+            "score": 349,
+            "search_ms": 2222,
+            "soft_ms": 1063
+          },
+          {
+            "game_ply": 284,
+            "depth": 5,
+            "nodes": 57025,
+            "score": 300,
+            "search_ms": 250,
+            "soft_ms": 323
+          },
+          {
+            "game_ply": 286,
+            "depth": 8,
+            "nodes": 223848,
+            "score": 0,
+            "search_ms": 916,
+            "soft_ms": 381
+          },
+          {
+            "game_ply": 288,
+            "depth": 7,
+            "nodes": 98433,
+            "score": 0,
+            "search_ms": 408,
+            "soft_ms": 321
+          },
+          {
+            "game_ply": 290,
+            "depth": 8,
+            "nodes": 174557,
+            "score": 0,
+            "search_ms": 645,
+            "soft_ms": 342
+          }
+        ]
+      },
+      "baseline": {
+        "colour": "black",
+        "cpu": 9,
+        "moves": 147,
+        "init_s": 31.672,
+        "clock_left_s": 2.714,
+        "thinking_s": 190.771,
+        "first20_s": 73.841,
+        "max_move_s": 5.922,
+        "original_ready": true,
+        "effective_ready": true,
+        "override_applied": false,
+        "compiled": true,
+        "envelope": {
+          "affinity": {
+            "applied": true,
+            "effective_mask": 512,
+            "requested_cpu": 9,
+            "requested_mask": 512,
+            "system_mask": 1023
+          },
+          "memory_job": {
+            "applied": true,
+            "kill_on_job_close": true,
+            "limit_bytes": 2147483648,
+            "limit_kind": "process_and_job_commit"
+          }
+        },
+        "telemetry_searches": 0,
+        "mean_completed_depth": null,
+        "telemetry": []
+      },
+      "game_plies": 293,
+      "final_fen": "7r/8/7k/5KR1/3B4/8/8/8 w - - 99 154",
+      "final_material_white_minus_black": 3
+    },
+    {
+      "game": 2,
+      "pair": 1,
+      "source_site_index": 8,
+      "source_day1_round": 9,
+      "candidate_colour": "black",
+      "result": "black",
+      "termination": "checkmate",
+      "candidate_points": 1.0,
+      "candidate_failure": false,
+      "baseline_failure": false,
+      "post_game_archive_files_unchanged": true,
+      "post_game_extraction_problems": {
+        "black": [],
+        "white": []
+      },
+      "game_wall_s": 330.859,
+      "baseline": {
+        "colour": "white",
+        "cpu": 8,
+        "moves": 47,
+        "init_s": 33.218,
+        "clock_left_s": 25.456,
+        "thinking_s": 117.995,
+        "first20_s": 74.654,
+        "max_move_s": 5.64,
+        "original_ready": true,
+        "effective_ready": true,
+        "override_applied": false,
+        "compiled": true,
+        "envelope": {
+          "affinity": {
+            "applied": true,
+            "effective_mask": 256,
+            "requested_cpu": 8,
+            "requested_mask": 256,
+            "system_mask": 1023
+          },
+          "memory_job": {
+            "applied": true,
+            "kill_on_job_close": true,
+            "limit_bytes": 2147483648,
+            "limit_kind": "process_and_job_commit"
+          }
+        },
+        "telemetry_searches": 0,
+        "mean_completed_depth": null,
+        "telemetry": []
+      },
+      "candidate": {
+        "colour": "black",
+        "cpu": 9,
+        "moves": 48,
+        "init_s": 42.485,
+        "clock_left_s": 7.074,
+        "thinking_s": 136.926,
+        "first20_s": 60.862,
+        "max_move_s": 8.047,
+        "original_ready": true,
+        "effective_ready": true,
+        "override_applied": false,
+        "compiled": true,
+        "envelope": {
+          "affinity": {
+            "applied": true,
+            "effective_mask": 512,
+            "requested_cpu": 9,
+            "requested_mask": 512,
+            "system_mask": 1023
+          },
+          "memory_job": {
+            "applied": true,
+            "kill_on_job_close": true,
+            "limit_bytes": 2147483648,
+            "limit_kind": "process_and_job_commit"
+          }
+        },
+        "telemetry_searches": 48,
+        "mean_completed_depth": 12.083333333333334,
+        "telemetry": [
+          {
+            "game_ply": 0,
+            "depth": 10,
+            "nodes": 276881,
+            "score": 5,
+            "search_ms": 2649,
+            "soft_ms": 2809
+          },
+          {
+            "game_ply": 2,
+            "depth": 12,
+            "nodes": 315968,
+            "score": -10,
+            "search_ms": 2833,
+            "soft_ms": 2823
+          },
+          {
+            "game_ply": 4,
+            "depth": 11,
+            "nodes": 262844,
+            "score": -10,
+            "search_ms": 2364,
+            "soft_ms": 2665
+          },
+          {
+            "game_ply": 6,
+            "depth": 12,
+            "nodes": 280618,
+            "score": -26,
+            "search_ms": 2462,
+            "soft_ms": 2717
+          },
+          {
+            "game_ply": 8,
+            "depth": 11,
+            "nodes": 240115,
+            "score": -17,
+            "search_ms": 2036,
+            "soft_ms": 2789
+          },
+          {
+            "game_ply": 10,
+            "depth": 11,
+            "nodes": 331673,
+            "score": -19,
+            "search_ms": 2970,
+            "soft_ms": 2908
+          },
+          {
+            "game_ply": 12,
+            "depth": 11,
+            "nodes": 242089,
+            "score": -15,
+            "search_ms": 2231,
+            "soft_ms": 2830
+          },
+          {
+            "game_ply": 14,
+            "depth": 12,
+            "nodes": 587551,
+            "score": -19,
+            "search_ms": 3265,
+            "soft_ms": 3403
+          },
+          {
+            "game_ply": 16,
+            "depth": 11,
+            "nodes": 199007,
+            "score": -11,
+            "search_ms": 1920,
+            "soft_ms": 2802
+          },
+          {
+            "game_ply": 18,
+            "depth": 11,
+            "nodes": 219529,
+            "score": -15,
+            "search_ms": 2325,
+            "soft_ms": 2880
+          },
+          {
+            "game_ply": 20,
+            "depth": 11,
+            "nodes": 391821,
+            "score": -18,
+            "search_ms": 4548,
+            "soft_ms": 6914
+          },
+          {
+            "game_ply": 22,
+            "depth": 12,
+            "nodes": 471592,
+            "score": 120,
+            "search_ms": 5124,
+            "soft_ms": 4532
+          },
+          {
+            "game_ply": 24,
+            "depth": 13,
+            "nodes": 267650,
+            "score": 129,
+            "search_ms": 2754,
+            "soft_ms": 2714
+          },
+          {
+            "game_ply": 26,
+            "depth": 13,
+            "nodes": 388700,
+            "score": 151,
+            "search_ms": 4979,
+            "soft_ms": 2652
+          },
+          {
+            "game_ply": 28,
+            "depth": 12,
+            "nodes": 140793,
+            "score": 157,
+            "search_ms": 1846,
+            "soft_ms": 2718
+          },
+          {
+            "game_ply": 30,
+            "depth": 13,
+            "nodes": 189144,
+            "score": 177,
+            "search_ms": 2368,
+            "soft_ms": 2800
+          },
+          {
+            "game_ply": 32,
+            "depth": 14,
+            "nodes": 236594,
+            "score": 161,
+            "search_ms": 2222,
+            "soft_ms": 3054
+          },
+          {
+            "game_ply": 34,
+            "depth": 14,
+            "nodes": 595543,
+            "score": 158,
+            "search_ms": 5593,
+            "soft_ms": 3453
+          },
+          {
+            "game_ply": 36,
+            "depth": 14,
+            "nodes": 300962,
+            "score": 175,
+            "search_ms": 2793,
+            "soft_ms": 3916
+          },
+          {
+            "game_ply": 38,
+            "depth": 14,
+            "nodes": 365125,
+            "score": 186,
+            "search_ms": 3310,
+            "soft_ms": 4608
+          },
+          {
+            "game_ply": 40,
+            "depth": 14,
+            "nodes": 622255,
+            "score": 200,
+            "search_ms": 5650,
+            "soft_ms": 10349
+          },
+          {
+            "game_ply": 42,
+            "depth": 14,
+            "nodes": 581871,
+            "score": 241,
+            "search_ms": 5054,
+            "soft_ms": 3536
+          },
+          {
+            "game_ply": 44,
+            "depth": 16,
+            "nodes": 411514,
+            "score": 243,
+            "search_ms": 3504,
+            "soft_ms": 3388
+          },
+          {
+            "game_ply": 46,
+            "depth": 16,
+            "nodes": 358743,
+            "score": 243,
+            "search_ms": 3205,
+            "soft_ms": 3410
+          },
+          {
+            "game_ply": 48,
+            "depth": 14,
+            "nodes": 886989,
+            "score": 223,
+            "search_ms": 8031,
+            "soft_ms": 7456
+          },
+          {
+            "game_ply": 50,
+            "depth": 15,
+            "nodes": 691889,
+            "score": 327,
+            "search_ms": 6412,
+            "soft_ms": 5103
+          },
+          {
+            "game_ply": 52,
+            "depth": 17,
+            "nodes": 393573,
+            "score": 390,
+            "search_ms": 3567,
+            "soft_ms": 2698
+          },
+          {
+            "game_ply": 54,
+            "depth": 17,
+            "nodes": 332882,
+            "score": 413,
+            "search_ms": 2990,
+            "soft_ms": 2655
+          },
+          {
+            "game_ply": 56,
+            "depth": 17,
+            "nodes": 345728,
+            "score": 482,
+            "search_ms": 3256,
+            "soft_ms": 4401
+          },
+          {
+            "game_ply": 58,
+            "depth": 16,
+            "nodes": 292228,
+            "score": 568,
+            "search_ms": 2858,
+            "soft_ms": 5305
+          },
+          {
+            "game_ply": 60,
+            "depth": 16,
+            "nodes": 311061,
+            "score": 630,
+            "search_ms": 3633,
+            "soft_ms": 4722
+          },
+          {
+            "game_ply": 62,
+            "depth": 16,
+            "nodes": 569410,
+            "score": 673,
+            "search_ms": 5757,
+            "soft_ms": 4257
+          },
+          {
+            "game_ply": 64,
+            "depth": 15,
+            "nodes": 249278,
+            "score": 687,
+            "search_ms": 2504,
+            "soft_ms": 1836
+          },
+          {
+            "game_ply": 66,
+            "depth": 15,
+            "nodes": 402923,
+            "score": 714,
+            "search_ms": 4531,
+            "soft_ms": 4545
+          },
+          {
+            "game_ply": 68,
+            "depth": 14,
+            "nodes": 103593,
+            "score": 734,
+            "search_ms": 1134,
+            "soft_ms": 1376
+          },
+          {
+            "game_ply": 70,
+            "depth": 13,
+            "nodes": 161995,
+            "score": 773,
+            "search_ms": 1782,
+            "soft_ms": 2592
+          },
+          {
+            "game_ply": 72,
+            "depth": 13,
+            "nodes": 244601,
+            "score": 822,
+            "search_ms": 2469,
+            "soft_ms": 2569
+          },
+          {
+            "game_ply": 74,
+            "depth": 13,
+            "nodes": 189190,
+            "score": 877,
+            "search_ms": 1853,
+            "soft_ms": 2083
+          },
+          {
+            "game_ply": 76,
+            "depth": 12,
+            "nodes": 234365,
+            "score": 973,
+            "search_ms": 2371,
+            "soft_ms": 1867
+          },
+          {
+            "game_ply": 78,
+            "depth": 12,
+            "nodes": 175362,
+            "score": 1246,
+            "search_ms": 1823,
+            "soft_ms": 2256
+          },
+          {
+            "game_ply": 80,
+            "depth": 11,
+            "nodes": 324917,
+            "score": 1851,
+            "search_ms": 1501,
+            "soft_ms": 2068
+          },
+          {
+            "game_ply": 82,
+            "depth": 12,
+            "nodes": 368821,
+            "score": 31987,
+            "search_ms": 1668,
+            "soft_ms": 1541
+          },
+          {
+            "game_ply": 84,
+            "depth": 9,
+            "nodes": 24782,
+            "score": 31989,
+            "search_ms": 128,
+            "soft_ms": 1208
+          },
+          {
+            "game_ply": 86,
+            "depth": 4,
+            "nodes": 629,
+            "score": 31991,
+            "search_ms": 20,
+            "soft_ms": 1196
+          },
+          {
+            "game_ply": 88,
+            "depth": 4,
+            "nodes": 2584,
+            "score": 31993,
+            "search_ms": 22,
+            "soft_ms": 1140
+          },
+          {
+            "game_ply": 90,
+            "depth": 1,
+            "nodes": 73,
+            "score": 31995,
+            "search_ms": 5,
+            "soft_ms": 802
+          },
+          {
+            "game_ply": 92,
+            "depth": 1,
+            "nodes": 107,
+            "score": 31997,
+            "search_ms": 0,
+            "soft_ms": 771
+          },
+          {
+            "game_ply": 94,
+            "depth": 1,
+            "nodes": 109,
+            "score": 31999,
+            "search_ms": 3,
+            "soft_ms": 808
+          }
+        ]
+      },
+      "game_plies": 95,
+      "final_fen": "1qK5/7p/5k1P/4b1p1/q7/8/8/8 w - - 4 55",
+      "final_material_white_minus_black": -22
+    },
+    {
+      "game": 3,
+      "pair": 2,
+      "source_site_index": 10,
+      "source_day1_round": 12,
+      "candidate_colour": "white",
+      "result": "draw",
+      "termination": "threefold_repetition",
+      "candidate_points": 0.5,
+      "candidate_failure": false,
+      "baseline_failure": false,
+      "post_game_archive_files_unchanged": true,
+      "post_game_extraction_problems": {
+        "black": [],
+        "white": []
+      },
+      "game_wall_s": 303.094,
+      "candidate": {
+        "colour": "white",
+        "cpu": 8,
+        "moves": 33,
+        "init_s": 38.25,
+        "clock_left_s": 37.546,
+        "thinking_s": 98.953,
+        "first20_s": 64.437,
+        "max_move_s": 8.171,
+        "original_ready": true,
+        "effective_ready": true,
+        "override_applied": false,
+        "compiled": true,
+        "envelope": {
+          "affinity": {
+            "applied": true,
+            "effective_mask": 256,
+            "requested_cpu": 8,
+            "requested_mask": 256,
+            "system_mask": 1023
+          },
+          "memory_job": {
+            "applied": true,
+            "kill_on_job_close": true,
+            "limit_bytes": 2147483648,
+            "limit_kind": "process_and_job_commit"
+          }
+        },
+        "telemetry_searches": 31,
+        "mean_completed_depth": 11.774193548387096,
+        "telemetry": [
+          {
+            "game_ply": 0,
+            "depth": 10,
+            "nodes": 473671,
+            "score": 25,
+            "search_ms": 4801,
+            "soft_ms": 4137
+          },
+          {
+            "game_ply": 2,
+            "depth": 12,
+            "nodes": 408953,
+            "score": 35,
+            "search_ms": 4002,
+            "soft_ms": 2694
+          },
+          {
+            "game_ply": 4,
+            "depth": 11,
+            "nodes": 302193,
+            "score": 35,
+            "search_ms": 2366,
+            "soft_ms": 2593
+          },
+          {
+            "game_ply": 6,
+            "depth": 11,
+            "nodes": 253645,
+            "score": 17,
+            "search_ms": 2466,
+            "soft_ms": 2803
+          },
+          {
+            "game_ply": 8,
+            "depth": 11,
+            "nodes": 426679,
+            "score": 19,
+            "search_ms": 3802,
+            "soft_ms": 2608
+          },
+          {
+            "game_ply": 10,
+            "depth": 10,
+            "nodes": 262269,
+            "score": 28,
+            "search_ms": 2504,
+            "soft_ms": 6241
+          },
+          {
+            "game_ply": 12,
+            "depth": 12,
+            "nodes": 216719,
+            "score": -21,
+            "search_ms": 2077,
+            "soft_ms": 2623
+          },
+          {
+            "game_ply": 14,
+            "depth": 13,
+            "nodes": 275197,
+            "score": -24,
+            "search_ms": 2838,
+            "soft_ms": 2649
+          },
+          {
+            "game_ply": 16,
+            "depth": 13,
+            "nodes": 236980,
+            "score": -27,
+            "search_ms": 2932,
+            "soft_ms": 2645
+          },
+          {
+            "game_ply": 18,
+            "depth": 12,
+            "nodes": 252437,
+            "score": -30,
+            "search_ms": 3606,
+            "soft_ms": 2664
+          },
+          {
+            "game_ply": 20,
+            "depth": 11,
+            "nodes": 270150,
+            "score": -31,
+            "search_ms": 4370,
+            "soft_ms": 2583
+          },
+          {
+            "game_ply": 22,
+            "depth": 9,
+            "nodes": 203674,
+            "score": -31,
+            "search_ms": 3184,
+            "soft_ms": 3809
+          },
+          {
+            "game_ply": 24,
+            "depth": 8,
+            "nodes": 236965,
+            "score": -37,
+            "search_ms": 4001,
+            "soft_ms": 2471
+          },
+          {
+            "game_ply": 26,
+            "depth": 8,
+            "nodes": 113000,
+            "score": -38,
+            "search_ms": 1786,
+            "soft_ms": 2414
+          },
+          {
+            "game_ply": 28,
+            "depth": 9,
+            "nodes": 520350,
+            "score": -45,
+            "search_ms": 8169,
+            "soft_ms": 6373
+          },
+          {
+            "game_ply": 30,
+            "depth": 11,
+            "nodes": 231785,
+            "score": 45,
+            "search_ms": 3229,
+            "soft_ms": 3715
+          },
+          {
+            "game_ply": 32,
+            "depth": 12,
+            "nodes": 226574,
+            "score": 38,
+            "search_ms": 3231,
+            "soft_ms": 2168
+          },
+          {
+            "game_ply": 34,
+            "depth": 11,
+            "nodes": 112312,
+            "score": 39,
+            "search_ms": 1656,
+            "soft_ms": 2125
+          },
+          {
+            "game_ply": 36,
+            "depth": 10,
+            "nodes": 96379,
+            "score": 40,
+            "search_ms": 1452,
+            "soft_ms": 2119
+          },
+          {
+            "game_ply": 38,
+            "depth": 10,
+            "nodes": 107881,
+            "score": 42,
+            "search_ms": 1657,
+            "soft_ms": 2220
+          },
+          {
+            "game_ply": 40,
+            "depth": 11,
+            "nodes": 260507,
+            "score": 50,
+            "search_ms": 3823,
+            "soft_ms": 3779
+          },
+          {
+            "game_ply": 42,
+            "depth": 9,
+            "nodes": 217992,
+            "score": 63,
+            "search_ms": 3083,
+            "soft_ms": 4559
+          },
+          {
+            "game_ply": 44,
+            "depth": 10,
+            "nodes": 136765,
+            "score": 44,
+            "search_ms": 1950,
+            "soft_ms": 2375
+          },
+          {
+            "game_ply": 46,
+            "depth": 11,
+            "nodes": 423870,
+            "score": 0,
+            "search_ms": 6515,
+            "soft_ms": 6409
+          },
+          {
+            "game_ply": 48,
+            "depth": 11,
+            "nodes": 221070,
+            "score": 0,
+            "search_ms": 3631,
+            "soft_ms": 2107
+          },
+          {
+            "game_ply": 50,
+            "depth": 11,
+            "nodes": 98180,
+            "score": 0,
+            "search_ms": 1614,
+            "soft_ms": 2026
+          },
+          {
+            "game_ply": 52,
+            "depth": 11,
+            "nodes": 250349,
+            "score": 0,
+            "search_ms": 4356,
+            "soft_ms": 2017
+          },
+          {
+            "game_ply": 54,
+            "depth": 10,
+            "nodes": 155303,
+            "score": 0,
+            "search_ms": 2751,
+            "soft_ms": 1903
+          },
+          {
+            "game_ply": 56,
+            "depth": 13,
+            "nodes": 153552,
+            "score": 0,
+            "search_ms": 2135,
+            "soft_ms": 1848
+          },
+          {
+            "game_ply": 60,
+            "depth": 17,
+            "nodes": 176556,
+            "score": 0,
+            "search_ms": 2531,
+            "soft_ms": 2014
+          },
+          {
+            "game_ply": 64,
+            "depth": 37,
+            "nodes": 181035,
+            "score": 0,
+            "search_ms": 2003,
+            "soft_ms": 1946
+          }
+        ]
+      },
+      "baseline": {
+        "colour": "black",
+        "cpu": 9,
+        "moves": 32,
+        "init_s": 65.281,
+        "clock_left_s": 35.592,
+        "thinking_s": 100.407,
+        "first20_s": 75.986,
+        "max_move_s": 5.765,
+        "original_ready": true,
+        "effective_ready": true,
+        "override_applied": false,
+        "compiled": true,
+        "envelope": {
+          "affinity": {
+            "applied": true,
+            "effective_mask": 512,
+            "requested_cpu": 9,
+            "requested_mask": 512,
+            "system_mask": 1023
+          },
+          "memory_job": {
+            "applied": true,
+            "kill_on_job_close": true,
+            "limit_bytes": 2147483648,
+            "limit_kind": "process_and_job_commit"
+          }
+        },
+        "telemetry_searches": 0,
+        "mean_completed_depth": null,
+        "telemetry": []
+      },
+      "game_plies": 65,
+      "final_fen": "3r4/1p3k2/3p2b1/3P4/6Q1/7P/PP6/2KRqB2 b - - 8 42",
+      "final_material_white_minus_black": 2
+    },
+    {
+      "game": 4,
+      "pair": 2,
+      "source_site_index": 10,
+      "source_day1_round": 12,
+      "candidate_colour": "black",
+      "result": "draw",
+      "termination": "threefold_repetition",
+      "candidate_points": 0.5,
+      "candidate_failure": false,
+      "baseline_failure": false,
+      "post_game_archive_files_unchanged": true,
+      "post_game_extraction_problems": {
+        "black": [],
+        "white": []
+      },
+      "game_wall_s": 409.969,
+      "baseline": {
+        "colour": "white",
+        "cpu": 8,
+        "moves": 44,
+        "init_s": 75.25,
+        "clock_left_s": 24.498,
+        "thinking_s": 117.455,
+        "first20_s": 75.829,
+        "max_move_s": 6.297,
+        "original_ready": true,
+        "effective_ready": true,
+        "override_applied": false,
+        "compiled": true,
+        "envelope": {
+          "affinity": {
+            "applied": true,
+            "effective_mask": 256,
+            "requested_cpu": 8,
+            "requested_mask": 256,
+            "system_mask": 1023
+          },
+          "memory_job": {
+            "applied": true,
+            "kill_on_job_close": true,
+            "limit_bytes": 2147483648,
+            "limit_kind": "process_and_job_commit"
+          }
+        },
+        "telemetry_searches": 0,
+        "mean_completed_depth": null,
+        "telemetry": []
+      },
+      "candidate": {
+        "colour": "black",
+        "cpu": 9,
+        "moves": 43,
+        "init_s": 85.531,
+        "clock_left_s": 10.077,
+        "thinking_s": 131.422,
+        "first20_s": 68.032,
+        "max_move_s": 10.109,
+        "original_ready": true,
+        "effective_ready": true,
+        "override_applied": false,
+        "compiled": true,
+        "envelope": {
+          "affinity": {
+            "applied": true,
+            "effective_mask": 512,
+            "requested_cpu": 9,
+            "requested_mask": 512,
+            "system_mask": 1023
+          },
+          "memory_job": {
+            "applied": true,
+            "kill_on_job_close": true,
+            "limit_bytes": 2147483648,
+            "limit_kind": "process_and_job_commit"
+          }
+        },
+        "telemetry_searches": 42,
+        "mean_completed_depth": 11.333333333333334,
+        "telemetry": [
+          {
+            "game_ply": 0,
+            "depth": 10,
+            "nodes": 488897,
+            "score": -13,
+            "search_ms": 5476,
+            "soft_ms": 3384
+          },
+          {
+            "game_ply": 2,
+            "depth": 10,
+            "nodes": 420704,
+            "score": -2,
+            "search_ms": 4716,
+            "soft_ms": 2715
+          },
+          {
+            "game_ply": 4,
+            "depth": 11,
+            "nodes": 903114,
+            "score": -19,
+            "search_ms": 10094,
+            "soft_ms": 6390
+          },
+          {
+            "game_ply": 6,
+            "depth": 10,
+            "nodes": 338670,
+            "score": -21,
+            "search_ms": 3923,
+            "soft_ms": 2501
+          },
+          {
+            "game_ply": 8,
+            "depth": 9,
+            "nodes": 208271,
+            "score": -4,
+            "search_ms": 2515,
+            "soft_ms": 3710
+          },
+          {
+            "game_ply": 10,
+            "depth": 8,
+            "nodes": 200008,
+            "score": 1,
+            "search_ms": 2638,
+            "soft_ms": 2428
+          },
+          {
+            "game_ply": 12,
+            "depth": 10,
+            "nodes": 298450,
+            "score": 0,
+            "search_ms": 3955,
+            "soft_ms": 3618
+          },
+          {
+            "game_ply": 14,
+            "depth": 10,
+            "nodes": 130988,
+            "score": 0,
+            "search_ms": 1917,
+            "soft_ms": 2318
+          },
+          {
+            "game_ply": 16,
+            "depth": 8,
+            "nodes": 130073,
+            "score": 0,
+            "search_ms": 2177,
+            "soft_ms": 2308
+          },
+          {
+            "game_ply": 18,
+            "depth": 8,
+            "nodes": 158160,
+            "score": 4,
+            "search_ms": 2767,
+            "soft_ms": 3495
+          },
+          {
+            "game_ply": 20,
+            "depth": 8,
+            "nodes": 93281,
+            "score": 12,
+            "search_ms": 1611,
+            "soft_ms": 2297
+          },
+          {
+            "game_ply": 22,
+            "depth": 10,
+            "nodes": 163490,
+            "score": 13,
+            "search_ms": 2528,
+            "soft_ms": 2349
+          },
+          {
+            "game_ply": 24,
+            "depth": 10,
+            "nodes": 153908,
+            "score": 22,
+            "search_ms": 2112,
+            "soft_ms": 2386
+          },
+          {
+            "game_ply": 26,
+            "depth": 10,
+            "nodes": 199382,
+            "score": 34,
+            "search_ms": 2409,
+            "soft_ms": 2437
+          },
+          {
+            "game_ply": 28,
+            "depth": 11,
+            "nodes": 427216,
+            "score": 36,
+            "search_ms": 2245,
+            "soft_ms": 2455
+          },
+          {
+            "game_ply": 30,
+            "depth": 11,
+            "nodes": 453725,
+            "score": 46,
+            "search_ms": 2953,
+            "soft_ms": 2365
+          },
+          {
+            "game_ply": 32,
+            "depth": 11,
+            "nodes": 553088,
+            "score": 52,
+            "search_ms": 5754,
+            "soft_ms": 2850
+          },
+          {
+            "game_ply": 34,
+            "depth": 9,
+            "nodes": 268122,
+            "score": 45,
+            "search_ms": 2959,
+            "soft_ms": 2722
+          },
+          {
+            "game_ply": 36,
+            "depth": 8,
+            "nodes": 183515,
+            "score": 47,
+            "search_ms": 2262,
+            "soft_ms": 2701
+          },
+          {
+            "game_ply": 38,
+            "depth": 9,
+            "nodes": 373741,
+            "score": 43,
+            "search_ms": 2812,
+            "soft_ms": 2720
+          },
+          {
+            "game_ply": 40,
+            "depth": 8,
+            "nodes": 240380,
+            "score": 45,
+            "search_ms": 2412,
+            "soft_ms": 3214
+          },
+          {
+            "game_ply": 42,
+            "depth": 10,
+            "nodes": 598909,
+            "score": 125,
+            "search_ms": 4790,
+            "soft_ms": 6272
+          },
+          {
+            "game_ply": 44,
+            "depth": 10,
+            "nodes": 233010,
+            "score": 167,
+            "search_ms": 2766,
+            "soft_ms": 3346
+          },
+          {
+            "game_ply": 46,
+            "depth": 12,
+            "nodes": 245605,
+            "score": 198,
+            "search_ms": 2329,
+            "soft_ms": 2364
+          },
+          {
+            "game_ply": 48,
+            "depth": 13,
+            "nodes": 237169,
+            "score": 218,
+            "search_ms": 2008,
+            "soft_ms": 2088
+          },
+          {
+            "game_ply": 50,
+            "depth": 12,
+            "nodes": 272438,
+            "score": 212,
+            "search_ms": 2486,
+            "soft_ms": 2423
+          },
+          {
+            "game_ply": 52,
+            "depth": 12,
+            "nodes": 729809,
+            "score": 186,
+            "search_ms": 6045,
+            "soft_ms": 5755
+          },
+          {
+            "game_ply": 54,
+            "depth": 12,
+            "nodes": 688501,
+            "score": 128,
+            "search_ms": 5753,
+            "soft_ms": 4544
+          },
+          {
+            "game_ply": 56,
+            "depth": 13,
+            "nodes": 327731,
+            "score": 135,
+            "search_ms": 2685,
+            "soft_ms": 2247
+          },
+          {
+            "game_ply": 58,
+            "depth": 12,
+            "nodes": 183237,
+            "score": 141,
+            "search_ms": 1587,
+            "soft_ms": 2172
+          },
+          {
+            "game_ply": 60,
+            "depth": 13,
+            "nodes": 434158,
+            "score": 103,
+            "search_ms": 3442,
+            "soft_ms": 4099
+          },
+          {
+            "game_ply": 62,
+            "depth": 14,
+            "nodes": 441015,
+            "score": 26,
+            "search_ms": 2537,
+            "soft_ms": 3443
+          },
+          {
+            "game_ply": 64,
+            "depth": 13,
+            "nodes": 681174,
+            "score": 24,
+            "search_ms": 2597,
+            "soft_ms": 4598
+          },
+          {
+            "game_ply": 66,
+            "depth": 13,
+            "nodes": 641168,
+            "score": 51,
+            "search_ms": 4039,
+            "soft_ms": 5136
+          },
+          {
+            "game_ply": 68,
+            "depth": 12,
+            "nodes": 176404,
+            "score": 51,
+            "search_ms": 1363,
+            "soft_ms": 1591
+          },
+          {
+            "game_ply": 70,
+            "depth": 13,
+            "nodes": 314920,
+            "score": 33,
+            "search_ms": 1763,
+            "soft_ms": 1661
+          },
+          {
+            "game_ply": 72,
+            "depth": 13,
+            "nodes": 286586,
+            "score": 61,
+            "search_ms": 1106,
+            "soft_ms": 1594
+          },
+          {
+            "game_ply": 74,
+            "depth": 15,
+            "nodes": 528128,
+            "score": 41,
+            "search_ms": 2125,
+            "soft_ms": 1545
+          },
+          {
+            "game_ply": 78,
+            "depth": 14,
+            "nodes": 407444,
+            "score": 23,
+            "search_ms": 1561,
+            "soft_ms": 1466
+          },
+          {
+            "game_ply": 80,
+            "depth": 15,
+            "nodes": 811062,
+            "score": 0,
+            "search_ms": 3027,
+            "soft_ms": 1478
+          },
+          {
+            "game_ply": 82,
+            "depth": 14,
+            "nodes": 394751,
+            "score": 0,
+            "search_ms": 1339,
+            "soft_ms": 1390
+          },
+          {
+            "game_ply": 84,
+            "depth": 22,
+            "nodes": 1105920,
+            "score": 0,
+            "search_ms": 5410,
+            "soft_ms": 1088
+          }
+        ]
+      },
+      "game_plies": 87,
+      "final_fen": "2k5/6R1/p1p2N2/8/6p1/7p/P1r5/7K b - - 17 53",
+      "final_material_white_minus_black": 0
+    }
+  ],
+  "wins": 1,
+  "draws": 3,
+  "losses": 0,
+  "candidate_failures": 0,
+  "baseline_failures": 0,
+  "readiness_overrides": 0
+}

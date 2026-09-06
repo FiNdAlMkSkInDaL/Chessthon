@@ -1,0 +1,906 @@
+{
+  "verdict": "PASS",
+  "runtime": {
+    "python": "3.12.3",
+    "executable": "/home/botuser/chess-tk/.venv/bin/python",
+    "platform": "Linux-6.8.0-90-generic-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "cpu_models": [
+      "AMD EPYC-Genoa Processor"
+    ],
+    "controller_affinity": [
+      0,
+      1
+    ],
+    "packages": {
+      "chess": "1.11.2",
+      "numpy": "2.5.2",
+      "numba": "0.67.0",
+      "llvmlite": "0.49.0"
+    }
+  },
+  "cpu": 0,
+  "service_runtime_limit_s": 900,
+  "cold_target_s": 60.0,
+  "odin_rules_required": true,
+  "limitations": [
+    "Signer CPU differs from competition CPU.",
+    "Read-only source uses modes, without a read-only root mount.",
+    "Private temp has no aggregate 256 MiB filesystem quota."
+  ],
+  "archive": {
+    "source_path": "/home/botuser/chess-sign-odin-20260905/odin-v6-aspiration-r1/candidate-linux-x86.zip",
+    "sha256": "ffa57fac6525a05cf0b66f0774498a331b0422a5f3e9b3c4389bee72199286da",
+    "zip_bytes": 37385,
+    "uncompressed_bytes": 137142,
+    "entry_count": 12,
+    "private_snapshot_verified": true,
+    "entries": [
+      {
+        "name": "agent.py",
+        "compressed_bytes": 1390,
+        "uncompressed_bytes": 3748,
+        "sha256": "7fd30408cb39e61a967bdd2a3e0c0b570fa594960183168d4f8f93409ee76451"
+      },
+      {
+        "name": "bitops_nb.py",
+        "compressed_bytes": 783,
+        "uncompressed_bytes": 1699,
+        "sha256": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e"
+      },
+      {
+        "name": "board_nb.py",
+        "compressed_bytes": 3513,
+        "uncompressed_bytes": 13207,
+        "sha256": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d"
+      },
+      {
+        "name": "core_nb.py",
+        "compressed_bytes": 13963,
+        "uncompressed_bytes": 64918,
+        "sha256": "770ae9f5b7fc1e88b5e6f9ad92d3999e13d155a6a48258cf8eab61ac7c464f38"
+      },
+      {
+        "name": "eval_nb.py",
+        "compressed_bytes": 2792,
+        "uncompressed_bytes": 8267,
+        "sha256": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f"
+      },
+      {
+        "name": "history.py",
+        "compressed_bytes": 1791,
+        "uncompressed_bytes": 5082,
+        "sha256": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e"
+      },
+      {
+        "name": "movegen_nb.py",
+        "compressed_bytes": 2004,
+        "uncompressed_bytes": 8581,
+        "sha256": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c"
+      },
+      {
+        "name": "search_nb.py",
+        "compressed_bytes": 3986,
+        "uncompressed_bytes": 15989,
+        "sha256": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6"
+      },
+      {
+        "name": "storm_clock.py",
+        "compressed_bytes": 3298,
+        "uncompressed_bytes": 8845,
+        "sha256": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8"
+      },
+      {
+        "name": "tables_nb.py",
+        "compressed_bytes": 1361,
+        "uncompressed_bytes": 3561,
+        "sha256": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007"
+      },
+      {
+        "name": "time_nb.py",
+        "compressed_bytes": 461,
+        "uncompressed_bytes": 899,
+        "sha256": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8"
+      },
+      {
+        "name": "tt_nb.py",
+        "compressed_bytes": 849,
+        "uncompressed_bytes": 2346,
+        "sha256": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+      }
+    ]
+  },
+  "source_provenance": {
+    "lab/odin/release/linux_match.py": "d2cfce7f2de709e25e3899c91aad1420e2313e1191811b76451d83152baf60ca",
+    "lab/odin/release/plan.py": "f64a5730257a394c5889e6d0a93e4936f3ab5eb760b79f40097739487c331d7a",
+    "lab/odin/release/validate_match.py": "53c7bcbc6810302188a0f7046ed4ae48d163c35d4a7e6ee91403485e9cee6531",
+    "lab/laptop_match.py": "bdaa949ee65c13cd586bfc17537818fdb3e389e3acf40b8a694e35217b58f7e8",
+    "lab/laptop_runner.py": "57f3c62d7a5070436ebbb056c65e7394d292b692309a263139298767a5e7c61e",
+    "lab/release_audit.py": "ecfd901d3868dc6e293172051aa83d64fe658486e40f1b16b31cf4d0e8b838c2",
+    "lab/paired_match_stats.py": "8ce432d0d23404af5d8b0c5785bc2fca8f976e8fc601b38c5828672b90e257ef",
+    "official/harness/referee.py": "122ff19324392714add2321149f70cd13768e612e588b95c56216f4cdef2522d",
+    "official/harness/rules.py": "5cea675db20d0e6a39bca93027fea912dfc0c97da26bca337c888ca6a487e2a1",
+    "official/harness/runner.py": "31e6478905576d56e22b675217fd582dce554fbaf3850afc55d8aab2b3f55f4e",
+    "official/harness/sandbox.py": "2124822815728cbab7c9b1b61f3bff23fbb1ab340658d2ba58c7c2d99bff1f2c"
+  },
+  "gate_provenance": {
+    "lab/odin/release/native_gate.py": "af6748cec83f884ac87b44bc0ab83351a1720ae860842b1399022cc5393bd5b4",
+    "lab/perft.py": "5ae7cc45621f407411bcaa102a86308b5c047c27e409d4434fdbc4056beb3d62"
+  },
+  "structural": {
+    "verdict": "PASS",
+    "source": "/tmp/chesstk-odin-gate-48vi9sto/structural/source",
+    "cold_agent_import_s": 32.572931587696075,
+    "search_root_signature": "(pos, packed_root, hard_ms, soft_ms, adjudicate, game_zkeys) -> 'int'",
+    "warmup_s": 32.311926789581776,
+    "original_numba_ready": true,
+    "nopython_root_signatures": [
+      "(Array(uint64, 1, 'C', False, aligned=True), Array(int8, 1, 'C', False, aligned=True), Array(uint64, 1, 'C', False, aligned=True), Array(int32, 1, 'C', False, aligned=True), int64, int64, Array(uint64, 1, 'C', False, aligned=True), int64, int64, int64, int64, int64, int64, int64, Array(uint64, 2, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(uint64, 1, 'C', False, aligned=True), Array(int32, 1, 'C', False, aligned=True), Array(int16, 1, 'C', False, aligned=True), Array(uint8, 1, 'C', False, aligned=True), Array(uint8, 1, 'C', False, aligned=True), Array(int32, 1, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(int32, 2, 'C', False, aligned=True), Array(int64, 1, 'C', False, aligned=True), Array(int32, 1, 'C', False, aligned=True)) -> Tuple(int32, int64)"
+    ],
+    "perft": [
+      {
+        "name": "startpos",
+        "depth": 3,
+        "nodes": 8902,
+        "seconds": 0.001036694273352623
+      },
+      {
+        "name": "kiwipete",
+        "depth": 3,
+        "nodes": 97862,
+        "seconds": 0.00888085551559925
+      },
+      {
+        "name": "cpw3",
+        "depth": 3,
+        "nodes": 2812,
+        "seconds": 0.00044810958206653595
+      },
+      {
+        "name": "cpw4",
+        "depth": 3,
+        "nodes": 9467,
+        "seconds": 0.001077236607670784
+      },
+      {
+        "name": "cpw5",
+        "depth": 3,
+        "nodes": 62379,
+        "seconds": 0.00630098395049572
+      },
+      {
+        "name": "cpw6",
+        "depth": 3,
+        "nodes": 89890,
+        "seconds": 0.007496699690818787
+      }
+    ],
+    "deadline_probes": [
+      {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "hard_ms": 30,
+        "elapsed_ms": 4.21181321144104,
+        "move": "e2e4",
+        "info": {
+          "depth": 3,
+          "score": 43,
+          "nodes": 1405,
+          "elapsed_ms": 4.119353368878365,
+          "target_ms": 0.0,
+          "hard_ms": 30.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              263948,
+              46,
+              48,
+              0.04,
+              false
+            ],
+            [
+              2,
+              263948,
+              10,
+              129,
+              0.54,
+              false
+            ],
+            [
+              3,
+              263948,
+              43,
+              1228,
+              3.42,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "hard_ms": 100,
+        "elapsed_ms": 0.35979971289634705,
+        "move": "e2e4",
+        "info": {
+          "depth": 3,
+          "score": 43,
+          "nodes": 244,
+          "elapsed_ms": 0.3206878900527954,
+          "target_ms": 0.0,
+          "hard_ms": 100.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              263883,
+              45,
+              42,
+              0.04,
+              false
+            ],
+            [
+              2,
+              263948,
+              43,
+              66,
+              0.15,
+              false
+            ],
+            [
+              3,
+              263948,
+              43,
+              136,
+              0.06,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "hard_ms": 300,
+        "elapsed_ms": 0.20227022469043732,
+        "move": "e2e4",
+        "info": {
+          "depth": 3,
+          "score": 43,
+          "nodes": 243,
+          "elapsed_ms": 0.17009861767292023,
+          "target_ms": 0.0,
+          "hard_ms": 300.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              263883,
+              45,
+              42,
+              0.02,
+              false
+            ],
+            [
+              2,
+              263948,
+              43,
+              65,
+              0.03,
+              false
+            ],
+            [
+              3,
+              263948,
+              43,
+              136,
+              0.06,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1",
+        "hard_ms": 30,
+        "elapsed_ms": 10.357897728681564,
+        "move": "d5e6",
+        "info": {
+          "depth": 3,
+          "score": 24,
+          "nodes": 2391,
+          "elapsed_ms": 10.308356955647469,
+          "target_ms": 0.0,
+          "hard_ms": 30.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              35340,
+              95,
+              370,
+              2.5,
+              false
+            ],
+            [
+              2,
+              35340,
+              95,
+              303,
+              1.93,
+              false
+            ],
+            [
+              3,
+              35619,
+              24,
+              1718,
+              5.76,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1",
+        "hard_ms": 100,
+        "elapsed_ms": 0.23659691214561462,
+        "move": "d5e6",
+        "info": {
+          "depth": 3,
+          "score": 24,
+          "nodes": 219,
+          "elapsed_ms": 0.18960051238536835,
+          "target_ms": 0.0,
+          "hard_ms": 100.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              35619,
+              24,
+              108,
+              0.05,
+              false
+            ],
+            [
+              2,
+              35619,
+              24,
+              50,
+              0.03,
+              false
+            ],
+            [
+              3,
+              35619,
+              24,
+              61,
+              0.04,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1",
+        "hard_ms": 300,
+        "elapsed_ms": 0.21003000438213348,
+        "move": "d5e6",
+        "info": {
+          "depth": 3,
+          "score": 24,
+          "nodes": 219,
+          "elapsed_ms": 0.1774802803993225,
+          "target_ms": 0.0,
+          "hard_ms": 300.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              35619,
+              24,
+              108,
+              0.05,
+              false
+            ],
+            [
+              2,
+              35619,
+              24,
+              50,
+              0.03,
+              false
+            ],
+            [
+              3,
+              35619,
+              24,
+              61,
+              0.04,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "8/2p5/3p4/KP5r/1R3p1k/8/4P1P1/8 w - - 0 1",
+        "hard_ms": 30,
+        "elapsed_ms": 2.035120502114296,
+        "move": "b4f4",
+        "info": {
+          "depth": 3,
+          "score": 24,
+          "nodes": 1000,
+          "elapsed_ms": 2.0020436495542526,
+          "target_ms": 0.0,
+          "hard_ms": 30.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              1689,
+              4,
+              44,
+              0.1,
+              false
+            ],
+            [
+              2,
+              1689,
+              23,
+              213,
+              0.51,
+              false
+            ],
+            [
+              3,
+              34649,
+              24,
+              743,
+              1.33,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "8/2p5/3p4/KP5r/1R3p1k/8/4P1P1/8 w - - 0 1",
+        "hard_ms": 100,
+        "elapsed_ms": 0.12596137821674347,
+        "move": "b4f4",
+        "info": {
+          "depth": 3,
+          "score": 24,
+          "nodes": 59,
+          "elapsed_ms": 0.09172037243843079,
+          "target_ms": 0.0,
+          "hard_ms": 100.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              34649,
+              24,
+              28,
+              0.02,
+              false
+            ],
+            [
+              2,
+              34649,
+              24,
+              16,
+              0.01,
+              false
+            ],
+            [
+              3,
+              34649,
+              24,
+              15,
+              0.01,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "8/2p5/3p4/KP5r/1R3p1k/8/4P1P1/8 w - - 0 1",
+        "hard_ms": 300,
+        "elapsed_ms": 0.10769814252853394,
+        "move": "b4f4",
+        "info": {
+          "depth": 3,
+          "score": 24,
+          "nodes": 59,
+          "elapsed_ms": 0.08077174425125122,
+          "target_ms": 0.0,
+          "hard_ms": 300.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              34649,
+              24,
+              28,
+              0.02,
+              false
+            ],
+            [
+              2,
+              34649,
+              24,
+              16,
+              0.01,
+              false
+            ],
+            [
+              3,
+              34649,
+              24,
+              15,
+              0.01,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "4k3/8/8/3pP3/8/8/8/4K3 w - d6 0 1",
+        "hard_ms": 30,
+        "elapsed_ms": 0.4390347748994827,
+        "move": "e1d2",
+        "info": {
+          "depth": 3,
+          "score": 21,
+          "nodes": 250,
+          "elapsed_ms": 0.4085991531610489,
+          "target_ms": 0.0,
+          "hard_ms": 30.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              101092,
+              203,
+              16,
+              0.03,
+              false
+            ],
+            [
+              2,
+              101092,
+              132,
+              23,
+              0.06,
+              false
+            ],
+            [
+              3,
+              708,
+              21,
+              211,
+              0.27,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "4k3/8/8/3pP3/8/8/8/4K3 w - d6 0 1",
+        "hard_ms": 100,
+        "elapsed_ms": 0.1272205263376236,
+        "move": "e1d2",
+        "info": {
+          "depth": 3,
+          "score": 21,
+          "nodes": 48,
+          "elapsed_ms": 0.09873881936073303,
+          "target_ms": 0.0,
+          "hard_ms": 100.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              2852,
+              73,
+              14,
+              0.03,
+              false
+            ],
+            [
+              2,
+              708,
+              21,
+              16,
+              0.02,
+              false
+            ],
+            [
+              3,
+              708,
+              21,
+              18,
+              0.01,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "fen": "4k3/8/8/3pP3/8/8/8/4K3 w - d6 0 1",
+        "hard_ms": 300,
+        "elapsed_ms": 0.1706499606370926,
+        "move": "e1d2",
+        "info": {
+          "depth": 3,
+          "score": 21,
+          "nodes": 48,
+          "elapsed_ms": 0.12702122330665588,
+          "target_ms": 0.0,
+          "hard_ms": 300.0,
+          "aborted": false,
+          "trace": [
+            [
+              1,
+              2852,
+              73,
+              14,
+              0.02,
+              false
+            ],
+            [
+              2,
+              708,
+              21,
+              16,
+              0.02,
+              false
+            ],
+            [
+              3,
+              708,
+              21,
+              18,
+              0.02,
+              false
+            ]
+          ]
+        }
+      }
+    ],
+    "current_rules_and_history_probes": [
+      {
+        "fen": "7k/7p/8/8/8/8/P7/K7 b - - 0 300",
+        "move": "h7h6",
+        "score": 0
+      },
+      {
+        "fen": "8/8/8/8/8/k7/2q5/K7 b - - 0 300",
+        "move": "c2c1",
+        "score": 31999
+      },
+      {
+        "history_length": 500,
+        "move": "a1b2",
+        "elapsed_ms": 0.39806775748729706
+      },
+      {
+        "history_length": 620,
+        "move": "a1b2",
+        "elapsed_ms": 0.1957584172487259
+      },
+      {
+        "history_length": 750,
+        "move": "a1b2",
+        "elapsed_ms": 0.21034851670265198
+      },
+      {
+        "history_length": 900,
+        "move": "a1b2",
+        "elapsed_ms": 0.21078996360301971
+      }
+    ]
+  },
+  "structural_service": {
+    "role": "candidate",
+    "cpu": 0,
+    "unit": "chesstk-odin-gate-50ee46b4c75a43aeb117d86a1fbea7a5-structural.service",
+    "init_s": 32.73,
+    "move_count": 0,
+    "move_total_ms": 0,
+    "move_max_ms": 0,
+    "move_median_ms": 0,
+    "moves": [],
+    "memory_peak_bytes": 429694976,
+    "memory_samples": [
+      {
+        "RuntimeMaxUSec": "15min",
+        "MainPID": "3538831",
+        "Result": "success",
+        "ControlGroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/chesstk-odin-gate-50ee46b4c75a43aeb117d86a1fbea7a5-structural.service",
+        "MemoryCurrent": "429551616",
+        "MemoryPeak": "429694976",
+        "CPUQuotaPerSecUSec": "1s",
+        "MemoryMax": "2147483648",
+        "MemorySwapMax": "0",
+        "TasksMax": "128",
+        "LimitFSIZE": "268435456",
+        "CPUAffinity": "0",
+        "NoNewPrivileges": "yes",
+        "RestrictAddressFamilies": "AF_UNIX",
+        "LoadState": "loaded",
+        "ActiveState": "active",
+        "SubState": "running",
+        "query_returncode": 0,
+        "phase": "after_init"
+      },
+      {
+        "RuntimeMaxUSec": "15min",
+        "MainPID": "3538831",
+        "Result": "success",
+        "ControlGroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/chesstk-odin-gate-50ee46b4c75a43aeb117d86a1fbea7a5-structural.service",
+        "MemoryCurrent": "429551616",
+        "MemoryPeak": "429694976",
+        "CPUQuotaPerSecUSec": "1s",
+        "MemoryMax": "2147483648",
+        "MemorySwapMax": "0",
+        "TasksMax": "128",
+        "LimitFSIZE": "268435456",
+        "CPUAffinity": "0",
+        "NoNewPrivileges": "yes",
+        "RestrictAddressFamilies": "AF_UNIX",
+        "LoadState": "loaded",
+        "ActiveState": "active",
+        "SubState": "running",
+        "query_returncode": 0,
+        "phase": "before_stop"
+      }
+    ],
+    "envelope_errors": [],
+    "cleanup_error": null,
+    "search_telemetry": [],
+    "stderr_tail": ""
+  },
+  "structural_extraction_errors": [],
+  "protocol": {
+    "cold_agent_import_s": 34.64991390518844,
+    "moves": [
+      {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "time_left_ms": 100,
+        "move": "g1h3",
+        "elapsed_ms": 1.1026449501514435
+      },
+      {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "time_left_ms": 450,
+        "move": "g1h3",
+        "elapsed_ms": 0.6974209100008011
+      },
+      {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "time_left_ms": 1000,
+        "move": "e2e4",
+        "elapsed_ms": 471.90452739596367
+      },
+      {
+        "fen": "4k3/8/8/3pP3/8/8/8/4K3 w - d6 0 1",
+        "time_left_ms": 1000,
+        "move": "e1e2",
+        "elapsed_ms": 322.43390567600727
+      }
+    ]
+  },
+  "protocol_service": {
+    "role": "candidate",
+    "cpu": 0,
+    "unit": "chesstk-odin-gate-e0d2a280835e4169948b2c098ffcd667-protocol.service",
+    "init_s": 34.65,
+    "move_count": 4,
+    "move_total_ms": 796.116,
+    "move_max_ms": 471.898,
+    "move_median_ms": 161.762,
+    "moves": [
+      {
+        "request": 1,
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "time_left_ms": 100,
+        "ok": true,
+        "move": "g1h3",
+        "elapsed_ms": 1.097
+      },
+      {
+        "request": 2,
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "time_left_ms": 450,
+        "ok": true,
+        "move": "g1h3",
+        "elapsed_ms": 0.694
+      },
+      {
+        "request": 3,
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "time_left_ms": 1000,
+        "ok": true,
+        "move": "e2e4",
+        "elapsed_ms": 471.898
+      },
+      {
+        "request": 4,
+        "fen": "4k3/8/8/3pP3/8/8/8/4K3 w - d6 0 1",
+        "time_left_ms": 1000,
+        "ok": true,
+        "move": "e1e2",
+        "elapsed_ms": 322.427
+      }
+    ],
+    "memory_peak_bytes": 454537216,
+    "memory_samples": [
+      {
+        "RuntimeMaxUSec": "15min",
+        "MainPID": "3538890",
+        "Result": "success",
+        "ControlGroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/chesstk-odin-gate-e0d2a280835e4169948b2c098ffcd667-protocol.service",
+        "MemoryCurrent": "412557312",
+        "MemoryPeak": "412557312",
+        "CPUQuotaPerSecUSec": "1s",
+        "MemoryMax": "2147483648",
+        "MemorySwapMax": "0",
+        "TasksMax": "128",
+        "LimitFSIZE": "268435456",
+        "CPUAffinity": "0",
+        "NoNewPrivileges": "yes",
+        "RestrictAddressFamilies": "AF_UNIX",
+        "LoadState": "loaded",
+        "ActiveState": "active",
+        "SubState": "running",
+        "query_returncode": 0,
+        "phase": "after_init"
+      },
+      {
+        "RuntimeMaxUSec": "15min",
+        "MainPID": "3538890",
+        "Result": "success",
+        "ControlGroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/chesstk-odin-gate-e0d2a280835e4169948b2c098ffcd667-protocol.service",
+        "MemoryCurrent": "454283264",
+        "MemoryPeak": "454537216",
+        "CPUQuotaPerSecUSec": "1s",
+        "MemoryMax": "2147483648",
+        "MemorySwapMax": "0",
+        "TasksMax": "128",
+        "LimitFSIZE": "268435456",
+        "CPUAffinity": "0",
+        "NoNewPrivileges": "yes",
+        "RestrictAddressFamilies": "AF_UNIX",
+        "LoadState": "loaded",
+        "ActiveState": "active",
+        "SubState": "running",
+        "query_returncode": 0,
+        "phase": "before_stop"
+      }
+    ],
+    "envelope_errors": [],
+    "cleanup_error": null,
+    "search_telemetry": [
+      {
+        "game_ply": 0,
+        "depth": 10,
+        "nodes": 393043,
+        "score": 24,
+        "elapsed_ms": 470,
+        "target_ms": 340
+      },
+      {
+        "game_ply": 0,
+        "depth": 31,
+        "nodes": 429487,
+        "score": 0,
+        "elapsed_ms": 321,
+        "target_ms": 278
+      }
+    ],
+    "stderr_tail": "S4 p0 d10 n393043 s24 t470 b340\nS4 p0 d31 n429487 s0 t321 b278\n"
+  },
+  "protocol_extraction_errors": []
+}

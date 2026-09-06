@@ -1,0 +1,38 @@
+{
+  "pass_all": true,
+  "variants": [
+    {
+      "variant": "baseline",
+      "probes": 16,
+      "source_verified": true
+    },
+    {
+      "variant": "cap1600",
+      "probes": 16,
+      "source_verified": true
+    },
+    {
+      "variant": "pressure8",
+      "probes": 16,
+      "source_verified": true
+    },
+    {
+      "variant": "pawn_threat",
+      "probes": 16,
+      "source_verified": true
+    },
+    {
+      "variant": "pawn_lmr",
+      "probes": 16,
+      "source_verified": true
+    },
+    {
+      "variant": "pawn_ff",
+      "probes": 16,
+      "source_verified": true
+    }
+  ],
+  "frozen_linux_deep_driver_verified": true,
+  "desktop_archive_unchanged": "0ed607e21235046d239c05d5bcb735e48b919e3d6d83cd74fe543c134addf6e4",
+  "scope": "Source/isolation/completeness audit, not strength inference. Early evolving lab driver file-hash caveat documented in report."
+}

@@ -1,0 +1,8 @@
+{
+  "pass": true,
+  "positions": 5867,
+  "captures": 12980,
+  "safely_skipped_see": 3522,
+  "backrank_cases_retained": 867,
+  "source_sha256": "fd408eb2257ce8c22944000bdf96f64dc04318415b4855341ecfd2b0940b5799"
+}

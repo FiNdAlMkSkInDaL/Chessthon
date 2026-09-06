@@ -1,0 +1,31 @@
+{
+  "entries": {
+    "native/tables_guard/incoming.zip": "1ca3daeede048a9290691134b25cdae78ee8674ef3ff4505f24e6ab9b4780581",
+    "native/tables_guard/source-manifest.json": "760fe519d28d2447b28384c6fd9d6eb0c8c15a42066473fb2d250100ed489190",
+    "native/capture_tables/incoming.zip": "e94fb1e30407bcaaabfd7263ae9ec34c460884091f014fee27f87ba70e46660c",
+    "native/capture_tables/source-manifest.json": "e233b1cf3decbeface92232fadcca06835d8d0d524f01cadc93698c078b7fd3a",
+    "lab/laptop_match.py": "bdaa949ee65c13cd586bfc17537818fdb3e389e3acf40b8a694e35217b58f7e8",
+    "lab/laptop_runner.py": "57f3c62d7a5070436ebbb056c65e7394d292b692309a263139298767a5e7c61e",
+    "lab/release_audit.py": "ecfd901d3868dc6e293172051aa83d64fe658486e40f1b16b31cf4d0e8b838c2",
+    "lab/paired_match_stats.py": "8ce432d0d23404af5d8b0c5785bc2fca8f976e8fc601b38c5828672b90e257ef",
+    "lab/perft.py": "5ae7cc45621f407411bcaa102a86308b5c047c27e409d4434fdbc4056beb3d62",
+    "lab/odin/release/__init__.py": "ce0d096b9e92af62ed592c2a3e37082c2f26891d27ba34e85edaf50174158f8e",
+    "lab/odin/release/linux_match.py": "d2cfce7f2de709e25e3899c91aad1420e2313e1191811b76451d83152baf60ca",
+    "lab/odin/release/plan.py": "f64a5730257a394c5889e6d0a93e4936f3ab5eb760b79f40097739487c331d7a",
+    "lab/odin/release/validate_match.py": "53c7bcbc6810302188a0f7046ed4ae48d163c35d4a7e6ee91403485e9cee6531",
+    "lab/tempest_build/official-284724ab/harness/arena.py": "7b5f4f5cf006613c54841c8d6a129421ae6c3e3065c4a7c3a2b3c468f0f2e2e1",
+    "lab/tempest_build/official-284724ab/harness/package.py": "ef8d24ede4ddae85171d1859ab80a97def6cae2fedc743357ea59f0f9eafe5f0",
+    "lab/tempest_build/official-284724ab/harness/play.py": "5a2e443603092d2770918ed8fc3836c7edc1d01cbc8a91bf8c9752aacb4d313c",
+    "lab/tempest_build/official-284724ab/harness/referee.py": "9a99a885ae3926522138788ef9f7526d1873a474826177076005fec51129b509",
+    "lab/tempest_build/official-284724ab/harness/rules.py": "72737d2ec7e524e72873127c43fe9cd356e9dac2337ce84d14ca9abd35061710",
+    "lab/tempest_build/official-284724ab/harness/runner.py": "da81957fd55536691e635f44e7fe1fc3666712cdd2266a2214eb3943034c2501",
+    "lab/tempest_build/official-284724ab/harness/sandbox.py": "a972d6f9e64fc7ee2dda55fee37aba0989d84aec4d5c5e3dbddff20bb7457c55",
+    "lab/tempest_build/official-284724ab/harness/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "lab/odin/release/native_gate.py": "6bafa993237b25d0db961d5d6f00d98ec43938cb40d4734e9d70945215b1607e",
+    "lab/tempest_edges/pack_linux.py": "ad5b36816ffe86d9b400e314f451536f20fdb06cbccdcfde6c3cfcc98a84f342",
+    "baseline-tempest-r1.zip": "0ed607e21235046d239c05d5bcb735e48b919e3d6d83cd74fe543c134addf6e4",
+    "development.fen": "0ac8e4afff0f96b9185c496c492e84a1e36817e1a2d8370c4f8e96a4192ef4e7"
+  },
+  "transport_sha256": "7b0f59dd5d5eb7e873f64e7390f177ea93f99346de2f91594c4dbf906c1ffc61",
+  "scope": "Transport only; no release promotion. Untouched current referee and runner included; isolated gate adds table/panic protocol cases."
+}

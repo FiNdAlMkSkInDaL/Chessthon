@@ -1,0 +1,32 @@
+{
+  "scope": "Supplemental SEE/EP/all-root/warmup checks",
+  "cases": [
+    {
+      "see": "g1g7",
+      "expected": 100
+    },
+    {
+      "see": "c5d6",
+      "expected": 100
+    },
+    {
+      "see": "e5d6",
+      "expected": 100
+    },
+    {
+      "ep": "4k3/8/8/3pP3/8/8/8/4K3 w - d6 0 1",
+      "legal": true
+    },
+    {
+      "ep": "4k3/8/8/r4pPK/8/8/8/8 w - f6 0 1",
+      "legal": false
+    },
+    {
+      "ep": "4k3/8/8/3p4/8/8/8/4K3 w - d6 0 1",
+      "legal": false
+    }
+  ],
+  "cold_s": 99.0907006999987,
+  "first_live_ms": 174.54220000036003,
+  "verdict": "PASS"
+}

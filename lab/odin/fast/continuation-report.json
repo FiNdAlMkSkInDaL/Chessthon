@@ -1,0 +1,26 @@
+{
+  "complete": true,
+  "exploratory_only": true,
+  "ranking": [
+    "continuation"
+  ],
+  "candidates": [
+    {
+      "name": "continuation",
+      "complete": true,
+      "games": 18,
+      "wins": 5,
+      "draws": 7,
+      "losses": 6,
+      "points": 8.5,
+      "score": 0.4722222222222222,
+      "replayed_plies": 2069,
+      "errors": [],
+      "parameters": 1,
+      "source": "odin_continuation",
+      "lane": "windows-continuation",
+      "seconds": 374.67199999999866,
+      "log_sha256": "8fcc8ab17bd67c298cc82b9017eda3a6cbb73c0ae0996ad78a797ac33ee2974d"
+    }
+  ]
+}

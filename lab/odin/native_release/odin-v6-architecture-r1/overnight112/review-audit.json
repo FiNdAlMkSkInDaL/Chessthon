@@ -1,0 +1,73 @@
+{
+  "verdict": "PASS",
+  "evidence_valid": true,
+  "failure_reasons": [],
+  "plan_sha256": "929bb3249d938ebf0435668f206be00e220e55a4e6e5b47056c90ad7c891debe",
+  "suite": "primary",
+  "candidate_sha256": "cd3ed778f75ded38dd4371a56c285f6f66c1311464a093707d473d8a9d0c8647",
+  "baseline_sha256": "c7d8972e823eb821c016010445d4b02996daff954d870d63083c445850e21102",
+  "games_replayed": 112,
+  "plies_replayed": 14743,
+  "statistics": {
+    "verdict": "PASS",
+    "reasons": [],
+    "validation_errors": [],
+    "game_rows": 112,
+    "pair_groups": 56,
+    "complete_pairs": 56,
+    "included_pairs": 56,
+    "excluded_failure_pairs": 0,
+    "wins": 30,
+    "draws": 69,
+    "losses": 13,
+    "score": 0.5758928571428571,
+    "pentanomial": {
+      "LL": 1,
+      "LD": 7,
+      "DD": 25,
+      "WD": 20,
+      "WW": 3
+    },
+    "bootstrap": {
+      "method": "paired percentile bootstrap",
+      "samples": 20000,
+      "seed": 20260904,
+      "confidence": 0.95,
+      "standard_error": 0.027486978414008892,
+      "score_ci": [
+        0.5223214285714286,
+        0.6294642857142857
+      ]
+    },
+    "elo": {
+      "estimate": 53.146442004160455,
+      "ci": [
+        15.52083362438084,
+        92.05640811172239
+      ]
+    },
+    "candidate_failures": {},
+    "opponent_failures": {},
+    "identities": {
+      "candidate": [
+        "cd3ed778f75ded38dd4371a56c285f6f66c1311464a093707d473d8a9d0c8647"
+      ],
+      "opponent": [
+        "c7d8972e823eb821c016010445d4b02996daff954d870d63083c445850e21102"
+      ]
+    },
+    "gate": {
+      "threshold": 0.5,
+      "min_pairs": 56,
+      "criterion": "paired_ci_lower"
+    }
+  },
+  "clock_recurrence_residual_ms": {
+    "min": -0.9589999999998327,
+    "max": 2.051999999996042
+  },
+  "log_sha256": {
+    "primary-a.jsonl": "b62c451d4e0e5f3a8cc83efa3a1f5683a4da5f14e13cafc6a86b8b775328ca7c",
+    "primary-b.jsonl": "95c862819c61909f87821a57d3ef65f8a557212c8eeb32c4a492795a35b4a025"
+  }
+}

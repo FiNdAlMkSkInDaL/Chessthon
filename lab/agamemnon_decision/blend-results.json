@@ -1,0 +1,135 @@
+{
+  "complete": true,
+  "selected_for_direct_match": null,
+  "results": {
+    "blend15": {
+      "nodes": {
+        "clipped_mean": 20.845454545454544,
+        "gain_vs_repeated25": -2.381818181818182,
+        "bad_200": 1,
+        "paired_bootstrap95": [
+          -7.94590909090909,
+          2.782045454545451
+        ]
+      },
+      "wall": {
+        "clipped_mean": 21.545454545454547,
+        "gain_vs_repeated25": -6.281818181818182,
+        "bad_200": 1,
+        "paired_bootstrap95": [
+          -13.2,
+          0.031818181818181815
+        ]
+      },
+      "eligible": false
+    },
+    "blend20": {
+      "nodes": {
+        "clipped_mean": 20.918181818181818,
+        "gain_vs_repeated25": -2.4545454545454546,
+        "bad_200": 1,
+        "paired_bootstrap95": [
+          -6.327272727272727,
+          1.5636363636363637
+        ]
+      },
+      "wall": {
+        "clipped_mean": 19.354545454545455,
+        "gain_vs_repeated25": -4.090909090909091,
+        "bad_200": 0,
+        "paired_bootstrap95": [
+          -9.27284090909091,
+          1.2819318181818165
+        ]
+      },
+      "eligible": false
+    },
+    "blend25a": {
+      "nodes": {
+        "clipped_mean": 18.463636363636365,
+        "gain_vs_repeated25": 0.0,
+        "bad_200": 1,
+        "paired_bootstrap95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wall": {
+        "clipped_mean": 15.172727272727272,
+        "gain_vs_repeated25": 0.09090909090909091,
+        "bad_200": 0,
+        "paired_bootstrap95": [
+          -0.2318181818181818,
+          0.5181818181818182
+        ]
+      },
+      "eligible": false
+    },
+    "blend25b": {
+      "nodes": {
+        "clipped_mean": 18.463636363636365,
+        "gain_vs_repeated25": 0.0,
+        "bad_200": 1,
+        "paired_bootstrap95": [
+          0.0,
+          0.0
+        ]
+      },
+      "wall": {
+        "clipped_mean": 15.354545454545455,
+        "gain_vs_repeated25": -0.09090909090909091,
+        "bad_200": 0,
+        "paired_bootstrap95": [
+          -0.5181818181818182,
+          0.2318181818181818
+        ]
+      },
+      "eligible": false
+    },
+    "blend30": {
+      "nodes": {
+        "clipped_mean": 22.672727272727272,
+        "gain_vs_repeated25": -4.209090909090909,
+        "bad_200": 1,
+        "paired_bootstrap95": [
+          -10.945454545454545,
+          1.8272727272727274
+        ]
+      },
+      "wall": {
+        "clipped_mean": 20.054545454545455,
+        "gain_vs_repeated25": -4.790909090909091,
+        "bad_200": 1,
+        "paired_bootstrap95": [
+          -11.459090909090909,
+          1.186477272727271
+        ]
+      },
+      "eligible": false
+    },
+    "blend35": {
+      "nodes": {
+        "clipped_mean": 23.7,
+        "gain_vs_repeated25": -5.236363636363636,
+        "bad_200": 2,
+        "paired_bootstrap95": [
+          -11.763636363636364,
+          0.6729545454545421
+        ]
+      },
+      "wall": {
+        "clipped_mean": 21.30909090909091,
+        "gain_vs_repeated25": -6.045454545454546,
+        "bad_200": 1,
+        "paired_bootstrap95": [
+          -12.209090909090909,
+          -0.35
+        ]
+      },
+      "eligible": false
+    }
+  },
+  "repeated25_fixed_node_identical": true,
+  "repeated25_wall_move_disagreements": 3,
+  "scope": "Predeclared local sweep on reused110 roots. Root-paired intervals unadjusted for selection; equal allowances, not equal elapsed time. Direct paired games and independent confirmation required; no global optimum claim."
+}

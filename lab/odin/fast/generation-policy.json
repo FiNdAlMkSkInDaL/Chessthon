@@ -1,0 +1,363 @@
+{
+  "generation": [
+    {
+      "name": "guards",
+      "source": "odin_generation/guards",
+      "config": {
+        "guards": true
+      },
+      "lane": "linux-a",
+      "hashes": {
+        "agent.py": "8cb0192986575b729c5c88ed3d8b66e7140dd8605aad35577ed3f34d67f3346f",
+        "bitops_nb.py": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+        "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+        "core_nb.py": "47b1744ab9bf7a41006d43297482407df45e5a9bf61834cd1c6248eb92fcec40",
+        "eval_nb.py": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f",
+        "history.py": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e",
+        "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+        "search_nb.py": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6",
+        "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+        "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+        "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+        "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+      }
+    },
+    {
+      "name": "lmr_cautious",
+      "source": "odin_generation/lmr_cautious",
+      "config": {
+        "replace": {
+          "0.75 + np.log(_depth) * np.log(_move_number) / 2.25": "0.50 + np.log(_depth) * np.log(_move_number) / 2.75"
+        }
+      },
+      "lane": "linux-b",
+      "hashes": {
+        "agent.py": "ab6093d7bf027a7fc1269549dafe34434c8da4fa93a00a69bf0afe18cefbea9b",
+        "bitops_nb.py": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+        "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+        "core_nb.py": "0686dad25f6f745e6b388d83154e6e4f8ba18b36eaa5ede4f1ac53ce7de46ab2",
+        "eval_nb.py": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f",
+        "history.py": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e",
+        "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+        "search_nb.py": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6",
+        "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+        "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+        "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+        "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+      }
+    },
+    {
+      "name": "lmr_fast",
+      "source": "odin_generation/lmr_fast",
+      "config": {
+        "replace": {
+          "0.75 + np.log(_depth) * np.log(_move_number) / 2.25": "0.85 + np.log(_depth) * np.log(_move_number) / 1.95"
+        }
+      },
+      "lane": "linux-a",
+      "hashes": {
+        "agent.py": "24c498933a9314e08f10bbb0b6a9a09b1ac6fcc3f2a6a46f12798b11e85e89a5",
+        "bitops_nb.py": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+        "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+        "core_nb.py": "4f0ccc88699f05dee4b0cd5951e2fa621949145af18d0bc6997edd349177eec6",
+        "eval_nb.py": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f",
+        "history.py": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e",
+        "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+        "search_nb.py": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6",
+        "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+        "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+        "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+        "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+      }
+    },
+    {
+      "name": "history_lmr",
+      "source": "odin_generation/history_lmr",
+      "config": {
+        "replace": {
+          "    if history_score > 4000:\n        reduction -= 1\n    elif history_score < -4000:\n        reduction += 1": "    reduction -= max(-2, min(2, history_score // 5000))"
+        }
+      },
+      "lane": "linux-b",
+      "hashes": {
+        "agent.py": "945671c04a1daec90dbe11ab1348fab113f03e8f5ffb8a34f8b5e26ecea74fd4",
+        "bitops_nb.py": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+        "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+        "core_nb.py": "d85da4bd7b0d4f38aa296be23e432bb0a99909f25bd779836e46fed6f6b580ab",
+        "eval_nb.py": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f",
+        "history.py": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e",
+        "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+        "search_nb.py": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6",
+        "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+        "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+        "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+        "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+      }
+    },
+    {
+      "name": "tactical",
+      "source": "odin_generation/tactical",
+      "config": {
+        "constants": {
+          "RFP_MAX_D": 4,
+          "RFP_MARGIN": 110,
+          "SEE_PRUNE_MAX_D": 4,
+          "SEE_PRUNE_MARGIN": 110
+        }
+      },
+      "lane": "linux-a",
+      "hashes": {
+        "agent.py": "981ecd95e883b7c91a051fd0b01a45ad4d2ab5c2c3142c718eb8f800fb07a57b",
+        "bitops_nb.py": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+        "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+        "core_nb.py": "a10876119854049a835f3a7a3b417346e14e158194471507c9714fed90782af3",
+        "eval_nb.py": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f",
+        "history.py": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e",
+        "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+        "search_nb.py": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6",
+        "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+        "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+        "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+        "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+      }
+    },
+    {
+      "name": "pawn_futility",
+      "source": "odin_generation/pawn_futility",
+      "config": {
+        "futility": true
+      },
+      "lane": "linux-b",
+      "hashes": {
+        "agent.py": "22d8c900ac25f6096565ff941245d1296731d5a84fb61e5e1ed8f816630bd49f",
+        "bitops_nb.py": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+        "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+        "core_nb.py": "deb8f8415af248ebf5c99ea2d049de16d0e4f0a2ca579eae7d610fdc1edc5186",
+        "eval_nb.py": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f",
+        "history.py": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e",
+        "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+        "search_nb.py": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6",
+        "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+        "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+        "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+        "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+      }
+    },
+    {
+      "name": "null_cautious",
+      "source": "odin_generation/null_cautious",
+      "config": {
+        "replace": {
+          "r = 2 + depth // 5 + min(2, (static_eval - beta) // 200)": "r = 2 + depth // 6 + min(1, (static_eval - beta) // 300)"
+        }
+      },
+      "lane": "linux-a",
+      "hashes": {
+        "agent.py": "45a988f96ea0ed932cc5961689d4eb368561ca7c4fcccb9f2eb856c6c9ff5bba",
+        "bitops_nb.py": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+        "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+        "core_nb.py": "13b0e62c69073080f16112dc05050de86e58ff6c65276d90cf6f230280cb943f",
+        "eval_nb.py": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f",
+        "history.py": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e",
+        "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+        "search_nb.py": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6",
+        "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+        "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+        "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+        "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+      }
+    },
+    {
+      "name": "iir_late",
+      "source": "odin_generation/iir_late",
+      "config": {
+        "constants": {
+          "IIR_MIN_D": 6
+        }
+      },
+      "lane": "linux-b",
+      "hashes": {
+        "agent.py": "12aa91f2a0e47295e6454369cbd539ca8d5fa7b563c194056ce5351116bfc9c6",
+        "bitops_nb.py": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+        "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+        "core_nb.py": "f27d2e0d1ec82cd27a9944818f42aa5a17f55aba8a1f937bbafd0816ffa17c86",
+        "eval_nb.py": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f",
+        "history.py": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e",
+        "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+        "search_nb.py": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6",
+        "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+        "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+        "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+        "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+      }
+    },
+    {
+      "name": "iir_off",
+      "source": "odin_generation/iir_off",
+      "config": {
+        "constants": {
+          "IIR_MIN_D": 65
+        }
+      },
+      "lane": "linux-a",
+      "hashes": {
+        "agent.py": "b3e4ed5ff301a7cb66731a097bb7deff5e508455b9effa88d2b6ac026fd824b7",
+        "bitops_nb.py": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+        "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+        "core_nb.py": "f15df8d722077a2c3869a164313bc823c1003463f78e64f53680a79f053ae12a",
+        "eval_nb.py": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f",
+        "history.py": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e",
+        "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+        "search_nb.py": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6",
+        "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+        "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+        "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+        "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+      }
+    },
+    {
+      "name": "positional_gain",
+      "source": "odin_generation/positional_gain",
+      "config": {
+        "replace": {
+          "return max(-400,min(400,score))": "return max(-500,min(500,score * 5 // 4))"
+        }
+      },
+      "lane": "linux-b",
+      "hashes": {
+        "agent.py": "dbbfdb9cbe8366d6cef1e372f05d9c9d9ac403fd7d67fc2b4e71809aa335d344",
+        "bitops_nb.py": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+        "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+        "core_nb.py": "2db0a304323aff1d4fe13616dd680c1c89cb77d4b4fed7c8a54172b9809a75bd",
+        "eval_nb.py": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f",
+        "history.py": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e",
+        "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+        "search_nb.py": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6",
+        "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+        "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+        "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+        "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+      }
+    },
+    {
+      "name": "king_safety",
+      "source": "odin_generation/king_safety",
+      "config": {
+        "mg": {
+          "9": 12,
+          "10": -80,
+          "16": 4
+        }
+      },
+      "lane": "linux-a",
+      "hashes": {
+        "agent.py": "a189ae372cdc84e1d1013666c91975e4ec97b76c219e968b824f38ae1b930b94",
+        "bitops_nb.py": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+        "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+        "core_nb.py": "bf5d710c8a7976bd768d35e8c49b6f9d2ce42102a2884a953aef5090c696186f",
+        "eval_nb.py": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f",
+        "history.py": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e",
+        "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+        "search_nb.py": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6",
+        "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+        "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+        "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+        "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+      }
+    },
+    {
+      "name": "passers",
+      "source": "odin_generation/passers",
+      "config": {
+        "futility": true,
+        "eg": {
+          "3": 12,
+          "5": -8,
+          "6": 8,
+          "17": 7
+        }
+      },
+      "lane": "linux-b",
+      "hashes": {
+        "agent.py": "fc14f9860ff0d0c42de92f765a4582643c06d1dfd735be5736a1273c33483613",
+        "bitops_nb.py": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+        "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+        "core_nb.py": "1eaba2dcc39734dae7f58117a5c5f603f2b44121f0d3ad87e7afa62269da6231",
+        "eval_nb.py": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f",
+        "history.py": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e",
+        "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+        "search_nb.py": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6",
+        "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+        "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+        "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+        "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+      }
+    },
+    {
+      "name": "see_order",
+      "source": "odin_generation/see_order",
+      "config": {
+        "see_order": true
+      },
+      "lane": "windows-a",
+      "hashes": {
+        "agent.py": "a28f926e2b7aaee8211f220111dc3f2f493eaccbf3d2e23e5cfcacded21f906e",
+        "bitops_nb.py": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+        "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+        "core_nb.py": "305ee9b19daef0c75989f6eb00b6afa1b59ae16f195559182c10a1af2e441819",
+        "eval_nb.py": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f",
+        "history.py": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e",
+        "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+        "search_nb.py": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6",
+        "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+        "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+        "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+        "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+      }
+    },
+    {
+      "name": "mobility",
+      "source": "odin_generation/mobility",
+      "config": {
+        "mg": {
+          "12": 3,
+          "13": 6,
+          "14": 2,
+          "15": 1
+        },
+        "eg": {
+          "12": 4,
+          "13": 7,
+          "14": 5
+        }
+      },
+      "lane": "windows-b",
+      "hashes": {
+        "agent.py": "3c25db19ba28860a1e14d3c7cf34819d20e07ce978b465effb45e55fa8a1a8ff",
+        "bitops_nb.py": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e",
+        "board_nb.py": "bc5adf18df54970edc3f87ee9068b454a41b22496394990351259dce14019f8d",
+        "core_nb.py": "60e93532f70e094fe0b810bd5f75e0d167d3e7249ab3b137df0a09bbf9b06636",
+        "eval_nb.py": "cdc0456bb5c4b5d5ea6941f2f8df7b1b0877c008308cbf0ff760414efe00b71f",
+        "history.py": "434c74685ed04710a6596d4a0ae96b4c9a3990034164d5599fcb70e20798715e",
+        "movegen_nb.py": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c",
+        "search_nb.py": "53badc6c2046adc238ecdd24d4c38edea9d9ef2ba3cbf546b510dc46fafbf5d6",
+        "storm_clock.py": "6fc1701a931778810bd32c3bd6709c62fc8788f8f137c951487aefded6ec29d8",
+        "tables_nb.py": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007",
+        "time_nb.py": "c1184ac360f87ba811be2aa872037ebc36e0a49753d01c286636287192ef5ed8",
+        "tt_nb.py": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+      }
+    }
+  ],
+  "baseline": "odin_submission",
+  "stage1": {
+    "pairs": 9,
+    "nodes": 20000,
+    "complete_all": true
+  },
+  "stage2": {
+    "pairs": 24,
+    "nodes": 100000,
+    "candidates": "Top3 by stage1 paired points. Ties prefer fewer altered parameters; no selection based on unfinished games. Stage2 uses fresh families; include a combined candidate only after independent component gains and declare it before stage2 starts."
+  },
+  "selection": "Exploratory population ranking only. Rank finalists by complete stage2 points vs released Odin. Winner must score above50% with zero faults and pass exact-source native gate before112 untouched full-clock games. No guarantee of a large improvement; no parameter or candidate changes after overnight freeze."
+}

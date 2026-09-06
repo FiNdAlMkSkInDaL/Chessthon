@@ -1,0 +1,285 @@
+{
+  "source_reports": [
+    "diagnostic_comparison_v3.json",
+    "diagnostic_comparison_storm_r2.json"
+  ],
+  "both_sources_unchanged": true,
+  "results": [
+    {
+      "id": "r12-before16-Nxd6",
+      "budget_ms": 3000,
+      "label_status": "historical site review preference",
+      "review_preferred_san": "Nxc5",
+      "v3": {
+        "move": "e4d6",
+        "san": "Nxd6",
+        "completed_depth": 8,
+        "score": 14,
+        "nodes": 476539,
+        "elapsed_ms": 3953.655399993295,
+        "matches_review_preference": false
+      },
+      "storm_r2": {
+        "move": "e4d6",
+        "san": "Nxd6",
+        "completed_depth": 10,
+        "score": 1,
+        "nodes": 279636,
+        "elapsed_ms": 1986.266300023999,
+        "matches_review_preference": false
+      },
+      "same_move": true
+    },
+    {
+      "id": "r12-before24-Rh3",
+      "budget_ms": 3000,
+      "label_status": "historical site review preference",
+      "review_preferred_san": "Rb3",
+      "v3": {
+        "move": "d1c2",
+        "san": "Kc2",
+        "completed_depth": 8,
+        "score": -85,
+        "nodes": 247816,
+        "elapsed_ms": 2803.0522000044584,
+        "matches_review_preference": false
+      },
+      "storm_r2": {
+        "move": "h1h3",
+        "san": "Rh3",
+        "completed_depth": 11,
+        "score": -132,
+        "nodes": 415744,
+        "elapsed_ms": 3006.017999985488,
+        "matches_review_preference": false
+      },
+      "same_move": false
+    },
+    {
+      "id": "r13-before15-Bb7",
+      "budget_ms": 3000,
+      "label_status": "unlabelled divergence diagnostic",
+      "review_preferred_san": null,
+      "v3": {
+        "move": "c8b7",
+        "san": "Bb7",
+        "completed_depth": 7,
+        "score": 246,
+        "nodes": 288210,
+        "elapsed_ms": 2830.3395999828354,
+        "matches_review_preference": null
+      },
+      "storm_r2": {
+        "move": "a8b8",
+        "san": "Rb8",
+        "completed_depth": 10,
+        "score": 240,
+        "nodes": 332678,
+        "elapsed_ms": 2203.4123999765143,
+        "matches_review_preference": null
+      },
+      "same_move": false
+    },
+    {
+      "id": "r13-before17-hxg6",
+      "budget_ms": 3000,
+      "label_status": "unlabelled divergence diagnostic",
+      "review_preferred_san": null,
+      "v3": {
+        "move": "h7g6",
+        "san": "hxg6",
+        "completed_depth": 8,
+        "score": 293,
+        "nodes": 229590,
+        "elapsed_ms": 2344.197099999292,
+        "matches_review_preference": null
+      },
+      "storm_r2": {
+        "move": "h7g6",
+        "san": "hxg6",
+        "completed_depth": 10,
+        "score": 281,
+        "nodes": 241179,
+        "elapsed_ms": 2246.300400001928,
+        "matches_review_preference": null
+      },
+      "same_move": true
+    },
+    {
+      "id": "r13-before19-Ba6",
+      "budget_ms": 3000,
+      "label_status": "unlabelled divergence diagnostic",
+      "review_preferred_san": null,
+      "v3": {
+        "move": "e8d8",
+        "san": "Rd8",
+        "completed_depth": 6,
+        "score": 322,
+        "nodes": 271019,
+        "elapsed_ms": 2881.6269999952056,
+        "matches_review_preference": null
+      },
+      "storm_r2": {
+        "move": "g3d6",
+        "san": "Bd6",
+        "completed_depth": 7,
+        "score": 312,
+        "nodes": 139337,
+        "elapsed_ms": 1262.609400000656,
+        "matches_review_preference": null
+      },
+      "same_move": false
+    },
+    {
+      "id": "r13-before26-Rxe1",
+      "budget_ms": 3000,
+      "label_status": "unlabelled divergence diagnostic",
+      "review_preferred_san": null,
+      "v3": {
+        "move": "e6e1",
+        "san": "Rxe1+",
+        "completed_depth": 7,
+        "score": -185,
+        "nodes": 318705,
+        "elapsed_ms": 2949.6578999969643,
+        "matches_review_preference": null
+      },
+      "storm_r2": {
+        "move": "e6e1",
+        "san": "Rxe1+",
+        "completed_depth": 10,
+        "score": -212,
+        "nodes": 664576,
+        "elapsed_ms": 3004.0835000108927,
+        "matches_review_preference": null
+      },
+      "same_move": true
+    },
+    {
+      "id": "r13-before31-Kg8",
+      "budget_ms": 3000,
+      "label_status": "unlabelled divergence diagnostic",
+      "review_preferred_san": null,
+      "v3": {
+        "move": "c7b6",
+        "san": "Bb6",
+        "completed_depth": 7,
+        "score": -198,
+        "nodes": 294955,
+        "elapsed_ms": 2947.8009000013117,
+        "matches_review_preference": null
+      },
+      "storm_r2": {
+        "move": "c7b6",
+        "san": "Bb6",
+        "completed_depth": 10,
+        "score": -189,
+        "nodes": 527360,
+        "elapsed_ms": 3001.352899998892,
+        "matches_review_preference": null
+      },
+      "same_move": true
+    },
+    {
+      "id": "r04-before13-Qd8",
+      "budget_ms": 3000,
+      "label_status": "unlabelled divergence diagnostic",
+      "review_preferred_san": null,
+      "v3": {
+        "move": "a8d8",
+        "san": "Qd8",
+        "completed_depth": 9,
+        "score": 101,
+        "nodes": 338550,
+        "elapsed_ms": 2822.8137000114657,
+        "matches_review_preference": null
+      },
+      "storm_r2": {
+        "move": "a8d8",
+        "san": "Qd8",
+        "completed_depth": 13,
+        "score": 104,
+        "nodes": 338436,
+        "elapsed_ms": 2147.296400013147,
+        "matches_review_preference": null
+      },
+      "same_move": true
+    },
+    {
+      "id": "r12-before16-Nxd6",
+      "budget_ms": 9000,
+      "label_status": "historical site review preference",
+      "review_preferred_san": "Nxc5",
+      "v3": {
+        "move": "e4d6",
+        "san": "Nxd6",
+        "completed_depth": 9,
+        "score": 14,
+        "nodes": 845206,
+        "elapsed_ms": 8774.586899991846,
+        "matches_review_preference": false
+      },
+      "storm_r2": {
+        "move": "e4d6",
+        "san": "Nxd6",
+        "completed_depth": 11,
+        "score": 1,
+        "nodes": 1031168,
+        "elapsed_ms": 9016.61150000291,
+        "matches_review_preference": false
+      },
+      "same_move": true
+    },
+    {
+      "id": "r12-before24-Rh3",
+      "budget_ms": 9000,
+      "label_status": "historical site review preference",
+      "review_preferred_san": "Rb3",
+      "v3": {
+        "move": "d1c2",
+        "san": "Kc2",
+        "completed_depth": 9,
+        "score": -93,
+        "nodes": 842058,
+        "elapsed_ms": 8608.073399984278,
+        "matches_review_preference": false
+      },
+      "storm_r2": {
+        "move": "h1h3",
+        "san": "Rh3",
+        "completed_depth": 12,
+        "score": -125,
+        "nodes": 1143808,
+        "elapsed_ms": 9007.131999998819,
+        "matches_review_preference": false
+      },
+      "same_move": false
+    },
+    {
+      "id": "r04-before13-Qd8",
+      "budget_ms": 9000,
+      "label_status": "unlabelled divergence diagnostic",
+      "review_preferred_san": null,
+      "v3": {
+        "move": "a8d8",
+        "san": "Qd8",
+        "completed_depth": 11,
+        "score": 111,
+        "nodes": 1169956,
+        "elapsed_ms": 8849.668599985307,
+        "matches_review_preference": null
+      },
+      "storm_r2": {
+        "move": "a8d8",
+        "san": "Qd8",
+        "completed_depth": 16,
+        "score": 109,
+        "nodes": 1081357,
+        "elapsed_ms": 6900.311000004876,
+        "matches_review_preference": null
+      },
+      "same_move": true
+    }
+  ],
+  "conclusion": "Neither engine found either historical R12 preference at 3s or 9s. Storm returns to documented 24.Rh3 while v3 chooses unlabelled Kc2. R4 Qd8 persists for both. Unlabelled move divergences are not proof of improvement or regression. Selective completed depth is not directly comparable across engines; actual elapsed time differs despite equal supplied allowances."
+}

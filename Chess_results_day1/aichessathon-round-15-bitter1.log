@@ -1,0 +1,74 @@
+AI CHESSATHON MATCH LOG
+=======================
+
+MATCH
+  Round          Rated 15
+  Team           Finlay Phillips
+  Colour         Black
+  Opponent       bitter1
+  Opening        Sicilian Taimanov
+  Start FEN      r1bqkbnr/pp1p1ppp/2n1p3/1N6/4P3/8/PPP2PPP/RNBQKB1R b KQkq - 2 5
+  You moved      First
+  Machine        w-909a54
+  Finished       2026-09-04 21:11:33 UTC
+  Match ID       8eb6b436-b1c7-43b8-a114-8432c9d0e1dc
+
+INIT
+  Ready in       33.9 s
+  Budget         90.0 s
+  Used           38 percent
+
+CLOCK
+  Base           120.0 s plus 0.5 s per move
+  Moves          34
+  Time used      86.4 s
+  Slowest        4.1 s on move 4
+  Fastest        1.6 s on move 27
+  Average        2.5 s
+  Left at end    50.6 s
+
+RESULT
+  Drawn by threefold repetition
+  Game lasted 165.3 s
+
+MOVES
+    #  move          time     clock left
+    1  d6            3.1 s      117.4 s
+    2  a6            3.0 s      114.9 s
+    3  Nxd4          3.1 s      112.3 s
+    4  e5            4.1 s      108.6 s
+    5  Bd7           2.7 s      106.4 s
+    6  Bc6           3.8 s      103.1 s
+    7  Qd7           3.3 s      100.4 s
+    8  Rd8           2.7 s       98.2 s
+    9  Nf6           2.8 s       95.9 s
+   10  Nxd5          3.0 s       93.4 s
+   11  Nf4           2.7 s       91.2 s
+   12  Nxg2          2.7 s       89.0 s
+   13  Qg4+          2.8 s       86.7 s
+   14  Qxg5          2.3 s       84.9 s
+   15  Kd8           3.3 s       82.0 s
+   16  Bxd5          2.8 s       79.7 s
+   17  Qf4           2.1 s       78.1 s
+   18  Kc7           2.5 s       76.1 s
+   19  g6            2.8 s       73.8 s
+   20  Kb8           1.9 s       72.4 s
+   21  Qf6           2.0 s       70.9 s
+   22  Be7           2.0 s       69.4 s
+   23  Rc8           2.7 s       67.2 s
+   24  h5            2.4 s       65.4 s
+   25  h4            2.8 s       63.0 s
+   26  Bf8           2.2 s       61.3 s
+   27  Be7           1.6 s       60.2 s
+   28  Bf8           2.5 s       58.2 s
+   29  Be7           1.9 s       56.8 s
+   30  Bf8           1.7 s       55.6 s
+   31  Bh6           1.8 s       54.2 s
+   32  Bf8           1.7 s       53.0 s
+   33  Bh6           1.7 s       51.8 s
+   34  Bf8           1.7 s       50.6 s
+
+OUTPUT
+  Nothing written to stderr
+
+Email hello@aichessathon.com with this file if anything here is unclear.

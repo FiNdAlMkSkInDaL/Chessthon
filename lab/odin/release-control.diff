@@ -1,0 +1,504 @@
+--- original-storm/core_nb.py
++++ storm_rules600_release_control/core_nb.py
+@@ -713,8 +713,7 @@
+ 
+ @njit(cache=False)
+ def evaluate_nb(bb, st, adjudicate):
+-    if adjudicate:
+-        return kingless_nb(bb, st)
++    # The current referee draws at its cap; retain the PeSTO evaluator.
+     return pesto_nb(bb, st, True)
+ 
+ 
+@@ -741,7 +740,7 @@
+     us = np.int32(st[SIDE])
+     st[KEY] ^= Z_S
+     st[SIDE] ^= np.uint64(1)
+-    st[FIFTY] += np.uint64(1)
++    # An artificial null edge cannot advance the real rule-50 clock.
+     if us == 1:
+         st[FULL] += np.uint64(1)
+ 
+@@ -790,6 +789,14 @@
+     if score <= -MATE_WIN:
+         return score + ply
+     return score
++
++
++@njit(cache=False)
++def cap_tt_key(key, cap_left):
++    if cap_left > MAX_PLY:
++        return np.uint64(key)
++    mixed = np.uint64(key) ^ (np.uint64(cap_left + 1) * np.uint64(0xC2B2AE3D27D4EB4F))
++    return np.uint64(1) if mixed == 0 else mixed
+ 
+ 
+ @njit(cache=False)
+@@ -1029,7 +1036,7 @@
+     ply,
+     hist,
+     hlen,
+-    adjudicate,
++    adjudicate, cap_left,
+     max_nodes,
+     allow_abort,
+     undos,
+@@ -1049,6 +1056,15 @@
+     nodes[0] += 1
+     if check_clock(nodes, max_nodes, allow_abort, aborted):
+         return 0
++    if cap_left <= 0:
++        checked_at_cap = in_check_nb(bb, st, np.int32(st[SIDE]))
++        cap_moves = np.empty(MAX_MOVES, dtype=np.int32) if ply >= MAX_PLY else stacks[ply]
++        cap_scratch = np.empty(MAX_MOVES, dtype=np.int32) if ply >= MAX_PLY else scratches[ply]
++        legal_at_cap = gen_legal(bb, mb, st, cap_moves, cap_scratch)
++        if legal_at_cap == 0 and checked_at_cap:
++            return np.int32(-MATE + ply)
++        return DRAW
++
+     if ply >= MAX_PLY:
+         return evaluate_nb(bb, st, adjudicate)
+ 
+@@ -1071,7 +1087,7 @@
+     orig_alpha = alpha
+     hash_move = np.int32(0)
+     if not adjudicate:
+-        hit, move, _d, flag, s = tt_probe(st[KEY], ply, ttk, ttm, tts, ttd, ttg)
++        hit, move, _d, flag, s = tt_probe(cap_tt_key(st[KEY], cap_left), ply, ttk, ttm, tts, ttd, ttg)
+         if hit:
+             hash_move = move
+             if flag == EXACT:
+@@ -1089,7 +1105,7 @@
+             ):
+                 return DRAW
+             if not adjudicate:
+-                tt_store(st[KEY], 0, 0, LOWER, stand, ply, ttk, ttm, tts, ttd, ttg, tta)
++                tt_store(cap_tt_key(st[KEY], cap_left), 0, 0, LOWER, stand, ply, ttk, ttm, tts, ttd, ttg, tta)
+             return stand
+         if stand > alpha:
+             alpha = stand
+@@ -1135,7 +1151,7 @@
+             ply + 1,
+             hist,
+             hlen2,
+-            adjudicate,
++            adjudicate, cap_left - 1,
+             max_nodes,
+             allow_abort,
+             undos,
+@@ -1168,7 +1184,7 @@
+             flag = UPPER
+         elif best >= beta:
+             flag = LOWER
+-        tt_store(st[KEY], best_move, 0, flag, best, ply, ttk, ttm, tts, ttd, ttg, tta)
++        tt_store(cap_tt_key(st[KEY], cap_left), best_move, 0, flag, best, ply, ttk, ttm, tts, ttd, ttg, tta)
+     return best
+ 
+ 
+@@ -1183,7 +1199,7 @@
+     ply,
+     hist,
+     hlen,
+-    adjudicate,
++    adjudicate, cap_left,
+     max_nodes,
+     allow_abort,
+     undos,
+@@ -1203,6 +1219,15 @@
+     nodes[0] += 1
+     if check_clock(nodes, max_nodes, allow_abort, aborted):
+         return 0
++    if cap_left <= 0:
++        checked_at_cap = in_check_nb(bb, st, np.int32(st[SIDE]))
++        cap_moves = np.empty(MAX_MOVES, dtype=np.int32) if ply >= MAX_PLY else stacks[ply]
++        cap_scratch = np.empty(MAX_MOVES, dtype=np.int32) if ply >= MAX_PLY else scratches[ply]
++        legal_at_cap = gen_legal(bb, mb, st, cap_moves, cap_scratch)
++        if legal_at_cap == 0 and checked_at_cap:
++            return np.int32(-MATE + ply)
++        return DRAW
++
+     if ply >= MAX_PLY:
+         return evaluate_nb(bb, st, adjudicate)
+ 
+@@ -1234,7 +1259,7 @@
+             ply,
+             hist,
+             hlen,
+-            adjudicate,
++            adjudicate, cap_left,
+             max_nodes,
+             allow_abort,
+             undos,
+@@ -1265,7 +1290,7 @@
+     orig_alpha = alpha
+     hash_move = np.int32(0)
+     if not adjudicate:
+-        hit, move, tdepth, flag, s = tt_probe(st[KEY], ply, ttk, ttm, tts, ttd, ttg)
++        hit, move, tdepth, flag, s = tt_probe(cap_tt_key(st[KEY], cap_left), ply, ttk, ttm, tts, ttd, ttg)
+         if hit:
+             hash_move = move
+             if tdepth >= depth:
+@@ -1313,7 +1338,7 @@
+                 ply + 1,
+                 hist,
+                 hlen,
+-                adjudicate,
++                adjudicate, cap_left,
+                 max_nodes,
+                 allow_abort,
+                 undos,
+@@ -1415,7 +1440,7 @@
+                 ply + 1,
+                 hist,
+                 hlen2,
+-                adjudicate,
++                adjudicate, cap_left - 1,
+                 max_nodes,
+                 allow_abort,
+                 undos,
+@@ -1443,7 +1468,7 @@
+                 ply + 1,
+                 hist,
+                 hlen2,
+-                adjudicate,
++                adjudicate, cap_left - 1,
+                 max_nodes,
+                 allow_abort,
+                 undos,
+@@ -1473,7 +1498,7 @@
+                     ply + 1,
+                     hist,
+                     hlen2,
+-                    adjudicate,
++                    adjudicate, cap_left - 1,
+                     max_nodes,
+                     allow_abort,
+                     undos,
+@@ -1501,7 +1526,7 @@
+                     ply + 1,
+                     hist,
+                     hlen2,
+-                    adjudicate,
++                    adjudicate, cap_left - 1,
+                     max_nodes,
+                     allow_abort,
+                     undos,
+@@ -1550,7 +1575,7 @@
+             flag = UPPER
+         elif best >= beta:
+             flag = LOWER
+-        tt_store(st[KEY], best_move, depth, flag, best, ply, ttk, ttm, tts, ttd, ttg, tta)
++        tt_store(cap_tt_key(st[KEY], cap_left), best_move, depth, flag, best, ply, ttk, ttm, tts, ttd, ttg, tta)
+     return best
+ 
+ 
+@@ -1567,7 +1592,7 @@
+     pv,
+     alpha,
+     beta,
+-    adjudicate,
++    adjudicate, cap_left,
+     max_nodes,
+     undos,
+     stacks,
+@@ -1607,7 +1632,7 @@
+                 1,
+                 hist,
+                 hlen2,
+-                adjudicate,
++                adjudicate, cap_left - 1,
+                 max_nodes,
+                 allow,
+                 undos,
+@@ -1635,7 +1660,7 @@
+                 1,
+                 hist,
+                 hlen2,
+-                adjudicate,
++                adjudicate, cap_left - 1,
+                 max_nodes,
+                 allow,
+                 undos,
+@@ -1663,7 +1688,7 @@
+                     1,
+                     hist,
+                     hlen2,
+-                    adjudicate,
++                    adjudicate, cap_left - 1,
+                     max_nodes,
+                     allow,
+                     undos,
+@@ -1743,6 +1768,7 @@
+     global _LAST_NODES, _LAST_INFO
+     from storm_clock import SearchClock
+ 
++    adjudicate = False
+     start = time.perf_counter()
+     bb, mb, st = pack_pos(pos)
+     root = np.array(packed_root, dtype=np.int32)
+@@ -1756,8 +1782,8 @@
+         if TT_AGE[0] == 0:
+             TT_AGE[0] = np.int32(1)
+     KILLERS.fill(0)
+-    hist = np.empty(512, dtype=np.uint64)
+     hlen = len(zkeys)
++    hist = np.empty(hlen + MAX_PLY + 8, dtype=np.uint64)
+     for i in range(hlen):
+         hist[i] = zkeys[i]
+     undos = np.zeros((MAX_PLY, 7), dtype=np.uint64)
+@@ -1765,7 +1791,8 @@
+     scratches = np.zeros((MAX_PLY, MAX_MOVES), dtype=np.int32)
+     best = int(root[0])
+     prev = 0
+-    adj = 1 if adjudicate else 0
++    adj = 0
++    cap_left = max(0, 600 - (2 * (int(pos.fullmove) - 1) + int(pos.side)))
+     nroot = len(packed_root)
+     controller = SearchClock(soft_ms, hard_ms, root_moves=nroot)
+     completed_depth = 0
+@@ -1800,7 +1827,7 @@
+             best,
+             a,
+             b,
+-            adj,
++            adj, cap_left,
+             max_nodes,
+             undos,
+             stacks,
+@@ -1831,7 +1858,7 @@
+                 best,
+                 -INF,
+                 INF,
+-                adj,
++                adj, cap_left,
+                 max_nodes,
+                 undos,
+                 stacks,
+--- original-storm/eval_nb.py
++++ storm_rules600_release_control/eval_nb.py
+@@ -218,6 +218,4 @@
+ 
+ 
+ def evaluate(pos, *, adjudicate: bool = False) -> int:
+-    if adjudicate:
+-        return kingless_material(pos)
+     return pesto(pos)
+--- original-storm/history.py
++++ storm_rules600_release_control/history.py
+@@ -1,4 +1,4 @@
+-"""Full-game python-chess transposition keys, 300-ply counter, root draw policy.
++"""Full-game python-chess transposition keys, absolute 600-ply counter, root draw policy.
+ 
+ Do not infer opponent UCI from FEN deltas. Process lives one game; tests call reset().
+ """
+@@ -15,7 +15,7 @@
+ 
+ WIN_CP = 80
+ FIFTY_ZERO_FROM = 90
+-PLY_CAP = 300
++PLY_CAP = 600
+ ADJUDICATE_WINDOW = 16
+ 
+ _seen: Counter[object] = Counter()
+@@ -41,16 +41,13 @@
+ 
+ 
+ def use_adjudication_eval() -> bool:
+-    return (PLY_CAP - _game_ply) <= ADJUDICATE_WINDOW
++    return False
+ 
+ 
+ def observe_served(board: chess.Board) -> None:
+     global _game_ply, _started
+-    if _started:
+-        _game_ply += 2
+-    else:
+-        _started = True
+-        _game_ply = 0
++    _started = True
++    _game_ply = board.ply()
+     _seen[board._transposition_key()] += 1
+     _zkeys.append(from_fen(board.fen(en_passant="fen")).key)
+ 
+--- original-storm/search_nb.py
++++ storm_rules600_release_control/search_nb.py
+@@ -205,10 +205,22 @@
+     _history[p][move_to(move)] = 10_000 if h > 10_000 else h
+ 
+ 
+-def _qsearch(pos, alpha: int, beta: int, ply: int, hist: list[int]) -> int:
++def _cap_tt_key(key: int, cap_left: int) -> int:
++    if cap_left > MAX_PLY:
++        return key
++    mixed = key ^ (((cap_left + 1) * 0xC2B2AE3D27D4EB4F) & ((1 << 64) - 1))
++    return mixed or 1
++
++
++def _qsearch(pos, alpha: int, beta: int, ply: int, hist: list[int], cap_left) -> int:
+     global _nodes
+     _nodes += 1
+     _check_clock()
++    if cap_left <= 0:
++        legal_at_cap = generate_legal(pos)
++        if not legal_at_cap and in_check(pos, pos.side):
++            return -MATE + ply
++        return DRAW
+     if ply >= MAX_PLY:
+         return evaluate(pos, adjudicate=_adjudicate)
+ 
+@@ -229,7 +241,7 @@
+     orig_alpha = alpha
+     hash_move = 0
+     if not _adjudicate:
+-        hit = tt.probe(pos.key)
++        hit = tt.probe(_cap_tt_key(pos.key, cap_left))
+         if hit is not None:
+             move, _d, flag, raw = hit
+             hash_move = move
+@@ -247,7 +259,7 @@
+             if pos.occ.bit_count() <= STALEMATE_SCAN_MAX_PIECES and not generate_legal(pos):
+                 return DRAW
+             if not _adjudicate:
+-                tt.store(pos.key, 0, 0, LOWER, stand, ply)
++                tt.store(_cap_tt_key(pos.key, cap_left), 0, 0, LOWER, stand, ply)
+             return stand
+         if stand > alpha:
+             alpha = stand
+@@ -281,7 +293,7 @@
+                     continue
+             undo = make(pos, move)
+             try:
+-                score = -_qsearch(pos, -beta, -alpha, ply + 1, hist)
++                score = -_qsearch(pos, -beta, -alpha, ply + 1, hist, cap_left - 1)
+             finally:
+                 unmake(pos, move, undo)
+             if score > best:
+@@ -300,15 +312,20 @@
+             flag = UPPER
+         elif best >= beta:
+             flag = LOWER
+-        tt.store(pos.key, best_move, 0, flag, best, ply)
++        tt.store(_cap_tt_key(pos.key, cap_left), best_move, 0, flag, best, ply)
+     return best
+ 
+ 
+-def _negamax(pos, depth: int, alpha: int, beta: int, ply: int, hist: list[int]) -> int:
++def _negamax(pos, depth: int, alpha: int, beta: int, ply: int, hist: list[int], cap_left) -> int:
+     global _nodes
+     _nodes += 1
+     _check_clock()
+ 
++    if cap_left <= 0:
++        legal_at_cap = generate_legal(pos)
++        if not legal_at_cap and in_check(pos, pos.side):
++            return -MATE + ply
++        return DRAW
+     if ply >= MAX_PLY:
+         return evaluate(pos, adjudicate=_adjudicate)
+ 
+@@ -327,12 +344,12 @@
+     if insufficient_material(pos):
+         return DRAW
+     if depth <= 0:
+-        return _qsearch(pos, alpha, beta, ply, hist)
++        return _qsearch(pos, alpha, beta, ply, hist, cap_left)
+ 
+     orig_alpha = alpha
+     hash_move = 0
+     if not _adjudicate:
+-        hit = tt.probe(pos.key)
++        hit = tt.probe(_cap_tt_key(pos.key, cap_left))
+         if hit is not None:
+             move, tdepth, flag, raw = hit
+             hash_move = move
+@@ -358,7 +375,7 @@
+         for move in _order(pos, moves, ply, hash_move):
+             undo = make(pos, move)
+             try:
+-                score = -_negamax(pos, depth - 1, -beta, -alpha, ply + 1, hist)
++                score = -_negamax(pos, depth - 1, -beta, -alpha, ply + 1, hist, cap_left - 1)
+             finally:
+                 unmake(pos, move, undo)
+             if score > best:
+@@ -378,12 +395,12 @@
+             flag = UPPER
+         elif best >= beta:
+             flag = LOWER
+-        tt.store(pos.key, best_move, depth, flag, best, ply)
++        tt.store(_cap_tt_key(pos.key, cap_left), best_move, depth, flag, best, ply)
+     return best
+ 
+ 
+ def _root_search(
+-    pos, moves: list[int], depth: int, hist: list[int], pv: int | None, alpha: int, beta: int
++    pos, moves: list[int], depth: int, hist: list[int], pv: int | None, alpha: int, beta: int, cap_left
+ ) -> tuple[int, int]:
+     global _allow_abort
+     ordered = _order(pos, moves, 0, pv or 0)
+@@ -395,7 +412,7 @@
+             _allow_abort = True
+             undo = make(pos, move)
+             try:
+-                score = -_negamax(pos, depth - 1, -beta, -alpha, 1, hist)
++                score = -_negamax(pos, depth - 1, -beta, -alpha, 1, hist, cap_left - 1)
+             finally:
+                 unmake(pos, move, undo)
+             if score > best_score:
+@@ -430,7 +447,7 @@
+         return core_nb.search_root(
+             pos, packed_root, hard_ms, soft_ms, adjudicate, game_zkeys
+         )
+-    _adjudicate = adjudicate
++    _adjudicate = False
+     _aborted = False
+     _nodes = 0
+     if not adjudicate:
+@@ -442,6 +459,7 @@
+     best = packed_root[0]
+     prev = 0
+     hist_base = list(game_zkeys[:-1] if game_zkeys else [])
++    cap_left = max(0, 600 - (2 * (int(pos.fullmove) - 1) + int(pos.side)))
+ 
+     for depth in range(1, MAX_DEPTH + 1):
+         now = time.perf_counter()
+@@ -457,10 +475,10 @@
+         window = (-INF, INF) if depth <= 1 else (prev - ASPIRATION, prev + ASPIRATION)
+         try:
+             move, score = _root_search(
+-                pos, packed_root, depth, hist_base, best, window[0], window[1]
++                pos, packed_root, depth, hist_base, best, window[0], window[1], cap_left
+             )
+             if depth > 1 and (score <= window[0] or score >= window[1]):
+-                move, score = _root_search(pos, packed_root, depth, hist_base, best, -INF, INF)
++                move, score = _root_search(pos, packed_root, depth, hist_base, best, -INF, INF, cap_left)
+             best = move
+             prev = score
+         except SearchAborted:
+@@ -495,4 +513,4 @@
+     global _allow_abort, _adjudicate
+     _allow_abort = False
+     _adjudicate = False
+-    return _qsearch(pos, -INF, INF, 0, [])
++    return _qsearch(pos, -INF, INF, 0, [], 600)
+--- original-storm/storm_clock.py
++++ storm_rules600_release_control/storm_clock.py
+@@ -19,7 +19,7 @@
+ MIN_SEARCH_MS = 50.0
+ INCREMENT_MS = 500.0
+ SOFT_RESERVE_MS = 1500.0
+-PLY_CAP = 300
++PLY_CAP = 600
+ MATE_THRESHOLD = 31_000
+ 
+ 
+--- original-storm/time_nb.py
++++ storm_rules600_release_control/time_nb.py
+@@ -8,7 +8,7 @@
+ INCREMENT_MS = 500
+ MIN_ITER_MS = 200
+ MIN_HARD_MS = 50
+-PLY_CAP = 300
++PLY_CAP = 600
+ 
+ 
+ def _clamp(n: int, lo: int, hi: int) -> int:

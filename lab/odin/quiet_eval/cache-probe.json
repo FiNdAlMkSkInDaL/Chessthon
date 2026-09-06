@@ -1,0 +1,85 @@
+{
+  "source": "odin_positional_cache",
+  "cold_s": 93.90267130000029,
+  "positions": [
+    {
+      "fen": "rnb2rk1/1p2bppp/p3pn2/8/1PB5/P1N1PN2/5PPP/R1BK3R w - - 1 11",
+      "move": "d1e1",
+      "score": -23,
+      "nodes": 116390,
+      "seconds": 1.2325557000003755
+    },
+    {
+      "fen": "r1b2rk1/4bppp/p1n1pn2/1p6/1PB5/P1N1PN2/1BK2PPP/R6R w - - 0 13",
+      "move": "c4d3",
+      "score": -42,
+      "nodes": 327187,
+      "seconds": 4.077257199998712
+    },
+    {
+      "fen": "r1b2rk1/4bppp/p1n2n2/1p2p3/1P6/PBN1PN2/1BK2PPP/R6R w - - 0 14",
+      "move": "h1e1",
+      "score": -33,
+      "nodes": 242398,
+      "seconds": 3.53013380000084
+    },
+    {
+      "fen": "r2r2k1/4bppp/p4nb1/1p2n3/1P2p3/PBN1P1N1/1BK2PPP/3RR3 w - - 8 19",
+      "move": "d1d8",
+      "score": -39,
+      "nodes": 77284,
+      "seconds": 1.1657631000016409
+    },
+    {
+      "fen": "8/4bk1p/p3p3/1p4p1/1P2R1P1/PKB1P2P/5r2/8 w - - 0 32",
+      "move": "a3a4",
+      "score": -45,
+      "nodes": 20771,
+      "seconds": 0.20798909999939497
+    },
+    {
+      "fen": "8/4bk1p/p3p3/1p4p1/PP2R1P1/1KB1Pr1P/8/8 w - - 1 33",
+      "move": "a4b5",
+      "score": -31,
+      "nodes": 15398,
+      "seconds": 0.15444179999940388
+    },
+    {
+      "fen": "8/8/p3p3/Pp2k1p1/1P5r/2K1P3/5R2/8 w - - 8 42",
+      "move": "f2g2",
+      "score": -146,
+      "nodes": 39324,
+      "seconds": 0.34144000000014785
+    },
+    {
+      "fen": "r3kb1r/1b1n1ppp/pq2pn2/1pp5/3P4/4PNP1/PPQ2PBP/RNB2RK1 w kq - 1 11",
+      "move": "b1c3",
+      "score": 24,
+      "nodes": 60534,
+      "seconds": 0.8917232999992848
+    },
+    {
+      "fen": "r2qk2r/1p2bppb/2n1pn1p/p1pp4/4P3/PP1P2PN/1BPN1PBP/R2Q1RK1 w kq - 1 11",
+      "move": "h3f4",
+      "score": 22,
+      "nodes": 110051,
+      "seconds": 1.2634370000014314
+    },
+    {
+      "fen": "rnb2rk1/ppqpppbp/5np1/8/4P3/1NP2N2/PP2QPPP/R1B1KB1R w KQ - 3 9",
+      "move": "c1g5",
+      "score": -16,
+      "nodes": 136439,
+      "seconds": 1.9157063000002381
+    },
+    {
+      "fen": "r2qkb1r/1b1p1ppp/p3pn2/1pp5/4P3/1PNP1N2/1PP2PPP/R1BQ1RK1 w kq - 1 10",
+      "move": "c1e3",
+      "score": 31,
+      "nodes": 78127,
+      "seconds": 0.9385235999998258
+    }
+  ],
+  "scope": "Windows fixed-depth diagnostic; identical node counts/moves/scores required before native timing or matches.",
+  "verdict": "PASS"
+}

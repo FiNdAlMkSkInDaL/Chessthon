@@ -1,0 +1,21 @@
+{
+  "purpose": "Supplementary opening-distribution stress test, separate from native holdout confidence interval.",
+  "selection": "Chosen before these games: site index 8 (day-one round 9, both kings castled) and index 10 (day-one round 12, most developed start). Historical games were already inspected; these are not fresh holdout positions.",
+  "candidate": {
+    "archive": "dist/storm-r2-linux-x86.zip",
+    "sha256": "15db92a79feff24cf52f5b85974f55504753f981823d7e6d92881fb62812e85c"
+  },
+  "baseline": {
+    "archive": "dist/agent-v3-linux-x86.zip",
+    "sha256": "3397e7a8ca55696bb8d7586a9c73cbeabc0c8b6f51b26cdc8c26562a37c91408"
+  },
+  "games_completed": 4,
+  "games_planned": 4,
+  "complete": true,
+  "wins": 1,
+  "draws": 3,
+  "losses": 0,
+  "candidate_failures": 0,
+  "baseline_failures": 0,
+  "readiness_overrides": 0
+}

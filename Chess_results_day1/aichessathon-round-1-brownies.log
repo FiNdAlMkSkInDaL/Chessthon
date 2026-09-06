@@ -1,0 +1,77 @@
+AI CHESSATHON MATCH LOG
+=======================
+
+MATCH
+  Round          Rated 1
+  Team           Finlay Phillips
+  Colour         White
+  Opponent       Brownies
+  Opening        Nimzo-Indian Defence
+  Start FEN      rnbq1rk1/ppp2ppp/5n2/3p4/1b1P4/2NBP3/PP2NPPP/R1BQK2R b KQ - 1 7
+  You moved      Second
+  Machine        w-1f05bc
+  Finished       2026-09-04 07:05:34 UTC
+  Match ID       6b05fd72-72ea-4e44-818f-3b7c7c7a9ce7
+
+INIT
+  Ready in       NA
+  Budget         90.0 s
+  Used           NA
+
+CLOCK
+  Base           120.0 s plus 0.5 s per move
+  Moves          35
+  Time used      83.9 s
+  Slowest        4.7 s on move 5
+  Fastest        0.0 s on move 35
+  Average        2.4 s
+  Left at end    53.6 s
+
+RESULT
+  Won by checkmate
+  Game lasted 186.2 s
+
+MOVES
+    #  move          time     clock left
+    1  O-O           3.2 s      117.3 s
+    2  Nf4           3.1 s      114.8 s
+    3  Nxe6          3.1 s      112.1 s
+    4  bxc3          3.1 s      109.6 s
+    5  Qe2           4.7 s      105.3 s
+    6  Bc2           3.8 s      102.0 s
+    7  a4            2.5 s      100.0 s
+    8  Ba3           3.1 s       97.4 s
+    9  h3            3.2 s       94.7 s
+   10  Rfe1          2.5 s       92.7 s
+   11  Rad1          2.3 s       90.9 s
+   12  Qb5           3.0 s       88.5 s
+   13  Qe2           2.8 s       86.2 s
+   14  Rb1           2.6 s       84.1 s
+   15  Bc5           2.3 s       82.3 s
+   16  Bb4           2.9 s       79.9 s
+   17  Ba3           2.3 s       78.1 s
+   18  Rb5           3.4 s       75.2 s
+   19  Bb3           2.0 s       73.8 s
+   20  Rxd5          2.5 s       71.7 s
+   21  Bxc4          3.0 s       69.3 s
+   22  Qa2           2.2 s       67.6 s
+   23  Rb1           2.1 s       66.0 s
+   24  Be7           2.0 s       64.5 s
+   25  Rxb7          2.2 s       62.8 s
+   26  Ba3           3.1 s       60.2 s
+   27  Qe2           1.7 s       58.9 s
+   28  Rb5           1.6 s       57.8 s
+   29  Qg4+          1.7 s       56.6 s
+   30  Qf4+          1.7 s       55.5 s
+   31  Qe5+          1.8 s       54.1 s
+   32  Rxd5          2.3 s       52.3 s
+   33  Qxe7+         0.2 s       52.6 s
+   34  Rg5+          0.0 s       53.1 s
+   35  Qxg7#         0.0 s       53.6 s
+
+OUTPUT
+  NA. This game was played before agent logs were kept, so the output
+  and the init time were never recorded. Everything above comes from
+  the clocks in the game itself.
+
+Email hello@aichessathon.com with this file if anything here is unclear.

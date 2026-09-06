@@ -1,0 +1,44 @@
+{
+  "audit": "PASS",
+  "games": 12,
+  "pairs": 6,
+  "wins": 4,
+  "draws": 1,
+  "losses": 7,
+  "points": 4.5,
+  "score": 0.375,
+  "legal_plies": 1352,
+  "workers": [
+    {
+      "role": "baseline",
+      "source": "odin_v6",
+      "cold_seconds": 76.34724070000811,
+      "isolation": true
+    },
+    {
+      "role": "candidate",
+      "source": "pesto_only",
+      "cold_seconds": 78.65783789999841,
+      "isolation": true
+    }
+  ],
+  "current_referee_commit": "284724ab56cecb2a1a9a4e5769b4748adab4ed90",
+  "plan_sha256": "a9a080c62db66d509a9eedd6c851c4e30c2bd21e4fd64e1abe8aadbda492213f",
+  "log_sha256": "e09047d95ec55815367b44906d108272477506cc96997c948dbd0bfad1642244",
+  "pair_scores": {
+    "0": 0.5,
+    "1": 1.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.75
+  },
+  "terminations": {
+    "CHECKMATE": 11,
+    "INSUFFICIENT_MATERIAL": 1
+  },
+  "max_observed_move_seconds": 0.19658540000091307,
+  "followup_criterion_pass": false,
+  "verdict": "Reject PeSTO-only as first build; selected-root gain did not carry into this small development screen. No reliable Elo estimate or full-clock flag claim.",
+  "scope": "100ms search allowance per move, actual get_move, persistent state within game, full reset between games, current terminal rules. Not120+0.5 game clock; no native Linux import or submission gate."
+}

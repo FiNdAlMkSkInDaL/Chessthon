@@ -1,0 +1,26 @@
+[
+  {
+    "name": "rules",
+    "url": "https://aichessathon.com/docs/rules.md",
+    "status": 200,
+    "bytes": 5374,
+    "sha256": "86ec449e8861d9887be3a19f1b9dc0c5e60bd831ba96f9912b5a9d2c07cb2f7b"
+  },
+  {
+    "name": "contract",
+    "url": "https://aichessathon.com/docs/agent-contract.md",
+    "status": 200,
+    "bytes": 5866,
+    "sha256": "6c1166856794f306cd32b7dca4a33a91f1690e3e9f5283471ff5e7074441f938"
+  },
+  {
+    "name": "sesse",
+    "url": "https://tablebase.sesse.net/syzygy/3-4-5/",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'tablebase.sesse.net'. (_ssl.c:1010)>"
+  },
+  {
+    "name": "lichess",
+    "url": "https://tablebase.lichess.ovh/tables/standard/3-4-5/",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

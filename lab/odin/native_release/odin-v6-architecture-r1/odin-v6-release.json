@@ -1,0 +1,140 @@
+{
+  "utc": "2026-09-06T11:23:07.438143+00:00",
+  "status": "RELEASED",
+  "archive_sha256": "cd3ed778f75ded38dd4371a56c285f6f66c1311464a093707d473d8a9d0c8647",
+  "prior_archive_sha256": "c7d8972e823eb821c016010445d4b02996daff954d870d63083c445850e21102",
+  "statistics": {
+    "verdict": "PASS",
+    "reasons": [],
+    "validation_errors": [],
+    "game_rows": 112,
+    "pair_groups": 56,
+    "complete_pairs": 56,
+    "included_pairs": 56,
+    "excluded_failure_pairs": 0,
+    "wins": 30,
+    "draws": 69,
+    "losses": 13,
+    "score": 0.5758928571428571,
+    "pentanomial": {
+      "LL": 1,
+      "LD": 7,
+      "DD": 25,
+      "WD": 20,
+      "WW": 3
+    },
+    "bootstrap": {
+      "method": "paired percentile bootstrap",
+      "samples": 20000,
+      "seed": 20260904,
+      "confidence": 0.95,
+      "standard_error": 0.027486978414008892,
+      "score_ci": [
+        0.5223214285714286,
+        0.6294642857142857
+      ]
+    },
+    "elo": {
+      "estimate": 53.146442004160455,
+      "ci": [
+        15.52083362438084,
+        92.05640811172238
+      ]
+    },
+    "candidate_failures": {},
+    "opponent_failures": {},
+    "identities": {
+      "candidate": [
+        "cd3ed778f75ded38dd4371a56c285f6f66c1311464a093707d473d8a9d0c8647"
+      ],
+      "opponent": [
+        "c7d8972e823eb821c016010445d4b02996daff954d870d63083c445850e21102"
+      ]
+    },
+    "gate": {
+      "threshold": 0.5,
+      "min_pairs": 56,
+      "criterion": "paired_ci_lower"
+    }
+  },
+  "games_replayed": 112,
+  "plies_replayed": 14743,
+  "terminations": {
+    "checkmate": 43,
+    "threefold_repetition": 54,
+    "fifty_moves": 9,
+    "insufficient_material": 6
+  },
+  "telemetry": {
+    "candidate": {
+      "init_s": {
+        "count": 112,
+        "minimum": 33.284,
+        "median": 34.078,
+        "p95": 34.867,
+        "maximum": 35.342
+      },
+      "clock_before_increment_headroom_ms": {
+        "count": 7376,
+        "minimum": 398.672,
+        "median": 21118.186,
+        "p95": 107981.323,
+        "maximum": 117951.962
+      },
+      "final_clock_ms": {
+        "count": 112,
+        "minimum": 1569.081,
+        "median": 6856.143,
+        "p95": 58848.878,
+        "maximum": 98848.466
+      },
+      "nonmate_depth": {
+        "count": 6729,
+        "minimum": 8,
+        "median": 17,
+        "p95": 26,
+        "maximum": 64
+      },
+      "observed_nodes_per_second": 1234263.8148111282,
+      "limitation": "Descriptive game telemetry; roles visited different positions. Use the controlled paired-position benchmark for speed attribution."
+    },
+    "baseline": {
+      "init_s": {
+        "count": 112,
+        "minimum": 32.463,
+        "median": 33.699,
+        "p95": 34.884,
+        "maximum": 36.58
+      },
+      "clock_before_increment_headroom_ms": {
+        "count": 7367,
+        "minimum": 397.673,
+        "median": 21129.53,
+        "p95": 107747.302,
+        "maximum": 117894.551
+      },
+      "final_clock_ms": {
+        "count": 112,
+        "minimum": 1410.751,
+        "median": 5855.1,
+        "p95": 58236.833,
+        "maximum": 99402.294
+      },
+      "nonmate_depth": {
+        "count": 6770,
+        "minimum": 6,
+        "median": 16.0,
+        "p95": 24,
+        "maximum": 64
+      },
+      "observed_nodes_per_second": 817711.407634283,
+      "limitation": "Descriptive game telemetry; roles visited different positions. Use the controlled paired-position benchmark for speed attribution."
+    }
+  },
+  "evidence_audit_sha256": "8686cd238130fd4b93156d19e350ca0a977afb8ffd8e2db3aed29c5139f7a2b3",
+  "plan_sha256": "929bb3249d938ebf0435668f206be00e220e55a4e6e5b47056c90ad7c891debe",
+  "audit_repair": "Original post-match report failed with ModuleNotFoundError: harness. Re-ran unchanged validator with pinned official harness on PYTHONPATH, on Linux and Windows; both PASS. Original error retained; no games replayed, removed, changed or relabelled.",
+  "website_upload": false,
+  "desktop_agent": "C:\\Users\\finla\\OneDrive - University College London\\Desktop\\agent.zip",
+  "release_utc": "2026-09-06T11:23:07.485575+00:00"
+}

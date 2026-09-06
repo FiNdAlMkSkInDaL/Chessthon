@@ -1,0 +1,69 @@
+{
+  "pass": true,
+  "positions": 937,
+  "cold_seconds": 92.83085469999787,
+  "timings": [
+    {
+      "fused": {
+        "seconds": 0.15565439999772934,
+        "checksum": -8019750
+      },
+      "reference": {
+        "seconds": 0.2635650000011083,
+        "checksum": -8019750
+      }
+    },
+    {
+      "reference": {
+        "seconds": 0.2620688000024529,
+        "checksum": -8019750
+      },
+      "fused": {
+        "seconds": 0.1558654000000388,
+        "checksum": -8019750
+      }
+    },
+    {
+      "fused": {
+        "seconds": 0.1549027999972168,
+        "checksum": -8019750
+      },
+      "reference": {
+        "seconds": 0.26296849999926053,
+        "checksum": -8019750
+      }
+    },
+    {
+      "reference": {
+        "seconds": 0.2612565999988874,
+        "checksum": -8019750
+      },
+      "fused": {
+        "seconds": 0.15539889999854495,
+        "checksum": -8019750
+      }
+    },
+    {
+      "fused": {
+        "seconds": 0.15410770000016782,
+        "checksum": -8019750
+      },
+      "reference": {
+        "seconds": 0.2631031000018993,
+        "checksum": -8019750
+      }
+    },
+    {
+      "reference": {
+        "seconds": 0.2609489999995276,
+        "checksum": -8019750
+      },
+      "fused": {
+        "seconds": 0.15527830000064569,
+        "checksum": -8019750
+      }
+    }
+  ],
+  "scope": "Exact original positional-correction equivalence. Hot-kernel laptop timing only, not full-engine/Linux speed proof.",
+  "source_sha256": "58026776063e8d730fd55938f208393d2a880b3361fe75eb4a128b061b15b364"
+}

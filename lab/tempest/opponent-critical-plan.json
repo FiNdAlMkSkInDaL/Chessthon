@@ -1,0 +1,10 @@
+{
+  "positions": 12,
+  "selection": "Opposing turns immediately before/after known early and later own errors. Investigate whether their exploitation is actually inaccessible to v6. Selected discovery, not a new holdout.",
+  "budgets": [
+    200000,
+    1000000,
+    1500
+  ],
+  "mode": "nodes,nodes,wall; same direct native driver"
+}

@@ -1,0 +1,147 @@
+{
+  "archive": "C:\\Users\\finla\\OneDrive - University College London\\Desktop\\Chess TK\\dist\\storm-eval-r3-experimental-windows.zip",
+  "archive_manifest": {
+    "archive": "C:\\Users\\finla\\OneDrive - University College London\\Desktop\\Chess TK\\dist\\storm-eval-r3-experimental-windows.zip",
+    "archive_sha256": "6c5773cdd7493b9d64330d3046cf2ba50f42061099619d725d7a2ae65d7784ef",
+    "zip_bytes": 35622,
+    "uncompressed_bytes": 128522,
+    "entries": [
+      {
+        "name": "agent.py",
+        "compressed_bytes": 1387,
+        "uncompressed_bytes": 3727,
+        "sha256": "8b35dfa0a13357fff7eec60abfa7b5347ceb0613ecd0aeb40f25cee7588bd13f"
+      },
+      {
+        "name": "bitops_nb.py",
+        "compressed_bytes": 783,
+        "uncompressed_bytes": 1699,
+        "sha256": "e7d51ef66e4eb79137e1ea53efc67c2459e93b96591a228700ffa0833003a94e"
+      },
+      {
+        "name": "board_nb.py",
+        "compressed_bytes": 2438,
+        "uncompressed_bytes": 9644,
+        "sha256": "fd3706ffa5ad1b818a7849ec210a61e348cc10ef4c9fbf3bcb786c63830db2ae"
+      },
+      {
+        "name": "core_nb.py",
+        "compressed_bytes": 13527,
+        "uncompressed_bytes": 60959,
+        "sha256": "16917f9c222d4f1e775ec3b280b6e6096224ed81b7b348bd9b20f3280be69b9f"
+      },
+      {
+        "name": "eval_nb.py",
+        "compressed_bytes": 2723,
+        "uncompressed_bytes": 8093,
+        "sha256": "74a6be38dd11bc0745f6a5c5f6535245ee492bcf8aeb882a3fd00696a7d8c150"
+      },
+      {
+        "name": "history.py",
+        "compressed_bytes": 1963,
+        "uncompressed_bytes": 6038,
+        "sha256": "fd796c86fb7992bcc595edfcceed79522f0e9da3fa2c4e7dfd51311e66415326"
+      },
+      {
+        "name": "movegen_nb.py",
+        "compressed_bytes": 2006,
+        "uncompressed_bytes": 8581,
+        "sha256": "42b8e66c015d8d5861d231d8a6703f5916c16805e2986a2fa255e9b868dbe40c"
+      },
+      {
+        "name": "search_nb.py",
+        "compressed_bytes": 3628,
+        "uncompressed_bytes": 14130,
+        "sha256": "af2227ea46f31fa691c2928c0ddb478535e553eb5b61e0337ee1b2962f95e376"
+      },
+      {
+        "name": "storm_clock.py",
+        "compressed_bytes": 3302,
+        "uncompressed_bytes": 8845,
+        "sha256": "6735ad63dc868930c870df8d45ccd5a879a0a54b80953a4c93ea5ac6b5cc5877"
+      },
+      {
+        "name": "tables_nb.py",
+        "compressed_bytes": 1361,
+        "uncompressed_bytes": 3561,
+        "sha256": "79a594600dbfcb35252d92f406a71e021ec7c22b5c16efb6f18006153ec25007"
+      },
+      {
+        "name": "time_nb.py",
+        "compressed_bytes": 461,
+        "uncompressed_bytes": 899,
+        "sha256": "c37d7d2ff1d1220d9ccc3e0feb704ae04ff0e88ffbbf937e0bc777ae927b9f9d"
+      },
+      {
+        "name": "tt_nb.py",
+        "compressed_bytes": 849,
+        "uncompressed_bytes": 2346,
+        "sha256": "e40dd9f51cd4ab78dfc3a256d8c1c6b86c64fae8ba2f179b5d5b2282a92b9d1a"
+      }
+    ]
+  },
+  "status": "experimental Windows comparison only; not approved for upload",
+  "elapsed_s": 49.87030330000562,
+  "exit_code": 0,
+  "stdout": "{\"ready\": true}\n",
+  "stderr": "CHESS_TK_LAPTOP_DIAG {\"cwd\": \"C:\\\\Users\\\\finla\\\\AppData\\\\Local\\\\Temp\\\\storm-eval-r3-preflight-6vkrnbz7\\\\payload\", \"envelope\": {\"affinity\": {\"applied\": true, \"effective_mask\": 256, \"requested_cpu\": 8, \"requested_mask\": 256, \"system_mask\": 1023}, \"memory_job\": {\"applied\": true, \"kill_on_job_close\": true, \"limit_bytes\": 2147483648, \"limit_kind\": \"process_and_job_commit\"}}, \"home\": \"C:\\\\Users\\\\finla\\\\AppData\\\\Local\\\\Temp\\\\storm-eval-r3-preflight-6vkrnbz7\\\\runner-home\", \"import_s\": 46.375642, \"machine\": \"ARM64\", \"numba\": {\"compiled\": true, \"dispatchers\": {\"perft_nb\": {\"nopython_signature_count\": 1, \"present\": true, \"signature_count\": 1}, \"root_search_nb\": {\"nopython_signature_count\": 1, \"present\": true, \"signature_count\": 1}}, \"effective_ready\": true, \"has_numba\": true, \"module_loaded\": true, \"original_ready\": true, \"override_applied\": false, \"warmup_completed\": true, \"warmup_s\": 43.641222700010985}, \"numba_cache_dir\": \"C:\\\\Users\\\\finla\\\\AppData\\\\Local\\\\Temp\\\\storm-eval-r3-preflight-6vkrnbz7\\\\runner-home\\\\numba-cache\", \"pid\": 118396, \"python\": \"3.12.10\", \"thread_env\": {\"BLIS_NUM_THREADS\": \"1\", \"MKL_NUM_THREADS\": \"1\", \"NUMBA_NUM_THREADS\": \"1\", \"NUMEXPR_NUM_THREADS\": \"1\", \"OMP_NUM_THREADS\": \"1\", \"OPENBLAS_NUM_THREADS\": \"1\", \"VECLIB_MAXIMUM_THREADS\": \"1\"}, \"type\": \"laptop_runner_init\"}\n",
+  "runner_diagnostics": [
+    {
+      "cwd": "C:\\Users\\finla\\AppData\\Local\\Temp\\storm-eval-r3-preflight-6vkrnbz7\\payload",
+      "envelope": {
+        "affinity": {
+          "applied": true,
+          "effective_mask": 256,
+          "requested_cpu": 8,
+          "requested_mask": 256,
+          "system_mask": 1023
+        },
+        "memory_job": {
+          "applied": true,
+          "kill_on_job_close": true,
+          "limit_bytes": 2147483648,
+          "limit_kind": "process_and_job_commit"
+        }
+      },
+      "home": "C:\\Users\\finla\\AppData\\Local\\Temp\\storm-eval-r3-preflight-6vkrnbz7\\runner-home",
+      "import_s": 46.375642,
+      "machine": "ARM64",
+      "numba": {
+        "compiled": true,
+        "dispatchers": {
+          "perft_nb": {
+            "nopython_signature_count": 1,
+            "present": true,
+            "signature_count": 1
+          },
+          "root_search_nb": {
+            "nopython_signature_count": 1,
+            "present": true,
+            "signature_count": 1
+          }
+        },
+        "effective_ready": true,
+        "has_numba": true,
+        "module_loaded": true,
+        "original_ready": true,
+        "override_applied": false,
+        "warmup_completed": true,
+        "warmup_s": 43.641222700010985
+      },
+      "numba_cache_dir": "C:\\Users\\finla\\AppData\\Local\\Temp\\storm-eval-r3-preflight-6vkrnbz7\\runner-home\\numba-cache",
+      "pid": 118396,
+      "python": "3.12.10",
+      "thread_env": {
+        "BLIS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMBA_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "VECLIB_MAXIMUM_THREADS": "1"
+      },
+      "type": "laptop_runner_init"
+    }
+  ],
+  "passed": true
+}

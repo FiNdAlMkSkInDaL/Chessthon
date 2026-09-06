@@ -1,0 +1,733 @@
+{
+  "audit": "PASS",
+  "decisions": 90,
+  "outcomes": {
+    "0": 41,
+    "-2": 47,
+    "2": 2
+  },
+  "rows": [
+    {
+      "screen": "bundle",
+      "game": 1,
+      "ply": 116,
+      "fen": "8/8/5k2/p7/P1K5/8/8/8 w - - 1 68",
+      "uci": "c4b3",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 1,
+      "ply": 118,
+      "fen": "8/8/4k3/p7/P7/1K6/8/8 w - - 3 69",
+      "uci": "b3a2",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 1,
+      "ply": 120,
+      "fen": "8/8/8/p3k3/P7/8/K7/8 w - - 5 70",
+      "uci": "a2a1",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 1,
+      "ply": 122,
+      "fen": "8/8/8/p7/P2k4/8/8/K7 w - - 7 71",
+      "uci": "a1a2",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 1,
+      "ply": 124,
+      "fen": "8/8/8/p1k5/P7/8/K7/8 w - - 9 72",
+      "uci": "a2a1",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 1,
+      "ply": 126,
+      "fen": "8/8/8/p7/Pk6/8/8/K7 w - - 11 73",
+      "uci": "a1a2",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 187,
+      "fen": "8/8/8/8/K7/Q1k5/1r6/8 b - - 0 104",
+      "uci": "c3c2",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 189,
+      "fen": "8/8/8/8/K7/5Q2/1rk5/8 b - - 2 105",
+      "uci": "c2c1",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 191,
+      "fen": "8/8/8/8/8/K4Q2/1r6/2k5 b - - 4 106",
+      "uci": "b2d2",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 193,
+      "fen": "8/8/8/8/5Q2/K7/3r4/2k5 b - - 6 107",
+      "uci": "c1d1",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 195,
+      "fen": "8/8/8/8/1K3Q2/8/3r4/3k4 b - - 8 108",
+      "uci": "d1e2",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 197,
+      "fen": "8/8/8/8/5Q2/2K5/3rk3/8 b - - 10 109",
+      "uci": "d2d3",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 199,
+      "fen": "8/8/8/8/2K2Q2/3r4/4k3/8 b - - 12 110",
+      "uci": "d3e3",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 201,
+      "fen": "8/8/8/1K6/5Q2/4r3/4k3/8 b - - 14 111",
+      "uci": "e3f3",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 203,
+      "fen": "8/8/8/1K6/4Q3/5r2/4k3/8 b - - 16 112",
+      "uci": "f3e3",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 205,
+      "fen": "8/8/8/1K6/3Q4/4r3/4k3/8 b - - 18 113",
+      "uci": "e2f3",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 207,
+      "fen": "8/8/5Q2/1K6/8/4rk2/8/8 b - - 20 114",
+      "uci": "f3e2",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 209,
+      "fen": "8/8/1K3Q2/8/8/4r3/4k3/8 b - - 22 115",
+      "uci": "e3f3",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 211,
+      "fen": "8/8/1K6/4Q3/8/5r2/4k3/8 b - - 24 116",
+      "uci": "f3e3",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 213,
+      "fen": "8/8/1K6/8/5Q2/4r3/4k3/8 b - - 26 117",
+      "uci": "e3c3",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 215,
+      "fen": "8/8/1K6/8/4Q3/2r5/4k3/8 b - - 28 118",
+      "uci": "c3e3",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 217,
+      "fen": "8/8/1K6/5Q2/8/4r3/4k3/8 b - - 30 119",
+      "uci": "e3f3",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 219,
+      "fen": "8/8/1K6/8/6Q1/5r2/4k3/8 b - - 32 120",
+      "uci": "e2e3",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 221,
+      "fen": "8/8/1K2Q3/8/8/4kr2/8/8 b - - 34 121",
+      "uci": "e3d3",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 223,
+      "fen": "8/8/1K6/4Q3/8/3k1r2/8/8 b - - 36 122",
+      "uci": "f3e3",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 225,
+      "fen": "8/8/1K6/3Q4/8/3kr3/8/8 b - - 38 123",
+      "uci": "d3e2",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 227,
+      "fen": "8/2K5/8/3Q4/8/4r3/4k3/8 b - - 40 124",
+      "uci": "e3c3",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 229,
+      "fen": "8/1K6/8/3Q4/8/2r5/4k3/8 b - - 42 125",
+      "uci": "c3d3",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 231,
+      "fen": "8/1K6/8/8/2Q5/3r4/4k3/8 b - - 44 126",
+      "uci": "e2e3",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 233,
+      "fen": "8/8/1K6/8/2Q5/3rk3/8/8 b - - 46 127",
+      "uci": "d3d4",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 235,
+      "fen": "8/8/1K6/2Q5/3r4/4k3/8/8 b - - 48 128",
+      "uci": "e3d3",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 237,
+      "fen": "8/8/1K6/5Q2/3r4/3k4/8/8 b - - 50 129",
+      "uci": "d3e3",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 239,
+      "fen": "8/8/1K6/4Q3/3r4/4k3/8/8 b - - 52 130",
+      "uci": "d4e4",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 241,
+      "fen": "8/8/1K6/3Q4/4r3/4k3/8/8 b - - 54 131",
+      "uci": "e3f3",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 243,
+      "fen": "8/8/1K6/5Q2/4r3/5k2/8/8 b - - 56 132",
+      "uci": "f3e3",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 245,
+      "fen": "8/8/8/2K2Q2/4r3/4k3/8/8 b - - 58 133",
+      "uci": "e4f4",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 247,
+      "fen": "8/8/8/2K1Q3/5r2/4k3/8/8 b - - 60 134",
+      "uci": "e3f3",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 249,
+      "fen": "8/8/8/2K3Q1/5r2/5k2/8/8 b - - 62 135",
+      "uci": "f3e3",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 251,
+      "fen": "8/8/1K6/6Q1/5r2/4k3/8/8 b - - 64 136",
+      "uci": "e3e4",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 253,
+      "fen": "8/4Q3/1K6/8/4kr2/8/8/8 b - - 66 137",
+      "uci": "e4d3",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 255,
+      "fen": "8/8/1K6/4Q3/5r2/3k4/8/8 b - - 68 138",
+      "uci": "f4a4",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 257,
+      "fen": "8/8/2K5/4Q3/r7/3k4/8/8 b - - 70 139",
+      "uci": "a4b4",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 259,
+      "fen": "8/8/2K5/8/1r6/3k2Q1/8/8 b - - 72 140",
+      "uci": "d3c2",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 261,
+      "fen": "8/8/2K5/8/1r6/8/2k2Q2/8 b - - 74 141",
+      "uci": "c2b3",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 263,
+      "fen": "8/8/3K4/8/1r6/1k6/5Q2/8 b - - 76 142",
+      "uci": "b3a3",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 265,
+      "fen": "8/8/3K4/2Q5/1r6/k7/8/8 b - - 78 143",
+      "uci": "a3a4",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 267,
+      "fen": "8/8/4K3/2Q5/kr6/8/8/8 b - - 80 144",
+      "uci": "a4a3",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 269,
+      "fen": "8/8/3QK3/8/1r6/k7/8/8 b - - 82 145",
+      "uci": "a3a4",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 271,
+      "fen": "8/8/2Q1K3/8/kr6/8/8/8 b - - 84 146",
+      "uci": "a4a3",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 273,
+      "fen": "8/8/2Q2K2/8/1r6/k7/8/8 b - - 86 147",
+      "uci": "a3a2",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 275,
+      "fen": "8/8/4QK2/8/1r6/8/k7/8 b - - 88 148",
+      "uci": "a2a1",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 277,
+      "fen": "8/8/5K2/4Q3/1r6/8/8/k7 b - - 90 149",
+      "uci": "a1a2",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 279,
+      "fen": "8/8/5K2/Q7/1r6/8/k7/8 b - - 92 150",
+      "uci": "a2b3",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 281,
+      "fen": "8/8/8/Q4K2/1r6/1k6/8/8 b - - 94 151",
+      "uci": "b3c3",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 283,
+      "fen": "8/8/8/4QK2/1r6/2k5/8/8 b - - 96 152",
+      "uci": "b4d4",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 4,
+      "ply": 285,
+      "fen": "8/8/6K1/4Q3/3r4/2k5/8/8 b - - 98 153",
+      "uci": "c3c4",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 5,
+      "ply": 104,
+      "fen": "8/1r6/8/8/6K1/5R2/6k1/8 w - - 1 63",
+      "uci": "f3a3",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 5,
+      "ply": 106,
+      "fen": "8/8/8/8/6K1/R7/1r4k1/8 w - - 3 64",
+      "uci": "a3a1",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 5,
+      "ply": 108,
+      "fen": "8/8/8/8/6K1/8/1r3k2/R7 w - - 5 65",
+      "uci": "a1a3",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 5,
+      "ply": 110,
+      "fen": "8/8/8/8/6K1/R7/2r2k2/8 w - - 7 66",
+      "uci": "a3a1",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 5,
+      "ply": 112,
+      "fen": "8/8/8/8/2r3K1/8/5k2/R7 w - - 9 67",
+      "uci": "g4f5",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 5,
+      "ply": 114,
+      "fen": "8/8/8/5K2/8/8/2r2k2/R7 w - - 11 68",
+      "uci": "a1a3",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 5,
+      "ply": 116,
+      "fen": "8/8/8/5K2/8/R7/2r3k1/8 w - - 13 69",
+      "uci": "a3a1",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 5,
+      "ply": 118,
+      "fen": "8/8/8/5K2/8/7k/2r5/R7 w - - 15 70",
+      "uci": "a1a3",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 5,
+      "ply": 120,
+      "fen": "8/8/8/5K2/8/R7/2r3k1/8 w - - 17 71",
+      "uci": "a3a1",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 5,
+      "ply": 122,
+      "fen": "8/8/8/5K2/8/7k/2r5/R7 w - - 19 72",
+      "uci": "a1a3",
+      "value": 0
+    },
+    {
+      "screen": "bundle",
+      "game": 6,
+      "ply": 127,
+      "fen": "4K3/5p2/5k2/8/8/3R4/8/8 b - - 0 74",
+      "uci": "f6e6",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 6,
+      "ply": 129,
+      "fen": "4K3/5p2/4k3/8/8/4R3/8/8 b - - 2 75",
+      "uci": "e6f6",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 6,
+      "ply": 131,
+      "fen": "4K3/5p2/5k2/8/8/5R2/8/8 b - - 4 76",
+      "uci": "f6e5",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 7,
+      "ply": 246,
+      "fen": "6K1/7R/6q1/4k3/8/8/8/8 w - - 0 132",
+      "uci": "g8h8",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 7,
+      "ply": 248,
+      "fen": "4q2K/7R/8/4k3/8/8/8/8 w - - 2 133",
+      "uci": "h8g7",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 7,
+      "ply": 250,
+      "fen": "4q3/6KR/8/5k2/8/8/8/8 w - - 4 134",
+      "uci": "h7h3",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 7,
+      "ply": 252,
+      "fen": "8/3q2K1/8/5k2/8/7R/8/8 w - - 6 135",
+      "uci": "g7f8",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 7,
+      "ply": 254,
+      "fen": "5K2/3q4/6k1/8/8/7R/8/8 w - - 8 136",
+      "uci": "h3g3",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 7,
+      "ply": 256,
+      "fen": "5K2/3q3k/8/8/8/6R1/8/8 w - - 10 137",
+      "uci": "g3e3",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 7,
+      "ply": 258,
+      "fen": "5K2/7k/8/5q2/8/4R3/8/8 w - - 12 138",
+      "uci": "f8e8",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 7,
+      "ply": 260,
+      "fen": "4K3/7k/8/7q/8/4R3/8/8 w - - 14 139",
+      "uci": "e8d8",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 7,
+      "ply": 262,
+      "fen": "3K4/7k/8/q7/8/4R3/8/8 w - - 16 140",
+      "uci": "d8e8",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 7,
+      "ply": 264,
+      "fen": "4K3/7k/8/8/q7/4R3/8/8 w - - 18 141",
+      "uci": "e8d8",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 7,
+      "ply": 266,
+      "fen": "3K4/7k/8/8/3q4/4R3/8/8 w - - 20 142",
+      "uci": "d8c7",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 9,
+      "ply": 106,
+      "fen": "8/k7/2K5/P7/8/6P1/8/8 w - - 0 62",
+      "uci": "a5a6",
+      "value": 2
+    },
+    {
+      "screen": "bundle",
+      "game": 11,
+      "ply": 122,
+      "fen": "8/8/8/2k5/8/5q2/3p2K1/8 w - - 0 72",
+      "uci": "g2g1",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 11,
+      "ply": 124,
+      "fen": "8/8/8/2k5/8/6q1/3p4/6K1 w - - 2 73",
+      "uci": "g1f1",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 16,
+      "ply": 115,
+      "fen": "8/6k1/8/3Q4/3P4/3K4/8/8 b - - 0 66",
+      "uci": "g7f6",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 16,
+      "ply": 117,
+      "fen": "8/8/5k2/8/3PQ3/3K4/8/8 b - - 2 67",
+      "uci": "f6f7",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 16,
+      "ply": 119,
+      "fen": "8/5k2/8/8/3P1Q2/3K4/8/8 b - - 4 68",
+      "uci": "f7e6",
+      "value": -2
+    },
+    {
+      "screen": "bundle",
+      "game": 16,
+      "ply": 121,
+      "fen": "8/8/4k3/8/3P2Q1/3K4/8/8 b - - 6 69",
+      "uci": "e6d5",
+      "value": -2
+    },
+    {
+      "screen": "tables",
+      "game": 7,
+      "ply": 228,
+      "fen": "5k2/2R5/5r2/8/4K3/8/8/8 w - - 0 123",
+      "uci": "c7a7",
+      "value": 0
+    },
+    {
+      "screen": "tables",
+      "game": 7,
+      "ply": 230,
+      "fen": "5k2/R4r2/8/8/4K3/8/8/8 w - - 2 124",
+      "uci": "a7f7",
+      "value": 0
+    },
+    {
+      "screen": "tables",
+      "game": 13,
+      "ply": 96,
+      "fen": "8/8/1k6/1P5K/7P/8/8/8 w - - 1 58",
+      "uci": "h5g4",
+      "value": 2
+    }
+  ],
+  "script_sha256": "cd87d2ecad6eb9c6229d08459eecf889b0d3aa33b9a3cab982af953ab25e6d81",
+  "scope": "Every observed four-piece table decision preserved the best available rule-adjusted child value under actual replay history. This does not estimate general playing strength."
+}

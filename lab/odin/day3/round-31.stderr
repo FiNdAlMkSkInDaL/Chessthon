@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\finla\OneDrive - University College London\Desktop\Chess TK\lab\odin\new_games\review_new.py", line 108, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\finla\OneDrive - University College London\Desktop\Chess TK\lab\odin\new_games\review_new.py", line 78, in main
+    emit({'type':'resume_metadata' if args.resume else 'metadata','round':args.round,'source':str(path.relative_to(ROOT)),'source_sha256':sha(path),
+                                                                                                  ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\finla\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 682, in relative_to
+    raise ValueError(f"{str(self)!r} is not in the subpath of {str(other)!r}")
+ValueError: 'Chess_results_day3\\aichessathon-round-31-xx.pgn' is not in the subpath of 'C:\\Users\\finla\\OneDrive - University College London\\Desktop\\Chess TK'

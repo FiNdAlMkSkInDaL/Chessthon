@@ -1,0 +1,248 @@
+{
+  "selection": "Three newest game links on the saved public team page: rated 15,14,13.",
+  "team_source": {
+    "url": "https://aichessathon.com/team/258a9828-7442-4bea-97cb-eed1845ad2cc?from=lb",
+    "retrieved_utc": "2026-09-04T23:21:16.251203+00:00",
+    "server_date": "Fri, 04 Sep 2026 23:21:14 GMT",
+    "sha256": "1a1081ea58703f0df30b16f540cecc5127a0849adf13b76e0473d453c7b9e529"
+  },
+  "ladder_source": {
+    "url": "https://aichessathon.com/leaderboard",
+    "retrieved_utc": "2026-09-04T22:37:22.988946+00:00",
+    "server_date": "Fri, 04 Sep 2026 22:37:21 GMT",
+    "cache_control": "private, no-cache, no-store, max-age=0, must-revalidate",
+    "sha256": "56039a6d918a1655dc4859d6a56339ba6eb29363759ee8f086b3a39e3643c568"
+  },
+  "base_s": 120.0,
+  "increment_s": 0.5,
+  "method": "Elapsed = previous same-side PGN clock + increment - next same-side PGN clock.",
+  "games": [
+    {
+      "match_id": "ed18ab9c-b4ad-4f29-a6ea-f9e53bc3f2e8",
+      "round": 15,
+      "colour": "white",
+      "opponent": "No More Ammo",
+      "outcome": "win",
+      "opening": "Sicilian Closed",
+      "source": {
+        "url": "https://aichessathon.com/game/ed18ab9c-b4ad-4f29-a6ea-f9e53bc3f2e8?from=t.258a9828-7442-4bea-97cb-eed1845ad2cc",
+        "retrieved_utc": "2026-09-04T23:21:37.360029+00:00",
+        "server_date": "Fri, 04 Sep 2026 23:21:36 GMT",
+        "sha256": "40ea5195ae1911659728ab96f7aba975c7d339121ac7cabddfc52ec516ddc6ba",
+        "path": "lab\\storm\\soberjackson_game_ed18ab9c-b4ad-4f29-a6ea-f9e53bc3f2e8.html"
+      },
+      "download_filename": "aichessathon-round-15-sobriety-vs-no-more-ammo.pgn",
+      "opponent_ladder": {
+        "rank": 8,
+        "rating": 1947,
+        "bot": "Blank Shooter",
+        "team": "No More Ammo"
+      },
+      "pgn_sha256": "d33b9d7070d43f4730d9277a4b645d82ed41c5d72f457ef55def32288c9bb861",
+      "pgn_headers": {
+        "Event": "?",
+        "Site": "?",
+        "Date": "????.??.??",
+        "Round": "?",
+        "White": "?",
+        "Black": "?",
+        "Result": "1-0",
+        "FEN": "r1bqk2r/pp2npbp/2npp1p1/2p5/4P3/2NPB1P1/PPP1NPBP/R2QK2R w KQkq - 2 8",
+        "SetUp": "1",
+        "Termination": "checkmate"
+      },
+      "game_plies": 99,
+      "own_moves": 50,
+      "opponent_moves": 49,
+      "remaining_s": 65.44,
+      "opponent_remaining_s": 25.254,
+      "total_thinking_s": 79.56,
+      "first20_s": 45.122,
+      "opponent_first20_s": 75.57,
+      "first_move_s": 0.003,
+      "mean_move_s": 1.591,
+      "elapsed_below100ms": 8,
+      "elapsed_above5s": 1,
+      "slowest_move": {
+        "round": 15,
+        "game_ply": 18,
+        "ours": true,
+        "side_move_number": 10,
+        "move_uci": "d4e3",
+        "move_san": "Be3",
+        "fen": "r3r1k1/p3npb1/bpqp2p1/4p3/3BP3/2N3P1/PPPQ1PB1/2KR3R w - - 0 17",
+        "clock_before_s": 108.608,
+        "elapsed_s": 7.432,
+        "clock_after_s": 101.676,
+        "legal_moves": 40,
+        "phase": 22
+      },
+      "own_bins_mean_s": {
+        "1-10": 2.332,
+        "11-20": 2.18,
+        "21-40": 1.532,
+        "41-60": 0.38,
+        "61-150": null
+      },
+      "own_phase_mean_s": {
+        "19-24": 2.189,
+        "7-18": 1.291,
+        "0-6": 0.009
+      }
+    },
+    {
+      "match_id": "d29de303-2935-4ec9-9ccf-e0029ddbc409",
+      "round": 14,
+      "colour": "black",
+      "opponent": "pheanup",
+      "outcome": "win",
+      "opening": "Petroff Defence",
+      "source": {
+        "url": "https://aichessathon.com/game/d29de303-2935-4ec9-9ccf-e0029ddbc409?from=t.258a9828-7442-4bea-97cb-eed1845ad2cc",
+        "retrieved_utc": "2026-09-04T23:21:37.215268+00:00",
+        "server_date": "Fri, 04 Sep 2026 23:21:35 GMT",
+        "sha256": "219ec72922dab2711cf80d93adee74773ad6c0bcd5f2fd59ba21b66a4921d2e4",
+        "path": "lab\\storm\\soberjackson_game_d29de303-2935-4ec9-9ccf-e0029ddbc409.html"
+      },
+      "download_filename": "aichessathon-round-14-pheanup-vs-sobriety.pgn",
+      "opponent_ladder": {
+        "rank": 10,
+        "rating": 1937,
+        "bot": "test_bot",
+        "team": "pheanup"
+      },
+      "pgn_sha256": "8d245964386deba080ed1d373a80d33366a4265f6ee07f3b5656ae17a243309a",
+      "pgn_headers": {
+        "Event": "?",
+        "Site": "?",
+        "Date": "????.??.??",
+        "Round": "?",
+        "White": "?",
+        "Black": "?",
+        "Result": "0-1",
+        "FEN": "rnbqk2r/ppp2ppp/3b4/3p4/3Pn3/2P2N1P/PP3PP1/RNBQKB1R w KQkq - 1 8",
+        "SetUp": "1",
+        "Termination": "checkmate"
+      },
+      "game_plies": 120,
+      "own_moves": 60,
+      "opponent_moves": 60,
+      "remaining_s": 45.568,
+      "opponent_remaining_s": 9.713,
+      "total_thinking_s": 104.432,
+      "first20_s": 52.819,
+      "opponent_first20_s": 87.154,
+      "first_move_s": 2.173,
+      "mean_move_s": 1.741,
+      "elapsed_below100ms": 8,
+      "elapsed_above5s": 4,
+      "slowest_move": {
+        "round": 14,
+        "game_ply": 13,
+        "ours": true,
+        "side_move_number": 7,
+        "move_uci": "d7f6",
+        "move_san": "Nf6",
+        "fen": "r1bq1rk1/pp1n1pp1/3b3p/3p4/2PP4/5N1P/P3BPP1/R1BQ1RK1 b - - 0 14",
+        "clock_before_s": 103.593,
+        "elapsed_s": 7.118,
+        "clock_after_s": 96.975,
+        "legal_moves": 37,
+        "phase": 22
+      },
+      "own_bins_mean_s": {
+        "1-10": 3.104,
+        "11-20": 2.178,
+        "21-40": 1.683,
+        "41-60": 0.898,
+        "61-150": null
+      },
+      "own_phase_mean_s": {
+        "19-24": 2.566,
+        "7-18": 1.412,
+        "0-6": 0.898
+      }
+    },
+    {
+      "match_id": "f6ca50df-b9a4-48e9-b092-e5ea7896030a",
+      "round": 13,
+      "colour": "white",
+      "opponent": "Mate in One",
+      "outcome": "draw",
+      "opening": "Ruy Lopez, Closed",
+      "source": {
+        "url": "https://aichessathon.com/game/f6ca50df-b9a4-48e9-b092-e5ea7896030a?from=t.258a9828-7442-4bea-97cb-eed1845ad2cc",
+        "retrieved_utc": "2026-09-04T23:21:37.383336+00:00",
+        "server_date": "Fri, 04 Sep 2026 23:21:36 GMT",
+        "sha256": "d3cffd39a093814565239af02a5f28c73f80913e2dea4cc3ca25a973603adf75",
+        "path": "lab\\storm\\soberjackson_game_f6ca50df-b9a4-48e9-b092-e5ea7896030a.html"
+      },
+      "download_filename": "aichessathon-round-13-sobriety-vs-mate-in-one.pgn",
+      "opponent_ladder": {
+        "rank": 3,
+        "rating": 2125,
+        "bot": "Mate in One",
+        "team": "Mate in One"
+      },
+      "pgn_sha256": "bdd428e6939ef06ffe3b9fb0adcfe83ad32e0fde4b9a51450d727c388b81e59e",
+      "pgn_headers": {
+        "Event": "?",
+        "Site": "?",
+        "Date": "????.??.??",
+        "Round": "?",
+        "White": "?",
+        "Black": "?",
+        "Result": "1/2-1/2",
+        "FEN": "r1bqr1k1/2p1bppp/p2p1n2/np2p3/4P3/1B1P1N1P/PPPN1PP1/R1BQR1K1 w - - 3 11",
+        "SetUp": "1",
+        "Termination": "fifty_moves"
+      },
+      "game_plies": 224,
+      "own_moves": 112,
+      "opponent_moves": 112,
+      "remaining_s": 22.741,
+      "opponent_remaining_s": 5.124,
+      "total_thinking_s": 153.259,
+      "first20_s": 49.527,
+      "opponent_first20_s": 71.922,
+      "first_move_s": 1.361,
+      "mean_move_s": 1.368,
+      "elapsed_below100ms": 0,
+      "elapsed_above5s": 2,
+      "slowest_move": {
+        "round": 13,
+        "game_ply": 38,
+        "ours": true,
+        "side_move_number": 20,
+        "move_uci": "g5g6",
+        "move_san": "g6",
+        "fen": "3qr2k/5b1r/3p1p1b/p1p2PPp/1pP1Pp2/1P1PB2R/1P1Q2K1/7R w - - 0 30",
+        "clock_before_s": 86.088,
+        "elapsed_s": 6.115,
+        "clock_after_s": 80.473,
+        "legal_moves": 36,
+        "phase": 19
+      },
+      "own_bins_mean_s": {
+        "1-10": 1.704,
+        "11-20": 3.249,
+        "21-40": 1.737,
+        "41-60": 1.396,
+        "61-150": 0.79
+      },
+      "own_phase_mean_s": {
+        "19-24": 2.476,
+        "7-18": 1.128,
+        "0-6": null
+      }
+    }
+  ],
+  "mean_first20_s": 49.156,
+  "stddev_first20_s": 3.153,
+  "mean_remaining_s": 44.583,
+  "limitations": [
+    "Three different games against different opponents are not a controlled engine comparison.",
+    "No internal search-depth, node-count, evaluation or algorithm information is exposed by these clocks.",
+    "Opening identities and colours are taken from the public team table because PGN White/Black headers are placeholders."
+  ]
+}

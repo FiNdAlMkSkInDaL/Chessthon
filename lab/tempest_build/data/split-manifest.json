@@ -1,0 +1,88 @@
+{
+  "requested_roots": 2000,
+  "actual_roots": 1131,
+  "phase_counts": {
+    "high": 650,
+    "middle": 370,
+    "endgame": 111
+  },
+  "split_counts": {
+    "train": 906,
+    "test": 94,
+    "validation": 131
+  },
+  "families": 578,
+  "excluded_families": 2673,
+  "excluded_positions": 44401,
+  "exclusion_sources": [
+    {
+      "path": "lab\\odin\\training\\corpus-20k.jsonl",
+      "sha256": "4a954d9ee11db19db81f412c54e34f571388f38fc6c3eabd75b62d13e3833790"
+    },
+    {
+      "path": "lab\\odin\\quiet_eval\\fit-records.jsonl",
+      "sha256": "7c4ea89cc476b9f0a593fa9dde04898e4191c1e693443849466cf7f0fd1b4ed1"
+    },
+    {
+      "path": "lab\\odin\\release_openings\\development.jsonl",
+      "sha256": "a79884e7a48d5bee22cfe0aea2439fa9a241dc3b59207729608d5deba9dc19c1"
+    },
+    {
+      "path": "lab\\odin\\release_openings\\holdout.jsonl",
+      "sha256": "f2297b902f5a1be536f70eff2e4affdbf00a283a5d4326825cecf3f38c1d39b3"
+    },
+    {
+      "path": "lab\\odin\\release_openings\\independent-screen.jsonl",
+      "sha256": "5bb6371fdc7b4be24569869e1de359f743f065ba6ffcaa9bdcf6b397f152fcf1"
+    },
+    {
+      "path": "lab\\odin\\fast\\generation-openings\\confirm.jsonl",
+      "sha256": "b93358ea8d94715e1590534f292a09f73b15e4b856b706e47d911486f669f48d"
+    },
+    {
+      "path": "lab\\odin\\fast\\generation-openings\\screen.jsonl",
+      "sha256": "57e19543c1d0848552eb51370e6f59a961b0ef6f1f8233ff270515f3a28d6b20"
+    },
+    {
+      "path": "lab\\odin\\fast\\overnight-openings\\openings.jsonl",
+      "sha256": "66382f9128083d4ab68af784e06db296be34e76f17396ee5f03cec2bc60856cd"
+    },
+    {
+      "path": "lab\\odin\\fast\\screen-openings\\openings.jsonl",
+      "sha256": "77ad6161931506e4248e8dadce0b9bd613602841fc217bafa60221db4ee45488"
+    },
+    {
+      "path": "lab\\tempest\\fresh-confirmation\\openings.jsonl",
+      "sha256": "038bc29ca1332e35e7f36332f2972e3294204a6a5d8c41ef7373cab114b601aa"
+    }
+  ],
+  "raw_sources": [
+    {
+      "path": "lab\\odin\\training\\raw\\Anand.pgn",
+      "sha256": "3f2aa841ebdfffb33ba81f3a46ab97987efb06d29b8b4cda635f35a2240c7f9a"
+    },
+    {
+      "path": "lab\\odin\\training\\raw\\Carlsen.pgn",
+      "sha256": "ba4591237a43c27fa19a9b3539ba5ce136ea93b65a9800418865b1d0a8090853"
+    },
+    {
+      "path": "lab\\odin\\training\\raw\\Fischer.pgn",
+      "sha256": "1d8afba5a95ed42588e3714af173f8dcf2cd56e06c9814373aa773064e53edf3"
+    },
+    {
+      "path": "lab\\odin\\training\\raw\\Karpov.pgn",
+      "sha256": "57586ab136c38ac02bf9b745a037533ffbad0aa252e4f667632a3e7b3bc91a13"
+    },
+    {
+      "path": "lab\\odin\\training\\raw\\Kasparov.pgn",
+      "sha256": "02d021df5ea2b2896f89ec752eb0f9db8af61f2726a6d4e75a7bb1ced9aa9a80"
+    },
+    {
+      "path": "lab\\odin\\training\\raw\\Tal.pgn",
+      "sha256": "da7d473f53ac933c3a14ca4aff872bc50fe64385234f3635094cc500c0b0ad59"
+    }
+  ],
+  "scope": "New human-game roots; no self-play tranche yet. Search states are generated later. Groups fixed before labels; test withheld from selection.",
+  "script_sha256": "d52b3210f957822e421298d592280d0d0bab22214683a126799883732c024270",
+  "roots_sha256": "6bb97238e472a23b6fd8908a6adbe5fffd89d711f483165ba5b409c85b1ae5d7"
+}

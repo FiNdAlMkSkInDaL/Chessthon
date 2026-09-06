@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/botuser/chess-sign-odin-20260905/odin-v6-architecture-r1/lab/odin/release/validate_match.py", line 23, in <module>
+    from lab.paired_match_stats import analyze_rows
+  File "/home/botuser/chess-sign-odin-20260905/odin-v6-architecture-r1/lab/paired_match_stats.py", line 26, in <module>
+    from harness.referee import FAILED_TERMINATIONS
+ModuleNotFoundError: No module named 'harness'

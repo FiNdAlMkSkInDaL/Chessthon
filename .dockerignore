@@ -1,0 +1,11 @@
+.venv
+dist
+.git
+__pycache__
+*.zip
+.mypy_cache
+.ruff_cache
+docs
+ENGINEERING.md
+*.md
+.cursor

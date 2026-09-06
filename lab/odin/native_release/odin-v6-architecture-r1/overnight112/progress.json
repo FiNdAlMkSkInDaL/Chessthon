@@ -1,0 +1,22 @@
+{
+  "utc": "2026-09-06T04:53:03.100204+00:00",
+  "plan_sha256": "929bb3249d938ebf0435668f206be00e220e55a4e6e5b47056c90ad7c891debe",
+  "planned_games": 112,
+  "automatic_promotion": false,
+  "lanes": {
+    "a": {
+      "service": "chesstk-odin-v6-112-a.service",
+      "state": "inactive",
+      "games": 56,
+      "points": 33.0,
+      "errors": []
+    },
+    "b": {
+      "service": "chesstk-odin-v6-112-b.service",
+      "state": "inactive",
+      "games": 56,
+      "points": 31.5,
+      "errors": []
+    }
+  }
+}
