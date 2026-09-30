@@ -2,11 +2,11 @@
 
 A chess agent built for [AI Chessathon 2026](https://aichessathon.com), with a local harness that uses the same protocol and clock.
 
-The engine I submitted was Athena. This repository keeps the harness and an earlier engine. Athena's source and the packed archive are not in this git history.
+The engine I submitted was Athena. The archive is [`athena/agent.zip`](athena/agent.zip), and the same files are unpacked in [`athena/`](athena/). This repository also keeps the harness and an earlier engine.
 
 ## What was submitted
 
-Athena was packed on 11 September 2026. The archive is 434,399 bytes, SHA-256 `b39bd59af11eb6d1a2b3fccab8c8719d01a3ef3e565549cdaff8325b6ed30b21`, with `agent.py` at the root of the zip.
+Athena was packed on 11 September 2026. [`athena/agent.zip`](athena/agent.zip) is that archive: 434,399 bytes, SHA-256 `b39bd59af11eb6d1a2b3fccab8c8719d01a3ef3e565549cdaff8325b6ed30b21`, with `agent.py` at the root of the zip.
 
 `get_move(fen, time_left_ms)` receives the position as a FEN string and the remaining clock in milliseconds, and returns a move in UCI notation, such as `e2e4`. Athena checks a short opening book, then exact endgame tables for king and pawn versus king and for king and queen or rook versus king, then a Numba search. The evaluation uses PeSTO piece-square tables and a small network trained for this entry.
 
@@ -42,7 +42,7 @@ The repository root, including `agent.py`, is the contest starter. [`baselines/`
 
 The 40-game table is the earlier engine. These four opponents are a practice ladder from before that.
 
-`make zip` packages the starter at the repository root. The Linux archive I tested for the earlier engine is kept outside this repository. [`docs/STORM_V4.md`](docs/STORM_V4.md) describes that build.
+`make zip` packages the starter at the repository root. The uploaded archive is the file already stored at [`athena/agent.zip`](athena/agent.zip). The Linux archive I tested for the earlier engine is kept outside this repository. [`docs/STORM_V4.md`](docs/STORM_V4.md) describes that build.
 
 The official referee is included in [`harness/`](harness/). The version I used is recorded in [`lab/STARTER_SHA`](lab/STARTER_SHA).
 
@@ -87,6 +87,8 @@ python -m lab.storm.gates
 
 ```
 agent.py            starter entry point, get_move
+athena/agent.zip    the archive that was uploaded
+athena/             those same files, unpacked
 storm/              earlier engine, the 40-game match
 tempest_exact/      another engine copy, kept as its own record
 baselines/          random, greedy, minimax, and numba
