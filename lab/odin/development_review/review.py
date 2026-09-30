@@ -69,7 +69,7 @@ def main():
     game=chess.pgn.read_game(io.StringIO(row['pgn']))
     assert game is not None and not game.errors
     selected=None if args.plies is None else {int(s) for s in args.plies.split(',')}
-    exe=Path('C:/Users/finla/AppData/Local/ChessTK/analysis-tools/stockfish-19/stockfish/stockfish-windows-arm64-universal.exe')
+    exe=Path('stockfish')
     began=time.perf_counter()
     args.out.parent.mkdir(parents=True,exist_ok=True)
     with chess.engine.SimpleEngine.popen_uci(str(exe)) as engine,args.out.open('x',encoding='utf-8') as out:

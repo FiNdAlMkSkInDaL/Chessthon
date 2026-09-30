@@ -22,7 +22,7 @@ with zipfile.ZipFile(candidate) as z:
 assert {p.name:sha(p) for p in (ROOT/'tempest_exact').iterdir() if p.is_file()}==expected
 original=json.loads((HERE/'setup-manifest.json').read_text())['baseline']
 assert {p.name:sha(p) for p in (ROOT/'odin_v6').glob('*.py')}==original
-assert sha(DESKTOP/'agent.zip')==V6,'Desktop archive changed: do not overwrite a different user release'
+assert sha(DESKTOP/'agent.zip')==V6,'signer archive changed: do not overwrite a different user release'
 assert sha(DESKTOP/'Odin-v6.zip')==V6
 named=DESKTOP/'Tempest-r1.zip';assert not named.exists()
 shutil.copyfile(candidate,named);assert sha(named)==NEW
@@ -31,5 +31,5 @@ shutil.copyfile(candidate,temp);assert sha(temp)==NEW
 assert sha(DESKTOP/'agent.zip')==V6
 os.replace(temp,DESKTOP/'agent.zip')
 assert sha(DESKTOP/'agent.zip')==sha(named)==NEW
-report=dict(released_utc=datetime.now(timezone.utc).isoformat(),name='Tempest r1',source='tempest_exact',archive_sha256=NEW,previous_v6_sha256=V6,preserved='Desktop/Odin-v6.zip',desktop_files=['agent.zip','Tempest-r1.zip'],site_upload_performed=False,scope='Conservative rules and exact KQK/KRK improvement. No neural evaluator, general Elo claim, or new full-clock match. Current-rule short smoke plus exact-state proof and native deployment gates.',smoke=smoke)
+report=dict(released_utc=datetime.now(timezone.utc).isoformat(),name='Tempest r1',source='tempest_exact',archive_sha256=NEW,previous_v6_sha256=V6,preserved='signer/Odin-v6.zip',desktop_files=['agent.zip','Tempest-r1.zip'],site_upload_performed=False,scope='Conservative rules and exact KQK/KRK improvement. No neural evaluator, general Elo claim, or new full-clock match. Current-rule short smoke plus exact-state proof and native deployment gates.',smoke=smoke)
 (stage/'release.json').write_text(json.dumps(report,indent=2));print(json.dumps(report))

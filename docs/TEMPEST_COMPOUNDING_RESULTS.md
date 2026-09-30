@@ -1,6 +1,6 @@
 # Tempest compounding experiments — completed 6 September 2026
 
-**Desktop `agent.zip` remains Tempest r1.** Six complete development screens
+**the signer archive (not in git) remains Tempest r1.** Six complete development screens
 produced 96 games and 13,287 legally replayed plies. No tested search addition
 or bundle reached the predeclared 60% nomination threshold. The fresh
 confirmation families were not consumed, and no 112-game run was launched.
@@ -109,7 +109,7 @@ The initial gate launcher failed before importing an agent because direct
 script execution did not put the validation root on `sys.path`. Module
 execution fixed the launcher; the same packed archive passed the second
 attempt. Both attempts are retained. This is operational readiness evidence,
-not full-clock strength confirmation. No Desktop archive was replaced.
+not full-clock strength confirmation. No archive archive was replaced.
 
 ## New loss and the next useful research direction
 

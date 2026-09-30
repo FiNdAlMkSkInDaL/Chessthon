@@ -58,7 +58,7 @@ def main():
     assert game and not game.errors
     color=chess.WHITE if game.headers['White']=='Finlay Phillips' else chess.BLACK
     assert game.headers['White' if color else 'Black']=='Finlay Phillips'
-    executable=Path('C:/Users/finla/AppData/Local/ChessTK/analysis-tools/stockfish-19/stockfish/stockfish-windows-arm64-universal.exe')
+    executable=Path('stockfish')
     args.output_directory.mkdir(parents=True,exist_ok=True)
     outpath=args.output_directory/f'round-{args.round}-screen.jsonl'
     existing=[json.loads(s) for s in outpath.read_text(encoding='utf-8').splitlines()] if args.resume else []

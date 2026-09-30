@@ -1,1 +1,0 @@
-["lab/agamemnon_scale/match-value-scaling-4m-one/clock_match.py --candidate lab/agamemnon_scale/native-value-4m/value --baseline lab/agamemnon_scale/native-value-r1/value --cpu 0 --think-ms 500 --indices 0,1,2,3,4,5,6,7 --openings lab/odin/fast/generation-openings/screen.fen --output lab/agamemnon_scale/match-value-scaling-4m-one/lane0.jsonl"]

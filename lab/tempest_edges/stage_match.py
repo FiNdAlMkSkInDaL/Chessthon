@@ -13,7 +13,7 @@ plan=dict(games=16,pairs=8,indices=list(range(8)),think_ms=500,cpu=a.cpu,candida
     sources={d:{p.name:sha(p) for p in (ROOT/d).iterdir() if p.is_file() and p.suffix in ('.py','.npz')} for d in sources},
     opening_sha256=sha(openings),helpers_sha256={p.name:sha(p) for p in out.glob('*.py')},
     decision='Complete all 16 games regardless of score. Below 50% rejects further promotion testing; 50-60% inconclusive; at least 60% nominates confirmation. Used development families. No full-clock or Elo claim. All legal/reset/source/operational checks must pass.',
-    comparison='Addition against the narrower lazy-predicate stack, unless baseline explicitly names a later frozen stack. Desktop Tempest r1 is a separate eventual promotion control.')
+    comparison='Addition against the narrower lazy-predicate stack, unless baseline explicitly names a later frozen stack. signer Tempest r1 is a separate eventual promotion control.')
 (out/'plan.json').write_text(json.dumps(plan,indent=2))
 command=f'lab/tempest_edges/{a.name}/clock_match.py --candidate {sources[0]} --baseline {sources[1]} --cpu {a.cpu} --think-ms 500 --indices 0,1,2,3,4,5,6,7 --openings lab/odin/fast/generation-openings/screen.fen --output lab/tempest_edges/{a.name}/lane.jsonl'
 (out/'command.txt').write_text(command)

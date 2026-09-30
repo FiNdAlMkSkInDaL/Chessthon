@@ -1,1 +1,0 @@
-{"groups": 512, "moves": 14836, "uniform_crossentropy": 3.18042201720849, "choice": {"temperature": 1.0, "mix": 0.1, "development_crossentropy": 2.9111673196913204, "development_regret_cp": 456.9296875, "teacher_below_uniform": 0.3515625}, "control_regret_cp": {"pesto": 467.6796875, "neural": 453.9296875}}

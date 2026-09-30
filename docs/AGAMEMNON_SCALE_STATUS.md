@@ -3,7 +3,7 @@
 Completed6 September2026. User authorized large-scale pretraining, incremental learned
 evaluation and learned branch allocation, then explicitly requested more training
 while the learning curve improves. This is an implementation and experiment cycle.
-Desktop `agent.zip` remains Tempest r1, SHA256
+the signer archive (not in git) remains Tempest r1, SHA256
 `0ed607e21235046d239c05d5bcb735e48b919e3d6d83cd74fe543c134addf6e4`.
 
 ## Completed evidence
@@ -131,7 +131,7 @@ model fits. Policy fits and failed/pilot collections are separately preserved.
 The reusable public reader now checks a completed cache's hashes and returns
 without rewriting it. Its4,106,090-row cache passed this resumption audit.
 All local training jobs and Agamemnon VPS experiment services have completed.
-No112-game overnight job, new automation, site upload or Desktop replacement
+No112-game overnight job, new automation, site upload or archive replacement
 was created. The original sealed public blocks and12 fresh confirmation opening
 families remain unconsumed. Round41's Alien Gambit win is present in the repo;
 it was not used for this cycle's fitting or checkpoint selection.

@@ -96,8 +96,8 @@ def main():
     primary=report['match_audits']['primary']['statistics']
     guard=report['match_audits']['guard']['statistics']
     progress=ROOT/'docs/ODIN_RELEASE_PROGRESS.md'
-    notice=(f"# Odin v5 ready on Desktop\n\nApplied {report['applied_utc']}. "
-            f"Desktop `agent.zip` and `Odin-v5.zip` are the exact tested Linux archive, "
+    notice=(f"# Odin v5 ready outside git\n\nApplied {report['applied_utc']}. "
+            f"signer `agent.zip` and `Odin-v5.zip` are the exact tested Linux archive, "
             f"SHA-256 `{report['candidate']['sha256']}`. Storm/v3 backups are preserved. "
             f"Primary80: {primary['wins']}W/{primary['draws']}D/{primary['losses']}L, "
             f"score{primary['score']:.1%}, paired95% CI{primary['bootstrap']['score_ci']}. "

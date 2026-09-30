@@ -14,6 +14,6 @@
   "positions": 270,
   "maximum_absolute_correction_cp": 290,
   "make_unmake_edges": 130,
-  "engine": "C:\\Users\\finla\\OneDrive - University College London\\Desktop\\Chess TK\\dist\\storm-eval-r3",
+  "engine": "the repository root\\dist\\storm-eval-r3",
   "note": "Evaluation invariants only; no playing-strength or speed claim."
 }

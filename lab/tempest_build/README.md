@@ -7,7 +7,7 @@ Nothing in this lab is imported by the submission except the explicitly copied
 `endgame_exact.py` and the original generated `three_piece_dtm.npz` data.
 
 Use Python 3.12:
-`C:/Users/finla/AppData/Local/ChessTK/venv312/Scripts/python.exe`.
+`python`.
 Scripts that create experiment directories/logs use exclusive creation. Do not
 delete old evidence to rerun them; use a separate workspace/output copy.
 
@@ -62,9 +62,9 @@ delete old evidence to rerun them; use a separate workspace/output copy.
   game checks while adapting its historical intended-claim predicate in memory
   to the current official rule. No old audit source or evidence is rewritten.
 - `lab/odin/native_release/tempest-exact-r1/` (outside this directory): Linux
-  archive, native gate, member manifest, Desktop release record, full-clock
+  archive, native gate, member manifest, signer release record, full-clock
   smoke logs/audit. `promote_exact.py` checks archive/source identities and
-  preserves Odin v6 before atomically replacing Desktop `agent.zip`.
+  preserves Odin v6 before atomically replacing the signer archive (not in git).
 
 ## Useful reproduction commands
 
@@ -73,7 +73,7 @@ the completed experiments; existing output files intentionally prevent some
 from being repeated in place:
 
 ```powershell
-$py = 'C:/Users/finla/AppData/Local/ChessTK/venv312/Scripts/python.exe'
+$py = 'python'
 & $py -B lab/tempest_build/test_rules.py
 & $py -B lab/tempest_build/verify_three_piece.py
 & $py -B lab/tempest_build/test_exact_policy.py

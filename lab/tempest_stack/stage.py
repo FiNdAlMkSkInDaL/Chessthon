@@ -64,7 +64,7 @@ for c in cases:
 plan = dict(sources=sources, cases_sha256=sha(HERE/'cases.json'),
     variants=['narrow','lazy','packed','both'], repeats=2, nodes=200000,
     lanes={'a': ['narrow','lazy','packed','both'], 'b': ['both','packed','lazy','narrow']},
-    decision='Require identical legal move, score, depth and node count on every fixed-node run; stable ordering parity and perft must pass. Throughput is Linux development evidence, not Elo. A speed claim requires a positive geometric-mean effect in both lane orders, and deployment needs separate full-clock gates. No source or Desktop promotion in this experiment.',
+    decision='Require identical legal move, score, depth and node count on every fixed-node run; stable ordering parity and perft must pass. Throughput is Linux development evidence, not Elo. A speed claim requires a positive geometric-mean effect in both lane orders, and deployment needs separate full-clock gates. No source or archive promotion in this experiment.',
     scope='Used selected diagnostic roots, not independent tactical holdout. Two pinned Linux cores, mirrored candidate order. All trials complete regardless of timing.')
 (HERE/'plan.json').write_text(json.dumps(plan, indent=2))
 launch = '''#!/bin/bash

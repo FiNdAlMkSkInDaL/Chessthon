@@ -2,7 +2,7 @@
 
 Run this only after the exact final candidate has completed all prescribed
 evidence. The default is a dry run: it validates and writes a report, without
-changing Desktop ZIPs. `--apply` executes the same checks and copies the tested
+changing signer ZIPs. `--apply` executes the same checks and copies the tested
 bytes; it does not rebuild or upload anything.
 
 ```powershell
@@ -16,8 +16,8 @@ python -m lab.odin.promotion.promote `
   --report-dir lab/odin/promotion/reports/final
 ```
 
-Add `--apply` after the dry-run review. The default Desktop path is the workspace
-parent; `--desktop` can explicitly select the same actual Desktop directory.
+Add `--apply` after the dry-run review. The default signer path is the workspace
+parent; `--desktop` can explicitly select the same actual signer directory.
 
 Required checks:
 
@@ -36,7 +36,7 @@ Required checks:
   metadata, exactly one `agent.py`, no assets/binaries and less than50MB expanded
   content. Canonical source files must match those bytes exactly; generated
   `__pycache__/*.pyc` is ignored and never packaged.
-- Desktop `Storm-v4.zip` and `v3-agent.zip` must already match their known release
+- the signer archive (not in git) and `v3-agent.zip` must already match their known release
   hashes. An existing `agent.zip` must be original Storm or already the exact
   candidate. An existing `Odin-v5.zip` must already be the exact candidate.
 

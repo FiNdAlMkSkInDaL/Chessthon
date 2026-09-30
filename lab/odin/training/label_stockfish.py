@@ -14,7 +14,7 @@ import chess.engine
 ROOT = Path(__file__).resolve().parents[3]
 TRAINING = ROOT / "lab" / "odin" / "training"
 DEFAULT_ENGINE = Path(
-    r"C:\Users\finla\AppData\Local\ChessTK\analysis-tools\stockfish-19\stockfish\stockfish-windows-arm64-universal.exe"
+    r"stockfish"
 )
 
 

@@ -1,5 +1,5 @@
 {
-  "source": "C:\\Users\\finla\\OneDrive - University College London\\Desktop\\Chess TK\\odin_positional_cache",
+  "source": "the repository root\\odin_positional_cache",
   "base": "odin_positional",
   "scope": "Exact static value cache, not search result cache",
   "extra_bytes": 2883584,

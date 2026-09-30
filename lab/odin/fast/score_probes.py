@@ -12,7 +12,7 @@ for label in ('baseline','selective'):
     rows=[json.loads(s) for s in (HERE/f'probe-{label}.jsonl').read_text().splitlines()]
     assert rows[-1]['type']=='summary' and rows[-1]['verdict']=='PASS'
     data[label]={(r['id'],r['mode']):r for r in rows if r['type']=='probe'}
-exe=Path('C:/Users/finla/AppData/Local/ChessTK/analysis-tools/stockfish-19/stockfish/stockfish-windows-arm64-universal.exe')
+exe=Path('stockfish')
 records=[];cache={}
 with chess.engine.SimpleEngine.popen_uci(str(exe)) as engine,(HERE/'diagnostic-reference.jsonl').open('x') as log:
     engine.configure({'Threads':1,'Hash':64,'UCI_ShowWDL':True})

@@ -16,7 +16,7 @@ for gid in dict.fromkeys(r['game_id'] for r in rows):
     later=[r for r in eligible if r['ply']>first['ply']+3]
     if later:chosen.append(max(later,key=lambda r:r['loss_cp']))
 (H/'public-deep-plan.json').write_text(json.dumps({'keys':[r['key'] for r in chosen],'nodes':2000000,'selection':'Earliest >=80cp non-mate screen divergence, then largest later recoverable opportunity; ignore same-move reference disagreement.'},indent=2))
-exe='C:/Users/finla/AppData/Local/ChessTK/analysis-tools/stockfish-19/stockfish/stockfish-windows-arm64-universal.exe'
+exe='stockfish'
 with chess.engine.SimpleEngine.popen_uci(exe) as e,(H/'public-deep.jsonl').open('x') as out:
     e.configure({'Threads':1,'Hash':64,'UCI_ShowWDL':True})
     for r in chosen:

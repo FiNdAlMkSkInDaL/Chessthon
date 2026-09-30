@@ -1,6 +1,6 @@
 # Tempest: compound measured edges around the narrower search
 
-6 September 2026. Desktop remains released Tempest r1. This is an implementation
+6 September 2026. The signer archive remains released Tempest r1. This is an implementation
 sequence, not a claim that its proposed components are already stronger.
 
 ## What the promising result does and does not establish

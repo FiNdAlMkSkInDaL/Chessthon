@@ -44,5 +44,5 @@
     "Non-mutating checking-move tests and first/second-blocker pin detection",
     "Arithmetic-equivalent fused original fitted evaluation"
   ],
-  "strength_policy": "Choose on exact semantics and measured native throughput. Short equal-time games are development diagnostics. Only untouched112 full competition-clock games decide promotion; no automatic Desktop replacement."
+  "strength_policy": "Choose on exact semantics and measured native throughput. Short equal-time games are development diagnostics. Only untouched112 full competition-clock games decide promotion; no automatic archive replacement."
 }

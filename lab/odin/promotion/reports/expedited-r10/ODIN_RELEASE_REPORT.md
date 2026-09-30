@@ -8,4 +8,4 @@ The exact archive passed cold Linux import/protocol/perft/deadline gates,15 fift
 
 The user explicitly prioritized rapid iteration and ended the112-game plan after the current pairs. This is a practical release decision from promising evidence, **not a passed95% confidence gate**. The separate32-game original-Storm guard was cancelled. Original plans and interrupted logs are preserved without alteration. The magnitude of the strength gain and leaderboard impact remain uncertain.
 
-Desktop outputs, when applied: `agent.zip` and `Odin-v5.zip`. Original `Storm-v4.zip` and `v3-agent.zip` remain preserved. No site upload performed.
+signer outputs, when applied: `agent.zip` and `Odin-v5.zip`. Original `Storm-v4.zip` and `v3-agent.zip` remain preserved. No site upload performed.

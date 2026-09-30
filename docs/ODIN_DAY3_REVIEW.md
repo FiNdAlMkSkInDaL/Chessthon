@@ -1,8 +1,8 @@
 # Day 3 review — rounds 31–34, 6 September 2026
 
 The four supplied games were played by the user's reported Odin v5 upload.
-At receipt, Desktop `agent.zip` was verified as v5 (`c7d8972e…e21102`). The
-site exports do not embed an archive hash. **Desktop agent.zip has since been
+At receipt, the signer archive (not in git) was verified as v5 (`c7d8972e…e21102`). The
+site exports do not embed an archive hash. **the signer archive (not in git) has since been
 promoted to v6**, after its separate 112-game match passed; these Day 3 games
 must not be attributed to v6.
 

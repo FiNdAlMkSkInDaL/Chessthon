@@ -4,7 +4,7 @@
     "entry_count": 10,
     "private_snapshot_verified": true,
     "sha256": "3397e7a8ca55696bb8d7586a9c73cbeabc0c8b6f51b26cdc8c26562a37c91408",
-    "source_path": "C:\\Users\\finla\\OneDrive - University College London\\Desktop\\Chess TK\\dist\\agent-v3-linux-x86.zip",
+    "source_path": "the repository root\\dist\\agent-v3-linux-x86.zip",
     "uncompressed_bytes": 104239,
     "zip_bytes": 27138
   },
@@ -12,7 +12,7 @@
     "entry_count": 12,
     "private_snapshot_verified": true,
     "sha256": "15db92a79feff24cf52f5b85974f55504753f981823d7e6d92881fb62812e85c",
-    "source_path": "C:\\Users\\finla\\OneDrive - University College London\\Desktop\\Chess TK\\dist\\storm-r2-linux-x86.zip",
+    "source_path": "the repository root\\dist\\storm-r2-linux-x86.zip",
     "uncompressed_bytes": 121187,
     "zip_bytes": 33227
   },
@@ -80,7 +80,7 @@
     "competition_versions_match": true,
     "compiler": "MSC v.1943 64 bit (AMD64)",
     "errors": [],
-    "executable": "C:\\Users\\finla\\AppData\\Local\\ChessTK\\venv312\\Scripts\\python.exe",
+    "executable": "python",
     "implementation": "CPython",
     "machine": "ARM64",
     "os_platform": "Windows-11-10.0.26200-SP0",

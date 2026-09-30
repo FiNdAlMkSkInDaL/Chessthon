@@ -1,6 +1,6 @@
 # Tempest frontier research — 6 September 2026
 
-**Desktop release remains Tempest r1**, SHA-256
+**signer release remains Tempest r1**, SHA-256
 `0ed607e21235046d239c05d5bcb735e48b919e3d6d83cd74fe543c134addf6e4`.
 Nothing from this research has been promoted. Canonical released source remains
 `tempest_exact/`. Research lives in `lab/tempest_attack/`.

@@ -683,7 +683,7 @@
     "source": "tempest_exact",
     "archive_sha256": "0ed607e21235046d239c05d5bcb735e48b919e3d6d83cd74fe543c134addf6e4",
     "previous_v6_sha256": "cd3ed778f75ded38dd4371a56c285f6f66c1311464a093707d473d8a9d0c8647",
-    "preserved": "Desktop/Odin-v6.zip",
+    "preserved": "signer/Odin-v6.zip",
     "desktop_files": [
       "agent.zip",
       "Tempest-r1.zip"

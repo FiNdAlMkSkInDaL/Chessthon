@@ -19,7 +19,7 @@ board=chess.Board(case['start_fen'])
 for uci in case['history_uci']:
     board.push_uci(uci)
 assert board.fen()==case['fen']
-exe=Path('C:/Users/finla/AppData/Local/ChessTK/analysis-tools/stockfish-19/stockfish/stockfish-windows-arm64-universal.exe')
+exe=Path('stockfish')
 with chess.engine.SimpleEngine.popen_uci(str(exe)) as engine:
     pin_cpu4(engine.transport.get_pid())
     engine.configure({'Threads':1,'Hash':128,'UCI_ShowWDL':True})

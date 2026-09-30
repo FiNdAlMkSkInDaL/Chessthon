@@ -6,7 +6,7 @@ from lab.laptop_runner import apply_windows_affinity
 assert apply_windows_affinity(6)['applied']
 import chess,chess.pgn,chess.engine
 from lab.odin.new_games.review_new import reference
-EXE=Path('C:/Users/finla/AppData/Local/ChessTK/analysis-tools/stockfish-19/stockfish/stockfish-windows-arm64-universal.exe')
+EXE=Path('stockfish')
 ap=argparse.ArgumentParser();ap.add_argument('--mode',choices=['corpus','games','choices'],required=True);args=ap.parse_args()
 cases=json.loads((H/'corpus-v1.json').read_text());splits={r['game_id']:r for r in json.loads((H/'split-manifest.json').read_text())}
 if (H/'opponent-critical.json').exists():cases+=json.loads((H/'opponent-critical.json').read_text())

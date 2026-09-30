@@ -10,7 +10,7 @@ cases={c['id']:c for c in json.loads((H/'corpus-v1.json').read_text())}
 selected=[r for r in json.loads((H/'summary.json').read_text())['opponent_roots'] if r['player'] in ('ms','adashima') and r['actual_minus_v6_cp']>=30]
 baseline={r['id']:r for r in map(json.loads,(H/'baseline-probes.jsonl').read_text().splitlines()) if r.get('type')=='probe' and r['budget']==200000}
 (H/'opponent-advantages-plan.json').write_text(json.dumps(dict(ids=[r['id'] for r in selected],nodes=2000000,selection='All ms/adashima broad roots with >=30cp advantage over 200k-node v6; deepen unrestricted and both forced moves. This is selected diagnostic confirmation, not holdout testing.'),indent=2))
-exe='C:/Users/finla/AppData/Local/ChessTK/analysis-tools/stockfish-19/stockfish/stockfish-windows-arm64-universal.exe'
+exe='stockfish'
 with chess.engine.SimpleEngine.popen_uci(exe) as e,(H/'opponent-advantages.jsonl').open('x') as out:
     e.configure({'Threads':1,'Hash':64,'UCI_ShowWDL':True})
     for r in selected:

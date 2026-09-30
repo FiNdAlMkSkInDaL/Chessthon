@@ -6,7 +6,7 @@ from lab.odin.development_review.review import pin_cpu4
 from lab.odin.new_games.review_new import reference
 import chess,chess.engine
 pin_cpu4(os.getpid(),4)
-exe=Path('C:/Users/finla/AppData/Local/ChessTK/analysis-tools/stockfish-19/stockfish/stockfish-windows-arm64-universal.exe')
+exe=Path('stockfish')
 roots=json.loads((HERE/'selected-roots.json').read_text())
 with chess.engine.SimpleEngine.popen_uci(str(exe)) as e,(HERE/'deep-reference.jsonl').open('x',encoding='utf-8') as out:
     e.configure({'Threads':1,'Hash':64,'UCI_ShowWDL':True})

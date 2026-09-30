@@ -61,5 +61,5 @@ if args.promote:
     report['status']='RELEASED';report['desktop_agent']=str(desktop/'agent.zip')
     report['release_utc']=datetime.now(timezone.utc).isoformat()
     (STAGE/'odin-v6-release.json').write_text(json.dumps(report,indent=2)+'\n')
-    print('PROMOTED exact gated Linux Odin v6 ZIP to Desktop agent.zip; v5 preserved.',flush=True)
+    print('PROMOTED exact gated Linux Odin v6 ZIP to the signer archive (not in git); v5 preserved.',flush=True)
 else:(STAGE/'morning-telemetry-review.json').write_text(json.dumps(report,indent=2)+'\n')

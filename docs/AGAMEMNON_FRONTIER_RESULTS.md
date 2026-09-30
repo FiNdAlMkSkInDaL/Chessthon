@@ -1,6 +1,6 @@
 # Agamemnon frontier sandbox — completed 6 September 2026
 
-No candidate earned promotion. Tempest r1 remains the Desktop release. This cycle implemented and tested new architecture, objective, data and search-integration branches; it did not run new matches or claim a strength gain.
+No candidate earned promotion. Tempest r1 remains the signer release. This cycle implemented and tested new architecture, objective, data and search-integration branches; it did not run new matches or claim a strength gain.
 
 ## What the evidence says
 
@@ -90,4 +90,4 @@ Fourteen training fits completed: eight contextual/matched public+adaptation fit
 
 Current official documentation was re-fetched from [AI Chessathon docs](https://aichessathon.com/docs). Original trained weights and offline engine-labelled training are permitted; third-party engines and published chess-network weights remain excluded from submission. All transports here are research artifacts, not submission zips.
 
-Desktop `agent.zip` SHA256: `0ed607e21235046d239c05d5bcb735e48b919e3d6d83cd74fe543c134addf6e4`. Expected Tempest hash: `0ed607e21235046d239c05d5bcb735e48b919e3d6d83cd74fe543c134addf6e4`.
+the signer archive (not in git) SHA256: `0ed607e21235046d239c05d5bcb735e48b919e3d6d83cd74fe543c134addf6e4`. Expected Tempest hash: `0ed607e21235046d239c05d5bcb735e48b919e3d6d83cd74fe543c134addf6e4`.

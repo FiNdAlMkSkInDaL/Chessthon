@@ -67,8 +67,8 @@ Use time-only and search-only comparisons against v3 before interpreting their c
 From the repository root, using the already-installed Python 3.12 environment:
 
 ```powershell
-& 'C:\Users\finla\AppData\Local\ChessTK\venv312\Scripts\python.exe' lab/storm/analyze_games.py
-& 'C:\Users\finla\AppData\Local\ChessTK\venv312\Scripts\python.exe' lab/storm/fetch_leaderboard.py --offline
+& 'python' lab/storm/analyze_games.py
+& 'python' lab/storm/fetch_leaderboard.py --offline
 ```
 
 The first command replays every PGN, checks legal moves and final outcomes, compares the exact clocks and SAN against all companion logs, and regenerates:
@@ -141,7 +141,7 @@ The engineering implication is to measure both selective use of time and decisio
 Reproduce the numbers offline with:
 
 ```powershell
-& 'C:\Users\finla\AppData\Local\ChessTK\venv312\Scripts\python.exe' lab/storm/analyze_leader.py
+& 'python' lab/storm/analyze_leader.py
 ```
 
 The saved public HTML, retrieval metadata and SHA-256 hashes are in `lab/storm/soberjackson_*`. `soberjackson_round_13.pgn`, `_14.pgn` and `_15.pgn` preserve the visible PGN downloads; `soberjackson_moves.jsonl` contains every reconstructed decision and clock; `soberjackson_summary.json` records source URLs and computed aggregates. PGN player headers are placeholders, so player colour and opponent identity are checked against the public team table. The sample is exactly the three newest games at the recorded retrieval time, with no outcome-based selection.

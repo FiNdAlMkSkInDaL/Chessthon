@@ -7,7 +7,7 @@ if (Test-Path -LiteralPath $taskOut) { throw 'Reproduction output already exists
 New-Item -ItemType Directory -Path $taskOut | Out-Null
 Get-ChildItem -LiteralPath $PSScriptRoot -Filter '*.py' | Copy-Item -Destination $taskOut
 Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'public') -Destination (Join-Path $taskOut 'public') -Recurse
-$taskPython = 'C:\Users\finla\AppData\Local\ChessTK\venv312\Scripts\python.exe'
+$taskPython = 'python'
 function Invoke-Research([string]$Script, [string[]]$ResearchArgs = @()) {
     & $taskPython -B (Join-Path $taskOut $Script) @ResearchArgs
     if ($LASTEXITCODE -ne 0) { throw "Research step failed: $Script" }

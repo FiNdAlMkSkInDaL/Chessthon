@@ -1,11 +1,11 @@
 # Odin v6 released — 6 September 2026
 
-Historical release report. Desktop `agent.zip` was superseded by Tempest r1 on
+Historical release report. The signer archive (not in git) was superseded by Tempest r1 on
 6 September at 13:39 UTC; v6 remains preserved as `Odin-v6.zip`. See
 `TEMPEST_R1_RELEASE.md`. The match evidence below is unchanged.
 
-Desktop `agent.zip` now contains the exact tested Linux Odin v6 archive.
-An identical `Odin-v6.zip` is on Desktop; `Odin-v5.zip` remains preserved.
+That archive contained the exact tested Linux Odin v6 bytes.
+An identical `Odin-v6.zip` is outside git; `Odin-v5.zip` remains preserved.
 No site upload was performed. The four Day 3 PGNs received before this
 promotion correspond to the user's reported v5 upload, not this new release.
 
@@ -74,7 +74,7 @@ now preflights its audit imports before launching and explicitly passes the
 pinned path to the final audit subprocess. Frozen match sources were not edited.
 
 The Linux ZIP's 12 members were verified against the architecture manifest
-before atomic Desktop promotion. `odin-v6-release.json` records hashes,
+before atomic archive promotion. `odin-v6-release.json` records hashes,
 statistics, telemetry, authorization context and the release timestamp.
 
 ## Day 3 follow-up

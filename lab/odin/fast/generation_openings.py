@@ -12,7 +12,7 @@ used={r['opening_position_key'] for p in paths for r in [json.loads(s) for s in 
 known,_=known_positions();pool=[json.loads(s) for s in (ROOT/'lab/odin/release_openings/candidate-pool.jsonl').read_text().splitlines()]
 pool=sorted(pool,key=lambda r:hashlib.sha256(('odin-generation-'+r['id']).encode()).hexdigest())
 out=HERE/'generation-openings';out.mkdir(exist_ok=False)
-exe='C:/Users/finla/AppData/Local/ChessTK/analysis-tools/stockfish-19/stockfish/stockfish-windows-arm64-universal.exe'
+exe='stockfish'
 with chess.engine.SimpleEngine.popen_uci(exe) as engine,(out/'reference.jsonl').open('x') as log:
     engine.configure({'Threads':1,'Hash':64,'UCI_ShowWDL':True})
     for split,n in [('screen',3),('confirm',8)]:

@@ -8,7 +8,7 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DESKTOP_ZIP = Path.home() / "OneDrive - University College London" / "Desktop" / "agent.zip"
+ARCHIVE_ZIP = ROOT / "dist" / "agent.zip"
 
 GEN_NOISY_TAIL = """        unmake_nb(bb, mb, st, mv, undo)
     return n
@@ -183,7 +183,7 @@ def parent_zip(explicit: Path | None = None) -> Path:
         if not path.is_file():
             raise SystemExit(f"parent zip missing: {path}")
         return path
-    for path in (DESKTOP_ZIP, ROOT / "dist" / "agent.zip", ROOT / "dist" / "last-good.zip"):
+    for path in (ARCHIVE_ZIP, ROOT / "dist" / "agent.zip", ROOT / "dist" / "last-good.zip"):
         if path.is_file():
             return path
     raise SystemExit("no submitted agent.zip / dist/last-good.zip")

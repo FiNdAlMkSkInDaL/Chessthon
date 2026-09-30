@@ -1,7 +1,7 @@
 # Odin implementation status — 5 September 2026
 
-**Released 6 September:** the exact Odin v6 Linux ZIP is now Desktop
-`agent.zip`, after all112 games passed the frozen promotion gate. Current
+**Released 6 September:** the exact Odin v6 Linux ZIP is the signer archive
+(not in git), after all 112 games passed the frozen promotion gate. Current
 source: `odin_v6/`. See [ODIN_V6_RELEASE_REPORT.md](ODIN_V6_RELEASE_REPORT.md)
 and [ODIN_DAY3_REVIEW.md](ODIN_DAY3_REVIEW.md). Older status text below is
 retained as history, not the current release instruction.
@@ -9,14 +9,14 @@ retained as history, not the current release instruction.
 **Latest work:** Odin v6's architectural speedup is packed, natively gated and
 in a new 112-game overnight comparison against released v5. Read
 [ODIN_V6_MORNING_REVIEW.md](ODIN_V6_MORNING_REVIEW.md) before continuing.
-Desktop `agent.zip` remains v5 while that comparison runs.
+the signer archive (not in git) remains v5 while that comparison runs.
 
 **Superseded implementation snapshot.** Continued native testing found that
 the exact-history foundation below was weaker than Storm. Active release work,
 candidate hashes, jobs and pending gates are recorded in
 [ODIN_RELEASE_PROGRESS.md](ODIN_RELEASE_PROGRESS.md). The current prepared
 source is `odin_submission/`, based on the faster Storm search with original
-fitted positional evaluation. Desktop `agent.zip` is now Odin R10 after the
+fitted positional evaluation. the signer archive (not in git) is now Odin R10 after the
 user-authorized expedited16-game decision (9W/2D/5L, zero operational faults).
 The original112-game confidence plan was cancelled, not passed. Read the
 progress document and expedited release report before continuing.

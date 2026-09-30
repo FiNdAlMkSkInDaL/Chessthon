@@ -4,7 +4,7 @@ Read `AGAMEMNON_RESEARCH.md` and `lab/agamemnon/results.json` first. This is an
 architecture generation, explicitly authorized by the user. Earlier local
 prohibitions on neural experiments do not veto it; live competition rules do.
 Tempest r1 remains the release and control. Do not silently overwrite old lab
-sources, completed streams, Desktop archives or the official harness.
+sources, completed streams, signer archives or the official harness.
 
 ## Working assets
 

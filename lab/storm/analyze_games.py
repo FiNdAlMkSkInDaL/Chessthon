@@ -1,6 +1,6 @@
 """Reproduce clock/material forensics from day-one platform PGNs and logs.
 
-Run with the existing ChessTK Python 3.12 environment. No engine, external
+Run with the existing AI Chessathon Python 3.12 environment. No engine, external
 evaluation, network, or new dependencies are used. Material changes are
 diagnostic triggers, never centipawn-loss or best-move labels.
 """

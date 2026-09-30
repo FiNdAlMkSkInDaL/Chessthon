@@ -3,7 +3,7 @@
 Read `docs/TEMPEST_COMPOUNDING_RESULTS.md` when complete, and
 `docs/TEMPEST_ROUND39_REVIEW.md` for the new Gladiator loss.
 
-Frozen research only. Desktop Tempest r1 is unchanged unless a later explicit
+Frozen research only. signer Tempest r1 is unchanged unless a later explicit
 release record states otherwise. Never overwrite these sources or logs.
 
 - `plan.json`, `stage.py`, `prototypes/`: narrower control, queen/graded depth

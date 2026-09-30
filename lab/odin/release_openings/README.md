@@ -65,7 +65,7 @@ input to that complete run declaration, not a substitute for it.
 Reconstruction audit:
 
 ```powershell
-& "$env:LOCALAPPDATA\ChessTK\venv312\Scripts\python.exe" `
+& "python" `
   "lab/odin/release_openings/audit.py"
 ```
 

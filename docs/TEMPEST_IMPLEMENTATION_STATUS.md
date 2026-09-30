@@ -1,6 +1,6 @@
 # Tempest implementation — 6 September 2026
 
-**Tempest r1 is now on Desktop** as `agent.zip` and `Tempest-r1.zip`, SHA-256
+**Tempest r1 is now outside git** as `agent.zip` and `Tempest-r1.zip`, SHA-256
 `0ed607e21235046d239c05d5bcb735e48b919e3d6d83cd74fe543c134addf6e4`.
 Odin v6 remains preserved as `Odin-v6.zip`. No site upload was performed.
 Canonical source is **`tempest_exact/`**. `tempest/` is the rules-only fallback.
@@ -24,7 +24,7 @@ also excluded. Full details and current validation: `TEMPEST_R1_RELEASE.md`.
   SHA-256 `843bc61c63fd5c30ab39d7ed5065f598203e6ae744579dacd8fa491f26e9eade`.
   Native gate PASS, structural cold import 32.703s, protocol cold import
   33.970s, extracted-source/resource/deadline gates passed. This is a fallback
-  artifact, not an established playing-strength improvement or Desktop release.
+  artifact, not an established playing-strength improvement or signer release.
 
 The first remote gate invocation lacked the workspace import path and failed
 before launching agents. The rerun used the module entrypoint and explicit

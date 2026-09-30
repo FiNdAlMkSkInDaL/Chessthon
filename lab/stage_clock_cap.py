@@ -1,7 +1,7 @@
 """Stage remaining_our cap variants from the submitted zip.
 
 One variable: the cap on remaining_our. No dynamic ID, no HEAD stew.
-Parent default: Desktop agent.zip (byte-identical to signer last-good).
+Parent default: the signer archive (not in git) (byte-identical to signer last-good).
 """
 
 from __future__ import annotations
@@ -12,7 +12,7 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DESKTOP_ZIP = Path.home() / "OneDrive - University College London" / "Desktop" / "agent.zip"
+ARCHIVE_ZIP = ROOT / "dist" / "agent.zip"
 REPO_ZIP = ROOT / "dist" / "agent.zip"
 ANCHOR = "    remaining_our = _clamp((PLY_CAP - game_ply + 1) // 2, 1, 40)\n"
 
@@ -35,7 +35,7 @@ def parent_zip(explicit: Path | None = None) -> Path:
         if not path.is_file():
             raise SystemExit(f"parent zip missing: {path}")
         return path
-    for path in (DESKTOP_ZIP, REPO_ZIP, ROOT / "dist" / "last-good.zip"):
+    for path in (ARCHIVE_ZIP, REPO_ZIP, ROOT / "dist" / "last-good.zip"):
         if path.is_file():
             return path
     raise SystemExit("no submitted agent.zip / dist/last-good.zip")
@@ -94,7 +94,7 @@ def main() -> None:
         "--parent",
         type=Path,
         default=None,
-        help="zip to unpack (signer: dist/last-good.zip). Default: Desktop zip then repo.",
+        help="zip to unpack (signer: dist/last-good.zip). Default: the signer archive then repo.",
     )
     parser.add_argument(
         "--only",

@@ -1,6 +1,6 @@
 # Tempest attack and move-ordering research
 
-Read `docs/TEMPEST_FRONTIER_RESEARCH.md` from the workspace root. Desktop
+Read `docs/TEMPEST_FRONTIER_RESEARCH.md` from the workspace root. signer
 `agent.zip` is still released Tempest r1; nothing here is promoted.
 
 - `features.py`, `fit.py`, `fit/`: original attack-coordination residual,

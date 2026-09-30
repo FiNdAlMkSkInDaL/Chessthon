@@ -374,7 +374,7 @@ a guarantee of first place, and it does not identify private opponent methods.
 Run with the project's Python 3.12 environment:
 
 ```powershell
-& 'C:/Users/finla/AppData/Local/ChessTK/venv312/Scripts/python.exe' -m lab.odin.holdout_review
+& 'python' -m lab.odin.holdout_review
 ```
 
 `lab/odin/holdout_review.py` writes `lab/odin/holdout_review.json`, including

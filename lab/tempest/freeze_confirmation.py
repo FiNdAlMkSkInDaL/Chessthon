@@ -28,7 +28,7 @@ def main():
     poolpath=R/'lab/odin/release_openings/candidate-pool.jsonl';pool=[json.loads(s) for s in poolpath.read_text().splitlines()];pool.sort(key=lambda r:hashlib.sha256(('tempest-confirm-v1'+r['id']).encode()).hexdigest())
     plan=dict(seed='tempest-confirm-v1',quota={'e4':4,'d4':4,'flank':4},max_abs_cp=80,nodes=100000,pool_sha256=hashlib.sha256(poolpath.read_bytes()).hexdigest(),excluded_families=len(used),known_positions=len(known),exclusion_files=exclusions,purpose='12 paired confirmation openings for a future frozen candidate. Not sufficient for decisive promotion. No engine/candidate searches conducted here; labels used only to balance starts.')
     (out/'plan.json').write_text(json.dumps(plan,indent=2));selected=[];counts=collections.Counter()
-    exe='C:/Users/finla/AppData/Local/ChessTK/analysis-tools/stockfish-19/stockfish/stockfish-windows-arm64-universal.exe'
+    exe='stockfish'
     with chess.engine.SimpleEngine.popen_uci(exe) as e,(out/'balance.jsonl').open('x') as log:
         e.configure({'Threads':1,'Hash':64})
         for r in pool:

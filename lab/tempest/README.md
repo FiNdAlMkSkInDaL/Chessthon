@@ -4,27 +4,27 @@ Read `docs/TEMPEST_RD_REPORT.md` and `docs/TEMPEST_BUILD_SPEC.md` in the workspa
 
 ## Reproduce without overwriting evidence
 
-From the Chess TK workspace, run:
+From the AI Chessathon workspace, run:
 
 ```powershell
 & '.\lab\tempest\reproduce.ps1'
 ```
 
-This creates a new sibling `lab/tempest_repro_TIMESTAMP/`, copies scripts and the frozen public snapshots, and reruns the research sequentially. It refuses an existing output directory. It uses `C:\Users\finla\AppData\Local\ChessTK\venv312\Scripts\python.exe` and the authorized local Stockfish 19 ARM64 binary. It requires the unchanged `odin_v6/`, prior Odin lab helpers, original quiet labels/matrix/weights and release/game evidence still in this workspace. No network is required when all saved snapshots are present. Fresh public acquisition is a distinct operation (`acquire.py` in a new sibling research directory), because the site has moved on.
+This creates a new sibling `lab/tempest_repro_TIMESTAMP/`, copies scripts and the frozen public snapshots, and reruns the research sequentially. It refuses an existing output directory. It uses `python` and the authorized local Stockfish 19 ARM64 binary. It requires the unchanged `odin_v6/`, prior Odin lab helpers, original quiet labels/matrix/weights and release/game evidence still in this workspace. No network is required when all saved snapshots are present. Fresh public acquisition is a distinct operation (`acquire.py` in a new sibling research directory), because the site has moved on.
 
 The original runs used independent CPU-affined workers: search 4, reference 6, extra search/model experiments 8. Reproduction is sequential to avoid timing contention. Node-budget results should be compared on move, completed depth, score and node count; exact wall times and wall-budget choices can vary. Python 3.14 is not the runtime of record. Local ARM results are not Linux deployment compliance.
 
 To regenerate summaries only, preserving raw data:
 
 ```powershell
-& 'C:\Users\finla\AppData\Local\ChessTK\venv312\Scripts\python.exe' -B '.\lab\tempest\summarize.py'
-& 'C:\Users\finla\AppData\Local\ChessTK\venv312\Scripts\python.exe' -B '.\lab\tempest\finalize.py'
+& 'python' -B '.\lab\tempest\summarize.py'
+& 'python' -B '.\lab\tempest\finalize.py'
 ```
 
 Individual bounded commands used in the original output directory (most outputs use exclusive creation; use the reproduction directory for another run):
 
 ```powershell
-$py = 'C:\Users\finla\AppData\Local\ChessTK\venv312\Scripts\python.exe'
+$py = 'python'
 & $py -B lab/tempest/acquire.py
 & $py -B lab/tempest/prepare.py
 & $py -B lab/tempest/run_probes.py

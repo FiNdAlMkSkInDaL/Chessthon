@@ -1,2 +1,0 @@
-lab/agamemnon_scale/data-r2/x.npy filter=lfs diff=lfs merge=lfs -text
-lab/agamemnon_scale/data/x.npy filter=lfs diff=lfs merge=lfs -text

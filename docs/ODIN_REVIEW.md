@@ -8,7 +8,7 @@ assignment is `ODIN_BUILD_BRIEF.md`; the revised continuation prompt is
 `STORM_CONTINUATION_PROMPT.md`.
 
 This review changed documentation and analysis tools only. Storm's deployed
-source and Desktop `agent.zip` are unchanged. Odin has not been implemented,
+source and the signer archive (not in git) are unchanged. Odin has not been implemented,
 tested as a playing agent, or submitted.
 
 ## Scope and evidence

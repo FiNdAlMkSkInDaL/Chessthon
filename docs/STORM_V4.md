@@ -1,21 +1,15 @@
 # Storm v4 development and validation
 
-**5 September follow-up:** Storm's first ten site games and all native v3
-matches are now reviewed in `ODIN_REVIEW.md`. The updated continuation prompt
-assigns the successor **Odin**. The live referee now draws at 600 total plies,
-including the opening; references below to 300-ply material adjudication
-describe the historical Storm build/tests. Storm source and release bytes
-were preserved; the Odin implementation brief specifies the required fixes.
+**5 September follow-up:** Storm's first ten site games and the native v3
+match are reviewed in `ODIN_REVIEW.md`. The successor work is Odin. The live
+referee now draws at 600 total plies, including the opening; references below
+to 300-ply material adjudication describe the historical Storm build and tests.
+Storm source was preserved.
 
-Started 4 September 2026 under the user's explicit authorization to reopen the
-engine design. **Storm v4 was promoted on 5 September after its fixed native
-holdout passed.** At the user's request on 5 September, Desktop `agent.zip`
-became the official Storm v4 upload file, byte-identical to Desktop
-`Storm-v4.zip` and `dist/agent-storm-v4-linux-x86.zip`. The former Desktop
-`agent.zip` was renamed to `v3-agent.zip`, preserving the exact v3 baseline.
-All desktop archive identities were verified after the rename/copy.
-No platform submission was performed here; the user handles that step.
-See `STORM_CONTINUATION_PROMPT.md` for the next development session.
+Started 4 September 2026. **Storm v4 was promoted on 5 September after its
+fixed native holdout passed.** The tested Linux archive is the signer output
+identified in the native-release section below. It is not in git. No platform
+submission was performed from this repository.
 
 ## Design
 
@@ -98,9 +92,9 @@ Full record: `lab/storm/native-efficiency-r2-v3.json`.
 
 ## Native release: Storm v4, revision r2
 
-Archive: `dist/agent-storm-v4-linux-x86.zip`. It is byte-identical to the frozen
-`dist/storm-r2-linux-x86.zip`; the Windows delivery step only copied those
-Linux-built bytes.
+The tested archive is the Linux signer output identified by the hash below.
+It is not in git. `dist/` stays ignored. A later copy step did not rebuild
+those bytes.
 
 SHA-256: `15db92a79feff24cf52f5b85974f55504753f981823d7e6d92881fb62812e85c`.
 
@@ -182,7 +176,7 @@ the match gain.
 
 Evidence: `lab/storm/holdout-r2-audit.json`, `holdout-r2-summary.json`, both
 `holdout-r2-lane-*.jsonl` logs, and `docs/STORM_MATCH_EVIDENCE_REVIEW.md`.
-Delivery metadata: `dist/agent-storm-v4-linux-x86.release.json`.
+The signer delivery metadata is not in git.
 
 Final analysis must include only the two full-clock holdout logs, not the
 short-clock screen. The paired statistics helper does not itself validate
