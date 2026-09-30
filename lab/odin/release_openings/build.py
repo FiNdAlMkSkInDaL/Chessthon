@@ -21,7 +21,7 @@ import chess.pgn
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
 TRAIN = ROOT / "lab/odin/training/corpus-20k.jsonl"
-ENGINE = Path(r"C:\Users\finla\AppData\Local\ChessTK\analysis-tools\stockfish-19\stockfish\stockfish-windows-arm64-universal.exe")
+ENGINE = Path(r"stockfish")
 SEED = "odin-release-openings-20260905-v1"
 NODES = 200_000
 QUOTAS = {"development": {"e4": 3, "d4": 3, "flank": 2},

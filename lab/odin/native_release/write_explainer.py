@@ -116,7 +116,7 @@ rules-corrected Storm, with zero operational failures; every game passed legal
 replay, clock, source and resource checks. The native correctness/runtime gates
 also passed. This does not establish a precise win rate or satisfy the cancelled
 95% confidence criterion. The separate original-Storm32-game guard was not run.
-Desktop `agent.zip` is the exact tested Linux ZIP; Storm and v3 are preserved.
+signer `agent.zip` is the exact tested Linux ZIP; Storm and v3 are preserved.
 The complete decision and evidence are in the expedited release report.
 '''
 (ROOT/'docs/ODIN_AGENT_EXPLAINER.md').write_text(document,encoding='utf-8')

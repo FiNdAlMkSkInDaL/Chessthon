@@ -12,5 +12,5 @@ Read `docs/TEMPEST_COMPOUNDING_PLAN.md` at the workspace root.
 
 All checks passed. Lazy predicate timing improved about 2.2% in this selected
 12-root development suite; the two optimizations together did not beat lazy
-alone. This is not playing-strength evidence, and no Desktop release changed.
+alone. This is not playing-strength evidence, and no signer release changed.
 Do not overwrite these sources or outputs to run another experiment.

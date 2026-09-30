@@ -20,7 +20,7 @@ pool=sorted(pool,key=order)
 pool=[r for r in pool if ('screen' if int(order(r),16)%4==0 else 'overnight')==args.split]
 quota={'e4':8,'d4':8,'flank':8} if args.split=='screen' else {'e4':20,'d4':20,'flank':16}
 counts={k:0 for k in quota};selected=[]
-exe=Path('C:/Users/finla/AppData/Local/ChessTK/analysis-tools/stockfish-19/stockfish/stockfish-windows-arm64-universal.exe')
+exe=Path('stockfish')
 out=HERE/f'{args.split}-openings';out.mkdir(exist_ok=False)
 with chess.engine.SimpleEngine.popen_uci(str(exe)) as engine,(out/'reference.jsonl').open('x',encoding='utf-8') as log:
     engine.configure({'Threads':1,'Hash':64,'UCI_ShowWDL':True})

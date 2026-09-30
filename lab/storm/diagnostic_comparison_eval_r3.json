@@ -1,6 +1,6 @@
 {
   "engine": "storm-eval-r3",
-  "directory": "C:\\Users\\finla\\OneDrive - University College London\\Desktop\\Chess TK\\dist\\storm-eval-r3",
+  "directory": "the repository root\\dist\\storm-eval-r3",
   "cpu": 6,
   "source_sha256": {
     "agent.py": "8b35dfa0a13357fff7eec60abfa7b5347ceb0613ecd0aeb40f25cee7588bd13f",

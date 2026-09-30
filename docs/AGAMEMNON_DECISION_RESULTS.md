@@ -105,11 +105,11 @@ The settled primary preference fit's epoch128 conditional regret52.32cp and old-
 
 Replay25 is frozen as the sole current confirmation nominee in `CONFIRMATION_PLAN.md`. It has been packed on Linux as `a72338865851743b0f50ce2796c20eb3c3cc88f66c2e91c83e970e83fa36b58c`; every source/data member matches its development worker manifest. The exact-archive native/protocol/resource gate passed: structural cold35.319s, official-runner protocol cold34.352s, six perft cases, deadline/cap/history probes, legal protocol responses and enforced CPU/RAM/no-IP-socket-creation checks. Known signer limitations remain documented in the gate.
 
-The bounded plan now uses all12 reserved opening families, both colours,24 full120s+0.5s games and fresh processes. Target: score>=55%, paired95% lower bound>50%, zero faults. Plan SHA256 `fd0279a83a3ed6ebfa887dabbb2c3d282d7f811f0f80ca6149e59e9d48137a16`. These families are now consumed for independent confirmation. This is separate from a112-game release guard, and never automatically promotes Desktop.
+The bounded plan now uses all12 reserved opening families, both colours,24 full120s+0.5s games and fresh processes. Target: score>=55%, paired95% lower bound>50%, zero faults. Plan SHA256 `fd0279a83a3ed6ebfa887dabbb2c3d282d7f811f0f80ca6149e59e9d48137a16`. These families are now consumed for independent confirmation. This is separate from a112-game release guard, and never automatically promotes an archive.
 
 ## Release and continuation
 
-No release is nominated yet. The320 sealed roots remain unopened. The12 reserved confirmation families are now assigned to the frozen replay25 test and must not be called unused in future work. Desktop `agent.zip` remains Tempest r1, SHA256 `0ed607e21235046d239c05d5bcb735e48b919e3d6d83cd74fe543c134addf6e4`. Canonical `tempest_exact/` and the official harness are unchanged. Transport zips are research artifacts, not upload archives.
+No release is nominated yet. The320 sealed roots remain unopened. The12 reserved confirmation families are now assigned to the frozen replay25 test and must not be called unused in future work. the signer archive (not in git) remains Tempest r1, SHA256 `0ed607e21235046d239c05d5bcb735e48b919e3d6d83cd74fe543c134addf6e4`. Canonical `tempest_exact/` and the official harness are unchanged. Transport zips are research artifacts, not upload archives.
 
 The live [AI Chessathon documentation](https://aichessathon.com/docs) was checked this turn: original models and offline engine-labelled training are permitted; published networks, third-party engine ports and runtime engine-answer databases remain excluded. All new model implementations and weights here are original; Stockfish is confined to offline research.
 

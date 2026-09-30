@@ -10,7 +10,7 @@ The implementation specification is [TEMPEST_BUILD_SPEC.md](TEMPEST_BUILD_SPEC.m
 
 ## Baseline, scope and preservation
 
-Desktop `agent.zip` and `Odin-v6.zip` were both verified against SHA-256 `cd3ed778f75ded38dd4371a56c285f6f66c1311464a093707d473d8a9d0c8647`. `odin_v6/` is the source of record; `odin_submission/` is not the baseline. All release files, old reports, pinned harness files, stop markers and archives were preserved. No promotion, upload, purchase, message to another person or VPS service change occurred.
+the signer archive (not in git) and `Odin-v6.zip` were both verified against SHA-256 `cd3ed778f75ded38dd4371a56c285f6f66c1311464a093707d473d8a9d0c8647`. `odin_v6/` is the source of record; `odin_submission/` is not the baseline. All release files, old reports, pinned harness files, stop markers and archives were preserved. No promotion, upload, purchase, message to another person or VPS service change occurred.
 
 The prior 112-game result remains **30W/69D/13L, 57.59%, paired 95% interval 52.23–62.95%, zero operational failures** under its recorded referee. Its repaired Linux/local audits are authoritative; the original automatic import error remains preserved. It is not evidence from an untouched current-rules holdout. Replaying all **14,743 plies** against the new terminal predicate shows that **all 63 threefold/fifty-move draws would still be live at their recorded final position**. This does not turn them into wins or losses, invalidate their original result, or tell us what the next move would have been.
 

@@ -1,4 +1,4 @@
-"""Search and TT-continuation diagnostics; source isolated from Desktop release.
+"""Search and TT-continuation diagnostics; source isolated from signer release.
 
 TT continuations after an aborted iteration are not certified completed PVs.
 Record bounds/depths explicitly; reference-check their choices separately.

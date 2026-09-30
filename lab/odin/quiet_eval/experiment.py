@@ -16,7 +16,7 @@ import chess.engine
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
 CORPUS = ROOT / "lab/odin/training/corpus-20k.jsonl"
-ENGINE = Path(r"C:\Users\finla\AppData\Local\ChessTK\analysis-tools\stockfish-19\stockfish\stockfish-windows-arm64-universal.exe")
+ENGINE = Path(r"stockfish")
 NODES = 100_000
 MAX_LEAF_PLY = 12
 SEED = "odin-quiet-eval-20260905-v1"

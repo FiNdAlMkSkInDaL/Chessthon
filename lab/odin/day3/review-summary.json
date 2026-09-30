@@ -1,5 +1,5 @@
 {
-  "source_version_at_receipt": "Desktop agent.zip was verified as Odin v5 c7d8972e...e21102; user says these games came from that submission. Site exports do not independently embed an archive SHA.",
+  "source_version_at_receipt": "the signer archive (not in git) was verified as Odin v5 c7d8972e...e21102; user says these games came from that submission. Site exports do not independently embed an archive SHA.",
   "day3_games": [
     {
       "round": 31,

@@ -88,7 +88,7 @@
       }
     ]
   },
-  "canonical_source": "C:\\Users\\finla\\OneDrive - University College London\\Desktop\\Chess TK\\odin_submission",
+  "canonical_source": "the repository root\\odin_submission",
   "original_plan_sha256": "26551be568a8e2fc7eaeb60530fd2c3934c86c8056021c7db840e7414c686734",
   "operational": {
     "verdict": "PASS",

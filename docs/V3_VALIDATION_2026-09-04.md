@@ -22,14 +22,14 @@ This file records evidence for future engine work. The competition logs and PGNs
 Release packaging status: **PASS**. The strength-tested Windows archive was unpacked and repacked on the Linux x86-64 signer, then the exact final archive was re-extracted and tested. The ten per-entry source hashes match `dist/core-repairs-v3.zip` and `dist/node-budget-fix` exactly; every final member has Unix creator metadata and `agent.py` is at the archive root.
 
 - Final release: `dist/agent-v3-linux-x86.zip`
-- Final/Desktop SHA-256: `3397e7a8ca55696bb8d7586a9c73cbeabc0c8b6f51b26cdc8c26562a37c91408`
+- Final SHA-256: `3397e7a8ca55696bb8d7586a9c73cbeabc0c8b6f51b26cdc8c26562a37c91408`
 - Size: 27,138 bytes compressed; 104,239 bytes uncompressed; ten source files only.
 - Native signer identity: Linux x86-64, Python 3.12, chess 1.11.2, NumPy 2.5.2, Numba 0.67.0.
 - Exact-archive hot-path warm-up: 24.61 seconds; Numba perft/search regressions passed.
 - Exact-archive cold runner ready: 24.47 seconds against the live 60-second init limit.
 - Protocol roots: legal moves passed for start, castling, en-passant, and promotion positions.
 - Signer envelope: CPU pinned to one core, 100% CPU quota, 2 GiB hard memory, no swap, 128-task limit, internet socket families blocked, and extracted submission files read-only. The VPS lacks Docker/user mount namespaces, so a global read-only root and aggregate 256 MiB `/tmp` mount were not available; this agent does not write caches or submission data.
-- Desktop promotion: `agent.zip` is byte-identical to the final release. The previous deployed ZIP is preserved as `agent.pre-v3-FBB10AD7475.zip`.
+- archive promotion: `agent.zip` is byte-identical to the final release. The previous deployed ZIP is preserved as `agent.pre-v3-FBB10AD7475.zip`.
 
 Measured clock use across the 40 games:
 

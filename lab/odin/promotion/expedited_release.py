@@ -101,7 +101,7 @@ def write(report):
           "This is a practical release decision from promising evidence, **not a passed95% confidence gate**. "
           "The separate32-game original-Storm guard was cancelled. Original plans and interrupted logs are preserved without alteration. "
           "The magnitude of the strength gain and leaderboard impact remain uncertain.\n\n"
-          "Desktop outputs, when applied: `agent.zip` and `Odin-v5.zip`. Original `Storm-v4.zip` and `v3-agent.zip` remain preserved. No site upload performed.\n")
+          "signer outputs, when applied: `agent.zip` and `Odin-v5.zip`. Original `Storm-v4.zip` and `v3-agent.zip` remain preserved. No site upload performed.\n")
     (OUT/'ODIN_RELEASE_REPORT.md').write_text(text,encoding='utf-8')
 
 def main():

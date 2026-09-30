@@ -1,10 +1,10 @@
 # Tempest r1 — conservative referee and exact-endgame release
 
-Desktop `agent.zip` and `Tempest-r1.zip` contain the exact Linux-packed archive:
+The tested Linux archive is not in git. Its SHA-256 is:
 
 `0ed607e21235046d239c05d5bcb735e48b919e3d6d83cd74fe543c134addf6e4`
 
-Odin v6 is preserved as Desktop `Odin-v6.zip`, hash beginning `cd3ed778`.
+Odin v6 is preserved outside git, hash beginning `cd3ed778`.
 No website upload was performed. Canonical source: `tempest_exact/`.
 Archive/evidence: `lab/odin/native_release/tempest-exact-r1/`.
 The separate `tempest/` directory remains the rules-only fallback.
@@ -69,7 +69,7 @@ not cycle. Other material configurations continue through the existing engine.
 These small match samples are **not reliable Elo estimates** and are not
 pooled with each other or old v6–v5 games. The exact-state proof supports the
 specific endgame improvement; it does not establish a general strength leap.
-The two full-clock games completed after Desktop staging and before handoff.
+The two full-clock games completed after the archive was staged and before handoff.
 
 In the round-35 queen-ending position before move 79, the table proves mate
 within **11 plies** against optimal defense. A separate fixed-50k-node v6-based

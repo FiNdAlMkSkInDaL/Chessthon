@@ -53,5 +53,5 @@ command=[sys.executable,'-B','-m','lab.odin.release.validate_match','--plan',str
 result=subprocess.run(command,capture_output=True,text=True,
                       env={**os.environ,'PYTHONPATH':os.pathsep.join((str(PINNED),str(ROOT)))})
 (out/'audit.stdout').write_text(result.stdout);(out/'audit.stderr').write_text(result.stderr)
-(out/'COMPLETE.json').write_text(json.dumps({'utc':datetime.now(timezone.utc).isoformat(),'audit_exit_code':result.returncode,'automatic_promotion':False,'note':'Read final-audit.json and review operational evidence before changing Desktop agent.zip.'},indent=2)+'\n')
+(out/'COMPLETE.json').write_text(json.dumps({'utc':datetime.now(timezone.utc).isoformat(),'audit_exit_code':result.returncode,'automatic_promotion':False,'note':'Read final-audit.json and review operational evidence before changing the signer archive (not in git).'},indent=2)+'\n')
 raise SystemExit(result.returncode)

@@ -242,7 +242,7 @@ def main() -> None:
     summary = {
         "ts": utc(),
         "note": "Laptop ARM/3.14. Elo is a liar. Use flags + think_ms vs first_soft_ms.",
-        "parent": "Desktop agent.zip / last-good (SEE+clock-floor), remaining_our cap only.",
+        "parent": "the signer archive (not in git) / last-good (SEE+clock-floor), remaining_our cap only.",
         "banks": banks,
         "soaks": soaks,
         "probes": probes,

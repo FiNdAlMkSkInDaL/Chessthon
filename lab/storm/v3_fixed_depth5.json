@@ -1,5 +1,5 @@
 {
-  "engine": "C:\\Users\\finla\\OneDrive - University College London\\Desktop\\Chess TK\\dist\\node-budget-fix",
+  "engine": "the repository root\\dist\\node-budget-fix",
   "depth": 5,
   "count": 32,
   "nodes": 727795,

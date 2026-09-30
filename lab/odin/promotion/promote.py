@@ -182,7 +182,7 @@ def validate_gate(gate,manifest,plan):
 
 def validate_desktop(desktop,candidate_sha):
     desktop=Path(desktop).resolve()
-    need(desktop.is_dir(),'Desktop directory is missing')
+    need(desktop.is_dir(),'signer directory is missing')
     checks={}
     for name,expected in [('Storm-v4.zip',STORM_SHA),('v3-agent.zip',V3_SHA)]:
         path=desktop/name

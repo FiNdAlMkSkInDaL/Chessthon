@@ -7,7 +7,7 @@ import chess, chess.engine, chess.pgn
 from lab.odin.development_review.review import pin_cpu4
 from lab.odin.reference_review import score_info
 
-EXE=Path('C:/Users/finla/AppData/Local/ChessTK/analysis-tools/stockfish-19/stockfish/stockfish-windows-arm64-universal.exe')
+EXE=Path('stockfish')
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def terminal(b):
     outcome=b.outcome()

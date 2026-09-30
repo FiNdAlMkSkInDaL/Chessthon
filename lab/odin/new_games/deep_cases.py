@@ -29,7 +29,7 @@ probes=[]
 if args.odin:
     probes=[json.loads(s) for s in args.probes.read_text(encoding='utf-8').splitlines()]
     assert probes[-1]['type']=='summary' and probes[-1]['verdict']=='PASS'
-exe=Path('C:/Users/finla/AppData/Local/ChessTK/analysis-tools/stockfish-19/stockfish/stockfish-windows-arm64-universal.exe')
+exe=Path('stockfish')
 outpath=args.output or HERE/f"round-{args.round}-deep{'-odin' if args.odin else ''}.jsonl"
 existing=[json.loads(s) for s in outpath.read_text(encoding='utf-8').splitlines()] if args.resume else []
 if args.resume:

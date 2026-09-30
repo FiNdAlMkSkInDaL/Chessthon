@@ -10,7 +10,7 @@ demonstrated leap in playing strength or proof of the highest possible ceiling.
 
 The first cycle completed **100 training fits**, Linux inference experiments,
 native search integration, and an exact incremental evaluation implementation.
-Desktop `agent.zip` remains the tested Tempest r1.
+the signer archive (not in git) remains the tested Tempest r1.
 
 ## What the leader evidence actually shows
 

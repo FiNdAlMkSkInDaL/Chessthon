@@ -1,7 +1,7 @@
 {
-  "archive": "C:\\Users\\finla\\OneDrive - University College London\\Desktop\\Chess TK\\dist\\storm-eval-r3-experimental-windows.zip",
+  "archive": "outside-git",
   "archive_manifest": {
-    "archive": "C:\\Users\\finla\\OneDrive - University College London\\Desktop\\Chess TK\\dist\\storm-eval-r3-experimental-windows.zip",
+    "archive": "outside-git",
     "archive_sha256": "6c5773cdd7493b9d64330d3046cf2ba50f42061099619d725d7a2ae65d7784ef",
     "zip_bytes": 35622,
     "uncompressed_bytes": 128522,
@@ -84,10 +84,10 @@
   "elapsed_s": 49.87030330000562,
   "exit_code": 0,
   "stdout": "{\"ready\": true}\n",
-  "stderr": "CHESS_TK_LAPTOP_DIAG {\"cwd\": \"C:\\\\Users\\\\finla\\\\AppData\\\\Local\\\\Temp\\\\storm-eval-r3-preflight-6vkrnbz7\\\\payload\", \"envelope\": {\"affinity\": {\"applied\": true, \"effective_mask\": 256, \"requested_cpu\": 8, \"requested_mask\": 256, \"system_mask\": 1023}, \"memory_job\": {\"applied\": true, \"kill_on_job_close\": true, \"limit_bytes\": 2147483648, \"limit_kind\": \"process_and_job_commit\"}}, \"home\": \"C:\\\\Users\\\\finla\\\\AppData\\\\Local\\\\Temp\\\\storm-eval-r3-preflight-6vkrnbz7\\\\runner-home\", \"import_s\": 46.375642, \"machine\": \"ARM64\", \"numba\": {\"compiled\": true, \"dispatchers\": {\"perft_nb\": {\"nopython_signature_count\": 1, \"present\": true, \"signature_count\": 1}, \"root_search_nb\": {\"nopython_signature_count\": 1, \"present\": true, \"signature_count\": 1}}, \"effective_ready\": true, \"has_numba\": true, \"module_loaded\": true, \"original_ready\": true, \"override_applied\": false, \"warmup_completed\": true, \"warmup_s\": 43.641222700010985}, \"numba_cache_dir\": \"C:\\\\Users\\\\finla\\\\AppData\\\\Local\\\\Temp\\\\storm-eval-r3-preflight-6vkrnbz7\\\\runner-home\\\\numba-cache\", \"pid\": 118396, \"python\": \"3.12.10\", \"thread_env\": {\"BLIS_NUM_THREADS\": \"1\", \"MKL_NUM_THREADS\": \"1\", \"NUMBA_NUM_THREADS\": \"1\", \"NUMEXPR_NUM_THREADS\": \"1\", \"OMP_NUM_THREADS\": \"1\", \"OPENBLAS_NUM_THREADS\": \"1\", \"VECLIB_MAXIMUM_THREADS\": \"1\"}, \"type\": \"laptop_runner_init\"}\n",
+  "stderr": "CHESS_TK_LAPTOP_DIAG {\"cwd\": \"outside-git\", \"envelope\": {\"affinity\": {\"applied\": true, \"effective_mask\": 256, \"requested_cpu\": 8, \"requested_mask\": 256, \"system_mask\": 1023}, \"memory_job\": {\"applied\": true, \"kill_on_job_close\": true, \"limit_bytes\": 2147483648, \"limit_kind\": \"process_and_job_commit\"}}, \"home\": \"outside-git\", \"import_s\": 46.375642, \"machine\": \"ARM64\", \"numba\": {\"compiled\": true, \"dispatchers\": {\"perft_nb\": {\"nopython_signature_count\": 1, \"present\": true, \"signature_count\": 1}, \"root_search_nb\": {\"nopython_signature_count\": 1, \"present\": true, \"signature_count\": 1}}, \"effective_ready\": true, \"has_numba\": true, \"module_loaded\": true, \"original_ready\": true, \"override_applied\": false, \"warmup_completed\": true, \"warmup_s\": 43.641222700010985}, \"numba_cache_dir\": \"outside-git\", \"pid\": 118396, \"python\": \"3.12.10\", \"thread_env\": {\"BLIS_NUM_THREADS\": \"1\", \"MKL_NUM_THREADS\": \"1\", \"NUMBA_NUM_THREADS\": \"1\", \"NUMEXPR_NUM_THREADS\": \"1\", \"OMP_NUM_THREADS\": \"1\", \"OPENBLAS_NUM_THREADS\": \"1\", \"VECLIB_MAXIMUM_THREADS\": \"1\"}, \"type\": \"laptop_runner_init\"}\n",
   "runner_diagnostics": [
     {
-      "cwd": "C:\\Users\\finla\\AppData\\Local\\Temp\\storm-eval-r3-preflight-6vkrnbz7\\payload",
+      "cwd": "outside-git",
       "envelope": {
         "affinity": {
           "applied": true,
@@ -103,7 +103,7 @@
           "limit_kind": "process_and_job_commit"
         }
       },
-      "home": "C:\\Users\\finla\\AppData\\Local\\Temp\\storm-eval-r3-preflight-6vkrnbz7\\runner-home",
+      "home": "outside-git",
       "import_s": 46.375642,
       "machine": "ARM64",
       "numba": {
@@ -128,7 +128,7 @@
         "warmup_completed": true,
         "warmup_s": 43.641222700010985
       },
-      "numba_cache_dir": "C:\\Users\\finla\\AppData\\Local\\Temp\\storm-eval-r3-preflight-6vkrnbz7\\runner-home\\numba-cache",
+      "numba_cache_dir": "outside-git",
       "pid": 118396,
       "python": "3.12.10",
       "thread_env": {

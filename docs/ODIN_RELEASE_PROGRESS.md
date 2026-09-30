@@ -1,6 +1,6 @@
 # Odin v6 released — 6 September 2026
 
-**Current release:** Desktop `agent.zip` and `Odin-v6.zip` contain the exact
+**Current release:** the signer archive (not in git) and `Odin-v6.zip` contain the exact
 Linux archive `cd3ed778f75ded38dd4371a56c285f6f66c1311464a093707d473d8a9d0c8647`.
 All112 overnight games audited PASS: **30W/69D/13L,57.59%**, paired95% interval
 52.23–62.95%, no operational failures. V5 is preserved as `Odin-v5.zip`.
@@ -13,10 +13,10 @@ a fresh 112-game comparison for one more iteration. Odin v6's architecture
 candidate is now running against released v5 in two persistent VPS lanes.
 This does not resume the cancelled R10 test described below. See
 [ODIN_V6_MORNING_REVIEW.md](ODIN_V6_MORNING_REVIEW.md) for exact artifacts,
-evidence, active services and morning instructions. Desktop `agent.zip`
+evidence, active services and morning instructions. the signer archive (not in git)
 remains v5 pending that review.
 
-**Current status,5 September2026:** Desktop `agent.zip` and `Odin-v5.zip` now
+**Current status,5 September2026:** the signer archive (not in git) and `Odin-v5.zip` now
 contain the exact tested Linux R10 archive, SHA-256
 `c7d8972e823eb821c016010445d4b02996daff954d870d63083c445850e21102`.
 Canonical source: `odin_submission/`. Original Storm/v3 backups are preserved.
@@ -44,7 +44,7 @@ The remainder records historical work and is superseded by this release.
 
 # Historical release work
 
-Updated 5 September 2026, final test launch. Desktop `agent.zip` is still
+Updated 5 September 2026, final test launch. the signer archive (not in git) is still
 released Storm v4. Positional R7 completed **6W/1D/1L, zero faults** at
 60,000+500 in four development color pairs. The selected release is the
 behavior-equivalent cleaned R10 source, `odin_submission/`, Linux ZIP hash
@@ -132,7 +132,7 @@ original fitting and current engine behavior for a reviewer.
 Current contract/rules were retrieved again successfully by HTTPS at20:24 UTC
 and saved as `lab/odin/native_release/live-*-final.md`; the runtime, clocks,
 600-ply rule, readable-source requirement and permission for offline
-engine-labelled training remain as tested. Desktop Storm/v3 hashes were also
+engine-labelled training remain as tested. Storm/v3 hashes were also
 reverified unchanged. A partial failed UTF-8 documentation build was preserved
 as `odin_submission-incomplete-20260905/`; it is never a package input.
 
@@ -216,5 +216,5 @@ Primary promotion requires the paired95% score interval lower bound above0.5;
 the original-Storm guard requires raw score above0.5. All112 games and zero
 operational faults are mandatory. No optional stopping or altered sample size.
 `lab/odin/promotion/promote.py` dry-run and `--apply` then copy the exact tested
-archive to Desktop `agent.zip`, preserving the known Storm/v3 backups. Do not
+archive to the signer archive (not in git), preserving the known Storm/v3 backups. Do not
 upload the website. Update the implementation handoff when finished.

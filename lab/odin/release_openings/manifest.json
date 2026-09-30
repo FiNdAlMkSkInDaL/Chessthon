@@ -2,7 +2,7 @@
   "frozen_utc": "2026-09-05T18:45:03.701221+00:00",
   "engine": {
     "name": "Stockfish 19",
-    "path": "C:\\Users\\finla\\AppData\\Local\\ChessTK\\analysis-tools\\stockfish-19\\stockfish\\stockfish-windows-arm64-universal.exe",
+    "path": "stockfish",
     "sha256": "3b5881df3d6f92817cf6664a6a18a473b50d424c71a1247fe4268090db281413",
     "purpose": "Offline independent starting-position balance only; never submission code."
   },

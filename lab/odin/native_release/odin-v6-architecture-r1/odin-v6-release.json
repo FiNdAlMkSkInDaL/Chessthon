@@ -135,6 +135,6 @@
   "plan_sha256": "929bb3249d938ebf0435668f206be00e220e55a4e6e5b47056c90ad7c891debe",
   "audit_repair": "Original post-match report failed with ModuleNotFoundError: harness. Re-ran unchanged validator with pinned official harness on PYTHONPATH, on Linux and Windows; both PASS. Original error retained; no games replayed, removed, changed or relabelled.",
   "website_upload": false,
-  "desktop_agent": "C:\\Users\\finla\\OneDrive - University College London\\Desktop\\agent.zip",
+  "desktop_agent": "outside-git",
   "release_utc": "2026-09-06T11:23:07.485575+00:00"
 }

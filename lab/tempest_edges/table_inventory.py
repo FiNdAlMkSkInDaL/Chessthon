@@ -11,7 +11,7 @@ urls={
 rows=[]
 for name,url in urls.items():
     try:
-        with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'ChessTK-research/1.0'}),timeout=15) as r:
+        with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'AI Chessathon-research/1.0'}),timeout=15) as r:
             data=r.read(2000000);status=r.status
         (out/f'{name}.txt').write_bytes(data)
         row=dict(name=name,url=url,status=status,bytes=len(data),sha256=hashlib.sha256(data).hexdigest())

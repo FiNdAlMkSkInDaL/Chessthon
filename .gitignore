@@ -7,3 +7,10 @@ dist/
 lab/logs/
 *.pgn
 *.zip
+.cursor/
+syzygy/
+*.rtbw
+*.rtbz
+lab/agamemnon/
+lab/agamemnon_scale/
+lab/agamemnon_decision/

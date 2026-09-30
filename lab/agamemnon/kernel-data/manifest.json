@@ -1,9 +1,0 @@
-{
-  "states": 1200,
-  "special": {
-    "castle": 16,
-    "ep": 2,
-    "promotion": 17
-  },
-  "scope": "Random legal trajectories including game boundaries. Feature encoding and extraction excluded from kernel timing."
-}

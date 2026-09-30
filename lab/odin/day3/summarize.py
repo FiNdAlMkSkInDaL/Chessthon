@@ -33,7 +33,7 @@ for r in deep:
     for version in (5,6):
         row[f'v{version}']={mode:{'move':probes[version][r['id'],mode]['san'],'depth':probes[version][r['id'],mode]['info']['depth'],'score':probes[version][r['id'],mode]['info']['score']} for mode in ('adaptive','fixed-3000ms')}
     comparisons.append(row)
-report={'source_version_at_receipt':'Desktop agent.zip was verified as Odin v5 c7d8972e...e21102; user says these games came from that submission. Site exports do not independently embed an archive SHA.',
+report={'source_version_at_receipt':'the signer archive (not in git) was verified as Odin v5 c7d8972e...e21102; user says these games came from that submission. Site exports do not independently embed an archive SHA.',
         'day3_games':games,'wins':sum(g['points']==1 for g in games),'draws':sum(g['points']==.5 for g in games),'losses':sum(g['points']==0 for g in games),'reference_positions':sum(1 for p in (HERE/'reference').glob('*.jsonl') for s in p.read_text().splitlines() if json.loads(s)['type']=='position'),
         'critical_comparisons':comparisons,'same_adaptive_choices':sum(r['v5']['adaptive']['move']==r['v6']['adaptive']['move'] for r in comparisons),'probe_metadata':metadata,
         'limitations':'Finite Stockfish reference, selected diagnostics, absent historical engine TT, signer hardware differs from site. Same historical served-position information reconstructed; no future moves exposed. Neither site records nor these probes enter the112-game strength estimate. Small opening-dependent Day3 sample cannot rank versions.',

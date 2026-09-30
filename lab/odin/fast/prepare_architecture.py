@@ -25,6 +25,6 @@ manifest={'name':'Odin v6','source':target.relative_to(ROOT).as_posix(),'tested_
           'difference_from_tested':'Only agent.py version comment; every module AST identical. Final exact archive requires native gate and full112-clock match.',
           'whole_search_benchmark':{'sha256':sha(HERE/'checks-mixed-benchmark-linux-r2.json'),'positions':bench['positions'],'nodes_per_position':bench['nodes_per_position'],'throughput_ratio':bench['throughput_ratio']},
           'architecture':['Non-mutating legal move filtering with pin shortcuts and exact king/EP/castling occupancy','Capture/promotion-only pseudo generation in quiescence, original move order','Computed geometry ray masks with compiler bit scans; no magic or third-party engine tables','Non-mutating checking-move tests and first/second-blocker pin detection','Arithmetic-equivalent fused original fitted evaluation'],
-          'strength_policy':'Choose on exact semantics and measured native throughput. Short equal-time games are development diagnostics. Only untouched112 full competition-clock games decide promotion; no automatic Desktop replacement.'}
+          'strength_policy':'Choose on exact semantics and measured native throughput. Short equal-time games are development diagnostics. Only untouched112 full competition-clock games decide promotion; no automatic archive replacement.'}
 (HERE/'architecture-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
 print(json.dumps({'source':'odin_v6','throughput_ratio':bench['throughput_ratio'],'ast_identical_to_measured':True}))

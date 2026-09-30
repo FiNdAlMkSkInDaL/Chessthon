@@ -24,7 +24,7 @@ def main():
     source=Path('lab/odin/reference-deep.jsonl')
     cases=[r for s in source.read_text().splitlines() if (r:=json.loads(s)).get('type')=='position' and (r['game_id'],r['move_number']) in wanted]
     assert len(cases)==len(wanted)
-    exe=Path(os.environ['LOCALAPPDATA'])/'ChessTK/analysis-tools/stockfish-19/stockfish/stockfish-windows-arm64-universal.exe'
+    exe=Path('stockfish')
     started=time.perf_counter()
     with chess.engine.SimpleEngine.popen_uci(str(exe)) as e,args.out.open('x',encoding='utf-8') as f:
         e.configure({'Threads':1,'Hash':128,'UCI_ShowWDL':True})

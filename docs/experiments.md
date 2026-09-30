@@ -1,0 +1,41 @@
+# Engine copies
+
+The root used to hold many near-copies of the engine. I kept two directories. `storm/` is Storm v4, the match in the README. `tempest_exact/` is the later candidate the Tempest notes call canonical. Everything else in the table was removed from the tree. The initial commit still has those files. Outcomes below are the ones already written in `docs/`. A local sample is not a leaderboard rank. If a directory is not given its own result in those notes, I left the result out.
+
+| Directory | Hypothesis | Outcome | Keep or kill |
+|---|---|---|---|
+| `storm/` | History-aware search on the verified v3 board, measured against the signed v3 baseline. | Fixed native 40-game match: 31 wins, 4 draws, 5 losses, 82.5%, paired 95% interval 71.25–92.5%, zero operational failures. Separate site-opening check: one win, three draws. See [`STORM_V4.md`](STORM_V4.md). | keep |
+| `tempest_exact/` | Current-rule fifty-move handling plus original KQK and KRK mate-distance tables, without replacing the middlegame search. | Canonical source in [`TEMPEST_R1_RELEASE.md`](TEMPEST_R1_RELEASE.md) and [`TEMPEST_IMPLEMENTATION_STATUS.md`](TEMPEST_IMPLEMENTATION_STATUS.md). Short smoke against exact v6 at a 100 ms allowance: 5 wins, 4 draws, 3 losses. Two full-clock games both drew, 246 plies, zero operational failures. Those notes say this is not a general strength leap. The Linux archive is signer-built and is not in git. | keep |
+| `tempest/` | Rules-only fallback copied from v6, with the fifty-move predicate set to 100. | Native gate passed. The implementation note says this artifact is not an established playing-strength improvement. | kill |
+| `odin_v6/` | Throughput rewrite that keeps v5 search and evaluation semantics. | [`ODIN_V6_RELEASE_REPORT.md`](ODIN_V6_RELEASE_REPORT.md) records a built, measured release against exact Odin v5: 112 games, 30 wins, 69 draws, 13 losses, 64.5/112 = 57.59%, paired 95% interval 52.23–62.95%, zero operational failures. The same note says Tempest r1 later superseded that archive. Not a site rank. | kill |
+| `odin_fast_checks/` | Non-mutating gives-check and pin detection on the ray-core line. | [`ODIN_V6_MORNING_REVIEW.md`](lab/ODIN_V6_MORNING_REVIEW.md) says the packed v6 source differs from this directory only by a version comment, with all 12 module ASTs identical. The 112-game result is the packed archive above. | kill |
+| `odin_direct_legal/` | Non-mutating legality tests, pin shortcuts, and fused eval. | Linux 33-root, 100k-node comparison matched v5 exactly, throughput 1.2744x. [`ODIN_V6_OVERNIGHT.md`](lab/ODIN_V6_OVERNIGHT.md). | kill |
+| `odin_direct_noisy/` | Quiescence generated as captures and promotions only. | Same exact-match comparison, throughput 1.2989x. | kill |
+| `odin_ray_core/` | Geometric ray masks instead of square-walking slider attacks. | Same exact-match comparison, throughput 1.4425x. Local legality: 9,221 positions and 218,670 moves, plus six depth-four perft fixtures. Ray masks: 1,119,744 occupancies and 20,000 random full boards. | kill |
+| `odin_fused/` | Fitted evaluation fused into weighted accumulators. | 937-position score equivalence, 33-position whole-search equivalence, native Linux gate. Throughput +23.36% on the laptop and +2.57% on the Linux signer. The overnight note says not to treat the laptop figure as a competition gain. | kill |
+| `odin_see_fast/` | Skip sign-only SEE on obviously non-losing captures, and keep back-rank cases. | 12,980 captures, 5,867 positions, 3,522 skipped, 867 retained. The overnight note said not to apply it before the whole-search tests passed. I do not have a finished match for it. | kill |
+| `odin_generation/` | Fourteen original search variants, screened, then a few finalists played deeper. | 252 replay-audited games, 18 each. Screen leaders: SEE ordering 10 wins, 6 draws, 2 losses, 72.22%; delayed IIR 9/4/5, 61.11%; disabled IIR 8/5/5, 58.33%. Deeper 192-game confirmation: IIR disabled 52.083%, SEE ordering 50%, IIR delayed 48.958%, combined SEE/IIR 48.958%. A continuation-history candidate scored 47.22% in an 18-game screen and was rejected. None of these was promoted. Population selection, not a confidence claim. | kill |
+| `odin_v6_aspiration/` | Aspiration-window source variant. | No separate measured result recorded for this directory. | kill |
+| `odin_v6_selective/` | Selective-safeguard source variant. | No separate measured result recorded for this directory. | kill |
+| `odin_v6_guards/` | Guard source variant. | No separate measured result recorded for this directory. | kill |
+| `odin_submission/` | Cleaned source prepared for the v5 / R10 line. | [`TEMPEST_RD_PROMPT.md`](lab/TEMPEST_RD_PROMPT.md) says this directory is v5, not the v6 baseline. | kill |
+| `odin_submission-incomplete-20260905/` | A partial documentation build. | [`ODIN_RELEASE_PROGRESS.md`](ODIN_RELEASE_PROGRESS.md) says it is never a package input. No measured result. | kill |
+| `odin_storm_plus/` | Storm search plus the early Odin rule repairs. | Development sample in [`ODIN_RELEASE_PROGRESS.md`](ODIN_RELEASE_PROGRESS.md): 2 wins, 4 draws, 2 losses, zero faults. | kill |
+| `odin_positional/` | Positional features on that same lineage. | Same note: 6 wins, 1 draw, 1 loss, zero faults. It was the selected lineage at that point, and later notes supersede it. | kill |
+| `odin_material/` | Material and bishop-pair terms baked into the accumulators. | Same note: native gate, then 8 games queued. No finished score is recorded. | kill |
+| `odin_compact_guard/` | Compact exact-history guard. | The warmup note says `odin_release_candidate/` was copied from this directory and calls it r4. [`ODIN_RELEASE_PROGRESS.md`](ODIN_RELEASE_PROGRESS.md) gives compact/sparse r4 a short-clock sample of 1 win, 2 draws, 5 losses, rejected for strength. That progress note does not name this path. | kill |
+| `odin_sparse_guard/` | Sparse exact-history guard. | No separate measured result recorded for this directory. | kill |
+| `odin_release_candidate/` | Import-warmup repair on the compact-guard source. | The warmup note records mocked regressions for the repair. No separate match result is recorded for this directory. | kill |
+| `storm_rules600_release_control/` | Storm v4 with the draw cap moved from 300 to 600, as a test opponent. | [`ODIN_MINIMAL_CONTROL.md`](ODIN_MINIMAL_CONTROL.md) says it does not replace Storm or Odin. Frozen control. No separate match score is recorded for the directory itself. | kill |
+| `storm_rules600_control/` | Earlier pre-evaluation control. | The same note says this earlier control already contains most Odin search changes and is the wrong opponent for isolating the successor. | kill |
+| `odin/` | First Odin working copy, taken from Storm. | Later notes call it an older experimental branch, not v6. No separate measured result is recorded for this directory. | kill |
+| `odin_continuation/` | Another Odin working copy. | No separate measured result recorded. | kill |
+| `odin_history_compact/` | History-table experiment. | No separate measured result recorded. | kill |
+| `odin_history_perf/` | History-table experiment. | No separate measured result recorded. | kill |
+| `odin_positional_cache/` | Cache in front of the positional evaluation. | No separate measured result recorded. | kill |
+
+The exact-history foundation also has a fixed r1 sample of 0 wins, 3 draws, 1 loss, and a history-optimized r2 sample of 1 win, 2 draws, 5 losses, in [`ODIN_RELEASE_PROGRESS.md`](ODIN_RELEASE_PROGRESS.md). Those notes do not name a remaining root directory for r1 or r2, so I have not assigned those scores to a row.
+
+[`ODIN_V6_OVERNIGHT.md`](lab/ODIN_V6_OVERNIGHT.md) also records an earlier 48-game policy screen: aspiration-only 42.71%, aspiration plus selective safeguards 52.08%, and aspiration removed 52.08%. None was promoted. That note does not name `odin_v6_aspiration/`, `odin_v6_selective/`, or `odin_v6_guards/`, so those percentages are not a result for those directories.
+
+Agamemnon screens did not replace `tempest_exact/`. [`AGAMEMNON_DECISION_RESULTS.md`](AGAMEMNON_DECISION_RESULTS.md) says no release was nominated from them.

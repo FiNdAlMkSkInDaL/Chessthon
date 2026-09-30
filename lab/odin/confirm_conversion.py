@@ -10,7 +10,7 @@ def main():
     home=Path('lab/odin');source=home/'reference-screen.jsonl'
     cases=[r for s in source.read_text().splitlines() if (r:=json.loads(s)).get('game_id')=='holdout-a-g12-o165' and r.get('storm_turn') and r.get('move_number') in (48,49,50,51)]
     assert len(cases)==4
-    exe=Path(os.environ['LOCALAPPDATA'])/'ChessTK/analysis-tools/stockfish-19/stockfish/stockfish-windows-arm64-universal.exe'
+    exe=Path('stockfish')
     start=time.perf_counter()
     with chess.engine.SimpleEngine.popen_uci(str(exe)) as e,(home/'reference-conversion-confirmed.jsonl').open('x',encoding='utf-8') as f:
         e.configure({'Threads':1,'Hash':128,'UCI_ShowWDL':True})

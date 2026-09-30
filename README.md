@@ -1,136 +1,88 @@
-# Chess TK — AI Chessathon 2026
+# AI Chessathon
 
-Philosophy: [AGENTS.md](AGENTS.md). Build contract: [ENGINEERING.md](ENGINEERING.md).
-Vendored starter harness is pinned in `lab/STARTER_SHA`. Do not edit `harness/`.
+A chess agent built for [AI Chessathon 2026](https://aichessathon.com), with a local harness that uses the same protocol and clock.
 
-Windows inner loop: `.\dev.ps1 smoke` then `.\dev.ps1 perft`. Freeze zips are packed on Linux Python 3.12, not this ARM laptop.
+I wanted to know if a change helped before uploading, so I kept the official referee and measured against my own previous engine.
 
-## Current engine: Storm v4
+## What it is
 
-Storm source is in [`storm/`](storm/), with its design, exact archive hash and
-validation results in [`docs/STORM_V4.md`](docs/STORM_V4.md). The release is
-[`dist/agent-storm-v4-linux-x86.zip`](dist/agent-storm-v4-linux-x86.zip), also
-copied to Desktop `Storm-v4.zip` and the official upload file `agent.zip`.
-It passed the fixed native 40-game match
-against v3: **31 wins, four draws, five losses; 82.5% score**, with zero
-operational failures on either side. The paired 95% score interval is
-71.25–92.5%; the separate selected site-opening check finished one win and
-three draws. These are local comparisons, not a measured leaderboard rank.
+Storm v4 is in [`storm/`](storm/). The submission surface is `get_move(fen, time_left_ms) ->` a UCI move, in `agent.py` at the root of a submission. The official referee is vendored in [`harness/`](harness/) and pinned in [`lab/STARTER_SHA`](lab/STARTER_SHA). I left that harness alone.
 
-The signed v3 baseline remains [`dist/agent-v3-linux-x86.zip`](dist/agent-v3-linux-x86.zip).
-Desktop `v3-agent.zip` preserves that exact v3 baseline. On 5 September the
-user requested the desktop rename and made Storm the official `agent.zip`.
-The user handles submission to the site; no upload was performed here.
-The continuation prompt and working-state handoff are in
-[`docs/STORM_CONTINUATION_PROMPT.md`](docs/STORM_CONTINUATION_PROMPT.md).
+[`baselines/`](baselines/) is the starter ladder: random, greedy, minimax, and numba. That ladder is not Storm's result.
 
-The ten Storm games from 5 September and the full v3 match have now been
-reviewed for **Odin**, the next iteration. Read
-[`docs/ODIN_REVIEW.md`](docs/ODIN_REVIEW.md) and
-[`docs/ODIN_BUILD_BRIEF.md`](docs/ODIN_BUILD_BRIEF.md). The continuation prompt
-now assigns Odin implementation; no Odin engine or new release is built yet.
-The live referee now draws at 600 total plies, opening included. Historical
-300-ply material rules and validation results below do not describe that update.
+`make zip` packages the starter at the repository root, not Storm. The tested Storm Linux archive is built by the Linux signer described in [`docs/STORM_V4.md`](docs/STORM_V4.md). It is not in git.
 
-The starter commands below operate on the older files at the repository root.
-**`make zip` does not package Storm.** Use the already tested Linux archive for
-submission; repacking on Windows would produce different, untested bytes.
+## Local result
 
-Storm checks and match tools live in `lab/storm/`; the unchanged official
-referee remains in `harness/`. The 15 site-game analysis is in
-[`docs/STORM_GAME_FORENSICS.md`](docs/STORM_GAME_FORENSICS.md).
+Storm v4 against my signed v3 baseline, on a fixed native 40-game match. This is a local comparison, not a leaderboard rank. The write-up is [`docs/STORM_V4.md`](docs/STORM_V4.md).
 
-For Storm's structural development checks with the installed Python 3.12:
+| Match | Games | Score | Record | Paired 95% interval | Operational failures |
+|---|---:|---:|---|---|---:|
+| Storm v4 vs signed v3 | 40 | 82.5% | 31 wins, 4 draws, 5 losses | 71.25–92.5% | 0 |
 
-```powershell
-$stormPython = Join-Path $env:LOCALAPPDATA 'ChessTK\venv312\Scripts\python.exe'
-& $stormPython -m lab.storm.gates
-```
+A separate site-opening check finished one win and three draws.
 
-Windows runs are development evidence. Native release validation and packing
-use the Linux signer described in the Storm validation document.
+## Starter ladder
 
----
-
-
-
-Fork this to build an agent for [AI Chessathon](https://aichessathon.com). It gives you a working
-submission, baselines to beat, and a local harness that speaks the same protocol and enforces the
-same clock as the platform, so you can see whether a change actually helped before you upload it.
-
-```
-git clone https://github.com/advitrocks9/aichessathon-starter
-cd aichessathon-starter
-make setup
-make play
-```
-
-That plays your agent against a baseline over a full 120 s + 0.5 s game and prints the result.
-For an unmodified starter checkout, `make zip` packages `submission.zip`.
-In this repository, follow the Storm archive instructions above instead.
-
-## Writing an agent
-
-`agent.py` is the whole submission. One function:
-
-```python
-def get_move(fen: str, time_left_ms: int) -> str:
-    return "e2e4"
-```
-
-The fork ships a legal random-mover, so the loop works before you write anything. Replace the body.
-
-```
-make play                                          # one game, real time control
-make arena                                         # 20 fast games, prints a score
-make play FEN="<fen>"                              # start from a given position
-uv run python -m harness.play --black baselines/minimax --pgn game.pgn
-uv run python -m harness.arena --opponent ../my-old-version --games 200
-```
-
-Anything your agent writes to stdout or stderr shows up under the result, so `print` debugging
-works. The platform discards it during rated games and shows it in your validation log.
-
-## The ladder
-
-Measured with `harness/arena.py`. Beating greedy is a search. Beating minimax is a search plus an
-evaluation worth searching with.
+Measured with the harness, before Storm. Beating greedy takes a search. Beating minimax takes a search and an evaluation worth searching with.
 
 | Matchup | Games | Time control | Score |
-|---|---|---|---|
+|---|---:|---|---|
 | random vs greedy | 20 | 10 s + 0.1 s | 10.0% (+1 =2 -17) |
 | greedy vs minimax | 6 | 120 s + 0.5 s | 0.0% (+0 =0 -6) |
 | numba vs minimax | 6 | 10 s + 0.5 s | 66.7% (+2 =4 -0) |
 
-- `baselines/random` plays a uniformly random legal move. It is what `agent.py` starts as.
-- `baselines/greedy` searches one ply on material.
-- `baselines/minimax` searches two plies on material and mobility, with no time management.
-- `baselines/numba` is `minimax` with the evaluation jitted. It is barely stronger, which is
-  the point: jitting a shallow search buys headroom, not depth. Read it for the warm-up call
-  at the bottom, which is how you keep compilation off your clock.
+## Run
 
-## What's here
+Bash, from the repository root:
 
-```
-agent.py             your submission
-baselines/           random, greedy, minimax, numba; each is a directory with an agent.py
-harness/runner.py    the process the platform runs your agent in
-harness/referee.py   the clock, legality, draw and adjudication rules
-harness/rules.py     the event constants the harness enforces
-harness/sandbox.py   the one process, spoken to as the platform speaks to a container
-harness/play.py      one game between two agent directories
-harness/arena.py     many games, with a score
-harness/package.py   builds submission.zip with agent.py at the root
-docs/IDEAS.md        where the strength actually comes from
+```bash
+make setup
+make play
+make arena
+python -m lab.storm.gates
 ```
 
-Local games start from the normal position unless you pass `--fen`. Rated games start from
-curated neutral positions.
+PowerShell, the same three harness targets without `make`:
 
-The harness is here so your games are honest, not so you can pre-validate an upload. Acceptance
-happens on the platform, and the validation log on your dashboard is the authority on it.
+```powershell
+uv sync
+uv run python -m harness.play --white . --black baselines/greedy
+uv run python -m harness.arena --opponent baselines/greedy --games 20
+python -m lab.storm.gates
+.\dev.ps1 smoke
+```
 
-## The rules
+`make setup` is `uv sync`. `make play` is one game against `baselines/greedy` at the harness clock. `make arena` is 20 games against that same opponent. `python -m lab.storm.gates` is Storm's structural gate. It needs Python with `numpy`, `numba`, and `chess`, and it reads `storm/` unless `STORM_SOURCE` is set. `.\dev.ps1 smoke` checks the root agent through a repo-local `.venv`, not the Storm gate.
 
-[aichessathon.com/docs](https://aichessathon.com/docs) is canonical and changes. Read it before
-you upload.
+`make zip` runs `uv run python -m harness.package --include syzygy`. That zip is the root starter. If `syzygy/` is absent, the extra include is skipped. Three-piece Syzygy WDL+DTZ is optional: a missing `syzygy/` directory is a no-op in the starter. I do not ship the files. Ronald de Man's tables are at <http://tablebase.sesse.net/syzygy/3-4-5/>. The starter only probes three-piece positions.
+
+## Layout
+
+```
+agent.py            starter get_move
+storm/              Storm v4
+tempest_exact/      later candidate; not the table above
+baselines/          starter ladder
+harness/            pinned official referee
+lab/storm/          local Storm v4 match evidence
+docs/STORM_V4.md    how the 40-game match was run
+docs/results.md     site-log summary
+docs/experiments.md what the other engine copies were
+docs/lab/           build notes
+LICENSE
+```
+
+## Limits
+
+This is a contest entry and a research record. It is not a rated-engine claim. Acceptance is the platform validation log.
+
+The live referee draws at 600 total plies, opening included. Notes about a 300-ply material adjudication describe the historical Storm tests, not the current rule.
+
+Site games are summarised in [`docs/results.md`](docs/results.md). They are not a leaderboard rank. Later copies are summarised in [`docs/experiments.md`](docs/experiments.md). Build notes, including the old agent handoffs, are in [`docs/lab/`](docs/lab/).
+
+## License
+
+MIT. See [LICENSE](LICENSE).
+
+If something looks wrong, open an issue.

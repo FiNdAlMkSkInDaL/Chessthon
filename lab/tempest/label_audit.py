@@ -13,7 +13,7 @@ for lo,hi in [(0,.25),(.25,.75),(.75,1.01)]:
     chosen+=sorted(indices,key=lambda i:hashlib.sha256(('tempest-label-audit'+rows[i]['id']).encode()).hexdigest())[:40]
 plan={'indices':chosen,'ids':[rows[i]['id'] for i in chosen],'budget':1000000,'history':'Only resolved FEN available in fit-records; no reconstructed PGN history. Cannot attribute all differences solely to node depth.'}
 (H/'label-audit-plan.json').write_text(json.dumps(plan,indent=2))
-exe='C:/Users/finla/AppData/Local/ChessTK/analysis-tools/stockfish-19/stockfish/stockfish-windows-arm64-universal.exe'
+exe='stockfish'
 with chess.engine.SimpleEngine.popen_uci(exe) as e,(H/'label-audit.jsonl').open('x') as out:
     e.configure({'Threads':1,'Hash':64,'UCI_ShowWDL':True})
     for i in chosen:

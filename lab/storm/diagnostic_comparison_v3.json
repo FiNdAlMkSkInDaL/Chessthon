@@ -1,6 +1,6 @@
 {
   "engine": "v3",
-  "directory": "C:\\Users\\finla\\OneDrive - University College London\\Desktop\\Chess TK\\dist\\node-budget-fix",
+  "directory": "the repository root\\dist\\node-budget-fix",
   "cpu": 7,
   "source_sha256": {
     "agent.py": "b7c6ab562b5f5191de8c5750b69d959aa22c2aa1ea24a7900fbf4ed4460c65bb",

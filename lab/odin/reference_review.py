@@ -57,7 +57,7 @@ def main():
     parser.add_argument('--holdout-nodes',type=int,default=50000)
     parser.add_argument('--deep-nodes',type=int,default=2000000)
     args=parser.parse_args()
-    exe=Path(os.environ['LOCALAPPDATA'])/'ChessTK/analysis-tools/stockfish-19/stockfish/stockfish-windows-arm64-universal.exe'
+    exe=Path('stockfish')
     corpus=games(); start=time.perf_counter()
     with chess.engine.SimpleEngine.popen_uci(str(exe)) as e, args.out.open('x',encoding='utf-8') as f:
         e.configure({'Threads':1,'Hash':128,'UCI_ShowWDL':True})
