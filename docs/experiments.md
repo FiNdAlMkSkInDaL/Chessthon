@@ -1,6 +1,6 @@
 # Engine copies
 
-The root used to hold many near-copies of the engine. I kept two directories. `storm/` is Storm v4, the match in the README. `tempest_exact/` is the later candidate the Tempest notes call canonical. Everything else in the table was removed from the tree. The initial commit still has those files. Outcomes below are the ones already written in `docs/`. A local sample is not a leaderboard rank. If a directory is not given its own result in those notes, I left the result out.
+The root used to hold many near-copies of the engine. I kept two directories. `storm/` is the earlier engine in the 40-game match below. `tempest_exact/` is a later copy the Tempest notes call canonical. The engine I submitted was Athena, packed on 11 September 2026. That source is not one of these directories. Everything else in the table was removed from the tree. The initial commit still has those files. Outcomes below are the ones already written in `docs/`. A local sample is not a leaderboard rank. If a directory is not given its own result in those notes, I left the result out.
 
 | Directory | Hypothesis | Outcome | Keep or kill |
 |---|---|---|---|

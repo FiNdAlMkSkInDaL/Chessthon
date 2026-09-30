@@ -2,38 +2,49 @@
 
 A chess agent built for [AI Chessathon 2026](https://aichessathon.com), with a local harness that uses the same protocol and clock.
 
-I wanted to know whether a change helped before uploading, so I kept the official referee and measured the new engine against my previous one.
+The engine I submitted was Athena. This repository keeps the harness and an earlier engine. Athena's source and the packed archive are not in this git history.
 
-## What it is
+## What was submitted
 
-The repository root, including `agent.py`, is the contest starter. The engine I measured is the separate package in [`storm/`](storm/).
+Athena was packed on 11 September 2026. The archive is 434,399 bytes, SHA-256 `b39bd59af11eb6d1a2b3fccab8c8719d01a3ef3e565549cdaff8325b6ed30b21`, with `agent.py` at the root of the zip.
 
-A submission exposes one function, `get_move(fen, time_left_ms)`, in `agent.py` at the root of what gets uploaded. It receives the position as a FEN string and the remaining clock in milliseconds, and it returns a move in UCI notation, such as `e2e4`.
+`get_move(fen, time_left_ms)` receives the position as a FEN string and the remaining clock in milliseconds, and returns a move in UCI notation, such as `e2e4`. Athena checks a short opening book, then exact endgame tables for king and pawn versus king and for king and queen or rook versus king, then a Numba search. The evaluation uses PeSTO piece-square tables and a small network trained for this entry.
 
-The official referee is included in [`harness/`](harness/). The version I used is recorded in [`lab/STARTER_SHA`](lab/STARTER_SHA).
+Before packing, I played that build against the previous Athena build in the same working folder. Each screen was 8 games, one at a time, at 500 milliseconds a move, and stopped at 160 plies. That is a laptop filter. The contest clock is 120 seconds plus 0.5 seconds a move.
 
-[`baselines/`](baselines/) holds four small opponents that came with the starter:
+| Screen | Games | Score | Record |
+|---|---:|---:|---|
+| Positions kept aside | 8 | 5.0/8 | 2 wins, 6 draws, 0 losses |
+| Starting positions, first run | 8 | 4.5/8 | 2 wins, 5 draws, 1 loss |
+| Starting positions, rerun | 8 | 6.5/8 | 6 wins, 1 draw, 1 loss |
+| Four openings used earlier | 8 | 6.0/8 | 4 wins, 4 draws, 0 losses |
+
+The first run on the starting positions scored 4.5/8. I reran that screen, then packed after the four-opening screen scored 6.0/8. These are small local screens. A public rating would come from the contest site.
+
+## Earlier engine in this repository
+
+The engine in [`storm/`](storm/) is an earlier build. I played it against the build before that one, using the earlier build's files unchanged. The match was 40 games. This is a local comparison. The write-up is [`docs/STORM_V4.md`](docs/STORM_V4.md).
+
+| Match | Games | Score | Record | 95% interval | Crashes, forfeits, or illegal moves |
+|---|---:|---:|---|---|---:|
+| Earlier engine vs the build before it | 40 | 82.5% | 31 wins, 4 draws, 5 losses | 71.25–92.5% | 0 |
+
+The interval is paired: both engines played the same openings. A crash, a time forfeit, or an illegal move would count in the last column. Both sides finished with none.
+
+A separate check started from two openings taken from the contest site, each played once with each colour, and finished one win and three draws.
+
+The repository root, including `agent.py`, is the contest starter. [`baselines/`](baselines/) holds four small opponents that came with that starter:
 
 - `random` plays any legal move.
 - `greedy` looks one move ahead and counts material.
 - `minimax` looks two moves ahead, scoring material and piece mobility, with no clock management.
 - `numba` is that same two-move search, compiled with Numba so the evaluation runs faster.
 
-The result table further down is a match between the engine in `storm/` and my previous engine. The four opponents above are an earlier practice ladder.
+The 40-game table is the earlier engine. These four opponents are a practice ladder from before that.
 
-`make zip` packages the starter at the repository root. The archive I tested is a separate Linux build, and it is kept outside this repository. [`docs/STORM_V4.md`](docs/STORM_V4.md) describes that build.
+`make zip` packages the starter at the repository root. The Linux archive I tested for the earlier engine is kept outside this repository. [`docs/STORM_V4.md`](docs/STORM_V4.md) describes that build.
 
-## Local result
-
-I played the engine in `storm/` against my previous engine. That previous engine was an earlier build, and I left its files unchanged for the match. The match was 40 games. This is a local comparison. The write-up is [`docs/STORM_V4.md`](docs/STORM_V4.md).
-
-| Match | Games | Score | Record | 95% interval | Crashes, forfeits, or illegal moves |
-|---|---:|---:|---|---|---:|
-| New engine vs previous engine | 40 | 82.5% | 31 wins, 4 draws, 5 losses | 71.25–92.5% | 0 |
-
-The interval is paired: both engines played the same openings. A crash, a time forfeit, or an illegal move would count in the last column. Both sides finished with none.
-
-A separate check started from two openings taken from the contest site, each played once with each colour, and finished one win and three draws.
+The official referee is included in [`harness/`](harness/). The version I used is recorded in [`lab/STARTER_SHA`](lab/STARTER_SHA).
 
 ## Practice ladder
 
@@ -68,7 +79,7 @@ python -m lab.storm.gates
 .\dev.ps1 smoke
 ```
 
-`make setup` installs dependencies with `uv sync`. `make play` is one game against `baselines/greedy` on the harness clock. `make arena` is 20 games against that same opponent. `python -m lab.storm.gates` checks that the engine in `storm/` still generates moves, searches, and answers inside the clock. It needs Python with `numpy`, `numba`, and `chess`. `.\dev.ps1 smoke` checks the starter `agent.py` at the repository root, through a repo-local `.venv`.
+`make setup` installs dependencies with `uv sync`. `make play` is one game against `baselines/greedy` on the harness clock. `make arena` is 20 games against that same opponent. `python -m lab.storm.gates` checks that the earlier engine in `storm/` still generates moves, searches, and answers inside the clock. It needs Python with `numpy`, `numba`, and `chess`. `.\dev.ps1 smoke` checks the starter `agent.py` at the repository root, through a repo-local `.venv`.
 
 `make zip` runs `uv run python -m harness.package --include syzygy`. That zip is the starter at the repository root. Endgame tables for positions with three pieces left are optional. If `syzygy/` is absent, packaging skips that include, and the starter ignores the missing tables. I link Ronald de Man's tables rather than including them: <http://tablebase.sesse.net/syzygy/3-4-5/>. The starter only looks up positions with three pieces left.
 
@@ -76,12 +87,12 @@ python -m lab.storm.gates
 
 ```
 agent.py            starter entry point, get_move
-storm/              the engine in the result table
-tempest_exact/      a later engine, kept as its own record
+storm/              earlier engine, the 40-game match
+tempest_exact/      another engine copy, kept as its own record
 baselines/          random, greedy, minimax, and numba
 harness/            official referee, version recorded
 lab/storm/          logs from the 40-game match
-docs/STORM_V4.md    how that match was run
+docs/STORM_V4.md    how that earlier match was run
 docs/results.md     games played on the contest site
 docs/experiments.md notes on the other engine copies
 docs/lab/           build notes
